@@ -1,0 +1,38 @@
+{
+  "target_id": "us-nyfed-sce-2026-11-01",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__financial_situation_vs_year_ago__overall__r1",
+      "entry_sha256": "02a711635aa4729480df3b11d1639fa8d48903fb5da1dfc439a5866dced67f77",
+      "seq": 1744,
+      "batch_id": "us-nyfed-sce-2026-11-01__20261030T065735993066Z__s1744",
+      "locked_at": "2026-10-30T06:57:35Z"
+    },
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__financial_situation_year_ahead__overall__r1",
+      "entry_sha256": "f717aeab6d400b2f8c76c25f321e769b888ac9ced8b62987cda9271c1cfb937e",
+      "seq": 1745,
+      "batch_id": "us-nyfed-sce-2026-11-01__20261030T065735993066Z__s1744",
+      "locked_at": "2026-10-30T06:57:35Z"
+    },
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__credit_access_vs_year_ago__overall__r1",
+      "entry_sha256": "b0bd49a662ecdd91edb328019c955c1c1a0000b2de37fd86495afa9ff7a5cd1b",
+      "seq": 1746,
+      "batch_id": "us-nyfed-sce-2026-11-01__20261030T065735993066Z__s1744",
+      "locked_at": "2026-10-30T06:57:35Z"
+    },
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__credit_access_year_ahead__overall__r1",
+      "entry_sha256": "ceedd2d2aa9371ad32278036a78b0d0317211e1bb15d0423a4e53f32f3f33cb5",
+      "seq": 1747,
+      "batch_id": "us-nyfed-sce-2026-11-01__20261030T065735993066Z__s1744",
+      "locked_at": "2026-10-30T06:57:35Z"
+    }
+  ]
+}

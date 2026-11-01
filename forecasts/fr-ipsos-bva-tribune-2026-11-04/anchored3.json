@@ -1,0 +1,24 @@
+{
+  "target_id": "fr-ipsos-bva-tribune-2026-11-04",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__popularity_macron__overall__r1",
+      "entry_sha256": "623dfe98bd85b5f1ee78599515a42deee8cd1fc3854cab0f34f5435f0f8e7166",
+      "seq": 1803,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__20261101T005221611998Z__s1803",
+      "locked_at": "2026-11-01T00:52:21Z"
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__popularity_lecornu__overall__r1",
+      "entry_sha256": "bb51863e3303c86f167d360af26c849986451c66a48ce178fb13c75e987380f6",
+      "seq": 1804,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__20261101T005221611998Z__s1803",
+      "locked_at": "2026-11-01T00:52:21Z"
+    }
+  ]
+}

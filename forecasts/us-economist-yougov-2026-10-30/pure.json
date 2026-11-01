@@ -1,0 +1,388 @@
+{
+  "target_id": "us-economist-yougov-2026-10-30",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__direction__overall__r1",
+      "entry_sha256": "aef089dd4b0b5f207687e3ab282368e82ab85811d3745f10f60c90a9841dcca1",
+      "seq": 1474,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__direction__party_dem__r1",
+      "entry_sha256": "42cc4ab95293a8a7e73e4964a5c03c4583e7f6358e71c911b17638d9aeb0efda",
+      "seq": 1475,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__direction__party_ind__r1",
+      "entry_sha256": "ac23ab74124f64db7e6f72ef27410ebca474a151f3e49de8dde64471e0509b28",
+      "seq": 1476,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__direction__party_rep__r1",
+      "entry_sha256": "2ffffb3d26fc490223965733d0af9e8a41d00f64fa061e73aa9ac185c94532f7",
+      "seq": 1477,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__direction__age_18_29__r1",
+      "entry_sha256": "24893c1aa6b48c2f85a291661794a7f5c5518cf6da3d6b181e302f99d226a503",
+      "seq": 1478,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__direction__age_65_plus__r1",
+      "entry_sha256": "e667f45eab91360619723049786f32e068ac882246431b6d2c493d9f87f8a57d",
+      "seq": 1479,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__trump_job_approval__overall__r1",
+      "entry_sha256": "efa4fe32181bc4a1434920128eb1be3680bb8986f7fc546d60a5368773dfbaca",
+      "seq": 1480,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__trump_job_approval__party_dem__r1",
+      "entry_sha256": "d0718d199a9c02140009c038c703cb69a8dfb4fd7b57aea47d4db82ecebdd2e8",
+      "seq": 1481,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__trump_job_approval__party_ind__r1",
+      "entry_sha256": "a6040758c2347cb89247082bbd1151107a11cf466e86d1a50b02dc63d7d7c031",
+      "seq": 1482,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__trump_job_approval__party_rep__r1",
+      "entry_sha256": "671f259d717e688ed4bdbbe3829e3470696182b5f6fb3271ce5434a40fb06399",
+      "seq": 1483,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__trump_job_approval__age_18_29__r1",
+      "entry_sha256": "8405b7db1f22a4cdafa32fa3fd6aafd9f57cab15f4996aa06b7409c836cb75a8",
+      "seq": 1484,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__trump_job_approval__age_65_plus__r1",
+      "entry_sha256": "e7bd53412dcd1c70f03e8e4cf4fe6f697b5af598d33a8472a5763bc631dbbbff",
+      "seq": 1485,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__generic_ballot__overall__r1",
+      "entry_sha256": "4135c98c0cdc052b4d841eb419e6bdf3f9971f4e1ce901179e7eb073a984e40e",
+      "seq": 1486,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__generic_ballot__party_dem__r1",
+      "entry_sha256": "843bda7ef7a7bcdd60e27ee5e03ea9b4f3ab575b70b440c28111a2b0b1e564bc",
+      "seq": 1487,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__generic_ballot__party_ind__r1",
+      "entry_sha256": "08d07b50727b43987151c30a303dccc76056f4c30f9993d9c4b625c61654796f",
+      "seq": 1488,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__generic_ballot__party_rep__r1",
+      "entry_sha256": "c5d5923f56bccb52ec2c8f71ab1805c0497ee361a51085b17f8dcc334ad604f1",
+      "seq": 1489,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__generic_ballot__age_18_29__r1",
+      "entry_sha256": "22d29f721e59fdeb8db75597615ec769814bdfee97a30ad7094ad25f46a1b369",
+      "seq": 1490,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__generic_ballot__age_65_plus__r1",
+      "entry_sha256": "63455f26d810f2cf0ce522b6883d6c944bfe72fd160bb169a0fa56da87a3fd36",
+      "seq": 1491,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__likelihood_to_vote__overall__r1",
+      "entry_sha256": "f58f9f27ea2e9bba5febe42bf4ace7d7af5edb0b271e9b8f447fd8211d930e64",
+      "seq": 1492,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__likelihood_to_vote__party_dem__r1",
+      "entry_sha256": "7a3bff1d2af68164ba42b8f47fc9d3f8e44cca0a18c62609d00644d30312f15f",
+      "seq": 1493,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__likelihood_to_vote__party_ind__r1",
+      "entry_sha256": "bccd7cbacf341a877f251ecf0ddf2f93498a2a0077abe60eeca4274e83fd0d10",
+      "seq": 1494,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__likelihood_to_vote__party_rep__r1",
+      "entry_sha256": "64c0a2ba1dd40e8ec0db6a570fac242c08c3c734954bea7ff6f7119f0bef7974",
+      "seq": 1495,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__likelihood_to_vote__age_18_29__r1",
+      "entry_sha256": "21593d14453a4c123c9ee382f20eb1e180a99bb1200e59b2ef0409c4f65850a5",
+      "seq": 1496,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__likelihood_to_vote__age_65_plus__r1",
+      "entry_sha256": "5529ba81eaa1410208b1a8ae8f4a5f2109f8d172be040d20809878e543871301",
+      "seq": 1497,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__house_majority_expectation__overall__r1",
+      "entry_sha256": "db791ebc571f580acee9ca96b2b7712cff00835361a7bbb525dac132701135a7",
+      "seq": 1498,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__house_majority_expectation__party_dem__r1",
+      "entry_sha256": "3b169410ea99d1eb4d6ec19f2527f2d5feda28c7759710e135c981c135beebfa",
+      "seq": 1499,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__house_majority_expectation__party_ind__r1",
+      "entry_sha256": "192de4c477d42ffb2680bde331cfb2fb54d0c384fadb5ebad9fe7ec2b85426e0",
+      "seq": 1500,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__house_majority_expectation__party_rep__r1",
+      "entry_sha256": "8a783605815cb650342a5c6a1732621533ef25b65b13d9490f6befa624c200db",
+      "seq": 1501,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__house_majority_expectation__age_18_29__r1",
+      "entry_sha256": "479f2c6e77843a580b8663adee32730f948cb75bb58004e7c68ffd8cf324e9c6",
+      "seq": 1502,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__house_majority_expectation__age_65_plus__r1",
+      "entry_sha256": "18cd3a628e5034c818666e52b6d44822221e75692fa2e91e6a6a3e53d1e42307",
+      "seq": 1503,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__senate_majority_expectation__overall__r1",
+      "entry_sha256": "e4d9c98144ab7b921d899b06f51982022ac787bba295c5e48066fbc69e5cdefd",
+      "seq": 1504,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__senate_majority_expectation__party_dem__r1",
+      "entry_sha256": "8d2557877e85b02d293b611654cd72db8d44437e74c48337d7a227f0ce13b044",
+      "seq": 1505,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__senate_majority_expectation__party_ind__r1",
+      "entry_sha256": "e84823d864b105baefe9c0b1056d91cf5a4747134741dcbc98ba656984360f49",
+      "seq": 1506,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__senate_majority_expectation__party_rep__r1",
+      "entry_sha256": "084062c04b50c4a096527f2ea246acb6ed3612dfdc7a7fefa18e3b7769adba1f",
+      "seq": 1507,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__senate_majority_expectation__age_18_29__r1",
+      "entry_sha256": "4f439c8c96db3259b197f0d0d24474d61ab74e5c9289a8710e261ad9f3e1b386",
+      "seq": 1508,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__senate_majority_expectation__age_65_plus__r1",
+      "entry_sha256": "808206120c4e9487f067fcf5ba08f298d8946dd975cc179e384c6a35bd6e46ef",
+      "seq": 1509,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_state__overall__r1",
+      "entry_sha256": "12356149651c7fbf949140b00ec84c38019ccf01ec8298c6111e79ddf2a1d0b4",
+      "seq": 1510,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_state__party_dem__r1",
+      "entry_sha256": "1f874ff8b4cf94c8ffaf139d0f390c064167e89c6d8baaf8e3cbf9c675e817e2",
+      "seq": 1511,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_state__party_ind__r1",
+      "entry_sha256": "76b33c245f0693733f937e96d73edd5ce32afe1f4bfc816b80b6fb9d461da35b",
+      "seq": 1512,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_state__party_rep__r1",
+      "entry_sha256": "23fb2bbc9c10278c4693ce18f777058cab0c0b3cc45d8d2622ed1dd55faa0331",
+      "seq": 1513,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_state__age_18_29__r1",
+      "entry_sha256": "c5e3a646467840c9de366a1ac067d582440012f3f7dcd20cd88c63a79aecfe9a",
+      "seq": 1514,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_state__age_65_plus__r1",
+      "entry_sha256": "8c394d5153098be75a40ce17c95a2c5cefc1e5d0ef2e4d95069dcd4b83cfcaf1",
+      "seq": 1515,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_trend__overall__r1",
+      "entry_sha256": "82966909570696f1d985e62a1f041c23fca9b3642f2b3ba608fd99a7056103e7",
+      "seq": 1516,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_trend__party_dem__r1",
+      "entry_sha256": "ededbadfe51d67a48faaf5eb250c9615a7e1f6dd7547e65e0ece5321c050fdfc",
+      "seq": 1517,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_trend__party_ind__r1",
+      "entry_sha256": "aedf877895822278511aaf5e8805b830e6d9e4056e87ca359aee77cec88cd60f",
+      "seq": 1518,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_trend__party_rep__r1",
+      "entry_sha256": "765846c150e7f5c80c2e4c6b8385e71e6fc999006263f21326f048d2b3f7dfc0",
+      "seq": 1519,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_trend__age_18_29__r1",
+      "entry_sha256": "77a70b546297db98d9f2fdf6b11518ecdd61188fdc182345fdac5e0046f5770c",
+      "seq": 1520,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__economy_trend__age_65_plus__r1",
+      "entry_sha256": "fed08b9cfcd7132d225cf058738312256a69b3267b336433160358f844b63ffa",
+      "seq": 1521,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__most_important_issue__overall__r1",
+      "entry_sha256": "3b83966398e7a508c00446069cf9203760afceb655e37af5b2d427f8eda48254",
+      "seq": 1522,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__most_important_issue__party_dem__r1",
+      "entry_sha256": "75cbc7920beb1a5fc466f725736250d7a832af9da8fb9a8c5c0881f531936275",
+      "seq": 1523,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__most_important_issue__party_ind__r1",
+      "entry_sha256": "ff88b5b08c0585c9048e793126b8b82469a2aba4a0f98c0909f315fd53e498f9",
+      "seq": 1524,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__most_important_issue__party_rep__r1",
+      "entry_sha256": "5a3a1742adf2fdbec2755fc732e2ef84f8577985cc656ef9a827cd05c32abc2b",
+      "seq": 1525,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__most_important_issue__age_18_29__r1",
+      "entry_sha256": "47dcae636261ffcef1241e1b2fc60e0ea4677a8af1b3df5a648dbf80d570fb6b",
+      "seq": 1526,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-30__most_important_issue__age_65_plus__r1",
+      "entry_sha256": "335f41f9237d5d208ef588d82ca8c785fe240c59b582b4012bdc75b156f631a1",
+      "seq": 1527,
+      "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
+      "locked_at": "2026-10-30T01:25:05Z"
+    }
+  ]
+}

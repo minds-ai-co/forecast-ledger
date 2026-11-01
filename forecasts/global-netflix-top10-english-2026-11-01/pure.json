@@ -1,0 +1,24 @@
+{
+  "target_id": "global-netflix-top10-english-2026-11-01",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "global-netflix-top10-english-2026-11-01__english_films_views__overall__r1",
+      "entry_sha256": "5e1b558233cd646dd07226453a1bd7c9e6b57dceb79d41d7338dfcf98dc586a5",
+      "seq": 2058,
+      "batch_id": "global-netflix-top10-english-2026-11-01__20261101T152919665654Z__s2058",
+      "locked_at": "2026-11-01T15:29:19Z"
+    },
+    {
+      "entry_id": "global-netflix-top10-english-2026-11-01__english_tv_views__overall__r1",
+      "entry_sha256": "df0685c0377a3edf5eafdc77ae72228c1bb07f2036349024dc7fe45725c2f48e",
+      "seq": 2059,
+      "batch_id": "global-netflix-top10-english-2026-11-01__20261101T152919665654Z__s2058",
+      "locked_at": "2026-11-01T15:29:19Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "us-gallup-holiday-spending-2026-11",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-gallup-holiday-spending-2026-11__anchored3__xmas_gift_spending__overall__r1",
+      "entry_sha256": "3d7f0355dcf037a19997ab9a34d14452ccc7761116cdd67cc0aee556cf417a29",
+      "seq": 2065,
+      "batch_id": "us-gallup-holiday-spending-2026-11__anchored3__20261101T154911653364Z__s2065",
+      "locked_at": "2026-11-01T15:49:11Z"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "target_id": "fr-ifop-popularite-2026-11-04",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__satisfaction_macron__overall__r1",
+      "entry_sha256": "4464444d69f5df4a65d24f5655c50b140ff81e4d9af8d84378670130c45e0109",
+      "seq": 1795,
+      "batch_id": "fr-ifop-popularite-2026-11-04__20261101T004917872072Z__s1795",
+      "locked_at": "2026-11-01T00:49:17Z"
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "20b922456b613784830227de7930dbbf5d448b9cc3733429707cb271c6101fe9",
+      "seq": 1796,
+      "batch_id": "fr-ifop-popularite-2026-11-04__20261101T004917872072Z__s1795",
+      "locked_at": "2026-11-01T00:49:17Z"
+    }
+  ]
+}

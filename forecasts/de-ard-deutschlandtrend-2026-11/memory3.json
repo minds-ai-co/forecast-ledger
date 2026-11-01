@@ -1,0 +1,31 @@
+{
+  "target_id": "de-ard-deutschlandtrend-2026-11",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "4cc8d41049763f66f22f47dea9ae09a48f32ba85f0ea417f709476ef93ef06cd",
+      "seq": 1777,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__memory3__20261030T163133912823Z__s1777",
+      "locked_at": "2026-10-30T16:31:33Z"
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__government_satisfaction__overall__r1",
+      "entry_sha256": "ffc0c0d135ec83dc0b4091644521bdb02a6ccdf4a7d96a8cd90609b78ca50ee4",
+      "seq": 1778,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__memory3__20261030T163133912823Z__s1777",
+      "locked_at": "2026-10-30T16:31:33Z"
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__merz_satisfaction__overall__r1",
+      "entry_sha256": "f8686b12989ec9625dd8ed3c048fb0bc9ea02a63acd3b0835cc053523e0c372e",
+      "seq": 1779,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__memory3__20261030T163133912823Z__s1777",
+      "locked_at": "2026-10-30T16:31:33Z"
+    }
+  ]
+}

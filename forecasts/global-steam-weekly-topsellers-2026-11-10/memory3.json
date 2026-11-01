@@ -1,0 +1,17 @@
+{
+  "target_id": "global-steam-weekly-topsellers-2026-11-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "global-steam-weekly-topsellers-2026-11-10__memory3__steam_weekly_topsellers__overall__r1",
+      "entry_sha256": "be890cc375b14fceaccc4aa64a05d071e1068a466d7d4e0becabcd421cf5b9ca",
+      "seq": 2068,
+      "batch_id": "global-steam-weekly-topsellers-2026-11-10__memory3__20261101T161116778840Z__s2068",
+      "locked_at": "2026-11-01T16:11:16Z"
+    }
+  ]
+}

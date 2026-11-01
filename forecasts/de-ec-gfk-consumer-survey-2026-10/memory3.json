@@ -1,0 +1,433 @@
+{
+  "target_id": "de-ec-gfk-consumer-survey-2026-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__fin_past12__overall__r1",
+      "entry_sha256": "0d58418f19437ee5ebc86f8d806e6776d18bc4f23927606cb23d82c48fd0e13f",
+      "seq": 1167,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_past12",
+        "text": "Wie hat sich die finanzielle Lage Ihres Haushaltes in den letzten 12 Monaten entwickelt? Sie ... (Questionnaire item A01; EC harmonised question Q1: \"How has the financial situation of your household changed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "hat sich wesentlich verbessert",
+          "hat sich etwas verbessert",
+          "ist in etwa gleichgeblieben",
+          "hat sich etwas verschlechtert",
+          "hat sich wesentlich verschlechtert",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.028999999999999998,
+        0.151,
+        0.53,
+        0.211,
+        0.0665,
+        0.0125
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__fin_next12__overall__r1",
+      "entry_sha256": "6831dc89129022961645cff56947f5205ee789a70aa242fec279ef422899662c",
+      "seq": 1168,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_next12",
+        "text": "Wie wird sich Ihrer Ansicht nach die finanzielle Lage Ihres Haushaltes in den kommenden 12 Monaten entwickeln? Sie wird ... (Questionnaire item A02; EC harmonised question Q2: \"How do you expect the financial position of your household to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "sich wesentlich verbessern",
+          "sich etwas verbessern",
+          "in etwa gleichbleiben",
+          "sich etwas verschlechtern",
+          "sich wesentlich verschlechtern",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0225,
+        0.154,
+        0.585,
+        0.16749999999999998,
+        0.041,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__econ_past12__overall__r1",
+      "entry_sha256": "edf60bed6e5a7011cf03a44298a1c92783a3a18d15f5f2497ae6d81d4babc10a",
+      "seq": 1169,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_past12",
+        "text": "Wie hat sich Ihrer Meinung nach die \"allgemeine Wirtschaftslage\" in Deutschland in den letzten 12 Monaten entwickelt? Sie ... (Questionnaire item A03; EC harmonised question Q3: \"How do you think the general economic situation in the country has changed over the past 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "hat sich wesentlich verbessert",
+          "hat sich etwas verbessert",
+          "ist in etwa gleich geblieben",
+          "hat sich etwas verschlechtert",
+          "hat sich wesentlich verschlechtert",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.013999999999999999,
+        0.0985,
+        0.29500000000000004,
+        0.385,
+        0.19,
+        0.0175
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__econ_next12__overall__r1",
+      "entry_sha256": "5962959313cbbb011586d7c1d4354f0b456152ff1d1a5c2eb4069450f8b32731",
+      "seq": 1170,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_next12",
+        "text": "Wie wird sich Ihrer Ansicht nach die allgemeine Wirtschaftslage in Deutschland in den kommenden 12 Monaten entwickeln? Sie wird ... (Questionnaire item A04; EC harmonised question Q4: \"How do you expect the general economic situation in this country to develop over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "sich wesentlich verbessern",
+          "sich etwas verbessern",
+          "in etwa gleich bleiben",
+          "sich etwas verschlechtern",
+          "sich wesentlich verschlechtern",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.018,
+        0.175,
+        0.3875,
+        0.271,
+        0.11499999999999999,
+        0.0335
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__prices_past12__overall__r1",
+      "entry_sha256": "7f5ef3b84bf712731233bb422be1faa7d26379d1c721b84f22003e0e4a53f19a",
+      "seq": 1171,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_past12",
+        "text": "Wie haben sich Ihrer Ansicht nach die Verbraucherpreise in den letzten 12 Monaten entwickelt? Sie sind ... (Questionnaire item A05; EC harmonised question Q5: \"How do you think that consumer prices have developed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "stark gestiegen",
+          "in Maßen gestiegen",
+          "leicht gestiegen",
+          "in etwa gleich geblieben",
+          "gesunken",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2825,
+        0.3925,
+        0.21500000000000002,
+        0.09,
+        0.008,
+        0.012
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__prices_next12__overall__r1",
+      "entry_sha256": "b8e577a8e39cb9161d84378397493f6ecab958b4fbf9eb710dfc6b427e598628",
+      "seq": 1172,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_next12",
+        "text": "Wie werden sich Ihrer Ansicht nach die Verbraucherpreise in den kommenden 12 Monaten im Vergleich zu den letzten 12 Monaten entwickeln? Sie werden ... (Questionnaire item A06; EC harmonised question Q6: \"By comparison with the past 12 months, how do you expect that consumer prices will develop in the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "stärker als bisher steigen",
+          "etwa im gleichen Maße wie bisher steigen",
+          "weniger stark als bisher steigen",
+          "in etwa gleich bleiben",
+          "sinken",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.19,
+        0.44,
+        0.1575,
+        0.1675,
+        0.0165,
+        0.0285
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__unemployment_next12__overall__r1",
+      "entry_sha256": "f00ecafb16905e791246a4088ca93bb24df04f7469bdd9973d603d11969114f6",
+      "seq": 1173,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "unemployment_next12",
+        "text": "Wie wird sich Ihrer Ansicht nach die Zahl der Arbeitslosen in Deutschland in den kommenden 12 Monaten entwickeln? Die Zahl wird ... (Questionnaire item A07; EC harmonised question Q7: \"How do you expect the number of people unemployed in this country to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "stark steigen",
+          "leicht steigen",
+          "in etwa gleich bleiben",
+          "leicht zurückgehen",
+          "stark zurückgehen",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.145,
+        0.385,
+        0.345,
+        0.085,
+        0.011,
+        0.028999999999999998
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__major_purchases_now__overall__r1",
+      "entry_sha256": "a9fbbe90da74f7b31efc9bbfb7757ad2a68d30095230ead97eab5365e66dc1c2",
+      "seq": 1174,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "major_purchases_now",
+        "text": "Glauben Sie, dass es in Anbetracht der allgemeinen Wirtschaftslage derzeit günstig ist, größere Anschaffungen (Möbel, elektrische/elektronische Geräte usw.) zu tätigen? (Questionnaire item A08; EC harmonised question Q8: \"In view of the general economic situation, do you think that now it is the right moment for people to make major purchases such as furniture, electrical/electronic devices, etc.?\")",
+        "type": "ordinal",
+        "options": [
+          "ja, jetzt ist der Augenblick günstig",
+          "der Augenblick ist weder besonders günstig noch besonders ungünstig",
+          "nein, der Augenblick ist nicht günstig",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.16,
+        0.435,
+        0.3625,
+        0.042499999999999996
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__major_purchases_next12__overall__r1",
+      "entry_sha256": "760e381a01e55cd0a5c2cba53837d25242d561aa889c367736e409442782430a",
+      "seq": 1175,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "major_purchases_next12",
+        "text": "Wollen Sie in den kommenden 12 Monaten für größere Anschaffungen (Möbel, elektrische /elektronische Geräte usw.) mehr oder weniger ausgeben als in den letzten 12 Monaten? Ich werde ... (Questionnaire item A09; EC harmonised question Q9: \"Compared to the past 12 months, do you expect to spend more or less money on major purchases (furniture, electrical/electronic devices, etc.) over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "wesentlich mehr ausgeben",
+          "etwas mehr ausgeben",
+          "in etwa gleich viel ausgeben",
+          "etwas weniger ausgeben",
+          "wesentlich weniger ausgeben",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0315,
+        0.0925,
+        0.4745,
+        0.1855,
+        0.1725,
+        0.0435
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__savings_next12__overall__r1",
+      "entry_sha256": "274fbc55e9e523b808f0f963f0c038d17963a7f2eff909a363325d5bbccf3dbd",
+      "seq": 1176,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "savings_next12",
+        "text": "Wie wahrscheinlich ist es, dass Sie in den kommenden 12 Monaten Geld sparen werden? (Questionnaire item A11; EC harmonised question Q11: \"Over the next 12 months, how likely is it that you save any money?\")",
+        "type": "ordinal",
+        "options": [
+          "sehr wahrscheinlich",
+          "recht wahrscheinlich",
+          "unwahrscheinlich",
+          "sehr unwahrscheinlich",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.285,
+        0.4,
+        0.16499999999999998,
+        0.12,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__household_fin_now__overall__r1",
+      "entry_sha256": "778e181c6754997cbaeff2ad511866f10b0377ddab128e2906290189fbd56e31",
+      "seq": 1177,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-10__memory3__20261027T011420182626Z__s1167",
+      "locked_at": "2026-10-27T01:14:20Z",
+      "state": "scored",
+      "question": {
+        "id": "household_fin_now",
+        "text": "Wie ist die derzeitige finanzielle Lage Ihres Haushaltes? (Questionnaire item A12; EC harmonised question Q12: \"Which of these statements best describes the current financial situation of your household?\")",
+        "type": "ordinal",
+        "options": [
+          "wir sparen viel",
+          "wir sparen ein wenig",
+          "wir kommen mit unseren finanziellen Mitteln so gerade aus",
+          "wir greifen etwas unsere Ersparnisse an",
+          "wir verschulden uns",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.10600000000000001,
+        0.429,
+        0.326,
+        0.093,
+        0.026000000000000002,
+        0.019999999999999997
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    }
+  ]
+}

@@ -1,0 +1,90 @@
+{
+  "target_id": "gb-findoutnow-vi-2026-10-28",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "gb-findoutnow-vi-2026-10-28__westminster_vi__overall__r1",
+      "entry_sha256": "f5b6a2d0d499dbfbc547ab7df90b58a0f1525bf53261a643c74b6e16e20b7a57",
+      "seq": 99,
+      "batch_id": "gb-findoutnow-vi-2026-10-28__20261024T015203669229Z__s99",
+      "locked_at": "2026-10-24T01:52:03Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Thinking about your own constituency, if a general election were held tomorrow, which party would you vote for? (Find Out Now headline: respondents \"definitely\" or \"very likely\" to vote, 2024 non-voters only if \"definitely\"; don't knows asked \"If you were forced to choose, how would you vote?\" and excluded if still undecided. Restore Britain and Your Party are in Other.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrats",
+          "Reform UK",
+          "Green Party",
+          "Scottish National Party (SNP)",
+          "Plaid Cymru",
+          "Other"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.196,
+        0.2485,
+        0.0965,
+        0.2055,
+        0.121,
+        0.03,
+        0.016,
+        0.0865
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-10-28__likelihood_to_vote__overall__r1",
+      "entry_sha256": "6c58ae048e2b6b59f8571939ea0888427f8084a5358e5e863ea22aad0c419dfe",
+      "seq": 100,
+      "batch_id": "gb-findoutnow-vi-2026-10-28__20261024T015203669229Z__s99",
+      "locked_at": "2026-10-24T01:52:03Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "If a general election was called tomorrow, how likely would you be to vote?",
+        "type": "categorical",
+        "options": [
+          "I would definitely vote",
+          "I would be very likely to vote",
+          "I would be unlikely to vote",
+          "I would definitely not vote",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.5555000000000001,
+        0.15050000000000002,
+        0.10550000000000001,
+        0.11399999999999999,
+        0.07450000000000001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "target_id": "us-quinnipiac-national-2026-10-26",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-quinnipiac-national-2026-10-26__trump_job_approval__overall__r1",
+      "entry_sha256": "b9f63cd153cc4c0fe0dfd3652f7520788bf1fb3c94f8ab31ee1ff0b044afdefc",
+      "seq": 101,
+      "batch_id": "us-quinnipiac-national-2026-10-26__20261024T015308419519Z__s101",
+      "locked_at": "2026-10-24T01:53:08Z"
+    },
+    {
+      "entry_id": "us-quinnipiac-national-2026-10-26__house_control__overall__r1",
+      "entry_sha256": "b9d42e6dda8c7504e234e376083c491f7ee5fc52cfce41997a06ee0b085f3d5c",
+      "seq": 102,
+      "batch_id": "us-quinnipiac-national-2026-10-26__20261024T015308419519Z__s101",
+      "locked_at": "2026-10-24T01:53:08Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "global-steam-weekly-topsellers-2026-11-10",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "global-steam-weekly-topsellers-2026-11-10__anchored3__steam_weekly_topsellers__overall__r1",
+      "entry_sha256": "e0a4134e4aaca83c215a95ac7716d87a616985ca21bea10996d3f97795347a16",
+      "seq": 2069,
+      "batch_id": "global-steam-weekly-topsellers-2026-11-10__anchored3__20261101T162413946861Z__s2069",
+      "locked_at": "2026-11-01T16:24:13Z"
+    }
+  ]
+}

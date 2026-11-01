@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-moreincommon-vi-2026-10-30",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "21967038e762c1ab6728ff1adfc7f6fb70a1d7c2507f8608434e8609905f2a24",
+      "seq": 1337,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__anchored3__20261028T042952165550Z__s1337",
+      "locked_at": "2026-10-28T04:29:52Z"
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__anchored3__burnham_good_job__overall__r1",
+      "entry_sha256": "24979f36e7667bea0c5e2dfbfbd8efd89c63380c18753e8e107564183460f9d5",
+      "seq": 1338,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__anchored3__20261028T042952165550Z__s1337",
+      "locked_at": "2026-10-28T04:29:52Z"
+    }
+  ]
+}

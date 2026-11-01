@@ -1,0 +1,86 @@
+{
+  "target_id": "us-reuters-ipsos-2026-10-26",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-reuters-ipsos-2026-10-26__trump_job_approval__overall__r1",
+      "entry_sha256": "7404902638f972d1b3fcaa5bc955d49517eadb4034123fae9b3283ca53453512",
+      "seq": 90,
+      "batch_id": "us-reuters-ipsos-2026-10-26__20261024T014646744252Z__s90",
+      "locked_at": "2026-10-24T01:46:46Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Overall, do you approve or disapprove of the way Donald Trump is handling his job as president? (If skipped) If you had to choose, do you lean more towards approve or disapprove?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Skipped"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2025,
+        0.185,
+        0.14750000000000002,
+        0.435,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-reuters-ipsos-2026-10-26__generic_ballot__overall__r1",
+      "entry_sha256": "322727c3c1d3255a3b62d2c3607ecea6cbb464110d22c133a71458e63cc91421",
+      "seq": 91,
+      "batch_id": "us-reuters-ipsos-2026-10-26__20261024T014646744252Z__s90",
+      "locked_at": "2026-10-24T01:46:46Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "generic_ballot",
+        "text": "Thinking about the elections in 2026, if the election for U.S. Congress were held today, would you vote for the Democratic candidate or the Republican candidate in your district where you live?",
+        "type": "categorical",
+        "options": [
+          "Democratic candidate",
+          "Republican candidate",
+          "Candidate from another political party",
+          "Don't know",
+          "Will not/do not plan to vote",
+          "Skipped"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.40449999999999997,
+        0.359,
+        0.036500000000000005,
+        0.105,
+        0.086,
+        0.009000000000000001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

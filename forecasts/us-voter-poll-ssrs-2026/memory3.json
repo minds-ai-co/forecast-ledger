@@ -1,0 +1,52 @@
+{
+  "target_id": "us-voter-poll-ssrs-2026",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__feel_country__overall__r1",
+      "entry_sha256": "76d02daeeeaf0c91ab9bbc1629ed7c21eef45c2c0a896bf77271e32f8354af58",
+      "seq": 2052,
+      "batch_id": "us-voter-poll-ssrs-2026__memory3__20261101T140435970801Z__s2052",
+      "locked_at": "2026-11-01T14:04:35Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__trump_approval__overall__r1",
+      "entry_sha256": "b40cd5a8c7ea2369619e3de2c39ec58705e8ad011f2a694ae2b6530059f4eb50",
+      "seq": 2053,
+      "batch_id": "us-voter-poll-ssrs-2026__memory3__20261101T140435970801Z__s2052",
+      "locked_at": "2026-11-01T14:04:35Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__national_economy__overall__r1",
+      "entry_sha256": "1d8a47af92448586c81cf60a5bfddfbd6655a902a893eb05834058fd713d7d00",
+      "seq": 2054,
+      "batch_id": "us-voter-poll-ssrs-2026__memory3__20261101T140435970801Z__s2052",
+      "locked_at": "2026-11-01T14:04:35Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__abortion__overall__r1",
+      "entry_sha256": "d7d5ce9265850efdc40a7124d1717dad62d71229044c595213bea7b4b603b5b1",
+      "seq": 2055,
+      "batch_id": "us-voter-poll-ssrs-2026__memory3__20261101T140435970801Z__s2052",
+      "locked_at": "2026-11-01T14:04:35Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__dem_party_fav__overall__r1",
+      "entry_sha256": "a6b150773306529385e09ade472d38afb089845ec2aafc9eaac18a130e69c3ec",
+      "seq": 2056,
+      "batch_id": "us-voter-poll-ssrs-2026__memory3__20261101T140435970801Z__s2052",
+      "locked_at": "2026-11-01T14:04:35Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__rep_party_fav__overall__r1",
+      "entry_sha256": "7e314d614d2891f1810625e1f6f2f1cf18bda242cc361d64d0dfca75943b82cf",
+      "seq": 2057,
+      "batch_id": "us-voter-poll-ssrs-2026__memory3__20261101T140435970801Z__s2052",
+      "locked_at": "2026-11-01T14:04:35Z"
+    }
+  ]
+}

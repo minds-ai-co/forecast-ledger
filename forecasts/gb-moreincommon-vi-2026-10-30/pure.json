@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-moreincommon-vi-2026-10-30",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__westminster_vi__overall__r1",
+      "entry_sha256": "21538feb7775cc4dfc6b6b0563687a589a79011c16597435c77e4046e7581a54",
+      "seq": 1335,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__20261028T042912739840Z__s1335",
+      "locked_at": "2026-10-28T04:29:12Z"
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__burnham_good_job__overall__r1",
+      "entry_sha256": "acfdb84e1f6e1fe32886dc3605c09ff536f1ae7b64c39a07af890c792751c615",
+      "seq": 1336,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__20261028T042912739840Z__s1335",
+      "locked_at": "2026-10-28T04:29:12Z"
+    }
+  ]
+}

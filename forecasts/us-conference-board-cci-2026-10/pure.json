@@ -1,0 +1,45 @@
+{
+  "target_id": "us-conference-board-cci-2026-10",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-conference-board-cci-2026-10__present_business_conditions__overall__r1",
+      "entry_sha256": "bbadd16d9b4f5c4576d9c83c5098e4825aff4ebd4501257226007a9bc6f244a4",
+      "seq": 103,
+      "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
+      "locked_at": "2026-10-24T01:55:03Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__present_jobs__overall__r1",
+      "entry_sha256": "0891b9e3eba4e127b91b79f8c7bcac6425dbdc651109a038fd8acd89510d9dfd",
+      "seq": 104,
+      "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
+      "locked_at": "2026-10-24T01:55:03Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__expected_business_conditions__overall__r1",
+      "entry_sha256": "b8314c4af169d23150c6e366aa8f2cad3716aeb8d7e2f85a2df05d41091dcf77",
+      "seq": 105,
+      "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
+      "locked_at": "2026-10-24T01:55:03Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__expected_jobs__overall__r1",
+      "entry_sha256": "cede07f3477667443caa3f851c098086b7e7e49dea373d38aad13d2699efccc9",
+      "seq": 106,
+      "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
+      "locked_at": "2026-10-24T01:55:03Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__expected_income__overall__r1",
+      "entry_sha256": "e3a2b17a2a6a5764390b8ed319e447217541d4b0995dc0df21389f985f625694",
+      "seq": 107,
+      "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
+      "locked_at": "2026-10-24T01:55:03Z"
+    }
+  ]
+}

@@ -1,0 +1,2302 @@
+{
+  "target_id": "us-economist-yougov-2026-10-24",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__direction__overall__r1",
+      "entry_sha256": "bccfe438ec5c4e826d1c921c3ba787a0d88978488a471136681d20eacb3f0d9d",
+      "seq": 0,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country today are...",
+        "type": "categorical",
+        "options": [
+          "Generally headed in the right direction",
+          "Off on the wrong track",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.325,
+        0.605,
+        0.07
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__direction__party_dem__r1",
+      "entry_sha256": "d5d1aab8b5b23b66c5c5a95d435a757dad0a01ffbfe2b99ed0ea715ca05d2fb7",
+      "seq": 1,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country today are...",
+        "type": "categorical",
+        "options": [
+          "Generally headed in the right direction",
+          "Off on the wrong track",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.095,
+        0.845,
+        0.06
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__direction__party_ind__r1",
+      "entry_sha256": "cc76ac9cfc75db3f42a752d98ea3bc2fa7da0301848b88e661258a6a59c584ec",
+      "seq": 2,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country today are...",
+        "type": "categorical",
+        "options": [
+          "Generally headed in the right direction",
+          "Off on the wrong track",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.23,
+        0.675,
+        0.095
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__direction__party_rep__r1",
+      "entry_sha256": "14a831d650cd5c4ce74a2a148f86e123d26b6c9dcc5324c7f330b3155b87e64b",
+      "seq": 3,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country today are...",
+        "type": "categorical",
+        "options": [
+          "Generally headed in the right direction",
+          "Off on the wrong track",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.64,
+        0.29000000000000004,
+        0.07
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__direction__age_18_29__r1",
+      "entry_sha256": "ef4d9b184953370af3b944d2fc6f62f63164564fb2768f62f55474a2d30cfc78",
+      "seq": 4,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country today are...",
+        "type": "categorical",
+        "options": [
+          "Generally headed in the right direction",
+          "Off on the wrong track",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.25,
+        0.65,
+        0.1
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__direction__age_65_plus__r1",
+      "entry_sha256": "127ffce4c1fc04ddbf7b51d2b1474364b58680af52f87d4ea0e1452b00efe5f5",
+      "seq": 5,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country today are...",
+        "type": "categorical",
+        "options": [
+          "Generally headed in the right direction",
+          "Off on the wrong track",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.355,
+        0.6,
+        0.045
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__overall__r1",
+      "entry_sha256": "48a1b3d3bbeca1f8d1a089a7bea07fcb5411fbc9efe5ba86d1ad87875b6b54ef",
+      "seq": 6,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as President?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.26,
+        0.16,
+        0.1,
+        0.46,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_dem__r1",
+      "entry_sha256": "27ded640afdd277de2aee97c1987d45f04ed17c8d5d7bc0606ac4848502b84ab",
+      "seq": 7,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as President?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.0325,
+        0.04,
+        0.065,
+        0.85,
+        0.0125
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_ind__r1",
+      "entry_sha256": "bea9cd2dcec07b3e4ec9d41c359e88e2627e1d85be650765eab2002425197c1e",
+      "seq": 8,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as President?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.19,
+        0.18,
+        0.155,
+        0.43,
+        0.045
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_rep__r1",
+      "entry_sha256": "323423813ad8d502f566b27535e2d7e69710c178441229abfcf35faab60d460f",
+      "seq": 9,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as President?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.6275,
+        0.2425,
+        0.057499999999999996,
+        0.055,
+        0.0175
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__age_18_29__r1",
+      "entry_sha256": "81f3f94344e800f98ffae825950406e27372d15ddf003b2138a3a480ca873a23",
+      "seq": 10,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as President?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.17,
+        0.19,
+        0.14500000000000002,
+        0.455,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__age_65_plus__r1",
+      "entry_sha256": "e6b9b7a71f4f915c46356b9af15c5c353b0e36c787362fcdf50596df4e6a3d0c",
+      "seq": 11,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as President?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.35,
+        0.11499999999999999,
+        0.065,
+        0.46,
+        0.01
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__overall__r1",
+      "entry_sha256": "28064c926a01a93ee06461541c7b7f7a9deedfa1cc2975e577a6440eacc0b0b9",
+      "seq": 12,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "generic_ballot",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "type": "categorical",
+        "options": [
+          "The Democratic candidate",
+          "The Republican candidate",
+          "Other",
+          "Not sure",
+          "I will not vote"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.4625,
+        0.4325,
+        0.0175,
+        0.065,
+        0.0225
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_dem__r1",
+      "entry_sha256": "5d584f8dc1f17bb44b564df9b03caf9e04c2cf837ad1088cd00fb8771f77778a",
+      "seq": 13,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "generic_ballot",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "type": "categorical",
+        "options": [
+          "The Democratic candidate",
+          "The Republican candidate",
+          "Other",
+          "Not sure",
+          "I will not vote"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.9365000000000001,
+        0.022,
+        0.008,
+        0.0235,
+        0.010000000000000002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_ind__r1",
+      "entry_sha256": "f59265d41c532723f4c7908a9265ff23c96bcd2a04ce911dda11fe04a67f5ab2",
+      "seq": 14,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "generic_ballot",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "type": "categorical",
+        "options": [
+          "The Democratic candidate",
+          "The Republican candidate",
+          "Other",
+          "Not sure",
+          "I will not vote"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.415,
+        0.35,
+        0.045,
+        0.15,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_rep__r1",
+      "entry_sha256": "77e3d4e18009b0fa66e2e3bd7f92d54aa6d62842c22a3db4d460077d4d636c76",
+      "seq": 15,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "generic_ballot",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "type": "categorical",
+        "options": [
+          "The Democratic candidate",
+          "The Republican candidate",
+          "Other",
+          "Not sure",
+          "I will not vote"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.025,
+        0.9225000000000001,
+        0.01,
+        0.0275,
+        0.015
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__age_18_29__r1",
+      "entry_sha256": "a7d19350281a67e6b37dea6ddb3b401df95aa2e842c33c6a5654c272da3e1519",
+      "seq": 16,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "generic_ballot",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "type": "categorical",
+        "options": [
+          "The Democratic candidate",
+          "The Republican candidate",
+          "Other",
+          "Not sure",
+          "I will not vote"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.545,
+        0.32,
+        0.025,
+        0.08,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__age_65_plus__r1",
+      "entry_sha256": "8bd71294fde0d2e74dd6dafaca6ae1ba3e3109f4a3b1b06aa98d6fbd20f88cae",
+      "seq": 17,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "generic_ballot",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "type": "categorical",
+        "options": [
+          "The Democratic candidate",
+          "The Republican candidate",
+          "Other",
+          "Not sure",
+          "I will not vote"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.4725,
+        0.4725,
+        0.012,
+        0.034,
+        0.009000000000000001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__overall__r1",
+      "entry_sha256": "757969d586fa403981138c5a1461eedc0518843ff959c99914984a08200c6346",
+      "seq": 18,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "How likely are you to vote in the election in November?",
+        "type": "categorical",
+        "options": [
+          "Definitely will vote",
+          "Probably will vote",
+          "Maybe will vote",
+          "Probably will not vote",
+          "Definitely will not vote",
+          "Don't know",
+          "I have already voted"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.6475,
+        0.095,
+        0.0475,
+        0.0225,
+        0.025,
+        0.015,
+        0.14750000000000002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_dem__r1",
+      "entry_sha256": "36e3baa4783b3e7db6a005caff98dbf8b65f8b6cbd9473ab203d28446dcf8698",
+      "seq": 19,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "How likely are you to vote in the election in November?",
+        "type": "categorical",
+        "options": [
+          "Definitely will vote",
+          "Probably will vote",
+          "Maybe will vote",
+          "Probably will not vote",
+          "Definitely will not vote",
+          "Don't know",
+          "I have already voted"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.6375,
+        0.0825,
+        0.037500000000000006,
+        0.0135,
+        0.0165,
+        0.0125,
+        0.2
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_ind__r1",
+      "entry_sha256": "2e236eade817ef9194115e0a73620ea9a687508daf991cfe22357eddfc60283f",
+      "seq": 20,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "How likely are you to vote in the election in November?",
+        "type": "categorical",
+        "options": [
+          "Definitely will vote",
+          "Probably will vote",
+          "Maybe will vote",
+          "Probably will not vote",
+          "Definitely will not vote",
+          "Don't know",
+          "I have already voted"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.5875,
+        0.12,
+        0.07,
+        0.035,
+        0.042499999999999996,
+        0.03,
+        0.11499999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_rep__r1",
+      "entry_sha256": "6983267729d152cd5ad18fd4284f5c6bd8ae6faf96c3e5fe8ad7d6195623fbbb",
+      "seq": 21,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "How likely are you to vote in the election in November?",
+        "type": "categorical",
+        "options": [
+          "Definitely will vote",
+          "Probably will vote",
+          "Maybe will vote",
+          "Probably will not vote",
+          "Definitely will not vote",
+          "Don't know",
+          "I have already voted"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.6925,
+        0.07250000000000001,
+        0.0325,
+        0.013999999999999999,
+        0.017,
+        0.0115,
+        0.16
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__age_18_29__r1",
+      "entry_sha256": "6aa3aba6239062b02681518f604668511eb2e569e7c54e2d815714e995a02c62",
+      "seq": 22,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "How likely are you to vote in the election in November?",
+        "type": "categorical",
+        "options": [
+          "Definitely will vote",
+          "Probably will vote",
+          "Maybe will vote",
+          "Probably will not vote",
+          "Definitely will not vote",
+          "Don't know",
+          "I have already voted"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.535,
+        0.16999999999999998,
+        0.08499999999999999,
+        0.04,
+        0.03,
+        0.03,
+        0.11
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__age_65_plus__r1",
+      "entry_sha256": "8fdf8e11e3765b83533dad0ae789cb52b8dd493e4a6744ce5c1fafa2113267d7",
+      "seq": 23,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "How likely are you to vote in the election in November?",
+        "type": "categorical",
+        "options": [
+          "Definitely will vote",
+          "Probably will vote",
+          "Maybe will vote",
+          "Probably will not vote",
+          "Definitely will not vote",
+          "Don't know",
+          "I have already voted"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.62,
+        0.0475,
+        0.02,
+        0.01,
+        0.0135,
+        0.009000000000000001,
+        0.28
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__overall__r1",
+      "entry_sha256": "3992a49c4e82e237fda56265ce03286e867d9ac8ec168a8e5507a24dec69eba7",
+      "seq": 24,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "house_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. House of Representatives after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.405,
+        0.365,
+        0.22999999999999998
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_dem__r1",
+      "entry_sha256": "80d5f5079f6161b666fff9b272d49b224366d92e1240b7ab3188a2d0eeccdcd3",
+      "seq": 25,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "house_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. House of Representatives after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.69,
+        0.125,
+        0.185
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_ind__r1",
+      "entry_sha256": "e2084779bc10e9dff93277d5f7d0b0bfa1640dff0e747fe2b139533f6ac86e81",
+      "seq": 26,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "house_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. House of Representatives after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.37,
+        0.335,
+        0.29500000000000004
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_rep__r1",
+      "entry_sha256": "9ae4626745cfae3c944a211f4e0aa94428d89b01f791d5be05902589ac550ccd",
+      "seq": 27,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "house_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. House of Representatives after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.10500000000000001,
+        0.755,
+        0.14
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__age_18_29__r1",
+      "entry_sha256": "e05fa4efcc38b2add09d4105ebec0a5ea433b167673497c95bab9045c2a31d20",
+      "seq": 28,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "house_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. House of Representatives after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.41,
+        0.33,
+        0.26
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__age_65_plus__r1",
+      "entry_sha256": "787fccffde73162ba9b6e181191ec4c708567a7058c685a0678a9ad8a9e2ec8c",
+      "seq": 29,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "house_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. House of Representatives after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.42,
+        0.39,
+        0.19
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__overall__r1",
+      "entry_sha256": "d0b23c4ec7424cee266de1665981e9faaafe747718bf9c3622bf535d8df6a097",
+      "seq": 30,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "senate_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. Senate after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.355,
+        0.435,
+        0.21000000000000002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_dem__r1",
+      "entry_sha256": "d983586eba1b97d0074ac4386685517be2b7e39239cd7cf2a8ffa45af8dce5f6",
+      "seq": 31,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "senate_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. Senate after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.59,
+        0.21,
+        0.2
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_ind__r1",
+      "entry_sha256": "6596728f4dfd244ca1cab9920f3f4b521e86867d9570e71dc8d29631ef69fefb",
+      "seq": 32,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "senate_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. Senate after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.31,
+        0.375,
+        0.315
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_rep__r1",
+      "entry_sha256": "fa007ca266f603532bf0e768b3911fdad422f26b34fc7f84c6484b749c6d4dee",
+      "seq": 33,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "senate_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. Senate after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.095,
+        0.745,
+        0.16
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__age_18_29__r1",
+      "entry_sha256": "cb3c391d27eb8a0e660506547bdd8b1c70803c6d5f4c00abec41d32a1969dcfa",
+      "seq": 34,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "senate_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. Senate after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.395,
+        0.36,
+        0.245
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__age_65_plus__r1",
+      "entry_sha256": "aa9d4deaa6b3e2bebb9551d758037d0ca5b61828f3c8d47ab86cc72fcc44def5",
+      "seq": 35,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "senate_majority_expectation",
+        "text": "Which party do you think will have a majority in the U.S. Senate after the elections in November?",
+        "type": "categorical",
+        "options": [
+          "Democratic Party",
+          "Republican Party",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.375,
+        0.44,
+        0.185
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__overall__r1",
+      "entry_sha256": "481b5ebc9bca68d0b262f82f6ab6fcc0b70907d94d9bcd8caa743daa0958eaa4",
+      "seq": 36,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "election_fairness_confidence",
+        "text": "How much confidence do you have that the 2026 congressional elections will be held fairly?",
+        "type": "ordinal",
+        "options": [
+          "A great deal",
+          "Quite a bit",
+          "A moderate amount",
+          "Only a little",
+          "None at all",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.215,
+        0.245,
+        0.26,
+        0.165,
+        0.07500000000000001,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__party_dem__r1",
+      "entry_sha256": "50166a35033a6049ccc178ae52bd2ba09b3d11901e9fd8753bae1ddd7adc799b",
+      "seq": 37,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "election_fairness_confidence",
+        "text": "How much confidence do you have that the 2026 congressional elections will be held fairly?",
+        "type": "ordinal",
+        "options": [
+          "A great deal",
+          "Quite a bit",
+          "A moderate amount",
+          "Only a little",
+          "None at all",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.26,
+        0.28,
+        0.24,
+        0.13,
+        0.06,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__party_ind__r1",
+      "entry_sha256": "ff559fe2ec5a024d3ad2e9572fb8ecdd440f31acaa1b8511128e928f163315d0",
+      "seq": 38,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "election_fairness_confidence",
+        "text": "How much confidence do you have that the 2026 congressional elections will be held fairly?",
+        "type": "ordinal",
+        "options": [
+          "A great deal",
+          "Quite a bit",
+          "A moderate amount",
+          "Only a little",
+          "None at all",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.19,
+        0.215,
+        0.255,
+        0.17,
+        0.10500000000000001,
+        0.065
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__party_rep__r1",
+      "entry_sha256": "e5d6c1dfa2c27fbbff7dab92bfe28d19f164eed605c961c9547c60e4be98552f",
+      "seq": 39,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "election_fairness_confidence",
+        "text": "How much confidence do you have that the 2026 congressional elections will be held fairly?",
+        "type": "ordinal",
+        "options": [
+          "A great deal",
+          "Quite a bit",
+          "A moderate amount",
+          "Only a little",
+          "None at all",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.19,
+        0.245,
+        0.29,
+        0.17,
+        0.07500000000000001,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__age_18_29__r1",
+      "entry_sha256": "cf486d1eefc67034a4cadb52eb238f463eebe4ffafbf25625495ee8e3aa6c896",
+      "seq": 40,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "election_fairness_confidence",
+        "text": "How much confidence do you have that the 2026 congressional elections will be held fairly?",
+        "type": "ordinal",
+        "options": [
+          "A great deal",
+          "Quite a bit",
+          "A moderate amount",
+          "Only a little",
+          "None at all",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.17,
+        0.22,
+        0.27,
+        0.185,
+        0.095,
+        0.06
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__age_65_plus__r1",
+      "entry_sha256": "aa346db7ac99df01ebf61d8ad8b5b2dd66651869f9a0a16481d0f1d7145e91c4",
+      "seq": 41,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "election_fairness_confidence",
+        "text": "How much confidence do you have that the 2026 congressional elections will be held fairly?",
+        "type": "ordinal",
+        "options": [
+          "A great deal",
+          "Quite a bit",
+          "A moderate amount",
+          "Only a little",
+          "None at all",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.29500000000000004,
+        0.255,
+        0.22,
+        0.13,
+        0.07500000000000001,
+        0.025
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_state__overall__r1",
+      "entry_sha256": "2a479d5a35b0aeccd6e2721b7f0bc2733f480fd03a238b5f8653ad6959648e14",
+      "seq": 42,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_state",
+        "text": "How would you describe the current state of the American economy?",
+        "type": "ordinal",
+        "options": [
+          "Excellent",
+          "Good",
+          "Fair",
+          "Poor",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.055,
+        0.22,
+        0.32,
+        0.385,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_dem__r1",
+      "entry_sha256": "d971022e4ed31d6a9edf8967c239270e1f6f499232253e2eb4530e9e094e3625",
+      "seq": 43,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_state",
+        "text": "How would you describe the current state of the American economy?",
+        "type": "ordinal",
+        "options": [
+          "Excellent",
+          "Good",
+          "Fair",
+          "Poor",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.020000000000000004,
+        0.085,
+        0.29000000000000004,
+        0.585,
+        0.020000000000000004
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_ind__r1",
+      "entry_sha256": "a44f26870c38a4010fbaed2ca39cd8e5762d46ac064ac83323ad6f3a884b2857",
+      "seq": 44,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_state",
+        "text": "How would you describe the current state of the American economy?",
+        "type": "ordinal",
+        "options": [
+          "Excellent",
+          "Good",
+          "Fair",
+          "Poor",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.0325,
+        0.16749999999999998,
+        0.3375,
+        0.44,
+        0.0225
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_rep__r1",
+      "entry_sha256": "157d6ae784ddc9bab5d7626c78e94777ab4502a51f76c4491181d2ab2c367e44",
+      "seq": 45,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_state",
+        "text": "How would you describe the current state of the American economy?",
+        "type": "ordinal",
+        "options": [
+          "Excellent",
+          "Good",
+          "Fair",
+          "Poor",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.16,
+        0.41000000000000003,
+        0.29000000000000004,
+        0.13,
+        0.01
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_state__age_18_29__r1",
+      "entry_sha256": "a2740326bcd8c9651b4b875809a780fc12b6bfa59723608eb7ff2ebbed570fc1",
+      "seq": 46,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_state",
+        "text": "How would you describe the current state of the American economy?",
+        "type": "ordinal",
+        "options": [
+          "Excellent",
+          "Good",
+          "Fair",
+          "Poor",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.05,
+        0.17,
+        0.325,
+        0.425,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_state__age_65_plus__r1",
+      "entry_sha256": "dd2573f2424cef9ee0f0a7f7b1cc9ff821c8ca2c513c0c06f803555827b1faad",
+      "seq": 47,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_state",
+        "text": "How would you describe the current state of the American economy?",
+        "type": "ordinal",
+        "options": [
+          "Excellent",
+          "Good",
+          "Fair",
+          "Poor",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.06,
+        0.235,
+        0.315,
+        0.38,
+        0.01
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_trend__overall__r1",
+      "entry_sha256": "f750dd850250766a170d5d7e468238574a12da2aea55ef22c4812314d574f194",
+      "seq": 48,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_trend",
+        "text": "Overall, do you think the economy is getting better or getting worse?",
+        "type": "ordinal",
+        "options": [
+          "Getting better",
+          "About the same",
+          "Getting worse",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.25,
+        0.235,
+        0.48,
+        0.035
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_dem__r1",
+      "entry_sha256": "f95e509b4f24b534467e4e8c9f2d5d68e5b7b978aac0814db54cbcc95789ff47",
+      "seq": 49,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_trend",
+        "text": "Overall, do you think the economy is getting better or getting worse?",
+        "type": "ordinal",
+        "options": [
+          "Getting better",
+          "About the same",
+          "Getting worse",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.065,
+        0.175,
+        0.73,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_ind__r1",
+      "entry_sha256": "a091966884b8db2cfee9164339afccfed8cc1ebcb9dcf404ae42ad99b7dc8db2",
+      "seq": 50,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_trend",
+        "text": "Overall, do you think the economy is getting better or getting worse?",
+        "type": "ordinal",
+        "options": [
+          "Getting better",
+          "About the same",
+          "Getting worse",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.18,
+        0.27,
+        0.505,
+        0.045
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_rep__r1",
+      "entry_sha256": "d0581afb29cc0e970ee4f780e6eb259d0830cdbe056c69128f49753cdf1f46fc",
+      "seq": 51,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_trend",
+        "text": "Overall, do you think the economy is getting better or getting worse?",
+        "type": "ordinal",
+        "options": [
+          "Getting better",
+          "About the same",
+          "Getting worse",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.5,
+        0.27,
+        0.2,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_trend__age_18_29__r1",
+      "entry_sha256": "4fb483ea3937ec31b0fd6d5735d0236db27e7b83a206cdd743a7388a8cc1fb48",
+      "seq": 52,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_trend",
+        "text": "Overall, do you think the economy is getting better or getting worse?",
+        "type": "ordinal",
+        "options": [
+          "Getting better",
+          "About the same",
+          "Getting worse",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.175,
+        0.25,
+        0.525,
+        0.05
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__economy_trend__age_65_plus__r1",
+      "entry_sha256": "0d2623a95ce48ca8780ea842e6574f5984d8f0f0306985df4422148ce679539a",
+      "seq": 53,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_trend",
+        "text": "Overall, do you think the economy is getting better or getting worse?",
+        "type": "ordinal",
+        "options": [
+          "Getting better",
+          "About the same",
+          "Getting worse",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.245,
+        0.24,
+        0.495,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__overall__r1",
+      "entry_sha256": "b6e307afe228a6cf4ff06a3622e0125f304ecbe417a519be07fa26ce24b41bd1",
+      "seq": 54,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "most_important_issue",
+        "text": "Which of these is the most important issue for you?",
+        "type": "categorical",
+        "options": [
+          "Inflation/prices",
+          "Jobs and the economy",
+          "Health care",
+          "Immigration",
+          "Taxes and government spending",
+          "National Security",
+          "Civil rights",
+          "Climate change and the environment",
+          "Civil liberties",
+          "Guns",
+          "Abortion",
+          "Crime",
+          "Education",
+          "Foreign policy",
+          "Criminal justice reform"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.22,
+        0.14,
+        0.106,
+        0.098,
+        0.0775,
+        0.0565,
+        0.0535,
+        0.051000000000000004,
+        0.0455,
+        0.035,
+        0.034,
+        0.028999999999999998,
+        0.025,
+        0.0175,
+        0.0115
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_dem__r1",
+      "entry_sha256": "2bf82fbd881e9120f7e42072ad5fcd86049f5deac7810c894bbcb7eed0534a39",
+      "seq": 55,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "most_important_issue",
+        "text": "Which of these is the most important issue for you?",
+        "type": "categorical",
+        "options": [
+          "Inflation/prices",
+          "Jobs and the economy",
+          "Health care",
+          "Immigration",
+          "Taxes and government spending",
+          "National Security",
+          "Civil rights",
+          "Climate change and the environment",
+          "Civil liberties",
+          "Guns",
+          "Abortion",
+          "Crime",
+          "Education",
+          "Foreign policy",
+          "Criminal justice reform"
+        ]
+      },
+      "group": {
+        "id": "party_dem",
+        "label": "Democrats (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.2025,
+        0.1225,
+        0.1375,
+        0.03,
+        0.03,
+        0.0275,
+        0.0675,
+        0.12,
+        0.0475,
+        0.052500000000000005,
+        0.0875,
+        0.0225,
+        0.03,
+        0.0125,
+        0.01
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_ind__r1",
+      "entry_sha256": "03a037af8bc58808293899001e7c4bd6721535d21c0a181a0a33da67a16a7bb6",
+      "seq": 56,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "most_important_issue",
+        "text": "Which of these is the most important issue for you?",
+        "type": "categorical",
+        "options": [
+          "Inflation/prices",
+          "Jobs and the economy",
+          "Health care",
+          "Immigration",
+          "Taxes and government spending",
+          "National Security",
+          "Civil rights",
+          "Climate change and the environment",
+          "Civil liberties",
+          "Guns",
+          "Abortion",
+          "Crime",
+          "Education",
+          "Foreign policy",
+          "Criminal justice reform"
+        ]
+      },
+      "group": {
+        "id": "party_ind",
+        "label": "Independents (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.2525,
+        0.14,
+        0.1,
+        0.09,
+        0.075,
+        0.049,
+        0.048,
+        0.048,
+        0.049,
+        0.031,
+        0.035,
+        0.026500000000000003,
+        0.026000000000000002,
+        0.018000000000000002,
+        0.012
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_rep__r1",
+      "entry_sha256": "7585e42e9a119622dbb98a51499dad66af6db0e14087093a5ead0f9332430ef1",
+      "seq": 57,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "most_important_issue",
+        "text": "Which of these is the most important issue for you?",
+        "type": "categorical",
+        "options": [
+          "Inflation/prices",
+          "Jobs and the economy",
+          "Health care",
+          "Immigration",
+          "Taxes and government spending",
+          "National Security",
+          "Civil rights",
+          "Climate change and the environment",
+          "Civil liberties",
+          "Guns",
+          "Abortion",
+          "Crime",
+          "Education",
+          "Foreign policy",
+          "Criminal justice reform"
+        ]
+      },
+      "group": {
+        "id": "party_rep",
+        "label": "Republicans (Party ID crosstab column)"
+      },
+      "forecast": [
+        0.2525,
+        0.1675,
+        0.0625,
+        0.1775,
+        0.0875,
+        0.0675,
+        0.013999999999999999,
+        0.013999999999999999,
+        0.0225,
+        0.025,
+        0.035,
+        0.0285,
+        0.020999999999999998,
+        0.0165,
+        0.0085
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__age_18_29__r1",
+      "entry_sha256": "581c6f39b7369afb2f5c52892ffd968e4ef212abc5a4e017744c06043e303a54",
+      "seq": 58,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "most_important_issue",
+        "text": "Which of these is the most important issue for you?",
+        "type": "categorical",
+        "options": [
+          "Inflation/prices",
+          "Jobs and the economy",
+          "Health care",
+          "Immigration",
+          "Taxes and government spending",
+          "National Security",
+          "Civil rights",
+          "Climate change and the environment",
+          "Civil liberties",
+          "Guns",
+          "Abortion",
+          "Crime",
+          "Education",
+          "Foreign policy",
+          "Criminal justice reform"
+        ]
+      },
+      "group": {
+        "id": "age_18_29",
+        "label": "Age 18-29"
+      },
+      "forecast": [
+        0.2275,
+        0.1475,
+        0.0975,
+        0.0625,
+        0.05,
+        0.03,
+        0.06,
+        0.08,
+        0.0325,
+        0.037500000000000006,
+        0.07,
+        0.03,
+        0.037500000000000006,
+        0.02,
+        0.0175
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__age_65_plus__r1",
+      "entry_sha256": "2920b71f98a7630e7264ff08b9cf452f0a42a23dd5d7447f7b17e5893ec30f19",
+      "seq": 59,
+      "batch_id": "us-economist-yougov-2026-10-24__20261023T213432884003Z__s0",
+      "locked_at": "2026-10-23T21:34:32Z",
+      "state": "scored",
+      "question": {
+        "id": "most_important_issue",
+        "text": "Which of these is the most important issue for you?",
+        "type": "categorical",
+        "options": [
+          "Inflation/prices",
+          "Jobs and the economy",
+          "Health care",
+          "Immigration",
+          "Taxes and government spending",
+          "National Security",
+          "Civil rights",
+          "Climate change and the environment",
+          "Civil liberties",
+          "Guns",
+          "Abortion",
+          "Crime",
+          "Education",
+          "Foreign policy",
+          "Criminal justice reform"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.21,
+        0.1125,
+        0.1225,
+        0.1325,
+        0.0625,
+        0.075,
+        0.0475,
+        0.0775,
+        0.042499999999999996,
+        0.025,
+        0.037500000000000006,
+        0.0225,
+        0.011,
+        0.015,
+        0.006500000000000001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "target_id": "us-abc-post-ipsos-2026-10-26",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__anchored3__trump_job_approval__overall__r1",
+      "entry_sha256": "1fd0b3194af0b12383480940cde7313a7364f721d3b91cbf3e642ebe92d6b5d8",
+      "seq": 218,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__anchored3__20261024T023855407194Z__s218",
+      "locked_at": "2026-10-24T02:38:55Z"
+    },
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__anchored3__direction__overall__r1",
+      "entry_sha256": "dea596423f51ca444fdf174c5300fc19c8de3d78a7c03981a371851fb6e7051e",
+      "seq": 219,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__anchored3__20261024T023855407194Z__s218",
+      "locked_at": "2026-10-24T02:38:55Z"
+    }
+  ]
+}

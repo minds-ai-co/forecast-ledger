@@ -1,0 +1,31 @@
+{
+  "target_id": "de-ard-deutschlandtrend-2026-11",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "b02899f12ad738fc0ea2d85a88199dc079355023c444f4ff308b78f4ee3e9372",
+      "seq": 212,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__anchored3__20261024T023747193694Z__s212",
+      "locked_at": "2026-10-24T02:37:47Z"
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__government_satisfaction__overall__r1",
+      "entry_sha256": "5a768cc8850981b324d16277a5756146d3d1ca30b99b075b20b9fc53d642365d",
+      "seq": 213,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__anchored3__20261024T023747193694Z__s212",
+      "locked_at": "2026-10-24T02:37:47Z"
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__merz_satisfaction__overall__r1",
+      "entry_sha256": "7494757212c23001c75e75e2f782ad4a631a2c2b6567d3280fa42dfb0d82f7b6",
+      "seq": 214,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__anchored3__20261024T023747193694Z__s212",
+      "locked_at": "2026-10-24T02:37:47Z"
+    }
+  ]
+}

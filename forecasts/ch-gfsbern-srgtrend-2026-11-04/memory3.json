@@ -1,0 +1,45 @@
+{
+  "target_id": "ch-gfsbern-srgtrend-2026-11-04",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_ahv_mwst__overall__r1",
+      "entry_sha256": "bb09d706fb1bd35f655f6235f306ee00688a62c829ea83765c0f1b11e3d1d926",
+      "seq": 1790,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__20261030T185809278245Z__s1790",
+      "locked_at": "2026-10-30T18:58:09Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_feuerwerk__overall__r1",
+      "entry_sha256": "45513e2e0b0ef587f1098eab27a22fcda90adf51dd0d56dc051262329e0fdbc0",
+      "seq": 1791,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__20261030T185809278245Z__s1790",
+      "locked_at": "2026-10-30T18:58:09Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_fairness__overall__r1",
+      "entry_sha256": "c65f0b48527e0d530d23e0522b7def913712859ac293cf87b5b908208f89783f",
+      "seq": 1792,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__20261030T185809278245Z__s1790",
+      "locked_at": "2026-10-30T18:58:09Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_kriegsmaterial_3way__overall__r1",
+      "entry_sha256": "ef62eadd0382e7839b6ec139895a1d89a99ece7d9e12d4712588821ee823c636",
+      "seq": 1793,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__20261030T185809278245Z__s1790",
+      "locked_at": "2026-10-30T18:58:09Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__participation_definite__overall__r1",
+      "entry_sha256": "e8e1ee0bf4412df5f3c58b98e88bbaaf090b36df1ea0afc376fe1dbc54122b42",
+      "seq": 1794,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__20261030T185809278245Z__s1790",
+      "locked_at": "2026-10-30T18:58:09Z"
+    }
+  ]
+}

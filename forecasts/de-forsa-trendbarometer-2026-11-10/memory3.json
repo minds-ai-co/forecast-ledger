@@ -1,0 +1,17 @@
+{
+  "target_id": "de-forsa-trendbarometer-2026-11-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "c7f326ba7ae44bbb3cabd8e07bdf89f6c5f5ba7d01bd64c089f2ba75d659cbb6",
+      "seq": 1839,
+      "batch_id": "de-forsa-trendbarometer-2026-11-10__memory3__20261101T121816863283Z__s1839",
+      "locked_at": "2026-11-01T12:18:16Z"
+    }
+  ]
+}

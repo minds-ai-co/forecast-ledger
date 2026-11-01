@@ -1,0 +1,76 @@
+{
+  "target_id": "us-emerson-national-2026-10-26",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-emerson-national-2026-10-26__trump_job_approval__overall__r1",
+      "entry_sha256": "5fb8e250b6f6b6f354b6d692b143e09cdbe0c125d9e489917ed3286503a98e45",
+      "seq": 94,
+      "batch_id": "us-emerson-national-2026-10-26__20261024T014852547101Z__s94",
+      "locked_at": "2026-10-24T01:48:52Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the job Donald Trump is doing as President?",
+        "type": "categorical",
+        "options": [
+          "Approve",
+          "Disapprove",
+          "Neutral or no opinion"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.435,
+        0.516,
+        0.049
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-emerson-national-2026-10-26__congress_ballot__overall__r1",
+      "entry_sha256": "d985112ac97e4952d42f22da8a8f044676a9894709019c427b6ab5ace18f2121",
+      "seq": 95,
+      "batch_id": "us-emerson-national-2026-10-26__20261024T014852547101Z__s94",
+      "locked_at": "2026-10-24T01:48:52Z",
+      "state": "scored",
+      "question": {
+        "id": "congress_ballot",
+        "text": "If the 2026 election for US Congress were held today, would you support the Democratic candidate or the Republican candidate on the ballot?",
+        "type": "categorical",
+        "options": [
+          "Democratic candidate",
+          "Republican candidate",
+          "Undecided"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.481,
+        0.4425,
+        0.0765
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

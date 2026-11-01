@@ -1,0 +1,38 @@
+{
+  "target_id": "us-nyfed-sce-2026-11-01",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__anchored3__financial_situation_vs_year_ago__overall__r1",
+      "entry_sha256": "f664374bc03d11f3fc9041e5d117a12b50a5d85c74e9de61bf3e15b8d9ffe658",
+      "seq": 1748,
+      "batch_id": "us-nyfed-sce-2026-11-01__anchored3__20261030T065823777893Z__s1748",
+      "locked_at": "2026-10-30T06:58:23Z"
+    },
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__anchored3__financial_situation_year_ahead__overall__r1",
+      "entry_sha256": "66a870674db19415b90003ea15b3021411e30f7b3daec7ba58c34ca9c0f648db",
+      "seq": 1749,
+      "batch_id": "us-nyfed-sce-2026-11-01__anchored3__20261030T065823777893Z__s1748",
+      "locked_at": "2026-10-30T06:58:23Z"
+    },
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__anchored3__credit_access_vs_year_ago__overall__r1",
+      "entry_sha256": "f7767fc4234cfd93ce12f9ba0af2cdf04cfe8d588a8515e54071acece4360a59",
+      "seq": 1750,
+      "batch_id": "us-nyfed-sce-2026-11-01__anchored3__20261030T065823777893Z__s1748",
+      "locked_at": "2026-10-30T06:58:23Z"
+    },
+    {
+      "entry_id": "us-nyfed-sce-2026-11-01__anchored3__credit_access_year_ahead__overall__r1",
+      "entry_sha256": "556080030ffac67c093f72c7c444dee7490fd40c2046eca66d718bd20d20783a",
+      "seq": 1751,
+      "batch_id": "us-nyfed-sce-2026-11-01__anchored3__20261030T065823777893Z__s1748",
+      "locked_at": "2026-10-30T06:58:23Z"
+    }
+  ]
+}

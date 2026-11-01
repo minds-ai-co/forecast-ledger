@@ -1,0 +1,24 @@
+{
+  "target_id": "fr-ifop-popularite-2026-11-04",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__memory3__satisfaction_macron__overall__r1",
+      "entry_sha256": "45cae93ca56db2361e767b31376845dbc29758b62afac0e678834a9541e8328f",
+      "seq": 1799,
+      "batch_id": "fr-ifop-popularite-2026-11-04__memory3__20261101T005113241647Z__s1799",
+      "locked_at": "2026-11-01T00:51:13Z"
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__memory3__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "d1e708af92c05644a915a1aadd66421bd16b280e20dbe88be529c7499ab63a25",
+      "seq": 1800,
+      "batch_id": "fr-ifop-popularite-2026-11-04__memory3__20261101T005113241647Z__s1799",
+      "locked_at": "2026-11-01T00:51:13Z"
+    }
+  ]
+}

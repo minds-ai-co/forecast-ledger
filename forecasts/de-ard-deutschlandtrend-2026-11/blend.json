@@ -1,0 +1,31 @@
+{
+  "target_id": "de-ard-deutschlandtrend-2026-11",
+  "variant": "blend",
+  "variant_label": "Additional research forecast (blend)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__blend__sonntagsfrage__overall__r1",
+      "entry_sha256": "a0188d9d4c9c4e55cbfdbf28cfaaf40e3997926c70363777cf2716295673fb38",
+      "seq": 1297,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__blend__20261028T001539158533Z__s1297",
+      "locked_at": "2026-10-28T00:15:39Z"
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__blend__government_satisfaction__overall__r1",
+      "entry_sha256": "246dea9139cd28108eb2e8e1827a711277edd4e4bc2d9883bfa21abed1fed6f6",
+      "seq": 1298,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__blend__20261028T001539158533Z__s1297",
+      "locked_at": "2026-10-28T00:15:39Z"
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__blend__merz_satisfaction__overall__r1",
+      "entry_sha256": "c9d3c2e5acb2c69b9a57d360ad1b40cd5ed296aaa13b1953dbbca3310fd57525",
+      "seq": 1299,
+      "batch_id": "de-ard-deutschlandtrend-2026-11__blend__20261028T001539158533Z__s1297",
+      "locked_at": "2026-10-28T00:15:39Z"
+    }
+  ]
+}

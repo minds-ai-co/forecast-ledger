@@ -1,0 +1,59 @@
+{
+  "target_id": "us-gallup-2026-11",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-gallup-2026-11__us_satisfaction__overall__r1",
+      "entry_sha256": "9eb79f819aa494b34834cdb02276eb4b1274dad9fe16f2b749faccb06196e30e",
+      "seq": 1756,
+      "batch_id": "us-gallup-2026-11__20261030T160838335632Z__s1756",
+      "locked_at": "2026-10-30T16:08:38Z"
+    },
+    {
+      "entry_id": "us-gallup-2026-11__economic_conditions__overall__r1",
+      "entry_sha256": "4aeed3993c318fe444c0f2bbca742d403d89e24b37453812080f57055334b1a3",
+      "seq": 1757,
+      "batch_id": "us-gallup-2026-11__20261030T160838335632Z__s1756",
+      "locked_at": "2026-10-30T16:08:38Z"
+    },
+    {
+      "entry_id": "us-gallup-2026-11__economic_outlook__overall__r1",
+      "entry_sha256": "b57fc9563fdef9624f25c1120e6e47225d5c6bff42fa86caf29bb4b463d5da2b",
+      "seq": 1758,
+      "batch_id": "us-gallup-2026-11__20261030T160838335632Z__s1756",
+      "locked_at": "2026-10-30T16:08:38Z"
+    },
+    {
+      "entry_id": "us-gallup-2026-11__mip_government__overall__r1",
+      "entry_sha256": "7a84defffe8738865283d45e8cb5dcd0a6189cd924bbf42fbafcd561ebb24438",
+      "seq": 1759,
+      "batch_id": "us-gallup-2026-11__20261030T160838335632Z__s1756",
+      "locked_at": "2026-10-30T16:08:38Z"
+    },
+    {
+      "entry_id": "us-gallup-2026-11__mip_immigration__overall__r1",
+      "entry_sha256": "56940f84d647c24124f670e5c37b8c81b5fe8c261d13d29a00762556708786ae",
+      "seq": 1760,
+      "batch_id": "us-gallup-2026-11__20261030T160838335632Z__s1756",
+      "locked_at": "2026-10-30T16:08:38Z"
+    },
+    {
+      "entry_id": "us-gallup-2026-11__mip_cost_of_living__overall__r1",
+      "entry_sha256": "45a31adb560786d65a97231f2015e10f5d01b87a5c17f660b8a879462dbdb32d",
+      "seq": 1761,
+      "batch_id": "us-gallup-2026-11__20261030T160838335632Z__s1756",
+      "locked_at": "2026-10-30T16:08:38Z"
+    },
+    {
+      "entry_id": "us-gallup-2026-11__mip_economy_general__overall__r1",
+      "entry_sha256": "cd5dc001d6311812b5267bb06db165acfccefd17183eca9a5dda09e84c250d14",
+      "seq": 1762,
+      "batch_id": "us-gallup-2026-11__20261030T160838335632Z__s1756",
+      "locked_at": "2026-10-30T16:08:38Z"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "target_id": "us-umich-sca-2026-11",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-umich-sca-2026-11__pago__overall__r1",
+      "entry_sha256": "16ccfa2797a6781029ac845674343406350949312c2dff4f3c2952c1909c8a51",
+      "seq": 114,
+      "batch_id": "us-umich-sca-2026-11__20261024T020539759794Z__s114",
+      "locked_at": "2026-10-24T02:05:39Z"
+    },
+    {
+      "entry_id": "us-umich-sca-2026-11__pexp__overall__r1",
+      "entry_sha256": "a67ac3ad9e5a3571a11a9da22a41118e97c4abe552478639f73a0f5988cb348d",
+      "seq": 115,
+      "batch_id": "us-umich-sca-2026-11__20261024T020539759794Z__s114",
+      "locked_at": "2026-10-24T02:05:39Z"
+    },
+    {
+      "entry_id": "us-umich-sca-2026-11__bus12__overall__r1",
+      "entry_sha256": "24ffbb77c9f668638df35e1d50a3727dffb4adfb1ba365f793befd2b00c1f55a",
+      "seq": 116,
+      "batch_id": "us-umich-sca-2026-11__20261024T020539759794Z__s114",
+      "locked_at": "2026-10-24T02:05:39Z"
+    },
+    {
+      "entry_id": "us-umich-sca-2026-11__unemp__overall__r1",
+      "entry_sha256": "47f7bbdd03f54a8e426fd275a0e025d915817e7df147dfb8a1d1543da5d8a0bf",
+      "seq": 117,
+      "batch_id": "us-umich-sca-2026-11__20261024T020539759794Z__s114",
+      "locked_at": "2026-10-24T02:05:39Z"
+    },
+    {
+      "entry_id": "us-umich-sca-2026-11__govt__overall__r1",
+      "entry_sha256": "d72316f636618a77492d5b0feda3f99da7a13976159d0b352a854a651c8394f5",
+      "seq": 118,
+      "batch_id": "us-umich-sca-2026-11__20261024T020539759794Z__s114",
+      "locked_at": "2026-10-24T02:05:39Z"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "target_id": "gb-ipsos-political-monitor-2026-11-19",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-ipsos-political-monitor-2026-11-19__westminster_vi__overall__r1",
+      "entry_sha256": "4a420d4f86044ddec149c1ea7c905db0581317f9a8c70f630025861798cd1dcb",
+      "seq": 1115,
+      "batch_id": "gb-ipsos-political-monitor-2026-11-19__20261027T005253026167Z__s1115",
+      "locked_at": "2026-10-27T00:52:53Z"
+    },
+    {
+      "entry_id": "gb-ipsos-political-monitor-2026-11-19__government_satisfaction__overall__r1",
+      "entry_sha256": "8862e7ce610c5dee9ec9e2116afa069165668968c8d54998fe3bdc4c67ff842c",
+      "seq": 1116,
+      "batch_id": "gb-ipsos-political-monitor-2026-11-19__20261027T005253026167Z__s1115",
+      "locked_at": "2026-10-27T00:52:53Z"
+    },
+    {
+      "entry_id": "gb-ipsos-political-monitor-2026-11-19__burnham_satisfaction__overall__r1",
+      "entry_sha256": "1c2767a4a8ca04ae18d7b04bd72d94b764ac58bcb2e6622cbf743f76efafab33",
+      "seq": 1117,
+      "batch_id": "gb-ipsos-political-monitor-2026-11-19__20261027T005253026167Z__s1115",
+      "locked_at": "2026-10-27T00:52:53Z"
+    },
+    {
+      "entry_id": "gb-ipsos-political-monitor-2026-11-19__badenoch_satisfaction__overall__r1",
+      "entry_sha256": "4399b48be38c6ed8abf9e8287642ddd023f6c399abc645a4be8e1450a05936c5",
+      "seq": 1118,
+      "batch_id": "gb-ipsos-political-monitor-2026-11-19__20261027T005253026167Z__s1115",
+      "locked_at": "2026-10-27T00:52:53Z"
+    },
+    {
+      "entry_id": "gb-ipsos-political-monitor-2026-11-19__farage_satisfaction__overall__r1",
+      "entry_sha256": "ddbc34bd0a046faa0e1676176d658ec06d908c8835f0ce597407409b02c0cfcc",
+      "seq": 1119,
+      "batch_id": "gb-ipsos-political-monitor-2026-11-19__20261027T005253026167Z__s1115",
+      "locked_at": "2026-10-27T00:52:53Z"
+    },
+    {
+      "entry_id": "gb-ipsos-political-monitor-2026-11-19__polanski_satisfaction__overall__r1",
+      "entry_sha256": "fbb59896c308289559327432c3ccf14a460de9256141c87bfd071e656ecd666e",
+      "seq": 1120,
+      "batch_id": "gb-ipsos-political-monitor-2026-11-19__20261027T005253026167Z__s1115",
+      "locked_at": "2026-10-27T00:52:53Z"
+    }
+  ]
+}

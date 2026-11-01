@@ -1,0 +1,24 @@
+{
+  "target_id": "fr-ipsos-bva-tribune-2026-11-04",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__popularity_macron__overall__r1",
+      "entry_sha256": "3cca9f56c0a1a839727737fba6fca63ccf1a0d6a87ed5572f5df8ed66b6ef973",
+      "seq": 1801,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__20261101T005157679680Z__s1801",
+      "locked_at": "2026-11-01T00:51:57Z"
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__popularity_lecornu__overall__r1",
+      "entry_sha256": "4202d2912942626b470190c1bd0823ec6c3079cbcd42f0e1806ff54005d570aa",
+      "seq": 1802,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__20261101T005157679680Z__s1801",
+      "locked_at": "2026-11-01T00:51:57Z"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "target_id": "us-emerson-national-2026-10-26",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-emerson-national-2026-10-26__memory3__trump_job_approval__overall__r1",
+      "entry_sha256": "dd957e2414a4543d8c02edd20ba3df0ffef3aa9e46bcb19018ac7a82f6e05475",
+      "seq": 965,
+      "batch_id": "us-emerson-national-2026-10-26__memory3__20261025T185823335642Z__s965",
+      "locked_at": "2026-10-25T18:58:23Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the job Donald Trump is doing as President?",
+        "type": "categorical",
+        "options": [
+          "Approve",
+          "Disapprove",
+          "Neutral or no opinion"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.435,
+        0.5125,
+        0.0525
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "us-emerson-national-2026-10-26__memory3__congress_ballot__overall__r1",
+      "entry_sha256": "b2a03689d1f4c75819577f65f2669505287fbff8f081c1c1bbef2eef6a77d9fc",
+      "seq": 966,
+      "batch_id": "us-emerson-national-2026-10-26__memory3__20261025T185823335642Z__s965",
+      "locked_at": "2026-10-25T18:58:23Z",
+      "state": "scored",
+      "question": {
+        "id": "congress_ballot",
+        "text": "If the 2026 election for US Congress were held today, would you support the Democratic candidate or the Republican candidate on the ballot?",
+        "type": "categorical",
+        "options": [
+          "Democratic candidate",
+          "Republican candidate",
+          "Undecided"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.484,
+        0.447,
+        0.069
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    }
+  ]
+}

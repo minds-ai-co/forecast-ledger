@@ -1,0 +1,45 @@
+{
+  "target_id": "gb-freshwater-cityam-2026-11-06",
+  "variant": "blend",
+  "variant_label": "Additional research forecast (blend)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__westminster_vi__overall__r1",
+      "entry_sha256": "124ba05f6f6af86e3d6153c11fff4dc9a75db9de98877100611b7f36c48358ce",
+      "seq": 1315,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__blend__20261028T005428890146Z__s1315",
+      "locked_at": "2026-10-28T00:54:28Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__right_direction__overall__r1",
+      "entry_sha256": "dfaaeae71c47b0426ac493c8e9730b75cb158c1e7c059967da55787bc69f78d0",
+      "seq": 1316,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__blend__20261028T005428890146Z__s1315",
+      "locked_at": "2026-10-28T00:54:28Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "c23e2c98e88f543c8e3b57869cc868022cca8396c0714b38bec7fcfe4ab9895f",
+      "seq": 1317,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__blend__20261028T005428890146Z__s1315",
+      "locked_at": "2026-10-28T00:54:28Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__economy_next_12m__overall__r1",
+      "entry_sha256": "f6b5e9a541a70c4a93859eb9f7714191d1eb2d2e9685e8be654c755e58c48542",
+      "seq": 1318,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__blend__20261028T005428890146Z__s1315",
+      "locked_at": "2026-10-28T00:54:28Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__household_finances_next_12m__overall__r1",
+      "entry_sha256": "3bc53da699510c47dc42cf4dac0f2007cee182411a66706e7bafd530ef217d00",
+      "seq": 1319,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__blend__20261028T005428890146Z__s1315",
+      "locked_at": "2026-10-28T00:54:28Z"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "target_id": "at-ec-ipsos-consumer-survey-2026-10",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__fin_past12__overall__r1",
+      "entry_sha256": "5d56f94be02d327c59531a778be27c96439a9daf30af0d76f971e69be9e8e465",
+      "seq": 1222,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_past12",
+        "text": "Wie hat sich die finanzielle Lage Ihres Haushaltes in den letzten 12 Monaten entwickelt? Sie ...... (Questionnaire item YF1; EC harmonised question Q1: \"How has the financial situation of your household changed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "hat sich wesentlich verbessert",
+          "hat sich etwas verbessert",
+          "ist in etwa gleichgeblieben",
+          "hat sich etwas verschlechtert",
+          "hat sich wesentlich verschlechtert",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.025,
+        0.137,
+        0.48,
+        0.2765,
+        0.0805,
+        0.001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
+      "entry_sha256": "92e968ade327a496737939a7c61861da1c521115526ce07e4d44970204c4a524",
+      "seq": 1223,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_next12",
+        "text": "Wie wird sich Ihrer Ansicht nach die finanzielle Lage Ihres Haushaltes in den kommenden 12 Monaten entwickeln? Sie wird ...... (Questionnaire item YF2; EC harmonised question Q2: \"How do you expect the financial position of your household to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "sich wesentlich verbessern",
+          "sich etwas verbessern",
+          "in etwa gleich bleiben",
+          "sich etwas verschlechtern",
+          "sich wesentlich verschlechtern",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0295,
+        0.151,
+        0.507,
+        0.245,
+        0.0575,
+        0.01
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
+      "entry_sha256": "a12f146a8b84082e3d1bdbed64ea7a4bf3556e56d96df43d60347caf7861ed35",
+      "seq": 1224,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_past12",
+        "text": "Wie hat sich Ihrer Meinung nach die allgemeine Wirtschaftslage in Österreich in den letzten 12 Monaten entwickelt? Sie ...... (Questionnaire item YF3; EC harmonised question Q3: \"How do you think the general economic situation in the country has changed over the past 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "hat sich wesentlich verbessert",
+          "hat sich etwas verbessert",
+          "ist in etwa gleich geblieben",
+          "hat sich etwas verschlechtert",
+          "hat sich wesentlich verschlechtert",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.005,
+        0.072,
+        0.2135,
+        0.4645,
+        0.243,
+        0.002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
+      "entry_sha256": "f7c15358988d17a7fe2938e3264039d6e5658b19711849c17e5d8d575a53e4b6",
+      "seq": 1225,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_next12",
+        "text": "Wie wird sich Ihrer Ansicht nach die allgemeine Wirtschaftslage in Österreich in den kommenden 12 Monaten entwickeln? Sie wird....... (Questionnaire item YF4; EC harmonised question Q4: \"How do you expect the general economic situation in this country to develop over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "sich wesentlich verbessern",
+          "sich etwas verbessern",
+          "in etwa gleich bleiben",
+          "sich etwas verschlechtern",
+          "sich wesentlich verschlechtern",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.006,
+        0.1015,
+        0.318,
+        0.3955,
+        0.167,
+        0.012
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
+      "entry_sha256": "2d7ac79734c167affa7995ab5355d76965b823826a48dfcfd9d2a451e6438680",
+      "seq": 1226,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_past12",
+        "text": "Wie haben sich Ihrer Ansicht nach die Verbraucherpreise in den letzten 12 Monaten entwickelt? Sie sind ........ (Questionnaire item YF5; EC harmonised question Q5: \"How do you think that consumer prices have developed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "stark gestiegen",
+          "in Maßen gestiegen",
+          "leicht gestiegen",
+          "in etwa gleich geblieben",
+          "gesunken",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.416,
+        0.3065,
+        0.2065,
+        0.059,
+        0.01,
+        0.002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
+      "entry_sha256": "943430e75041b865096bf811b8296a3563161823a0ecc2f22ec2dd2c6e0b48a2",
+      "seq": 1227,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_next12",
+        "text": "Wie werden sich Ihrer Ansicht nach die Verbraucherpreise in den kommenden 12 Monaten im Vergleich zu den letzten 12 Monaten entwickeln? Sie werden ...... (Questionnaire item YF6; EC harmonised question Q6: \"By comparison with the past 12 months, how do you expect that consumer prices will develop in the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "stärker als bisher steigen",
+          "etwa im gleichen Maß wie bisher steigen",
+          "weniger stark als bisher steigen",
+          "in etwa gleich bleiben",
+          "sinken",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.159,
+        0.4675,
+        0.1535,
+        0.194,
+        0.008,
+        0.018
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
+      "entry_sha256": "57b10e79a548c3bbd5281d9c71fde24e3bd32b1429533a6ab11e86f1b852e9ca",
+      "seq": 1228,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "unemployment_next12",
+        "text": "Wie wird sich Ihrer Ansicht nach die Zahl der Arbeitslosen in Österreich in den kommenden 12 Monaten entwickeln? Die Zahl wird....... (Questionnaire item YF7; EC harmonised question Q7: \"How do you expect the number of people unemployed in this country to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "stark steigen",
+          "leicht steigen",
+          "in etwa gleich bleiben",
+          "leicht zurückgehen",
+          "stark zurückgehen",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1935,
+        0.4995,
+        0.2595,
+        0.0375,
+        0.002,
+        0.008
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
+      "entry_sha256": "a8522913770ba0566ec4f81bcfd99f2fd1a0d64b6df8a8a4dcf53991e13bc4c6",
+      "seq": 1229,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "major_purchases_now",
+        "text": "Glauben Sie, dass es in Anbetracht der allgemeinen Wirtschaftslage derzeit günstig ist, größere Anschaffungen (Möbel, elektrische/elektronische Geräte usw.) zu tätigen? (Questionnaire item YF8; EC harmonised question Q8: \"In view of the general economic situation, do you think that now it is the right moment for people to make major purchases such as furniture, electrical/electronic devices, etc.?\")",
+        "type": "ordinal",
+        "options": [
+          "ja, der Augenblick ist günstig",
+          "der Augenblick ist weder besonders günstig noch besonders ungünstig",
+          "nein, der Augenblick ist nicht günstig",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.089,
+        0.5375000000000001,
+        0.3655,
+        0.008
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__major_purchases_next12__overall__r1",
+      "entry_sha256": "7b31c8ff35273bd86dba0ad2c6506cfeba335ccca864f6bb51fd265dfee23e43",
+      "seq": 1230,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "major_purchases_next12",
+        "text": "Wollen Sie in den kommenden 12 Monaten für größere Anschaffungen Möbel, elektrische/elektronische Geräte usw.) mehr oder weniger ausgeben als in den letzten 12 Monaten? Ich werde ...... (Questionnaire item YF9; EC harmonised question Q9: \"Compared to the past 12 months, do you expect to spend more or less money on major purchases (furniture, electrical/electronic devices, etc.) over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "wesentlich mehr ausgeben",
+          "etwas mehr ausgeben",
+          "in etwa gleich viel ausgeben",
+          "etwas weniger ausgeben",
+          "wesentlich weniger ausgeben",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.028,
+        0.1095,
+        0.4165,
+        0.20550000000000002,
+        0.2355,
+        0.005
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
+      "entry_sha256": "347160614b975da234b07c65b2314079ef3ae1815c8264173baaff8e98a0d8ef",
+      "seq": 1231,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "savings_next12",
+        "text": "Wie wahrscheinlich ist es, dass Sie in den kommenden 12 Monaten Geld sparen werden? (Questionnaire item YF11; EC harmonised question Q11: \"Over the next 12 months, how likely is it that you save any money?\")",
+        "type": "ordinal",
+        "options": [
+          "sehr wahrscheinlich",
+          "recht wahrscheinlich",
+          "unwahrscheinlich",
+          "sehr unwahrscheinlich",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2505,
+        0.332,
+        0.298,
+        0.1185,
+        0.001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
+      "entry_sha256": "d6981d24fe5552b6d7ab65fe73334f5b8365e68b4021e7de9a2999609639dce4",
+      "seq": 1232,
+      "batch_id": "at-ec-ipsos-consumer-survey-2026-10__anchored3__20261027T012814082528Z__s1222",
+      "locked_at": "2026-10-27T01:28:14Z",
+      "state": "scored",
+      "question": {
+        "id": "household_fin_now",
+        "text": "Wie ist die derzeitige finanzielle Lage Ihres Haushaltes? (Questionnaire item YF12; EC harmonised question Q12: \"Which of these statements best describes the current financial situation of your household?\")",
+        "type": "ordinal",
+        "options": [
+          "wir sparen viel",
+          "wir sparen ein wenig",
+          "wir kommen mit unseren finanziellen Mitteln gerade so aus",
+          "wir greifen etwas unsere Ersparnisse an",
+          "wir verschulden uns",
+          "weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.114,
+        0.451,
+        0.3195,
+        0.07100000000000001,
+        0.0415,
+        0.003
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    }
+  ]
+}

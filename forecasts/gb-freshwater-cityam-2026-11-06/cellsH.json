@@ -1,0 +1,45 @@
+{
+  "target_id": "gb-freshwater-cityam-2026-11-06",
+  "variant": "cellsH",
+  "variant_label": "Additional research forecast (cellsH)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__westminster_vi__overall__r1",
+      "entry_sha256": "881783c293f9b234bd49d53485e15de5f5785128b7c4ad33094a25ea08e5587d",
+      "seq": 1326,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__cells__20261028T010515687934Z__s1325",
+      "locked_at": "2026-10-28T01:05:15Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__right_direction__overall__r1",
+      "entry_sha256": "cd061c72eb8b9bbe1c05ee77a09e953a696d313f3e3f10dc607e3d641e652206",
+      "seq": 1328,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__cells__20261028T010515687934Z__s1325",
+      "locked_at": "2026-10-28T01:05:15Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "a280f2c89ccdf2d17499bcf343786ea0001b5dd8765dd8d5735932e9ce919ca2",
+      "seq": 1330,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__cells__20261028T010515687934Z__s1325",
+      "locked_at": "2026-10-28T01:05:15Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__economy_next_12m__overall__r1",
+      "entry_sha256": "c2004649d84b9aa202b19238acacd362cadaacb7e6ce372d882165ccc4ac2e4a",
+      "seq": 1332,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__cells__20261028T010515687934Z__s1325",
+      "locked_at": "2026-10-28T01:05:15Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__household_finances_next_12m__overall__r1",
+      "entry_sha256": "fd989039529e593af8da3cb7e0967313cb41394174ea4019d6734c4f0c81742c",
+      "seq": 1334,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__cells__20261028T010515687934Z__s1325",
+      "locked_at": "2026-10-28T01:05:15Z"
+    }
+  ]
+}

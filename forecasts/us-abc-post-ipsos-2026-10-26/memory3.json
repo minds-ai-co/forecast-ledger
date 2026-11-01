@@ -1,0 +1,24 @@
+{
+  "target_id": "us-abc-post-ipsos-2026-10-26",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__memory3__trump_job_approval__overall__r1",
+      "entry_sha256": "52b74460c9ad9c22e1ca1293b9078e8d04add541e682381fb3f3ffd713d00e94",
+      "seq": 959,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__memory3__20261025T185458209120Z__s959",
+      "locked_at": "2026-10-25T18:54:58Z"
+    },
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__memory3__direction__overall__r1",
+      "entry_sha256": "9dc14bc9fb38886cc0f481a6c9d748dc741145a05a048d84ce16307155a2bc61",
+      "seq": 960,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__memory3__20261025T185458209120Z__s959",
+      "locked_at": "2026-10-25T18:54:58Z"
+    }
+  ]
+}

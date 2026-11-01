@@ -1,0 +1,122 @@
+{
+  "target_id": "us-census-htops-2609-healthinfo",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__overall__r1",
+      "entry_sha256": "40af9f0c4aaacf9e58f35023be5db02117f782781d10bea3e5c76a1299487332",
+      "seq": 278,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__female__r1",
+      "entry_sha256": "7fa0122c533711fc169a761e2ecf5f6ac1d420bc87b915beefe8fce0915670f7",
+      "seq": 279,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__educ_hs_or_less__r1",
+      "entry_sha256": "e8c341c5f6701c9cab0a36b87b96637405b16fe276aabdfd6a624c93581bcea5",
+      "seq": 280,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__age_65_plus__r1",
+      "entry_sha256": "c99c803f603c9d03d5c6a770adfd8fa9b5d680a21fb30a61eac3786321a457c2",
+      "seq": 281,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__overall__r1",
+      "entry_sha256": "5b4c1d666e57b68d5cb467c7e69804b7170d5e45875c2f57e2e34a4a67424e7b",
+      "seq": 282,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__female__r1",
+      "entry_sha256": "a6c49daeec1b1ec3bd68eedc1ffc5cffa309b6a4e821613a0a0163ae6553c5d0",
+      "seq": 283,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__educ_hs_or_less__r1",
+      "entry_sha256": "6114a295f5af438fd24fa874a42d385f86dfe8b70b58f2d40057fabb2b69ab54",
+      "seq": 284,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__age_65_plus__r1",
+      "entry_sha256": "c8d409425d157763c06259ceec95cd0eddfae1c6aa9c5fe4e4b1a916775e75ef",
+      "seq": 285,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__overall__r1",
+      "entry_sha256": "0777052dcba0fc88b47f0252b952f7424413a03a9cb793debbff3400171416d7",
+      "seq": 286,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__female__r1",
+      "entry_sha256": "9dd110e43c707cb74ca620adfc4d192a3fd99daaa975a4a14524bab0b89ef290",
+      "seq": 287,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__educ_hs_or_less__r1",
+      "entry_sha256": "ca6ab57782836e8f80b3c48c4a910eafee8a2526cd10307583c8227bee366559",
+      "seq": 288,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__age_65_plus__r1",
+      "entry_sha256": "1887bf2d4eb822d70c0e1e4373dd2e75fce8d5c209c7d6a8503007485a03b917",
+      "seq": 289,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__overall__r1",
+      "entry_sha256": "311ce4f5018c9a5c56c18b5e5493a7c56c428db4133b31b9480e8a604f11ff36",
+      "seq": 290,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__female__r1",
+      "entry_sha256": "f395e31f198d26af64860938ffa6079ffeeff4c880b956b4cd2f38efd3153b20",
+      "seq": 291,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__educ_hs_or_less__r1",
+      "entry_sha256": "48499e2e59ad64af75e2a36c547e99a938ead3c872137a91503be1acba3f88fe",
+      "seq": 292,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__age_65_plus__r1",
+      "entry_sha256": "9f7b7659764c3fbb75598f674a2f397fec45fdbc2f618452ec7b783b8882db4f",
+      "seq": 293,
+      "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
+      "locked_at": "2026-10-24T12:43:07Z"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "target_id": "us-voter-poll-ssrs-2026",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__feel_country__overall__r1",
+      "entry_sha256": "b3f2c28d966f313b2ef7364fa7052ec3d6b457c6bf3d8a59007b197e9090c1e6",
+      "seq": 2047,
+      "batch_id": "us-voter-poll-ssrs-2026__anchored3__20261101T140146990415Z__s2047",
+      "locked_at": "2026-11-01T14:01:46Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__national_economy__overall__r1",
+      "entry_sha256": "fd650e2c9309c7b286ce56af4a038a573174b88ec4f37283b485904a9822ba76",
+      "seq": 2048,
+      "batch_id": "us-voter-poll-ssrs-2026__anchored3__20261101T140146990415Z__s2047",
+      "locked_at": "2026-11-01T14:01:46Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__abortion__overall__r1",
+      "entry_sha256": "0e15bff9de6860f0d72aeec343b200993a7cded6ed8c7f63c94ba7c446deb66b",
+      "seq": 2049,
+      "batch_id": "us-voter-poll-ssrs-2026__anchored3__20261101T140146990415Z__s2047",
+      "locked_at": "2026-11-01T14:01:46Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__dem_party_fav__overall__r1",
+      "entry_sha256": "dbfc47e029ae076d224af4b52d52013dee72a01676dcb8a299fb7aa7b52f8c80",
+      "seq": 2050,
+      "batch_id": "us-voter-poll-ssrs-2026__anchored3__20261101T140146990415Z__s2047",
+      "locked_at": "2026-11-01T14:01:46Z"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__rep_party_fav__overall__r1",
+      "entry_sha256": "ffc19de8bb4ab96679d5be26e3877b44b88b883e3c42b30749c9b08545060f3d",
+      "seq": 2051,
+      "batch_id": "us-voter-poll-ssrs-2026__anchored3__20261101T140146990415Z__s2047",
+      "locked_at": "2026-11-01T14:01:46Z"
+    }
+  ]
+}

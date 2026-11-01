@@ -1,0 +1,7 @@
+title: Minds Mosaic forecast ledger
+description: Pre-registered forecasts from Minds Mosaic, locked and timestamped before results exist.
+plugins:
+  - jekyll-readme-index
+  - jekyll-optional-front-matter
+readme_index:
+  enabled: true

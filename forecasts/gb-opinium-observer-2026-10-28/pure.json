@@ -1,0 +1,92 @@
+{
+  "target_id": "gb-opinium-observer-2026-10-28",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__westminster_vi__overall__r1",
+      "entry_sha256": "59497bc4196d160a565e4091dd6522dcf11907d87163df00c8eacc6925e38f80",
+      "seq": 846,
+      "batch_id": "gb-opinium-observer-2026-10-28__20261025T005513181449Z__s846",
+      "locked_at": "2026-10-25T00:55:13Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "If there were a general election tomorrow, for which party would you vote? (Opinium headline voting intention: shares among GB respondents giving a voting intention; don't know and would not vote excluded; \"some other party\" respondents allocated via a follow-up question. Restore Britain and Your Party are counted in Other.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "SNP",
+          "Reform UK",
+          "Plaid Cymru",
+          "Green",
+          "Other"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.201,
+        0.306,
+        0.091,
+        0.028,
+        0.219,
+        0.01,
+        0.101,
+        0.044
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__burnham_approval__overall__r1",
+      "entry_sha256": "bc3acc2d2a7fab324135690b75d098401dfa9bd2322eb90cf785e811a901bfa4",
+      "seq": 847,
+      "batch_id": "gb-opinium-observer-2026-10-28__20261025T005513181449Z__s846",
+      "locked_at": "2026-10-25T00:55:13Z",
+      "state": "scored",
+      "question": {
+        "id": "burnham_approval",
+        "text": "To what extent do you approve or disapprove of the way Andy Burnham is handling his job as Prime Minister?",
+        "type": "categorical",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Neither approve nor disapprove",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0775,
+        0.22749999999999998,
+        0.22999999999999998,
+        0.165,
+        0.20750000000000002,
+        0.0925
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

@@ -1,0 +1,433 @@
+{
+  "target_id": "es-ec-gfk-consumer-survey-2026-10",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__fin_past12__overall__r1",
+      "entry_sha256": "a9a6497e5b17568e323b691a203beccb5406c1bf2c64b301c10c5c26faead555",
+      "seq": 1178,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_past12",
+        "text": "En los últimos 12 meses, ¿cómo ha variado la situación económica de su hogar? (Questionnaire item A01; EC harmonised question Q1: \"How has the financial situation of your household changed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Ha mejorado mucho",
+          "Ha mejorado un poco",
+          "Ha permanecido estacionaria",
+          "Ha empeorado un poco",
+          "Ha empeorado mucho",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0225,
+        0.135,
+        0.5025,
+        0.24,
+        0.0875,
+        0.0125
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__fin_next12__overall__r1",
+      "entry_sha256": "e21b4eaf3ae30fa4ff4c87dd3641d064f0c995d4dc221d9b9c4cdde1749e3146",
+      "seq": 1179,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_next12",
+        "text": "En los próximos 12 meses, ¿cómo espera que cambie la situación económica de su hogar? Va a: (Questionnaire item A02; EC harmonised question Q2: \"How do you expect the financial position of your household to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Mejorar mucho",
+          "Mejorar un poco",
+          "Permanecer estacionaria",
+          "Empeorar un poco",
+          "Empeorar mucho",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.026500000000000003,
+        0.201,
+        0.5075000000000001,
+        0.16999999999999998,
+        0.052500000000000005,
+        0.042499999999999996
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__econ_past12__overall__r1",
+      "entry_sha256": "d5b1d74fc76cfa6723932eb0d1349adda3f1eb1c72b9bc597f59a77662503eb7",
+      "seq": 1180,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_past12",
+        "text": "En los últimos 12 meses, ¿cómo cree usted que la situación económica general en el país ha cambiado? (Questionnaire item A03; EC harmonised question Q3: \"How do you think the general economic situation in the country has changed over the past 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Ha mejorado mucho",
+          "Ha mejorado un poco",
+          "Ha permanecido estacionaria",
+          "Ha empeorado un poco",
+          "Ha empeorado mucho",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0235,
+        0.159,
+        0.2625,
+        0.32,
+        0.215,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__econ_next12__overall__r1",
+      "entry_sha256": "381e673227897400ce9a7d3999b8369c1018d686e98c216c789b3ce7aff53f53",
+      "seq": 1181,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_next12",
+        "text": "En su opinión, durante los próximos 12 meses, ¿cómo espera usted que evolucione la situación económica general en el país? Va a: (Questionnaire item A04; EC harmonised question Q4: \"How do you expect the general economic situation in this country to develop over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Mejorar mucho",
+          "Mejorar un poco",
+          "Permanecer estacionaria",
+          "Empeorar un poco",
+          "Empeorar mucho",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0235,
+        0.1815,
+        0.2975,
+        0.2875,
+        0.16,
+        0.05
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__prices_past12__overall__r1",
+      "entry_sha256": "6791fa45df2527a7d7eb73e4fbb0cf8bd8b4a9548b029304efa85adceb4ef780",
+      "seq": 1182,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_past12",
+        "text": "En los últimos 12 meses, ¿diría usted que los precios para el consumidor han…? (Questionnaire item A05; EC harmonised question Q5: \"How do you think that consumer prices have developed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Subido mucho",
+          "Subido bastante",
+          "Subido un poco",
+          "Seguido igual",
+          "Bajado",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.41000000000000003,
+        0.36,
+        0.15000000000000002,
+        0.0525,
+        0.0125,
+        0.015
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__prices_next12__overall__r1",
+      "entry_sha256": "a90bb55ef0b526eae5cb0b91625ff11c4a81b251d81e2a33f98cc946362e16c7",
+      "seq": 1183,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_next12",
+        "text": "En comparación con los últimos 12 meses, ¿cómo espera usted que evolucionen los precios para el consumidor en los próximos 12 meses? Van a: (Questionnaire item A06; EC harmonised question Q6: \"By comparison with the past 12 months, how do you expect that consumer prices will develop in the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Subir más rápido",
+          "Subir al mismo ritmo",
+          "Subir más despacio",
+          "Seguir igual",
+          "Bajar",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.235,
+        0.41000000000000003,
+        0.15000000000000002,
+        0.13,
+        0.03,
+        0.045
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__unemployment_next12__overall__r1",
+      "entry_sha256": "9b20f7a48d757ceba04ba10af8db52e1f7fd8e4ba74ffbc49f1d4aa67a721974",
+      "seq": 1184,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "unemployment_next12",
+        "text": "En los próximos 12 meses, ¿cómo espera usted que cambie la cantidad de personas sin trabajo en el país? El número de desempleados va a: (Questionnaire item A07; EC harmonised question Q7: \"How do you expect the number of people unemployed in this country to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Aumentar mucho",
+          "Aumentar poco",
+          "Seguir igual",
+          "Disminuir un poco",
+          "Disminuir mucho",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1525,
+        0.2975,
+        0.3125,
+        0.1725,
+        0.025,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__major_purchases_now__overall__r1",
+      "entry_sha256": "6f1836a4c0ba1250383a947835293419cd70cecf959aca6ed79d843394475cc7",
+      "seq": 1185,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "major_purchases_now",
+        "text": "En vista de la situación económica general, ¿Piensa usted que ahora es el momento adecuado para hacer compras importantes como: muebles, electrodomésticos, equipos electrónicos, etc.? (Questionnaire item A08; EC harmonised question Q8: \"In view of the general economic situation, do you think that now it is the right moment for people to make major purchases such as furniture, electrical/electronic devices, etc.?\")",
+        "type": "ordinal",
+        "options": [
+          "Sí, ahora es un buen momento",
+          "No es ni un buen ni un mal momento",
+          "No, ahora no es el momento",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.13,
+        0.37,
+        0.47,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__major_purchases_next12__overall__r1",
+      "entry_sha256": "32e21ea877ce02ee9dc0e8eeadf07414c18272213b0070a3e2a32b96968a7cf2",
+      "seq": 1186,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "major_purchases_next12",
+        "text": "En los próximos 12 meses, ¿espera usted gastar más o menos dinero en compras importantes como: muebles, electrodomés-ticos, equipos electrónicos, etc... que en los 12 meses pasados? Gastaré: (Questionnaire item A09; EC harmonised question Q9: \"Compared to the past 12 months, do you expect to spend more or less money on major purchases (furniture, electrical/electronic devices, etc.) over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "Mucho más",
+          "Un poco más",
+          "Lo mismo",
+          "Un poco menos",
+          "Mucho menos",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0305,
+        0.11399999999999999,
+        0.41200000000000003,
+        0.2045,
+        0.2015,
+        0.037500000000000006
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__savings_next12__overall__r1",
+      "entry_sha256": "4465fe4ac8111e1055ad7e50965d37f57ac58ff97d108e77802d9ed4c8f57802",
+      "seq": 1187,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "savings_next12",
+        "text": "¿Qué probabilidad hay de que usted ahorre algún dinero durante los próximos 12 meses? (Questionnaire item A11; EC harmonised question Q11: \"Over the next 12 months, how likely is it that you save any money?\")",
+        "type": "ordinal",
+        "options": [
+          "Sí, muy probablemente",
+          "Probablemente sí",
+          "Probablemente no",
+          "No, ninguna probabilidad",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.13,
+        0.335,
+        0.245,
+        0.25,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "es-ec-gfk-consumer-survey-2026-10__household_fin_now__overall__r1",
+      "entry_sha256": "e61f629035de10292924b95abb4950e041652b6eae35be197b85799cc78dbaee",
+      "seq": 1188,
+      "batch_id": "es-ec-gfk-consumer-survey-2026-10__20261027T011745341694Z__s1178",
+      "locked_at": "2026-10-27T01:17:45Z",
+      "state": "scored",
+      "question": {
+        "id": "household_fin_now",
+        "text": "¿Cuál de las siguientes frases es la que mejor describiría la actual situación financiera de su hogar? (Questionnaire item A12; EC harmonised question Q12: \"Which of these statements best describes the current financial situation of your household?\")",
+        "type": "ordinal",
+        "options": [
+          "Estamos ahorrando mucho",
+          "Estamos ahorrando un poco",
+          "Logramos llegar justo a final de mes con nuestros ingresos",
+          "Tenemos que recurrir a nuestros ahorros",
+          "Nos estamos endeudando",
+          "No sabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.04,
+        0.345,
+        0.44,
+        0.1075,
+        0.0475,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    }
+  ]
+}

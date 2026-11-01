@@ -1,0 +1,45 @@
+{
+  "target_id": "us-conference-board-cci-2026-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__present_business_conditions__overall__r1",
+      "entry_sha256": "9f7f0a00ddd48b677ebb78c8b1011201a0df641dd459fba092f5eb520e17f772",
+      "seq": 993,
+      "batch_id": "us-conference-board-cci-2026-10__memory3__20261026T011726207270Z__s993",
+      "locked_at": "2026-10-26T01:17:26Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__present_jobs__overall__r1",
+      "entry_sha256": "b82171dca732bdbd809c0409b16f1b8a90b418ab1650afde0b06b3b8af0d9cfe",
+      "seq": 994,
+      "batch_id": "us-conference-board-cci-2026-10__memory3__20261026T011726207270Z__s993",
+      "locked_at": "2026-10-26T01:17:26Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__expected_business_conditions__overall__r1",
+      "entry_sha256": "355e74abf401143f0092a3e469f12228e52062b4fb29e76f9b8cf2b8d4c99bb9",
+      "seq": 995,
+      "batch_id": "us-conference-board-cci-2026-10__memory3__20261026T011726207270Z__s993",
+      "locked_at": "2026-10-26T01:17:26Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__expected_jobs__overall__r1",
+      "entry_sha256": "0bb8df5a28cdc1200d8f1652ee1047e7f881bb3c92cc0c3b6467de8bbb458e67",
+      "seq": 996,
+      "batch_id": "us-conference-board-cci-2026-10__memory3__20261026T011726207270Z__s993",
+      "locked_at": "2026-10-26T01:17:26Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__expected_income__overall__r1",
+      "entry_sha256": "849efea6e83991e78349299737ffbd34604c1d7a4c05880e08ed5c7a7356c578",
+      "seq": 997,
+      "batch_id": "us-conference-board-cci-2026-10__memory3__20261026T011726207270Z__s993",
+      "locked_at": "2026-10-26T01:17:26Z"
+    }
+  ]
+}

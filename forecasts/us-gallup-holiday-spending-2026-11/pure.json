@@ -1,0 +1,17 @@
+{
+  "target_id": "us-gallup-holiday-spending-2026-11",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-gallup-holiday-spending-2026-11__xmas_gift_spending__overall__r1",
+      "entry_sha256": "6ee2dae898f25ac357d127faccc43ac9882dda8668100accab7ac36f0b4e4ee0",
+      "seq": 2064,
+      "batch_id": "us-gallup-holiday-spending-2026-11__20261101T154840834500Z__s2064",
+      "locked_at": "2026-11-01T15:48:40Z"
+    }
+  ]
+}

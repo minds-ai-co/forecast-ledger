@@ -1,0 +1,82 @@
+{
+  "target_id": "us-npr-pbs-marist-2026-10-26",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-npr-pbs-marist-2026-10-26__trump_job_approval__overall__r1",
+      "entry_sha256": "c595fce22bece9c8f653d8061fe03cb787c48317b0a8aa09e33e15d83f95835c",
+      "seq": 92,
+      "batch_id": "us-npr-pbs-marist-2026-10-26__20261024T014752548988Z__s92",
+      "locked_at": "2026-10-24T01:47:52Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the job Donald Trump is doing as president? [And, would you say you strongly approve/disapprove of the job he is doing or just approve/disapprove?]",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Just approve",
+          "Just disapprove",
+          "Strongly disapprove",
+          "Unsure/Don't know enough to rate him"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.275,
+        0.1525,
+        0.0975,
+        0.4425,
+        0.0325
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-npr-pbs-marist-2026-10-26__congress_ballot__overall__r1",
+      "entry_sha256": "6fa37802ea40670f0660f384c087b0911ded7963000a4eb69a2cb9e42c85dd34",
+      "seq": 93,
+      "batch_id": "us-npr-pbs-marist-2026-10-26__20261024T014752548988Z__s92",
+      "locked_at": "2026-10-24T01:47:52Z",
+      "state": "scored",
+      "question": {
+        "id": "congress_ballot",
+        "text": "If November's election for Congress were held today, which party's candidate are you more likely to vote for in your district:",
+        "type": "categorical",
+        "options": [
+          "Democrat",
+          "Republican",
+          "Another party's candidate",
+          "Unsure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.48,
+        0.44,
+        0.035,
+        0.045
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

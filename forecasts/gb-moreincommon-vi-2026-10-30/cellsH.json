@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-moreincommon-vi-2026-10-30",
+  "variant": "cellsH",
+  "variant_label": "Additional research forecast (cellsH)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__westminster_vi__overall__r1",
+      "entry_sha256": "9d70754150882de03b2701f64b17fabb2fe1af4b5594e443e9fe4f7e57f64312",
+      "seq": 1340,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__cells__20261028T043646021656Z__s1339",
+      "locked_at": "2026-10-28T04:36:46Z"
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__burnham_good_job__overall__r1",
+      "entry_sha256": "1de07d923c070d9704259e73044bd71f09a32fe0dad26b5bcd8b3354840f4dc3",
+      "seq": 1342,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__cells__20261028T043646021656Z__s1339",
+      "locked_at": "2026-10-28T04:36:46Z"
+    }
+  ]
+}

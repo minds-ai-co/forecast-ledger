@@ -1,0 +1,150 @@
+{
+  "target_id": "us-census-htops-2609-wellbeing",
+  "variant": "cellsS",
+  "variant_label": "Additional research forecast (cellsS)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__SATISFACTION__overall__r1",
+      "entry_sha256": "4a9f359571b7a25e27cd0e00b92938247be4def15382e128583ed824bf0f1627",
+      "seq": 542,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__SATISFACTION__female__r1",
+      "entry_sha256": "d9bc916f426558e340d539d2f2b024e428bfc1167134ac261ddb4b109549f982",
+      "seq": 544,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__SATISFACTION__educ_hs_or_less__r1",
+      "entry_sha256": "0ef1b27aa6ed862295694467853fce60f3005cbee633f965759a16f51c7a7abb",
+      "seq": 546,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__SATISFACTION__age_65_plus__r1",
+      "entry_sha256": "ed35d9a2f820819d79b651a6aa0b1d3e0102d9dba0baa6b2e63b50b93abd04db",
+      "seq": 548,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__ANXIOUS__overall__r1",
+      "entry_sha256": "25cd7467d7dcadafeb0e2c63d459ca4c63e88f7f3588474ce97519e7cd7ac132",
+      "seq": 550,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__ANXIOUS__female__r1",
+      "entry_sha256": "c53b3324a59bcc182a5d6236f38136033b03c60264ca2bd0f9f974a372ac3f09",
+      "seq": 552,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__ANXIOUS__educ_hs_or_less__r1",
+      "entry_sha256": "5124ba524add4d337f0c9c446a8ef1daa4ad28e3f9406edbd22a78c8f700a8cf",
+      "seq": 554,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__ANXIOUS__age_65_plus__r1",
+      "entry_sha256": "fb7f5bca157a1e6b524bf9d20b7a8c1c7466af2b97da5b43389af010b2c356f2",
+      "seq": 556,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__WORRY__overall__r1",
+      "entry_sha256": "cab682fa430bb16c4a0ef162205052854afe716939b233518b79ae9785f88297",
+      "seq": 558,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__WORRY__female__r1",
+      "entry_sha256": "d40e5661c73090e518d571a56da3aa68555474e4632d06c4cb76377dc98b1dc6",
+      "seq": 560,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__WORRY__educ_hs_or_less__r1",
+      "entry_sha256": "803161e73fbaee3f90498eb362ed1ac8deea557f9bd425ebbfc5056bce4b28df",
+      "seq": 562,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__WORRY__age_65_plus__r1",
+      "entry_sha256": "803f33d875d4b0911f0a68bf8c01fbd44c10a113a437f3f3001816f00cc154b1",
+      "seq": 564,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__INTEREST__overall__r1",
+      "entry_sha256": "321454dc39471ba6e61f7d3580780f7ba8637c6be9f192541a4a71214e74f648",
+      "seq": 566,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__INTEREST__female__r1",
+      "entry_sha256": "14fc70f296496b6d1c1729a6aac10be869771bbafa508cf17ca09d14b43b5e92",
+      "seq": 568,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__INTEREST__educ_hs_or_less__r1",
+      "entry_sha256": "bb5bff56641710e91d47107ea5f0ccc8ea570aef4482e7f12a0325d42b2f826f",
+      "seq": 570,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__INTEREST__age_65_plus__r1",
+      "entry_sha256": "ee8cd064129b320403fc16ce4fb86c956fcd7d21660351ded487162ad7b9f753",
+      "seq": 572,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__DOWN__overall__r1",
+      "entry_sha256": "ad328dcde2fd769ea2be86530fc2aafe4ee4a6f7cf66c60eafa4bf4e37b1bd22",
+      "seq": 574,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__DOWN__female__r1",
+      "entry_sha256": "a52d88ba7262b024bb594dd71274277124835b67498d20d8ea724c72c7e5e68b",
+      "seq": 576,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__DOWN__educ_hs_or_less__r1",
+      "entry_sha256": "1b74f0aac5a87a0dbceb26dca0cbb7b51d009fdcfc17f68539e3e246b3f3edfd",
+      "seq": 578,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    },
+    {
+      "entry_id": "us-census-htops-2609-wellbeing__cellsS__DOWN__age_65_plus__r1",
+      "entry_sha256": "1d38840296761e57eeae0da08ec9e9a783507b12c067be448529de4bfafc69b8",
+      "seq": 580,
+      "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
+      "locked_at": "2026-10-24T20:40:48Z"
+    }
+  ]
+}

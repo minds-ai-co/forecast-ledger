@@ -1,0 +1,17 @@
+{
+  "target_id": "de-forsa-trendbarometer-2026-11-03",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-03__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "f256c42a167e526e187341f249a76aa25faa870875d819f3011e158d091786a8",
+      "seq": 215,
+      "batch_id": "de-forsa-trendbarometer-2026-11-03__anchored3__20261024T023805511087Z__s215",
+      "locked_at": "2026-10-24T02:38:05Z"
+    }
+  ]
+}

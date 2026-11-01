@@ -1,0 +1,87 @@
+{
+  "target_id": "de-ec-gfk-consumer-survey-2026-11-05",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__fin_past12__overall__r1",
+      "entry_sha256": "ec03b26a0d5d70cf2823f05b3dd0ae7058cd2e0311a50b19904efd6f28466719",
+      "seq": 1074,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__fin_next12__overall__r1",
+      "entry_sha256": "bb2cc261acaf7897c639d2d305c7738e630e391354d5c8fa1e2b0e9bcf166580",
+      "seq": 1075,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__econ_past12__overall__r1",
+      "entry_sha256": "81782010b122bbe8bf51c32574282adce03cdf1a44f1bf3fe704cdac566ee437",
+      "seq": 1076,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__econ_next12__overall__r1",
+      "entry_sha256": "7cdb1d3e2330d9267c75248ec71b240b891b5bb257e907a5a50e20ac03b2ddfd",
+      "seq": 1077,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__prices_past12__overall__r1",
+      "entry_sha256": "93dd66ddcbbaecf47c6339cd57ef552a7cf9569a89c43e9487bede4bc8746c98",
+      "seq": 1078,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__prices_next12__overall__r1",
+      "entry_sha256": "01c4218ff3b720e62426192fa7abca4ca0d4a95d10360acb56a8cb74db85b3be",
+      "seq": 1079,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__unemployment_next12__overall__r1",
+      "entry_sha256": "9dfe5dfd0d7984d28c5cee7343eb33c6703f2f79cc815cf278ff87bdc68322b9",
+      "seq": 1080,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__major_purchases_now__overall__r1",
+      "entry_sha256": "3c9696a9d1889641597817d5a82c63b9df0c3c85874630f0d1ff47f5546ed0e1",
+      "seq": 1081,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__major_purchases_next12__overall__r1",
+      "entry_sha256": "5ff56c3c3b18acaeaebf966d057be39cbc1fc8c17e6596671a7d74bc5a8dcc51",
+      "seq": 1082,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__savings_next12__overall__r1",
+      "entry_sha256": "eca3c647285e4102e7f443a4fabe0f8640bfb3f11430c7890dc3fa7844b17466",
+      "seq": 1083,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    },
+    {
+      "entry_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__household_fin_now__overall__r1",
+      "entry_sha256": "74a5a0cc7b3a14a83cda6ce1c5d06794279cef857bedadadfbec1fc8c34b43e6",
+      "seq": 1084,
+      "batch_id": "de-ec-gfk-consumer-survey-2026-11-05__memory3__20261026T022118854249Z__s1074",
+      "locked_at": "2026-10-26T02:21:18Z"
+    }
+  ]
+}

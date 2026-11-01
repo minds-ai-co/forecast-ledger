@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-findoutnow-vi-2026-11-04",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "a446ac4c7255dc7f872f732c670780c51a23a6550c90060e341678c1ede2fe70",
+      "seq": 1842,
+      "batch_id": "gb-findoutnow-vi-2026-11-04__anchored3__20261101T125301180984Z__s1842",
+      "locked_at": "2026-11-01T12:53:01Z"
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__anchored3__likelihood_to_vote__overall__r1",
+      "entry_sha256": "df21efc1217b10d15ae0473516c3c4c9f82df53e2d21eb2299fc4e92108a9e6b",
+      "seq": 1843,
+      "batch_id": "gb-findoutnow-vi-2026-11-04__anchored3__20261101T125301180984Z__s1842",
+      "locked_at": "2026-11-01T12:53:01Z"
+    }
+  ]
+}

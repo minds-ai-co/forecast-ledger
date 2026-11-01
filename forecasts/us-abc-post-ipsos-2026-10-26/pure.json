@@ -1,0 +1,24 @@
+{
+  "target_id": "us-abc-post-ipsos-2026-10-26",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__trump_job_approval__overall__r1",
+      "entry_sha256": "b088cfcc2a2f6861ad18e88ee720f9ed4c7ff9cb759c9ccd0ea2a8dc7512684c",
+      "seq": 96,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__20261024T014957167936Z__s96",
+      "locked_at": "2026-10-24T01:49:57Z"
+    },
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__direction__overall__r1",
+      "entry_sha256": "2dd0eb6d0dd2e10061d6e8b2323362ee01d670732176dbd7399246a227fd8df9",
+      "seq": 97,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__20261024T014957167936Z__s96",
+      "locked_at": "2026-10-24T01:49:57Z"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "target_id": "gb-yougov-trackers-2026-11-01",
+  "variant": "cellsS",
+  "variant_label": "Additional research forecast (cellsS)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__government_approval__overall__r1",
+      "entry_sha256": "16a093dd18d3ed0347498313b91b98452f6854f212b3e5b34035769fc42f740d",
+      "seq": 1438,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__government_approval__age_18_24__r1",
+      "entry_sha256": "cf5aa2a06d6cf6311bcd660c3fec1075af016b737abce41dd77038b40ce3da74",
+      "seq": 1440,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__government_approval__age_65_plus__r1",
+      "entry_sha256": "2785f901a9d3874b2fc8315ff6a2d6987a835591017e80470bd97c6eb9d1e5e7",
+      "seq": 1442,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__westminster_vi__overall__r1",
+      "entry_sha256": "dd2997549911cd1b2b8e47d23f336258902cacd5be97e3da3b20c198e822f2a2",
+      "seq": 1444,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__westminster_vi__age_18_24__r1",
+      "entry_sha256": "aa70bbed57c84cc4efa8131fdf8d84f8deffbcd2cae4d1cec54a22bf4a43ab2b",
+      "seq": 1446,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__westminster_vi__age_65_plus__r1",
+      "entry_sha256": "4587ec1510d5f3bf4ca5944a56265b786aca1fd5528815dbb3101eeb5f85afc1",
+      "seq": 1448,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_economy__overall__r1",
+      "entry_sha256": "73389381ebb5da8c338eb76b010510f04aa7d4b138bb6d24dcdef66a9edc70e5",
+      "seq": 1450,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_economy__age_18_24__r1",
+      "entry_sha256": "48388d1c8bdd4544faf6a84b2e9fce2f906251e8dfa37ee204f8986d5b44e310",
+      "seq": 1452,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_economy__age_65_plus__r1",
+      "entry_sha256": "912701f70fe556eff424dc72b7af8ab0a18295b999f80e46d0977f620f585e09",
+      "seq": 1454,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_immigration__overall__r1",
+      "entry_sha256": "318cffb71d6c8ebcbbfca30292a387409ba1228609b219880f58730f4e6f805f",
+      "seq": 1456,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_immigration__age_18_24__r1",
+      "entry_sha256": "6dc49e820628f8dadf2516a73335efb4a00925fc23a2800f0d940bd27efd35e5",
+      "seq": 1458,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_immigration__age_65_plus__r1",
+      "entry_sha256": "884df29d4451cc762c7e76dad2f5e1b41ce00fab847bfd280f40cdc746d84f6b",
+      "seq": 1460,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_health__overall__r1",
+      "entry_sha256": "4fffaab7db7d2e1c938326c17707af9284c13945906abb60ce6e900d3c724ea3",
+      "seq": 1462,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_health__age_18_24__r1",
+      "entry_sha256": "b91a2ae162db415f1be447e4e4085725d32b3defeb70e96a65870e8c8879851f",
+      "seq": 1464,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_health__age_65_plus__r1",
+      "entry_sha256": "8c71f00547d442d8cc11f4b053d0930a59277afdc5c5da629a5711b8a4a1e47c",
+      "seq": 1466,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_defence__overall__r1",
+      "entry_sha256": "61c058b355933c6aac530cce0b3f1ae36a3da003eb8fd60deb0e32e87057f342",
+      "seq": 1468,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_defence__age_18_24__r1",
+      "entry_sha256": "97afd232295ae3936777b2790d431a7948f4e911b81ead8e7f27a15e7435e837",
+      "seq": 1470,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_defence__age_65_plus__r1",
+      "entry_sha256": "5b14707223c6e3598d130489c39d82652ecf94e7659f18bb0eedc14f0fbc4fe4",
+      "seq": 1472,
+      "batch_id": "gb-yougov-trackers-2026-11-01__cells__20261028T055615040125Z__s1438",
+      "locked_at": "2026-10-28T05:56:15Z"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "target_id": "gb-freshwater-cityam-2026-11-06",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__westminster_vi__overall__r1",
+      "entry_sha256": "60798bdb9195ff222c25c5767474edd58c25f1e7e05548a317a58b6e38e91731",
+      "seq": 1320,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__right_direction__overall__r1",
+      "entry_sha256": "d3ac8e6af0c96eaf9d86556e195cd5fca230313a0ae24fc72505b16e0e9eff1c",
+      "seq": 1321,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "fbc0eddea575711af43273e520beb3005c6687401abe48828584605363417af0",
+      "seq": 1322,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__economy_next_12m__overall__r1",
+      "entry_sha256": "f09bb6414f86ffd37e556d286534eec76065018170b6578787c922415ac79376",
+      "seq": 1323,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__household_finances_next_12m__overall__r1",
+      "entry_sha256": "c7386f64d57bd81290418afcf854ac3bbc34308f357a02d2ad1e6c62893539e1",
+      "seq": 1324,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z"
+    }
+  ]
+}

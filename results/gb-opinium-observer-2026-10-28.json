@@ -1,0 +1,333 @@
+{
+  "target_id": "gb-opinium-observer-2026-10-28",
+  "survey": "Opinium / The Observer political poll (Westminster voting intention and leader approval)",
+  "status": "scored",
+  "released_at": "2026-10-31T14:04:23Z",
+  "source_url": "https://www.opinium.com/wp-content/uploads/2026/10/VI-2026-10-28-Opinium-Observer-Tables-Web-Tables-1403.xlsx",
+  "scored_at": "2026-11-01T00:54:39Z",
+  "results_sha256": "67ca91ec293f6f582b35bfb582360acd532c7489526c8be64af62d555f6a5a56",
+  "released_values_public": false,
+  "licence_note": "Publisher licence does not allow republication of released or prior-wave shares; only error metrics are shown.",
+  "summary": {
+    "pure": {
+      "items": 2,
+      "items_with_persistence": 2,
+      "tvd": 0.0551,
+      "mae_pp": 1.752916,
+      "tvd_paired": 0.0551,
+      "mae_pp_paired": 1.752916,
+      "persistence_tvd": 0.021979,
+      "persistence_mae_pp": 0.665519,
+      "beats_persistence": 0,
+      "uniform_tvd": 0.2631
+    },
+    "anchored3": {
+      "items": 2,
+      "items_with_persistence": 2,
+      "tvd": 0.0237,
+      "mae_pp": 0.706666,
+      "tvd_paired": 0.0237,
+      "mae_pp_paired": 0.706666,
+      "persistence_tvd": 0.021979,
+      "persistence_mae_pp": 0.665519,
+      "beats_persistence": 1,
+      "uniform_tvd": 0.2631
+    },
+    "memory3": {
+      "items": 2,
+      "items_with_persistence": 2,
+      "tvd": 0.0543,
+      "mae_pp": 1.712083,
+      "tvd_paired": 0.0543,
+      "mae_pp_paired": 1.712083,
+      "persistence_tvd": 0.021979,
+      "persistence_mae_pp": 0.665519,
+      "beats_persistence": 0,
+      "uniform_tvd": 0.2631
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0901,
+          "mae_pp": 3.003333,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0901,
+          "mae_pp_paired": 3.003333,
+          "persistence_tvd": 0.027849,
+          "persistence_mae_pp": 0.928315,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 3.235305
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0901,
+          "mae_pp": 3.003333,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0901,
+          "mae_pp_paired": 3.003333,
+          "persistence_tvd": 0.027849,
+          "persistence_mae_pp": 0.928315,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 3.235305
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0274,
+          "mae_pp": 0.913333,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0274,
+          "mae_pp_paired": 0.913333,
+          "persistence_tvd": 0.027849,
+          "persistence_mae_pp": 0.928315,
+          "beats_persistence": 1,
+          "tvd_over_persistence": 0.983877
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0274,
+          "mae_pp": 0.913333,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0274,
+          "mae_pp_paired": 0.913333,
+          "persistence_tvd": 0.027849,
+          "persistence_mae_pp": 0.928315,
+          "beats_persistence": 1,
+          "tvd_over_persistence": 0.983877
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0851,
+          "mae_pp": 2.836667,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0851,
+          "mae_pp_paired": 2.836667,
+          "persistence_tvd": 0.027849,
+          "persistence_mae_pp": 0.928315,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 3.055765
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0851,
+          "mae_pp": 2.836667,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0851,
+          "mae_pp_paired": 2.836667,
+          "persistence_tvd": 0.027849,
+          "persistence_mae_pp": 0.928315,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 3.055765
+        }
+      }
+    },
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0201,
+          "mae_pp": 0.5025,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0201,
+          "mae_pp_paired": 0.5025,
+          "persistence_tvd": 0.016109,
+          "persistence_mae_pp": 0.402723,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 1.24775
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0201,
+          "mae_pp": 0.5025,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0201,
+          "mae_pp_paired": 0.5025,
+          "persistence_tvd": 0.016109,
+          "persistence_mae_pp": 0.402723,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 1.24775
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.02,
+          "mae_pp": 0.5,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.02,
+          "mae_pp_paired": 0.5,
+          "persistence_tvd": 0.016109,
+          "persistence_mae_pp": 0.402723,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 1.241542
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.02,
+          "mae_pp": 0.5,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.02,
+          "mae_pp_paired": 0.5,
+          "persistence_tvd": 0.016109,
+          "persistence_mae_pp": 0.402723,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 1.241542
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0235,
+          "mae_pp": 0.5875,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0235,
+          "mae_pp_paired": 0.5875,
+          "persistence_tvd": 0.016109,
+          "persistence_mae_pp": 0.402723,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 1.458812
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0235,
+          "mae_pp": 0.5875,
+          "n_with_persistence": 1,
+          "tvd_paired": 0.0235,
+          "mae_pp_paired": 0.5875,
+          "persistence_tvd": 0.016109,
+          "persistence_mae_pp": 0.402723,
+          "beats_persistence": 0,
+          "tvd_over_persistence": 1.458812
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__westminster_vi__overall__r1",
+      "entry_sha256": "59497bc4196d160a565e4091dd6522dcf11907d87163df00c8eacc6925e38f80",
+      "variant": "pure",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0201,
+      "mae_pp": 0.5025,
+      "persistence_tvd": 0.016109,
+      "persistence_mae_pp": 0.402723,
+      "mean_prior_waves_tvd": 0.016109,
+      "mean_prior_waves_count": 1,
+      "uniform_tvd": 0.3474
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__burnham_approval__overall__r1",
+      "entry_sha256": "bc3acc2d2a7fab324135690b75d098401dfa9bd2322eb90cf785e811a901bfa4",
+      "variant": "pure",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0901,
+      "mae_pp": 3.003333,
+      "persistence_tvd": 0.027849,
+      "persistence_mae_pp": 0.928315,
+      "mean_prior_waves_tvd": 0.027849,
+      "mean_prior_waves_count": 1,
+      "uniform_tvd": 0.1788
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "a27c5e52996bd4b5bca86b98ab8789cdc2facc92d7d153fd90af717499151763",
+      "variant": "anchored3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.02,
+      "mae_pp": 0.5,
+      "persistence_tvd": 0.016109,
+      "persistence_mae_pp": 0.402723,
+      "mean_prior_waves_tvd": 0.027323,
+      "mean_prior_waves_count": 3,
+      "uniform_tvd": 0.3474
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__anchored3__burnham_approval__overall__r1",
+      "entry_sha256": "d57a31be0c3383f1fa2188c74a479cdd2dd52a9dd5f9a9239795c35bd41ae897",
+      "variant": "anchored3",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0274,
+      "mae_pp": 0.913333,
+      "persistence_tvd": 0.027849,
+      "persistence_mae_pp": 0.928315,
+      "mean_prior_waves_tvd": 0.027199,
+      "mean_prior_waves_count": 3,
+      "uniform_tvd": 0.1788
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__memory3__westminster_vi__overall__r1",
+      "entry_sha256": "b91211a6dfa6a16b799e292a39cb6dde6a7ed8214db60db34dee0402f7288397",
+      "variant": "memory3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0235,
+      "mae_pp": 0.5875,
+      "persistence_tvd": 0.016109,
+      "persistence_mae_pp": 0.402723,
+      "mean_prior_waves_tvd": 0.016109,
+      "mean_prior_waves_count": 1,
+      "uniform_tvd": 0.3474
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-10-28__memory3__burnham_approval__overall__r1",
+      "entry_sha256": "65237289993a7573bb7ca08abe2d21ee6443483b3e62c7c8cd553fb81c888492",
+      "variant": "memory3",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0851,
+      "mae_pp": 2.836667,
+      "persistence_tvd": 0.027849,
+      "persistence_mae_pp": 0.928315,
+      "mean_prior_waves_tvd": 0.027849,
+      "mean_prior_waves_count": 1,
+      "uniform_tvd": 0.1788
+    }
+  ]
+}

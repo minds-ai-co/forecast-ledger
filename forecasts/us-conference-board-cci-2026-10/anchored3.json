@@ -1,0 +1,45 @@
+{
+  "target_id": "us-conference-board-cci-2026-10",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__present_business_conditions__overall__r1",
+      "entry_sha256": "075b342cba64300660f825e3ac5fc451c1e8112839cbef97ad7f2497c3d873f8",
+      "seq": 220,
+      "batch_id": "us-conference-board-cci-2026-10__anchored3__20261024T023954080371Z__s220",
+      "locked_at": "2026-10-24T02:39:54Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__present_jobs__overall__r1",
+      "entry_sha256": "43ecfd9b2daf11965ad25cbc48bfc88a25976a1b4952d3736b2c284908bc94a0",
+      "seq": 221,
+      "batch_id": "us-conference-board-cci-2026-10__anchored3__20261024T023954080371Z__s220",
+      "locked_at": "2026-10-24T02:39:54Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_business_conditions__overall__r1",
+      "entry_sha256": "33d93d7106a0b86ef26b4754e699f67f22d165834378ceefeff31321b05fc4f3",
+      "seq": 222,
+      "batch_id": "us-conference-board-cci-2026-10__anchored3__20261024T023954080371Z__s220",
+      "locked_at": "2026-10-24T02:39:54Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_jobs__overall__r1",
+      "entry_sha256": "55b7f1ef512f497b8140d079e88c5a62e62476574138fd54bc0298b874432e2a",
+      "seq": 223,
+      "batch_id": "us-conference-board-cci-2026-10__anchored3__20261024T023954080371Z__s220",
+      "locked_at": "2026-10-24T02:39:54Z"
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_income__overall__r1",
+      "entry_sha256": "79f515c97fc8b8e471c19e2c89f2a29cabd65556f670a1ad711ec55810832863",
+      "seq": 224,
+      "batch_id": "us-conference-board-cci-2026-10__anchored3__20261024T023954080371Z__s220",
+      "locked_at": "2026-10-24T02:39:54Z"
+    }
+  ]
+}

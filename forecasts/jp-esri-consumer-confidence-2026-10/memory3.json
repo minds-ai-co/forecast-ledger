@@ -1,0 +1,201 @@
+{
+  "target_id": "jp-esri-consumer-confidence-2026-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__livelihood__overall__r1",
+      "entry_sha256": "a4354b17deab3f9130b2d50c94dd350d480efbaa4199a41857b58ac2d2f21b12",
+      "seq": 1254,
+      "batch_id": "jp-esri-consumer-confidence-2026-10__memory3__20261027T014411956933Z__s1254",
+      "locked_at": "2026-10-27T01:44:11Z",
+      "state": "scored",
+      "question": {
+        "id": "livelihood",
+        "text": "あなたの世帯の暮らし向きは、今後半年間に今よりも良くなると思いますか、悪くなると思いますか。 (Will your household's living conditions get better or worse over the next six months? 消費者意識指標「暮らし向き」)",
+        "type": "ordinal",
+        "options": [
+          "良くなる",
+          "やや良くなる",
+          "変わらない",
+          "やや悪くなる",
+          "悪くなる"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.012,
+        0.057499999999999996,
+        0.391,
+        0.355,
+        0.1845
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__income_growth__overall__r1",
+      "entry_sha256": "3861c03f5893170969207c860a17748c15b5602b7753280466f9b927b22d5426",
+      "seq": 1255,
+      "batch_id": "jp-esri-consumer-confidence-2026-10__memory3__20261027T014411956933Z__s1254",
+      "locked_at": "2026-10-27T01:44:11Z",
+      "state": "scored",
+      "question": {
+        "id": "income_growth",
+        "text": "あなたの世帯の収入の増え方は、今後半年間に今よりも大きくなると思いますか、小さくなると思いますか。 (Will your household's income growth be larger or smaller over the next six months? 「収入の増え方」)",
+        "type": "ordinal",
+        "options": [
+          "大きくなる",
+          "やや大きくなる",
+          "変わらない",
+          "やや小さくなる",
+          "小さくなる"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.012,
+        0.075,
+        0.5589999999999999,
+        0.22,
+        0.134
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__employment__overall__r1",
+      "entry_sha256": "4f86672da6edf2cb4aed45bc41f6f5b02e3a57fe25b8fd3fadac2b167acc6206",
+      "seq": 1256,
+      "batch_id": "jp-esri-consumer-confidence-2026-10__memory3__20261027T014411956933Z__s1254",
+      "locked_at": "2026-10-27T01:44:11Z",
+      "state": "scored",
+      "question": {
+        "id": "employment",
+        "text": "職の安定性、みつけやすさなどの雇用環境は、今後半年間に今よりも良くなると思いますか、悪くなると思いますか。（ご自身やご家族、近隣地域の状況からお答えください。） (Will the employment environment, e.g. job security and ease of finding work, get better or worse over the next six months? 「雇用環境」)",
+        "type": "ordinal",
+        "options": [
+          "良くなる",
+          "やや良くなる",
+          "変わらない",
+          "やや悪くなる",
+          "悪くなる"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0135,
+        0.10250000000000001,
+        0.545,
+        0.246,
+        0.093
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__durables_buying__overall__r1",
+      "entry_sha256": "7aecd7260ad3970dd5fa55dfefeee7516d1b3929efb8573f297aae9e4682c272",
+      "seq": 1257,
+      "batch_id": "jp-esri-consumer-confidence-2026-10__memory3__20261027T014411956933Z__s1254",
+      "locked_at": "2026-10-27T01:44:11Z",
+      "state": "scored",
+      "question": {
+        "id": "durables_buying",
+        "text": "耐久消費財の買い時としては、今後半年間に今よりも良くなると思いますか、悪くなると思いますか。 (Will it become a better or worse time to buy durable goods over the next six months? 「耐久消費財の買い時判断」)",
+        "type": "ordinal",
+        "options": [
+          "良くなる",
+          "やや良くなる",
+          "変わらない",
+          "やや悪くなる",
+          "悪くなる"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0085,
+        0.047,
+        0.3705,
+        0.301,
+        0.273
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__price_outlook_1y__overall__r1",
+      "entry_sha256": "850ca84c01a3d5c847fe809b353797ea6f28524210fdcba02cb431496804ba45",
+      "seq": 1258,
+      "batch_id": "jp-esri-consumer-confidence-2026-10__memory3__20261027T014411956933Z__s1254",
+      "locked_at": "2026-10-27T01:44:11Z",
+      "state": "scored",
+      "question": {
+        "id": "price_outlook_1y",
+        "text": "あなたの世帯で日ごろよく購入する品物の価格について、１年後どの程度になると思いますか。 (How much do you expect the prices of goods your household buys regularly to change one year from now? Options are the eight rows of 第２表 as published; the questionnaire's ▲10%以上 and ▲10%未満～▲5%以上 are combined into ▲５％以上, and 5%以上～10%未満 and 10%以上 into ５％以上, in the table.)",
+        "type": "categorical",
+        "options": [
+          "低下する ▲５％以上",
+          "低下する ▲５％未満～▲２％以上",
+          "低下する ▲２％未満",
+          "変わらない ０％程度",
+          "上昇する ２％未満",
+          "上昇する ２％以上～５％未満",
+          "上昇する ５％以上",
+          "分からない"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.008,
+        0.006500000000000001,
+        0.0055,
+        0.045,
+        0.0935,
+        0.3365,
+        0.476,
+        0.028999999999999998
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    }
+  ]
+}

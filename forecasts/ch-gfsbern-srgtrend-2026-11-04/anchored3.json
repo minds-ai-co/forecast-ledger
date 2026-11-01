@@ -1,0 +1,45 @@
+{
+  "target_id": "ch-gfsbern-srgtrend-2026-11-04",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_ahv_mwst__overall__r1",
+      "entry_sha256": "cff7121e05611de1a2edd4e874120d530c91683e1ac61da1ca853f71613a89da",
+      "seq": 1785,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__20261030T185305553219Z__s1785",
+      "locked_at": "2026-10-30T18:53:05Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_feuerwerk__overall__r1",
+      "entry_sha256": "b89800ed07adb0d6311d869d02d5b74daec081a336ea6d515c8832743c887ceb",
+      "seq": 1786,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__20261030T185305553219Z__s1785",
+      "locked_at": "2026-10-30T18:53:05Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_fairness__overall__r1",
+      "entry_sha256": "6d2014953a7060f170d2d3d5c7490f909cd25d9520e99303c7fc354d61b9109b",
+      "seq": 1787,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__20261030T185305553219Z__s1785",
+      "locked_at": "2026-10-30T18:53:05Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_kriegsmaterial_3way__overall__r1",
+      "entry_sha256": "4b4d03cb463d93a64dd8188bd3e4fb371cf444792fb464f9c29112060d7baf54",
+      "seq": 1788,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__20261030T185305553219Z__s1785",
+      "locked_at": "2026-10-30T18:53:05Z"
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__participation_definite__overall__r1",
+      "entry_sha256": "b4a5a0cee91012778e49cd7c142a9990172889de90ba10923ee81bd245760abb",
+      "seq": 1789,
+      "batch_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__20261030T185305553219Z__s1785",
+      "locked_at": "2026-10-30T18:53:05Z"
+    }
+  ]
+}

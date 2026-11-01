@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-opinium-observer-2026-11-04",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "d66712e7664e4764f4ef68c9cd50e005945c39f25bbbe0c74810b55af795e9a3",
+      "seq": 1848,
+      "batch_id": "gb-opinium-observer-2026-11-04__anchored3__20261101T130022618462Z__s1848",
+      "locked_at": "2026-11-01T13:00:22Z"
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__anchored3__burnham_approval__overall__r1",
+      "entry_sha256": "2a7f9cf4cc96373d96c7111de5bbbc3a8f28815a691bba81e94007927f673586",
+      "seq": 1849,
+      "batch_id": "gb-opinium-observer-2026-11-04__anchored3__20261101T130022618462Z__s1848",
+      "locked_at": "2026-11-01T13:00:22Z"
+    }
+  ]
+}

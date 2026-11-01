@@ -1,0 +1,24 @@
+{
+  "target_id": "fr-ipsos-bva-tribune-2026-11-04",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__memory3__popularity_macron__overall__r1",
+      "entry_sha256": "abce6925912b42e7840a5f9e67ce8c6ae01686dd6326f068b087a06c86593829",
+      "seq": 1805,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__memory3__20261101T005306144978Z__s1805",
+      "locked_at": "2026-11-01T00:53:06Z"
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__memory3__popularity_lecornu__overall__r1",
+      "entry_sha256": "1f9378cced7039cb82d3e00ba948542ae36c77ee5bafef85bf3cdb63b88bcfab",
+      "seq": 1806,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__memory3__20261101T005306144978Z__s1805",
+      "locked_at": "2026-11-01T00:53:06Z"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "target_id": "fr-ifop-popularite-2026-11-04",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__anchored3__satisfaction_macron__overall__r1",
+      "entry_sha256": "72326d92250ce3457d7755061530b564a9e6dba2ab1eb82267235fa2084de911",
+      "seq": 1797,
+      "batch_id": "fr-ifop-popularite-2026-11-04__anchored3__20261101T004950316807Z__s1797",
+      "locked_at": "2026-11-01T00:49:50Z"
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__anchored3__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "b6b62db793bdc0ccb6a80a9dbd8e0f4276af58c687af7b7cf2c48ab1d23e363b",
+      "seq": 1798,
+      "batch_id": "fr-ifop-popularite-2026-11-04__anchored3__20261101T004950316807Z__s1797",
+      "locked_at": "2026-11-01T00:49:50Z"
+    }
+  ]
+}

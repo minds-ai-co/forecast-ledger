@@ -1,0 +1,394 @@
+{
+  "target_id": "fr-ec-insee-consumer-survey-2026-10",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_past12__overall__r1",
+      "entry_sha256": "059ad6e353ef74c6e7e800669592f34c61fb271490e06aa7f5291efd831d4015",
+      "seq": 1095,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_past12",
+        "text": "Au cours des douze derniers mois, la situation financière de votre foyer… (INSEE CAMME item C9; EC harmonised question Q1: \"How has the financial situation of your household changed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "s’est nettement améliorée",
+          "s’est un peu améliorée",
+          "est restée stationnaire",
+          "s’est un peu dégradée",
+          "s’est nettement dégradée",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.02,
+        0.086,
+        0.521,
+        0.285,
+        0.086,
+        0.002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
+      "entry_sha256": "3288190211f5ba7d539232745313956b8508df5016c081caf2002d379aa832ad",
+      "seq": 1096,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "fin_next12",
+        "text": "Pensez-vous qu’au cours des douze prochains mois, la situation financière de votre foyer va… (INSEE CAMME item C10; EC harmonised question Q2: \"How do you expect the financial position of your household to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "nettement s’améliorer",
+          "un peu s’améliorer",
+          "rester stationnaire",
+          "un peu se dégrader",
+          "nettement se dégrader",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.018,
+        0.1105,
+        0.562,
+        0.228,
+        0.0575,
+        0.024
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
+      "entry_sha256": "8da4a7f0a1eb1c96393e258342b597b07fee2edbbc95dce22885030924994019",
+      "seq": 1097,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_past12",
+        "text": "À votre avis, au cours des douze derniers mois, la situation économique générale de la France… (INSEE CAMME item C1; EC harmonised question Q3: \"How do you think the general economic situation in the country has changed over the past 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "s’est nettement améliorée",
+          "s’est un peu améliorée",
+          "est restée stationnaire",
+          "s’est un peu dégradée",
+          "s’est nettement dégradée",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.004,
+        0.013,
+        0.125,
+        0.403,
+        0.447,
+        0.008
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
+      "entry_sha256": "c92671ee82175f9cf16d6f4e170b6ca4c295c44d5e54683bb9893e88fb5d0f77",
+      "seq": 1098,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "econ_next12",
+        "text": "À votre avis, au cours des douze prochains mois, la situation économique générale de la France va… (INSEE CAMME item C2; EC harmonised question Q4: \"How do you expect the general economic situation in this country to develop over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "nettement s’améliorer",
+          "un peu s’améliorer",
+          "rester stationnaire",
+          "un peu se dégrader",
+          "nettement se dégrader",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.002,
+        0.05,
+        0.248,
+        0.376,
+        0.292,
+        0.032
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
+      "entry_sha256": "780f18845fbf20209df5281b443ec37da502f5588be1b4c6857db59ff590a5fe",
+      "seq": 1099,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_past12",
+        "text": "Pensez-vous qu’au cours des douze derniers mois les prix ont… (INSEE CAMME item C4.0; EC harmonised question Q5: \"How do you think that consumer prices have developed over the last 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "fortement augmenté",
+          "modérément augmenté",
+          "un peu augmenté",
+          "stagné",
+          "diminué",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.535,
+        0.235,
+        0.1905,
+        0.0345,
+        0.002,
+        0.003
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
+      "entry_sha256": "5812de993b2f4834cfe37de8b10318ef7e8e22074e3213b6fc6ce109140c2bf8",
+      "seq": 1100,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "prices_next12",
+        "text": "Par rapport aux douze derniers mois, quelle sera à votre avis l’évolution des prix au cours des douze prochains mois ? (INSEE CAMME item C5.0; EC harmonised question Q6: \"By comparison with the past 12 months, how do you expect that consumer prices will develop in the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "la hausse va être plus rapide",
+          "la hausse va se poursuivre au même rythme",
+          "la hausse va être moins rapide",
+          "les prix vont rester stationnaires",
+          "les prix vont diminuer",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.18,
+        0.505,
+        0.144,
+        0.129,
+        0.008,
+        0.034
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
+      "entry_sha256": "53f51e72c69abf2ba7cfea76b99d2d7cb2aa94b315d3ae95ff4c5fed71e19111",
+      "seq": 1101,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "unemployment_next12",
+        "text": "Pensez-vous que, dans les douze prochains mois le nombre de chômeurs va… (INSEE CAMME item C3; EC harmonised question Q7: \"How do you expect the number of people unemployed in this country to change over the next 12 months?\")",
+        "type": "ordinal",
+        "options": [
+          "fortement augmenter",
+          "un peu augmenter",
+          "rester stationnaire",
+          "un peu diminuer",
+          "fortement diminuer",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1555,
+        0.441,
+        0.3015,
+        0.0565,
+        0.0055,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
+      "entry_sha256": "31091c2a51a73b0b8ed28c433eaf39da9c953adc419e93f7788e895092f2456f",
+      "seq": 1102,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "major_purchases_now",
+        "text": "Dans la situation économique actuelle, pensez-vous que les gens aient intérêt à faire des achats importants ? (meubles, électroménager, matériels électroniques ou informatiques...) (INSEE CAMME item C6; EC harmonised question Q8: \"In view of the general economic situation, do you think that now it is the right moment for people to make major purchases such as furniture, electrical/electronic devices, etc.?\")",
+        "type": "ordinal",
+        "options": [
+          "Oui, le moment est plutôt favorable",
+          "Le moment n’est ni favorable ni défavorable",
+          "Non, le moment est plutôt défavorable",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0725,
+        0.466,
+        0.4405,
+        0.021
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
+      "entry_sha256": "28b7e18f7c0337b81fc8dc04e67a2adb5056f068ff879eddf5943f3b0f184dbf",
+      "seq": 1103,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "savings_next12",
+        "text": "Pensez-vous réussir à mettre de l'argent de côté au cours des douze prochains mois ? (INSEE CAMME item C12; EC harmonised question Q11: \"Over the next 12 months, how likely is it that you save any money?\")",
+        "type": "ordinal",
+        "options": [
+          "Oui, certainement",
+          "Oui, peut-être",
+          "Non, probablement pas",
+          "Non, certainement pas",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2475,
+        0.328,
+        0.2105,
+        0.202,
+        0.012
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
+      "entry_sha256": "724a2a637d43c32ed7203d76daf3b058ec40e78b5c4836789bb2fe24b71f1c9b",
+      "seq": 1104,
+      "batch_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__20261026T101533872314Z__s1095",
+      "locked_at": "2026-10-26T10:15:33Z",
+      "state": "scored",
+      "question": {
+        "id": "household_fin_now",
+        "text": "Laquelle des affirmations suivantes vous semble décrire le mieux la situation financière actuelle de votre foyer ? (INSEE CAMME item C8; EC harmonised question Q12: \"Which of these statements best describes the current financial situation of your household?\")",
+        "type": "ordinal",
+        "options": [
+          "Vous arrivez à mettre beaucoup d’argent de côté",
+          "Vous arrivez à mettre un peu d’argent de côté",
+          "Vous bouclez juste votre budget",
+          "Vous tirez un peu sur vos réserves",
+          "Vous êtes en train de vous endetter",
+          "Ne sait pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.033,
+        0.412,
+        0.2895,
+        0.2105,
+        0.051,
+        0.004
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+    }
+  ]
+}

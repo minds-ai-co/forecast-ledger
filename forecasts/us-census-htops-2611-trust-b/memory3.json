@@ -1,0 +1,150 @@
+{
+  "target_id": "us-census-htops-2611-trust-b",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_SCHOOLS__overall__r1",
+      "entry_sha256": "df6ff5ef16cd60c00a8bfd9789b17580e072dd04e66e3681f6e31b4bf60b9293",
+      "seq": 1054,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_SCHOOLS__female__r1",
+      "entry_sha256": "44dc7eb7aaee2336af6b5dcbfd6f75be2bbf090ef03cb2eb7ed845289120adb4",
+      "seq": 1055,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_SCHOOLS__educ_hs_or_less__r1",
+      "entry_sha256": "372a649400e28157984d4faef6c29e9a1ce3a41031894b605cc0f50042dc3426",
+      "seq": 1056,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_SCHOOLS__age_65_plus__r1",
+      "entry_sha256": "9e854e4a547371d151320a07061c8740d716637651c774d7bde20fcd2e4503e6",
+      "seq": 1057,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CRIMJUST__overall__r1",
+      "entry_sha256": "70427483a64065e49649d3f5e623b807d034f1b87ec1f0d24c4bf55552bae7c4",
+      "seq": 1058,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CRIMJUST__female__r1",
+      "entry_sha256": "81986cacffd597a06ae175cd094127041ce689b1c26fabe9e7be8acf842da488",
+      "seq": 1059,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CRIMJUST__educ_hs_or_less__r1",
+      "entry_sha256": "3bf9876207f24ca3139ad3f7891ca4b59e42d454b2a8206eeb69eb19b61a220c",
+      "seq": 1060,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CRIMJUST__age_65_plus__r1",
+      "entry_sha256": "b6774bd07a245112ea5e62d1f23c43b503dd341058a04cfd9136ad6cbe3c6b4c",
+      "seq": 1061,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CONGRESS__overall__r1",
+      "entry_sha256": "7106b1899f788549057b15e53675a64cab4340314677fd60ac1e274984ee7466",
+      "seq": 1062,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CONGRESS__female__r1",
+      "entry_sha256": "04c32d9f856467aa508bfa0eb5ff1fd24fc4e3b0ca34e1c0d7e71704791755e9",
+      "seq": 1063,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CONGRESS__educ_hs_or_less__r1",
+      "entry_sha256": "575e75b966446fd81794839fbdd473e40e5f8c314602a3f9991037ede2bbcfbb",
+      "seq": 1064,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CONGRESS__age_65_plus__r1",
+      "entry_sha256": "769a4dd70b39451ee30e0f4197c751b01cf8bc1b0570f5fd93e2005f7fba0f14",
+      "seq": 1065,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CENSUS__overall__r1",
+      "entry_sha256": "09dbeba77c43efa4aa82b813926787c8707495f7dcaf43834e961c6432d79e69",
+      "seq": 1066,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CENSUS__female__r1",
+      "entry_sha256": "d8ae69a3a647b1687106b2191b79f70f605acd69fde88080a2e867e91a5c3107",
+      "seq": 1067,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CENSUS__educ_hs_or_less__r1",
+      "entry_sha256": "67f1d1898f413e098340968bb81e596d72cdba4f7b76671b023c416663d3a224",
+      "seq": 1068,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_CENSUS__age_65_plus__r1",
+      "entry_sha256": "7d30cfb5f5e43c74b843618ee20a44510512c1b98c23f2cf50930b5e94c790e4",
+      "seq": 1069,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_STATISTICAL__overall__r1",
+      "entry_sha256": "c1bd29d857bc69e061bbb0071d0b54e3f8a809be416ae26f4263458037a96845",
+      "seq": 1070,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_STATISTICAL__female__r1",
+      "entry_sha256": "d46f83dd7f051dd139ea704068a141f83d348cde2b438c889f770bba8e81cfb0",
+      "seq": 1071,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_STATISTICAL__educ_hs_or_less__r1",
+      "entry_sha256": "4f59f3e4b927fd9cff9065d0e79f50cc9132c737615ba2058e62121f801312c3",
+      "seq": 1072,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    },
+    {
+      "entry_id": "us-census-htops-2611-trust-b__memory3__TRUST_STATISTICAL__age_65_plus__r1",
+      "entry_sha256": "9e08776b2da101af09acd16e70ba15843e408796f83e535650e65a2343d037a9",
+      "seq": 1073,
+      "batch_id": "us-census-htops-2611-trust-b__memory3__20261026T021523941000Z__s1054",
+      "locked_at": "2026-10-26T02:15:23Z"
+    }
+  ]
+}

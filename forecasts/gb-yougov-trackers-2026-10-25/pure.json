@@ -1,0 +1,1010 @@
+{
+  "target_id": "gb-yougov-trackers-2026-10-25",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__overall__r1",
+      "entry_sha256": "24ca007112482bc4a522bc989f0fae951756e836640cde58eb93183e7868b4a0",
+      "seq": 60,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "government_approval",
+        "text": "Do you approve or disapprove of the Government's record to date?",
+        "type": "categorical",
+        "options": [
+          "Approve",
+          "Disapprove",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.21,
+        0.58,
+        0.21
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__age_18_24__r1",
+      "entry_sha256": "105ab0dcb2654b843618ec7f4dbc83253d62b36a9afb1201cbda8d13be60f204",
+      "seq": 61,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "government_approval",
+        "text": "Do you approve or disapprove of the Government's record to date?",
+        "type": "categorical",
+        "options": [
+          "Approve",
+          "Disapprove",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "Age 18-24"
+      },
+      "forecast": [
+        0.195,
+        0.47,
+        0.335
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__age_65_plus__r1",
+      "entry_sha256": "4419961c2f9d6b0bc75eba0e366b62fae6acd1b25b34336a8db642d0c2619a8c",
+      "seq": 62,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "government_approval",
+        "text": "Do you approve or disapprove of the Government's record to date?",
+        "type": "categorical",
+        "options": [
+          "Approve",
+          "Disapprove",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.12,
+        0.765,
+        0.11499999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__ge2024_con__r1",
+      "entry_sha256": "6020fda96a35919e8c8d03478ccaddee92da25b4baf65103ad4ae66c8d0fc450",
+      "seq": 63,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "government_approval",
+        "text": "Do you approve or disapprove of the Government's record to date?",
+        "type": "categorical",
+        "options": [
+          "Approve",
+          "Disapprove",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "ge2024_con",
+        "label": "2024 Conservative voters"
+      },
+      "forecast": [
+        0.04,
+        0.87,
+        0.09
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__ge2024_lab__r1",
+      "entry_sha256": "02a6a72abb2d745bd12ae51d4eabb6e6bd694cf4b0953ee85a1cc556ee54cddf",
+      "seq": 64,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "government_approval",
+        "text": "Do you approve or disapprove of the Government's record to date?",
+        "type": "categorical",
+        "options": [
+          "Approve",
+          "Disapprove",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "ge2024_lab",
+        "label": "2024 Labour voters"
+      },
+      "forecast": [
+        0.365,
+        0.4,
+        0.235
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__overall__r1",
+      "entry_sha256": "e27650cc235532e473f05fd82503d82bdfacead8b557b47b4bce2647feea5f01",
+      "seq": 65,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "SNP",
+          "Plaid Cymru",
+          "Reform UK",
+          "Green",
+          "Other party (incl. Restore Britain, Your Party)"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1925,
+        0.2625,
+        0.13,
+        0.028,
+        0.0085,
+        0.2475,
+        0.0925,
+        0.0385
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__age_18_24__r1",
+      "entry_sha256": "f63d888f5e359a8aaa46f6a23e253cf60b6e462ec48537994b0cab81172260c2",
+      "seq": 66,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "SNP",
+          "Plaid Cymru",
+          "Reform UK",
+          "Green",
+          "Other party (incl. Restore Britain, Your Party)"
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "Age 18-24"
+      },
+      "forecast": [
+        0.08,
+        0.275,
+        0.14500000000000002,
+        0.03,
+        0.02,
+        0.13,
+        0.275,
+        0.045
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__age_65_plus__r1",
+      "entry_sha256": "027b4f65c3f256d1a4ff16e35da52a942705e3ae03118648238b999fb5869ade",
+      "seq": 67,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "SNP",
+          "Plaid Cymru",
+          "Reform UK",
+          "Green",
+          "Other party (incl. Restore Britain, Your Party)"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.315,
+        0.135,
+        0.1225,
+        0.022,
+        0.007,
+        0.3375,
+        0.039,
+        0.022
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__ge2024_con__r1",
+      "entry_sha256": "2ad113bcdc7ef048563eef21ea59b338ffa845001efee46ac665f65eb9cfcde4",
+      "seq": 68,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "SNP",
+          "Plaid Cymru",
+          "Reform UK",
+          "Green",
+          "Other party (incl. Restore Britain, Your Party)"
+        ]
+      },
+      "group": {
+        "id": "ge2024_con",
+        "label": "2024 Conservative voters"
+      },
+      "forecast": [
+        0.69,
+        0.0175,
+        0.035,
+        0.0025,
+        0.002,
+        0.22499999999999998,
+        0.010499999999999999,
+        0.0175
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__ge2024_lab__r1",
+      "entry_sha256": "69057bf4e20db2ab7953d7aa5aa1afd485709482192f6b0edfb48690e34e29c6",
+      "seq": 69,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "SNP",
+          "Plaid Cymru",
+          "Reform UK",
+          "Green",
+          "Other party (incl. Restore Britain, Your Party)"
+        ]
+      },
+      "group": {
+        "id": "ge2024_lab",
+        "label": "2024 Labour voters"
+      },
+      "forecast": [
+        0.030000000000000002,
+        0.56,
+        0.11249999999999999,
+        0.0165,
+        0.01,
+        0.081,
+        0.16,
+        0.03
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__overall__r1",
+      "entry_sha256": "9b817248e039e55d3787b8db411a3595b186a807b7922c3015e2f4787d415d30",
+      "seq": 70,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_economy",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"The economy\"",
+          "Does not tick \"The economy\""
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.52,
+        0.48
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__age_18_24__r1",
+      "entry_sha256": "f761327eab47b13112bdd59dac3e5d0de2ad6fd27e3afdaa284e7b77797e23d4",
+      "seq": 71,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_economy",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"The economy\"",
+          "Does not tick \"The economy\""
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "Age 18-24"
+      },
+      "forecast": [
+        0.515,
+        0.485
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__age_65_plus__r1",
+      "entry_sha256": "263e175b11286a340c6c5c3e484bb5890f3157c42d23359ab6dceb42e1c39096",
+      "seq": 72,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_economy",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"The economy\"",
+          "Does not tick \"The economy\""
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.46499999999999997,
+        0.535
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__ge2024_con__r1",
+      "entry_sha256": "fdf88de0b8e61aab2f1048283c046760de0239b24fc17f50a84e3dde0a79bac9",
+      "seq": 73,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_economy",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"The economy\"",
+          "Does not tick \"The economy\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_con",
+        "label": "2024 Conservative voters"
+      },
+      "forecast": [
+        0.54,
+        0.46
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__ge2024_lab__r1",
+      "entry_sha256": "2d42edff1d61c4944fea7ce279a520cdb83fc2c99cfb7dfdc566a51ece2b81cc",
+      "seq": 74,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_economy",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"The economy\"",
+          "Does not tick \"The economy\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_lab",
+        "label": "2024 Labour voters"
+      },
+      "forecast": [
+        0.56,
+        0.44
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__overall__r1",
+      "entry_sha256": "d4b1db562e22c136bf67f71fc01ad7e94dfc5b1471dfe39964c411cc0d19e87b",
+      "seq": 75,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_immigration",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Immigration & Asylum\"",
+          "Does not tick \"Immigration & Asylum\""
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.48,
+        0.52
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__age_18_24__r1",
+      "entry_sha256": "4c85958a261b7d58305d2f87bcc0c72881a28e234e118a9a579564eb73d47f1e",
+      "seq": 76,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_immigration",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Immigration & Asylum\"",
+          "Does not tick \"Immigration & Asylum\""
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "Age 18-24"
+      },
+      "forecast": [
+        0.225,
+        0.775
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__age_65_plus__r1",
+      "entry_sha256": "baf319eeb682f33bac8434f5b49ff254dfb480894c772c8890a0cee0c7f4b325",
+      "seq": 77,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_immigration",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Immigration & Asylum\"",
+          "Does not tick \"Immigration & Asylum\""
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.635,
+        0.365
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__ge2024_con__r1",
+      "entry_sha256": "c5270e2207c0533a6b09e53b153ffec919c8388c5850ad76c88c23f19969e3ab",
+      "seq": 78,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_immigration",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Immigration & Asylum\"",
+          "Does not tick \"Immigration & Asylum\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_con",
+        "label": "2024 Conservative voters"
+      },
+      "forecast": [
+        0.715,
+        0.28500000000000003
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__ge2024_lab__r1",
+      "entry_sha256": "38ebf9136736b4ed6b4e63a2eda202f0375cd35ed6ec7856fc88d66cd56eb585",
+      "seq": 79,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_immigration",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Immigration & Asylum\"",
+          "Does not tick \"Immigration & Asylum\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_lab",
+        "label": "2024 Labour voters"
+      },
+      "forecast": [
+        0.31999999999999995,
+        0.6799999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__overall__r1",
+      "entry_sha256": "64e02fdf392af2879989a04a93f35db4bb960a35c8d6d26052b2b6c28fd9ee5c",
+      "seq": 80,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_health",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Health\"",
+          "Does not tick \"Health\""
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.36,
+        0.64
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__age_18_24__r1",
+      "entry_sha256": "a21914899d9966687f1fad76b97d1740e1e75b9236b9ae139578acd68aa9acef",
+      "seq": 81,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_health",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Health\"",
+          "Does not tick \"Health\""
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "Age 18-24"
+      },
+      "forecast": [
+        0.29000000000000004,
+        0.71
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__age_65_plus__r1",
+      "entry_sha256": "d48ce0c0c7fe62886ab95d8df88ac7d5af74c69dce6739ff3fd250773a704c59",
+      "seq": 82,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_health",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Health\"",
+          "Does not tick \"Health\""
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.46499999999999997,
+        0.535
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__ge2024_con__r1",
+      "entry_sha256": "5a8fa6cf38d6241a71ebbd6fee1fa050ab0a08b7f58353f19bba74aa32a8507c",
+      "seq": 83,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_health",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Health\"",
+          "Does not tick \"Health\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_con",
+        "label": "2024 Conservative voters"
+      },
+      "forecast": [
+        0.32,
+        0.6799999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__ge2024_lab__r1",
+      "entry_sha256": "2fe1ce1c55aef3c2d3f4faaede7f0197be86c75cea107caae1af1c6b7328298e",
+      "seq": 84,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_health",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Health\"",
+          "Does not tick \"Health\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_lab",
+        "label": "2024 Labour voters"
+      },
+      "forecast": [
+        0.48,
+        0.52
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__overall__r1",
+      "entry_sha256": "85fcbe938fa875128359b45b17c50912be108855d8329310eb369e3df6997953",
+      "seq": 85,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_defence",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Defence and security\"",
+          "Does not tick \"Defence and security\""
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.16,
+        0.84
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__age_18_24__r1",
+      "entry_sha256": "8ce7a6c9705d427bc8773fb5f264064064da848acd0ffc1fdb47be4c35f4eca1",
+      "seq": 86,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_defence",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Defence and security\"",
+          "Does not tick \"Defence and security\""
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "Age 18-24"
+      },
+      "forecast": [
+        0.1225,
+        0.8775
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__age_65_plus__r1",
+      "entry_sha256": "c3c3ce1e76e0ff735791dd94deb7149c89405152309b03faa29de21361a02979",
+      "seq": 87,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_defence",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Defence and security\"",
+          "Does not tick \"Defence and security\""
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "Age 65+"
+      },
+      "forecast": [
+        0.22499999999999998,
+        0.775
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__ge2024_con__r1",
+      "entry_sha256": "b146763af082260a1b0faeb2e37792f8ed281606cefb9388f8b6c2f592afb21d",
+      "seq": 88,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_defence",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Defence and security\"",
+          "Does not tick \"Defence and security\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_con",
+        "label": "2024 Conservative voters"
+      },
+      "forecast": [
+        0.22999999999999998,
+        0.77
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__ge2024_lab__r1",
+      "entry_sha256": "9421531baeea831f2322b5da859b1497fa230bbf0f2d060b05035b43be15a55c",
+      "seq": 89,
+      "batch_id": "gb-yougov-trackers-2026-10-25__20261023T215309885742Z__s60",
+      "locked_at": "2026-10-23T21:53:09Z",
+      "state": "scored",
+      "question": {
+        "id": "mii_defence",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "type": "categorical",
+        "options": [
+          "Ticks \"Defence and security\"",
+          "Does not tick \"Defence and security\""
+        ]
+      },
+      "group": {
+        "id": "ge2024_lab",
+        "label": "2024 Labour voters"
+      },
+      "forecast": [
+        0.175,
+        0.825
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

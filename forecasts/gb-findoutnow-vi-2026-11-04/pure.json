@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-findoutnow-vi-2026-11-04",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__westminster_vi__overall__r1",
+      "entry_sha256": "4dab76b6fde0c01b2d18a67b08ce864cc0852ac95f05869659456697b50978fd",
+      "seq": 1840,
+      "batch_id": "gb-findoutnow-vi-2026-11-04__20261101T125207644299Z__s1840",
+      "locked_at": "2026-11-01T12:52:07Z"
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__likelihood_to_vote__overall__r1",
+      "entry_sha256": "c5303d89f55cd7b1d947138bff210958c45e90e7c6498f9849e740efe9c0c1bf",
+      "seq": 1841,
+      "batch_id": "gb-findoutnow-vi-2026-11-04__20261101T125207644299Z__s1840",
+      "locked_at": "2026-11-01T12:52:07Z"
+    }
+  ]
+}
