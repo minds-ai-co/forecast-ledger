@@ -1,0 +1,24 @@
+{
+  "target_id": "us-umich-sca-2026-11",
+  "variant": "xpub3",
+  "variant_label": "Additional research forecast (xpub3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-umich-sca-2026-11__xpub3__pago__overall__r1",
+      "entry_sha256": "5b420e0936fc2028b65dcdad9b7de8b636cd1b0f87126415e0080baa515ae402",
+      "seq": 2188,
+      "batch_id": "us-umich-sca-2026-11__xpub3__20261101T225835785760Z__s2188",
+      "locked_at": "2026-11-01T22:58:35Z"
+    },
+    {
+      "entry_id": "us-umich-sca-2026-11__xpub3__pexp__overall__r1",
+      "entry_sha256": "1f04f172c93755cf63c1b114fc850d086bc7a38e9fb0d2d47dcdc67758a361ec",
+      "seq": 2189,
+      "batch_id": "us-umich-sca-2026-11__xpub3__20261101T225835785760Z__s2188",
+      "locked_at": "2026-11-01T22:58:35Z"
+    }
+  ]
+}

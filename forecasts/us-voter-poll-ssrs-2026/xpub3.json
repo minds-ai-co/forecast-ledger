@@ -1,0 +1,17 @@
+{
+  "target_id": "us-voter-poll-ssrs-2026",
+  "variant": "xpub3",
+  "variant_label": "Additional research forecast (xpub3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__xpub3__trump_approval__overall__r1",
+      "entry_sha256": "91352abd530ba7a182e2103970437bcdefdcda64d7ba4d01b91ebf88001c9b73",
+      "seq": 2187,
+      "batch_id": "us-voter-poll-ssrs-2026__xpub3__20261101T225542033346Z__s2187",
+      "locked_at": "2026-11-01T22:55:42Z"
+    }
+  ]
+}

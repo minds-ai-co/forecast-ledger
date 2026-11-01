@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-findoutnow-vi-2026-11-04",
+  "variant": "xpub3",
+  "variant_label": "Additional research forecast (xpub3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__xpub3__westminster_vi__overall__r1",
+      "entry_sha256": "a75f4b9071d5dd15ad4c287c2ec9d8d2dbce267013f310e61073217698a93ccd",
+      "seq": 2183,
+      "batch_id": "gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183",
+      "locked_at": "2026-11-01T22:51:40Z"
+    }
+  ]
+}

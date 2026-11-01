@@ -1,0 +1,17 @@
+{
+  "target_id": "de-gms-2026-11",
+  "variant": "xpub3",
+  "variant_label": "Additional research forecast (xpub3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-gms-2026-11__xpub3__sonntagsfrage__overall__r1",
+      "entry_sha256": "798d03aaf9d68a8e5dee76b5c20a7da7488d7418c5aa4ac152ddb8d57815a433",
+      "seq": 2178,
+      "batch_id": "de-gms-2026-11__xpub3__20261101T224113420193Z__s2178",
+      "locked_at": "2026-11-01T22:41:13Z"
+    }
+  ]
+}

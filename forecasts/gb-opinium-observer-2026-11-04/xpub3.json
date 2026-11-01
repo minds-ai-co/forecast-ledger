@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-opinium-observer-2026-11-04",
+  "variant": "xpub3",
+  "variant_label": "Additional research forecast (xpub3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__xpub3__westminster_vi__overall__r1",
+      "entry_sha256": "07fb981f7ab41af5c8cff03778f44e97f338d48d925091ddcb00def3bb8cd552",
+      "seq": 2184,
+      "batch_id": "gb-opinium-observer-2026-11-04__xpub3__20261101T225231334265Z__s2184",
+      "locked_at": "2026-11-01T22:52:31Z"
+    }
+  ]
+}

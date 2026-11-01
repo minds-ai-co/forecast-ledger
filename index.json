@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-01T22:01:31Z",
+  "as_of": "2026-11-01T22:58:35Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "11ec2c8a5113b94771b956435476f1603c0a9ac856ba39bc20f3f37e87507b42",
+  "chain_head_sha256": "1d6f04e75bbadbe5740a92f775a030686cf7fd4bfb246c1b343d74546b3a5e5a",
   "counts": {
-    "targets": 52,
+    "targets": 53,
     "targets_scored": 13,
-    "targets_pending": 39,
+    "targets_pending": 40,
     "targets_not_scoreable": 0,
-    "entries": 2175,
-    "batches": 203,
+    "entries": 2190,
+    "batches": 213,
     "entries_scored": 392,
-    "entries_pending": 1768,
+    "entries_pending": 1783,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -147,6 +147,11 @@
         "label": "Additional research forecast (cohort)",
         "forecasts_locked": 26,
         "scored": null
+      },
+      "xpub3": {
+        "label": "Additional research forecast (xpub3)",
+        "forecasts_locked": 15,
+        "scored": null
       }
     }
   },
@@ -160,8 +165,8 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1773,
-    "stated_intent": 369,
+    "attitude": 1780,
+    "stated_intent": 377,
     "behaviour": 33
   },
   "results_by_evidence_type": {
@@ -3877,14 +3882,15 @@
       "first_lock_utc": "2026-11-01T12:16:29Z",
       "released_at": null,
       "publication_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
-      "forecasts_count": 6,
+      "forecasts_count": 7,
       "variants": [
         "pure",
         "anchored3",
         "memory3",
         "bank3",
         "bankR3",
-        "cohort"
+        "cohort",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/de-forsa-trendbarometer-2026-11-10/pure.json",
@@ -3892,7 +3898,8 @@
         "memory3": "forecasts/de-forsa-trendbarometer-2026-11-10/memory3.json",
         "bank3": "forecasts/de-forsa-trendbarometer-2026-11-10/bank3.json",
         "bankR3": "forecasts/de-forsa-trendbarometer-2026-11-10/bankR3.json",
-        "cohort": "forecasts/de-forsa-trendbarometer-2026-11-10/cohort.json"
+        "cohort": "forecasts/de-forsa-trendbarometer-2026-11-10/cohort.json",
+        "xpub3": "forecasts/de-forsa-trendbarometer-2026-11-10/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -3979,6 +3986,20 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-forsa-trendbarometer-2026-11-10__xpub3__20261101T223949799709Z__s2175",
+          "locked_at": "2026-11-01T22:39:49Z",
+          "entries": 1,
+          "merkle_root": "c589ed221c1512008d2b03ee2c2ef3676ed7115b042bd4523364d7dec6de5bde",
+          "manifest": "proofs/batches/de-forsa-trendbarometer-2026-11-10__xpub3__20261101T223949799709Z__s2175.json",
+          "manifest_sha256": "6f27165a89916eac64aaef3c35c0285bb033d500e2b85ffd12ceb2fa5a8314e6",
+          "ots_proof": "proofs/batches/de-forsa-trendbarometer-2026-11-10__xpub3__20261101T223949799709Z__s2175.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -3998,14 +4019,15 @@
       "first_lock_utc": "2026-11-01T21:19:53Z",
       "released_at": null,
       "publication_url": "https://www.wahlrecht.de/umfragen/allensbach.htm",
-      "forecasts_count": 6,
+      "forecasts_count": 7,
       "variants": [
         "pure",
         "anchored3",
         "memory3",
         "bank3",
         "bankR3",
-        "cohort"
+        "cohort",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/de-allensbach-faz-2026-11/pure.json",
@@ -4013,7 +4035,8 @@
         "memory3": "forecasts/de-allensbach-faz-2026-11/memory3.json",
         "bank3": "forecasts/de-allensbach-faz-2026-11/bank3.json",
         "bankR3": "forecasts/de-allensbach-faz-2026-11/bankR3.json",
-        "cohort": "forecasts/de-allensbach-faz-2026-11/cohort.json"
+        "cohort": "forecasts/de-allensbach-faz-2026-11/cohort.json",
+        "xpub3": "forecasts/de-allensbach-faz-2026-11/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4100,6 +4123,20 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-allensbach-faz-2026-11__xpub3__20261101T224041901455Z__s2177",
+          "locked_at": "2026-11-01T22:40:41Z",
+          "entries": 1,
+          "merkle_root": "47fa4d6be0095e41e6009a73e22f2d4206d09428947a0faf7ea802f5e900c7d9",
+          "manifest": "proofs/batches/de-allensbach-faz-2026-11__xpub3__20261101T224041901455Z__s2177.json",
+          "manifest_sha256": "8b97d6a389d337daf8faa58e18edb4c1ea24b40f1166ff0a5517fce67a201104",
+          "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__xpub3__20261101T224041901455Z__s2177.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4119,14 +4156,15 @@
       "first_lock_utc": "2026-11-01T21:22:57Z",
       "released_at": null,
       "publication_url": "https://www.wahlrecht.de/umfragen/gms.htm",
-      "forecasts_count": 6,
+      "forecasts_count": 7,
       "variants": [
         "pure",
         "anchored3",
         "memory3",
         "bank3",
         "bankR3",
-        "cohort"
+        "cohort",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/de-gms-2026-11/pure.json",
@@ -4134,7 +4172,8 @@
         "memory3": "forecasts/de-gms-2026-11/memory3.json",
         "bank3": "forecasts/de-gms-2026-11/bank3.json",
         "bankR3": "forecasts/de-gms-2026-11/bankR3.json",
-        "cohort": "forecasts/de-gms-2026-11/cohort.json"
+        "cohort": "forecasts/de-gms-2026-11/cohort.json",
+        "xpub3": "forecasts/de-gms-2026-11/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4221,6 +4260,20 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-gms-2026-11__xpub3__20261101T224113420193Z__s2178",
+          "locked_at": "2026-11-01T22:41:13Z",
+          "entries": 1,
+          "merkle_root": "15840cd76c923c5d00de6261357cfe36703898389f61d3a0e415232c0859d2ca",
+          "manifest": "proofs/batches/de-gms-2026-11__xpub3__20261101T224113420193Z__s2178.json",
+          "manifest_sha256": "4ef067fce5a0501bf11f52699ca1dc3965265397ed3264568fc51ea349874c51",
+          "ots_proof": "proofs/batches/de-gms-2026-11__xpub3__20261101T224113420193Z__s2178.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4240,14 +4293,15 @@
       "first_lock_utc": "2026-11-01T21:17:43Z",
       "released_at": null,
       "publication_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
-      "forecasts_count": 6,
+      "forecasts_count": 7,
       "variants": [
         "pure",
         "anchored3",
         "memory3",
         "bank3",
         "bankR3",
-        "cohort"
+        "cohort",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/de-verian-bams-2026-11/pure.json",
@@ -4255,7 +4309,8 @@
         "memory3": "forecasts/de-verian-bams-2026-11/memory3.json",
         "bank3": "forecasts/de-verian-bams-2026-11/bank3.json",
         "bankR3": "forecasts/de-verian-bams-2026-11/bankR3.json",
-        "cohort": "forecasts/de-verian-bams-2026-11/cohort.json"
+        "cohort": "forecasts/de-verian-bams-2026-11/cohort.json",
+        "xpub3": "forecasts/de-verian-bams-2026-11/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4342,6 +4397,20 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-verian-bams-2026-11__xpub3__20261101T224014356435Z__s2176",
+          "locked_at": "2026-11-01T22:40:14Z",
+          "entries": 1,
+          "merkle_root": "0c32159f3d58746df2d7c81635cd3d1c0428f3c6ce93820d71cc07c2596d6d37",
+          "manifest": "proofs/batches/de-verian-bams-2026-11__xpub3__20261101T224014356435Z__s2176.json",
+          "manifest_sha256": "989d7033e00895e3b11a704bb6227357f3f754f55c6af6d98393ace8625ed3ac",
+          "ots_proof": "proofs/batches/de-verian-bams-2026-11__xpub3__20261101T224014356435Z__s2176.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4361,16 +4430,18 @@
       "first_lock_utc": "2026-11-01T12:52:07Z",
       "released_at": null,
       "publication_url": "https://findoutnow.co.uk/blog/",
-      "forecasts_count": 6,
+      "forecasts_count": 7,
       "variants": [
         "pure",
         "anchored3",
-        "memory3"
+        "memory3",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/gb-findoutnow-vi-2026-11-04/pure.json",
         "anchored3": "forecasts/gb-findoutnow-vi-2026-11-04/anchored3.json",
-        "memory3": "forecasts/gb-findoutnow-vi-2026-11-04/memory3.json"
+        "memory3": "forecasts/gb-findoutnow-vi-2026-11-04/memory3.json",
+        "xpub3": "forecasts/gb-findoutnow-vi-2026-11-04/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4415,6 +4486,20 @@
           "bitcoin_block_time_utc": "2026-11-01T14:21:50Z",
           "bitcoin_block_hash": "000000000000000000006608e30a841e01ab0e22cf40f9d7e57c845e4b4d79e9",
           "bitcoin_block_merkle_root": "e953482b197143773e5cd978841a6aaaa9d61eefd4688c1b31d12a44b30f8898"
+        },
+        {
+          "batch_id": "gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183",
+          "locked_at": "2026-11-01T22:51:40Z",
+          "entries": 1,
+          "merkle_root": "83e3b1daed7bab952c30199a034b7bca839c4110ef146896cc29c072947e7e57",
+          "manifest": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json",
+          "manifest_sha256": "145a2050ce0d32a0a729b30505286d1bfdd67e6786c0f2622902c9a1c31aba1c",
+          "ots_proof": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4510,16 +4595,18 @@
       "first_lock_utc": "2026-11-01T12:59:48Z",
       "released_at": null,
       "publication_url": "https://www.opinium.com/resource-center/",
-      "forecasts_count": 6,
+      "forecasts_count": 7,
       "variants": [
         "pure",
         "anchored3",
-        "memory3"
+        "memory3",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/gb-opinium-observer-2026-11-04/pure.json",
         "anchored3": "forecasts/gb-opinium-observer-2026-11-04/anchored3.json",
-        "memory3": "forecasts/gb-opinium-observer-2026-11-04/memory3.json"
+        "memory3": "forecasts/gb-opinium-observer-2026-11-04/memory3.json",
+        "xpub3": "forecasts/gb-opinium-observer-2026-11-04/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4564,6 +4651,20 @@
           "bitcoin_block_time_utc": "2026-11-01T14:21:50Z",
           "bitcoin_block_hash": "000000000000000000006608e30a841e01ab0e22cf40f9d7e57c845e4b4d79e9",
           "bitcoin_block_merkle_root": "e953482b197143773e5cd978841a6aaaa9d61eefd4688c1b31d12a44b30f8898"
+        },
+        {
+          "batch_id": "gb-opinium-observer-2026-11-04__xpub3__20261101T225231334265Z__s2184",
+          "locked_at": "2026-11-01T22:52:31Z",
+          "entries": 1,
+          "merkle_root": "7c9b034acf0095867eab0ad35be32a56bb2615d4d4a2b8e46de169be7a26e976",
+          "manifest": "proofs/batches/gb-opinium-observer-2026-11-04__xpub3__20261101T225231334265Z__s2184.json",
+          "manifest_sha256": "0d0a63cb889bed13516c5518ecf7a82a6b98bd85e960a5acd3df8a328e0d1ce5",
+          "ots_proof": "proofs/batches/gb-opinium-observer-2026-11-04__xpub3__20261101T225231334265Z__s2184.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4583,16 +4684,18 @@
       "first_lock_utc": "2026-10-24T02:00:45Z",
       "released_at": null,
       "publication_url": "https://www.foxnews.com/elections/polls/voter-poll-results",
-      "forecasts_count": 17,
+      "forecasts_count": 18,
       "variants": [
         "pure",
         "anchored3",
-        "memory3"
+        "memory3",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/us-voter-poll-ssrs-2026/pure.json",
         "anchored3": "forecasts/us-voter-poll-ssrs-2026/anchored3.json",
-        "memory3": "forecasts/us-voter-poll-ssrs-2026/memory3.json"
+        "memory3": "forecasts/us-voter-poll-ssrs-2026/memory3.json",
+        "xpub3": "forecasts/us-voter-poll-ssrs-2026/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4637,6 +4740,20 @@
           "bitcoin_block_time_utc": "2026-11-01T14:21:50Z",
           "bitcoin_block_hash": "000000000000000000006608e30a841e01ab0e22cf40f9d7e57c845e4b4d79e9",
           "bitcoin_block_merkle_root": "e953482b197143773e5cd978841a6aaaa9d61eefd4688c1b31d12a44b30f8898"
+        },
+        {
+          "batch_id": "us-voter-poll-ssrs-2026__xpub3__20261101T225542033346Z__s2187",
+          "locked_at": "2026-11-01T22:55:42Z",
+          "entries": 1,
+          "merkle_root": "c7d6177229726d14807b2a7bf44459580781b476941af9583ccda8282750fd04",
+          "manifest": "proofs/batches/us-voter-poll-ssrs-2026__xpub3__20261101T225542033346Z__s2187.json",
+          "manifest_sha256": "3e492d28bee6cb13cc641bc555ca85a8f194dee5f9d3f80b2d8657afce877f2d",
+          "ots_proof": "proofs/batches/us-voter-poll-ssrs-2026__xpub3__20261101T225542033346Z__s2187.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4714,6 +4831,47 @@
       ]
     },
     {
+      "target_id": "jp-nhk-seiji-ishiki-2026-11-05",
+      "survey": "NHK 政治意識月例電話調査 (NHK monthly political opinion telephone poll: cabinet support, party support and reasons)",
+      "publisher": "NHK (Japan Broadcasting Corporation), NHK選挙WEB",
+      "wave": "First NHK monthly political-attitudes telephone poll (政治意識月例電話調査) whose fieldwork starts on or after Thu 5 Nov 2026 JST (expected Fri 6-Sun 8 Nov or Fri 13-Sun 15 Nov 2026, results the following day); void if not published by 2026-11-20",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-04T15:00:00Z",
+      "first_lock_utc": "2026-11-01T22:54:20Z",
+      "released_at": null,
+      "publication_url": "https://news.web.nhk/senkyo/shijiritsu/",
+      "forecasts_count": 2,
+      "variants": [
+        "xpub3"
+      ],
+      "forecasts": {
+        "xpub3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/xpub3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__xpub3__20261101T225420725556Z__s2185",
+          "locked_at": "2026-11-01T22:54:20Z",
+          "entries": 2,
+          "merkle_root": "1b3f67f831952c14aff7079039edaa0c9800f80a3b28c8fb55de758b3dba2d3a",
+          "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__xpub3__20261101T225420725556Z__s2185.json",
+          "manifest_sha256": "d831a3220e5f50b0ba9aa5c79b987f184447c4a26f1f8c209d09808431f30781",
+          "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__xpub3__20261101T225420725556Z__s2185.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "us-umich-sca-2026-11",
       "survey": "University of Michigan Surveys of Consumers (monthly), November 2026, five core questions",
       "publisher": "Survey Research Center, University of Michigan",
@@ -4729,16 +4887,18 @@
       "first_lock_utc": "2026-10-24T02:05:39Z",
       "released_at": null,
       "publication_url": "https://data.sca.isr.umich.edu/tables.php",
-      "forecasts_count": 15,
+      "forecasts_count": 17,
       "variants": [
         "pure",
         "anchored3",
-        "blend"
+        "blend",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/us-umich-sca-2026-11/pure.json",
         "anchored3": "forecasts/us-umich-sca-2026-11/anchored3.json",
-        "blend": "forecasts/us-umich-sca-2026-11/blend.json"
+        "blend": "forecasts/us-umich-sca-2026-11/blend.json",
+        "xpub3": "forecasts/us-umich-sca-2026-11/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4783,6 +4943,20 @@
           "bitcoin_block_time_utc": "2026-10-28T00:24:46Z",
           "bitcoin_block_hash": "00000000000000000001c4b9f5404cc9f5cb839dd903790abbafe7ca07bd3404",
           "bitcoin_block_merkle_root": "fbaccebdd5da6abb70514d44c24b0286a0880710d7b19eace82961c136735c44"
+        },
+        {
+          "batch_id": "us-umich-sca-2026-11__xpub3__20261101T225835785760Z__s2188",
+          "locked_at": "2026-11-01T22:58:35Z",
+          "entries": 2,
+          "merkle_root": "f04d70ffac37c8578277000f788e08b963d8920626f6e71ef42caad4e5e234dd",
+          "manifest": "proofs/batches/us-umich-sca-2026-11__xpub3__20261101T225835785760Z__s2188.json",
+          "manifest_sha256": "3e871cb1eec40dc2a6cf2e97e62b29fc3442b72b1566724d4249ac42a5379b37",
+          "ots_proof": "proofs/batches/us-umich-sca-2026-11__xpub3__20261101T225835785760Z__s2188.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4803,14 +4977,15 @@
       "first_lock_utc": "2026-11-01T21:29:14Z",
       "released_at": null,
       "publication_url": "https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/",
-      "forecasts_count": 36,
+      "forecasts_count": 40,
       "variants": [
         "pure",
         "anchored3",
         "memory3",
         "bank3",
         "bankR3",
-        "cohort"
+        "cohort",
+        "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/de-zdf-politbarometer-2026-11-13/pure.json",
@@ -4818,7 +4993,8 @@
         "memory3": "forecasts/de-zdf-politbarometer-2026-11-13/memory3.json",
         "bank3": "forecasts/de-zdf-politbarometer-2026-11-13/bank3.json",
         "bankR3": "forecasts/de-zdf-politbarometer-2026-11-13/bankR3.json",
-        "cohort": "forecasts/de-zdf-politbarometer-2026-11-13/cohort.json"
+        "cohort": "forecasts/de-zdf-politbarometer-2026-11-13/cohort.json",
+        "xpub3": "forecasts/de-zdf-politbarometer-2026-11-13/xpub3.json"
       },
       "results": null,
       "batches": [
@@ -4900,6 +5076,20 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169.json",
           "manifest_sha256": "86e633656c746fae9c3e563c6074f4a34dac18de58ae83f99629491b3cd0398e",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-zdf-politbarometer-2026-11-13__xpub3__20261101T224931379313Z__s2179",
+          "locked_at": "2026-11-01T22:49:31Z",
+          "entries": 4,
+          "merkle_root": "3683f6f6c0232fec49cca4f3bc95a5c351514eb7d85f6911612e4975871636ee",
+          "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__xpub3__20261101T224931379313Z__s2179.json",
+          "manifest_sha256": "37eeeac3a226d95fc2330df30587791d17f74a64599ca7ac519ac0a37c20f46c",
+          "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__xpub3__20261101T224931379313Z__s2179.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,

@@ -1,0 +1,24 @@
+{
+  "target_id": "jp-nhk-seiji-ishiki-2026-11-05",
+  "variant": "xpub3",
+  "variant_label": "Additional research forecast (xpub3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__xpub3__cabinet_support__overall__r1",
+      "entry_sha256": "bdcc54c117cc50f85330442e84d758333c15cffa9e2774248a8ad6a7ee369bb7",
+      "seq": 2185,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__xpub3__20261101T225420725556Z__s2185",
+      "locked_at": "2026-11-01T22:54:20Z"
+    },
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__xpub3__party_support__overall__r1",
+      "entry_sha256": "c3aebab193d74da32f72b4cdb8ae3355d554123d5d5917126692f868e17be0e5",
+      "seq": 2186,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__xpub3__20261101T225420725556Z__s2185",
+      "locked_at": "2026-11-01T22:54:20Z"
+    }
+  ]
+}
