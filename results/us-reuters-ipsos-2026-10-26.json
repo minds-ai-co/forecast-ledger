@@ -7,43 +7,22 @@
   "scored_at": "2026-10-27T01:48:19Z",
   "results_sha256": "b1d1e3f4c483aa4ea83e8b4f19ec373ba13a646ab29e241ed7afb20e09e29e5c",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released or prior-wave shares; only error metrics are shown.",
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
   "summary": {
     "pure": {
       "items": 1,
-      "items_with_persistence": 1,
       "tvd": 0.0825,
-      "mae_pp": 3.3,
-      "tvd_paired": 0.0825,
-      "mae_pp_paired": 3.3,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.31
+      "mae_pp": 3.3
     },
     "anchored3": {
       "items": 1,
-      "items_with_persistence": 1,
       "tvd": 0.01,
-      "mae_pp": 0.4,
-      "tvd_paired": 0.01,
-      "mae_pp_paired": 0.4,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.31
+      "mae_pp": 0.4
     },
     "memory3": {
       "items": 1,
-      "items_with_persistence": 1,
       "tvd": 0.075,
-      "mae_pp": 3.0,
-      "tvd_paired": 0.075,
-      "mae_pp_paired": 3.0,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.31
+      "mae_pp": 3.0
     }
   },
   "summary_by_evidence_type": {
@@ -53,28 +32,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0825,
-          "mae_pp": 3.3,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0825,
-          "mae_pp_paired": 3.3,
-          "persistence_tvd": 0.01,
-          "persistence_mae_pp": 0.4,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 8.25
+          "mae_pp": 3.3
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0825,
-          "mae_pp": 3.3,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0825,
-          "mae_pp_paired": 3.3,
-          "persistence_tvd": 0.01,
-          "persistence_mae_pp": 0.4,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 8.25
+          "mae_pp": 3.3
         }
       },
       "anchored3": {
@@ -82,28 +47,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.01,
-          "mae_pp": 0.4,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.01,
-          "mae_pp_paired": 0.4,
-          "persistence_tvd": 0.01,
-          "persistence_mae_pp": 0.4,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.0
+          "mae_pp": 0.4
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.01,
-          "mae_pp": 0.4,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.01,
-          "mae_pp_paired": 0.4,
-          "persistence_tvd": 0.01,
-          "persistence_mae_pp": 0.4,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.0
+          "mae_pp": 0.4
         }
       },
       "memory3": {
@@ -111,28 +62,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.075,
-          "mae_pp": 3.0,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.075,
-          "mae_pp_paired": 3.0,
-          "persistence_tvd": 0.01,
-          "persistence_mae_pp": 0.4,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 7.5
+          "mae_pp": 3.0
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.075,
-          "mae_pp": 3.0,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.075,
-          "mae_pp_paired": 3.0,
-          "persistence_tvd": 0.01,
-          "persistence_mae_pp": 0.4,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 7.5
+          "mae_pp": 3.0
         }
       }
     }
@@ -148,12 +85,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0825,
-      "mae_pp": 3.3,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "mean_prior_waves_tvd": 0.01,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.31
+      "mae_pp": 3.3
     },
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__generic_ballot__overall__r1",
@@ -175,12 +107,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 0.4,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "mean_prior_waves_tvd": 0.01,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.31
+      "mae_pp": 0.4
     },
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__anchored3__generic_ballot__overall__r1",
@@ -202,12 +129,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.075,
-      "mae_pp": 3.0,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "mean_prior_waves_tvd": 0.01,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.31
+      "mae_pp": 3.0
     },
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__memory3__generic_ballot__overall__r1",

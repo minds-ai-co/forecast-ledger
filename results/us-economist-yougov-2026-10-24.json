@@ -7,31 +7,17 @@
   "scored_at": "2026-10-29T18:56:31Z",
   "results_sha256": "89df706aecb454990fb4abe6d60e5b4decd3c6ab8c8ac0819613c3591e74109a",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released or prior-wave shares; only error metrics are shown.",
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
   "summary": {
     "pure": {
       "items": 54,
-      "items_with_persistence": 54,
       "tvd": 0.096866,
-      "mae_pp": 4.144282,
-      "tvd_paired": 0.096866,
-      "mae_pp_paired": 4.144282,
-      "persistence_tvd": 0.060711,
-      "persistence_mae_pp": 2.27094,
-      "beats_persistence": 16,
-      "uniform_tvd": 0.373972
+      "mae_pp": 4.144282
     },
     "anchored3": {
       "items": 54,
-      "items_with_persistence": 54,
       "tvd": 0.045255,
-      "mae_pp": 1.745665,
-      "tvd_paired": 0.045255,
-      "mae_pp_paired": 1.745665,
-      "persistence_tvd": 0.060706,
-      "persistence_mae_pp": 2.270798,
-      "beats_persistence": 35,
-      "uniform_tvd": 0.373972
+      "mae_pp": 1.745665
     }
   },
   "summary_by_evidence_type": {
@@ -41,40 +27,19 @@
           "n": 7,
           "n_distribution": 7,
           "tvd": 0.075174,
-          "mae_pp": 3.396955,
-          "n_with_persistence": 7,
-          "tvd_paired": 0.075174,
-          "mae_pp_paired": 3.396955,
-          "persistence_tvd": 0.03301,
-          "persistence_mae_pp": 1.304895,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 2.277286
+          "mae_pp": 3.396955
         },
         "subgroups": {
           "n": 35,
           "n_distribution": 35,
           "tvd": 0.107826,
-          "mae_pp": 4.848525,
-          "n_with_persistence": 35,
-          "tvd_paired": 0.107826,
-          "mae_pp_paired": 4.848525,
-          "persistence_tvd": 0.054289,
-          "persistence_mae_pp": 2.232952,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 1.98614
+          "mae_pp": 4.848525
         },
         "all": {
           "n": 42,
           "n_distribution": 42,
           "tvd": 0.102384,
-          "mae_pp": 4.606597,
-          "n_with_persistence": 42,
-          "tvd_paired": 0.102384,
-          "mae_pp_paired": 4.606597,
-          "persistence_tvd": 0.050743,
-          "persistence_mae_pp": 2.078276,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 2.017707
+          "mae_pp": 4.606597
         }
       },
       "anchored3": {
@@ -82,40 +47,19 @@
           "n": 7,
           "n_distribution": 7,
           "tvd": 0.026373,
-          "mae_pp": 1.031587,
-          "n_with_persistence": 7,
-          "tvd_paired": 0.026373,
-          "mae_pp_paired": 1.031587,
-          "persistence_tvd": 0.033016,
-          "persistence_mae_pp": 1.305173,
-          "beats_persistence": 4,
-          "tvd_over_persistence": 0.798798
+          "mae_pp": 1.031587
         },
         "subgroups": {
           "n": 35,
           "n_distribution": 35,
           "tvd": 0.043946,
-          "mae_pp": 1.83561,
-          "n_with_persistence": 35,
-          "tvd_paired": 0.043946,
-          "mae_pp_paired": 1.83561,
-          "persistence_tvd": 0.054284,
-          "persistence_mae_pp": 2.232785,
-          "beats_persistence": 22,
-          "tvd_over_persistence": 0.80956
+          "mae_pp": 1.83561
         },
         "all": {
           "n": 42,
           "n_distribution": 42,
           "tvd": 0.041017,
-          "mae_pp": 1.701606,
-          "n_with_persistence": 42,
-          "tvd_paired": 0.041017,
-          "mae_pp_paired": 1.701606,
-          "persistence_tvd": 0.050739,
-          "persistence_mae_pp": 2.078183,
-          "beats_persistence": 26,
-          "tvd_over_persistence": 0.808393
+          "mae_pp": 1.701606
         }
       }
     },
@@ -125,40 +69,19 @@
           "n": 2,
           "n_distribution": 2,
           "tvd": 0.06875,
-          "mae_pp": 2.192857,
-          "n_with_persistence": 2,
-          "tvd_paired": 0.06875,
-          "mae_pp_paired": 2.192857,
-          "persistence_tvd": 0.064128,
-          "persistence_mae_pp": 1.863376,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 1.072083
+          "mae_pp": 2.192857
         },
         "subgroups": {
           "n": 10,
           "n_distribution": 10,
           "tvd": 0.079316,
-          "mae_pp": 2.592847,
-          "n_with_persistence": 10,
-          "tvd_paired": 0.079316,
-          "mae_pp_paired": 2.592847,
-          "persistence_tvd": 0.101895,
-          "persistence_mae_pp": 3.16164,
-          "beats_persistence": 7,
-          "tvd_over_persistence": 0.778402
+          "mae_pp": 2.592847
         },
         "all": {
           "n": 12,
           "n_distribution": 12,
           "tvd": 0.077555,
-          "mae_pp": 2.526182,
-          "n_with_persistence": 12,
-          "tvd_paired": 0.077555,
-          "mae_pp_paired": 2.526182,
-          "persistence_tvd": 0.095601,
-          "persistence_mae_pp": 2.945263,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 0.811235
+          "mae_pp": 2.526182
         }
       },
       "anchored3": {
@@ -166,40 +89,19 @@
           "n": 2,
           "n_distribution": 2,
           "tvd": 0.02875,
-          "mae_pp": 0.864286,
-          "n_with_persistence": 2,
-          "tvd_paired": 0.02875,
-          "mae_pp_paired": 0.864286,
-          "persistence_tvd": 0.064114,
-          "persistence_mae_pp": 1.862977,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 0.448423
+          "mae_pp": 0.864286
         },
         "subgroups": {
           "n": 10,
           "n_distribution": 10,
           "tvd": 0.066355,
-          "mae_pp": 2.106992,
-          "n_with_persistence": 10,
-          "tvd_paired": 0.066355,
-          "mae_pp_paired": 2.106992,
-          "persistence_tvd": 0.101887,
-          "persistence_mae_pp": 3.161344,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 0.65126
+          "mae_pp": 2.106992
         },
         "all": {
           "n": 12,
           "n_distribution": 12,
           "tvd": 0.060087,
-          "mae_pp": 1.899874,
-          "n_with_persistence": 12,
-          "tvd_paired": 0.060087,
-          "mae_pp_paired": 1.899874,
-          "persistence_tvd": 0.095591,
-          "persistence_mae_pp": 2.94495,
-          "beats_persistence": 9,
-          "tvd_over_persistence": 0.628586
+          "mae_pp": 1.899874
         }
       }
     }
@@ -215,12 +117,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.035,
-      "mae_pp": 2.333333,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.296667
+      "mae_pp": 2.333333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__party_dem__r1",
@@ -232,12 +129,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.065891,
-      "mae_pp": 4.392739,
-      "persistence_tvd": 0.010495,
-      "persistence_mae_pp": 0.69967,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.577558
+      "mae_pp": 4.392739
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__party_ind__r1",
@@ -249,12 +141,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.041881,
-      "mae_pp": 2.792079,
-      "persistence_tvd": 0.047129,
-      "persistence_mae_pp": 3.141914,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.379538
+      "mae_pp": 2.792079
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__party_rep__r1",
@@ -266,12 +153,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.06,
-      "mae_pp": 4.0,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.246667
+      "mae_pp": 4.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__age_18_29__r1",
@@ -283,12 +165,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.083333,
-      "mae_pp": 5.555556,
-      "persistence_tvd": 0.046233,
-      "persistence_mae_pp": 3.082222,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.272727
+      "mae_pp": 5.555556
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__age_65_plus__r1",
@@ -300,12 +177,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.067871,
-      "mae_pp": 4.524752,
-      "persistence_tvd": 0.05901,
-      "persistence_mae_pp": 3.933993,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.280528
+      "mae_pp": 4.524752
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__overall__r1",
@@ -317,12 +189,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.05697,
-      "mae_pp": 2.278788,
-      "persistence_tvd": 0.017475,
-      "persistence_mae_pp": 0.69899,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.327273
+      "mae_pp": 2.278788
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_dem__r1",
@@ -334,12 +201,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.07,
-      "mae_pp": 2.8,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.72
+      "mae_pp": 2.8
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_ind__r1",
@@ -351,12 +213,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.141162,
-      "mae_pp": 5.646465,
-      "persistence_tvd": 0.070743,
-      "persistence_mae_pp": 2.829737,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.365657
+      "mae_pp": 5.646465
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_rep__r1",
@@ -368,12 +225,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.155,
-      "mae_pp": 6.2,
-      "persistence_tvd": 0.0688,
-      "persistence_mae_pp": 2.752,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.41
+      "mae_pp": 6.2
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__age_18_29__r1",
@@ -385,12 +237,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.068069,
-      "mae_pp": 2.722772,
-      "persistence_tvd": 0.036931,
-      "persistence_mae_pp": 1.477228,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.29505
+      "mae_pp": 2.722772
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__age_65_plus__r1",
@@ -402,12 +249,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.085,
-      "mae_pp": 3.4,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.38
+      "mae_pp": 3.4
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__overall__r1",
@@ -419,12 +261,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.04,
-      "mae_pp": 1.6,
-      "persistence_tvd": 0.005455,
-      "persistence_mae_pp": 0.218182,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.46
+      "mae_pp": 1.6
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_dem__r1",
@@ -436,12 +273,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0185,
-      "mae_pp": 0.74,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 0.8,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.73
+      "mae_pp": 0.74
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_ind__r1",
@@ -453,12 +285,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.1,
-      "mae_pp": 4.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 0.8,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.31
+      "mae_pp": 4.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_rep__r1",
@@ -470,12 +297,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0825,
-      "mae_pp": 3.3,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 1.6,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.64
+      "mae_pp": 3.3
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__age_18_29__r1",
@@ -487,12 +309,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.065,
-      "mae_pp": 2.6,
-      "persistence_tvd": 0.0638,
-      "persistence_mae_pp": 2.552,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.42
+      "mae_pp": 2.6
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__age_65_plus__r1",
@@ -504,12 +321,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.019854,
-      "mae_pp": 0.794141,
-      "persistence_tvd": 0.075253,
-      "persistence_mae_pp": 3.010101,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.539394
+      "mae_pp": 0.794141
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__overall__r1",
@@ -521,12 +333,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0975,
-      "mae_pp": 2.785714,
-      "persistence_tvd": 0.1228,
-      "persistence_mae_pp": 3.508571,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.504286
+      "mae_pp": 2.785714
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_dem__r1",
@@ -538,12 +345,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.08,
-      "mae_pp": 2.285714,
-      "persistence_tvd": 0.1255,
-      "persistence_mae_pp": 3.585714,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.584286
+      "mae_pp": 2.285714
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_ind__r1",
@@ -555,12 +357,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.1725,
-      "mae_pp": 4.928571,
-      "persistence_tvd": 0.1772,
-      "persistence_mae_pp": 5.062857,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.381429
+      "mae_pp": 4.928571
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_rep__r1",
@@ -572,12 +369,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.048232,
-      "mae_pp": 1.378066,
-      "persistence_tvd": 0.13303,
-      "persistence_mae_pp": 3.800866,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.532468
+      "mae_pp": 1.378066
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__age_18_29__r1",
@@ -589,12 +381,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.097624,
-      "mae_pp": 2.78925,
-      "persistence_tvd": 0.138626,
-      "persistence_mae_pp": 3.960736,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.417256
+      "mae_pp": 2.78925
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__age_65_plus__r1",
@@ -606,12 +393,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.108946,
-      "mae_pp": 3.11273,
-      "persistence_tvd": 0.225545,
-      "persistence_mae_pp": 6.44413,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.575672
+      "mae_pp": 3.11273
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__overall__r1",
@@ -623,12 +405,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.055,
-      "mae_pp": 3.666667,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.106667
+      "mae_pp": 3.666667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_dem__r1",
@@ -640,12 +417,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.12,
-      "mae_pp": 8.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.476667
+      "mae_pp": 8.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_ind__r1",
@@ -657,12 +429,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.165,
-      "mae_pp": 11.0,
-      "persistence_tvd": 0.07,
-      "persistence_mae_pp": 4.666667,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.163333
+      "mae_pp": 11.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_rep__r1",
@@ -674,12 +441,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.095,
-      "mae_pp": 6.333333,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.326667
+      "mae_pp": 6.333333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__age_18_29__r1",
@@ -691,12 +453,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 2.666667,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.086667
+      "mae_pp": 2.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__age_65_plus__r1",
@@ -708,12 +465,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1,
-      "mae_pp": 6.666667,
-      "persistence_tvd": 0.042178,
-      "persistence_mae_pp": 2.811881,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.116667
+      "mae_pp": 6.666667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__overall__r1",
@@ -725,12 +477,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.075,
-      "mae_pp": 5.0,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.666667,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.083333
+      "mae_pp": 5.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_dem__r1",
@@ -742,12 +489,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.18,
-      "mae_pp": 12.0,
-      "persistence_tvd": 0.0124,
-      "persistence_mae_pp": 0.826667,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.436667
+      "mae_pp": 12.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_ind__r1",
@@ -759,12 +501,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.155,
-      "mae_pp": 10.333333,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.113333
+      "mae_pp": 10.333333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_rep__r1",
@@ -776,12 +513,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 2.666667,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.406667
+      "mae_pp": 2.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__age_18_29__r1",
@@ -793,12 +525,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.0,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 3.333333,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.103333
+      "mae_pp": 1.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__age_65_plus__r1",
@@ -810,12 +537,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.066263,
-      "mae_pp": 4.417508,
-      "persistence_tvd": 0.060606,
-      "persistence_mae_pp": 4.040404,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.111111
+      "mae_pp": 4.417508
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__overall__r1",
@@ -887,12 +609,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.069747,
-      "mae_pp": 2.789899,
-      "persistence_tvd": 0.053636,
-      "persistence_mae_pp": 2.145455,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.357576
+      "mae_pp": 2.789899
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_dem__r1",
@@ -904,12 +621,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.135,
-      "mae_pp": 5.4,
-      "persistence_tvd": 0.0319,
-      "persistence_mae_pp": 1.276,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.53
+      "mae_pp": 5.4
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_ind__r1",
@@ -921,12 +633,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.062252,
-      "mae_pp": 2.490099,
-      "persistence_tvd": 0.133838,
-      "persistence_mae_pp": 5.353505,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.421782
+      "mae_pp": 2.490099
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_rep__r1",
@@ -938,12 +645,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.13,
-      "mae_pp": 5.2,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 1.2,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.32
+      "mae_pp": 5.2
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__age_18_29__r1",
@@ -955,12 +657,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.045,
-      "mae_pp": 1.8,
-      "persistence_tvd": 0.1,
-      "persistence_mae_pp": 4.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.31
+      "mae_pp": 1.8
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__age_65_plus__r1",
@@ -972,12 +669,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.075,
-      "mae_pp": 3.0,
-      "persistence_tvd": 0.0876,
-      "persistence_mae_pp": 3.504,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.37
+      "mae_pp": 3.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__overall__r1",
@@ -989,12 +681,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.125,
-      "mae_pp": 6.25,
-      "persistence_tvd": 0.0261,
-      "persistence_mae_pp": 1.305,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.34
+      "mae_pp": 6.25
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_dem__r1",
@@ -1006,12 +693,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.150891,
-      "mae_pp": 7.544554,
-      "persistence_tvd": 0.040891,
-      "persistence_mae_pp": 2.044554,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.621287
+      "mae_pp": 7.544554
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_ind__r1",
@@ -1023,12 +705,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.19,
-      "mae_pp": 9.5,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.44
+      "mae_pp": 9.5
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_rep__r1",
@@ -1040,12 +717,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.17,
-      "mae_pp": 8.5,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.2
+      "mae_pp": 8.5
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__age_18_29__r1",
@@ -1057,12 +729,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.062129,
-      "mae_pp": 3.106436,
-      "persistence_tvd": 0.067129,
-      "persistence_mae_pp": 3.356436,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.274752
+      "mae_pp": 3.106436
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__age_65_plus__r1",
@@ -1074,12 +741,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.125,
-      "mae_pp": 6.25,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 1.5,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.35
+      "mae_pp": 6.25
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__overall__r1",
@@ -1091,12 +753,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1095,
-      "mae_pp": 1.46,
-      "persistence_tvd": 0.073861,
-      "persistence_mae_pp": 0.984818,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.366667
+      "mae_pp": 1.46
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_dem__r1",
@@ -1108,12 +765,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.2075,
-      "mae_pp": 2.766667,
-      "persistence_tvd": 0.077172,
-      "persistence_mae_pp": 1.028956,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.433333
+      "mae_pp": 2.766667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_ind__r1",
@@ -1125,12 +777,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.129,
-      "mae_pp": 1.72,
-      "persistence_tvd": 0.1,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.396667
+      "mae_pp": 1.72
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_rep__r1",
@@ -1142,12 +789,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.121157,
-      "mae_pp": 1.615421,
-      "persistence_tvd": 0.094949,
-      "persistence_mae_pp": 1.265993,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.484848
+      "mae_pp": 1.615421
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__age_18_29__r1",
@@ -1159,12 +801,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1575,
-      "mae_pp": 2.1,
-      "persistence_tvd": 0.126535,
-      "persistence_mae_pp": 1.687129,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.38
+      "mae_pp": 2.1
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__age_65_plus__r1",
@@ -1176,12 +813,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.219,
-      "mae_pp": 2.92,
-      "persistence_tvd": 0.145578,
-      "persistence_mae_pp": 1.941034,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.42
+      "mae_pp": 2.92
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__overall__r1",
@@ -1193,12 +825,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.023333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.296667
+      "mae_pp": 2.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__party_dem__r1",
@@ -1210,12 +837,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.011104,
-      "mae_pp": 0.740264,
-      "persistence_tvd": 0.010495,
-      "persistence_mae_pp": 0.69967,
-      "mean_prior_waves_tvd": 0.015776,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.577558
+      "mae_pp": 0.740264
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__party_ind__r1",
@@ -1227,12 +849,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.047129,
-      "mae_pp": 3.141914,
-      "persistence_tvd": 0.047129,
-      "persistence_mae_pp": 3.141914,
-      "mean_prior_waves_tvd": 0.044521,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.379538
+      "mae_pp": 3.141914
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__party_rep__r1",
@@ -1244,12 +861,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0175,
-      "mae_pp": 1.166667,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.016667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.246667
+      "mae_pp": 1.166667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__age_18_29__r1",
@@ -1261,12 +873,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.050833,
-      "mae_pp": 3.388889,
-      "persistence_tvd": 0.046204,
-      "persistence_mae_pp": 3.080289,
-      "mean_prior_waves_tvd": 0.050957,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.272727
+      "mae_pp": 3.388889
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__age_65_plus__r1",
@@ -1278,12 +885,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.04901,
-      "mae_pp": 3.267327,
-      "persistence_tvd": 0.05901,
-      "persistence_mae_pp": 3.933993,
-      "mean_prior_waves_tvd": 0.04901,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.280528
+      "mae_pp": 3.267327
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__overall__r1",
@@ -1295,12 +897,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.021475,
-      "mae_pp": 0.85899,
-      "persistence_tvd": 0.017475,
-      "persistence_mae_pp": 0.69899,
-      "mean_prior_waves_tvd": 0.019917,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.327273
+      "mae_pp": 0.85899
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__party_dem__r1",
@@ -1312,12 +909,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.034,
-      "mae_pp": 1.36,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.033569,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.72
+      "mae_pp": 1.36
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__party_ind__r1",
@@ -1329,12 +921,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.056919,
-      "mae_pp": 2.276768,
-      "persistence_tvd": 0.070707,
-      "persistence_mae_pp": 2.828297,
-      "mean_prior_waves_tvd": 0.057744,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.365657
+      "mae_pp": 2.276768
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__party_rep__r1",
@@ -1346,12 +933,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.02,
-      "mae_pp": 0.8,
-      "persistence_tvd": 0.068788,
-      "persistence_mae_pp": 2.75152,
-      "mean_prior_waves_tvd": 0.016661,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.41
+      "mae_pp": 0.8
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__age_18_29__r1",
@@ -1363,12 +945,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.042624,
-      "mae_pp": 1.70495,
-      "persistence_tvd": 0.036931,
-      "persistence_mae_pp": 1.477228,
-      "mean_prior_waves_tvd": 0.053583,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.29505
+      "mae_pp": 1.70495
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__age_65_plus__r1",
@@ -1380,12 +957,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 0.4,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.4,
-      "mean_prior_waves_tvd": 0.013478,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.38
+      "mae_pp": 0.4
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__overall__r1",
@@ -1397,12 +969,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0075,
-      "mae_pp": 0.3,
-      "persistence_tvd": 0.005455,
-      "persistence_mae_pp": 0.218182,
-      "mean_prior_waves_tvd": 0.018451,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.46
+      "mae_pp": 0.3
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__party_dem__r1",
@@ -1414,12 +981,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0175,
-      "mae_pp": 0.7,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 0.8,
-      "mean_prior_waves_tvd": 0.023333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.73
+      "mae_pp": 0.7
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__party_ind__r1",
@@ -1431,12 +993,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0375,
-      "mae_pp": 1.5,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 0.8,
-      "mean_prior_waves_tvd": 0.061122,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.31
+      "mae_pp": 1.5
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__party_rep__r1",
@@ -1448,12 +1005,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0325,
-      "mae_pp": 1.3,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 1.6,
-      "mean_prior_waves_tvd": 0.023165,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.64
+      "mae_pp": 1.3
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__age_18_29__r1",
@@ -1465,12 +1017,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.065,
-      "mae_pp": 2.6,
-      "persistence_tvd": 0.063762,
-      "persistence_mae_pp": 2.55048,
-      "mean_prior_waves_tvd": 0.079439,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.42
+      "mae_pp": 2.6
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__age_65_plus__r1",
@@ -1482,12 +1029,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.032253,
-      "mae_pp": 1.290101,
-      "persistence_tvd": 0.075253,
-      "persistence_mae_pp": 3.010101,
-      "mean_prior_waves_tvd": 0.031818,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.539394
+      "mae_pp": 1.290101
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__overall__r1",
@@ -1499,12 +1041,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.05,
-      "mae_pp": 1.428571,
-      "persistence_tvd": 0.122772,
-      "persistence_mae_pp": 3.507771,
-      "mean_prior_waves_tvd": 0.177292,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.504286
+      "mae_pp": 1.428571
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__party_dem__r1",
@@ -1516,12 +1053,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.041,
-      "mae_pp": 1.171429,
-      "persistence_tvd": 0.12549,
-      "persistence_mae_pp": 3.585416,
-      "mean_prior_waves_tvd": 0.188271,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.584286
+      "mae_pp": 1.171429
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__party_ind__r1",
@@ -1533,12 +1065,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.115,
-      "mae_pp": 3.285714,
-      "persistence_tvd": 0.177172,
-      "persistence_mae_pp": 5.062057,
-      "mean_prior_waves_tvd": 0.229517,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.381429
+      "mae_pp": 3.285714
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__party_rep__r1",
@@ -1550,12 +1077,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.077323,
-      "mae_pp": 2.209235,
-      "persistence_tvd": 0.13303,
-      "persistence_mae_pp": 3.800866,
-      "mean_prior_waves_tvd": 0.148653,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.532468
+      "mae_pp": 2.209235
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__age_18_29__r1",
@@ -1567,12 +1089,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.112624,
-      "mae_pp": 3.217822,
-      "persistence_tvd": 0.138614,
-      "persistence_mae_pp": 3.960393,
-      "mean_prior_waves_tvd": 0.168152,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.417256
+      "mae_pp": 3.217822
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__age_65_plus__r1",
@@ -1584,12 +1101,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.132847,
-      "mae_pp": 3.795615,
-      "persistence_tvd": 0.225545,
-      "persistence_mae_pp": 6.44413,
-      "mean_prior_waves_tvd": 0.295875,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.575672
+      "mae_pp": 3.795615
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__overall__r1",
@@ -1601,12 +1113,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0125,
-      "mae_pp": 0.833333,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": 0.006667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.106667
+      "mae_pp": 0.833333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__party_dem__r1",
@@ -1618,12 +1125,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": 0.033333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.476667
+      "mae_pp": 2.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__party_ind__r1",
@@ -1635,12 +1137,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.045,
-      "mae_pp": 3.0,
-      "persistence_tvd": 0.07,
-      "persistence_mae_pp": 4.666667,
-      "mean_prior_waves_tvd": 0.034719,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.163333
+      "mae_pp": 3.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__party_rep__r1",
@@ -1652,12 +1149,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.0,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": 0.019259,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.326667
+      "mae_pp": 1.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__age_18_29__r1",
@@ -1669,12 +1161,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0125,
-      "mae_pp": 0.833333,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 2.666667,
-      "mean_prior_waves_tvd": 0.006667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.086667
+      "mae_pp": 0.833333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__age_65_plus__r1",
@@ -1686,12 +1173,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0315,
-      "mae_pp": 2.1,
-      "persistence_tvd": 0.042178,
-      "persistence_mae_pp": 2.811881,
-      "mean_prior_waves_tvd": 0.026686,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.116667
+      "mae_pp": 2.1
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__overall__r1",
@@ -1703,12 +1185,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 0.666667,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 0.666667,
-      "mean_prior_waves_tvd": 0.01,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.083333
+      "mae_pp": 0.666667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__party_dem__r1",
@@ -1720,12 +1197,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0205,
-      "mae_pp": 1.366667,
-      "persistence_tvd": 0.012424,
-      "persistence_mae_pp": 0.828267,
-      "mean_prior_waves_tvd": 0.024714,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.436667
+      "mae_pp": 1.366667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__party_ind__r1",
@@ -1737,12 +1209,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.025,
-      "mae_pp": 1.666667,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.023333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.113333
+      "mae_pp": 1.666667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__party_rep__r1",
@@ -1754,12 +1221,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.04,
-      "mae_pp": 2.666667,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 2.666667,
-      "mean_prior_waves_tvd": 0.043333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.406667
+      "mae_pp": 2.666667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__age_18_29__r1",
@@ -1771,12 +1233,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0425,
-      "mae_pp": 2.833333,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 3.333333,
-      "mean_prior_waves_tvd": 0.053333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.103333
+      "mae_pp": 2.833333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__age_65_plus__r1",
@@ -1788,12 +1245,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.033778,
-      "mae_pp": 2.251852,
-      "persistence_tvd": 0.060606,
-      "persistence_mae_pp": 4.040404,
-      "mean_prior_waves_tvd": 0.035387,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.111111
+      "mae_pp": 2.251852
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__election_fairness_confidence__overall__r1",
@@ -1865,12 +1317,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.028636,
-      "mae_pp": 1.145455,
-      "persistence_tvd": 0.053636,
-      "persistence_mae_pp": 2.145455,
-      "mean_prior_waves_tvd": 0.02697,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.357576
+      "mae_pp": 1.145455
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__party_dem__r1",
@@ -1882,12 +1329,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0355,
-      "mae_pp": 1.42,
-      "persistence_tvd": 0.031881,
-      "persistence_mae_pp": 1.27524,
-      "mean_prior_waves_tvd": 0.039076,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.53
+      "mae_pp": 1.42
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__party_ind__r1",
@@ -1899,12 +1341,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.110941,
-      "mae_pp": 4.437624,
-      "persistence_tvd": 0.133814,
-      "persistence_mae_pp": 5.352545,
-      "mean_prior_waves_tvd": 0.107321,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.421782
+      "mae_pp": 4.437624
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__party_rep__r1",
@@ -1916,12 +1353,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 0.6,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 1.2,
-      "mean_prior_waves_tvd": 0.026667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.32
+      "mae_pp": 0.6
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__age_18_29__r1",
@@ -1933,12 +1365,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.075,
-      "mae_pp": 3.0,
-      "persistence_tvd": 0.1,
-      "persistence_mae_pp": 4.0,
-      "mean_prior_waves_tvd": 0.073333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.31
+      "mae_pp": 3.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__age_65_plus__r1",
@@ -1950,12 +1377,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.049,
-      "mae_pp": 1.96,
-      "persistence_tvd": 0.087576,
-      "persistence_mae_pp": 3.50304,
-      "mean_prior_waves_tvd": 0.046915,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.37
+      "mae_pp": 1.96
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__overall__r1",
@@ -1967,12 +1389,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.017,
-      "mae_pp": 0.85,
-      "persistence_tvd": 0.026139,
-      "persistence_mae_pp": 1.30695,
-      "mean_prior_waves_tvd": 0.016718,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.34
+      "mae_pp": 0.85
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__party_dem__r1",
@@ -1984,12 +1401,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.035094,
-      "mae_pp": 1.754703,
-      "persistence_tvd": 0.040891,
-      "persistence_mae_pp": 2.044554,
-      "mean_prior_waves_tvd": 0.034,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.621287
+      "mae_pp": 1.754703
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__party_ind__r1",
@@ -2001,12 +1413,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0,
-      "mae_pp": 0.0,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": 0.006667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.44
+      "mae_pp": 0.0
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__party_rep__r1",
@@ -2018,12 +1425,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0275,
-      "mae_pp": 1.375,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.026667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.2
+      "mae_pp": 1.375
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__age_18_29__r1",
@@ -2035,12 +1437,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.079629,
-      "mae_pp": 3.981436,
-      "persistence_tvd": 0.067129,
-      "persistence_mae_pp": 3.356436,
-      "mean_prior_waves_tvd": 0.084488,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.274752
+      "mae_pp": 3.981436
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__age_65_plus__r1",
@@ -2052,12 +1449,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0385,
-      "mae_pp": 1.925,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 1.5,
-      "mean_prior_waves_tvd": 0.040561,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.35
+      "mae_pp": 1.925
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__overall__r1",
@@ -2069,12 +1461,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.065,
-      "mae_pp": 0.866667,
-      "persistence_tvd": 0.073861,
-      "persistence_mae_pp": 0.984818,
-      "mean_prior_waves_tvd": 0.067935,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.366667
+      "mae_pp": 0.866667
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__party_dem__r1",
@@ -2086,12 +1473,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.055,
-      "mae_pp": 0.733333,
-      "persistence_tvd": 0.077172,
-      "persistence_mae_pp": 1.028956,
-      "mean_prior_waves_tvd": 0.056274,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.433333
+      "mae_pp": 0.733333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__party_ind__r1",
@@ -2103,12 +1485,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0925,
-      "mae_pp": 1.233333,
-      "persistence_tvd": 0.1,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": 0.091564,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.396667
+      "mae_pp": 1.233333
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__party_rep__r1",
@@ -2120,12 +1497,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.081045,
-      "mae_pp": 1.080606,
-      "persistence_tvd": 0.094949,
-      "persistence_mae_pp": 1.265993,
-      "mean_prior_waves_tvd": 0.076566,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.484848
+      "mae_pp": 1.080606
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__age_18_29__r1",
@@ -2137,12 +1509,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.069,
-      "mae_pp": 0.92,
-      "persistence_tvd": 0.126535,
-      "persistence_mae_pp": 1.687129,
-      "mean_prior_waves_tvd": 0.069584,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.38
+      "mae_pp": 0.92
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__age_65_plus__r1",
@@ -2154,12 +1521,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1395,
-      "mae_pp": 1.86,
-      "persistence_tvd": 0.14551,
-      "persistence_mae_pp": 1.940127,
-      "mean_prior_waves_tvd": 0.140484,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.42
+      "mae_pp": 1.86
     }
   ]
 }

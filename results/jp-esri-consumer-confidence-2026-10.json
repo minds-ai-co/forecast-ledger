@@ -7,55 +7,27 @@
   "scored_at": "2026-10-29T06:48:10Z",
   "results_sha256": "3c2bfbd2e79451b752d0932c219e49d1bade4cdaddb9e516882b6d1c0cb4ba25",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released or prior-wave shares; only error metrics are shown.",
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
   "summary": {
     "pure": {
       "items": 5,
-      "items_with_persistence": 5,
       "tvd": 0.0774,
-      "mae_pp": 3.015,
-      "tvd_paired": 0.0774,
-      "mae_pp_paired": 3.015,
-      "persistence_tvd": 0.013746,
-      "persistence_mae_pp": 0.528827,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.4356
+      "mae_pp": 3.015
     },
     "anchored3": {
       "items": 5,
-      "items_with_persistence": 5,
       "tvd": 0.0126,
-      "mae_pp": 0.486,
-      "tvd_paired": 0.0126,
-      "mae_pp_paired": 0.486,
-      "persistence_tvd": 0.013746,
-      "persistence_mae_pp": 0.528827,
-      "beats_persistence": 3,
-      "uniform_tvd": 0.4356
+      "mae_pp": 0.486
     },
     "memory3": {
       "items": 5,
-      "items_with_persistence": 5,
       "tvd": 0.0841,
-      "mae_pp": 3.2515,
-      "tvd_paired": 0.0841,
-      "mae_pp_paired": 3.2515,
-      "persistence_tvd": 0.013746,
-      "persistence_mae_pp": 0.528827,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.4356
+      "mae_pp": 3.2515
     },
     "blend": {
       "items": 5,
-      "items_with_persistence": 5,
       "tvd": 0.04095,
-      "mae_pp": 1.5945,
-      "tvd_paired": 0.04095,
-      "mae_pp_paired": 1.5945,
-      "persistence_tvd": 0.013746,
-      "persistence_mae_pp": 0.528827,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.4356
+      "mae_pp": 1.5945
     }
   },
   "summary_by_evidence_type": {
@@ -65,28 +37,14 @@
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.0774,
-          "mae_pp": 3.015,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.0774,
-          "mae_pp_paired": 3.015,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 5.630893
+          "mae_pp": 3.015
         },
         "subgroups": null,
         "all": {
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.0774,
-          "mae_pp": 3.015,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.0774,
-          "mae_pp_paired": 3.015,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 5.630893
+          "mae_pp": 3.015
         }
       },
       "anchored3": {
@@ -94,28 +52,14 @@
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.0126,
-          "mae_pp": 0.486,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.0126,
-          "mae_pp_paired": 0.486,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 3,
-          "tvd_over_persistence": 0.916657
+          "mae_pp": 0.486
         },
         "subgroups": null,
         "all": {
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.0126,
-          "mae_pp": 0.486,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.0126,
-          "mae_pp_paired": 0.486,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 3,
-          "tvd_over_persistence": 0.916657
+          "mae_pp": 0.486
         }
       },
       "blend": {
@@ -123,28 +67,14 @@
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.04095,
-          "mae_pp": 1.5945,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.04095,
-          "mae_pp_paired": 1.5945,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 2.979135
+          "mae_pp": 1.5945
         },
         "subgroups": null,
         "all": {
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.04095,
-          "mae_pp": 1.5945,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.04095,
-          "mae_pp_paired": 1.5945,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 2.979135
+          "mae_pp": 1.5945
         }
       },
       "memory3": {
@@ -152,28 +82,14 @@
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.0841,
-          "mae_pp": 3.2515,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.0841,
-          "mae_pp_paired": 3.2515,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 6.118321
+          "mae_pp": 3.2515
         },
         "subgroups": null,
         "all": {
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.0841,
-          "mae_pp": 3.2515,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.0841,
-          "mae_pp_paired": 3.2515,
-          "persistence_tvd": 0.013746,
-          "persistence_mae_pp": 0.528827,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 6.118321
+          "mae_pp": 3.2515
         }
       }
     }
@@ -189,12 +105,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.038,
-      "mae_pp": 1.52,
-      "persistence_tvd": 0.021,
-      "persistence_mae_pp": 0.84,
-      "mean_prior_waves_tvd": 0.021,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.388
+      "mae_pp": 1.52
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__income_growth__overall__r1",
@@ -206,12 +117,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.056,
-      "mae_pp": 2.24,
-      "persistence_tvd": 0.012,
-      "persistence_mae_pp": 0.48,
-      "mean_prior_waves_tvd": 0.012,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.42
+      "mae_pp": 2.24
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__employment__overall__r1",
@@ -223,12 +129,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.061,
-      "mae_pp": 2.44,
-      "persistence_tvd": 0.012728,
-      "persistence_mae_pp": 0.509133,
-      "mean_prior_waves_tvd": 0.012728,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.445
+      "mae_pp": 2.44
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__durables_buying__overall__r1",
@@ -240,12 +141,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.205,
-      "mae_pp": 8.2,
-      "persistence_tvd": 0.016,
-      "persistence_mae_pp": 0.64,
-      "mean_prior_waves_tvd": 0.016,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.377
+      "mae_pp": 8.2
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__price_outlook_1y__overall__r1",
@@ -257,12 +153,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.027,
-      "mae_pp": 0.675,
-      "persistence_tvd": 0.007,
-      "persistence_mae_pp": 0.175,
-      "mean_prior_waves_tvd": 0.007,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.548
+      "mae_pp": 0.675
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__livelihood__overall__r1",
@@ -274,12 +165,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.021,
-      "mae_pp": 0.84,
-      "persistence_tvd": 0.021,
-      "persistence_mae_pp": 0.84,
-      "mean_prior_waves_tvd": 0.016133,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.388
+      "mae_pp": 0.84
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__income_growth__overall__r1",
@@ -291,12 +177,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.011,
-      "mae_pp": 0.44,
-      "persistence_tvd": 0.012,
-      "persistence_mae_pp": 0.48,
-      "mean_prior_waves_tvd": 0.0069,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.42
+      "mae_pp": 0.44
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__employment__overall__r1",
@@ -308,12 +189,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.009,
-      "mae_pp": 0.36,
-      "persistence_tvd": 0.012728,
-      "persistence_mae_pp": 0.509133,
-      "mean_prior_waves_tvd": 0.008661,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.445
+      "mae_pp": 0.36
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__durables_buying__overall__r1",
@@ -325,12 +201,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.016,
-      "mae_pp": 0.64,
-      "persistence_tvd": 0.016,
-      "persistence_mae_pp": 0.64,
-      "mean_prior_waves_tvd": 0.008333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.377
+      "mae_pp": 0.64
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__price_outlook_1y__overall__r1",
@@ -342,12 +213,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.006,
-      "mae_pp": 0.15,
-      "persistence_tvd": 0.007,
-      "persistence_mae_pp": 0.175,
-      "mean_prior_waves_tvd": 0.006555,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.548
+      "mae_pp": 0.15
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__livelihood__overall__r1",
@@ -359,12 +225,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.042,
-      "mae_pp": 1.68,
-      "persistence_tvd": 0.021,
-      "persistence_mae_pp": 0.84,
-      "mean_prior_waves_tvd": 0.021,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.388
+      "mae_pp": 1.68
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__income_growth__overall__r1",
@@ -376,12 +237,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.061,
-      "mae_pp": 2.44,
-      "persistence_tvd": 0.012,
-      "persistence_mae_pp": 0.48,
-      "mean_prior_waves_tvd": 0.012,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.42
+      "mae_pp": 2.44
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__employment__overall__r1",
@@ -393,12 +249,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.059,
-      "mae_pp": 2.36,
-      "persistence_tvd": 0.012728,
-      "persistence_mae_pp": 0.509133,
-      "mean_prior_waves_tvd": 0.012728,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.445
+      "mae_pp": 2.36
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__durables_buying__overall__r1",
@@ -410,12 +261,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.221,
-      "mae_pp": 8.84,
-      "persistence_tvd": 0.016,
-      "persistence_mae_pp": 0.64,
-      "mean_prior_waves_tvd": 0.016,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.377
+      "mae_pp": 8.84
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__price_outlook_1y__overall__r1",
@@ -427,12 +273,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0375,
-      "mae_pp": 0.9375,
-      "persistence_tvd": 0.007,
-      "persistence_mae_pp": 0.175,
-      "mean_prior_waves_tvd": 0.007,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.548
+      "mae_pp": 0.9375
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__livelihood__overall__r1",
@@ -444,12 +285,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.02325,
-      "mae_pp": 0.93,
-      "persistence_tvd": 0.021,
-      "persistence_mae_pp": 0.84,
-      "mean_prior_waves_tvd": 0.021,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.388
+      "mae_pp": 0.93
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__income_growth__overall__r1",
@@ -461,12 +297,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.026,
-      "mae_pp": 1.04,
-      "persistence_tvd": 0.012,
-      "persistence_mae_pp": 0.48,
-      "mean_prior_waves_tvd": 0.012,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.42
+      "mae_pp": 1.04
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__employment__overall__r1",
@@ -478,12 +309,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0335,
-      "mae_pp": 1.34,
-      "persistence_tvd": 0.012728,
-      "persistence_mae_pp": 0.509133,
-      "mean_prior_waves_tvd": 0.012728,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.445
+      "mae_pp": 1.34
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__durables_buying__overall__r1",
@@ -495,12 +321,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1075,
-      "mae_pp": 4.3,
-      "persistence_tvd": 0.016,
-      "persistence_mae_pp": 0.64,
-      "mean_prior_waves_tvd": 0.016,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.377
+      "mae_pp": 4.3
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__price_outlook_1y__overall__r1",
@@ -512,12 +333,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0145,
-      "mae_pp": 0.3625,
-      "persistence_tvd": 0.007,
-      "persistence_mae_pp": 0.175,
-      "mean_prior_waves_tvd": 0.007,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.548
+      "mae_pp": 0.3625
     }
   ]
 }

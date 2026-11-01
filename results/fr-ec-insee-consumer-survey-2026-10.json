@@ -7,43 +7,22 @@
   "scored_at": "2026-10-29T10:20:50Z",
   "results_sha256": "11ec979cd7c8b9e3180dd3bfa26311c0c2e017445d56d69001aa35fe9ea3ca78",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released or prior-wave shares; only error metrics are shown.",
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
   "summary": {
     "pure": {
       "items": 10,
-      "items_with_persistence": 10,
       "tvd": 0.120487,
-      "mae_pp": 4.141579,
-      "tvd_paired": 0.120487,
-      "mae_pp_paired": 4.141579,
-      "persistence_tvd": 0.066649,
-      "persistence_mae_pp": 2.370304,
-      "beats_persistence": 2,
-      "uniform_tvd": 0.423866
+      "mae_pp": 4.141579
     },
     "anchored3": {
       "items": 10,
-      "items_with_persistence": 10,
       "tvd": 0.064049,
-      "mae_pp": 2.281124,
-      "tvd_paired": 0.064049,
-      "mae_pp_paired": 2.281124,
-      "persistence_tvd": 0.066649,
-      "persistence_mae_pp": 2.370304,
-      "beats_persistence": 8,
-      "uniform_tvd": 0.423866
+      "mae_pp": 2.281124
     },
     "memory3": {
       "items": 10,
-      "items_with_persistence": 10,
       "tvd": 0.122287,
-      "mae_pp": 4.188746,
-      "tvd_paired": 0.122287,
-      "mae_pp_paired": 4.188746,
-      "persistence_tvd": 0.066649,
-      "persistence_mae_pp": 2.370304,
-      "beats_persistence": 2,
-      "uniform_tvd": 0.423866
+      "mae_pp": 4.188746
     }
   },
   "summary_by_evidence_type": {
@@ -53,28 +32,14 @@
           "n": 9,
           "n_distribution": 9,
           "tvd": 0.128819,
-          "mae_pp": 4.399533,
-          "n_with_persistence": 9,
-          "tvd_paired": 0.128819,
-          "mae_pp_paired": 4.399533,
-          "persistence_tvd": 0.069832,
-          "persistence_mae_pp": 2.464782,
-          "beats_persistence": 2,
-          "tvd_over_persistence": 1.844692
+          "mae_pp": 4.399533
         },
         "subgroups": null,
         "all": {
           "n": 9,
           "n_distribution": 9,
           "tvd": 0.128819,
-          "mae_pp": 4.399533,
-          "n_with_persistence": 9,
-          "tvd_paired": 0.128819,
-          "mae_pp_paired": 4.399533,
-          "persistence_tvd": 0.069832,
-          "persistence_mae_pp": 2.464782,
-          "beats_persistence": 2,
-          "tvd_over_persistence": 1.844692
+          "mae_pp": 4.399533
         }
       },
       "anchored3": {
@@ -82,28 +47,14 @@
           "n": 9,
           "n_distribution": 9,
           "tvd": 0.066665,
-          "mae_pp": 2.354582,
-          "n_with_persistence": 9,
-          "tvd_paired": 0.066665,
-          "mae_pp_paired": 2.354582,
-          "persistence_tvd": 0.069832,
-          "persistence_mae_pp": 2.464782,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 0.954645
+          "mae_pp": 2.354582
         },
         "subgroups": null,
         "all": {
           "n": 9,
           "n_distribution": 9,
           "tvd": 0.066665,
-          "mae_pp": 2.354582,
-          "n_with_persistence": 9,
-          "tvd_paired": 0.066665,
-          "mae_pp_paired": 2.354582,
-          "persistence_tvd": 0.069832,
-          "persistence_mae_pp": 2.464782,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 0.954645
+          "mae_pp": 2.354582
         }
       },
       "memory3": {
@@ -111,28 +62,14 @@
           "n": 9,
           "n_distribution": 9,
           "tvd": 0.132819,
-          "mae_pp": 4.53194,
-          "n_with_persistence": 9,
-          "tvd_paired": 0.132819,
-          "mae_pp_paired": 4.53194,
-          "persistence_tvd": 0.069832,
-          "persistence_mae_pp": 2.464782,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 1.901972
+          "mae_pp": 4.53194
         },
         "subgroups": null,
         "all": {
           "n": 9,
           "n_distribution": 9,
           "tvd": 0.132819,
-          "mae_pp": 4.53194,
-          "n_with_persistence": 9,
-          "tvd_paired": 0.132819,
-          "mae_pp_paired": 4.53194,
-          "persistence_tvd": 0.069832,
-          "persistence_mae_pp": 2.464782,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 1.901972
+          "mae_pp": 4.53194
         }
       }
     },
@@ -142,28 +79,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0455,
-          "mae_pp": 1.82,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0455,
-          "mae_pp_paired": 1.82,
-          "persistence_tvd": 0.038,
-          "persistence_mae_pp": 1.52,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.197368
+          "mae_pp": 1.82
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0455,
-          "mae_pp": 1.82,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0455,
-          "mae_pp_paired": 1.82,
-          "persistence_tvd": 0.038,
-          "persistence_mae_pp": 1.52,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.197368
+          "mae_pp": 1.82
         }
       },
       "anchored3": {
@@ -171,28 +94,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0405,
-          "mae_pp": 1.62,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0405,
-          "mae_pp_paired": 1.62,
-          "persistence_tvd": 0.038,
-          "persistence_mae_pp": 1.52,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.065789
+          "mae_pp": 1.62
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0405,
-          "mae_pp": 1.62,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0405,
-          "mae_pp_paired": 1.62,
-          "persistence_tvd": 0.038,
-          "persistence_mae_pp": 1.52,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.065789
+          "mae_pp": 1.62
         }
       },
       "memory3": {
@@ -200,28 +109,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0275,
-          "mae_pp": 1.1,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0275,
-          "mae_pp_paired": 1.1,
-          "persistence_tvd": 0.038,
-          "persistence_mae_pp": 1.52,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 0.723684
+          "mae_pp": 1.1
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0275,
-          "mae_pp": 1.1,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0275,
-          "mae_pp_paired": 1.1,
-          "persistence_tvd": 0.038,
-          "persistence_mae_pp": 1.52,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 0.723684
+          "mae_pp": 1.1
         }
       }
     }
@@ -237,12 +132,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.067,
-      "mae_pp": 2.233333,
-      "persistence_tvd": 0.0514,
-      "persistence_mae_pp": 1.713333,
-      "mean_prior_waves_tvd": 0.0514,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.472667
+      "mae_pp": 2.233333
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__fin_next12__overall__r1",
@@ -254,12 +144,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0711,
-      "mae_pp": 2.37,
-      "persistence_tvd": 0.0816,
-      "persistence_mae_pp": 2.72,
-      "mean_prior_waves_tvd": 0.0816,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.452867
+      "mae_pp": 2.37
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__econ_past12__overall__r1",
@@ -271,12 +156,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.2625,
-      "mae_pp": 8.75,
-      "persistence_tvd": 0.161555,
-      "persistence_mae_pp": 5.385162,
-      "mean_prior_waves_tvd": 0.161555,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.583667
+      "mae_pp": 8.75
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__econ_next12__overall__r1",
@@ -288,12 +168,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0981,
-      "mae_pp": 3.27,
-      "persistence_tvd": 0.0856,
-      "persistence_mae_pp": 2.853333,
-      "mean_prior_waves_tvd": 0.0856,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.432
+      "mae_pp": 3.27
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__prices_past12__overall__r1",
@@ -305,12 +180,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.29234,
-      "mae_pp": 9.744659,
-      "persistence_tvd": 0.073893,
-      "persistence_mae_pp": 2.463087,
-      "mean_prior_waves_tvd": 0.073893,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.497784
+      "mae_pp": 9.744659
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__prices_next12__overall__r1",
@@ -322,12 +192,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0705,
-      "mae_pp": 2.35,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 0.666667,
-      "mean_prior_waves_tvd": 0.02,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.370667
+      "mae_pp": 2.35
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__unemployment_next12__overall__r1",
@@ -339,12 +204,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0885,
-      "mae_pp": 2.95,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 1.666667,
-      "mean_prior_waves_tvd": 0.05,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.418
+      "mae_pp": 2.95
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__major_purchases_now__overall__r1",
@@ -356,12 +216,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.057,
-      "mae_pp": 2.85,
-      "persistence_tvd": 0.074,
-      "persistence_mae_pp": 3.7,
-      "mean_prior_waves_tvd": 0.074,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.413
+      "mae_pp": 2.85
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__savings_next12__overall__r1",
@@ -373,12 +228,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0455,
-      "mae_pp": 1.82,
-      "persistence_tvd": 0.038,
-      "persistence_mae_pp": 1.52,
-      "mean_prior_waves_tvd": 0.038,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.184
+      "mae_pp": 1.82
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__household_fin_now__overall__r1",
@@ -390,12 +240,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.152334,
-      "mae_pp": 5.077802,
-      "persistence_tvd": 0.030444,
-      "persistence_mae_pp": 1.014789,
-      "mean_prior_waves_tvd": 0.030444,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.414009
+      "mae_pp": 5.077802
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_past12__overall__r1",
@@ -407,12 +252,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.047,
-      "mae_pp": 1.566667,
-      "persistence_tvd": 0.0514,
-      "persistence_mae_pp": 1.713333,
-      "mean_prior_waves_tvd": 0.052667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.472667
+      "mae_pp": 1.566667
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
@@ -424,12 +264,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0801,
-      "mae_pp": 2.67,
-      "persistence_tvd": 0.0816,
-      "persistence_mae_pp": 2.72,
-      "mean_prior_waves_tvd": 0.106009,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.452867
+      "mae_pp": 2.67
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
@@ -441,12 +276,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.162,
-      "mae_pp": 5.4,
-      "persistence_tvd": 0.161555,
-      "persistence_mae_pp": 5.385162,
-      "mean_prior_waves_tvd": 0.195118,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.583667
+      "mae_pp": 5.4
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
@@ -458,12 +288,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0846,
-      "mae_pp": 2.82,
-      "persistence_tvd": 0.0856,
-      "persistence_mae_pp": 2.853333,
-      "mean_prior_waves_tvd": 0.125933,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.432
+      "mae_pp": 2.82
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
@@ -475,12 +300,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.06734,
-      "mae_pp": 2.244659,
-      "persistence_tvd": 0.073893,
-      "persistence_mae_pp": 2.463087,
-      "mean_prior_waves_tvd": 0.104374,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.497784
+      "mae_pp": 2.244659
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
@@ -492,12 +312,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.019,
-      "mae_pp": 0.633333,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 0.666667,
-      "mean_prior_waves_tvd": 0.081,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.370667
+      "mae_pp": 0.633333
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
@@ -509,12 +324,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.042,
-      "mae_pp": 1.4,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 1.666667,
-      "mean_prior_waves_tvd": 0.051739,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.418
+      "mae_pp": 1.4
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
@@ -526,12 +336,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0715,
-      "mae_pp": 3.575,
-      "persistence_tvd": 0.074,
-      "persistence_mae_pp": 3.7,
-      "mean_prior_waves_tvd": 0.077333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.413
+      "mae_pp": 3.575
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
@@ -543,12 +348,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0405,
-      "mae_pp": 1.62,
-      "persistence_tvd": 0.038,
-      "persistence_mae_pp": 1.52,
-      "mean_prior_waves_tvd": 0.042814,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.184
+      "mae_pp": 1.62
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
@@ -560,12 +360,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.026447,
-      "mae_pp": 0.881579,
-      "persistence_tvd": 0.030444,
-      "persistence_mae_pp": 1.014789,
-      "mean_prior_waves_tvd": 0.026961,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.414009
+      "mae_pp": 0.881579
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__fin_past12__overall__r1",
@@ -577,12 +372,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0735,
-      "mae_pp": 2.45,
-      "persistence_tvd": 0.0514,
-      "persistence_mae_pp": 1.713333,
-      "mean_prior_waves_tvd": 0.0514,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.472667
+      "mae_pp": 2.45
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__fin_next12__overall__r1",
@@ -594,12 +384,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0956,
-      "mae_pp": 3.186667,
-      "persistence_tvd": 0.0816,
-      "persistence_mae_pp": 2.72,
-      "mean_prior_waves_tvd": 0.0816,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.452867
+      "mae_pp": 3.186667
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__econ_past12__overall__r1",
@@ -611,12 +396,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.2585,
-      "mae_pp": 8.616667,
-      "persistence_tvd": 0.161555,
-      "persistence_mae_pp": 5.385162,
-      "mean_prior_waves_tvd": 0.161555,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.583667
+      "mae_pp": 8.616667
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__econ_next12__overall__r1",
@@ -628,12 +408,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1121,
-      "mae_pp": 3.736667,
-      "persistence_tvd": 0.0856,
-      "persistence_mae_pp": 2.853333,
-      "mean_prior_waves_tvd": 0.0856,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.432
+      "mae_pp": 3.736667
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__prices_past12__overall__r1",
@@ -645,12 +420,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.30484,
-      "mae_pp": 10.161326,
-      "persistence_tvd": 0.073893,
-      "persistence_mae_pp": 2.463087,
-      "mean_prior_waves_tvd": 0.073893,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.497784
+      "mae_pp": 10.161326
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__prices_next12__overall__r1",
@@ -662,12 +432,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0755,
-      "mae_pp": 2.516667,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 0.666667,
-      "mean_prior_waves_tvd": 0.02,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.370667
+      "mae_pp": 2.516667
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__unemployment_next12__overall__r1",
@@ -679,12 +444,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0925,
-      "mae_pp": 3.083333,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 1.666667,
-      "mean_prior_waves_tvd": 0.05,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.418
+      "mae_pp": 3.083333
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__major_purchases_now__overall__r1",
@@ -696,12 +456,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0565,
-      "mae_pp": 2.825,
-      "persistence_tvd": 0.074,
-      "persistence_mae_pp": 3.7,
-      "mean_prior_waves_tvd": 0.074,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.413
+      "mae_pp": 2.825
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__savings_next12__overall__r1",
@@ -713,12 +468,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0275,
-      "mae_pp": 1.1,
-      "persistence_tvd": 0.038,
-      "persistence_mae_pp": 1.52,
-      "mean_prior_waves_tvd": 0.038,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.184
+      "mae_pp": 1.1
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__household_fin_now__overall__r1",
@@ -730,12 +480,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.126334,
-      "mae_pp": 4.211136,
-      "persistence_tvd": 0.030444,
-      "persistence_mae_pp": 1.014789,
-      "mean_prior_waves_tvd": 0.030444,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.414009
+      "mae_pp": 4.211136
     }
   ]
 }

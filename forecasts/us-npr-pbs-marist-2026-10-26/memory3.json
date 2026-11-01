@@ -41,7 +41,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__memory3__congress_ballot__overall__r1",
@@ -76,7 +76,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

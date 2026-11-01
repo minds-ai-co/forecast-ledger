@@ -43,7 +43,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
@@ -82,7 +82,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
@@ -121,7 +121,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
@@ -160,7 +160,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
@@ -199,7 +199,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
@@ -238,7 +238,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
@@ -277,7 +277,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
@@ -312,7 +312,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__major_purchases_next12__overall__r1",
@@ -351,7 +351,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
@@ -388,7 +388,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
@@ -427,7 +427,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

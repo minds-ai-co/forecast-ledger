@@ -7,43 +7,22 @@
   "scored_at": "2026-10-30T19:05:40Z",
   "results_sha256": "9d767ae3b0af15b481ac38318072dcc686af4f52d3b8f0b8e48aa43de9b3772c",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released or prior-wave shares; only error metrics are shown.",
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
   "summary": {
     "pure": {
       "items": 2,
-      "items_with_persistence": 2,
       "tvd": 0.052764,
-      "mae_pp": 3.5176,
-      "tvd_paired": 0.052764,
-      "mae_pp_paired": 3.5176,
-      "persistence_tvd": 0.016347,
-      "persistence_mae_pp": 1.0898,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.279136
+      "mae_pp": 3.5176
     },
     "anchored3": {
       "items": 2,
-      "items_with_persistence": 2,
       "tvd": 0.021514,
-      "mae_pp": 1.434267,
-      "tvd_paired": 0.021514,
-      "mae_pp_paired": 1.434267,
-      "persistence_tvd": 0.016347,
-      "persistence_mae_pp": 1.0898,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.279136
+      "mae_pp": 1.434267
     },
     "memory3": {
       "items": 2,
-      "items_with_persistence": 2,
       "tvd": 0.051264,
-      "mae_pp": 3.4176,
-      "tvd_paired": 0.051264,
-      "mae_pp_paired": 3.4176,
-      "persistence_tvd": 0.016347,
-      "persistence_mae_pp": 1.0898,
-      "beats_persistence": 0,
-      "uniform_tvd": 0.279136
+      "mae_pp": 3.4176
     }
   },
   "summary_by_evidence_type": {
@@ -53,28 +32,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.062528,
-          "mae_pp": 4.168533,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.062528,
-          "mae_pp_paired": 4.168533,
-          "persistence_tvd": 0.024694,
-          "persistence_mae_pp": 1.646267,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 2.532113
+          "mae_pp": 4.168533
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.062528,
-          "mae_pp": 4.168533,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.062528,
-          "mae_pp_paired": 4.168533,
-          "persistence_tvd": 0.024694,
-          "persistence_mae_pp": 1.646267,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 2.532113
+          "mae_pp": 4.168533
         }
       },
       "anchored3": {
@@ -82,28 +47,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.029528,
-          "mae_pp": 1.968533,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.029528,
-          "mae_pp_paired": 1.968533,
-          "persistence_tvd": 0.024694,
-          "persistence_mae_pp": 1.646267,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.195756
+          "mae_pp": 1.968533
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.029528,
-          "mae_pp": 1.968533,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.029528,
-          "mae_pp_paired": 1.968533,
-          "persistence_tvd": 0.024694,
-          "persistence_mae_pp": 1.646267,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.195756
+          "mae_pp": 1.968533
         }
       },
       "memory3": {
@@ -111,28 +62,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.062528,
-          "mae_pp": 4.168533,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.062528,
-          "mae_pp_paired": 4.168533,
-          "persistence_tvd": 0.024694,
-          "persistence_mae_pp": 1.646267,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 2.532113
+          "mae_pp": 4.168533
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.062528,
-          "mae_pp": 4.168533,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.062528,
-          "mae_pp_paired": 4.168533,
-          "persistence_tvd": 0.024694,
-          "persistence_mae_pp": 1.646267,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 2.532113
+          "mae_pp": 4.168533
         }
       }
     },
@@ -142,28 +79,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.043,
-          "mae_pp": 2.866667,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.043,
-          "mae_pp_paired": 2.866667,
-          "persistence_tvd": 0.008,
-          "persistence_mae_pp": 0.533333,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 5.375
+          "mae_pp": 2.866667
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.043,
-          "mae_pp": 2.866667,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.043,
-          "mae_pp_paired": 2.866667,
-          "persistence_tvd": 0.008,
-          "persistence_mae_pp": 0.533333,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 5.375
+          "mae_pp": 2.866667
         }
       },
       "anchored3": {
@@ -171,28 +94,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0135,
-          "mae_pp": 0.9,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0135,
-          "mae_pp_paired": 0.9,
-          "persistence_tvd": 0.008,
-          "persistence_mae_pp": 0.533333,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.6875
+          "mae_pp": 0.9
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.0135,
-          "mae_pp": 0.9,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.0135,
-          "mae_pp_paired": 0.9,
-          "persistence_tvd": 0.008,
-          "persistence_mae_pp": 0.533333,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.6875
+          "mae_pp": 0.9
         }
       },
       "memory3": {
@@ -200,28 +109,14 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.04,
-          "mae_pp": 2.666667,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.04,
-          "mae_pp_paired": 2.666667,
-          "persistence_tvd": 0.008,
-          "persistence_mae_pp": 0.533333,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 5.0
+          "mae_pp": 2.666667
         },
         "subgroups": null,
         "all": {
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.04,
-          "mae_pp": 2.666667,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.04,
-          "mae_pp_paired": 2.666667,
-          "persistence_tvd": 0.008,
-          "persistence_mae_pp": 0.533333,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 5.0
+          "mae_pp": 2.666667
         }
       }
     }
@@ -237,12 +132,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.062528,
-      "mae_pp": 4.168533,
-      "persistence_tvd": 0.024694,
-      "persistence_mae_pp": 1.646267,
-      "mean_prior_waves_tvd": 0.024694,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.276939
+      "mae_pp": 4.168533
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__congress_ballot__overall__r1",
@@ -254,12 +144,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.043,
-      "mae_pp": 2.866667,
-      "persistence_tvd": 0.008,
-      "persistence_mae_pp": 0.533333,
-      "mean_prior_waves_tvd": 0.008,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.281333
+      "mae_pp": 2.866667
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__anchored3__trump_job_approval__overall__r1",
@@ -271,12 +156,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.029528,
-      "mae_pp": 1.968533,
-      "persistence_tvd": 0.024694,
-      "persistence_mae_pp": 1.646267,
-      "mean_prior_waves_tvd": 0.024694,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.276939
+      "mae_pp": 1.968533
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__anchored3__congress_ballot__overall__r1",
@@ -288,12 +168,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0135,
-      "mae_pp": 0.9,
-      "persistence_tvd": 0.008,
-      "persistence_mae_pp": 0.533333,
-      "mean_prior_waves_tvd": 0.008,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.281333
+      "mae_pp": 0.9
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__memory3__trump_job_approval__overall__r1",
@@ -305,12 +180,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.062528,
-      "mae_pp": 4.168533,
-      "persistence_tvd": 0.024694,
-      "persistence_mae_pp": 1.646267,
-      "mean_prior_waves_tvd": 0.024694,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.276939
+      "mae_pp": 4.168533
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__memory3__congress_ballot__overall__r1",
@@ -322,12 +192,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.04,
-      "mae_pp": 2.666667,
-      "persistence_tvd": 0.008,
-      "persistence_mae_pp": 0.533333,
-      "mean_prior_waves_tvd": 0.008,
-      "mean_prior_waves_count": 1,
-      "uniform_tvd": 0.281333
+      "mae_pp": 2.666667
     }
   ]
 }

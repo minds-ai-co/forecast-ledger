@@ -56,52 +56,36 @@
     "label": "Minds Mosaic",
     "variant": "anchored3",
     "forecasts_locked": 555,
-    "scope": "full-population questions of every scored survey; persistence = repeating the last published wave of the same survey",
+    "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
       "surveys": 13,
       "questions": 77,
-      "questions_with_persistence": 77,
       "tvd": 0.034281,
-      "persistence_tvd": 0.035799,
       "mae_pp": 1.374791,
-      "persistence_mae_pp": 1.418226,
-      "pearson_r": 0.992718,
-      "beats_persistence": 39
+      "pearson_r": 0.992718
     },
     "locked_before_fieldwork": {
       "surveys": 4,
       "questions": 19,
-      "questions_with_persistence": 19,
       "tvd": 0.023443,
-      "persistence_tvd": 0.029448,
       "mae_pp": 1.104104,
-      "persistence_mae_pp": 1.321286,
-      "pearson_r": 0.997787,
-      "beats_persistence": 8
+      "pearson_r": 0.997787
     },
     "by_evidence_type": {
       "attitude": {
         "surveys": 12,
         "questions": 62,
-        "questions_with_persistence": 62,
         "tvd": 0.036414,
-        "persistence_tvd": 0.036809,
         "mae_pp": 1.492919,
-        "persistence_mae_pp": 1.502213,
-        "pearson_r": 0.992197,
-        "beats_persistence": 32
+        "pearson_r": 0.992197
       },
       "stated_intent": {
         "surveys": 10,
         "questions": 15,
-        "questions_with_persistence": 15,
         "tvd": 0.025466,
-        "persistence_tvd": 0.031622,
         "mae_pp": 0.886529,
-        "persistence_mae_pp": 1.07108,
-        "pearson_r": 0.995559,
-        "beats_persistence": 7
+        "pearson_r": 0.995559
       },
       "behaviour": null
     },
@@ -112,13 +96,9 @@
         "scored": {
           "surveys": 13,
           "questions": 77,
-          "questions_with_persistence": 77,
           "tvd": 0.085774,
-          "persistence_tvd": 0.035799,
           "mae_pp": 3.471498,
-          "persistence_mae_pp": 1.418211,
-          "pearson_r": 0.956013,
-          "beats_persistence": 14
+          "pearson_r": 0.956013
         }
       },
       "cellsS": {
@@ -137,13 +117,9 @@
         "scored": {
           "surveys": 11,
           "questions": 62,
-          "questions_with_persistence": 62,
           "tvd": 0.092697,
-          "persistence_tvd": 0.036777,
           "mae_pp": 3.438211,
-          "persistence_mae_pp": 1.396509,
-          "pearson_r": 0.948749,
-          "beats_persistence": 7
+          "pearson_r": 0.948749
         }
       },
       "blend": {
@@ -152,13 +128,9 @@
         "scored": {
           "surveys": 4,
           "questions": 38,
-          "questions_with_persistence": 38,
           "tvd": 0.052354,
-          "persistence_tvd": 0.033574,
           "mae_pp": 1.866738,
-          "persistence_mae_pp": 1.182009,
-          "pearson_r": 0.985646,
-          "beats_persistence": 9
+          "pearson_r": 0.985646
         }
       },
       "bank3": {
@@ -199,40 +171,19 @@
           "n": 57,
           "n_distribution": 57,
           "tvd": 0.09379,
-          "mae_pp": 3.822613,
-          "n_with_persistence": 57,
-          "tvd_paired": 0.09379,
-          "mae_pp_paired": 3.822613,
-          "persistence_tvd": 0.037195,
-          "persistence_mae_pp": 1.444478,
-          "beats_persistence": 9,
-          "tvd_over_persistence": 2.52155
+          "mae_pp": 3.822613
         },
         "subgroups": {
           "n": 55,
           "n_distribution": 55,
           "tvd": 0.107662,
-          "mae_pp": 6.571789,
-          "n_with_persistence": 55,
-          "tvd_paired": 0.107662,
-          "mae_pp_paired": 6.571789,
-          "persistence_tvd": 0.047805,
-          "persistence_mae_pp": 2.619928,
-          "beats_persistence": 15,
-          "tvd_over_persistence": 2.252119
+          "mae_pp": 6.571789
         },
         "all": {
           "n": 112,
           "n_distribution": 112,
           "tvd": 0.100602,
-          "mae_pp": 5.172655,
-          "n_with_persistence": 112,
-          "tvd_paired": 0.100602,
-          "mae_pp_paired": 5.172655,
-          "persistence_tvd": 0.042405,
-          "persistence_mae_pp": 2.021708,
-          "beats_persistence": 24,
-          "tvd_over_persistence": 2.372393
+          "mae_pp": 5.172655
         }
       },
       "anchored3": {
@@ -240,40 +191,19 @@
           "n": 57,
           "n_distribution": 57,
           "tvd": 0.036494,
-          "mae_pp": 1.416274,
-          "n_with_persistence": 57,
-          "tvd_paired": 0.036494,
-          "mae_pp_paired": 1.416274,
-          "persistence_tvd": 0.037196,
-          "persistence_mae_pp": 1.444512,
-          "beats_persistence": 31,
-          "tvd_over_persistence": 0.98112
+          "mae_pp": 1.416274
         },
         "subgroups": {
           "n": 55,
           "n_distribution": 55,
           "tvd": 0.041456,
-          "mae_pp": 2.381145,
-          "n_with_persistence": 55,
-          "tvd_paired": 0.041456,
-          "mae_pp_paired": 2.381145,
-          "persistence_tvd": 0.047802,
-          "persistence_mae_pp": 2.619883,
-          "beats_persistence": 31,
-          "tvd_over_persistence": 0.867251
+          "mae_pp": 2.381145
         },
         "all": {
           "n": 112,
           "n_distribution": 112,
           "tvd": 0.038931,
-          "mae_pp": 1.890095,
-          "n_with_persistence": 112,
-          "tvd_paired": 0.038931,
-          "mae_pp_paired": 1.890095,
-          "persistence_tvd": 0.042404,
-          "persistence_mae_pp": 2.021703,
-          "beats_persistence": 62,
-          "tvd_over_persistence": 0.918084
+          "mae_pp": 1.890095
         }
       },
       "blend": {
@@ -281,28 +211,14 @@
           "n": 32,
           "n_distribution": 32,
           "tvd": 0.051013,
-          "mae_pp": 1.806309,
-          "n_with_persistence": 32,
-          "tvd_paired": 0.051013,
-          "mae_pp_paired": 1.806309,
-          "persistence_tvd": 0.033063,
-          "persistence_mae_pp": 1.159689,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 1.542881
+          "mae_pp": 1.806309
         },
         "subgroups": null,
         "all": {
           "n": 32,
           "n_distribution": 32,
           "tvd": 0.051013,
-          "mae_pp": 1.806309,
-          "n_with_persistence": 32,
-          "tvd_paired": 0.051013,
-          "mae_pp_paired": 1.806309,
-          "persistence_tvd": 0.033063,
-          "persistence_mae_pp": 1.159689,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 1.542881
+          "mae_pp": 1.806309
         }
       },
       "memory3": {
@@ -310,28 +226,14 @@
           "n": 45,
           "n_distribution": 45,
           "tvd": 0.103565,
-          "mae_pp": 3.731987,
-          "n_with_persistence": 45,
-          "tvd_paired": 0.103565,
-          "mae_pp_paired": 3.731987,
-          "persistence_tvd": 0.039757,
-          "persistence_mae_pp": 1.419281,
-          "beats_persistence": 3,
-          "tvd_over_persistence": 2.604944
+          "mae_pp": 3.731987
         },
         "subgroups": null,
         "all": {
           "n": 45,
           "n_distribution": 45,
           "tvd": 0.103565,
-          "mae_pp": 3.731987,
-          "n_with_persistence": 45,
-          "tvd_paired": 0.103565,
-          "mae_pp_paired": 3.731987,
-          "persistence_tvd": 0.039757,
-          "persistence_mae_pp": 1.419281,
-          "beats_persistence": 3,
-          "tvd_over_persistence": 2.604944
+          "mae_pp": 3.731987
         }
       }
     },
@@ -341,40 +243,19 @@
           "n": 15,
           "n_distribution": 15,
           "tvd": 0.07687,
-          "mae_pp": 2.825536,
-          "n_with_persistence": 15,
-          "tvd_paired": 0.07687,
-          "mae_pp_paired": 2.825536,
-          "persistence_tvd": 0.031624,
-          "persistence_mae_pp": 1.071133,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 2.430728
+          "mae_pp": 2.825536
         },
         "subgroups": {
           "n": 14,
           "n_distribution": 14,
           "tvd": 0.089528,
-          "mae_pp": 2.673883,
-          "n_with_persistence": 14,
-          "tvd_paired": 0.089528,
-          "mae_pp_paired": 2.673883,
-          "persistence_tvd": 0.09207,
-          "persistence_mae_pp": 2.740507,
-          "beats_persistence": 8,
-          "tvd_over_persistence": 0.972388
+          "mae_pp": 2.673883
         },
         "all": {
           "n": 29,
           "n_distribution": 29,
           "tvd": 0.082981,
-          "mae_pp": 2.752324,
-          "n_with_persistence": 29,
-          "tvd_paired": 0.082981,
-          "mae_pp_paired": 2.752324,
-          "persistence_tvd": 0.060805,
-          "persistence_mae_pp": 1.877038,
-          "beats_persistence": 9,
-          "tvd_over_persistence": 1.364703
+          "mae_pp": 2.752324
         }
       },
       "anchored3": {
@@ -382,40 +263,19 @@
           "n": 15,
           "n_distribution": 15,
           "tvd": 0.025466,
-          "mae_pp": 0.886529,
-          "n_with_persistence": 15,
-          "tvd_paired": 0.025466,
-          "mae_pp_paired": 0.886529,
-          "persistence_tvd": 0.031623,
-          "persistence_mae_pp": 1.07108,
-          "beats_persistence": 7,
-          "tvd_over_persistence": 0.805321
+          "mae_pp": 0.886529
         },
         "subgroups": {
           "n": 14,
           "n_distribution": 14,
           "tvd": 0.066197,
-          "mae_pp": 1.975001,
-          "n_with_persistence": 14,
-          "tvd_paired": 0.066197,
-          "mae_pp_paired": 1.975001,
-          "persistence_tvd": 0.092066,
-          "persistence_mae_pp": 2.74034,
-          "beats_persistence": 11,
-          "tvd_over_persistence": 0.719014
+          "mae_pp": 1.975001
         },
         "all": {
           "n": 29,
           "n_distribution": 29,
           "tvd": 0.045129,
-          "mae_pp": 1.411998,
-          "n_with_persistence": 29,
-          "tvd_paired": 0.045129,
-          "mae_pp_paired": 1.411998,
-          "persistence_tvd": 0.060802,
-          "persistence_mae_pp": 1.87693,
-          "beats_persistence": 18,
-          "tvd_over_persistence": 0.742232
+          "mae_pp": 1.411998
         }
       },
       "blend": {
@@ -423,28 +283,14 @@
           "n": 6,
           "n_distribution": 6,
           "tvd": 0.059505,
-          "mae_pp": 2.189023,
-          "n_with_persistence": 6,
-          "tvd_paired": 0.059505,
-          "mae_pp_paired": 2.189023,
-          "persistence_tvd": 0.036298,
-          "persistence_mae_pp": 1.30105,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 1.639354
+          "mae_pp": 2.189023
         },
         "subgroups": null,
         "all": {
           "n": 6,
           "n_distribution": 6,
           "tvd": 0.059505,
-          "mae_pp": 2.189023,
-          "n_with_persistence": 6,
-          "tvd_paired": 0.059505,
-          "mae_pp_paired": 2.189023,
-          "persistence_tvd": 0.036298,
-          "persistence_mae_pp": 1.30105,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 1.639354
+          "mae_pp": 2.189023
         }
       },
       "memory3": {
@@ -452,28 +298,14 @@
           "n": 12,
           "n_distribution": 12,
           "tvd": 0.079441,
-          "mae_pp": 3.027475,
-          "n_with_persistence": 12,
-          "tvd_paired": 0.079441,
-          "mae_pp_paired": 3.027475,
-          "persistence_tvd": 0.027428,
-          "persistence_mae_pp": 0.992993,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 2.89632
+          "mae_pp": 3.027475
         },
         "subgroups": null,
         "all": {
           "n": 12,
           "n_distribution": 12,
           "tvd": 0.079441,
-          "mae_pp": 3.027475,
-          "n_with_persistence": 12,
-          "tvd_paired": 0.079441,
-          "mae_pp_paired": 3.027475,
-          "persistence_tvd": 0.027428,
-          "persistence_mae_pp": 0.992993,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 2.89632
+          "mae_pp": 3.027475
         }
       }
     }
@@ -495,6 +327,7 @@
       "cutoff_utc": "2026-10-24T04:00:00Z",
       "first_lock_utc": "2026-10-23T21:34:32Z",
       "released_at": "2026-10-29T15:54:24Z",
+      "publication_url": "https://yougov.com/en-us/articles/55847",
       "forecasts_count": 120,
       "variants": [
         "pure",
@@ -552,6 +385,7 @@
       "cutoff_utc": "2026-10-24T23:00:00Z",
       "first_lock_utc": "2026-10-23T21:53:09Z",
       "released_at": "2026-10-27T18:52:17Z",
+      "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
       "forecasts_count": 60,
       "variants": [
         "pure",
@@ -608,6 +442,7 @@
       "cutoff_utc": "2026-10-25T23:00:00Z",
       "first_lock_utc": "2026-10-25T06:52:04Z",
       "released_at": null,
+      "publication_url": "https://elabe.fr/tag/barometre-politique/",
       "forecasts_count": 30,
       "variants": [
         "pure",
@@ -680,6 +515,7 @@
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T12:43:07Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 80,
       "variants": [
         "pure",
@@ -770,6 +606,7 @@
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T12:54:37Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
         "pure",
@@ -860,6 +697,7 @@
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T13:05:35Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
         "pure",
@@ -950,6 +788,7 @@
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T12:32:21Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
         "pure",
@@ -1040,6 +879,7 @@
       "cutoff_utc": "2026-10-26T12:00:00Z",
       "first_lock_utc": "2026-10-24T01:50:39Z",
       "released_at": null,
+      "publication_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
       "forecasts_count": 3,
       "variants": [
         "pure",
@@ -1112,6 +952,7 @@
       "cutoff_utc": "2026-10-26T12:00:00Z",
       "first_lock_utc": "2026-10-24T01:49:57Z",
       "released_at": null,
+      "publication_url": "https://www.ipsos.com/en-us/latest-us-opinion-polls",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -1185,6 +1026,7 @@
       "cutoff_utc": "2026-10-26T12:00:00Z",
       "first_lock_utc": "2026-10-24T01:48:52Z",
       "released_at": "2026-10-30T12:58:48Z",
+      "publication_url": "https://emersoncollegepolling.com/october-2026-national-poll-democrats-hold-10-point-midterm-advantage/",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -1258,6 +1100,7 @@
       "cutoff_utc": "2026-10-26T12:00:00Z",
       "first_lock_utc": "2026-10-24T01:47:52Z",
       "released_at": "2026-10-26T10:00:00Z",
+      "publication_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -1330,6 +1173,7 @@
       "cutoff_utc": "2026-10-26T12:00:00Z",
       "first_lock_utc": "2026-10-24T01:53:08Z",
       "released_at": null,
+      "publication_url": "https://poll.qu.edu/poll",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -1403,6 +1247,7 @@
       "cutoff_utc": "2026-10-26T12:00:00Z",
       "first_lock_utc": "2026-10-24T01:46:46Z",
       "released_at": "2026-10-26T20:56:07Z",
+      "publication_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -1475,6 +1320,7 @@
       "cutoff_utc": "2026-10-27T00:00:00Z",
       "first_lock_utc": "2026-10-24T01:52:03Z",
       "released_at": "2026-10-30T13:46:12Z",
+      "publication_url": "https://findoutnow.co.uk/blog/",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -1548,6 +1394,7 @@
       "cutoff_utc": "2026-10-27T00:00:00Z",
       "first_lock_utc": "2026-10-25T00:55:13Z",
       "released_at": "2026-10-31T14:04:23Z",
+      "publication_url": "https://www.opinium.com/resource-center/",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -1620,6 +1467,7 @@
       "cutoff_utc": "2026-10-27T04:00:00Z",
       "first_lock_utc": "2026-10-24T01:55:03Z",
       "released_at": null,
+      "publication_url": null,
       "forecasts_count": 15,
       "variants": [
         "pure",
@@ -1693,6 +1541,7 @@
       "cutoff_utc": "2026-10-27T06:00:00Z",
       "first_lock_utc": "2026-10-26T10:14:22Z",
       "released_at": "2026-10-29T10:00:00Z",
+      "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 30,
       "variants": [
         "pure",
@@ -1765,6 +1614,7 @@
       "cutoff_utc": "2026-10-27T10:00:00Z",
       "first_lock_utc": "2026-10-24T13:28:57Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 80,
       "variants": [
         "pure",
@@ -1855,6 +1705,7 @@
       "cutoff_utc": "2026-10-27T10:00:00Z",
       "first_lock_utc": "2026-10-24T13:41:16Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
         "pure",
@@ -1945,6 +1796,7 @@
       "cutoff_utc": "2026-10-27T10:00:00Z",
       "first_lock_utc": "2026-10-24T13:53:20Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
         "pure",
@@ -2035,6 +1887,7 @@
       "cutoff_utc": "2026-10-27T10:00:00Z",
       "first_lock_utc": "2026-10-24T13:16:58Z",
       "released_at": null,
+      "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
         "pure",
@@ -2126,6 +1979,7 @@
       "cutoff_utc": "2026-10-27T23:00:00Z",
       "first_lock_utc": "2026-10-26T00:52:23Z",
       "released_at": null,
+      "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 33,
       "variants": [
         "pure",
@@ -2199,6 +2053,7 @@
       "cutoff_utc": "2026-10-28T00:00:00Z",
       "first_lock_utc": "2026-10-27T00:52:53Z",
       "released_at": null,
+      "publication_url": "https://www.ipsos.com/en-uk/topic/political-monitor",
       "forecasts_count": 30,
       "variants": [
         "pure",
@@ -2290,6 +2145,7 @@
       "cutoff_utc": "2026-10-28T05:00:00Z",
       "first_lock_utc": "2026-10-27T01:27:11Z",
       "released_at": "2026-10-29T10:00:00Z",
+      "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 44,
       "variants": [
         "pure",
@@ -2379,6 +2235,7 @@
       "cutoff_utc": "2026-10-28T05:00:00Z",
       "first_lock_utc": "2026-10-27T01:08:40Z",
       "released_at": "2026-10-29T10:00:00Z",
+      "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 44,
       "variants": [
         "pure",
@@ -2468,6 +2325,7 @@
       "cutoff_utc": "2026-10-28T05:00:00Z",
       "first_lock_utc": "2026-10-27T01:17:45Z",
       "released_at": "2026-10-29T10:00:00Z",
+      "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 44,
       "variants": [
         "pure",
@@ -2556,6 +2414,7 @@
       "cutoff_utc": "2026-10-28T15:00:00Z",
       "first_lock_utc": "2026-10-27T01:37:20Z",
       "released_at": "2026-10-29T05:00:00Z",
+      "publication_url": "https://www.esri.cao.go.jp/jp/stat/shouhi/honbun.pdf",
       "forecasts_count": 20,
       "variants": [
         "pure",
@@ -2645,6 +2504,7 @@
       "cutoff_utc": "2026-10-29T00:00:00Z",
       "first_lock_utc": "2026-10-28T00:51:22Z",
       "released_at": null,
+      "publication_url": "https://freshwaterstrategy.com/",
       "forecasts_count": 30,
       "variants": [
         "pure",
@@ -2752,6 +2612,7 @@
       "cutoff_utc": "2026-10-29T00:00:00Z",
       "first_lock_utc": "2026-10-28T04:29:12Z",
       "released_at": null,
+      "publication_url": "https://www.moreincommon.org.uk/polling-tables/",
       "forecasts_count": 10,
       "variants": [
         "pure",
@@ -2842,6 +2703,7 @@
       "cutoff_utc": "2026-10-29T12:00:00Z",
       "first_lock_utc": "2026-10-28T04:39:09Z",
       "released_at": null,
+      "publication_url": "https://www.wahlrecht.de/umfragen/insa.htm",
       "forecasts_count": 3,
       "variants": [
         "pure",
@@ -2915,6 +2777,7 @@
       "cutoff_utc": "2026-10-30T04:00:00Z",
       "first_lock_utc": "2026-10-30T01:25:05Z",
       "released_at": null,
+      "publication_url": "https://yougov.com/en-us/articles",
       "forecasts_count": 270,
       "variants": [
         "pure",
@@ -3005,6 +2868,7 @@
       "cutoff_utc": "2026-10-31T04:00:00Z",
       "first_lock_utc": "2026-10-30T06:57:35Z",
       "released_at": null,
+      "publication_url": "https://www.newyorkfed.org/microeconomics/sce",
       "forecasts_count": 12,
       "variants": [
         "pure",
@@ -3077,6 +2941,7 @@
       "cutoff_utc": "2026-10-31T23:00:00Z",
       "first_lock_utc": "2026-10-30T18:51:57Z",
       "released_at": null,
+      "publication_url": "https://www.gfsbern.ch/de/news/",
       "forecasts_count": 15,
       "variants": [
         "pure",
@@ -3150,6 +3015,7 @@
       "cutoff_utc": "2026-11-01T00:00:00Z",
       "first_lock_utc": "2026-10-28T05:35:00Z",
       "released_at": null,
+      "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
       "forecasts_count": 126,
       "variants": [
         "pure",
@@ -3240,6 +3106,7 @@
       "cutoff_utc": "2026-11-01T04:00:00Z",
       "first_lock_utc": "2026-10-30T16:08:38Z",
       "released_at": null,
+      "publication_url": "https://news.gallup.com/poll/1669/general-mood-country.aspx",
       "forecasts_count": 21,
       "variants": [
         "pure",
@@ -3313,6 +3180,7 @@
       "cutoff_utc": "2026-11-01T12:00:00Z",
       "first_lock_utc": "2026-10-24T02:07:54Z",
       "released_at": null,
+      "publication_url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/",
       "forecasts_count": 12,
       "variants": [
         "pure",
@@ -3401,6 +3269,7 @@
       "cutoff_utc": "2026-11-01T23:00:00Z",
       "first_lock_utc": "2026-11-01T00:49:17Z",
       "released_at": null,
+      "publication_url": "https://www.ifopgroup.com/article/indices-de-popularite-barometre-ifop-opinion-octobre-2026",
       "forecasts_count": 12,
       "variants": [
         "pure",
@@ -3521,6 +3390,7 @@
       "cutoff_utc": "2026-11-01T23:00:00Z",
       "first_lock_utc": "2026-11-01T00:51:57Z",
       "released_at": null,
+      "publication_url": "https://www.ipsos.com/fr-fr/barometre-politique-ipsos-bva-la-tribune-dimanche",
       "forecasts_count": 12,
       "variants": [
         "pure",
@@ -3641,6 +3511,7 @@
       "cutoff_utc": "2026-11-02T05:00:00Z",
       "first_lock_utc": "2026-11-01T15:48:40Z",
       "released_at": null,
+      "publication_url": "https://news.gallup.com/poll/1564/christmas.aspx",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -3763,6 +3634,7 @@
       "cutoff_utc": "2026-11-02T05:00:00Z",
       "first_lock_utc": "2026-11-01T12:09:01Z",
       "released_at": null,
+      "publication_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
       "forecasts_count": 60,
       "variants": [
         "pure",
@@ -3883,6 +3755,7 @@
       "cutoff_utc": "2026-11-02T09:00:00Z",
       "first_lock_utc": "2026-11-01T15:59:59Z",
       "released_at": null,
+      "publication_url": "https://store.steampowered.com/charts/topsellers/global",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4003,6 +3876,7 @@
       "cutoff_utc": "2026-11-02T12:00:00Z",
       "first_lock_utc": "2026-11-01T12:16:29Z",
       "released_at": null,
+      "publication_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4123,6 +3997,7 @@
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:19:53Z",
       "released_at": null,
+      "publication_url": "https://www.wahlrecht.de/umfragen/allensbach.htm",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4243,6 +4118,7 @@
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:22:57Z",
       "released_at": null,
+      "publication_url": "https://www.wahlrecht.de/umfragen/gms.htm",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4363,6 +4239,7 @@
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:17:43Z",
       "released_at": null,
+      "publication_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4483,6 +4360,7 @@
       "cutoff_utc": "2026-11-03T00:00:00Z",
       "first_lock_utc": "2026-11-01T12:52:07Z",
       "released_at": null,
+      "publication_url": "https://findoutnow.co.uk/blog/",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4557,6 +4435,7 @@
       "cutoff_utc": "2026-11-03T00:00:00Z",
       "first_lock_utc": "2026-11-01T13:23:05Z",
       "released_at": null,
+      "publication_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/previousreleases",
       "forecasts_count": 195,
       "variants": [
         "pure",
@@ -4630,6 +4509,7 @@
       "cutoff_utc": "2026-11-03T00:00:00Z",
       "first_lock_utc": "2026-11-01T12:59:48Z",
       "released_at": null,
+      "publication_url": "https://www.opinium.com/resource-center/",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4702,6 +4582,7 @@
       "cutoff_utc": "2026-11-03T04:59:00Z",
       "first_lock_utc": "2026-10-24T02:00:45Z",
       "released_at": null,
+      "publication_url": "https://www.foxnews.com/elections/polls/voter-poll-results",
       "forecasts_count": 17,
       "variants": [
         "pure",
@@ -4774,6 +4655,7 @@
       "cutoff_utc": "2026-11-03T12:00:00Z",
       "first_lock_utc": "2026-11-01T15:29:19Z",
       "released_at": null,
+      "publication_url": "https://www.netflix.com/tudum/top10",
       "forecasts_count": 6,
       "variants": [
         "pure",
@@ -4846,6 +4728,7 @@
       "cutoff_utc": "2026-11-06T05:00:00Z",
       "first_lock_utc": "2026-10-24T02:05:39Z",
       "released_at": null,
+      "publication_url": "https://data.sca.isr.umich.edu/tables.php",
       "forecasts_count": 15,
       "variants": [
         "pure",
@@ -4919,6 +4802,7 @@
       "cutoff_utc": "2026-11-08T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:29:14Z",
       "released_at": null,
+      "publication_url": "https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/",
       "forecasts_count": 36,
       "variants": [
         "pure",

@@ -7,31 +7,17 @@
   "scored_at": "2026-10-27T18:52:45Z",
   "results_sha256": "af15e04099799cb02b0277a078203fa70c3dd9deaeef1802d2d24c9ad023bb76",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released or prior-wave shares; only error metrics are shown.",
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
   "summary": {
     "pure": {
       "items": 30,
-      "items_with_persistence": 30,
       "tvd": 0.101217,
-      "mae_pp": 7.954723,
-      "tvd_paired": 0.101217,
-      "mae_pp_paired": 7.954723,
-      "persistence_tvd": 0.037205,
-      "persistence_mae_pp": 2.748368,
-      "beats_persistence": 10,
-      "uniform_tvd": 0.213031
+      "mae_pp": 7.954723
     },
     "anchored3": {
       "items": 30,
-      "items_with_persistence": 30,
       "tvd": 0.037389,
-      "mae_pp": 2.758339,
-      "tvd_paired": 0.037389,
-      "mae_pp_paired": 2.758339,
-      "persistence_tvd": 0.037207,
-      "persistence_mae_pp": 2.748502,
-      "beats_persistence": 14,
-      "uniform_tvd": 0.213031
+      "mae_pp": 2.758339
     }
   },
   "summary_by_evidence_type": {
@@ -41,40 +27,19 @@
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.072,
-          "mae_pp": 6.733333,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.072,
-          "mae_pp_paired": 6.733333,
-          "persistence_tvd": 0.02,
-          "persistence_mae_pp": 1.866667,
-          "beats_persistence": 2,
-          "tvd_over_persistence": 3.6
+          "mae_pp": 6.733333
         },
         "subgroups": {
           "n": 20,
           "n_distribution": 20,
           "tvd": 0.107375,
-          "mae_pp": 9.5875,
-          "n_with_persistence": 20,
-          "tvd_paired": 0.107375,
-          "mae_pp_paired": 9.5875,
-          "persistence_tvd": 0.036457,
-          "persistence_mae_pp": 3.297135,
-          "beats_persistence": 7,
-          "tvd_over_persistence": 2.945251
+          "mae_pp": 9.5875
         },
         "all": {
           "n": 25,
           "n_distribution": 25,
           "tvd": 0.1003,
-          "mae_pp": 9.016667,
-          "n_with_persistence": 25,
-          "tvd_paired": 0.1003,
-          "mae_pp_paired": 9.016667,
-          "persistence_tvd": 0.033166,
-          "persistence_mae_pp": 3.011041,
-          "beats_persistence": 9,
-          "tvd_over_persistence": 3.024218
+          "mae_pp": 9.016667
         }
       },
       "anchored3": {
@@ -82,40 +47,19 @@
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.0194,
-          "mae_pp": 1.793333,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.0194,
-          "mae_pp_paired": 1.793333,
-          "persistence_tvd": 0.02,
-          "persistence_mae_pp": 1.866667,
-          "beats_persistence": 2,
-          "tvd_over_persistence": 0.97
+          "mae_pp": 1.793333
         },
         "subgroups": {
           "n": 20,
           "n_distribution": 20,
           "tvd": 0.0371,
-          "mae_pp": 3.335833,
-          "n_with_persistence": 20,
-          "tvd_paired": 0.0371,
-          "mae_pp_paired": 3.335833,
-          "persistence_tvd": 0.03646,
-          "persistence_mae_pp": 3.297305,
-          "beats_persistence": 9,
-          "tvd_over_persistence": 1.017566
+          "mae_pp": 3.335833
         },
         "all": {
           "n": 25,
           "n_distribution": 25,
           "tvd": 0.03356,
-          "mae_pp": 3.027333,
-          "n_with_persistence": 25,
-          "tvd_paired": 0.03356,
-          "mae_pp_paired": 3.027333,
-          "persistence_tvd": 0.033168,
-          "persistence_mae_pp": 3.011177,
-          "beats_persistence": 11,
-          "tvd_over_persistence": 1.01183
+          "mae_pp": 3.027333
         }
       }
     },
@@ -125,40 +69,19 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.068765,
-          "mae_pp": 1.719133,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.068765,
-          "mae_pp_paired": 1.719133,
-          "persistence_tvd": 0.016973,
-          "persistence_mae_pp": 0.424328,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 4.051435
+          "mae_pp": 1.719133
         },
         "subgroups": {
           "n": 4,
           "n_distribution": 4,
           "tvd": 0.115059,
-          "mae_pp": 2.876472,
-          "n_with_persistence": 4,
-          "tvd_paired": 0.115059,
-          "mae_pp_paired": 2.876472,
-          "persistence_tvd": 0.067507,
-          "persistence_mae_pp": 1.687673,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 1.704397
+          "mae_pp": 2.876472
         },
         "all": {
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.1058,
-          "mae_pp": 2.645004,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.1058,
-          "mae_pp_paired": 2.645004,
-          "persistence_tvd": 0.0574,
-          "persistence_mae_pp": 1.435004,
-          "beats_persistence": 1,
-          "tvd_over_persistence": 1.843199
+          "mae_pp": 2.645004
         }
       },
       "anchored3": {
@@ -166,40 +89,19 @@
           "n": 1,
           "n_distribution": 1,
           "tvd": 0.019469,
-          "mae_pp": 0.486735,
-          "n_with_persistence": 1,
-          "tvd_paired": 0.019469,
-          "mae_pp_paired": 0.486735,
-          "persistence_tvd": 0.016973,
-          "persistence_mae_pp": 0.424328,
-          "beats_persistence": 0,
-          "tvd_over_persistence": 1.147057
+          "mae_pp": 0.486735
         },
         "subgroups": {
           "n": 4,
           "n_distribution": 4,
           "tvd": 0.065801,
-          "mae_pp": 1.645026,
-          "n_with_persistence": 4,
-          "tvd_paired": 0.065801,
-          "mae_pp_paired": 1.645026,
-          "persistence_tvd": 0.067513,
-          "persistence_mae_pp": 1.687829,
-          "beats_persistence": 3,
-          "tvd_over_persistence": 0.974638
+          "mae_pp": 1.645026
         },
         "all": {
           "n": 5,
           "n_distribution": 5,
           "tvd": 0.056535,
-          "mae_pp": 1.413368,
-          "n_with_persistence": 5,
-          "tvd_paired": 0.056535,
-          "mae_pp_paired": 1.413368,
-          "persistence_tvd": 0.057405,
-          "persistence_mae_pp": 1.435129,
-          "beats_persistence": 3,
-          "tvd_over_persistence": 0.984834
+          "mae_pp": 1.413368
         }
       }
     }
@@ -215,12 +117,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.07,
-      "mae_pp": 4.666667,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.176667
+      "mae_pp": 4.666667
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__age_18_24__r1",
@@ -232,12 +129,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.15,
-      "mae_pp": 10.0,
-      "persistence_tvd": 0.08404,
-      "persistence_mae_pp": 5.602694,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.026667
+      "mae_pp": 10.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__age_65_plus__r1",
@@ -249,12 +141,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.195,
-      "mae_pp": 13.0,
-      "persistence_tvd": 0.0528,
-      "persistence_mae_pp": 3.52,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.236667
+      "mae_pp": 13.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__ge2024_con__r1",
@@ -266,12 +153,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.19,
-      "mae_pp": 12.666667,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.346667
+      "mae_pp": 12.666667
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__ge2024_lab__r1",
@@ -283,12 +165,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.155,
-      "mae_pp": 10.333333,
-      "persistence_tvd": 0.0423,
-      "persistence_mae_pp": 2.82,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.186667
+      "mae_pp": 10.333333
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__overall__r1",
@@ -300,12 +177,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.068765,
-      "mae_pp": 1.719133,
-      "persistence_tvd": 0.016973,
-      "persistence_mae_pp": 0.424328,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.329082
+      "mae_pp": 1.719133
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__age_18_24__r1",
@@ -317,12 +189,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.114394,
-      "mae_pp": 2.859848,
-      "persistence_tvd": 0.09931,
-      "persistence_mae_pp": 2.482748,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.42298
+      "mae_pp": 2.859848
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__age_65_plus__r1",
@@ -334,12 +201,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.133267,
-      "mae_pp": 3.331683,
-      "persistence_tvd": 0.046139,
-      "persistence_mae_pp": 1.153465,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.407178
+      "mae_pp": 3.331683
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__ge2024_con__r1",
@@ -351,12 +213,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.07,
-      "mae_pp": 1.75,
-      "persistence_tvd": 0.08,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.64
+      "mae_pp": 1.75
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__ge2024_lab__r1",
@@ -368,12 +225,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.142574,
-      "mae_pp": 3.564356,
-      "persistence_tvd": 0.044579,
-      "persistence_mae_pp": 1.11448,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.538366
+      "mae_pp": 3.564356
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__overall__r1",
@@ -385,12 +237,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 1.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.01
+      "mae_pp": 1.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__age_18_24__r1",
@@ -402,12 +249,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 1.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.02
+      "mae_pp": 0.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__age_65_plus__r1",
@@ -419,12 +261,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.5,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 5.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.02
+      "mae_pp": 1.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__ge2024_con__r1",
@@ -436,12 +273,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.06,
-      "mae_pp": 6.0,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.02
+      "mae_pp": 6.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__ge2024_lab__r1",
@@ -453,12 +285,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 3.0,
-      "persistence_tvd": 0.09,
-      "persistence_mae_pp": 9.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.09
+      "mae_pp": 3.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__overall__r1",
@@ -470,12 +297,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0,
-      "mae_pp": 0.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.02
+      "mae_pp": 0.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__age_18_24__r1",
@@ -487,12 +309,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.5,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 3.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.29
+      "mae_pp": 1.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__age_65_plus__r1",
@@ -504,12 +321,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 1.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.13
+      "mae_pp": 0.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__ge2024_con__r1",
@@ -521,12 +333,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.22
+      "mae_pp": 0.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__ge2024_lab__r1",
@@ -538,12 +345,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 1.0,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 5.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.19
+      "mae_pp": 1.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__overall__r1",
@@ -555,12 +357,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.12,
-      "mae_pp": 12.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.26
+      "mae_pp": 12.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__age_18_24__r1",
@@ -572,12 +369,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 3.0,
-      "persistence_tvd": 0.07,
-      "persistence_mae_pp": 7.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.24
+      "mae_pp": 3.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__age_65_plus__r1",
@@ -589,12 +381,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.245,
-      "mae_pp": 24.5,
-      "persistence_tvd": 0.07,
-      "persistence_mae_pp": 7.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.28
+      "mae_pp": 24.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__ge2024_con__r1",
@@ -606,12 +393,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.16,
-      "mae_pp": 16.0,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 4.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.34
+      "mae_pp": 16.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__ge2024_lab__r1",
@@ -623,12 +405,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.16,
-      "mae_pp": 16.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.18
+      "mae_pp": 16.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__overall__r1",
@@ -640,12 +417,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.16,
-      "mae_pp": 16.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.18
+      "mae_pp": 16.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__age_18_24__r1",
@@ -657,12 +429,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0275,
-      "mae_pp": 2.75,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.35
+      "mae_pp": 2.75
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__age_65_plus__r1",
@@ -674,12 +441,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.305,
-      "mae_pp": 30.5,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 1.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.03
+      "mae_pp": 30.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__ge2024_con__r1",
@@ -691,12 +453,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.24,
-      "mae_pp": 24.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.03
+      "mae_pp": 24.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__ge2024_lab__r1",
@@ -708,12 +465,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.145,
-      "mae_pp": 14.5,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 3.0,
-      "mean_prior_waves_tvd": null,
-      "mean_prior_waves_count": null,
-      "uniform_tvd": 0.18
+      "mae_pp": 14.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__overall__r1",
@@ -725,12 +477,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.022,
-      "mae_pp": 1.466667,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 1.333333,
-      "mean_prior_waves_tvd": 0.025859,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.176667
+      "mae_pp": 1.466667
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__age_18_24__r1",
@@ -742,12 +489,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0695,
-      "mae_pp": 4.633333,
-      "persistence_tvd": 0.08404,
-      "persistence_mae_pp": 5.602694,
-      "mean_prior_waves_tvd": 0.06835,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.026667
+      "mae_pp": 4.633333
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__age_65_plus__r1",
@@ -759,12 +501,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.039,
-      "mae_pp": 2.6,
-      "persistence_tvd": 0.052828,
-      "persistence_mae_pp": 3.521867,
-      "mean_prior_waves_tvd": 0.036789,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.236667
+      "mae_pp": 2.6
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__ge2024_con__r1",
@@ -776,12 +513,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.07,
-      "mae_pp": 4.666667,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.073333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.346667
+      "mae_pp": 4.666667
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__ge2024_lab__r1",
@@ -793,12 +525,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.046,
-      "mae_pp": 3.066667,
-      "persistence_tvd": 0.042323,
-      "persistence_mae_pp": 2.821533,
-      "mean_prior_waves_tvd": 0.055084,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.186667
+      "mae_pp": 3.066667
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__overall__r1",
@@ -810,12 +537,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.019469,
-      "mae_pp": 0.486735,
-      "persistence_tvd": 0.016973,
-      "persistence_mae_pp": 0.424328,
-      "mean_prior_waves_tvd": 0.023104,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.329082
+      "mae_pp": 0.486735
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__age_18_24__r1",
@@ -827,12 +549,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.088561,
-      "mae_pp": 2.214015,
-      "persistence_tvd": 0.09931,
-      "persistence_mae_pp": 2.482748,
-      "mean_prior_waves_tvd": 0.090528,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.42298
+      "mae_pp": 2.214015
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__age_65_plus__r1",
@@ -844,12 +561,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.040762,
-      "mae_pp": 1.019059,
-      "persistence_tvd": 0.046139,
-      "persistence_mae_pp": 1.153465,
-      "mean_prior_waves_tvd": 0.047393,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.407178
+      "mae_pp": 1.019059
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__ge2024_con__r1",
@@ -861,12 +573,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.097,
-      "mae_pp": 2.425,
-      "persistence_tvd": 0.08,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.107921,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.64
+      "mae_pp": 2.425
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__ge2024_lab__r1",
@@ -878,12 +585,7 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.036881,
-      "mae_pp": 0.92203,
-      "persistence_tvd": 0.044604,
-      "persistence_mae_pp": 1.115105,
-      "mean_prior_waves_tvd": 0.035392,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.538366
+      "mae_pp": 0.92203
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__overall__r1",
@@ -895,12 +597,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.008,
-      "mae_pp": 0.8,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.003333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.01
+      "mae_pp": 0.8
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__age_18_24__r1",
@@ -912,12 +609,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.025,
-      "mae_pp": 2.5,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 1.0,
-      "mean_prior_waves_tvd": 0.03,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.02
+      "mae_pp": 2.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__age_65_plus__r1",
@@ -929,12 +621,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0135,
-      "mae_pp": 1.35,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 5.0,
-      "mean_prior_waves_tvd": 0.01,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.02
+      "mae_pp": 1.35
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__ge2024_con__r1",
@@ -946,12 +633,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0025,
-      "mae_pp": 0.25,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": 0.006667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.02
+      "mae_pp": 0.25
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__ge2024_lab__r1",
@@ -963,12 +645,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0425,
-      "mae_pp": 4.25,
-      "persistence_tvd": 0.09,
-      "persistence_mae_pp": 9.0,
-      "mean_prior_waves_tvd": 0.03,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.09
+      "mae_pp": 4.25
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__overall__r1",
@@ -980,12 +657,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.025,
-      "mae_pp": 2.5,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.026667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.02
+      "mae_pp": 2.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__age_18_24__r1",
@@ -997,12 +669,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.05,
-      "mae_pp": 5.0,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 3.0,
-      "mean_prior_waves_tvd": 0.053333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.29
+      "mae_pp": 5.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__age_65_plus__r1",
@@ -1014,12 +681,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0145,
-      "mae_pp": 1.45,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 1.0,
-      "mean_prior_waves_tvd": 0.016667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.13
+      "mae_pp": 1.45
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__ge2024_con__r1",
@@ -1031,12 +693,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 3.0,
-      "persistence_tvd": 0.0,
-      "persistence_mae_pp": 0.0,
-      "mean_prior_waves_tvd": 0.036667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.22
+      "mae_pp": 3.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__ge2024_lab__r1",
@@ -1048,12 +705,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.028,
-      "mae_pp": 2.8,
-      "persistence_tvd": 0.05,
-      "persistence_mae_pp": 5.0,
-      "mean_prior_waves_tvd": 0.02,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.19
+      "mae_pp": 2.8
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__overall__r1",
@@ -1065,12 +717,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.018,
-      "mae_pp": 1.8,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.016667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.26
+      "mae_pp": 1.8
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__age_18_24__r1",
@@ -1082,12 +729,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.06,
-      "mae_pp": 6.0,
-      "persistence_tvd": 0.07,
-      "persistence_mae_pp": 7.0,
-      "mean_prior_waves_tvd": 0.06,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.24
+      "mae_pp": 6.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__age_65_plus__r1",
@@ -1099,12 +741,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.049,
-      "mae_pp": 4.9,
-      "persistence_tvd": 0.07,
-      "persistence_mae_pp": 7.0,
-      "mean_prior_waves_tvd": 0.046667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.28
+      "mae_pp": 4.9
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__ge2024_con__r1",
@@ -1116,12 +753,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.035,
-      "mae_pp": 3.5,
-      "persistence_tvd": 0.04,
-      "persistence_mae_pp": 4.0,
-      "mean_prior_waves_tvd": 0.03,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.34
+      "mae_pp": 3.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__ge2024_lab__r1",
@@ -1133,12 +765,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.023,
-      "mae_pp": 2.3,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.023333,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.18
+      "mae_pp": 2.3
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__overall__r1",
@@ -1150,12 +777,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.024,
-      "mae_pp": 2.4,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.03,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.18
+      "mae_pp": 2.4
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__age_18_24__r1",
@@ -1167,12 +789,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.04,
-      "mae_pp": 4.0,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.046667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.35
+      "mae_pp": 4.0
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__age_65_plus__r1",
@@ -1184,12 +801,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0475,
-      "mae_pp": 4.75,
-      "persistence_tvd": 0.01,
-      "persistence_mae_pp": 1.0,
-      "mean_prior_waves_tvd": 0.06,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.03
+      "mae_pp": 4.75
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__ge2024_con__r1",
@@ -1201,12 +813,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5,
-      "persistence_tvd": 0.02,
-      "persistence_mae_pp": 2.0,
-      "mean_prior_waves_tvd": 0.006667,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.03
+      "mae_pp": 0.5
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__ge2024_lab__r1",
@@ -1218,12 +825,7 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.052,
-      "mae_pp": 5.2,
-      "persistence_tvd": 0.03,
-      "persistence_mae_pp": 3.0,
-      "mean_prior_waves_tvd": 0.06,
-      "mean_prior_waves_count": 3,
-      "uniform_tvd": 0.18
+      "mae_pp": 5.2
     }
   ]
 }

@@ -41,7 +41,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__income_growth__overall__r1",
@@ -78,7 +78,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__employment__overall__r1",
@@ -115,7 +115,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__durables_buying__overall__r1",
@@ -152,7 +152,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__price_outlook_1y__overall__r1",
@@ -195,7 +195,7 @@
       "revision": 1,
       "supersedes": null,
       "raw_entry_file": null,
-      "raw_entry_withheld": "the file embeds publisher baselines and underlying model identifiers covered by its hash"
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }
