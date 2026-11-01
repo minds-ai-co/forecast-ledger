@@ -1,0 +1,17 @@
+{
+  "target_id": "de-allensbach-faz-2026-11",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-allensbach-faz-2026-11__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "92cd6e770012be469cf145a0fdd94e5eae80a11f4675f4752e6c05dfc51cfabd",
+      "seq": 2167,
+      "batch_id": "de-allensbach-faz-2026-11__memory3__20261101T215728682592Z__s2167",
+      "locked_at": "2026-11-01T21:57:28Z"
+    }
+  ]
+}

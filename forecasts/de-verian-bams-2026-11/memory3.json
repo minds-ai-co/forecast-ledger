@@ -1,0 +1,17 @@
+{
+  "target_id": "de-verian-bams-2026-11",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-verian-bams-2026-11__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "e494b36eb547e19c25ec2d65b27e47ec34295268efb74291178a7ac937939287",
+      "seq": 2166,
+      "batch_id": "de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166",
+      "locked_at": "2026-11-01T21:56:37Z"
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-01T21:52:13Z",
+  "as_of": "2026-11-01T22:01:31Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "3e4656e46ae012eb550535d46b69cd5f7a92d63c3460acc5c686716030daff37",
+  "chain_head_sha256": "11ec2c8a5113b94771b956435476f1603c0a9ac856ba39bc20f3f37e87507b42",
   "counts": {
     "targets": 52,
     "targets_scored": 13,
     "targets_pending": 39,
     "targets_not_scoreable": 0,
-    "entries": 2166,
-    "batches": 199,
+    "entries": 2175,
+    "batches": 203,
     "entries_scored": 392,
-    "entries_pending": 1759,
+    "entries_pending": 1768,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -133,7 +133,7 @@
       },
       "memory3": {
         "label": "Additional research forecast (memory3)",
-        "forecasts_locked": 452,
+        "forecasts_locked": 461,
         "scored": {
           "surveys": 11,
           "questions": 62,
@@ -188,8 +188,8 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1769,
-    "stated_intent": 364,
+    "attitude": 1773,
+    "stated_intent": 369,
     "behaviour": 33
   },
   "results_by_evidence_type": {
@@ -4123,10 +4123,11 @@
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:19:53Z",
       "released_at": null,
-      "forecasts_count": 5,
+      "forecasts_count": 6,
       "variants": [
         "pure",
         "anchored3",
+        "memory3",
         "bank3",
         "bankR3",
         "cohort"
@@ -4134,6 +4135,7 @@
       "forecasts": {
         "pure": "forecasts/de-allensbach-faz-2026-11/pure.json",
         "anchored3": "forecasts/de-allensbach-faz-2026-11/anchored3.json",
+        "memory3": "forecasts/de-allensbach-faz-2026-11/memory3.json",
         "bank3": "forecasts/de-allensbach-faz-2026-11/bank3.json",
         "bankR3": "forecasts/de-allensbach-faz-2026-11/bankR3.json",
         "cohort": "forecasts/de-allensbach-faz-2026-11/cohort.json"
@@ -4209,6 +4211,20 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-allensbach-faz-2026-11__memory3__20261101T215728682592Z__s2167",
+          "locked_at": "2026-11-01T21:57:28Z",
+          "entries": 1,
+          "merkle_root": "c60e1d72f9e561857311c5512eb7a93c01a857717a74d8e1570eb08a22a64c13",
+          "manifest": "proofs/batches/de-allensbach-faz-2026-11__memory3__20261101T215728682592Z__s2167.json",
+          "manifest_sha256": "9c7f417f8b8560dc2f5465c62deb7101074456d69741a1815cdef6497b639b0b",
+          "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__memory3__20261101T215728682592Z__s2167.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4227,10 +4243,11 @@
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:22:57Z",
       "released_at": null,
-      "forecasts_count": 5,
+      "forecasts_count": 6,
       "variants": [
         "pure",
         "anchored3",
+        "memory3",
         "bank3",
         "bankR3",
         "cohort"
@@ -4238,6 +4255,7 @@
       "forecasts": {
         "pure": "forecasts/de-gms-2026-11/pure.json",
         "anchored3": "forecasts/de-gms-2026-11/anchored3.json",
+        "memory3": "forecasts/de-gms-2026-11/memory3.json",
         "bank3": "forecasts/de-gms-2026-11/bank3.json",
         "bankR3": "forecasts/de-gms-2026-11/bankR3.json",
         "cohort": "forecasts/de-gms-2026-11/cohort.json"
@@ -4313,6 +4331,20 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-gms-2026-11__memory3__20261101T215803812782Z__s2168",
+          "locked_at": "2026-11-01T21:58:03Z",
+          "entries": 1,
+          "merkle_root": "519442977fde42f336f91e0ae5a14a4d53ad4d2c149a1dcb706449338ee7b33a",
+          "manifest": "proofs/batches/de-gms-2026-11__memory3__20261101T215803812782Z__s2168.json",
+          "manifest_sha256": "b0a262c6f9c545dceb4ddaf606088950ffa418f7feb3e184c3deb2dd27a42ba7",
+          "ots_proof": "proofs/batches/de-gms-2026-11__memory3__20261101T215803812782Z__s2168.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4331,10 +4363,11 @@
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:17:43Z",
       "released_at": null,
-      "forecasts_count": 5,
+      "forecasts_count": 6,
       "variants": [
         "pure",
         "anchored3",
+        "memory3",
         "bank3",
         "bankR3",
         "cohort"
@@ -4342,6 +4375,7 @@
       "forecasts": {
         "pure": "forecasts/de-verian-bams-2026-11/pure.json",
         "anchored3": "forecasts/de-verian-bams-2026-11/anchored3.json",
+        "memory3": "forecasts/de-verian-bams-2026-11/memory3.json",
         "bank3": "forecasts/de-verian-bams-2026-11/bank3.json",
         "bankR3": "forecasts/de-verian-bams-2026-11/bankR3.json",
         "cohort": "forecasts/de-verian-bams-2026-11/cohort.json"
@@ -4412,6 +4446,20 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__cohort__20261101T211919391094Z__s2122.json",
           "manifest_sha256": "5de4c954e329776bef44de3ae4c4692cba216eac49f05bfeb335720f2e6397b3",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__cohort__20261101T211919391094Z__s2122.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166",
+          "locked_at": "2026-11-01T21:56:37Z",
+          "entries": 1,
+          "merkle_root": "89eabb2d78d0724d8101e521db54550087508197ad449ff9412c96874de13a0f",
+          "manifest": "proofs/batches/de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166.json",
+          "manifest_sha256": "810a5029afc27e2b2c73fa473c5bdb90aabe28a68e7c303f46a8904b5b95129a",
+          "ots_proof": "proofs/batches/de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,
@@ -4871,10 +4919,11 @@
       "cutoff_utc": "2026-11-08T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:29:14Z",
       "released_at": null,
-      "forecasts_count": 30,
+      "forecasts_count": 36,
       "variants": [
         "pure",
         "anchored3",
+        "memory3",
         "bank3",
         "bankR3",
         "cohort"
@@ -4882,6 +4931,7 @@
       "forecasts": {
         "pure": "forecasts/de-zdf-politbarometer-2026-11-13/pure.json",
         "anchored3": "forecasts/de-zdf-politbarometer-2026-11-13/anchored3.json",
+        "memory3": "forecasts/de-zdf-politbarometer-2026-11-13/memory3.json",
         "bank3": "forecasts/de-zdf-politbarometer-2026-11-13/bank3.json",
         "bankR3": "forecasts/de-zdf-politbarometer-2026-11-13/bankR3.json",
         "cohort": "forecasts/de-zdf-politbarometer-2026-11-13/cohort.json"
@@ -4952,6 +5002,20 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157.json",
           "manifest_sha256": "12831b4402d848cf37ea78c1493b4cc40f0fab863c5e0a3d54b24fe2ec90cabf",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169",
+          "locked_at": "2026-11-01T22:01:31Z",
+          "entries": 6,
+          "merkle_root": "2fa5f5d80a97e5d940fa6498b21d6250df06c2c6be7dcfceaad6def04fa5d02a",
+          "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169.json",
+          "manifest_sha256": "86e633656c746fae9c3e563c6074f4a34dac18de58ae83f99629491b3cd0398e",
+          "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,

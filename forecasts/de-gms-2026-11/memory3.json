@@ -1,0 +1,17 @@
+{
+  "target_id": "de-gms-2026-11",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-gms-2026-11__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "bf1774ec47a7babb4fba6408033ba9db6a22d57422f0e37fd3c71bd34c93476f",
+      "seq": 2168,
+      "batch_id": "de-gms-2026-11__memory3__20261101T215803812782Z__s2168",
+      "locked_at": "2026-11-01T21:58:03Z"
+    }
+  ]
+}
