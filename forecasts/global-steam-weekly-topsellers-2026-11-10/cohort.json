@@ -1,0 +1,17 @@
+{
+  "target_id": "global-steam-weekly-topsellers-2026-11-10",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "global-steam-weekly-topsellers-2026-11-10__cohort__steam_weekly_topsellers__overall__r1",
+      "entry_sha256": "454828c8bd7f10bd989fd710610da119f1aa8b66698349b81ed8549d4f1490d1",
+      "seq": 2087,
+      "batch_id": "global-steam-weekly-topsellers-2026-11-10__cohort__20261101T174228473910Z__s2087",
+      "locked_at": "2026-11-01T17:42:28Z"
+    }
+  ]
+}

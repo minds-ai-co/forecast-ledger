@@ -37,21 +37,41 @@ The pooled figures include 1 survey whose publisher does not allow its data to b
 
 Per survey, questions include audience subgroups where the publisher reports them.
 
+## German Sonntagsfrage
+
+"Wenn am nächsten Sonntag Bundestagswahl wäre ...": federal vote intention in Germany, as published by the regular polling institutes. Minds Mosaic forecasts each institute's next wave before its fieldwork starts. Scores compare the party shares with the published result; the last wave column is the error of simply repeating the institute's previous published wave.
+
+| Institute | Publication | Locked | Status | Minds Mosaic TVD vs last wave |
+|---|---|---|---|---:|
+| Forsa (RTL/ntv) | 2026-11-03 (expected) | 2026-10-24 01:50 UTC | locked | - |
+| Infratest dimap (ARD-DeutschlandTrend) | November 2026 (expected) | 2026-10-24 02:07 UTC | locked | - |
+| INSA (BILD) | 2026-11-03 (expected) | 2026-10-28 04:39 UTC | locked | - |
+| Forsa (RTL/ntv) | 2026-11-10 (expected) | 2026-11-01 12:16 UTC | locked | - |
+| Verian (Bild am Sonntag) | November 2026 (expected) | 2026-11-01 21:17 UTC | locked | - |
+| Allensbach (FAZ) | November or December 2026 (expected) | 2026-11-01 21:19 UTC | locked | - |
+| GMS | November or December 2026 (expected) | 2026-11-01 21:22 UTC | locked | - |
+| Forschungsgruppe Wahlen (ZDF-Politbarometer) | 2026-11-13 (expected) | 2026-11-01 21:29 UTC | locked | - |
+
+TVD: total variation distance between forecast and published party shares (0 is perfect). For the ZDF-Politbarometer the score uses the published projection.
+
 ## Additional research forecasts
 
 Alongside Minds Mosaic we lock additional research forecasts for the same surveys. They are pre-registered and timestamped the same way and stay in the record whatever their score. They are listed under their ledger tag.
 
 | Ledger tag | Forecasts locked | Surveys scored | Questions | TVD | Last wave TVD | Miss (pp) | Last wave miss (pp) |
 |---|---:|---:|---:|---:|---:|---:|---:|
-| `pure` | 547 | 13 | 77 | 0.086 | 0.036 | 3.47 | 1.42 |
+| `pure` | 556 | 13 | 77 | 0.086 | 0.036 | 3.47 | 1.42 |
 | `cellsS` | 237 | 0 | | | | | |
 | `cellsH` | 237 | 0 | | | | | |
 | `memory3` | 452 | 11 | 62 | 0.093 | 0.037 | 3.44 | 1.40 |
 | `blend` | 51 | 4 | 38 | 0.052 | 0.034 | 1.87 | 1.18 |
+| `bank3` | 26 | 0 | | | | | |
+| `bankR3` | 26 | 0 | | | | | |
+| `cohort` | 26 | 0 | | | | | |
 
 ## Status
 
-As of 2026-11-01 16:24 UTC: 48 surveys, 2070 forecasts in 161 timestamped batches. 13 scored, 35 pending, 0 not scoreable. 546 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
+As of 2026-11-01 21:52 UTC: 52 surveys, 2166 forecasts in 199 timestamped batches. 13 scored, 39 pending, 0 not scoreable. 555 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
 
 ## Files
 
@@ -71,4 +91,4 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
-Ledger chain head `f35435ffdbead8212412545eaa2c553b006b3be5717bd6a4791dc61ae1dd8c7c`.
+Ledger chain head `3e4656e46ae012eb550535d46b69cd5f7a92d63c3460acc5c686716030daff37`.

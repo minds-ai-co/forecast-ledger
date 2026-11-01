@@ -1,0 +1,17 @@
+{
+  "target_id": "de-gms-2026-11",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-gms-2026-11__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "7b5581d6fb075b6a71e8fd6251fd8293ba5a0f95946f0f092c24696e6ea569fb",
+      "seq": 2129,
+      "batch_id": "de-gms-2026-11__anchored3__20261101T212325056444Z__s2129",
+      "locked_at": "2026-11-01T21:23:25Z"
+    }
+  ]
+}

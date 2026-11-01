@@ -1,0 +1,17 @@
+{
+  "target_id": "de-allensbach-faz-2026-11",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-allensbach-faz-2026-11__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "c59d56e2fcf3ad461224ae4ef3783660a7cea747918395341dc68137b9bc84cf",
+      "seq": 2126,
+      "batch_id": "de-allensbach-faz-2026-11__bankR3__20261101T212156270575Z__s2126",
+      "locked_at": "2026-11-01T21:21:56Z"
+    }
+  ]
+}

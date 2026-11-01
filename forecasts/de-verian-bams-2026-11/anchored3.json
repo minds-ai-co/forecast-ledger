@@ -1,0 +1,17 @@
+{
+  "target_id": "de-verian-bams-2026-11",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-verian-bams-2026-11__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "e06fa967a5502db2169c7196437bf6036e156a10245b0f766561dbcd98be1b4e",
+      "seq": 2119,
+      "batch_id": "de-verian-bams-2026-11__anchored3__20261101T211807933563Z__s2119",
+      "locked_at": "2026-11-01T21:18:07Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "de-gms-2026-11",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-gms-2026-11__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "d0be804ddf8debc7b486a4ee88da29a300710e4f6ae578e7fc3bcd5147da46cd",
+      "seq": 2131,
+      "batch_id": "de-gms-2026-11__bankR3__20261101T212451423808Z__s2131",
+      "locked_at": "2026-11-01T21:24:51Z"
+    }
+  ]
+}

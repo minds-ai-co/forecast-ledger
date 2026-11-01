@@ -1,0 +1,17 @@
+{
+  "target_id": "de-verian-bams-2026-11",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-verian-bams-2026-11__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "73da6981854224cc19cc0abdd04861dbc370605e47a06cf6387de39f37d41474",
+      "seq": 2122,
+      "batch_id": "de-verian-bams-2026-11__cohort__20261101T211919391094Z__s2122",
+      "locked_at": "2026-11-01T21:19:19Z"
+    }
+  ]
+}

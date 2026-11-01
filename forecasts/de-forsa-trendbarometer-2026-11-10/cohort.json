@@ -1,0 +1,17 @@
+{
+  "target_id": "de-forsa-trendbarometer-2026-11-10",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "7e3100d0922abdcf36c699b53216654417211227fa26fb3016b7c765f23ec32d",
+      "seq": 2165,
+      "batch_id": "de-forsa-trendbarometer-2026-11-10__cohort__20261101T215213408985Z__s2165",
+      "locked_at": "2026-11-01T21:52:13Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "de-gms-2026-11",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-gms-2026-11__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "549710d385dc391c8c2dfcac79d4b5dde0cddad018f12086a6307300e0adbaae",
+      "seq": 2132,
+      "batch_id": "de-gms-2026-11__cohort__20261101T212515178097Z__s2132",
+      "locked_at": "2026-11-01T21:25:15Z"
+    }
+  ]
+}

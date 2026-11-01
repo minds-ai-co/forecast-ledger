@@ -1,0 +1,17 @@
+{
+  "target_id": "de-verian-bams-2026-11",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-verian-bams-2026-11__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "654f04944798f3af975e221fe7dd3025f257624337e9f821a0a8210ad5490445",
+      "seq": 2121,
+      "batch_id": "de-verian-bams-2026-11__bankR3__20261101T211901884137Z__s2121",
+      "locked_at": "2026-11-01T21:19:01Z"
+    }
+  ]
+}

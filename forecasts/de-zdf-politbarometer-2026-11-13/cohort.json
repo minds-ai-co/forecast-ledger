@@ -1,0 +1,52 @@
+{
+  "target_id": "de-zdf-politbarometer-2026-11-13",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__projektion__overall__r1",
+      "entry_sha256": "123297e4ccf515b204f9dca31a01a3260ec33566ef3d16a3bd12eeb8aadb7a3e",
+      "seq": 2157,
+      "batch_id": "de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157",
+      "locked_at": "2026-11-01T21:41:02Z"
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__stimmung__overall__r1",
+      "entry_sha256": "9f05e319faf46919196702ab70800d7ac23581505b3cc325947256e9059b63bc",
+      "seq": 2158,
+      "batch_id": "de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157",
+      "locked_at": "2026-11-01T21:41:02Z"
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__government_performance__overall__r1",
+      "entry_sha256": "66d29ff31d9a28824b8018029adf0381b81f86a002fe9fd1bafa0334a9b7e7b6",
+      "seq": 2159,
+      "batch_id": "de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157",
+      "locked_at": "2026-11-01T21:41:02Z"
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__merz_performance__overall__r1",
+      "entry_sha256": "9895a201bc95b71be2fa23968904264995b13b960f18e273d8736b5473788d0b",
+      "seq": 2160,
+      "batch_id": "de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157",
+      "locked_at": "2026-11-01T21:41:02Z"
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__economy_situation__overall__r1",
+      "entry_sha256": "655df653c1a60c7c80435259d0f30089ae12188849e2cc8ee3849d5d07830e33",
+      "seq": 2161,
+      "batch_id": "de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157",
+      "locked_at": "2026-11-01T21:41:02Z"
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__economy_direction__overall__r1",
+      "entry_sha256": "7ca88dfbb11aa64a98c32d3f0df8cdf20a0d03c423ef26ff8dcf3eeffe1e204a",
+      "seq": 2162,
+      "batch_id": "de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157",
+      "locked_at": "2026-11-01T21:41:02Z"
+    }
+  ]
+}

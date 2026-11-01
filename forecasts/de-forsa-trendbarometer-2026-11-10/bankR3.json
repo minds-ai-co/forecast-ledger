@@ -1,0 +1,17 @@
+{
+  "target_id": "de-forsa-trendbarometer-2026-11-10",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "ff054840d89244eecca4deb140135976a7f3e1c03bef9148b2c823a6bd8d7fbe",
+      "seq": 2164,
+      "batch_id": "de-forsa-trendbarometer-2026-11-10__bankR3__20261101T215141794586Z__s2164",
+      "locked_at": "2026-11-01T21:51:41Z"
+    }
+  ]
+}

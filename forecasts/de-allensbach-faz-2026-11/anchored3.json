@@ -1,0 +1,17 @@
+{
+  "target_id": "de-allensbach-faz-2026-11",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-allensbach-faz-2026-11__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "d43e43e606401c93a2c6e55939c42171ebe7f7cb8c707bb0882db341eea5fb17",
+      "seq": 2124,
+      "batch_id": "de-allensbach-faz-2026-11__anchored3__20261101T212019997022Z__s2124",
+      "locked_at": "2026-11-01T21:20:19Z"
+    }
+  ]
+}

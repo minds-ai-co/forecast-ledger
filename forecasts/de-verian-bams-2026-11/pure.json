@@ -1,0 +1,17 @@
+{
+  "target_id": "de-verian-bams-2026-11",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-verian-bams-2026-11__sonntagsfrage__overall__r1",
+      "entry_sha256": "0ca272a3be0b9b7c68483c1116a8fde50d545cc5814a261d7ad7b0e7d484bdb0",
+      "seq": 2118,
+      "batch_id": "de-verian-bams-2026-11__20261101T211743306669Z__s2118",
+      "locked_at": "2026-11-01T21:17:43Z"
+    }
+  ]
+}

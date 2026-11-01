@@ -1,0 +1,17 @@
+{
+  "target_id": "de-allensbach-faz-2026-11",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-allensbach-faz-2026-11__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "283822021eb5dd04d47f46b7ca7009e14ba3c1dd939d2cc846e490c5aebf843f",
+      "seq": 2127,
+      "batch_id": "de-allensbach-faz-2026-11__cohort__20261101T212224003518Z__s2127",
+      "locked_at": "2026-11-01T21:22:24Z"
+    }
+  ]
+}

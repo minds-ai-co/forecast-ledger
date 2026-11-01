@@ -1,0 +1,17 @@
+{
+  "target_id": "de-allensbach-faz-2026-11",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-allensbach-faz-2026-11__sonntagsfrage__overall__r1",
+      "entry_sha256": "314b00186c34334e09f6295b2b2c90122a13591c2d2b278d8b2c191bdaa3ba44",
+      "seq": 2123,
+      "batch_id": "de-allensbach-faz-2026-11__20261101T211953368984Z__s2123",
+      "locked_at": "2026-11-01T21:19:53Z"
+    }
+  ]
+}

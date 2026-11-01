@@ -1,0 +1,17 @@
+{
+  "target_id": "de-gms-2026-11",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-gms-2026-11__sonntagsfrage__overall__r1",
+      "entry_sha256": "d9395a67e114784585df00ef117ffdb0a3f7339d133fe5078e569f9781aa7c82",
+      "seq": 2128,
+      "batch_id": "de-gms-2026-11__20261101T212257649036Z__s2128",
+      "locked_at": "2026-11-01T21:22:57Z"
+    }
+  ]
+}

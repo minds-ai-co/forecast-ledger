@@ -1,0 +1,17 @@
+{
+  "target_id": "global-steam-weekly-topsellers-2026-11-10",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "global-steam-weekly-topsellers-2026-11-10__bankR3__steam_weekly_topsellers__overall__r1",
+      "entry_sha256": "df2a72b5bb3e75d119f659ee5dd9df7deddf17bda29d28a70ecd0a0e1bfef441",
+      "seq": 2086,
+      "batch_id": "global-steam-weekly-topsellers-2026-11-10__bankR3__20261101T174124231297Z__s2086",
+      "locked_at": "2026-11-01T17:41:24Z"
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "target_id": "us-ipsos-consumer-tracker-2026-11-03",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__work_location__overall__r1",
+      "entry_sha256": "ec22fcf72a5eab4a8ae332a969dbfa9e1bed8efa4fdbf56f220e4693b95cf5fc",
+      "seq": 2098,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_gatherings_local__overall__r1",
+      "entry_sha256": "7d39f36a79879b4de39ec414ecf032374dce61b14dfd8c70585cde5d34f88048",
+      "seq": 2099,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_virtual_calls__overall__r1",
+      "entry_sha256": "b5c5bd32182aaad7a7a667b811113ab2816ab420ff4d1ce1790ce60163a8f247",
+      "seq": 2100,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_sitdown_restaurants__overall__r1",
+      "entry_sha256": "066a023fd874b39bcc19074e5be09036cf0908ea8153c9ca204d5d383044b431",
+      "seq": 2101,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_restaurant_delivery__overall__r1",
+      "entry_sha256": "382ba183976886f126c158d13f17a5996c26f32f3f058581b1697ee330bc85ea",
+      "seq": 2102,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_debt_for_gifts__overall__r1",
+      "entry_sha256": "3bce07fe9c1bb244ebff6cf71f6c6e477b0065d1b86d083c89be01e4afd525c5",
+      "seq": 2103,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__travel_100_miles__overall__r1",
+      "entry_sha256": "9e74dd21a346213bf5e2f5a57df5a678077b891e2f469cb9544258329340478e",
+      "seq": 2104,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__cravings_eating_generally__overall__r1",
+      "entry_sha256": "cb2e1b88ba3320276e8bc7f18612615913e46c7cddd02c835468e1e42fcd0327",
+      "seq": 2105,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__cravings_sweets__overall__r1",
+      "entry_sha256": "4a43c523eb73c66343cd6ee152d132a80cd044370eaef10ea7a6f11a5795359e",
+      "seq": 2106,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    },
+    {
+      "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__cravings_alcohol__overall__r1",
+      "entry_sha256": "73e1876259ee42a072ad6f9c951b034d236ba64c5794da79c8014c016352885a",
+      "seq": 2107,
+      "batch_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__20261101T175214772479Z__s2098",
+      "locked_at": "2026-11-01T17:52:14Z"
+    }
+  ]
+}
