@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-01T22:58:35Z",
+  "as_of": "2026-11-02T13:20:20Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "1d6f04e75bbadbe5740a92f775a030686cf7fd4bfb246c1b343d74546b3a5e5a",
+  "chain_head_sha256": "cf9a1a57cc651b472537951d24c4c53cdb1199cdb277a79c2f0749793e52bd3a",
   "counts": {
-    "targets": 53,
+    "targets": 57,
     "targets_scored": 13,
-    "targets_pending": 40,
+    "targets_pending": 44,
     "targets_not_scoreable": 0,
-    "entries": 2190,
-    "batches": 213,
+    "entries": 2363,
+    "batches": 234,
     "entries_scored": 392,
-    "entries_pending": 1783,
+    "entries_pending": 1956,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -55,7 +55,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 555,
+    "forecasts_locked": 561,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
@@ -92,7 +92,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 556,
+        "forecasts_locked": 562,
         "scored": {
           "surveys": 13,
           "questions": 77,
@@ -113,7 +113,7 @@
       },
       "memory3": {
         "label": "Additional research forecast (memory3)",
-        "forecasts_locked": 461,
+        "forecasts_locked": 467,
         "scored": {
           "surveys": 11,
           "questions": 62,
@@ -135,17 +135,17 @@
       },
       "bank3": {
         "label": "Additional research forecast (bank3)",
-        "forecasts_locked": 26,
+        "forecasts_locked": 95,
         "scored": null
       },
       "bankR3": {
         "label": "Additional research forecast (bankR3)",
-        "forecasts_locked": 26,
+        "forecasts_locked": 95,
         "scored": null
       },
       "cohort": {
         "label": "Additional research forecast (cohort)",
-        "forecasts_locked": 26,
+        "forecasts_locked": 43,
         "scored": null
       },
       "xpub3": {
@@ -165,9 +165,9 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1780,
-    "stated_intent": 377,
-    "behaviour": 33
+    "attitude": 1860,
+    "stated_intent": 441,
+    "behaviour": 62
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -3953,11 +3953,11 @@
           "manifest": "proofs/batches/de-forsa-trendbarometer-2026-11-10__bank3__20261101T215103133710Z__s2163.json",
           "manifest_sha256": "f84c1f7a8ce72f46e15679772aca1776ba38c48017eb30b35205cb245e55458f",
           "ots_proof": "proofs/batches/de-forsa-trendbarometer-2026-11-10__bank3__20261101T215103133710Z__s2163.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974183,
+          "bitcoin_block_time_utc": "2026-11-01T22:15:07Z",
+          "bitcoin_block_hash": "000000000000000000009916fc10644c85a0174ae98d4d06b7559a91f5210626",
+          "bitcoin_block_merkle_root": "55ef6e79eba4d17cf825958695a5d3de9e7f34eded0345754e9f29c8150723b6"
         },
         {
           "batch_id": "de-forsa-trendbarometer-2026-11-10__bankR3__20261101T215141794586Z__s2164",
@@ -3967,11 +3967,11 @@
           "manifest": "proofs/batches/de-forsa-trendbarometer-2026-11-10__bankR3__20261101T215141794586Z__s2164.json",
           "manifest_sha256": "bfa8332109bce30786f48dd3d83efae2b98505167f643f4237896adf55017e1f",
           "ots_proof": "proofs/batches/de-forsa-trendbarometer-2026-11-10__bankR3__20261101T215141794586Z__s2164.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974183,
+          "bitcoin_block_time_utc": "2026-11-01T22:15:07Z",
+          "bitcoin_block_hash": "000000000000000000009916fc10644c85a0174ae98d4d06b7559a91f5210626",
+          "bitcoin_block_merkle_root": "55ef6e79eba4d17cf825958695a5d3de9e7f34eded0345754e9f29c8150723b6"
         },
         {
           "batch_id": "de-forsa-trendbarometer-2026-11-10__cohort__20261101T215213408985Z__s2165",
@@ -3981,11 +3981,11 @@
           "manifest": "proofs/batches/de-forsa-trendbarometer-2026-11-10__cohort__20261101T215213408985Z__s2165.json",
           "manifest_sha256": "0136afcd331e80699e83e3554a712de3f2ebda1326d790a3cd2cf42964e57776",
           "ots_proof": "proofs/batches/de-forsa-trendbarometer-2026-11-10__cohort__20261101T215213408985Z__s2165.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974183,
+          "bitcoin_block_time_utc": "2026-11-01T22:15:07Z",
+          "bitcoin_block_hash": "000000000000000000009916fc10644c85a0174ae98d4d06b7559a91f5210626",
+          "bitcoin_block_merkle_root": "55ef6e79eba4d17cf825958695a5d3de9e7f34eded0345754e9f29c8150723b6"
         },
         {
           "batch_id": "de-forsa-trendbarometer-2026-11-10__xpub3__20261101T223949799709Z__s2175",
@@ -3995,11 +3995,11 @@
           "manifest": "proofs/batches/de-forsa-trendbarometer-2026-11-10__xpub3__20261101T223949799709Z__s2175.json",
           "manifest_sha256": "6f27165a89916eac64aaef3c35c0285bb033d500e2b85ffd12ceb2fa5a8314e6",
           "ots_proof": "proofs/batches/de-forsa-trendbarometer-2026-11-10__xpub3__20261101T223949799709Z__s2175.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974188,
+          "bitcoin_block_time_utc": "2026-11-01T22:46:09Z",
+          "bitcoin_block_hash": "00000000000000000001203a28483de1f96e7a55c83c9a695e8a183d0e97e620",
+          "bitcoin_block_merkle_root": "ab2cdd988e6c9ae0a7ec7a914efcdc761ef99145f1eb813f9113449cd14f2d7d"
         }
       ]
     },
@@ -4048,11 +4048,11 @@
           "manifest": "proofs/batches/de-allensbach-faz-2026-11__20261101T211953368984Z__s2123.json",
           "manifest_sha256": "c3ed20dd4941d9fc027fc326b4b2c5f0c38bc60875352f36d53a124338c7c61f",
           "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__20261101T211953368984Z__s2123.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-allensbach-faz-2026-11__anchored3__20261101T212019997022Z__s2124",
@@ -4062,11 +4062,11 @@
           "manifest": "proofs/batches/de-allensbach-faz-2026-11__anchored3__20261101T212019997022Z__s2124.json",
           "manifest_sha256": "41f7935f81fcdd7f4e523ef7d336de19ae7f05e11b95d185dfd29eacd83984ff",
           "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__anchored3__20261101T212019997022Z__s2124.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-allensbach-faz-2026-11__bank3__20261101T212110780890Z__s2125",
@@ -4076,11 +4076,11 @@
           "manifest": "proofs/batches/de-allensbach-faz-2026-11__bank3__20261101T212110780890Z__s2125.json",
           "manifest_sha256": "0f26356b2a0cccc1c3573214c80d37695723094963242f6a08c5ed8480acc87d",
           "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__bank3__20261101T212110780890Z__s2125.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-allensbach-faz-2026-11__bankR3__20261101T212156270575Z__s2126",
@@ -4090,11 +4090,11 @@
           "manifest": "proofs/batches/de-allensbach-faz-2026-11__bankR3__20261101T212156270575Z__s2126.json",
           "manifest_sha256": "5cc91b260548cc8de5cf035e0c358a87f528ae2ad5dc3c434da0b36fca684a6c",
           "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__bankR3__20261101T212156270575Z__s2126.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-allensbach-faz-2026-11__cohort__20261101T212224003518Z__s2127",
@@ -4104,11 +4104,11 @@
           "manifest": "proofs/batches/de-allensbach-faz-2026-11__cohort__20261101T212224003518Z__s2127.json",
           "manifest_sha256": "10a7821a361bab02ea1539b8647c01dc06b220380bf6d021917c910616901b8a",
           "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__cohort__20261101T212224003518Z__s2127.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-allensbach-faz-2026-11__memory3__20261101T215728682592Z__s2167",
@@ -4118,11 +4118,11 @@
           "manifest": "proofs/batches/de-allensbach-faz-2026-11__memory3__20261101T215728682592Z__s2167.json",
           "manifest_sha256": "9c7f417f8b8560dc2f5465c62deb7101074456d69741a1815cdef6497b639b0b",
           "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__memory3__20261101T215728682592Z__s2167.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974183,
+          "bitcoin_block_time_utc": "2026-11-01T22:15:07Z",
+          "bitcoin_block_hash": "000000000000000000009916fc10644c85a0174ae98d4d06b7559a91f5210626",
+          "bitcoin_block_merkle_root": "55ef6e79eba4d17cf825958695a5d3de9e7f34eded0345754e9f29c8150723b6"
         },
         {
           "batch_id": "de-allensbach-faz-2026-11__xpub3__20261101T224041901455Z__s2177",
@@ -4132,11 +4132,11 @@
           "manifest": "proofs/batches/de-allensbach-faz-2026-11__xpub3__20261101T224041901455Z__s2177.json",
           "manifest_sha256": "8b97d6a389d337daf8faa58e18edb4c1ea24b40f1166ff0a5517fce67a201104",
           "ots_proof": "proofs/batches/de-allensbach-faz-2026-11__xpub3__20261101T224041901455Z__s2177.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974188,
+          "bitcoin_block_time_utc": "2026-11-01T22:46:09Z",
+          "bitcoin_block_hash": "00000000000000000001203a28483de1f96e7a55c83c9a695e8a183d0e97e620",
+          "bitcoin_block_merkle_root": "ab2cdd988e6c9ae0a7ec7a914efcdc761ef99145f1eb813f9113449cd14f2d7d"
         }
       ]
     },
@@ -4185,11 +4185,11 @@
           "manifest": "proofs/batches/de-gms-2026-11__20261101T212257649036Z__s2128.json",
           "manifest_sha256": "bb5c31ea9064a6c6e0cb81fe9106fa1121ef1fb1865cc6d530f7c7f60d14702c",
           "ots_proof": "proofs/batches/de-gms-2026-11__20261101T212257649036Z__s2128.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-gms-2026-11__anchored3__20261101T212325056444Z__s2129",
@@ -4199,11 +4199,11 @@
           "manifest": "proofs/batches/de-gms-2026-11__anchored3__20261101T212325056444Z__s2129.json",
           "manifest_sha256": "bc829618acf2afe931eac07a3705bc0c333bf529713871d5f47d6fbda5a3747a",
           "ots_proof": "proofs/batches/de-gms-2026-11__anchored3__20261101T212325056444Z__s2129.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-gms-2026-11__bank3__20261101T212414832530Z__s2130",
@@ -4213,11 +4213,11 @@
           "manifest": "proofs/batches/de-gms-2026-11__bank3__20261101T212414832530Z__s2130.json",
           "manifest_sha256": "6623106c2d78bd6c4f701ce5e960a5437336821f1175fa050a02052800757035",
           "ots_proof": "proofs/batches/de-gms-2026-11__bank3__20261101T212414832530Z__s2130.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-gms-2026-11__bankR3__20261101T212451423808Z__s2131",
@@ -4227,11 +4227,11 @@
           "manifest": "proofs/batches/de-gms-2026-11__bankR3__20261101T212451423808Z__s2131.json",
           "manifest_sha256": "76edcb348a721826951ce050a3294e42b97d74a9f325fb5031121b88acd64694",
           "ots_proof": "proofs/batches/de-gms-2026-11__bankR3__20261101T212451423808Z__s2131.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-gms-2026-11__cohort__20261101T212515178097Z__s2132",
@@ -4241,11 +4241,11 @@
           "manifest": "proofs/batches/de-gms-2026-11__cohort__20261101T212515178097Z__s2132.json",
           "manifest_sha256": "1b94951ab7fa704b833ce62855c2a42627b194bf616b21c18090bb28434228f7",
           "ots_proof": "proofs/batches/de-gms-2026-11__cohort__20261101T212515178097Z__s2132.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-gms-2026-11__memory3__20261101T215803812782Z__s2168",
@@ -4255,11 +4255,11 @@
           "manifest": "proofs/batches/de-gms-2026-11__memory3__20261101T215803812782Z__s2168.json",
           "manifest_sha256": "b0a262c6f9c545dceb4ddaf606088950ffa418f7feb3e184c3deb2dd27a42ba7",
           "ots_proof": "proofs/batches/de-gms-2026-11__memory3__20261101T215803812782Z__s2168.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974183,
+          "bitcoin_block_time_utc": "2026-11-01T22:15:07Z",
+          "bitcoin_block_hash": "000000000000000000009916fc10644c85a0174ae98d4d06b7559a91f5210626",
+          "bitcoin_block_merkle_root": "55ef6e79eba4d17cf825958695a5d3de9e7f34eded0345754e9f29c8150723b6"
         },
         {
           "batch_id": "de-gms-2026-11__xpub3__20261101T224113420193Z__s2178",
@@ -4269,11 +4269,84 @@
           "manifest": "proofs/batches/de-gms-2026-11__xpub3__20261101T224113420193Z__s2178.json",
           "manifest_sha256": "4ef067fce5a0501bf11f52699ca1dc3965265397ed3264568fc51ea349874c51",
           "ots_proof": "proofs/batches/de-gms-2026-11__xpub3__20261101T224113420193Z__s2178.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974188,
+          "bitcoin_block_time_utc": "2026-11-01T22:46:09Z",
+          "bitcoin_block_hash": "00000000000000000001203a28483de1f96e7a55c83c9a695e8a183d0e97e620",
+          "bitcoin_block_merkle_root": "ab2cdd988e6c9ae0a7ec7a914efcdc761ef99145f1eb813f9113449cd14f2d7d"
+        }
+      ]
+    },
+    {
+      "target_id": "de-kba-car-registrations-brand-2026-10",
+      "survey": "KBA Fahrzeugzulassungen: Pkw-Neuzulassungen nach Marken (new passenger car registrations by brand), Germany",
+      "publisher": "Kraftfahrt-Bundesamt (KBA)",
+      "wave": "October 2026 (press release expected Wed 4 Nov 2026; FZ 10 table announced Fri 6 Nov 2026)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-02T23:00:00Z",
+      "first_lock_utc": "2026-11-02T11:51:48Z",
+      "released_at": null,
+      "publication_url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/fahrzeugzulassungen_node.html",
+      "forecasts_count": 3,
+      "variants": [
+        "pure",
+        "anchored3",
+        "memory3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/de-kba-car-registrations-brand-2026-10/pure.json",
+        "anchored3": "forecasts/de-kba-car-registrations-brand-2026-10/anchored3.json",
+        "memory3": "forecasts/de-kba-car-registrations-brand-2026-10/memory3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190",
+          "locked_at": "2026-11-02T11:51:48Z",
+          "entries": 1,
+          "merkle_root": "53da101a294ebdde9c7d2b76cadeca9dbff117514e532c4d550ffcefefc68c25",
+          "manifest": "proofs/batches/de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190.json",
+          "manifest_sha256": "4b451678cf14eb67aa22806c936c6b3280b0fab21ef4701b82652d611a8853bd",
+          "ots_proof": "proofs/batches/de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974253,
+          "bitcoin_block_time_utc": "2026-11-02T12:10:01Z",
+          "bitcoin_block_hash": "00000000000000000001dac1ccd1102621ae27cb517adaf9206853e5b02a3d76",
+          "bitcoin_block_merkle_root": "1edbef853bedd5312d0921814f7e92837f9e47e6baa572d0a94119a8f466d3a0"
+        },
+        {
+          "batch_id": "de-kba-car-registrations-brand-2026-10__anchored3__20261102T115306098089Z__s2191",
+          "locked_at": "2026-11-02T11:53:06Z",
+          "entries": 1,
+          "merkle_root": "0b7fdb32bbf8ef6cbf3f56c8dcf77a3a56e8ed44a62fb1ca893f3d8404943720",
+          "manifest": "proofs/batches/de-kba-car-registrations-brand-2026-10__anchored3__20261102T115306098089Z__s2191.json",
+          "manifest_sha256": "6b92133a0074a6de561ac1cba90a2f11fea8eb744834386ecf97f3515dd342da",
+          "ots_proof": "proofs/batches/de-kba-car-registrations-brand-2026-10__anchored3__20261102T115306098089Z__s2191.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974253,
+          "bitcoin_block_time_utc": "2026-11-02T12:10:01Z",
+          "bitcoin_block_hash": "00000000000000000001dac1ccd1102621ae27cb517adaf9206853e5b02a3d76",
+          "bitcoin_block_merkle_root": "1edbef853bedd5312d0921814f7e92837f9e47e6baa572d0a94119a8f466d3a0"
+        },
+        {
+          "batch_id": "de-kba-car-registrations-brand-2026-10__memory3__20261102T115421597202Z__s2192",
+          "locked_at": "2026-11-02T11:54:21Z",
+          "entries": 1,
+          "merkle_root": "e01e7ddd997cf8e9885810fb23bf863ac7eb84b835c4d55f97d5be068b69090c",
+          "manifest": "proofs/batches/de-kba-car-registrations-brand-2026-10__memory3__20261102T115421597202Z__s2192.json",
+          "manifest_sha256": "9652e73868bd7acd36d656a89bdfc94df6f0be649576b07c145a81f2e0f1aabc",
+          "ots_proof": "proofs/batches/de-kba-car-registrations-brand-2026-10__memory3__20261102T115421597202Z__s2192.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ]
     },
@@ -4322,11 +4395,11 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__20261101T211743306669Z__s2118.json",
           "manifest_sha256": "73a14f72cc8cf5682989c861ed8e1f0f76ba09dd2cd9098ae299f932d7cf7203",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__20261101T211743306669Z__s2118.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-verian-bams-2026-11__anchored3__20261101T211807933563Z__s2119",
@@ -4336,11 +4409,11 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__anchored3__20261101T211807933563Z__s2119.json",
           "manifest_sha256": "f1dbb35ed6c1a2efbbada3e60ada63faba862d133ad6d8afd861f07d45b38e55",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__anchored3__20261101T211807933563Z__s2119.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-verian-bams-2026-11__bank3__20261101T211837408281Z__s2120",
@@ -4350,11 +4423,11 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__bank3__20261101T211837408281Z__s2120.json",
           "manifest_sha256": "7b66bdc83afa6c6dbba7b4b2661e5f622a0fc252ff97d082efdd1a5310310e24",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__bank3__20261101T211837408281Z__s2120.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-verian-bams-2026-11__bankR3__20261101T211901884137Z__s2121",
@@ -4364,11 +4437,11 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__bankR3__20261101T211901884137Z__s2121.json",
           "manifest_sha256": "5c1663804d891caecea32df404ede08a552479a5aa8a212df7d0ce8fde445211",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__bankR3__20261101T211901884137Z__s2121.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-verian-bams-2026-11__cohort__20261101T211919391094Z__s2122",
@@ -4378,11 +4451,11 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__cohort__20261101T211919391094Z__s2122.json",
           "manifest_sha256": "5de4c954e329776bef44de3ae4c4692cba216eac49f05bfeb335720f2e6397b3",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__cohort__20261101T211919391094Z__s2122.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974180,
+          "bitcoin_block_time_utc": "2026-11-01T21:30:28Z",
+          "bitcoin_block_hash": "000000000000000000008a163ee0232f0d0911abc212c6b1d7f672a3d89a7242",
+          "bitcoin_block_merkle_root": "cbefcb492a9dddaa4961e9955e204389e4f163e1889a0f48c7677e00b1f68ff4"
         },
         {
           "batch_id": "de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166",
@@ -4392,11 +4465,11 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166.json",
           "manifest_sha256": "810a5029afc27e2b2c73fa473c5bdb90aabe28a68e7c303f46a8904b5b95129a",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974183,
+          "bitcoin_block_time_utc": "2026-11-01T22:15:07Z",
+          "bitcoin_block_hash": "000000000000000000009916fc10644c85a0174ae98d4d06b7559a91f5210626",
+          "bitcoin_block_merkle_root": "55ef6e79eba4d17cf825958695a5d3de9e7f34eded0345754e9f29c8150723b6"
         },
         {
           "batch_id": "de-verian-bams-2026-11__xpub3__20261101T224014356435Z__s2176",
@@ -4406,11 +4479,11 @@
           "manifest": "proofs/batches/de-verian-bams-2026-11__xpub3__20261101T224014356435Z__s2176.json",
           "manifest_sha256": "989d7033e00895e3b11a704bb6227357f3f754f55c6af6d98393ace8625ed3ac",
           "ots_proof": "proofs/batches/de-verian-bams-2026-11__xpub3__20261101T224014356435Z__s2176.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974188,
+          "bitcoin_block_time_utc": "2026-11-01T22:46:09Z",
+          "bitcoin_block_hash": "00000000000000000001203a28483de1f96e7a55c83c9a695e8a183d0e97e620",
+          "bitcoin_block_merkle_root": "ab2cdd988e6c9ae0a7ec7a914efcdc761ef99145f1eb813f9113449cd14f2d7d"
         }
       ]
     },
@@ -4430,17 +4503,23 @@
       "first_lock_utc": "2026-11-01T12:52:07Z",
       "released_at": null,
       "publication_url": "https://findoutnow.co.uk/blog/",
-      "forecasts_count": 7,
+      "forecasts_count": 13,
       "variants": [
         "pure",
         "anchored3",
         "memory3",
+        "bank3",
+        "bankR3",
+        "cohort",
         "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/gb-findoutnow-vi-2026-11-04/pure.json",
         "anchored3": "forecasts/gb-findoutnow-vi-2026-11-04/anchored3.json",
         "memory3": "forecasts/gb-findoutnow-vi-2026-11-04/memory3.json",
+        "bank3": "forecasts/gb-findoutnow-vi-2026-11-04/bank3.json",
+        "bankR3": "forecasts/gb-findoutnow-vi-2026-11-04/bankR3.json",
+        "cohort": "forecasts/gb-findoutnow-vi-2026-11-04/cohort.json",
         "xpub3": "forecasts/gb-findoutnow-vi-2026-11-04/xpub3.json"
       },
       "results": null,
@@ -4495,11 +4574,53 @@
           "manifest": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json",
           "manifest_sha256": "145a2050ce0d32a0a729b30505286d1bfdd67e6786c0f2622902c9a1c31aba1c",
           "ots_proof": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974190,
+          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
+          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
+          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        },
+        {
+          "batch_id": "gb-findoutnow-vi-2026-11-04__bank3__20261102T121439740911Z__s2208",
+          "locked_at": "2026-11-02T12:14:39Z",
+          "entries": 2,
+          "merkle_root": "6e83c264947f86c60f167e29e19e113538cee392e5b133b46684e304bfbb2c65",
+          "manifest": "proofs/batches/gb-findoutnow-vi-2026-11-04__bank3__20261102T121439740911Z__s2208.json",
+          "manifest_sha256": "1c2a9132f12b9832984970a7bffca4848223a7483844029dd9e371d9ae82f749",
+          "ots_proof": "proofs/batches/gb-findoutnow-vi-2026-11-04__bank3__20261102T121439740911Z__s2208.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "gb-findoutnow-vi-2026-11-04__bankR3__20261102T121623990166Z__s2210",
+          "locked_at": "2026-11-02T12:16:23Z",
+          "entries": 2,
+          "merkle_root": "f871284a3392bde879e0b02ed3c110229c0f7bc65cd0eb114e52fe2ebe955199",
+          "manifest": "proofs/batches/gb-findoutnow-vi-2026-11-04__bankR3__20261102T121623990166Z__s2210.json",
+          "manifest_sha256": "2bf898f748e2de1fe416904768b1582dfb6d5dff6f2fbe5aaa43387457506323",
+          "ots_proof": "proofs/batches/gb-findoutnow-vi-2026-11-04__bankR3__20261102T121623990166Z__s2210.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "gb-findoutnow-vi-2026-11-04__cohort__20261102T121759264904Z__s2212",
+          "locked_at": "2026-11-02T12:17:59Z",
+          "entries": 2,
+          "merkle_root": "ad4a9fb5751ca1ead772447c8beee3105c74a08515edce1f2009414f18bf46c5",
+          "manifest": "proofs/batches/gb-findoutnow-vi-2026-11-04__cohort__20261102T121759264904Z__s2212.json",
+          "manifest_sha256": "8babbdedde1a912268a2141baebf2983ca2656ffca9a5b0a4b3129fd1022913a",
+          "ots_proof": "proofs/batches/gb-findoutnow-vi-2026-11-04__cohort__20261102T121759264904Z__s2212.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ]
     },
@@ -4521,16 +4642,22 @@
       "first_lock_utc": "2026-11-01T13:23:05Z",
       "released_at": null,
       "publication_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/previousreleases",
-      "forecasts_count": 195,
+      "forecasts_count": 338,
       "variants": [
         "pure",
         "anchored3",
-        "memory3"
+        "memory3",
+        "bank3",
+        "bankR3",
+        "cohort"
       ],
       "forecasts": {
         "pure": "forecasts/gb-ons-opn-2026-11-04/pure.json",
         "anchored3": "forecasts/gb-ons-opn-2026-11-04/anchored3.json",
-        "memory3": "forecasts/gb-ons-opn-2026-11-04/memory3.json"
+        "memory3": "forecasts/gb-ons-opn-2026-11-04/memory3.json",
+        "bank3": "forecasts/gb-ons-opn-2026-11-04/bank3.json",
+        "bankR3": "forecasts/gb-ons-opn-2026-11-04/bankR3.json",
+        "cohort": "forecasts/gb-ons-opn-2026-11-04/cohort.json"
       },
       "results": null,
       "batches": [
@@ -4575,6 +4702,48 @@
           "bitcoin_block_time_utc": "2026-11-01T14:21:50Z",
           "bitcoin_block_hash": "000000000000000000006608e30a841e01ab0e22cf40f9d7e57c845e4b4d79e9",
           "bitcoin_block_merkle_root": "e953482b197143773e5cd978841a6aaaa9d61eefd4688c1b31d12a44b30f8898"
+        },
+        {
+          "batch_id": "gb-ons-opn-2026-11-04__bank3__20261102T125115819314Z__s2220",
+          "locked_at": "2026-11-02T12:51:15Z",
+          "entries": 65,
+          "merkle_root": "98d18d9cbdd91083de2545d67c4e35c28e1aa07404a0eb9b38189db85b92d65e",
+          "manifest": "proofs/batches/gb-ons-opn-2026-11-04__bank3__20261102T125115819314Z__s2220.json",
+          "manifest_sha256": "e10cdba35a859beab5a6ddaf70fae4e400a6ffab87238ac02d0494ecf69e1b30",
+          "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__bank3__20261102T125115819314Z__s2220.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+          "locked_at": "2026-11-02T13:16:02Z",
+          "entries": 65,
+          "merkle_root": "a3f0660db06b1200a76c88b056c42b2c360b880269f08ea15a64d2ca4bac3bd5",
+          "manifest": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json",
+          "manifest_sha256": "ee19933c55f59aaa5bc9386181c8a47df3ee33c962753b085302c3c4ac26f5b9",
+          "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350",
+          "locked_at": "2026-11-02T13:20:20Z",
+          "entries": 13,
+          "merkle_root": "0cf0745513823b1125a918d53e21e876c250d50e9a62e35ec3acdb56220b72f3",
+          "manifest": "proofs/batches/gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350.json",
+          "manifest_sha256": "089dde8a95635dd25631c63899bf05ec8268e358ee07c9ce57a42b33f682e9cc",
+          "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -4595,17 +4764,23 @@
       "first_lock_utc": "2026-11-01T12:59:48Z",
       "released_at": null,
       "publication_url": "https://www.opinium.com/resource-center/",
-      "forecasts_count": 7,
+      "forecasts_count": 13,
       "variants": [
         "pure",
         "anchored3",
         "memory3",
+        "bank3",
+        "bankR3",
+        "cohort",
         "xpub3"
       ],
       "forecasts": {
         "pure": "forecasts/gb-opinium-observer-2026-11-04/pure.json",
         "anchored3": "forecasts/gb-opinium-observer-2026-11-04/anchored3.json",
         "memory3": "forecasts/gb-opinium-observer-2026-11-04/memory3.json",
+        "bank3": "forecasts/gb-opinium-observer-2026-11-04/bank3.json",
+        "bankR3": "forecasts/gb-opinium-observer-2026-11-04/bankR3.json",
+        "cohort": "forecasts/gb-opinium-observer-2026-11-04/cohort.json",
         "xpub3": "forecasts/gb-opinium-observer-2026-11-04/xpub3.json"
       },
       "results": null,
@@ -4660,11 +4835,53 @@
           "manifest": "proofs/batches/gb-opinium-observer-2026-11-04__xpub3__20261101T225231334265Z__s2184.json",
           "manifest_sha256": "0d0a63cb889bed13516c5518ecf7a82a6b98bd85e960a5acd3df8a328e0d1ce5",
           "ots_proof": "proofs/batches/gb-opinium-observer-2026-11-04__xpub3__20261101T225231334265Z__s2184.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974190,
+          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
+          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
+          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        },
+        {
+          "batch_id": "gb-opinium-observer-2026-11-04__bank3__20261102T122004456589Z__s2214",
+          "locked_at": "2026-11-02T12:20:04Z",
+          "entries": 2,
+          "merkle_root": "01677b9c9a9ad7ec6325ae4e9419684c32a6846efb276a89bd45a95908da8e1a",
+          "manifest": "proofs/batches/gb-opinium-observer-2026-11-04__bank3__20261102T122004456589Z__s2214.json",
+          "manifest_sha256": "417174ecfdaefe88c23071c4fba9d1f09d3a0c0e6567a6a6a2bf7ce6137a7ddd",
+          "ots_proof": "proofs/batches/gb-opinium-observer-2026-11-04__bank3__20261102T122004456589Z__s2214.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "gb-opinium-observer-2026-11-04__bankR3__20261102T122158064109Z__s2216",
+          "locked_at": "2026-11-02T12:21:58Z",
+          "entries": 2,
+          "merkle_root": "5896ac2f3246f0f817c745f297e26c8a5f74e59ef450885f18f600bc9be7a61e",
+          "manifest": "proofs/batches/gb-opinium-observer-2026-11-04__bankR3__20261102T122158064109Z__s2216.json",
+          "manifest_sha256": "84489458eb8aaa5cc80e4cd4b5dc6131a85c89ece92945f226e5ef5e8f46aad8",
+          "ots_proof": "proofs/batches/gb-opinium-observer-2026-11-04__bankR3__20261102T122158064109Z__s2216.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "gb-opinium-observer-2026-11-04__cohort__20261102T122318198631Z__s2218",
+          "locked_at": "2026-11-02T12:23:18Z",
+          "entries": 2,
+          "merkle_root": "ff9c6ce3e05ec77a195a63467cba03f17fe176f2f9230a10ff7857de883d231d",
+          "manifest": "proofs/batches/gb-opinium-observer-2026-11-04__cohort__20261102T122318198631Z__s2218.json",
+          "manifest_sha256": "27b8d0ba37fb94eaa3b163cdd0ea2648e9ac584514dde27df765160802ae8766",
+          "ots_proof": "proofs/batches/gb-opinium-observer-2026-11-04__cohort__20261102T122318198631Z__s2218.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ]
     },
@@ -4749,11 +4966,230 @@
           "manifest": "proofs/batches/us-voter-poll-ssrs-2026__xpub3__20261101T225542033346Z__s2187.json",
           "manifest_sha256": "3e492d28bee6cb13cc641bc555ca85a8f194dee5f9d3f80b2d8657afce877f2d",
           "ots_proof": "proofs/batches/us-voter-poll-ssrs-2026__xpub3__20261101T225542033346Z__s2187.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974190,
+          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
+          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
+          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        }
+      ]
+    },
+    {
+      "target_id": "us-turnout-vep-2026",
+      "survey": "US 2026 general election turnout (voting-eligible population)",
+      "publisher": "UF Election Lab / US Elections Project (Michael McDonald)",
+      "wave": "November 3, 2026 general election (midterm)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-03T10:00:00Z",
+      "first_lock_utc": "2026-11-02T11:55:08Z",
+      "released_at": null,
+      "publication_url": "https://election.lab.ufl.edu/voter-turnout/",
+      "forecasts_count": 3,
+      "variants": [
+        "pure",
+        "anchored3",
+        "memory3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-turnout-vep-2026/pure.json",
+        "anchored3": "forecasts/us-turnout-vep-2026/anchored3.json",
+        "memory3": "forecasts/us-turnout-vep-2026/memory3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-turnout-vep-2026__20261102T115508841834Z__s2193",
+          "locked_at": "2026-11-02T11:55:08Z",
+          "entries": 1,
+          "merkle_root": "5633ca3c82b9bba85936bb1c0f7bc4fd29baf45b1291675371f8904def57b0ca",
+          "manifest": "proofs/batches/us-turnout-vep-2026__20261102T115508841834Z__s2193.json",
+          "manifest_sha256": "93275df94776b334c847a5068e0c11f7a23dab14fe4cbd7c322bde6590441468",
+          "ots_proof": "proofs/batches/us-turnout-vep-2026__20261102T115508841834Z__s2193.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "us-turnout-vep-2026__anchored3__20261102T115524586613Z__s2194",
+          "locked_at": "2026-11-02T11:55:24Z",
+          "entries": 1,
+          "merkle_root": "8edd739ec21fab5c62b42f9d0e315af65c147f7afcf2dcb9815f35389ff0b357",
+          "manifest": "proofs/batches/us-turnout-vep-2026__anchored3__20261102T115524586613Z__s2194.json",
+          "manifest_sha256": "4c756cc0418a91b2b7ef037c76530a2437d8f940ea111bfcbe1751f498def477",
+          "ots_proof": "proofs/batches/us-turnout-vep-2026__anchored3__20261102T115524586613Z__s2194.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "us-turnout-vep-2026__memory3__20261102T115551778605Z__s2195",
+          "locked_at": "2026-11-02T11:55:51Z",
+          "entries": 1,
+          "merkle_root": "a6ecdae8dbff726fd5a205dfb806bc1b3828c2456dea0e70c6d551bbd2d7879a",
+          "manifest": "proofs/batches/us-turnout-vep-2026__memory3__20261102T115551778605Z__s2195.json",
+          "manifest_sha256": "819c5ede4f71344788f695063e2a1522a7e382cab5d7c869b3dbf9e9642fe6ba",
+          "ots_proof": "proofs/batches/us-turnout-vep-2026__memory3__20261102T115551778605Z__s2195.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        }
+      ]
+    },
+    {
+      "target_id": "de-netflix-top10-2026-11-01",
+      "survey": "Netflix weekly Top 10 in Germany, series and films (Borda rank shares of the top ten)",
+      "publisher": "Netflix (Tudum Top 10, self-published)",
+      "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-03T12:00:00Z",
+      "first_lock_utc": "2026-11-02T11:58:20Z",
+      "released_at": null,
+      "publication_url": "https://www.netflix.com/tudum/top10/germany",
+      "forecasts_count": 6,
+      "variants": [
+        "pure",
+        "anchored3",
+        "memory3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/de-netflix-top10-2026-11-01/pure.json",
+        "anchored3": "forecasts/de-netflix-top10-2026-11-01/anchored3.json",
+        "memory3": "forecasts/de-netflix-top10-2026-11-01/memory3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "de-netflix-top10-2026-11-01__20261102T115820004806Z__s2196",
+          "locked_at": "2026-11-02T11:58:20Z",
+          "entries": 2,
+          "merkle_root": "803e94def6dd4eff05e34b614ce290888094baa17639b6e2b84e8163e6822db5",
+          "manifest": "proofs/batches/de-netflix-top10-2026-11-01__20261102T115820004806Z__s2196.json",
+          "manifest_sha256": "7253fe04d3481d4125f6ac4dc72d197ced110e76f06257d2c568418b9e76543a",
+          "ots_proof": "proofs/batches/de-netflix-top10-2026-11-01__20261102T115820004806Z__s2196.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "de-netflix-top10-2026-11-01__anchored3__20261102T115924463827Z__s2198",
+          "locked_at": "2026-11-02T11:59:24Z",
+          "entries": 2,
+          "merkle_root": "04b8d02e5f63f19c1daf205bc77f42e76a86272461297235face5a5556efe53d",
+          "manifest": "proofs/batches/de-netflix-top10-2026-11-01__anchored3__20261102T115924463827Z__s2198.json",
+          "manifest_sha256": "f22064b5f23d29d709f8db1f611d6e18212c0cd074e6a7a18a56e6e305cf15c6",
+          "ots_proof": "proofs/batches/de-netflix-top10-2026-11-01__anchored3__20261102T115924463827Z__s2198.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "de-netflix-top10-2026-11-01__memory3__20261102T120414645747Z__s2200",
+          "locked_at": "2026-11-02T12:04:14Z",
+          "entries": 2,
+          "merkle_root": "ea4ea585bbfc3bedb666a411c8cec8f8791017601b8856bd19059fbaeceff16f",
+          "manifest": "proofs/batches/de-netflix-top10-2026-11-01__memory3__20261102T120414645747Z__s2200.json",
+          "manifest_sha256": "05ed1c392ba0c6f0dc3385e33de1e4b893b8dd35a6dd00c86da17fdf7693474f",
+          "ots_proof": "proofs/batches/de-netflix-top10-2026-11-01__memory3__20261102T120414645747Z__s2200.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        }
+      ]
+    },
+    {
+      "target_id": "gb-netflix-top10-2026-11-01",
+      "survey": "Netflix weekly Top 10 in United Kingdom, series and films (Borda rank shares of the top ten)",
+      "publisher": "Netflix (Tudum Top 10, self-published)",
+      "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-03T12:00:00Z",
+      "first_lock_utc": "2026-11-02T12:06:08Z",
+      "released_at": null,
+      "publication_url": "https://www.netflix.com/tudum/top10/united-kingdom",
+      "forecasts_count": 6,
+      "variants": [
+        "pure",
+        "anchored3",
+        "memory3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-netflix-top10-2026-11-01/pure.json",
+        "anchored3": "forecasts/gb-netflix-top10-2026-11-01/anchored3.json",
+        "memory3": "forecasts/gb-netflix-top10-2026-11-01/memory3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-netflix-top10-2026-11-01__20261102T120608846573Z__s2202",
+          "locked_at": "2026-11-02T12:06:08Z",
+          "entries": 2,
+          "merkle_root": "d2395b553fff809ac2bb819c70b51d2e3403e0d9f402c6d64b8173b5042e4c3a",
+          "manifest": "proofs/batches/gb-netflix-top10-2026-11-01__20261102T120608846573Z__s2202.json",
+          "manifest_sha256": "027bdb2e1b1f6cd570faffa4bb8ac11e78cd5dcc23c76bed280e294ceffc7157",
+          "ots_proof": "proofs/batches/gb-netflix-top10-2026-11-01__20261102T120608846573Z__s2202.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "gb-netflix-top10-2026-11-01__anchored3__20261102T120812390004Z__s2204",
+          "locked_at": "2026-11-02T12:08:12Z",
+          "entries": 2,
+          "merkle_root": "d474256b862ac740bdfc5ecf037b530e023ad7214724b2c7b75b91324f2e2d07",
+          "manifest": "proofs/batches/gb-netflix-top10-2026-11-01__anchored3__20261102T120812390004Z__s2204.json",
+          "manifest_sha256": "1c4d071c58b3c3ad570ca2be5c986fe352ec2677cb6cf2f4eeed44e2d5e79f8d",
+          "ots_proof": "proofs/batches/gb-netflix-top10-2026-11-01__anchored3__20261102T120812390004Z__s2204.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
+        },
+        {
+          "batch_id": "gb-netflix-top10-2026-11-01__memory3__20261102T121134381129Z__s2206",
+          "locked_at": "2026-11-02T12:11:34Z",
+          "entries": 2,
+          "merkle_root": "50d100df5c3d933a6e8a4efdd2d624b61d05c9fcbfed84c180182b0ac7400b82",
+          "manifest": "proofs/batches/gb-netflix-top10-2026-11-01__memory3__20261102T121134381129Z__s2206.json",
+          "manifest_sha256": "9049cba918b0f80d2e2b1e46c24cbd39e8ec7e5981f221f231dcfcaeabd538df",
+          "ots_proof": "proofs/batches/gb-netflix-top10-2026-11-01__memory3__20261102T121134381129Z__s2206.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974255,
+          "bitcoin_block_time_utc": "2026-11-02T12:33:54Z",
+          "bitcoin_block_hash": "00000000000000000001c0d7f11ebd2e048729f34c254db842d4cf0cf42f6dee",
+          "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ]
     },
@@ -4863,11 +5299,11 @@
           "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__xpub3__20261101T225420725556Z__s2185.json",
           "manifest_sha256": "d831a3220e5f50b0ba9aa5c79b987f184447c4a26f1f8c209d09808431f30781",
           "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__xpub3__20261101T225420725556Z__s2185.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974190,
+          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
+          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
+          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
         }
       ]
     },
@@ -4952,11 +5388,11 @@
           "manifest": "proofs/batches/us-umich-sca-2026-11__xpub3__20261101T225835785760Z__s2188.json",
           "manifest_sha256": "3e871cb1eec40dc2a6cf2e97e62b29fc3442b72b1566724d4249ac42a5379b37",
           "ots_proof": "proofs/batches/us-umich-sca-2026-11__xpub3__20261101T225835785760Z__s2188.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974190,
+          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
+          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
+          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
         }
       ]
     },
@@ -5006,11 +5442,11 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__20261101T212914857936Z__s2133.json",
           "manifest_sha256": "5ed09c9f41a5af721863eec96262818ea7efc78e417af3fbc0b67ec6d24911a4",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__20261101T212914857936Z__s2133.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974182,
+          "bitcoin_block_time_utc": "2026-11-01T22:01:00Z",
+          "bitcoin_block_hash": "00000000000000000000860bc276be36c7f9421a0c27127b15816490ac2127ff",
+          "bitcoin_block_merkle_root": "bdf020bca951552c4404512d8f69359245c2e97ef13fa4ff44d923c6357b4479"
         },
         {
           "batch_id": "de-zdf-politbarometer-2026-11-13__anchored3__20261101T212952127555Z__s2139",
@@ -5020,11 +5456,11 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__anchored3__20261101T212952127555Z__s2139.json",
           "manifest_sha256": "8af6253c2ac0b9cb0d38871524e8a71e214a1eb24fc3eb09b65da663fee2119f",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__anchored3__20261101T212952127555Z__s2139.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974182,
+          "bitcoin_block_time_utc": "2026-11-01T22:01:00Z",
+          "bitcoin_block_hash": "00000000000000000000860bc276be36c7f9421a0c27127b15816490ac2127ff",
+          "bitcoin_block_merkle_root": "bdf020bca951552c4404512d8f69359245c2e97ef13fa4ff44d923c6357b4479"
         },
         {
           "batch_id": "de-zdf-politbarometer-2026-11-13__bank3__20261101T213440151255Z__s2145",
@@ -5034,11 +5470,11 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__bank3__20261101T213440151255Z__s2145.json",
           "manifest_sha256": "cc5fd9c91a93a113ecf724d068dd86c823610221478e40b9cb047ad712f24cab",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__bank3__20261101T213440151255Z__s2145.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974182,
+          "bitcoin_block_time_utc": "2026-11-01T22:01:00Z",
+          "bitcoin_block_hash": "00000000000000000000860bc276be36c7f9421a0c27127b15816490ac2127ff",
+          "bitcoin_block_merkle_root": "bdf020bca951552c4404512d8f69359245c2e97ef13fa4ff44d923c6357b4479"
         },
         {
           "batch_id": "de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151",
@@ -5048,11 +5484,11 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151.json",
           "manifest_sha256": "1fdda1800cda61646a903a9a63fa2cf26839eb62e998b691411d6e982f26b515",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974182,
+          "bitcoin_block_time_utc": "2026-11-01T22:01:00Z",
+          "bitcoin_block_hash": "00000000000000000000860bc276be36c7f9421a0c27127b15816490ac2127ff",
+          "bitcoin_block_merkle_root": "bdf020bca951552c4404512d8f69359245c2e97ef13fa4ff44d923c6357b4479"
         },
         {
           "batch_id": "de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157",
@@ -5062,11 +5498,11 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157.json",
           "manifest_sha256": "12831b4402d848cf37ea78c1493b4cc40f0fab863c5e0a3d54b24fe2ec90cabf",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__cohort__20261101T214102214002Z__s2157.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974182,
+          "bitcoin_block_time_utc": "2026-11-01T22:01:00Z",
+          "bitcoin_block_hash": "00000000000000000000860bc276be36c7f9421a0c27127b15816490ac2127ff",
+          "bitcoin_block_merkle_root": "bdf020bca951552c4404512d8f69359245c2e97ef13fa4ff44d923c6357b4479"
         },
         {
           "batch_id": "de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169",
@@ -5076,11 +5512,11 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169.json",
           "manifest_sha256": "86e633656c746fae9c3e563c6074f4a34dac18de58ae83f99629491b3cd0398e",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__memory3__20261101T220131002356Z__s2169.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974183,
+          "bitcoin_block_time_utc": "2026-11-01T22:15:07Z",
+          "bitcoin_block_hash": "000000000000000000009916fc10644c85a0174ae98d4d06b7559a91f5210626",
+          "bitcoin_block_merkle_root": "55ef6e79eba4d17cf825958695a5d3de9e7f34eded0345754e9f29c8150723b6"
         },
         {
           "batch_id": "de-zdf-politbarometer-2026-11-13__xpub3__20261101T224931379313Z__s2179",
@@ -5090,11 +5526,11 @@
           "manifest": "proofs/batches/de-zdf-politbarometer-2026-11-13__xpub3__20261101T224931379313Z__s2179.json",
           "manifest_sha256": "37eeeac3a226d95fc2330df30587791d17f74a64599ca7ac519ac0a37c20f46c",
           "ots_proof": "proofs/batches/de-zdf-politbarometer-2026-11-13__xpub3__20261101T224931379313Z__s2179.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974190,
+          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
+          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
+          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
         }
       ]
     }

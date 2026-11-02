@@ -1,0 +1,17 @@
+{
+  "target_id": "de-kba-car-registrations-brand-2026-10",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-kba-car-registrations-brand-2026-10__brand_share__overall__r1",
+      "entry_sha256": "d30891e0c1e844b5a49fa4f76039c8d39ce52e9544b3aa8350e945d419c808cd",
+      "seq": 2190,
+      "batch_id": "de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190",
+      "locked_at": "2026-11-02T11:51:48Z"
+    }
+  ]
+}

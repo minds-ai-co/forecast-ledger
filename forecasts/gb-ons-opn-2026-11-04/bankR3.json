@@ -1,0 +1,465 @@
+{
+  "target_id": "gb-ons-opn-2026-11-04",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__save_next_12m__overall__r1",
+      "entry_sha256": "151b1494402d1ec63e35ebb90e5ca0e189f1ebe065b7cb7bab5207258e97d87d",
+      "seq": 2285,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__save_next_12m__age_16_29__r1",
+      "entry_sha256": "9ada3b529aefa4426d6ef642b984d4688db3d5c0f27ef1a3077f8e38f0eef09c",
+      "seq": 2286,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__save_next_12m__age_30_49__r1",
+      "entry_sha256": "e0104ced3da67e91fe43057cd091483b662891cf3d6039544408b9025cde5c3a",
+      "seq": 2287,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__save_next_12m__age_50_69__r1",
+      "entry_sha256": "0c30b63d3e0e0cee2cd2645434b9fdd2dbd3dd0db6c95cb30430ef16ad199ff0",
+      "seq": 2288,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__save_next_12m__age_70_plus__r1",
+      "entry_sha256": "43691a9ccc1027aadc4f7fbcf0b53405c00a1c513a53be0b1f1f464b176dde33",
+      "seq": 2289,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__afford_850__overall__r1",
+      "entry_sha256": "646c550ac274b5b5655d2e0ee620440894daa62609277a86e6f8b0cf8352e155",
+      "seq": 2290,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__afford_850__age_16_29__r1",
+      "entry_sha256": "66fdbef22f0c07fb08ef851be00a97558d071babda4d498698836b9bffd768d2",
+      "seq": 2291,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__afford_850__age_30_49__r1",
+      "entry_sha256": "301da518f64b58985d1814d8a96c5be33036d4def5a98a8d777139b8ba6ff99d",
+      "seq": 2292,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__afford_850__age_50_69__r1",
+      "entry_sha256": "ffa9433598df64c0bd7d5a20a52516270c43ddd32209d3f7e9446705f08624b7",
+      "seq": 2293,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__afford_850__age_70_plus__r1",
+      "entry_sha256": "9064f18953a2ff53144be8d1cc612f7ab35c47a19756892c5b96465906497f79",
+      "seq": 2294,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__borrow_more__overall__r1",
+      "entry_sha256": "b77c54483ca7a68952d4058ae98febfd647cadc29134780a5f41c209d351907d",
+      "seq": 2295,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__borrow_more__age_16_29__r1",
+      "entry_sha256": "8cfc37ad5a5b18c4253e815fb5ec4b4e2999b3cd443e37256d4392be863e241b",
+      "seq": 2296,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__borrow_more__age_30_49__r1",
+      "entry_sha256": "fa319106105fa12ef291dd48a6c201284c155252c5139301980f698e2f647fe6",
+      "seq": 2297,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__borrow_more__age_50_69__r1",
+      "entry_sha256": "c39d99e5aa5fe2ae87212ba769fc34a82679c3bcab94c2005e07f18c54730925",
+      "seq": 2298,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__borrow_more__age_70_plus__r1",
+      "entry_sha256": "e6a31bb8ac4cc1806994306abe4d8b7006bd21f25d52f3f4d57bab8e87c54c41",
+      "seq": 2299,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_change__overall__r1",
+      "entry_sha256": "2a653703d78c9b8174de053f4ffc353aa648e40b18e6571bd086ea4b2f2ac71c",
+      "seq": 2300,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_change__age_16_29__r1",
+      "entry_sha256": "e1cd7ac29299ce511e45d92928d890de56d692a59fa6782fd15cbbc5015b3b2c",
+      "seq": 2301,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_change__age_30_49__r1",
+      "entry_sha256": "dca1c7d729e0d24e9c8802cc8bb8931ea0082cdb9207cd4c8744a981efb79c9d",
+      "seq": 2302,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_change__age_50_69__r1",
+      "entry_sha256": "704047fed307c1478bea25cf6cb43362315d342651ce36dc6937cc616241d81c",
+      "seq": 2303,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_change__age_70_plus__r1",
+      "entry_sha256": "8ccba6541d759b29932bbdb0acc2c4faeb5c353951aa013bffa4d84d8847f8c5",
+      "seq": 2304,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__energy_bills_afford__overall__r1",
+      "entry_sha256": "aa97aa7e8a8758d4c49b4993f6ce0c21a6d4297d5c1b1fa93aa6506c60cd1ade",
+      "seq": 2305,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__energy_bills_afford__age_16_29__r1",
+      "entry_sha256": "267fde6596e6f06ab777921f449f703524eb0688612351d2f25ed22bc3fb9069",
+      "seq": 2306,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__energy_bills_afford__age_30_49__r1",
+      "entry_sha256": "752e6cf23632d81445576bca493e3729bafa0d108c3206d03b1aff83c9c9b216",
+      "seq": 2307,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__energy_bills_afford__age_50_69__r1",
+      "entry_sha256": "ee46a146311c2d51b1a736c110da74d567000f9d17a16e8b13a360f53434af11",
+      "seq": 2308,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__energy_bills_afford__age_70_plus__r1",
+      "entry_sha256": "2003d994b5abcb9bb4833995ac2f04cf4281ba8aebb25906968cf22c1a04d4b8",
+      "seq": 2309,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_worry__overall__r1",
+      "entry_sha256": "099743dcc51455d7800e91ab8dbefcfc8ba742fe60c164d17d0a854c0fe75a86",
+      "seq": 2310,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_worry__age_16_29__r1",
+      "entry_sha256": "90e20047899eb58c4e82b6a105e8df8b655b657f6d1180af6acfd0871f28329e",
+      "seq": 2311,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_worry__age_30_49__r1",
+      "entry_sha256": "fc4f21bf01f5b88706ca924d54fd35945691337e3eabecc7a23cee6630501a7d",
+      "seq": 2312,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_worry__age_50_69__r1",
+      "entry_sha256": "ed3070999558f15e2183b0166c2b797d0404413b51885c747b547de37a3f67dc",
+      "seq": 2313,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__cost_of_living_worry__age_70_plus__r1",
+      "entry_sha256": "326536b0ed6eba73d82d3dca918ddc0d85b1f9b0767b65c1f03ecfe9fbb54348",
+      "seq": 2314,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__loneliness__overall__r1",
+      "entry_sha256": "a0ccd7b2c17edb76cf44fee782d12f5197bb4a3cf928a7258462b875b7f17a94",
+      "seq": 2315,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__loneliness__age_16_29__r1",
+      "entry_sha256": "af330f8f7d224742f93dc287ea6ee4c000d49827bb8b179ebd5aa9f02ceb2ee6",
+      "seq": 2316,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__loneliness__age_30_49__r1",
+      "entry_sha256": "030c1f44750d75c804affd63ce86813fa5bc75bd1eb00476a1a953e2c8c3db1b",
+      "seq": 2317,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__loneliness__age_50_69__r1",
+      "entry_sha256": "1ffa201ee8ae72a0cc7d42b6a87eddb27fcfa8e4a5dabf8eccdebcf5200e3026",
+      "seq": 2318,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__loneliness__age_70_plus__r1",
+      "entry_sha256": "e0d95155ce0e9cbd17583844e5b3cb2ac45ce2ee2a322b3592f7ad06866994ee",
+      "seq": 2319,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__general_health__overall__r1",
+      "entry_sha256": "4412acf5ada86b02a42aec16e5457fae5e620e2baf43c724d27b54ff0741bf3a",
+      "seq": 2320,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__general_health__age_16_29__r1",
+      "entry_sha256": "4f708a5e000f5af3bbb73bfef199d1a4a657191eb6db2055726cd863f366e5e8",
+      "seq": 2321,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__general_health__age_30_49__r1",
+      "entry_sha256": "4889f58053a8857e84238023e495c6592f35961c3332e48c57d1a3128d894cc4",
+      "seq": 2322,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__general_health__age_50_69__r1",
+      "entry_sha256": "99555fde9175d7078ab22227374549d74b562899b670f3c2b98e3b9efdce111d",
+      "seq": 2323,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__general_health__age_70_plus__r1",
+      "entry_sha256": "0cf52d111d0f1fd5b02758c25a9f34b274515ef7fe50225f2a8682d84a60d2e5",
+      "seq": 2324,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_purchases__overall__r1",
+      "entry_sha256": "5887fba36ad55803b23047cf41bd38008599cd0734592addca68ec36df4caf5c",
+      "seq": 2325,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_purchases__age_16_29__r1",
+      "entry_sha256": "175879476d321f3d0339b20b9cc2081bb35d5995a6b9ab9e8477373c634bc787",
+      "seq": 2326,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_purchases__age_30_49__r1",
+      "entry_sha256": "d925ef89c465fe15ca6842ffccfb4d8b8defbe63539a90dc707e3bbe433ad1af",
+      "seq": 2327,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_purchases__age_50_69__r1",
+      "entry_sha256": "e403ff59d5e7f6c12918b514ecc04be4b8645330a1c12865c12d6038a17b7e3b",
+      "seq": 2328,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_purchases__age_70_plus__r1",
+      "entry_sha256": "e975d82a86348e6a873f8dc4899cef95d145cb44273d5d711e96f182973164a7",
+      "seq": 2329,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_spend_more__overall__r1",
+      "entry_sha256": "1a316c215aeac5e6353f8a696e7dbfb268bebe599dae1589bc17c70d11f08a86",
+      "seq": 2330,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_spend_more__age_16_29__r1",
+      "entry_sha256": "359e5c77e9e4fcee0e78e92be1b4fb1e6e462d5ee903f328a2357d12bb1f69b6",
+      "seq": 2331,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_spend_more__age_30_49__r1",
+      "entry_sha256": "2aa4249c8e21165441658c2ede5fab17fbd6b6295442516549393cb10d0f0189",
+      "seq": 2332,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_spend_more__age_50_69__r1",
+      "entry_sha256": "41ebed614033607b881aa84034d911cfabf5b2e343a7d265bfe3bc207176883e",
+      "seq": 2333,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_spend_more__age_70_plus__r1",
+      "entry_sha256": "7750e4f4d45173db959dcc86e18f6d96560c86dbb3b6ebb9adb5652205b4a3b5",
+      "seq": 2334,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_afford_concern__overall__r1",
+      "entry_sha256": "a523440329ad646307f4ba1332a685c52de839b5404b80d142b14f083feccb58",
+      "seq": 2335,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_afford_concern__age_16_29__r1",
+      "entry_sha256": "cb981f6d13015da51373ab744d90811500901b3084e4c8f8fed99c950b3bff57",
+      "seq": 2336,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_afford_concern__age_30_49__r1",
+      "entry_sha256": "eb5d87878cd1b252b95ff379b02dbd3e4c6802a2aefb7af16639d51ef45d6579",
+      "seq": 2337,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_afford_concern__age_50_69__r1",
+      "entry_sha256": "8f2f35aa348651498a07b880beaa8b34f9f9bb910b46f0a16ea25b47a6c96b69",
+      "seq": 2338,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__xmas_afford_concern__age_70_plus__r1",
+      "entry_sha256": "f0eac8ad8e3c3d3fd7e3b804556dd9dc5f89563cc2c7db63f8cbe5f03b0e8841",
+      "seq": 2339,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_buy__overall__r1",
+      "entry_sha256": "03f9d5aac1b256f7d079f35cf06004830bea1aff321f113c92c402305f14b653",
+      "seq": 2340,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_buy__age_16_29__r1",
+      "entry_sha256": "d472b9bf4439d29ced80d3e8598434ef46d3e72c086363f9ad894436051dc19f",
+      "seq": 2341,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_buy__age_30_49__r1",
+      "entry_sha256": "089ac2df084dcbf7d3cc290a71ff7d0cc5352e89f671ba089712d4c65ac091d9",
+      "seq": 2342,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_buy__age_50_69__r1",
+      "entry_sha256": "d521f34a3eae96850d2be93affa4f841a62b80175c2d5c5f552828ae4be55fa5",
+      "seq": 2343,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_buy__age_70_plus__r1",
+      "entry_sha256": "ffe57e40cfc6fc3b11b2fb2a47ec5314e3562486e1d59c432ca7fa88eb9a6de4",
+      "seq": 2344,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_more_less__overall__r1",
+      "entry_sha256": "a4f11119e6dfa6f5b5f298eb965edb79c30c6d3ff3fe5b1c8371d10f7490f009",
+      "seq": 2345,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_more_less__age_16_29__r1",
+      "entry_sha256": "83d66209020a5e1caaa9099cfbfe84b12406335e5bec8a852d0d75a5fc69795a",
+      "seq": 2346,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_more_less__age_30_49__r1",
+      "entry_sha256": "76a8babcf85ce2dcc43075ea6260a46b33c8faeebcaf9ea010de187b0257a5ee",
+      "seq": 2347,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_more_less__age_50_69__r1",
+      "entry_sha256": "fe000e586289e5054fbac97ecbf4d3b2577a2b46691cc29234d46932e3c3a5a2",
+      "seq": 2348,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    },
+    {
+      "entry_id": "gb-ons-opn-2026-11-04__bankR3__black_friday_more_less__age_70_plus__r1",
+      "entry_sha256": "ed9a124ff501bda5b04831daa682917f1278d566694c0d76c79ce4c2ba8ccac8",
+      "seq": 2349,
+      "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
+      "locked_at": "2026-11-02T13:16:02Z"
+    }
+  ]
+}

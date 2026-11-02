@@ -1,0 +1,17 @@
+{
+  "target_id": "us-turnout-vep-2026",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-turnout-vep-2026__voted_2026__overall__r1",
+      "entry_sha256": "20d44df3bc399d60b1b0932a63daea82c72efa43fbcf37889c68b1385214e192",
+      "seq": 2193,
+      "batch_id": "us-turnout-vep-2026__20261102T115508841834Z__s2193",
+      "locked_at": "2026-11-02T11:55:08Z"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-opinium-observer-2026-11-04",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__cohort__westminster_vi__overall__r1",
+      "entry_sha256": "7394968a3418b48567fbfcde6966973a4b3c1de14276241e6ebc8e33b1eaa339",
+      "seq": 2218,
+      "batch_id": "gb-opinium-observer-2026-11-04__cohort__20261102T122318198631Z__s2218",
+      "locked_at": "2026-11-02T12:23:18Z"
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__cohort__burnham_approval__overall__r1",
+      "entry_sha256": "830e1497f835c3574d9085403d98010dac94dccaf1a64eba9c18df754b8151c4",
+      "seq": 2219,
+      "batch_id": "gb-opinium-observer-2026-11-04__cohort__20261102T122318198631Z__s2218",
+      "locked_at": "2026-11-02T12:23:18Z"
+    }
+  ]
+}

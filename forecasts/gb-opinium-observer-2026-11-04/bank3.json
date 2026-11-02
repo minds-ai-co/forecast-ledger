@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-opinium-observer-2026-11-04",
+  "variant": "bank3",
+  "variant_label": "Additional research forecast (bank3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__bank3__westminster_vi__overall__r1",
+      "entry_sha256": "a2e5063192776cca4cc58a340f13b639f307b444fd49b10b5c10b8a49ac74f0b",
+      "seq": 2214,
+      "batch_id": "gb-opinium-observer-2026-11-04__bank3__20261102T122004456589Z__s2214",
+      "locked_at": "2026-11-02T12:20:04Z"
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__bank3__burnham_approval__overall__r1",
+      "entry_sha256": "e4f180050a2ca8daef7e17610549cc1a163247edd987354cbd25ebdb38a1f7ba",
+      "seq": 2215,
+      "batch_id": "gb-opinium-observer-2026-11-04__bank3__20261102T122004456589Z__s2214",
+      "locked_at": "2026-11-02T12:20:04Z"
+    }
+  ]
+}

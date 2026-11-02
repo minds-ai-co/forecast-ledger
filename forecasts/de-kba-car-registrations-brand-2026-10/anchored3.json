@@ -1,0 +1,17 @@
+{
+  "target_id": "de-kba-car-registrations-brand-2026-10",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-kba-car-registrations-brand-2026-10__anchored3__brand_share__overall__r1",
+      "entry_sha256": "71b75e2f38638abfe31c1e14612b27307c2c63674fd94b90c6f549b1c0cf637b",
+      "seq": 2191,
+      "batch_id": "de-kba-car-registrations-brand-2026-10__anchored3__20261102T115306098089Z__s2191",
+      "locked_at": "2026-11-02T11:53:06Z"
+    }
+  ]
+}

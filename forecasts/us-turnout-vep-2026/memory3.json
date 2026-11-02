@@ -1,0 +1,17 @@
+{
+  "target_id": "us-turnout-vep-2026",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-turnout-vep-2026__memory3__voted_2026__overall__r1",
+      "entry_sha256": "966b3878828a6479b2b869647589331cdd6fb9ffb07227e35b54f977bbcb174f",
+      "seq": 2195,
+      "batch_id": "us-turnout-vep-2026__memory3__20261102T115551778605Z__s2195",
+      "locked_at": "2026-11-02T11:55:51Z"
+    }
+  ]
+}

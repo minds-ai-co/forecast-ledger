@@ -1,0 +1,24 @@
+{
+  "target_id": "de-netflix-top10-2026-11-01",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__anchored3__tv_top10__overall__r1",
+      "entry_sha256": "a2f16ec61373b77981d8d3828bf3ac710a6ab6be479ee28c729c6b11d18b371d",
+      "seq": 2198,
+      "batch_id": "de-netflix-top10-2026-11-01__anchored3__20261102T115924463827Z__s2198",
+      "locked_at": "2026-11-02T11:59:24Z"
+    },
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__anchored3__films_top10__overall__r1",
+      "entry_sha256": "dcb570cbf3298b172aa497b423d2e8c0cd2d2ec8c0508feadcfa0a1b649920b0",
+      "seq": 2199,
+      "batch_id": "de-netflix-top10-2026-11-01__anchored3__20261102T115924463827Z__s2198",
+      "locked_at": "2026-11-02T11:59:24Z"
+    }
+  ]
+}

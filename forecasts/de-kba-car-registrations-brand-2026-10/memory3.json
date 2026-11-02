@@ -1,0 +1,17 @@
+{
+  "target_id": "de-kba-car-registrations-brand-2026-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-kba-car-registrations-brand-2026-10__memory3__brand_share__overall__r1",
+      "entry_sha256": "cf0ad23c48cc464c1027da80e1821c561b9ee1e8105456d9166d5ae0b6ae52a4",
+      "seq": 2192,
+      "batch_id": "de-kba-car-registrations-brand-2026-10__memory3__20261102T115421597202Z__s2192",
+      "locked_at": "2026-11-02T11:54:21Z"
+    }
+  ]
+}

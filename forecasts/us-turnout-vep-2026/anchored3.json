@@ -1,0 +1,17 @@
+{
+  "target_id": "us-turnout-vep-2026",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-turnout-vep-2026__anchored3__voted_2026__overall__r1",
+      "entry_sha256": "07b3000a819407ad2cd451c052edb2be4a660be39b0abb655147e38da580b719",
+      "seq": 2194,
+      "batch_id": "us-turnout-vep-2026__anchored3__20261102T115524586613Z__s2194",
+      "locked_at": "2026-11-02T11:55:24Z"
+    }
+  ]
+}

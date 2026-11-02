@@ -1,0 +1,24 @@
+{
+  "target_id": "gb-findoutnow-vi-2026-11-04",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__cohort__westminster_vi__overall__r1",
+      "entry_sha256": "061709969643c08e08f44eca0e16ee335ed31c996e92a50947d471817dc9d53a",
+      "seq": 2212,
+      "batch_id": "gb-findoutnow-vi-2026-11-04__cohort__20261102T121759264904Z__s2212",
+      "locked_at": "2026-11-02T12:17:59Z"
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__cohort__likelihood_to_vote__overall__r1",
+      "entry_sha256": "d7d760117c6f7d343bf47a701ecb66bb1eb0b648809ec08e97a8c1f28c20cc35",
+      "seq": 2213,
+      "batch_id": "gb-findoutnow-vi-2026-11-04__cohort__20261102T121759264904Z__s2212",
+      "locked_at": "2026-11-02T12:17:59Z"
+    }
+  ]
+}
