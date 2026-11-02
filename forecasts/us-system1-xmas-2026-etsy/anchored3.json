@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-etsy",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-etsy__anchored3__star_rating__overall__r1",
+      "entry_sha256": "78c3a01459af81b685242e1950401ed0870232f89f417c0de1cfd1b80f4c28f8",
+      "seq": 2368,
+      "batch_id": "us-system1-xmas-2026-etsy__anchored3__20261102T203037056474Z__s2368",
+      "locked_at": "2026-11-02T20:30:37Z"
+    }
+  ]
+}

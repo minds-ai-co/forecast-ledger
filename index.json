@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-02T13:20:20Z",
+  "as_of": "2026-11-02T20:51:32Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "cf9a1a57cc651b472537951d24c4c53cdb1199cdb277a79c2f0749793e52bd3a",
+  "chain_head_sha256": "658d94b21cef5ad13b11a6bcdffc9d47ad002d249d2bc85d8000ea6c74c3e70e",
   "counts": {
-    "targets": 57,
+    "targets": 63,
     "targets_scored": 13,
-    "targets_pending": 44,
+    "targets_pending": 50,
     "targets_not_scoreable": 0,
-    "entries": 2363,
-    "batches": 234,
+    "entries": 2375,
+    "batches": 246,
     "entries_scored": 392,
-    "entries_pending": 1956,
+    "entries_pending": 1968,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -55,7 +55,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 561,
+    "forecasts_locked": 567,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
@@ -92,7 +92,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 562,
+        "forecasts_locked": 568,
         "scored": {
           "surveys": 13,
           "questions": 77,
@@ -165,7 +165,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1860,
+    "attitude": 1872,
     "stated_intent": 441,
     "behaviour": 62
   },
@@ -4886,6 +4886,63 @@
       ]
     },
     {
+      "target_id": "gb-system1-xmas-2026-tesco",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Tesco \"The Wrong Address\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Tesco, released 2026-11-01 00:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-03T00:00:00Z",
+      "first_lock_utc": "2026-11-02T20:24:51Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-tesco/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-tesco/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363",
+          "locked_at": "2026-11-02T20:24:51Z",
+          "entries": 1,
+          "merkle_root": "c6a1f82da3b870704de95972a2d46c6b98b604b081e7e35bdc81041a47d22610",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363.json",
+          "manifest_sha256": "8d405d6c9d8665199499c0f404ace91d581f0ae224b07aea4e58774babea51f1",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-tesco__anchored3__20261102T202546845585Z__s2364",
+          "locked_at": "2026-11-02T20:25:46Z",
+          "entries": 1,
+          "merkle_root": "e281f9dc90b7fe1a7e383180e230a29ade46d72d8c4a0dabac1ea41ca86d89d4",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-tesco__anchored3__20261102T202546845585Z__s2364.json",
+          "manifest_sha256": "25415c80b2a6eb0a7df11b321e02f98d9bc5e0ea09f6a322368eee318a2290fe",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-tesco__anchored3__20261102T202546845585Z__s2364.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "us-voter-poll-ssrs-2026",
       "survey": "The Voter Poll by SSRS (2026 US midterm voters; national results)",
       "publisher": "SSRS for ABC News, The Associated Press, CBS News, CNN, Fox News, MS NOW and NBC News",
@@ -4971,6 +5028,63 @@
           "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
           "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
           "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-sainsburys",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Sainsbury's \"Sainsbury’s big delivery.\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Sainsbury's, released 2026-11-01 08:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-03T08:00:00Z",
+      "first_lock_utc": "2026-11-02T20:27:03Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-sainsburys/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-sainsburys/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-sainsburys__20261102T202703661418Z__s2365",
+          "locked_at": "2026-11-02T20:27:03Z",
+          "entries": 1,
+          "merkle_root": "d24b85aebfaf8d0f22262d7e3e68f51e4759be667e7edd3799f5eae65151ee74",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-sainsburys__20261102T202703661418Z__s2365.json",
+          "manifest_sha256": "578160cec24c7140bde96fac0fb70190ad185ddd21f121f557d2e1bb3941f7d2",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-sainsburys__20261102T202703661418Z__s2365.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366",
+          "locked_at": "2026-11-02T20:28:47Z",
+          "entries": 1,
+          "merkle_root": "60ba09f7dca7b234b8717c7037e03c12f37a60db0b06bd8b39f6385d99be3d15",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366.json",
+          "manifest_sha256": "f198c6827379b738c9743d643c8092dad9f5ff8a89a9b182fa902021b8af9c39",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -5267,6 +5381,177 @@
       ]
     },
     {
+      "target_id": "us-system1-xmas-2026-best-buy",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Best Buy \"Tech gifts they’ll love.\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Best Buy, released 2026-11-01 16:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-03T16:00:00Z",
+      "first_lock_utc": "2026-11-02T20:50:13Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-system1-xmas-2026-best-buy/pure.json",
+        "anchored3": "forecasts/us-system1-xmas-2026-best-buy/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-best-buy__20261102T205013715076Z__s2373",
+          "locked_at": "2026-11-02T20:50:13Z",
+          "entries": 1,
+          "merkle_root": "dbca704bdba293c2e80eef5dbd2f15f29221affc889e8da443879d2e635f5eba",
+          "manifest": "proofs/batches/us-system1-xmas-2026-best-buy__20261102T205013715076Z__s2373.json",
+          "manifest_sha256": "bc52fab11bc2637fe074336f2021f05c044ea3e3b9f1850dd91ecf6617ecd9d1",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-best-buy__20261102T205013715076Z__s2373.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-best-buy__anchored3__20261102T205132403047Z__s2374",
+          "locked_at": "2026-11-02T20:51:32Z",
+          "entries": 1,
+          "merkle_root": "e0823e94724fbd2718bf610a502a6a9c989bfb52735f358be365911eb6d760fb",
+          "manifest": "proofs/batches/us-system1-xmas-2026-best-buy__anchored3__20261102T205132403047Z__s2374.json",
+          "manifest_sha256": "6ffa43e78185bc5679663a2cce89dcb4c1fccba9632cb89991f9f464006f6f9b",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-best-buy__anchored3__20261102T205132403047Z__s2374.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-chewy",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Chewy \"A Holiday Dream\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Chewy, released 2026-11-01 17:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-03T17:00:00Z",
+      "first_lock_utc": "2026-11-02T20:35:38Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-system1-xmas-2026-chewy/pure.json",
+        "anchored3": "forecasts/us-system1-xmas-2026-chewy/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-chewy__20261102T203538728475Z__s2371",
+          "locked_at": "2026-11-02T20:35:38Z",
+          "entries": 1,
+          "merkle_root": "c94382bda18c0329dd390ed22508247ab1d341a49c797a8ee5faebf2a6230db3",
+          "manifest": "proofs/batches/us-system1-xmas-2026-chewy__20261102T203538728475Z__s2371.json",
+          "manifest_sha256": "e72d9ac4105df093810fdb8b606660bc550fba4198c5e65f9c316aaf0b71f804",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy__20261102T203538728475Z__s2371.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-chewy__anchored3__20261102T204835940477Z__s2372",
+          "locked_at": "2026-11-02T20:48:35Z",
+          "entries": 1,
+          "merkle_root": "e6d92fdd22c61d2983071ff9c5fe0aa68b0d82a77c9fd1e4150a0e7ae0a95803",
+          "manifest": "proofs/batches/us-system1-xmas-2026-chewy__anchored3__20261102T204835940477Z__s2372.json",
+          "manifest_sha256": "7c1a9200d11156451378784d0886170829a3d9c857d6821987a2d0df42e912cb",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy__anchored3__20261102T204835940477Z__s2372.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-very",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Very \"That's the Very thing\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Very, released 2026-11-02 11:11Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-04T11:11:00Z",
+      "first_lock_utc": "2026-11-02T20:33:29Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-very/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-very/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-very__20261102T203329674946Z__s2369",
+          "locked_at": "2026-11-02T20:33:29Z",
+          "entries": 1,
+          "merkle_root": "023a1279a7d33fb86d0f4f24fef2a15fc6fca6bad3cc1505830433e7d4c2a8d5",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-very__20261102T203329674946Z__s2369.json",
+          "manifest_sha256": "05f168bdf05484f93ee6569f4adbdd7c81fc82b1d30cada731c3d427e1807ce5",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-very__20261102T203329674946Z__s2369.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-very__anchored3__20261102T203457314793Z__s2370",
+          "locked_at": "2026-11-02T20:34:57Z",
+          "entries": 1,
+          "merkle_root": "5b0be3b86a9ded44224dd978d4bb39c165351823e274ff503af81386a1a64b59",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-very__anchored3__20261102T203457314793Z__s2370.json",
+          "manifest_sha256": "ee42b0eb49fd4223fad1c50cd6899841170f179077c6e34d31427d166c0d8098",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-very__anchored3__20261102T203457314793Z__s2370.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "jp-nhk-seiji-ishiki-2026-11-05",
       "survey": "NHK 政治意識月例電話調査 (NHK monthly political opinion telephone poll: cabinet support, party support and reasons)",
       "publisher": "NHK (Japan Broadcasting Corporation), NHK選挙WEB",
@@ -5304,6 +5589,63 @@
           "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
           "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
           "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-etsy",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Etsy \"Workshops\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Etsy, released 2026-11-02 18:01Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-04T18:01:00Z",
+      "first_lock_utc": "2026-11-02T20:29:26Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-system1-xmas-2026-etsy/pure.json",
+        "anchored3": "forecasts/us-system1-xmas-2026-etsy/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-etsy__20261102T202926257778Z__s2367",
+          "locked_at": "2026-11-02T20:29:26Z",
+          "entries": 1,
+          "merkle_root": "f7c0f15f0c550afa4705067f29f8fde1247df0ba7100fd25264f331ffd072338",
+          "manifest": "proofs/batches/us-system1-xmas-2026-etsy__20261102T202926257778Z__s2367.json",
+          "manifest_sha256": "a0b94fbe80b3650e4078f9813aaa910513deab91a865db9fcc17df88fbbd2e76",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-etsy__20261102T202926257778Z__s2367.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-etsy__anchored3__20261102T203037056474Z__s2368",
+          "locked_at": "2026-11-02T20:30:37Z",
+          "entries": 1,
+          "merkle_root": "d954b0147c24a5a08cc7e8277f39ab166d7be459e3cf9d7180a8726a58d5a1c9",
+          "manifest": "proofs/batches/us-system1-xmas-2026-etsy__anchored3__20261102T203037056474Z__s2368.json",
+          "manifest_sha256": "ae237982a882263e40bf81e0dc2dca45b16720590fe66b8afca1388724e461bb",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-etsy__anchored3__20261102T203037056474Z__s2368.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },

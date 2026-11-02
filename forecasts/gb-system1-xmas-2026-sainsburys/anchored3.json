@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-sainsburys",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-sainsburys__anchored3__star_rating__overall__r1",
+      "entry_sha256": "5dbedcde52dbda5385ec6a51f9b99d27df0bfcf90b742a6c2d2750285781ee59",
+      "seq": 2366,
+      "batch_id": "gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366",
+      "locked_at": "2026-11-02T20:28:47Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-etsy",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-etsy__star_rating__overall__r1",
+      "entry_sha256": "374760494f8d05c641699f375a0c588428204ca92925fb38b48ffa08d5340580",
+      "seq": 2367,
+      "batch_id": "us-system1-xmas-2026-etsy__20261102T202926257778Z__s2367",
+      "locked_at": "2026-11-02T20:29:26Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-best-buy",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-best-buy__star_rating__overall__r1",
+      "entry_sha256": "930a4fc95654ab7d27375bddd7a3c2177bfc69c2de4589182c71c77f7ea7182f",
+      "seq": 2373,
+      "batch_id": "us-system1-xmas-2026-best-buy__20261102T205013715076Z__s2373",
+      "locked_at": "2026-11-02T20:50:13Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-sainsburys",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-sainsburys__star_rating__overall__r1",
+      "entry_sha256": "c7a0145d2d3043e9439a20f8043f41e786c40087a54bfb043342269d3e5e252e",
+      "seq": 2365,
+      "batch_id": "gb-system1-xmas-2026-sainsburys__20261102T202703661418Z__s2365",
+      "locked_at": "2026-11-02T20:27:03Z"
+    }
+  ]
+}

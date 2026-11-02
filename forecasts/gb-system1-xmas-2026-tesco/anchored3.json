@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-tesco",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-tesco__anchored3__star_rating__overall__r1",
+      "entry_sha256": "5b3c2811a4a68eb8eb97d745865f455451e792d06ea8ff3c4296662efe12132e",
+      "seq": 2364,
+      "batch_id": "gb-system1-xmas-2026-tesco__anchored3__20261102T202546845585Z__s2364",
+      "locked_at": "2026-11-02T20:25:46Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-very",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-very__star_rating__overall__r1",
+      "entry_sha256": "e6a81f90d277c2b934ae6ba3e6842cd7ec5438049bcf529ff883c686ff359bad",
+      "seq": 2369,
+      "batch_id": "gb-system1-xmas-2026-very__20261102T203329674946Z__s2369",
+      "locked_at": "2026-11-02T20:33:29Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-best-buy",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-best-buy__anchored3__star_rating__overall__r1",
+      "entry_sha256": "3cba912fa94eda874e45690fc380a484c5075a3936de5eae04172b63d4c6b567",
+      "seq": 2374,
+      "batch_id": "us-system1-xmas-2026-best-buy__anchored3__20261102T205132403047Z__s2374",
+      "locked_at": "2026-11-02T20:51:32Z"
+    }
+  ]
+}

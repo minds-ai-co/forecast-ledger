@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-tesco",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-tesco__star_rating__overall__r1",
+      "entry_sha256": "4cff372e2d9eac3e65fe5b01d02427edd06c12ef6e4884e336b0f5763356f2e3",
+      "seq": 2363,
+      "batch_id": "gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363",
+      "locked_at": "2026-11-02T20:24:51Z"
+    }
+  ]
+}
