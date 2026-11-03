@@ -1,0 +1,17 @@
+{
+  "target_id": "de-insa-meinungstrend-2026-11-10",
+  "variant": "cohort",
+  "variant_label": "Additional research forecast (cohort)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "c23485aae3afd0e1617da0b411b3f814494c8ea8beffec887f7cbc294bbcd607",
+      "seq": 2389,
+      "batch_id": "de-insa-meinungstrend-2026-11-10__cohort__20261103T084118543307Z__s2389",
+      "locked_at": "2026-11-03T08:41:18Z"
+    }
+  ]
+}

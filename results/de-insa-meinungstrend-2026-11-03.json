@@ -1,0 +1,115 @@
+{
+  "target_id": "de-insa-meinungstrend-2026-11-03",
+  "survey": "INSA-Meinungstrend Sonntagsfrage (online panel wave, for BILD)",
+  "status": "scored",
+  "released_at": "2026-11-03T08:08:08Z",
+  "source_url": "https://www.wahlrecht.de/umfragen/insa.htm",
+  "scored_at": "2026-11-03T08:35:15Z",
+  "results_sha256": "1db557d7419d21368b328d674cae26be83e08ccf87936d0c573c6e21e4a6bd23",
+  "released_values_public": false,
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.065,
+      "mae_pp": 1.625
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.0278,
+      "mae_pp": 0.695
+    },
+    "memory3": {
+      "items": 1,
+      "tvd": 0.0625,
+      "mae_pp": 1.5625
+    }
+  },
+  "summary_by_evidence_type": {
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.625
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.625
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0278,
+          "mae_pp": 0.695
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0278,
+          "mae_pp": 0.695
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0625,
+          "mae_pp": 1.5625
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0625,
+          "mae_pp": 1.5625
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-03__sonntagsfrage__overall__r1",
+      "entry_sha256": "98a4371e23a74b5c70e2f2fcf21d9557a0f2507f48e28ee57c49a6d0cf363e3c",
+      "variant": "pure",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.065,
+      "mae_pp": 1.625
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-03__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "107990d4ea5bd2cb325519fa137a0e3ebfc12aed1dc0abbe8e4b32e399e6a2ff",
+      "variant": "anchored3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0278,
+      "mae_pp": 0.695
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-03__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "28cc487cc968a82051edb6c1e4e6da24fa50d32f6bc7120aabe780e8a314de85",
+      "variant": "memory3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0625,
+      "mae_pp": 1.5625
+    }
+  ]
+}

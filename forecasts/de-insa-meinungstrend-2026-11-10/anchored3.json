@@ -1,0 +1,17 @@
+{
+  "target_id": "de-insa-meinungstrend-2026-11-10",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "cff11ea9909e2c7ed15d31be6e5534d157dbf9f9abe8593654c99611fcadb900",
+      "seq": 2385,
+      "batch_id": "de-insa-meinungstrend-2026-11-10__anchored3__20261103T083851040111Z__s2385",
+      "locked_at": "2026-11-03T08:38:51Z"
+    }
+  ]
+}

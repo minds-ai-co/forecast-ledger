@@ -1,0 +1,17 @@
+{
+  "target_id": "de-insa-meinungstrend-2026-11-10",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "752b3e5a4359dd9d0e25334f3be5de8556aff39adbb178316ceaa569b90c73d1",
+      "seq": 2388,
+      "batch_id": "de-insa-meinungstrend-2026-11-10__bankR3__20261103T084039042848Z__s2388",
+      "locked_at": "2026-11-03T08:40:39Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "de-insa-meinungstrend-2026-11-10",
+  "variant": "xpub3",
+  "variant_label": "Additional research forecast (xpub3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__xpub3__sonntagsfrage__overall__r1",
+      "entry_sha256": "81ee14052fadb70302422fc6ce9d6716f0ddcc74abc141ebd132591174fe5dd7",
+      "seq": 2390,
+      "batch_id": "de-insa-meinungstrend-2026-11-10__xpub3__20261103T084216160894Z__s2390",
+      "locked_at": "2026-11-03T08:42:16Z"
+    }
+  ]
+}

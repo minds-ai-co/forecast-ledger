@@ -1,0 +1,17 @@
+{
+  "target_id": "de-insa-meinungstrend-2026-11-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "ad6dba2abe048cc6d154be2b55c9d7b8cb9952b06bba90bd8c8b42f49122a772",
+      "seq": 2386,
+      "batch_id": "de-insa-meinungstrend-2026-11-10__memory3__20261103T083920357680Z__s2386",
+      "locked_at": "2026-11-03T08:39:20Z"
+    }
+  ]
+}

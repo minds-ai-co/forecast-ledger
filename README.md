@@ -4,7 +4,7 @@ We forecast the answers to real public surveys with Minds Mosaic before the surv
 
 ## Scorecard
 
-Across 13 scored surveys and 77 questions, Minds Mosaic has an average distribution error (TVD) of 0.034. Average miss per answer option: 1.37 percentage points. Correlation between forecast and actual answer shares: 0.993. On the 4 surveys locked before fieldwork began (19 questions): 0.023.
+Across 14 scored surveys and 78 questions, Minds Mosaic has an average distribution error (TVD) of 0.034. Average miss per answer option: 1.37 percentage points. Correlation between forecast and actual answer shares: 0.993. On the 5 surveys locked before fieldwork began (20 questions): 0.024.
 
 Lower is better for TVD and miss. TVD is 0 for a perfect forecast and 1 for a completely wrong one. All figures are for the full surveyed population.
 
@@ -15,7 +15,7 @@ Each dot is one scored survey, placed at the date its result was released. The t
 | Evidence type | Surveys | Questions | Minds Mosaic TVD | Minds Mosaic miss (pp) |
 |---|---:|---:|---:|---:|
 | Attitude | 12 | 62 | 0.036 | 1.49 |
-| Stated intent | 10 | 15 | 0.025 | 0.89 |
+| Stated intent | 11 | 16 | 0.026 | 0.87 |
 | Behaviour | not scored yet | | | |
 
 Attitude: opinions and ratings. Stated intent: what people say they will do. Behaviour: what people actually do.
@@ -40,6 +40,7 @@ Each survey name links to the publisher's page for the release.
 | [European Commission Joint Harmonised Consumer Survey, Germany (fieldwork NIQ/GfK eBUS), monthly questions Q1-Q9, Q11, Q12, October 2026](https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en) | 2026-10-27 01:08 UTC | 2026-10-29 10:00 UTC | 11 | 0.024 | 0.83 |
 | [European Commission Joint Harmonised Consumer Survey, Spain (fieldwork NIQ/GfK eBUS), monthly questions Q1-Q9, Q11, Q12, October 2026](https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en) | 2026-10-27 01:17 UTC | 2026-10-29 10:00 UTC | 11 | 0.040 | 1.41 |
 | [Cabinet Office ESRI 消費動向調査 (Consumer Confidence Survey, monthly): consumer-attitude components and one-year price outlook, two-or-more-person households](https://www.esri.cao.go.jp/jp/stat/shouhi/honbun.pdf) | 2026-10-27 01:37 UTC | 2026-10-29 05:00 UTC | 5 | 0.013 | 0.49 |
+| [INSA-Meinungstrend Sonntagsfrage (online panel wave, for BILD)](https://www.wahlrecht.de/umfragen/insa.htm) | 2026-10-28 04:39 UTC | 2026-11-03 08:08 UTC | 1 | 0.028 | 0.69 |
 
 Per survey, questions include audience subgroups where the publisher reports them.
 
@@ -51,12 +52,13 @@ Per survey, questions include audience subgroups where the publisher reports the
 |---|---|---|---|---:|
 | [Forsa (RTL/ntv)](https://www.wahlrecht.de/umfragen/forsa.htm) | 2026-11-03 (expected) | 2026-10-24 01:50 UTC | locked | - |
 | [Infratest dimap (ARD-DeutschlandTrend)](https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/) | November 2026 (expected) | 2026-10-24 02:07 UTC | locked | - |
-| [INSA (BILD)](https://www.wahlrecht.de/umfragen/insa.htm) | 2026-11-03 (expected) | 2026-10-28 04:39 UTC | locked | - |
+| [INSA (BILD)](https://www.wahlrecht.de/umfragen/insa.htm) | 2026-11-03 | 2026-10-28 04:39 UTC | scored | 0.028 |
 | [Forsa (RTL/ntv)](https://www.wahlrecht.de/umfragen/forsa.htm) | 2026-11-10 (expected) | 2026-11-01 12:16 UTC | locked | - |
 | [Verian (Bild am Sonntag)](https://www.wahlrecht.de/umfragen/emnid.htm) | November 2026 (expected) | 2026-11-01 21:17 UTC | locked | - |
 | [Allensbach (FAZ)](https://www.wahlrecht.de/umfragen/allensbach.htm) | November or December 2026 (expected) | 2026-11-01 21:19 UTC | locked | - |
 | [GMS](https://www.wahlrecht.de/umfragen/gms.htm) | November or December 2026 (expected) | 2026-11-01 21:22 UTC | locked | - |
 | [Forschungsgruppe Wahlen (ZDF-Politbarometer)](https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/) | 2026-11-13 (expected) | 2026-11-01 21:29 UTC | locked | - |
+| [INSA (BILD)](https://www.wahlrecht.de/umfragen/insa.htm) | 2026-11-10 (expected) | 2026-11-03 08:38 UTC | locked | - |
 
 TVD: total variation distance between forecast and published party shares (0 is perfect). For the ZDF-Politbarometer the score uses the published projection.
 
@@ -66,19 +68,19 @@ Alongside Minds Mosaic we lock additional research forecasts for the same survey
 
 | Ledger tag | Forecasts locked | Surveys scored | Questions | TVD | Miss (pp) |
 |---|---:|---:|---:|---:|---:|
-| `pure` | 572 | 13 | 77 | 0.086 | 3.47 |
+| `pure` | 573 | 14 | 78 | 0.086 | 3.45 |
 | `cellsS` | 237 | 0 | | | |
 | `cellsH` | 237 | 0 | | | |
-| `memory3` | 468 | 11 | 62 | 0.093 | 3.44 |
+| `memory3` | 469 | 12 | 63 | 0.092 | 3.41 |
 | `blend` | 51 | 4 | 38 | 0.052 | 1.87 |
-| `bank3` | 95 | 0 | | | |
-| `bankR3` | 95 | 0 | | | |
-| `cohort` | 43 | 0 | | | |
-| `xpub3` | 15 | 0 | | | |
+| `bank3` | 96 | 0 | | | |
+| `bankR3` | 96 | 0 | | | |
+| `cohort` | 44 | 0 | | | |
+| `xpub3` | 16 | 0 | | | |
 
 ## Status
 
-As of 2026-11-03 08:06 UTC: 67 surveys, 2384 forecasts in 255 timestamped batches. 13 scored, 54 pending, 0 not scoreable. 571 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
+As of 2026-11-03 08:42 UTC: 68 surveys, 2391 forecasts in 262 timestamped batches. 14 scored, 54 pending, 0 not scoreable. 572 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
 
 ## Files
 
@@ -98,4 +100,4 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
-Ledger chain head `68cb5418f12c33733833afa9488ade57d3009cf71cde7e7ac368a1fa89629e4f`.
+Ledger chain head `20b12ae754fba9a84ea645b48ec65b153ce84d8d158e1cc62ef32eaac67f53cd`.
