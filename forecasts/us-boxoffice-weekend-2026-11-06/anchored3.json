@@ -1,0 +1,17 @@
+{
+  "target_id": "us-boxoffice-weekend-2026-11-06",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__anchored3__weekend_gross_share__overall__r1",
+      "entry_sha256": "1bf0c09ed6d6dba6faa6d715b93dcd66a8b2e0c628e91dab8330ae3f69a44c23",
+      "seq": 2376,
+      "batch_id": "us-boxoffice-weekend-2026-11-06__anchored3__20261103T061756962821Z__s2376",
+      "locked_at": "2026-11-03T06:17:56Z"
+    }
+  ]
+}

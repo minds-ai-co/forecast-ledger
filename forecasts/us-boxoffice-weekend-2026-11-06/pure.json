@@ -1,0 +1,17 @@
+{
+  "target_id": "us-boxoffice-weekend-2026-11-06",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__weekend_gross_share__overall__r1",
+      "entry_sha256": "f2764d33a1af4327cec981f3deb43da6c761e6be97eaef2cba285fd0704d4661",
+      "seq": 2375,
+      "batch_id": "us-boxoffice-weekend-2026-11-06__20261103T061634007268Z__s2375",
+      "locked_at": "2026-11-03T06:16:34Z"
+    }
+  ]
+}

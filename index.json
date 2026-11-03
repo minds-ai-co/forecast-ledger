@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-02T20:51:32Z",
+  "as_of": "2026-11-03T06:19:04Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "658d94b21cef5ad13b11a6bcdffc9d47ad002d249d2bc85d8000ea6c74c3e70e",
+  "chain_head_sha256": "b7f5ee71740856bdf1d1dbcbb7a823151cedf96502da740d64536511dd687a2a",
   "counts": {
-    "targets": 63,
+    "targets": 64,
     "targets_scored": 13,
-    "targets_pending": 50,
+    "targets_pending": 51,
     "targets_not_scoreable": 0,
-    "entries": 2375,
-    "batches": 246,
+    "entries": 2378,
+    "batches": 249,
     "entries_scored": 392,
-    "entries_pending": 1968,
+    "entries_pending": 1971,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -55,7 +55,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 567,
+    "forecasts_locked": 568,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
@@ -92,7 +92,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 568,
+        "forecasts_locked": 569,
         "scored": {
           "surveys": 13,
           "questions": 77,
@@ -113,7 +113,7 @@
       },
       "memory3": {
         "label": "Additional research forecast (memory3)",
-        "forecasts_locked": 467,
+        "forecasts_locked": 468,
         "scored": {
           "surveys": 11,
           "questions": 62,
@@ -167,7 +167,7 @@
   "counts_by_evidence_type": {
     "attitude": 1872,
     "stated_intent": 441,
-    "behaviour": 62
+    "behaviour": 65
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -4711,11 +4711,11 @@
           "manifest": "proofs/batches/gb-ons-opn-2026-11-04__bank3__20261102T125115819314Z__s2220.json",
           "manifest_sha256": "e10cdba35a859beab5a6ddaf70fae4e400a6ffab87238ac02d0494ecf69e1b30",
           "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__bank3__20261102T125115819314Z__s2220.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974261,
+          "bitcoin_block_time_utc": "2026-11-02T13:09:53Z",
+          "bitcoin_block_hash": "00000000000000000000f9457cf38e057a8664fbf4632eab2e605b1ac237b532",
+          "bitcoin_block_merkle_root": "c17eae14bf38f7fb5945ab60804e5e6d71dc580d27198f07b6198a93d010baa0"
         },
         {
           "batch_id": "gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285",
@@ -4725,11 +4725,11 @@
           "manifest": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json",
           "manifest_sha256": "ee19933c55f59aaa5bc9386181c8a47df3ee33c962753b085302c3c4ac26f5b9",
           "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974267,
+          "bitcoin_block_time_utc": "2026-11-02T14:37:36Z",
+          "bitcoin_block_hash": "0000000000000000000041b469802e54db1c1c23d87af95fac75005093710a00",
+          "bitcoin_block_merkle_root": "ffe64c505521a8e86a7aad0d011fbc3bee94b9f90b70dcc014e7aeb2c96f5724"
         },
         {
           "batch_id": "gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350",
@@ -4739,11 +4739,11 @@
           "manifest": "proofs/batches/gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350.json",
           "manifest_sha256": "089dde8a95635dd25631c63899bf05ec8268e358ee07c9ce57a42b33f682e9cc",
           "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974267,
+          "bitcoin_block_time_utc": "2026-11-02T14:37:36Z",
+          "bitcoin_block_hash": "0000000000000000000041b469802e54db1c1c23d87af95fac75005093710a00",
+          "bitcoin_block_merkle_root": "ffe64c505521a8e86a7aad0d011fbc3bee94b9f90b70dcc014e7aeb2c96f5724"
         }
       ]
     },
@@ -4920,11 +4920,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363.json",
           "manifest_sha256": "8d405d6c9d8665199499c0f404ace91d581f0ae224b07aea4e58774babea51f1",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         },
         {
           "batch_id": "gb-system1-xmas-2026-tesco__anchored3__20261102T202546845585Z__s2364",
@@ -4934,11 +4934,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-tesco__anchored3__20261102T202546845585Z__s2364.json",
           "manifest_sha256": "25415c80b2a6eb0a7df11b321e02f98d9bc5e0ea09f6a322368eee318a2290fe",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-tesco__anchored3__20261102T202546845585Z__s2364.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ]
     },
@@ -5066,11 +5066,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-sainsburys__20261102T202703661418Z__s2365.json",
           "manifest_sha256": "578160cec24c7140bde96fac0fb70190ad185ddd21f121f557d2e1bb3941f7d2",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-sainsburys__20261102T202703661418Z__s2365.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         },
         {
           "batch_id": "gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366",
@@ -5080,11 +5080,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366.json",
           "manifest_sha256": "f198c6827379b738c9743d643c8092dad9f5ff8a89a9b182fa902021b8af9c39",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ]
     },
@@ -5415,11 +5415,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-best-buy__20261102T205013715076Z__s2373.json",
           "manifest_sha256": "bc52fab11bc2637fe074336f2021f05c044ea3e3b9f1850dd91ecf6617ecd9d1",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-best-buy__20261102T205013715076Z__s2373.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974302,
+          "bitcoin_block_time_utc": "2026-11-02T21:08:18Z",
+          "bitcoin_block_hash": "0000000000000000000081d60b60b557af2d2efe8a307e2c5218b96eac13c71b",
+          "bitcoin_block_merkle_root": "85ad14712fedc4acb5e118d4c721b36bb811db38f1679a7f34619b0aec00cbab"
         },
         {
           "batch_id": "us-system1-xmas-2026-best-buy__anchored3__20261102T205132403047Z__s2374",
@@ -5429,11 +5429,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-best-buy__anchored3__20261102T205132403047Z__s2374.json",
           "manifest_sha256": "6ffa43e78185bc5679663a2cce89dcb4c1fccba9632cb89991f9f464006f6f9b",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-best-buy__anchored3__20261102T205132403047Z__s2374.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974302,
+          "bitcoin_block_time_utc": "2026-11-02T21:08:18Z",
+          "bitcoin_block_hash": "0000000000000000000081d60b60b557af2d2efe8a307e2c5218b96eac13c71b",
+          "bitcoin_block_merkle_root": "85ad14712fedc4acb5e118d4c721b36bb811db38f1679a7f34619b0aec00cbab"
         }
       ]
     },
@@ -5472,11 +5472,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-chewy__20261102T203538728475Z__s2371.json",
           "manifest_sha256": "e72d9ac4105df093810fdb8b606660bc550fba4198c5e65f9c316aaf0b71f804",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy__20261102T203538728475Z__s2371.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974298,
+          "bitcoin_block_time_utc": "2026-11-02T20:41:28Z",
+          "bitcoin_block_hash": "0000000000000000000101a0ab164a6e86da72860ef47d33d9d0aacaad69ac61",
+          "bitcoin_block_merkle_root": "11810f4d40f223309e7a5ee844aa6ef35d5eb3247eca2491568da4a7e2a99396"
         },
         {
           "batch_id": "us-system1-xmas-2026-chewy__anchored3__20261102T204835940477Z__s2372",
@@ -5486,6 +5486,79 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-chewy__anchored3__20261102T204835940477Z__s2372.json",
           "manifest_sha256": "7c1a9200d11156451378784d0886170829a3d9c857d6821987a2d0df42e912cb",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy__anchored3__20261102T204835940477Z__s2372.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974301,
+          "bitcoin_block_time_utc": "2026-11-02T21:04:34Z",
+          "bitcoin_block_hash": "00000000000000000000198157222492a1f6ec6c342f7184941e818dd45b5b83",
+          "bitcoin_block_merkle_root": "dd0fd72cdede85bf85cc188f7328f573b78176730eb43752c1ecba51b35e2df6"
+        }
+      ]
+    },
+    {
+      "target_id": "us-boxoffice-weekend-2026-11-06",
+      "survey": "US and Canada (domestic) weekend box office: share of gross by film",
+      "publisher": "Box Office Mojo (IMDbPro) / studio reports",
+      "wave": "Weekend Friday 6 - Sunday 8 November 2026",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-03T18:00:00Z",
+      "first_lock_utc": "2026-11-03T06:16:34Z",
+      "released_at": null,
+      "publication_url": "https://www.boxofficemojo.com/weekend/2026W45/",
+      "forecasts_count": 3,
+      "variants": [
+        "pure",
+        "anchored3",
+        "memory3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-boxoffice-weekend-2026-11-06/pure.json",
+        "anchored3": "forecasts/us-boxoffice-weekend-2026-11-06/anchored3.json",
+        "memory3": "forecasts/us-boxoffice-weekend-2026-11-06/memory3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-boxoffice-weekend-2026-11-06__20261103T061634007268Z__s2375",
+          "locked_at": "2026-11-03T06:16:34Z",
+          "entries": 1,
+          "merkle_root": "ee9312d91d7b465917bb1fe108668e6d88b73c266a9df26e5d8d2f967fd0bbaa",
+          "manifest": "proofs/batches/us-boxoffice-weekend-2026-11-06__20261103T061634007268Z__s2375.json",
+          "manifest_sha256": "71d9c38138786c2cf63e28032b6f3e288716d9a690fe91abc3e3265229383aa0",
+          "ots_proof": "proofs/batches/us-boxoffice-weekend-2026-11-06__20261103T061634007268Z__s2375.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-boxoffice-weekend-2026-11-06__anchored3__20261103T061756962821Z__s2376",
+          "locked_at": "2026-11-03T06:17:56Z",
+          "entries": 1,
+          "merkle_root": "d3406aed9035177437836a85d01dd04a77a528fbadd933c5ba394e4e070546c9",
+          "manifest": "proofs/batches/us-boxoffice-weekend-2026-11-06__anchored3__20261103T061756962821Z__s2376.json",
+          "manifest_sha256": "3cacbee61add7f3a05738f64a202d4fb9261ca66e60af48cf2baa28752e08246",
+          "ots_proof": "proofs/batches/us-boxoffice-weekend-2026-11-06__anchored3__20261103T061756962821Z__s2376.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-boxoffice-weekend-2026-11-06__memory3__20261103T061904543052Z__s2377",
+          "locked_at": "2026-11-03T06:19:04Z",
+          "entries": 1,
+          "merkle_root": "707262c9f457050d81348c6670676b83ce72498887f3686dc54bbee0f99cdfb4",
+          "manifest": "proofs/batches/us-boxoffice-weekend-2026-11-06__memory3__20261103T061904543052Z__s2377.json",
+          "manifest_sha256": "884670b7f36bcd9137c3952c48842de114dfc1587ee64599cd1f7126fda22999",
+          "ots_proof": "proofs/batches/us-boxoffice-weekend-2026-11-06__memory3__20261103T061904543052Z__s2377.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,
@@ -5529,11 +5602,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-very__20261102T203329674946Z__s2369.json",
           "manifest_sha256": "05f168bdf05484f93ee6569f4adbdd7c81fc82b1d30cada731c3d427e1807ce5",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-very__20261102T203329674946Z__s2369.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         },
         {
           "batch_id": "gb-system1-xmas-2026-very__anchored3__20261102T203457314793Z__s2370",
@@ -5543,11 +5616,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-very__anchored3__20261102T203457314793Z__s2370.json",
           "manifest_sha256": "ee42b0eb49fd4223fad1c50cd6899841170f179077c6e34d31427d166c0d8098",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-very__anchored3__20261102T203457314793Z__s2370.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ]
     },
@@ -5627,11 +5700,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-etsy__20261102T202926257778Z__s2367.json",
           "manifest_sha256": "a0b94fbe80b3650e4078f9813aaa910513deab91a865db9fcc17df88fbbd2e76",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-etsy__20261102T202926257778Z__s2367.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         },
         {
           "batch_id": "us-system1-xmas-2026-etsy__anchored3__20261102T203037056474Z__s2368",
@@ -5641,11 +5714,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-etsy__anchored3__20261102T203037056474Z__s2368.json",
           "manifest_sha256": "ae237982a882263e40bf81e0dc2dca45b16720590fe66b8afca1388724e461bb",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-etsy__anchored3__20261102T203037056474Z__s2368.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974296,
+          "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
+          "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
+          "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ]
     },

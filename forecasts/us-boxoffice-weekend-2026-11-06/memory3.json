@@ -1,0 +1,17 @@
+{
+  "target_id": "us-boxoffice-weekend-2026-11-06",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__memory3__weekend_gross_share__overall__r1",
+      "entry_sha256": "c1f0dd80315e354670660939c1052d9b53b400df65526b5ec716b29db078b5bc",
+      "seq": 2377,
+      "batch_id": "us-boxoffice-weekend-2026-11-06__memory3__20261103T061904543052Z__s2377",
+      "locked_at": "2026-11-03T06:19:04Z"
+    }
+  ]
+}
