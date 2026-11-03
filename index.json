@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-03T16:09:47Z",
+  "as_of": "2026-11-03T20:14:53Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "20b12ae754fba9a84ea645b48ec65b153ce84d8d158e1cc62ef32eaac67f53cd",
+  "chain_head_sha256": "2d56a4daa537eedc6fca68ce8f5edabf00ef26e1f8222b284f5b5f3a73545ef1",
   "counts": {
-    "targets": 68,
+    "targets": 73,
     "targets_scored": 15,
-    "targets_pending": 53,
+    "targets_pending": 58,
     "targets_not_scoreable": 0,
-    "entries": 2391,
-    "batches": 262,
+    "entries": 2400,
+    "batches": 271,
     "entries_scored": 398,
-    "entries_pending": 1978,
+    "entries_pending": 1987,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -55,7 +55,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 572,
+    "forecasts_locked": 576,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
@@ -92,7 +92,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 573,
+        "forecasts_locked": 578,
         "scored": {
           "surveys": 15,
           "questions": 79,
@@ -165,7 +165,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1878,
+    "attitude": 1887,
     "stated_intent": 448,
     "behaviour": 65
   },
@@ -5894,6 +5894,234 @@
       ]
     },
     {
+      "target_id": "gb-system1-xmas-2026-asda",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Dinner Table\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Asda, released 2026-11-03 08:35Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-05T08:35:17Z",
+      "first_lock_utc": "2026-11-03T20:06:29Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-asda/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-asda/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-asda__20261103T200629276357Z__s2393",
+          "locked_at": "2026-11-03T20:06:29Z",
+          "entries": 1,
+          "merkle_root": "833f41c8f57a42286a6acf4bd0b9be24b2008035ae61ee01f40afb6939617492",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-asda__20261103T200629276357Z__s2393.json",
+          "manifest_sha256": "c56405d298e9fc5f27d3d708e243bbae19acc0c7afe99c96466d51244517dc21",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda__20261103T200629276357Z__s2393.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-asda__anchored3__20261103T200807811283Z__s2394",
+          "locked_at": "2026-11-03T20:08:07Z",
+          "entries": 1,
+          "merkle_root": "ebefd3ab7aa3445ae89706473a789796e97a224836c8b652f5527f443a1bcd5a",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-asda__anchored3__20261103T200807811283Z__s2394.json",
+          "manifest_sha256": "d82c1fd0b61256edd941d46261ad5821fc1cc949eb34880c580faefcd7521a41",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda__anchored3__20261103T200807811283Z__s2394.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-asda-2",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Decorating\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Asda, released 2026-11-03 08:36Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-05T08:36:49Z",
+      "first_lock_utc": "2026-11-03T20:09:21Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-asda-2/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-asda-2/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-asda-2__20261103T200921592796Z__s2395",
+          "locked_at": "2026-11-03T20:09:21Z",
+          "entries": 1,
+          "merkle_root": "d3ef1c0f6bccf75120fd0394a032a33c342417dca31cadea645ebfd82eea0177",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-asda-2__20261103T200921592796Z__s2395.json",
+          "manifest_sha256": "967208d308676cd2b8f1c05d31e46034cbfdd40d8ef02180efb67215ea7658ed",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-2__20261103T200921592796Z__s2395.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-asda-2__anchored3__20261103T201212585418Z__s2396",
+          "locked_at": "2026-11-03T20:12:12Z",
+          "entries": 1,
+          "merkle_root": "2eee72d5f4865ad7b9b8be0caacfad523f70177d873371863a97cd0380a56930",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-asda-2__anchored3__20261103T201212585418Z__s2396.json",
+          "manifest_sha256": "e228599001e4a2839de59dba9c9817dcec53e7beb828d4f162ce55ba9082dea5",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-2__anchored3__20261103T201212585418Z__s2396.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-burberry",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Burberry \"Wrapped in Burberry\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Burberry, released 2026-11-03 10:02Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-05T10:02:47Z",
+      "first_lock_utc": "2026-11-03T20:13:00Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-burberry/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-burberry/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-burberry__20261103T201300522145Z__s2397",
+          "locked_at": "2026-11-03T20:13:00Z",
+          "entries": 1,
+          "merkle_root": "c29bdd96f6a6065a9aa47ad92824c90df34e6e7a9a5fd67005433f8e92f56786",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-burberry__20261103T201300522145Z__s2397.json",
+          "manifest_sha256": "13d6a1c7823df4cf316a58231326fecd2108aeab7002435966a183fe421c12f6",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-burberry__20261103T201300522145Z__s2397.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-burberry__anchored3__20261103T201406041339Z__s2398",
+          "locked_at": "2026-11-03T20:14:06Z",
+          "entries": 1,
+          "merkle_root": "c71ef1b57875192a2e5f05f0616d4601043f28c780e1deef8d66ffc3ba202635",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-burberry__anchored3__20261103T201406041339Z__s2398.json",
+          "manifest_sha256": "e574438a15e8ae9e334b4fe3f8be75feb126b8caa041820ee4a4da4905c56809",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-burberry__anchored3__20261103T201406041339Z__s2398.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-lidl",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Lidl \"Lidl Christmas Everybody\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Lidl, released 2026-11-03 10:08Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-05T10:08:38Z",
+      "first_lock_utc": "2026-11-03T20:03:22Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-lidl/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-lidl/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391",
+          "locked_at": "2026-11-03T20:03:22Z",
+          "entries": 1,
+          "merkle_root": "6387e3bc304f45c54ea4fe7bcf1ddc90a5a8f6a8bed77d3226f285ff74a4eef3",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391.json",
+          "manifest_sha256": "ed7710f158ce7c8c131824b420d125acfac05ab2a929daf7888ce7683bc9e14c",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-lidl__anchored3__20261103T200509658710Z__s2392",
+          "locked_at": "2026-11-03T20:05:09Z",
+          "entries": 1,
+          "merkle_root": "5325361d573c77c8ad94eb61e9404e13840dd52f4d67774aca12fa8e0fed3bdf",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-lidl__anchored3__20261103T200509658710Z__s2392.json",
+          "manifest_sha256": "13dcec2cec4660c7774ac0a938c3250b9d8fbc913a877aa38f462e8adbac1edb",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-lidl__anchored3__20261103T200509658710Z__s2392.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "de-insa-meinungstrend-2026-11-10",
       "survey": "INSA-Meinungstrend Sonntagsfrage (online panel wave, for BILD)",
       "publisher": "INSA-CONSULERE for BILD",
@@ -6027,6 +6255,47 @@
           "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
           "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
           "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-gap",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Gap \"Give your gift.\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Gap, released 2026-11-03 14:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-05T14:00:35Z",
+      "first_lock_utc": "2026-11-03T20:14:53Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-system1-xmas-2026-gap/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-gap__20261103T201453602770Z__s2399",
+          "locked_at": "2026-11-03T20:14:53Z",
+          "entries": 1,
+          "merkle_root": "d3f52a3ef47221abd080fcd8869f92f4ee8132546c2d115917d4d404ebf6b1c3",
+          "manifest": "proofs/batches/us-system1-xmas-2026-gap__20261103T201453602770Z__s2399.json",
+          "manifest_sha256": "245822a4de8a6cabc0569b0378b5558cf1d8879ca76df229b505995962945ec4",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-gap__20261103T201453602770Z__s2399.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },

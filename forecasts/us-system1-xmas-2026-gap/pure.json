@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-gap",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-gap__star_rating__overall__r1",
+      "entry_sha256": "78c3a1e610ea43ee7575c8fd5978bee76ea5ea9299a57f96fb6f2d94993978b8",
+      "seq": 2399,
+      "batch_id": "us-system1-xmas-2026-gap__20261103T201453602770Z__s2399",
+      "locked_at": "2026-11-03T20:14:53Z"
+    }
+  ]
+}

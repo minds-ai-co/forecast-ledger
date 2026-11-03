@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-asda",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-asda__star_rating__overall__r1",
+      "entry_sha256": "e9fc3abc45253ffd5e7434358fd120aefa1ad9fed46ab429eb818d1fcdde2c08",
+      "seq": 2393,
+      "batch_id": "gb-system1-xmas-2026-asda__20261103T200629276357Z__s2393",
+      "locked_at": "2026-11-03T20:06:29Z"
+    }
+  ]
+}

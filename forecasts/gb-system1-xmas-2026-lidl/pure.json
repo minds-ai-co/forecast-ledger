@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-lidl",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-lidl__star_rating__overall__r1",
+      "entry_sha256": "df1bf8a79a604584291466bcc06c40ec5e4c36e913f0b7a3b4003ff024274629",
+      "seq": 2391,
+      "batch_id": "gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391",
+      "locked_at": "2026-11-03T20:03:22Z"
+    }
+  ]
+}

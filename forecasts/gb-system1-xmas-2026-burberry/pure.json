@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-burberry",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-burberry__star_rating__overall__r1",
+      "entry_sha256": "293f17acdfb28fd77e35f16f9c235ce0720bb1dec8368b949ba3d191f2c2b520",
+      "seq": 2397,
+      "batch_id": "gb-system1-xmas-2026-burberry__20261103T201300522145Z__s2397",
+      "locked_at": "2026-11-03T20:13:00Z"
+    }
+  ]
+}
