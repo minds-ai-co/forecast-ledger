@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-john-lewis",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-john-lewis__anchored3__star_rating__overall__r1",
+      "entry_sha256": "5606427abc1d09d5e692bfaafe291e93c9db90088f3a171cdbc1c139b78ba833",
+      "seq": 2379,
+      "batch_id": "gb-system1-xmas-2026-john-lewis__anchored3__20261103T080305339164Z__s2379",
+      "locked_at": "2026-11-03T08:03:05Z"
+    }
+  ]
+}

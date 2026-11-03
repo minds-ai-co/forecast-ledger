@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-chewy-3",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-chewy-3__star_rating__overall__r1",
+      "entry_sha256": "dae8679a5c0e3582dfd855cbf557fa62a0fd0ea3b052d2b14995bc3db3361872",
+      "seq": 2382,
+      "batch_id": "us-system1-xmas-2026-chewy-3__20261103T080546247487Z__s2382",
+      "locked_at": "2026-11-03T08:05:46Z"
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-03T06:19:04Z",
+  "as_of": "2026-11-03T08:06:28Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "b7f5ee71740856bdf1d1dbcbb7a823151cedf96502da740d64536511dd687a2a",
+  "chain_head_sha256": "68cb5418f12c33733833afa9488ade57d3009cf71cde7e7ac368a1fa89629e4f",
   "counts": {
-    "targets": 64,
+    "targets": 67,
     "targets_scored": 13,
-    "targets_pending": 51,
+    "targets_pending": 54,
     "targets_not_scoreable": 0,
-    "entries": 2378,
-    "batches": 249,
+    "entries": 2384,
+    "batches": 255,
     "entries_scored": 392,
-    "entries_pending": 1971,
+    "entries_pending": 1977,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -55,7 +55,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 568,
+    "forecasts_locked": 571,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
@@ -92,7 +92,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 569,
+        "forecasts_locked": 572,
         "scored": {
           "surveys": 13,
           "questions": 77,
@@ -165,7 +165,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1872,
+    "attitude": 1878,
     "stated_intent": 441,
     "behaviour": 65
   },
@@ -4269,11 +4269,11 @@
           "manifest": "proofs/batches/de-gms-2026-11__xpub3__20261101T224113420193Z__s2178.json",
           "manifest_sha256": "4ef067fce5a0501bf11f52699ca1dc3965265397ed3264568fc51ea349874c51",
           "ots_proof": "proofs/batches/de-gms-2026-11__xpub3__20261101T224113420193Z__s2178.json.ots",
-          "ots_status": "bitcoin-verified",
+          "ots_status": "bitcoin-attested-unchecked",
           "bitcoin_block_height": 974188,
-          "bitcoin_block_time_utc": "2026-11-01T22:46:09Z",
-          "bitcoin_block_hash": "00000000000000000001203a28483de1f96e7a55c83c9a695e8a183d0e97e620",
-          "bitcoin_block_merkle_root": "ab2cdd988e6c9ae0a7ec7a914efcdc761ef99145f1eb813f9113449cd14f2d7d"
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -5568,6 +5568,120 @@
       ]
     },
     {
+      "target_id": "us-system1-xmas-2026-chewy-3",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Chewy \"Chewy Claus: Meet Raybans\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-04T05:00:17Z",
+      "first_lock_utc": "2026-11-03T08:05:46Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-system1-xmas-2026-chewy-3/pure.json",
+        "anchored3": "forecasts/us-system1-xmas-2026-chewy-3/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-chewy-3__20261103T080546247487Z__s2382",
+          "locked_at": "2026-11-03T08:05:46Z",
+          "entries": 1,
+          "merkle_root": "847feb70a7134bc2d099e34d6f348288c01d9cc2eeb79527105e9449ee076c71",
+          "manifest": "proofs/batches/us-system1-xmas-2026-chewy-3__20261103T080546247487Z__s2382.json",
+          "manifest_sha256": "5e592d0043e2de23631b62a52ef19276415decd11d9843c1e46c981a40adaa13",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-3__20261103T080546247487Z__s2382.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-chewy-3__anchored3__20261103T080628300797Z__s2383",
+          "locked_at": "2026-11-03T08:06:28Z",
+          "entries": 1,
+          "merkle_root": "7332f7c8c5c5837d2298117a5647342362cf7dad38e0eda10763691815b78378",
+          "manifest": "proofs/batches/us-system1-xmas-2026-chewy-3__anchored3__20261103T080628300797Z__s2383.json",
+          "manifest_sha256": "e912af686d561887734baaba278be8c5ba2ef1436102659c58ea5b19b921259a",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-3__anchored3__20261103T080628300797Z__s2383.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-chewy-2",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Chewy \"Chewy Claus: Your Pet's Letter Can Help Shelter Pets\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-04T05:00:21Z",
+      "first_lock_utc": "2026-11-03T08:03:37Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-system1-xmas-2026-chewy-2/pure.json",
+        "anchored3": "forecasts/us-system1-xmas-2026-chewy-2/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-chewy-2__20261103T080337005207Z__s2380",
+          "locked_at": "2026-11-03T08:03:37Z",
+          "entries": 1,
+          "merkle_root": "3cb9b091a32667afb9fae4dcb410f5d353cf87230a56630a4347f8ad77f6bd3c",
+          "manifest": "proofs/batches/us-system1-xmas-2026-chewy-2__20261103T080337005207Z__s2380.json",
+          "manifest_sha256": "cf55f83e88e82602da5b2b295f8090887cd7be3fac7145620af1fe72f9d7c2cc",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-2__20261103T080337005207Z__s2380.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-chewy-2__anchored3__20261103T080436648246Z__s2381",
+          "locked_at": "2026-11-03T08:04:36Z",
+          "entries": 1,
+          "merkle_root": "87d0aec4aeea6e518975394d097fc81e73db79a982c68f2d3f5e32a98bece5dc",
+          "manifest": "proofs/batches/us-system1-xmas-2026-chewy-2__anchored3__20261103T080436648246Z__s2381.json",
+          "manifest_sha256": "ee9974b09c85603578c4c1388afc2989f6baea81b092af8d6844e750c33267ac",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-2__anchored3__20261103T080436648246Z__s2381.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "gb-system1-xmas-2026-very",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Very \"That's the Very thing\"",
       "publisher": "System1 Group (Test Your Ad)",
@@ -5719,6 +5833,63 @@
           "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
           "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-john-lewis",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: John Lewis \"Gloria and Pickles\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (John Lewis, released 2026-11-03 07:28Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-05T07:28:17Z",
+      "first_lock_utc": "2026-11-03T08:01:56Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-john-lewis/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-john-lewis/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-john-lewis__20261103T080156156696Z__s2378",
+          "locked_at": "2026-11-03T08:01:56Z",
+          "entries": 1,
+          "merkle_root": "5053fe286402e0ffc0973d64587bf283ae80b588ea3e2c879f38ab17046e4dce",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-john-lewis__20261103T080156156696Z__s2378.json",
+          "manifest_sha256": "e9e8891b2c388d6445af1fbdb3dbeb6c85c3f97a157e6d4afccf95f4e349ae57",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-john-lewis__20261103T080156156696Z__s2378.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-john-lewis__anchored3__20261103T080305339164Z__s2379",
+          "locked_at": "2026-11-03T08:03:05Z",
+          "entries": 1,
+          "merkle_root": "3d1f9a9eebd7b2ac0f81f61be3e37afcee2875c22d88178cbe8648b67b6fd81b",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-john-lewis__anchored3__20261103T080305339164Z__s2379.json",
+          "manifest_sha256": "2f1a2e823e73b8dd6e0b8cc5ccf25b8c01e2f4400fcf2648b2e0723b434a4f06",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-john-lewis__anchored3__20261103T080305339164Z__s2379.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },

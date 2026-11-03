@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-john-lewis",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-john-lewis__star_rating__overall__r1",
+      "entry_sha256": "b097f9e1392bb3c01555d9437efcaf61e49a60a82c5dfe76c1ff18481c7935ec",
+      "seq": 2378,
+      "batch_id": "gb-system1-xmas-2026-john-lewis__20261103T080156156696Z__s2378",
+      "locked_at": "2026-11-03T08:01:56Z"
+    }
+  ]
+}

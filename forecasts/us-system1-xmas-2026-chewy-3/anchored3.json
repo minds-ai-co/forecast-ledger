@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-chewy-3",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-chewy-3__anchored3__star_rating__overall__r1",
+      "entry_sha256": "b81823b965e02737f1a9e0ea84cb490ac13eef1ce2f5546d5b4d80ca7584c1f6",
+      "seq": 2383,
+      "batch_id": "us-system1-xmas-2026-chewy-3__anchored3__20261103T080628300797Z__s2383",
+      "locked_at": "2026-11-03T08:06:28Z"
+    }
+  ]
+}
