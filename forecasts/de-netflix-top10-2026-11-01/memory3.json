@@ -3,22 +3,118 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-netflix-top10-2026-11-01__memory3__tv_top10__overall__r1",
       "entry_sha256": "922b802603c22d258700148d3c18e31cdd255e8bd8869ae358998428d1670095",
       "seq": 2200,
       "batch_id": "de-netflix-top10-2026-11-01__memory3__20261102T120414645747Z__s2200",
-      "locked_at": "2026-11-02T12:04:14Z"
+      "locked_at": "2026-11-02T12:04:14Z",
+      "state": "scored",
+      "question": {
+        "id": "tv_top10",
+        "text": "Which of these series did you watch most in the week 26 October to 1 November 2026 on Netflix in Germany? (Netflix weekly Top 10 TV list; any series not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Lupin: Part 4",
+          "Below: Limited Series",
+          "The Trap: Limited Series",
+          "Nobody Wants This: Season 3",
+          "Cyberpunk: Edgerunners 2",
+          "The Diplomat: Season 4",
+          "TYSON: Limited Series",
+          "Lupin: Part 1",
+          "East of Eden: Limited Series",
+          "Ghosts: Season 4",
+          "Minimum Wage: Season 1",
+          "The One About Matthew Perry: Season 1",
+          "The Fall of El Mayo: Limited Series",
+          "Any other series"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1773,
+        0.15955000000000003,
+        0.14185,
+        0.12410000000000002,
+        0.1064,
+        0.0886,
+        0.07089999999999999,
+        0.05315,
+        0.035449999999999995,
+        0.0177,
+        0.006500000000000001,
+        0.0055,
+        0.005,
+        0.008
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-netflix-top10-2026-11-01__memory3__films_top10__overall__r1",
       "entry_sha256": "3d609f6e6af33114fc8a1e92c5d051fe85529a63fca0aa09c2ba6b501525a87b",
       "seq": 2201,
       "batch_id": "de-netflix-top10-2026-11-01__memory3__20261102T120414645747Z__s2200",
-      "locked_at": "2026-11-02T12:04:14Z"
+      "locked_at": "2026-11-02T12:04:14Z",
+      "state": "scored",
+      "question": {
+        "id": "films_top10",
+        "text": "Which of these films did you watch most in the week 26 October to 1 November 2026 on Netflix in Germany? (Netflix weekly Top 10 films list; any film not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "A Minecraft Movie",
+          "Extrawurst",
+          "Animals",
+          "Surviving Hurricane Otis",
+          "Evil Dead Burn",
+          "Hot Wheels Let's Race: Attack of the T-Rex",
+          "Halloween Kills",
+          "Center Stage: Turn It Up",
+          "UNABOMBER",
+          "Das perfekte Geheimnis",
+          "The Birthday Gift (German Netflix comedy, 30 Oct; under any title Netflix lists it)",
+          "Day of the Dead: Ofrenda",
+          "SCTV: The Greatest Show You've Never Heard Of",
+          "Any other film"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.08,
+        0.07500000000000001,
+        0.0775,
+        0.019,
+        0.0375,
+        0.0175,
+        0.037500000000000006,
+        0.0125,
+        0.05,
+        0.035,
+        0.1125,
+        0.0225,
+        0.0135,
+        0.41000000000000003
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

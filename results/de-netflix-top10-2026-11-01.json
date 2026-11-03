@@ -1,0 +1,151 @@
+{
+  "target_id": "de-netflix-top10-2026-11-01",
+  "survey": "Netflix weekly Top 10 in Germany, series and films (Borda rank shares of the top ten)",
+  "status": "scored",
+  "released_at": "2026-11-03T19:56:35Z",
+  "source_url": "https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv",
+  "scored_at": "2026-11-03T21:31:11Z",
+  "results_sha256": "55d5a1c993c2984918926e80db48aa2597c7396065dcc6d54bff5890c73893d7",
+  "released_values_public": false,
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "summary": {
+    "pure": {
+      "items": 2,
+      "tvd": 0.380925,
+      "mae_pp": 5.441785
+    },
+    "anchored3": {
+      "items": 2,
+      "tvd": 0.31655,
+      "mae_pp": 4.522143
+    },
+    "memory3": {
+      "items": 2,
+      "tvd": 0.434675,
+      "mae_pp": 6.209643
+    }
+  },
+  "summary_by_evidence_type": {
+    "behaviour": {
+      "pure": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.380925,
+          "mae_pp": 5.441785
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.380925,
+          "mae_pp": 5.441785
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.31655,
+          "mae_pp": 4.522143
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.31655,
+          "mae_pp": 4.522143
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.434675,
+          "mae_pp": 6.209643
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.434675,
+          "mae_pp": 6.209643
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__tv_top10__overall__r1",
+      "entry_sha256": "e2297c9b1047e53a99a6194122e1de5cf86bf80ea25b641f719bd5bc76aa89f6",
+      "variant": "pure",
+      "question_id": "tv_top10",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.53955,
+      "mae_pp": 7.707857
+    },
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__films_top10__overall__r1",
+      "entry_sha256": "0c5332f449512ab5477d366441379752f30251c9d421d14e78bc1f379e3e7759",
+      "variant": "pure",
+      "question_id": "films_top10",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.2223,
+      "mae_pp": 3.175714
+    },
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__anchored3__tv_top10__overall__r1",
+      "entry_sha256": "a2f16ec61373b77981d8d3828bf3ac710a6ab6be479ee28c729c6b11d18b371d",
+      "variant": "anchored3",
+      "question_id": "tv_top10",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.3816,
+      "mae_pp": 5.451429
+    },
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__anchored3__films_top10__overall__r1",
+      "entry_sha256": "dcb570cbf3298b172aa497b423d2e8c0cd2d2ec8c0508feadcfa0a1b649920b0",
+      "variant": "anchored3",
+      "question_id": "films_top10",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.2515,
+      "mae_pp": 3.592857
+    },
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__memory3__tv_top10__overall__r1",
+      "entry_sha256": "922b802603c22d258700148d3c18e31cdd255e8bd8869ae358998428d1670095",
+      "variant": "memory3",
+      "question_id": "tv_top10",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.54105,
+      "mae_pp": 7.729286
+    },
+    {
+      "entry_id": "de-netflix-top10-2026-11-01__memory3__films_top10__overall__r1",
+      "entry_sha256": "3d609f6e6af33114fc8a1e92c5d051fe85529a63fca0aa09c2ba6b501525a87b",
+      "variant": "memory3",
+      "question_id": "films_top10",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.3283,
+      "mae_pp": 4.69
+    }
+  ]
+}

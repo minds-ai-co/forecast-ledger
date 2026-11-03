@@ -3,22 +3,118 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-netflix-top10-2026-11-01__memory3__tv_top10__overall__r1",
       "entry_sha256": "00b8907069956ca783aacd099d8bd63fc740eca8c69de335a0837fc543206f76",
       "seq": 2206,
       "batch_id": "gb-netflix-top10-2026-11-01__memory3__20261102T121134381129Z__s2206",
-      "locked_at": "2026-11-02T12:11:34Z"
+      "locked_at": "2026-11-02T12:11:34Z",
+      "state": "scored",
+      "question": {
+        "id": "tv_top10",
+        "text": "Which of these series did you watch most in the week 26 October to 1 November 2026 on Netflix in United Kingdom? (Netflix weekly Top 10 TV list; any series not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Below: Limited Series",
+          "Nobody Wants This: Season 3",
+          "TYSON: Limited Series",
+          "The Diplomat: Season 4",
+          "The New Stanford Prison Experiment: Season 1",
+          "East of Eden: Limited Series",
+          "Cyberpunk: Edgerunners 2",
+          "The Gentlemen: Season 2",
+          "Love Is Blind: S11: Boston",
+          "WWE Raw (any weekly episode)",
+          "Minimum Wage: Season 1",
+          "The One About Matthew Perry: Season 1",
+          "The Fall of El Mayo: Limited Series",
+          "Beat Luke Littler (live darts event, 30 Oct)",
+          "Any other series"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0525,
+        0.10250000000000001,
+        0.037500000000000006,
+        0.0925,
+        0.030000000000000002,
+        0.0625,
+        0.02,
+        0.1225,
+        0.060000000000000005,
+        0.045,
+        0.0225,
+        0.055,
+        0.02,
+        0.0825,
+        0.195
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "gb-netflix-top10-2026-11-01__memory3__films_top10__overall__r1",
       "entry_sha256": "e97ef5c17ae5663876144582b5bc5b1ec8266b759aeda6343835a254e65d85bb",
       "seq": 2207,
       "batch_id": "gb-netflix-top10-2026-11-01__memory3__20261102T121134381129Z__s2206",
-      "locked_at": "2026-11-02T12:11:34Z"
+      "locked_at": "2026-11-02T12:11:34Z",
+      "state": "scored",
+      "question": {
+        "id": "films_top10",
+        "text": "Which of these films did you watch most in the week 26 October to 1 November 2026 on Netflix in United Kingdom? (Netflix weekly Top 10 films list; any film not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Animals",
+          "Hot Wheels Let's Race: Attack of the T-Rex",
+          "Within",
+          "It Chapter Two",
+          "The Meg",
+          "Despicable Me 4",
+          "Surviving Hurricane Otis",
+          "Brooklyn",
+          "Wicked",
+          "Armored",
+          "Day of the Dead: Ofrenda",
+          "SCTV: The Greatest Show You've Never Heard Of",
+          "Any other film"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.045,
+        0.0075,
+        0.013999999999999999,
+        0.031,
+        0.018500000000000003,
+        0.044,
+        0.007,
+        0.011,
+        0.051500000000000004,
+        0.01,
+        0.006500000000000001,
+        0.006500000000000001,
+        0.7475
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

@@ -3,22 +3,118 @@
   "variant": "anchored3",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "global-netflix-top10-english-2026-11-01__anchored3__english_films_views__overall__r1",
       "entry_sha256": "c5b79c45d9b07bea5a8b46c16ca1df2182ad2356df2cde05b33cefae7d9d9407",
       "seq": 2060,
       "batch_id": "global-netflix-top10-english-2026-11-01__anchored3__20261101T153752724349Z__s2060",
-      "locked_at": "2026-11-01T15:37:52Z"
+      "locked_at": "2026-11-01T15:37:52Z",
+      "state": "scored",
+      "question": {
+        "id": "english_films_views",
+        "text": "Which of these English-language films was this view of? (Netflix global Top 10, viewing week 26 October to 1 November 2026; share of the views of the week's ten most-viewed English-language films; any title not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Animals",
+          "Hot Wheels Let's Race: Attack of the T-Rex",
+          "Armored",
+          "Ice Age: Collision Course",
+          "Ice Age: Dawn of the Dinosaurs",
+          "Blackout",
+          "Primate",
+          "Doing Life",
+          "Gladiator II",
+          "Ice Age",
+          "SCTV: The Greatest Show You've Never Heard Of",
+          "Day of the Dead: Ofrenda",
+          "Any other English-language film"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.15000000000000002,
+        0.1,
+        0.081,
+        0.0765,
+        0.07150000000000001,
+        0.064,
+        0.066,
+        0.026000000000000002,
+        0.065,
+        0.04,
+        0.15250000000000002,
+        0.10250000000000001,
+        0.005
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "global-netflix-top10-english-2026-11-01__anchored3__english_tv_views__overall__r1",
       "entry_sha256": "1cc2697c52ae33bc02addde3a7ec8db8ee39f3937078d8ce1eb290d79773ad14",
       "seq": 2061,
       "batch_id": "global-netflix-top10-english-2026-11-01__anchored3__20261101T153752724349Z__s2060",
-      "locked_at": "2026-11-01T15:37:52Z"
+      "locked_at": "2026-11-01T15:37:52Z",
+      "state": "scored",
+      "question": {
+        "id": "english_tv_views",
+        "text": "Which of these English-language series was this view of? (Netflix global Top 10, viewing week 26 October to 1 November 2026; share of the views of the week's ten most-viewed English-language series; any title not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Below: Limited Series",
+          "Nobody Wants This: Season 3",
+          "The Diplomat: Season 4",
+          "TYSON: Limited Series",
+          "Love Is Blind: S11: Boston",
+          "East of Eden: Limited Series",
+          "From: Season 1",
+          "The New Stanford Prison Experiment: Season 1",
+          "WWE Raw (any weekly episode)",
+          "Spike: Season 1",
+          "Minimum Wage: Season 1",
+          "The One About Matthew Perry: Season 1",
+          "The Fall of El Mayo: Limited Series",
+          "Dangerous Liaisons: Season 1",
+          "Any other English-language series"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.11,
+        0.1575,
+        0.0875,
+        0.051000000000000004,
+        0.08,
+        0.0435,
+        0.036500000000000005,
+        0.026500000000000003,
+        0.0435,
+        0.0115,
+        0.125,
+        0.094,
+        0.07250000000000001,
+        0.056,
+        0.005
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

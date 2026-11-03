@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-03T20:14:53Z",
+  "as_of": "2026-11-03T21:31:15Z",
   "model": "Minds Mosaic",
   "chain_head_sha256": "2d56a4daa537eedc6fca68ce8f5edabf00ef26e1f8222b284f5b5f3a73545ef1",
   "counts": {
     "targets": 73,
-    "targets_scored": 15,
-    "targets_pending": 58,
+    "targets_scored": 18,
+    "targets_pending": 55,
     "targets_not_scoreable": 0,
     "entries": 2400,
     "batches": 271,
-    "entries_scored": 398,
-    "entries_pending": 1987,
+    "entries_scored": 416,
+    "entries_pending": 1969,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -59,11 +59,11 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
-      "surveys": 15,
-      "questions": 79,
-      "tvd": 0.033892,
-      "mae_pp": 1.3524,
-      "pearson_r": 0.992765
+      "surveys": 18,
+      "questions": 85,
+      "tvd": 0.057671,
+      "mae_pp": 1.63572,
+      "pearson_r": 0.973041
     },
     "locked_before_fieldwork": {
       "surveys": 6,
@@ -87,18 +87,24 @@
         "mae_pp": 0.83992,
         "pearson_r": 0.995605
       },
-      "behaviour": null
+      "behaviour": {
+        "surveys": 3,
+        "questions": 6,
+        "tvd": 0.370767,
+        "mae_pp": 5.366099,
+        "pearson_r": 0.492204
+      }
     },
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 578,
         "scored": {
-          "surveys": 15,
-          "questions": 79,
-          "tvd": 0.085311,
-          "mae_pp": 3.429498,
-          "pearson_r": 0.956106
+          "surveys": 18,
+          "questions": 85,
+          "tvd": 0.11134,
+          "mae_pp": 3.649248,
+          "pearson_r": 0.928685
         }
       },
       "cellsS": {
@@ -115,11 +121,11 @@
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 469,
         "scored": {
-          "surveys": 13,
-          "questions": 64,
-          "tvd": 0.091948,
-          "mae_pp": 3.388663,
-          "pearson_r": 0.94894
+          "surveys": 16,
+          "questions": 70,
+          "tvd": 0.119491,
+          "mae_pp": 3.60576,
+          "pearson_r": 0.926025
         }
       },
       "blend": {
@@ -311,6 +317,53 @@
           "n_distribution": 14,
           "tvd": 0.077914,
           "mae_pp": 2.859647
+        }
+      }
+    },
+    "behaviour": {
+      "pure": {
+        "overall": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.454058,
+          "mae_pp": 6.542629
+        },
+        "subgroups": null,
+        "all": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.454058,
+          "mae_pp": 6.542629
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.370767,
+          "mae_pp": 5.366099
+        },
+        "subgroups": null,
+        "all": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.370767,
+          "mae_pp": 5.366099
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.413275,
+          "mae_pp": 5.921454
+        },
+        "subgroups": null,
+        "all": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.413275,
+          "mae_pp": 5.921454
         }
       }
     }
@@ -5166,16 +5219,16 @@
       "survey": "Netflix weekly Top 10 in Germany, series and films (Borda rank shares of the top ten)",
       "publisher": "Netflix (Tudum Top 10, self-published)",
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-03T12:00:00Z",
       "first_lock_utc": "2026-11-02T11:58:20Z",
-      "released_at": null,
+      "released_at": "2026-11-03T19:56:35Z",
       "publication_url": "https://www.netflix.com/tudum/top10/germany",
       "forecasts_count": 6,
       "variants": [
@@ -5188,7 +5241,7 @@
         "anchored3": "forecasts/de-netflix-top10-2026-11-01/anchored3.json",
         "memory3": "forecasts/de-netflix-top10-2026-11-01/memory3.json"
       },
-      "results": null,
+      "results": "results/de-netflix-top10-2026-11-01.json",
       "batches": [
         {
           "batch_id": "de-netflix-top10-2026-11-01__20261102T115820004806Z__s2196",
@@ -5239,16 +5292,16 @@
       "survey": "Netflix weekly Top 10 in United Kingdom, series and films (Borda rank shares of the top ten)",
       "publisher": "Netflix (Tudum Top 10, self-published)",
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-03T12:00:00Z",
       "first_lock_utc": "2026-11-02T12:06:08Z",
-      "released_at": null,
+      "released_at": "2026-11-03T19:56:35Z",
       "publication_url": "https://www.netflix.com/tudum/top10/united-kingdom",
       "forecasts_count": 6,
       "variants": [
@@ -5261,7 +5314,7 @@
         "anchored3": "forecasts/gb-netflix-top10-2026-11-01/anchored3.json",
         "memory3": "forecasts/gb-netflix-top10-2026-11-01/memory3.json"
       },
-      "results": null,
+      "results": "results/gb-netflix-top10-2026-11-01.json",
       "batches": [
         {
           "batch_id": "gb-netflix-top10-2026-11-01__20261102T120608846573Z__s2202",
@@ -5312,16 +5365,16 @@
       "survey": "Netflix global weekly Top 10, English-language films and series (share of views among the top ten)",
       "publisher": "Netflix (Tudum Top 10, self-published)",
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-03T12:00:00Z",
       "first_lock_utc": "2026-11-01T15:29:19Z",
-      "released_at": null,
+      "released_at": "2026-11-03T19:56:35Z",
       "publication_url": "https://www.netflix.com/tudum/top10",
       "forecasts_count": 6,
       "variants": [
@@ -5334,7 +5387,7 @@
         "anchored3": "forecasts/global-netflix-top10-english-2026-11-01/anchored3.json",
         "memory3": "forecasts/global-netflix-top10-english-2026-11-01/memory3.json"
       },
-      "results": null,
+      "results": "results/global-netflix-top10-english-2026-11-01.json",
       "batches": [
         {
           "batch_id": "global-netflix-top10-english-2026-11-01__20261101T152919665654Z__s2058",

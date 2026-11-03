@@ -3,22 +3,118 @@
   "variant": "anchored3",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-netflix-top10-2026-11-01__anchored3__tv_top10__overall__r1",
       "entry_sha256": "538a66583c18d98fe631b2298c2b03028a6713e859a2db851c41f0f3594c0acc",
       "seq": 2204,
       "batch_id": "gb-netflix-top10-2026-11-01__anchored3__20261102T120812390004Z__s2204",
-      "locked_at": "2026-11-02T12:08:12Z"
+      "locked_at": "2026-11-02T12:08:12Z",
+      "state": "scored",
+      "question": {
+        "id": "tv_top10",
+        "text": "Which of these series did you watch most in the week 26 October to 1 November 2026 on Netflix in United Kingdom? (Netflix weekly Top 10 TV list; any series not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Below: Limited Series",
+          "Nobody Wants This: Season 3",
+          "TYSON: Limited Series",
+          "The Diplomat: Season 4",
+          "The New Stanford Prison Experiment: Season 1",
+          "East of Eden: Limited Series",
+          "Cyberpunk: Edgerunners 2",
+          "The Gentlemen: Season 2",
+          "Love Is Blind: S11: Boston",
+          "WWE Raw (any weekly episode)",
+          "Minimum Wage: Season 1",
+          "The One About Matthew Perry: Season 1",
+          "The Fall of El Mayo: Limited Series",
+          "Beat Luke Littler (live darts event, 30 Oct)",
+          "Any other series"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.14,
+        0.1275,
+        0.0925,
+        0.08399999999999999,
+        0.0635,
+        0.045,
+        0.0285,
+        0.0215,
+        0.0275,
+        0.015,
+        0.065,
+        0.09,
+        0.05,
+        0.065,
+        0.08499999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "gb-netflix-top10-2026-11-01__anchored3__films_top10__overall__r1",
       "entry_sha256": "baed1b4e9d7d87dae862162cb317a2e3cc5a1234159410529132cf9e00139728",
       "seq": 2205,
       "batch_id": "gb-netflix-top10-2026-11-01__anchored3__20261102T120812390004Z__s2204",
-      "locked_at": "2026-11-02T12:08:12Z"
+      "locked_at": "2026-11-02T12:08:12Z",
+      "state": "scored",
+      "question": {
+        "id": "films_top10",
+        "text": "Which of these films did you watch most in the week 26 October to 1 November 2026 on Netflix in United Kingdom? (Netflix weekly Top 10 films list; any film not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Animals",
+          "Hot Wheels Let's Race: Attack of the T-Rex",
+          "Within",
+          "It Chapter Two",
+          "The Meg",
+          "Despicable Me 4",
+          "Surviving Hurricane Otis",
+          "Brooklyn",
+          "Wicked",
+          "Armored",
+          "Day of the Dead: Ofrenda",
+          "SCTV: The Greatest Show You've Never Heard Of",
+          "Any other film"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1375,
+        0.095,
+        0.10250000000000001,
+        0.0925,
+        0.065,
+        0.07,
+        0.034,
+        0.03,
+        0.018500000000000003,
+        0.015,
+        0.0775,
+        0.05,
+        0.21250000000000002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }
