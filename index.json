@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-03T08:42:16Z",
+  "as_of": "2026-11-03T16:09:47Z",
   "model": "Minds Mosaic",
   "chain_head_sha256": "20b12ae754fba9a84ea645b48ec65b153ce84d8d158e1cc62ef32eaac67f53cd",
   "counts": {
     "targets": 68,
-    "targets_scored": 14,
-    "targets_pending": 54,
+    "targets_scored": 15,
+    "targets_pending": 53,
     "targets_not_scoreable": 0,
     "entries": 2391,
     "batches": 262,
-    "entries_scored": 395,
-    "entries_pending": 1981,
+    "entries_scored": 398,
+    "entries_pending": 1978,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -59,18 +59,18 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
-      "surveys": 14,
-      "questions": 78,
-      "tvd": 0.034198,
-      "mae_pp": 1.366075,
-      "pearson_r": 0.992743
+      "surveys": 15,
+      "questions": 79,
+      "tvd": 0.033892,
+      "mae_pp": 1.3524,
+      "pearson_r": 0.992765
     },
     "locked_before_fieldwork": {
-      "surveys": 5,
-      "questions": 20,
-      "tvd": 0.023661,
-      "mae_pp": 1.083649,
-      "pearson_r": 0.997752
+      "surveys": 6,
+      "questions": 21,
+      "tvd": 0.023011,
+      "mae_pp": 1.045652,
+      "pearson_r": 0.997761
     },
     "by_evidence_type": {
       "attitude": {
@@ -81,11 +81,11 @@
         "pearson_r": 0.992197
       },
       "stated_intent": {
-        "surveys": 11,
-        "questions": 16,
-        "tvd": 0.025612,
-        "mae_pp": 0.874558,
-        "pearson_r": 0.995559
+        "surveys": 12,
+        "questions": 17,
+        "tvd": 0.024694,
+        "mae_pp": 0.83992,
+        "pearson_r": 0.995605
       },
       "behaviour": null
     },
@@ -94,11 +94,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 573,
         "scored": {
-          "surveys": 14,
-          "questions": 78,
-          "tvd": 0.085507,
-          "mae_pp": 3.447825,
-          "pearson_r": 0.956182
+          "surveys": 15,
+          "questions": 79,
+          "tvd": 0.085311,
+          "mae_pp": 3.429498,
+          "pearson_r": 0.956106
         }
       },
       "cellsS": {
@@ -115,11 +115,11 @@
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 469,
         "scored": {
-          "surveys": 12,
-          "questions": 63,
-          "tvd": 0.092217,
-          "mae_pp": 3.408438,
-          "pearson_r": 0.949014
+          "surveys": 13,
+          "questions": 64,
+          "tvd": 0.091948,
+          "mae_pp": 3.388663,
+          "pearson_r": 0.94894
         }
       },
       "blend": {
@@ -245,10 +245,10 @@
     "stated_intent": {
       "pure": {
         "overall": {
-          "n": 16,
-          "n_distribution": 16,
-          "tvd": 0.076129,
-          "mae_pp": 2.750503
+          "n": 17,
+          "n_distribution": 17,
+          "tvd": 0.075768,
+          "mae_pp": 2.706355
         },
         "subgroups": {
           "n": 14,
@@ -257,18 +257,18 @@
           "mae_pp": 2.673883
         },
         "all": {
-          "n": 30,
-          "n_distribution": 30,
-          "tvd": 0.082382,
-          "mae_pp": 2.714747
+          "n": 31,
+          "n_distribution": 31,
+          "tvd": 0.081982,
+          "mae_pp": 2.69169
         }
       },
       "anchored3": {
         "overall": {
-          "n": 16,
-          "n_distribution": 16,
-          "tvd": 0.025612,
-          "mae_pp": 0.874558
+          "n": 17,
+          "n_distribution": 17,
+          "tvd": 0.024694,
+          "mae_pp": 0.83992
         },
         "subgroups": {
           "n": 14,
@@ -277,10 +277,10 @@
           "mae_pp": 1.975001
         },
         "all": {
-          "n": 30,
-          "n_distribution": 30,
-          "tvd": 0.044552,
-          "mae_pp": 1.388098
+          "n": 31,
+          "n_distribution": 31,
+          "tvd": 0.043437,
+          "mae_pp": 1.352538
         }
       },
       "blend": {
@@ -300,17 +300,17 @@
       },
       "memory3": {
         "overall": {
-          "n": 13,
-          "n_distribution": 13,
-          "tvd": 0.078138,
-          "mae_pp": 2.914784
+          "n": 14,
+          "n_distribution": 14,
+          "tvd": 0.077914,
+          "mae_pp": 2.859647
         },
         "subgroups": null,
         "all": {
-          "n": 13,
-          "n_distribution": 13,
-          "tvd": 0.078138,
-          "mae_pp": 2.914784
+          "n": 14,
+          "n_distribution": 14,
+          "tvd": 0.077914,
+          "mae_pp": 2.859647
         }
       }
     }
@@ -833,11 +833,11 @@
           "manifest": "proofs/batches/us-census-htops-2609-wellbeing__anchored3__20261024T123539408593Z__s258.json",
           "manifest_sha256": "c02f2c8b6abded9a216113a159de9968a033dead2e17163a4475f46e43d8839b",
           "ots_proof": "proofs/batches/us-census-htops-2609-wellbeing__anchored3__20261024T123539408593Z__s258.json.ots",
-          "ots_status": "bitcoin-attested-unchecked",
+          "ots_status": "bitcoin-verified",
           "bitcoin_block_height": 972923,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "bitcoin_block_time_utc": "2026-10-24T13:30:56Z",
+          "bitcoin_block_hash": "000000000000000000000fb320e39c1486a1bbd06d93e88ca4ad4996d90a0ecd",
+          "bitcoin_block_merkle_root": "c11bf628b49a12617122ba009ae17d64de8e138906b2cde81bf8cd401b8898c6"
         },
         {
           "batch_id": "us-census-htops-2609-wellbeing__cells__20261024T204048640254Z__s542",
@@ -874,16 +874,16 @@
       "survey": "RTL/ntv Trendbarometer Sonntagsfrage (Forsa)",
       "publisher": "Forsa Gesellschaft für Sozialforschung und statistische Analysen for RTL Deutschland (RTL/ntv)",
       "wave": "Weekly wave expected Tue 27 October to Mon 2 November 2026, published Tue 3 November 2026",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "stated_intent"
       ],
       "cutoff_utc": "2026-10-26T12:00:00Z",
       "first_lock_utc": "2026-10-24T01:50:39Z",
-      "released_at": null,
+      "released_at": "2026-11-03T13:07:37Z",
       "publication_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
       "forecasts_count": 3,
       "variants": [
@@ -896,7 +896,7 @@
         "anchored3": "forecasts/de-forsa-trendbarometer-2026-11-03/anchored3.json",
         "memory3": "forecasts/de-forsa-trendbarometer-2026-11-03/memory3.json"
       },
-      "results": null,
+      "results": "results/de-forsa-trendbarometer-2026-11-03.json",
       "batches": [
         {
           "batch_id": "de-forsa-trendbarometer-2026-11-03__20261024T015039122579Z__s98",
@@ -5602,11 +5602,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-chewy-3__20261103T080546247487Z__s2382.json",
           "manifest_sha256": "5e592d0043e2de23631b62a52ef19276415decd11d9843c1e46c981a40adaa13",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-3__20261103T080546247487Z__s2382.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974372,
+          "bitcoin_block_time_utc": "2026-11-03T08:30:44Z",
+          "bitcoin_block_hash": "00000000000000000001d704f53d346b433e831a3b3181807faa45639709ea1b",
+          "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         },
         {
           "batch_id": "us-system1-xmas-2026-chewy-3__anchored3__20261103T080628300797Z__s2383",
@@ -5616,11 +5616,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-chewy-3__anchored3__20261103T080628300797Z__s2383.json",
           "manifest_sha256": "e912af686d561887734baaba278be8c5ba2ef1436102659c58ea5b19b921259a",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-3__anchored3__20261103T080628300797Z__s2383.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974372,
+          "bitcoin_block_time_utc": "2026-11-03T08:30:44Z",
+          "bitcoin_block_hash": "00000000000000000001d704f53d346b433e831a3b3181807faa45639709ea1b",
+          "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         }
       ]
     },
@@ -5659,11 +5659,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-chewy-2__20261103T080337005207Z__s2380.json",
           "manifest_sha256": "cf55f83e88e82602da5b2b295f8090887cd7be3fac7145620af1fe72f9d7c2cc",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-2__20261103T080337005207Z__s2380.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974372,
+          "bitcoin_block_time_utc": "2026-11-03T08:30:44Z",
+          "bitcoin_block_hash": "00000000000000000001d704f53d346b433e831a3b3181807faa45639709ea1b",
+          "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         },
         {
           "batch_id": "us-system1-xmas-2026-chewy-2__anchored3__20261103T080436648246Z__s2381",
@@ -5673,11 +5673,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-chewy-2__anchored3__20261103T080436648246Z__s2381.json",
           "manifest_sha256": "ee9974b09c85603578c4c1388afc2989f6baea81b092af8d6844e750c33267ac",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-chewy-2__anchored3__20261103T080436648246Z__s2381.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974372,
+          "bitcoin_block_time_utc": "2026-11-03T08:30:44Z",
+          "bitcoin_block_hash": "00000000000000000001d704f53d346b433e831a3b3181807faa45639709ea1b",
+          "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         }
       ]
     },
@@ -5871,11 +5871,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-john-lewis__20261103T080156156696Z__s2378.json",
           "manifest_sha256": "e9e8891b2c388d6445af1fbdb3dbeb6c85c3f97a157e6d4afccf95f4e349ae57",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-john-lewis__20261103T080156156696Z__s2378.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974372,
+          "bitcoin_block_time_utc": "2026-11-03T08:30:44Z",
+          "bitcoin_block_hash": "00000000000000000001d704f53d346b433e831a3b3181807faa45639709ea1b",
+          "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         },
         {
           "batch_id": "gb-system1-xmas-2026-john-lewis__anchored3__20261103T080305339164Z__s2379",
@@ -5885,11 +5885,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-john-lewis__anchored3__20261103T080305339164Z__s2379.json",
           "manifest_sha256": "2f1a2e823e73b8dd6e0b8cc5ccf25b8c01e2f4400fcf2648b2e0723b434a4f06",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-john-lewis__anchored3__20261103T080305339164Z__s2379.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974372,
+          "bitcoin_block_time_utc": "2026-11-03T08:30:44Z",
+          "bitcoin_block_hash": "00000000000000000001d704f53d346b433e831a3b3181807faa45639709ea1b",
+          "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         }
       ]
     },
@@ -5938,11 +5938,11 @@
           "manifest": "proofs/batches/de-insa-meinungstrend-2026-11-10__20261103T083812557021Z__s2384.json",
           "manifest_sha256": "099075fe75b764ef37a5ccbb2a14b95f71f28fdef413783c1cef9b762d95e0a6",
           "ots_proof": "proofs/batches/de-insa-meinungstrend-2026-11-10__20261103T083812557021Z__s2384.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974375,
+          "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
+          "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
+          "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         },
         {
           "batch_id": "de-insa-meinungstrend-2026-11-10__anchored3__20261103T083851040111Z__s2385",
@@ -5952,11 +5952,11 @@
           "manifest": "proofs/batches/de-insa-meinungstrend-2026-11-10__anchored3__20261103T083851040111Z__s2385.json",
           "manifest_sha256": "bc99d3a9f5c23e056b954f058f1f0d2bf66846c4b2f42c58e3f8f060e4dc6e7f",
           "ots_proof": "proofs/batches/de-insa-meinungstrend-2026-11-10__anchored3__20261103T083851040111Z__s2385.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974375,
+          "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
+          "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
+          "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         },
         {
           "batch_id": "de-insa-meinungstrend-2026-11-10__memory3__20261103T083920357680Z__s2386",
@@ -5966,11 +5966,11 @@
           "manifest": "proofs/batches/de-insa-meinungstrend-2026-11-10__memory3__20261103T083920357680Z__s2386.json",
           "manifest_sha256": "f6146c0a00e61b43b3f9f787831dfe3f2ba911fa8fb6be88e168e15374cfdb58",
           "ots_proof": "proofs/batches/de-insa-meinungstrend-2026-11-10__memory3__20261103T083920357680Z__s2386.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974375,
+          "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
+          "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
+          "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         },
         {
           "batch_id": "de-insa-meinungstrend-2026-11-10__bank3__20261103T083955511117Z__s2387",
@@ -5980,11 +5980,11 @@
           "manifest": "proofs/batches/de-insa-meinungstrend-2026-11-10__bank3__20261103T083955511117Z__s2387.json",
           "manifest_sha256": "4c9265ec2ccccae7517f745b1d09f921b12cc5d20ce1a25ae49676b9f9f3b89b",
           "ots_proof": "proofs/batches/de-insa-meinungstrend-2026-11-10__bank3__20261103T083955511117Z__s2387.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974375,
+          "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
+          "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
+          "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         },
         {
           "batch_id": "de-insa-meinungstrend-2026-11-10__bankR3__20261103T084039042848Z__s2388",
@@ -5994,11 +5994,11 @@
           "manifest": "proofs/batches/de-insa-meinungstrend-2026-11-10__bankR3__20261103T084039042848Z__s2388.json",
           "manifest_sha256": "873e88f305ece1fdee525494ea90b8d530fd0dad9570972ab9015e03afe0202e",
           "ots_proof": "proofs/batches/de-insa-meinungstrend-2026-11-10__bankR3__20261103T084039042848Z__s2388.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974375,
+          "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
+          "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
+          "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         },
         {
           "batch_id": "de-insa-meinungstrend-2026-11-10__cohort__20261103T084118543307Z__s2389",
@@ -6008,11 +6008,11 @@
           "manifest": "proofs/batches/de-insa-meinungstrend-2026-11-10__cohort__20261103T084118543307Z__s2389.json",
           "manifest_sha256": "1a9f1c56241f6d48ad3da49596c6dc1e3fb27b47fe189502e1fea8358725a7f9",
           "ots_proof": "proofs/batches/de-insa-meinungstrend-2026-11-10__cohort__20261103T084118543307Z__s2389.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974375,
+          "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
+          "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
+          "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         },
         {
           "batch_id": "de-insa-meinungstrend-2026-11-10__xpub3__20261103T084216160894Z__s2390",
@@ -6022,11 +6022,11 @@
           "manifest": "proofs/batches/de-insa-meinungstrend-2026-11-10__xpub3__20261103T084216160894Z__s2390.json",
           "manifest_sha256": "4b7790c91b0b47a24e55544eb964c1e485781e93b4310a6697965aee8d5fa809",
           "ots_proof": "proofs/batches/de-insa-meinungstrend-2026-11-10__xpub3__20261103T084216160894Z__s2390.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974375,
+          "bitcoin_block_time_utc": "2026-11-03T09:01:18Z",
+          "bitcoin_block_hash": "00000000000000000001536b4686e33a2fa92d305066bcaf74ba030033ae6427",
+          "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         }
       ]
     },

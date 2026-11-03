@@ -1,0 +1,115 @@
+{
+  "target_id": "de-forsa-trendbarometer-2026-11-03",
+  "survey": "RTL/ntv Trendbarometer Sonntagsfrage (Forsa)",
+  "status": "scored",
+  "released_at": "2026-11-03T13:07:37Z",
+  "source_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
+  "scored_at": "2026-11-03T16:09:47Z",
+  "results_sha256": "bfbefc4ec0c2c9cab54a0696f748c100201046f5261e9caa4f70d37aabb238ed",
+  "released_values_public": false,
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.07,
+      "mae_pp": 2.0
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.01,
+      "mae_pp": 0.285714
+    },
+    "memory3": {
+      "items": 1,
+      "tvd": 0.075,
+      "mae_pp": 2.142857
+    }
+  },
+  "summary_by_evidence_type": {
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.07,
+          "mae_pp": 2.0
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.07,
+          "mae_pp": 2.0
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.01,
+          "mae_pp": 0.285714
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.01,
+          "mae_pp": 0.285714
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.075,
+          "mae_pp": 2.142857
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.075,
+          "mae_pp": 2.142857
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-03__sonntagsfrage__overall__r1",
+      "entry_sha256": "cf712eff7a018d968c3f48c483cc543442248c8ec895471df1b582ad46374d63",
+      "variant": "pure",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.07,
+      "mae_pp": 2.0
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-03__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "f256c42a167e526e187341f249a76aa25faa870875d819f3011e158d091786a8",
+      "variant": "anchored3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.01,
+      "mae_pp": 0.285714
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-03__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "4b57e0e840acdd2bfc2868da7a9f634c368b8e774e5bd363ad301d7b87712cca",
+      "variant": "memory3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.075,
+      "mae_pp": 2.142857
+    }
+  ]
+}
