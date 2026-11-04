@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="386" viewBox="0 0 640 386" role="img" aria-labelledby="t3 d3" font-family="system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+<title id="t3">Minds Mosaic error by topic and week</title>
+<desc id="d3">Minds Mosaic average forecast error (TVD, 0 is perfect) by topic and result release week. Combined over all 18 scored surveys: 0.084. Elections and politics: 0.020 over 9 surveys. Consumer sentiment: 0.037 over 5 surveys. Viewing and media: 0.371 over 3 surveys. Purchases and sales: 0.036 over 1 survey.</desc>
+<rect width="640" height="386" fill="#ffffff"/>
+<text x="8" y="24" font-size="16" font-weight="600" fill="#1d1d1b">Average error by topic and week (TVD, lower is better)</text>
+<rect x="8" y="36" width="16" height="12" rx="2" fill="#86b6ef"/>
+<text x="30" y="46" font-size="12" fill="#625f58">under 0.02</text>
+<rect x="113" y="36" width="16" height="12" rx="2" fill="#5598e7"/>
+<text x="135" y="46" font-size="12" fill="#625f58">0.02 to 0.03</text>
+<rect x="232" y="36" width="16" height="12" rx="2" fill="#256abf"/>
+<text x="254" y="46" font-size="12" fill="#625f58">0.03 to 0.05</text>
+<rect x="351" y="36" width="16" height="12" rx="2" fill="#184f95"/>
+<text x="373" y="46" font-size="12" fill="#625f58">0.05 to 0.15</text>
+<rect x="470" y="36" width="16" height="12" rx="2" fill="#0d366b"/>
+<text x="492" y="46" font-size="12" fill="#625f58">0.15 or more</text>
+<rect x="8" y="58" width="16" height="12" rx="2" fill="#f1f0ec"/>
+<text x="30" y="68" font-size="12" fill="#625f58">no scored survey</text>
+<text x="226.0" y="104" font-size="12" font-weight="400" fill="#625f58" text-anchor="middle">26 Oct</text>
+<text x="318.0" y="104" font-size="12" font-weight="400" fill="#625f58" text-anchor="middle">2 Nov</text>
+<text x="422.0" y="104" font-size="12" font-weight="600" fill="#1d1d1b" text-anchor="middle">All weeks</text>
+<text x="8" y="142.0" font-size="13" font-weight="600" fill="#1d1d1b">Elections and politics</text>
+<g><title>Elections and politics, week of 26 Oct: average error 0.021 over 7 surveys</title><rect x="181" y="115" width="90" height="44" rx="3" fill="#5598e7"/><text x="226.0" y="135" font-size="13" font-weight="600" fill="#1d1d1b" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.021</text><text x="226.0" y="150" font-size="10" fill="#1d1d1b" text-anchor="middle">7 surveys</text></g>
+<g><title>Elections and politics, week of 2 Nov: average error 0.019 over 2 surveys</title><rect x="273" y="115" width="90" height="44" rx="3" fill="#86b6ef"/><text x="318.0" y="135" font-size="13" font-weight="600" fill="#1d1d1b" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.019</text><text x="318.0" y="150" font-size="10" fill="#1d1d1b" text-anchor="middle">2 surveys</text></g>
+<g><title>Elections and politics, all weeks: average error 0.020 over 9 surveys</title><rect x="377" y="115" width="90" height="44" rx="3" fill="#5598e7"/><text x="422.0" y="135" font-size="13" font-weight="600" fill="#1d1d1b" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.020</text><text x="422.0" y="150" font-size="10" fill="#1d1d1b" text-anchor="middle">9 surveys</text></g>
+<text x="8" y="188.0" font-size="13" font-weight="600" fill="#1d1d1b">Consumer sentiment</text>
+<g><title>Consumer sentiment, week of 26 Oct: average error 0.037 over 5 surveys</title><rect x="181" y="161" width="90" height="44" rx="3" fill="#256abf"/><text x="226.0" y="181" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.037</text><text x="226.0" y="196" font-size="10" fill="#ffffff" text-anchor="middle">5 surveys</text></g>
+<rect x="273" y="161" width="90" height="44" rx="3" fill="#f1f0ec"/>
+<g><title>Consumer sentiment, all weeks: average error 0.037 over 5 surveys</title><rect x="377" y="161" width="90" height="44" rx="3" fill="#256abf"/><text x="422.0" y="181" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.037</text><text x="422.0" y="196" font-size="10" fill="#ffffff" text-anchor="middle">5 surveys</text></g>
+<text x="8" y="234.0" font-size="13" font-weight="600" fill="#1d1d1b">Viewing and media</text>
+<rect x="181" y="207" width="90" height="44" rx="3" fill="#f1f0ec"/>
+<g><title>Viewing and media, week of 2 Nov: average error 0.371 over 3 surveys</title><rect x="273" y="207" width="90" height="44" rx="3" fill="#0d366b"/><text x="318.0" y="227" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.371</text><text x="318.0" y="242" font-size="10" fill="#ffffff" text-anchor="middle">3 surveys</text></g>
+<g><title>Viewing and media, all weeks: average error 0.371 over 3 surveys</title><rect x="377" y="207" width="90" height="44" rx="3" fill="#0d366b"/><text x="422.0" y="227" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.371</text><text x="422.0" y="242" font-size="10" fill="#ffffff" text-anchor="middle">3 surveys</text></g>
+<text x="8" y="280.0" font-size="13" font-weight="600" fill="#1d1d1b">Purchases and sales</text>
+<rect x="181" y="253" width="90" height="44" rx="3" fill="#f1f0ec"/>
+<g><title>Purchases and sales, week of 2 Nov: average error 0.036 over 1 survey</title><rect x="273" y="253" width="90" height="44" rx="3" fill="#256abf"/><text x="318.0" y="273" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.036</text><text x="318.0" y="288" font-size="10" fill="#ffffff" text-anchor="middle">1 survey</text></g>
+<g><title>Purchases and sales, all weeks: average error 0.036 over 1 survey</title><rect x="377" y="253" width="90" height="44" rx="3" fill="#256abf"/><text x="422.0" y="273" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.036</text><text x="422.0" y="288" font-size="10" fill="#ffffff" text-anchor="middle">1 survey</text></g>
+<text x="8" y="338.0" font-size="13" font-weight="700" fill="#1d1d1b">Combined</text>
+<g><title>Combined, week of 26 Oct: average error 0.028 over 12 surveys</title><rect x="181" y="311" width="90" height="44" rx="3" fill="#5598e7"/><text x="226.0" y="331" font-size="13" font-weight="600" fill="#1d1d1b" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.028</text><text x="226.0" y="346" font-size="10" fill="#1d1d1b" text-anchor="middle">12 surveys</text></g>
+<g><title>Combined, week of 2 Nov: average error 0.198 over 6 surveys</title><rect x="273" y="311" width="90" height="44" rx="3" fill="#0d366b"/><text x="318.0" y="331" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.198</text><text x="318.0" y="346" font-size="10" fill="#ffffff" text-anchor="middle">6 surveys</text></g>
+<g><title>Combined, all weeks: average error 0.084 over 18 surveys</title><rect x="377" y="311" width="90" height="44" rx="3" fill="#184f95"/><text x="422.0" y="331" font-size="13" font-weight="600" fill="#ffffff" text-anchor="middle" style="font-variant-numeric: tabular-nums">0.084</text><text x="422.0" y="346" font-size="10" fill="#ffffff" text-anchor="middle">18 surveys</text></g>
+<line x1="8" y1="304.0" x2="632" y2="304.0" stroke="#cfcbc0" stroke-width="1"/>
+<text x="8" y="378" font-size="12" fill="#625f58">Columns: weeks by result release date (Monday start, UTC). Every survey counts equally.</text>
+</svg>

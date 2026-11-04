@@ -12,9 +12,9 @@ Lower is better for TVD and miss. TVD is 0 for a perfect forecast and 1 for a co
 
 Each dot is one scored survey, placed at the date its result was released and coloured by evidence type. A survey with questions of more than one type has one dot per type (the average over its questions of that type). The coloured lines are the average error per evidence type of all surveys released so far. The thick dark line is the combined average over all surveys so far, with every survey weighted equally (the pooled figure above weights every question equally). Surveys whose publisher does not allow republication are not shown.
 
-![Minds Mosaic forecast error over time by topic: one panel per topic, each with all surveys combined](charts/track-record-by-topic.svg)
+![Minds Mosaic average forecast error by topic and result release week](charts/track-record-heatmap.svg)
 
-The same scored surveys by topic, one panel per topic. Each dot is one survey (the average over all its questions), the coloured line is the average error of that topic so far, and the thick dark line is the combined average of all surveys, the same in every panel. Panels share one scale, except a panel marked "own scale" whose errors are much larger, so that it does not flatten the others.
+Average error by topic (rows) and week of result release (columns, weeks starting Monday), every survey weighted equally, with the number of surveys under each value. Darker cells mean larger errors; the colour steps are narrow at the low end so differences between polls stay visible. Empty cells had no scored survey that week. The bottom row combines all topics. The grid shows up to the latest 7 weeks; the last column covers all weeks.
 
 | Evidence type | Surveys | Questions | Minds Mosaic TVD | Minds Mosaic miss (pp) |
 |---|---:|---:|---:|---:|
