@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{{ site.title }}</title>
+<meta name="description" content="{{ site.description }}">
+<link rel="icon" href="{{ '/assets/favicon-light.svg' | relative_url }}" type="image/svg+xml">
+<link rel="stylesheet" href="{{ '/assets/css/minds.css' | relative_url }}">
+</head>
+<body class="bg-background text-foreground">
+<header class="container-wide pt-8 pb-6">
+<a href="https://getminds.ai/" class="inline-block" aria-label="Minds"><img src="{{ '/assets/logo-full.svg' | relative_url }}" alt="Minds" class="h-5 w-auto"></a>
+</header>
+<main class="container-wide pb-16">
+<article class="prose article-prose max-w-none ledger-prose">
+{{ content }}
+</article>
+</main>
+<footer class="container-wide pb-10 text-xs text-text-grey">
+<div class="border-t border-input pt-4">Minds forecast ledger. Every forecast is hashed and timestamped before the result exists.</div>
+</footer>
+</body>
+</html>

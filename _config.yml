@@ -5,3 +5,8 @@ plugins:
   - jekyll-optional-front-matter
 readme_index:
   enabled: true
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default
