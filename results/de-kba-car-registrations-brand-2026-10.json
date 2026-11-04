@@ -1,0 +1,115 @@
+{
+  "target_id": "de-kba-car-registrations-brand-2026-10",
+  "survey": "KBA Fahrzeugzulassungen: Pkw-Neuzulassungen nach Marken (new passenger car registrations by brand), Germany",
+  "status": "scored",
+  "released_at": "2026-11-04T12:05:49Z",
+  "source_url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/2026/pm44_2026_n_10_26_pm_komplett.html",
+  "scored_at": "2026-11-04T12:14:50Z",
+  "results_sha256": "a4657dccaba19c4f80a42ece4a976b1eaa7398d79240330248a2c6e3a16c6176",
+  "released_values_public": false,
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.059092,
+      "mae_pp": 0.73865
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.035751,
+      "mae_pp": 0.446887
+    },
+    "memory3": {
+      "items": 1,
+      "tvd": 0.058092,
+      "mae_pp": 0.72615
+    }
+  },
+  "summary_by_evidence_type": {
+    "behaviour": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.059092,
+          "mae_pp": 0.73865
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.059092,
+          "mae_pp": 0.73865
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.035751,
+          "mae_pp": 0.446887
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.035751,
+          "mae_pp": 0.446887
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.058092,
+          "mae_pp": 0.72615
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.058092,
+          "mae_pp": 0.72615
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-kba-car-registrations-brand-2026-10__brand_share__overall__r1",
+      "entry_sha256": "d30891e0c1e844b5a49fa4f76039c8d39ce52e9544b3aa8350e945d419c808cd",
+      "variant": "pure",
+      "question_id": "brand_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.059092,
+      "mae_pp": 0.73865
+    },
+    {
+      "entry_id": "de-kba-car-registrations-brand-2026-10__anchored3__brand_share__overall__r1",
+      "entry_sha256": "71b75e2f38638abfe31c1e14612b27307c2c63674fd94b90c6f549b1c0cf637b",
+      "variant": "anchored3",
+      "question_id": "brand_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.035751,
+      "mae_pp": 0.446887
+    },
+    {
+      "entry_id": "de-kba-car-registrations-brand-2026-10__memory3__brand_share__overall__r1",
+      "entry_sha256": "cf0ad23c48cc464c1027da80e1821c561b9ee1e8105456d9166d5ae0b6ae52a4",
+      "variant": "memory3",
+      "question_id": "brand_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.058092,
+      "mae_pp": 0.72615
+    }
+  ]
+}

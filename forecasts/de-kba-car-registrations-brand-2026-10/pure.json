@@ -3,15 +3,67 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-kba-car-registrations-brand-2026-10__brand_share__overall__r1",
       "entry_sha256": "d30891e0c1e844b5a49fa4f76039c8d39ce52e9544b3aa8350e945d419c808cd",
       "seq": 2190,
       "batch_id": "de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190",
-      "locked_at": "2026-11-02T11:51:48Z"
+      "locked_at": "2026-11-02T11:51:48Z",
+      "state": "scored",
+      "question": {
+        "id": "brand_share",
+        "text": "Which brand is the new passenger car (Pkw) you registered in Germany in October 2026? (KBA new registrations by brand; brands not listed count as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Volkswagen (VW)",
+          "Mercedes-Benz",
+          "Skoda",
+          "BMW",
+          "Audi",
+          "Seat (incl. Cupra)",
+          "Opel",
+          "Tesla",
+          "Ford",
+          "Dacia",
+          "Hyundai",
+          "Renault",
+          "Kia",
+          "Toyota",
+          "BYD",
+          "Another brand"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1945,
+        0.0915,
+        0.081,
+        0.08549999999999999,
+        0.072,
+        0.057,
+        0.048,
+        0.016,
+        0.0345,
+        0.025500000000000002,
+        0.0325,
+        0.022,
+        0.0235,
+        0.033,
+        0.011,
+        0.1725
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

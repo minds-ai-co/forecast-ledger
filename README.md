@@ -4,7 +4,7 @@ We forecast the answers to real public surveys with Minds Mosaic before the surv
 
 ## Scorecard
 
-Across 18 scored surveys and 85 questions, Minds Mosaic has an average distribution error (TVD) of 0.058. Average miss per answer option: 1.64 percentage points. Correlation between forecast and actual answer shares: 0.973. On the 6 surveys locked before fieldwork began (21 questions): 0.023.
+Across 19 scored surveys and 86 questions, Minds Mosaic has an average distribution error (TVD) of 0.057. Average miss per answer option: 1.62 percentage points. Correlation between forecast and actual answer shares: 0.973. On the 6 surveys locked before fieldwork began (21 questions): 0.023.
 
 Lower is better for TVD and miss. TVD is 0 for a perfect forecast and 1 for a completely wrong one. All figures are for the full surveyed population.
 
@@ -16,7 +16,7 @@ Each dot is one scored survey, placed at the date its result was released. The t
 |---|---:|---:|---:|---:|
 | Attitude | 12 | 62 | 0.036 | 1.49 |
 | Stated intent | 12 | 17 | 0.025 | 0.84 |
-| Behaviour | 3 | 6 | 0.371 | 5.37 |
+| Behaviour | 4 | 7 | 0.323 | 4.66 |
 
 Attitude: opinions and ratings. Stated intent: what people say they will do. Behaviour: what people actually do.
 
@@ -42,6 +42,7 @@ Each survey name links to the publisher's page for the release.
 | [European Commission Joint Harmonised Consumer Survey, Spain (fieldwork NIQ/GfK eBUS), monthly questions Q1-Q9, Q11, Q12, October 2026](https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en) | 2026-10-27 01:17 UTC | 2026-10-29 10:00 UTC | 11 | 0.040 | 1.41 |
 | [Cabinet Office ESRI 消費動向調査 (Consumer Confidence Survey, monthly): consumer-attitude components and one-year price outlook, two-or-more-person households](https://www.esri.cao.go.jp/jp/stat/shouhi/honbun.pdf) | 2026-10-27 01:37 UTC | 2026-10-29 05:00 UTC | 5 | 0.013 | 0.49 |
 | [INSA-Meinungstrend Sonntagsfrage (online panel wave, for BILD)](https://www.wahlrecht.de/umfragen/insa.htm) | 2026-10-28 04:39 UTC | 2026-11-03 08:08 UTC | 1 | 0.028 | 0.69 |
+| [KBA Fahrzeugzulassungen: Pkw-Neuzulassungen nach Marken (new passenger car registrations by brand), Germany](https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/2026/pm44_2026_n_10_26_pm_komplett.html) | 2026-11-02 11:51 UTC | 2026-11-04 12:05 UTC | 1 | 0.036 | 0.45 |
 | [Netflix weekly Top 10 in Germany, series and films (Borda rank shares of the top ten)](https://www.netflix.com/tudum/top10/germany) | 2026-11-02 11:58 UTC | 2026-11-03 19:56 UTC | 2 | 0.317 | 4.52 |
 | [Netflix weekly Top 10 in United Kingdom, series and films (Borda rank shares of the top ten)](https://www.netflix.com/tudum/top10/united-kingdom) | 2026-11-02 12:06 UTC | 2026-11-03 19:56 UTC | 2 | 0.365 | 5.26 |
 | [Netflix global weekly Top 10, English-language films and series (share of views among the top ten)](https://www.netflix.com/tudum/top10) | 2026-11-01 15:29 UTC | 2026-11-03 19:56 UTC | 2 | 0.430 | 6.31 |
@@ -72,10 +73,10 @@ Alongside Minds Mosaic we lock additional research forecasts for the same survey
 
 | Ledger tag | Forecasts locked | Surveys scored | Questions | TVD | Miss (pp) |
 |---|---:|---:|---:|---:|---:|
-| `pure` | 583 | 18 | 85 | 0.111 | 3.65 |
+| `pure` | 583 | 19 | 86 | 0.111 | 3.62 |
 | `cellsS` | 237 | 0 | | | |
 | `cellsH` | 237 | 0 | | | |
-| `memory3` | 474 | 16 | 70 | 0.119 | 3.61 |
+| `memory3` | 474 | 17 | 71 | 0.119 | 3.57 |
 | `blend` | 51 | 4 | 38 | 0.052 | 1.87 |
 | `bank3` | 100 | 0 | | | |
 | `bankR3` | 100 | 0 | | | |
@@ -84,7 +85,7 @@ Alongside Minds Mosaic we lock additional research forecasts for the same survey
 
 ## Status
 
-As of 2026-11-04 06:34 UTC: 74 surveys, 2427 forecasts in 280 timestamped batches. 18 scored, 56 pending, 0 not scoreable. 581 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
+As of 2026-11-04 12:14 UTC: 74 surveys, 2427 forecasts in 280 timestamped batches. 19 scored, 55 pending, 0 not scoreable. 581 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
 
 ## Files
 

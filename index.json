@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-04T06:34:27Z",
+  "as_of": "2026-11-04T12:14:50Z",
   "model": "Minds Mosaic",
   "chain_head_sha256": "09413138126afdf3bf34f65e4f2a1d127be7cb2c8fdce1bc9a2a32fb30f10dc9",
   "counts": {
     "targets": 74,
-    "targets_scored": 18,
-    "targets_pending": 56,
+    "targets_scored": 19,
+    "targets_pending": 55,
     "targets_not_scoreable": 0,
     "entries": 2427,
     "batches": 280,
-    "entries_scored": 416,
-    "entries_pending": 1996,
+    "entries_scored": 419,
+    "entries_pending": 1993,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -59,11 +59,11 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
-      "surveys": 18,
-      "questions": 85,
-      "tvd": 0.057671,
-      "mae_pp": 1.63572,
-      "pearson_r": 0.973041
+      "surveys": 19,
+      "questions": 86,
+      "tvd": 0.057416,
+      "mae_pp": 1.621896,
+      "pearson_r": 0.973456
     },
     "locked_before_fieldwork": {
       "surveys": 6,
@@ -88,11 +88,11 @@
         "pearson_r": 0.995605
       },
       "behaviour": {
-        "surveys": 3,
-        "questions": 6,
-        "tvd": 0.370767,
-        "mae_pp": 5.366099,
-        "pearson_r": 0.492204
+        "surveys": 4,
+        "questions": 7,
+        "tvd": 0.322907,
+        "mae_pp": 4.663354,
+        "pearson_r": 0.538824
       }
     },
     "additional_research": {
@@ -100,11 +100,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 583,
         "scored": {
-          "surveys": 18,
-          "questions": 85,
-          "tvd": 0.11134,
-          "mae_pp": 3.649248,
-          "pearson_r": 0.928685
+          "surveys": 19,
+          "questions": 86,
+          "tvd": 0.110733,
+          "mae_pp": 3.615404,
+          "pearson_r": 0.929799
         }
       },
       "cellsS": {
@@ -121,11 +121,11 @@
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 474,
         "scored": {
-          "surveys": 16,
-          "questions": 70,
-          "tvd": 0.119491,
-          "mae_pp": 3.60576,
-          "pearson_r": 0.926025
+          "surveys": 17,
+          "questions": 71,
+          "tvd": 0.118626,
+          "mae_pp": 3.565202,
+          "pearson_r": 0.92729
         }
       },
       "blend": {
@@ -323,47 +323,47 @@
     "behaviour": {
       "pure": {
         "overall": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.454058,
-          "mae_pp": 6.542629
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.397635,
+          "mae_pp": 5.713489
         },
         "subgroups": null,
         "all": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.454058,
-          "mae_pp": 6.542629
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.397635,
+          "mae_pp": 5.713489
         }
       },
       "anchored3": {
         "overall": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.370767,
-          "mae_pp": 5.366099
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.322907,
+          "mae_pp": 4.663354
         },
         "subgroups": null,
         "all": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.370767,
-          "mae_pp": 5.366099
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.322907,
+          "mae_pp": 4.663354
         }
       },
       "memory3": {
         "overall": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.413275,
-          "mae_pp": 5.921454
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.362535,
+          "mae_pp": 5.179267
         },
         "subgroups": null,
         "all": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.413275,
-          "mae_pp": 5.921454
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.362535,
+          "mae_pp": 5.179267
         }
       }
     }
@@ -4335,17 +4335,17 @@
       "survey": "KBA Fahrzeugzulassungen: Pkw-Neuzulassungen nach Marken (new passenger car registrations by brand), Germany",
       "publisher": "Kraftfahrt-Bundesamt (KBA)",
       "wave": "October 2026 (press release expected Wed 4 Nov 2026; FZ 10 table announced Fri 6 Nov 2026)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-02T11:51:48Z",
-      "released_at": null,
-      "publication_url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/fahrzeugzulassungen_node.html",
+      "released_at": "2026-11-04T12:05:49Z",
+      "publication_url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/2026/pm44_2026_n_10_26_pm_komplett.html",
       "forecasts_count": 3,
       "variants": [
         "pure",
@@ -4357,7 +4357,7 @@
         "anchored3": "forecasts/de-kba-car-registrations-brand-2026-10/anchored3.json",
         "memory3": "forecasts/de-kba-car-registrations-brand-2026-10/memory3.json"
       },
-      "results": null,
+      "results": "results/de-kba-car-registrations-brand-2026-10.json",
       "batches": [
         {
           "batch_id": "de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190",
