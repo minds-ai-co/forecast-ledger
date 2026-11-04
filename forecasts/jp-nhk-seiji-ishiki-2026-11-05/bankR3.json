@@ -1,0 +1,38 @@
+{
+  "target_id": "jp-nhk-seiji-ishiki-2026-11-05",
+  "variant": "bankR3",
+  "variant_label": "Additional research forecast (bankR3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__cabinet_support__overall__r1",
+      "entry_sha256": "7cd8fa6456338bb405017c5b022dd176b3626bb50862fcf50036feea2f6299cc",
+      "seq": 2416,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416",
+      "locked_at": "2026-11-04T06:29:19Z"
+    },
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__party_support__overall__r1",
+      "entry_sha256": "9492c95a7a577b47a9cadd298233883bd155a0712a1b4ebcd718f29ce8d3e76a",
+      "seq": 2417,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416",
+      "locked_at": "2026-11-04T06:29:19Z"
+    },
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__support_reason__overall__r1",
+      "entry_sha256": "63e19b49377df924297f617781ad943e3b2d235988dbb385a8352d02229878db",
+      "seq": 2418,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416",
+      "locked_at": "2026-11-04T06:29:19Z"
+    },
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__nonsupport_reason__overall__r1",
+      "entry_sha256": "e7902c691155b383e32607529aa3a192230b961c41c3e61f11ad98323d8b13ef",
+      "seq": 2419,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416",
+      "locked_at": "2026-11-04T06:29:19Z"
+    }
+  ]
+}

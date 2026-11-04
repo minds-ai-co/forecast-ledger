@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-smmt-car-registrations-marque-2026-10",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-smmt-car-registrations-marque-2026-10__brand_share__overall__r1",
+      "entry_sha256": "83cafbc57800d20a77e47acf5e019aa062e8740720a3578262c014d0a886fba9",
+      "seq": 2424,
+      "batch_id": "gb-smmt-car-registrations-marque-2026-10__20261104T063232610630Z__s2424",
+      "locked_at": "2026-11-04T06:32:32Z"
+    }
+  ]
+}

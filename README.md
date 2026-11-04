@@ -72,19 +72,19 @@ Alongside Minds Mosaic we lock additional research forecasts for the same survey
 
 | Ledger tag | Forecasts locked | Surveys scored | Questions | TVD | Miss (pp) |
 |---|---:|---:|---:|---:|---:|
-| `pure` | 578 | 18 | 85 | 0.111 | 3.65 |
+| `pure` | 583 | 18 | 85 | 0.111 | 3.65 |
 | `cellsS` | 237 | 0 | | | |
 | `cellsH` | 237 | 0 | | | |
-| `memory3` | 469 | 16 | 70 | 0.119 | 3.61 |
+| `memory3` | 474 | 16 | 70 | 0.119 | 3.61 |
 | `blend` | 51 | 4 | 38 | 0.052 | 1.87 |
-| `bank3` | 96 | 0 | | | |
-| `bankR3` | 96 | 0 | | | |
-| `cohort` | 44 | 0 | | | |
+| `bank3` | 100 | 0 | | | |
+| `bankR3` | 100 | 0 | | | |
+| `cohort` | 48 | 0 | | | |
 | `xpub3` | 16 | 0 | | | |
 
 ## Status
 
-As of 2026-11-03 21:31 UTC: 73 surveys, 2400 forecasts in 271 timestamped batches. 18 scored, 55 pending, 0 not scoreable. 576 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
+As of 2026-11-04 06:34 UTC: 74 surveys, 2427 forecasts in 280 timestamped batches. 18 scored, 56 pending, 0 not scoreable. 581 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
 
 ## Files
 
@@ -104,4 +104,4 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
-Ledger chain head `2d56a4daa537eedc6fca68ce8f5edabf00ef26e1f8222b284f5b5f3a73545ef1`.
+Ledger chain head `09413138126afdf3bf34f65e4f2a1d127be7cb2c8fdce1bc9a2a32fb30f10dc9`.

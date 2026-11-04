@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-smmt-car-registrations-marque-2026-10",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-smmt-car-registrations-marque-2026-10__anchored3__brand_share__overall__r1",
+      "entry_sha256": "2f4272c445d514f2d845371f5553d2c36739c1b40f4f844c3c4c323b5c596587",
+      "seq": 2425,
+      "batch_id": "gb-smmt-car-registrations-marque-2026-10__anchored3__20261104T063322175211Z__s2425",
+      "locked_at": "2026-11-04T06:33:22Z"
+    }
+  ]
+}

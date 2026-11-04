@@ -1,0 +1,38 @@
+{
+  "target_id": "jp-nhk-seiji-ishiki-2026-11-05",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__cabinet_support__overall__r1",
+      "entry_sha256": "205710465e62cb9b7e9f58ca0b4e009587ab8653147c7e9719ea409af4b7a517",
+      "seq": 2404,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404",
+      "locked_at": "2026-11-04T06:20:22Z"
+    },
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__party_support__overall__r1",
+      "entry_sha256": "9ddca9188ecdd9658257308218db50357c9b0aee5717a652f421018a1759d5a7",
+      "seq": 2405,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404",
+      "locked_at": "2026-11-04T06:20:22Z"
+    },
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__support_reason__overall__r1",
+      "entry_sha256": "66ef2af798835a09cfbc59e60550eee844fc528f4523e4b4e10049a5b464a231",
+      "seq": 2406,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404",
+      "locked_at": "2026-11-04T06:20:22Z"
+    },
+    {
+      "entry_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__nonsupport_reason__overall__r1",
+      "entry_sha256": "df891652d2d575c5dda4088161443b4c385fcb89c52d0e46af5d44dafa02c7aa",
+      "seq": 2407,
+      "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404",
+      "locked_at": "2026-11-04T06:20:22Z"
+    }
+  ]
+}

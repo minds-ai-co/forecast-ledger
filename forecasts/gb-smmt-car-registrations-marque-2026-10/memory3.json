@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-smmt-car-registrations-marque-2026-10",
+  "variant": "memory3",
+  "variant_label": "Additional research forecast (memory3)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-smmt-car-registrations-marque-2026-10__memory3__brand_share__overall__r1",
+      "entry_sha256": "8940d9ca65f5ad993747547f38d7ecca26dba46fa9a80d1807ec487d411843b0",
+      "seq": 2426,
+      "batch_id": "gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426",
+      "locked_at": "2026-11-04T06:34:27Z"
+    }
+  ]
+}

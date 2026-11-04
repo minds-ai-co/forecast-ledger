@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-03T21:31:15Z",
+  "as_of": "2026-11-04T06:34:27Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "2d56a4daa537eedc6fca68ce8f5edabf00ef26e1f8222b284f5b5f3a73545ef1",
+  "chain_head_sha256": "09413138126afdf3bf34f65e4f2a1d127be7cb2c8fdce1bc9a2a32fb30f10dc9",
   "counts": {
-    "targets": 73,
+    "targets": 74,
     "targets_scored": 18,
-    "targets_pending": 55,
+    "targets_pending": 56,
     "targets_not_scoreable": 0,
-    "entries": 2400,
-    "batches": 271,
+    "entries": 2427,
+    "batches": 280,
     "entries_scored": 416,
-    "entries_pending": 1969,
+    "entries_pending": 1996,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -55,7 +55,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 576,
+    "forecasts_locked": 581,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
@@ -98,7 +98,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 578,
+        "forecasts_locked": 583,
         "scored": {
           "surveys": 18,
           "questions": 85,
@@ -119,7 +119,7 @@
       },
       "memory3": {
         "label": "Additional research forecast (memory3)",
-        "forecasts_locked": 469,
+        "forecasts_locked": 474,
         "scored": {
           "surveys": 16,
           "questions": 70,
@@ -141,17 +141,17 @@
       },
       "bank3": {
         "label": "Additional research forecast (bank3)",
-        "forecasts_locked": 96,
+        "forecasts_locked": 100,
         "scored": null
       },
       "bankR3": {
         "label": "Additional research forecast (bankR3)",
-        "forecasts_locked": 96,
+        "forecasts_locked": 100,
         "scored": null
       },
       "cohort": {
         "label": "Additional research forecast (cohort)",
-        "forecasts_locked": 44,
+        "forecasts_locked": 48,
         "scored": null
       },
       "xpub3": {
@@ -171,9 +171,9 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1887,
+    "attitude": 1911,
     "stated_intent": 448,
-    "behaviour": 65
+    "behaviour": 68
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -4367,11 +4367,11 @@
           "manifest": "proofs/batches/de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190.json",
           "manifest_sha256": "4b451678cf14eb67aa22806c936c6b3280b0fab21ef4701b82652d611a8853bd",
           "ots_proof": "proofs/batches/de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190.json.ots",
-          "ots_status": "bitcoin-verified",
+          "ots_status": "bitcoin-attested-unchecked",
           "bitcoin_block_height": 974253,
-          "bitcoin_block_time_utc": "2026-11-02T12:10:01Z",
-          "bitcoin_block_hash": "00000000000000000001dac1ccd1102621ae27cb517adaf9206853e5b02a3d76",
-          "bitcoin_block_merkle_root": "1edbef853bedd5312d0921814f7e92837f9e47e6baa572d0a94119a8f466d3a0"
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         },
         {
           "batch_id": "de-kba-car-registrations-brand-2026-10__anchored3__20261102T115306098089Z__s2191",
@@ -5807,11 +5807,23 @@
       "first_lock_utc": "2026-11-01T22:54:20Z",
       "released_at": null,
       "publication_url": "https://news.web.nhk/senkyo/shijiritsu/",
-      "forecasts_count": 2,
+      "forecasts_count": 26,
       "variants": [
+        "pure",
+        "anchored3",
+        "memory3",
+        "bank3",
+        "bankR3",
+        "cohort",
         "xpub3"
       ],
       "forecasts": {
+        "pure": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/pure.json",
+        "anchored3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/anchored3.json",
+        "memory3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/memory3.json",
+        "bank3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/bank3.json",
+        "bankR3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/bankR3.json",
+        "cohort": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/cohort.json",
         "xpub3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/xpub3.json"
       },
       "results": null,
@@ -5829,6 +5841,90 @@
           "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
           "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
           "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        },
+        {
+          "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__20261104T061917327367Z__s2400",
+          "locked_at": "2026-11-04T06:19:17Z",
+          "entries": 4,
+          "merkle_root": "7fbc8197f011ad4d386137743dbfe8c832a7a3bb2b37f5af4fea75ac6a3fdb26",
+          "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__20261104T061917327367Z__s2400.json",
+          "manifest_sha256": "aea82b1549b463e293ae7b02ae613084c35045d7a99f3833baf2ebb1da8b049f",
+          "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__20261104T061917327367Z__s2400.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404",
+          "locked_at": "2026-11-04T06:20:22Z",
+          "entries": 4,
+          "merkle_root": "fd1b4a23a2d568253b2a074ff03052afe3f7ba5d91593d8901d72c9179f1b85d",
+          "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404.json",
+          "manifest_sha256": "f636e9f39724e45451a1e8c4909724ee2bf150f0803d535a2eac5c7199eeda19",
+          "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__memory3__20261104T062326032273Z__s2408",
+          "locked_at": "2026-11-04T06:23:26Z",
+          "entries": 4,
+          "merkle_root": "12a49f58e9f39365db279707242623f71f7f96a35f84ad27b039a18846813b3a",
+          "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__memory3__20261104T062326032273Z__s2408.json",
+          "manifest_sha256": "4a8ac8f74333aafac9b525d42f9648ae91041a4517afcfe5fb512ebdb24ae8d0",
+          "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__memory3__20261104T062326032273Z__s2408.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bank3__20261104T062646631048Z__s2412",
+          "locked_at": "2026-11-04T06:26:46Z",
+          "entries": 4,
+          "merkle_root": "fa5a20f378238edfdf4e0d5da83657e1632a4067ff6cfdf1975ee5a9a5943b0f",
+          "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bank3__20261104T062646631048Z__s2412.json",
+          "manifest_sha256": "4d63f8e4718a04c43fdf2f9cca68de2b908d2c99ffcf6b85e5b8d34f8d570968",
+          "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bank3__20261104T062646631048Z__s2412.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416",
+          "locked_at": "2026-11-04T06:29:19Z",
+          "entries": 4,
+          "merkle_root": "a0632c68dd83d1ecd54562999dfdfae7e3f45e31a882fac7a0ff3715eded0e02",
+          "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416.json",
+          "manifest_sha256": "1b7b8258aed4ca64fed46a274dc56041817a6c847147de73809551b1e29b22ad",
+          "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__cohort__20261104T063148532947Z__s2420",
+          "locked_at": "2026-11-04T06:31:48Z",
+          "entries": 4,
+          "merkle_root": "a7f34630954c1e185b73c3f75a3be28766564a522e3dbb92d266ccb455b62976",
+          "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__cohort__20261104T063148532947Z__s2420.json",
+          "manifest_sha256": "4c6b20f7b137c296ada7d6a88e7d48fd561a37e9a53d034629e6d77127cc4b28",
+          "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__cohort__20261104T063148532947Z__s2420.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -5886,6 +5982,79 @@
           "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
           "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
+        }
+      ]
+    },
+    {
+      "target_id": "gb-smmt-car-registrations-marque-2026-10",
+      "survey": "SMMT new car registrations by marque, United Kingdom",
+      "publisher": "SMMT (Society of Motor Manufacturers and Traders)",
+      "wave": "October 2026 (release Thu 5 Nov 2026, 09:00 UK time)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-04T23:00:00Z",
+      "first_lock_utc": "2026-11-04T06:32:32Z",
+      "released_at": null,
+      "publication_url": "https://www.smmt.co.uk/vehicle-data/car-registrations/",
+      "forecasts_count": 3,
+      "variants": [
+        "pure",
+        "anchored3",
+        "memory3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-smmt-car-registrations-marque-2026-10/pure.json",
+        "anchored3": "forecasts/gb-smmt-car-registrations-marque-2026-10/anchored3.json",
+        "memory3": "forecasts/gb-smmt-car-registrations-marque-2026-10/memory3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-smmt-car-registrations-marque-2026-10__20261104T063232610630Z__s2424",
+          "locked_at": "2026-11-04T06:32:32Z",
+          "entries": 1,
+          "merkle_root": "9dbba3de3737572bacf6057c5a27910d2de5ca821bb7b3d5a127466c0518c56f",
+          "manifest": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__20261104T063232610630Z__s2424.json",
+          "manifest_sha256": "b5f0f1a1ad6504c2b19f411e6d32de484e470fe6b56af725d654e1877bcfb99a",
+          "ots_proof": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__20261104T063232610630Z__s2424.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-smmt-car-registrations-marque-2026-10__anchored3__20261104T063322175211Z__s2425",
+          "locked_at": "2026-11-04T06:33:22Z",
+          "entries": 1,
+          "merkle_root": "3f06ccccb49c155cb4efcf5b22d777eea8080b67540d8f87486a94c960b7d423",
+          "manifest": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__anchored3__20261104T063322175211Z__s2425.json",
+          "manifest_sha256": "e5c3052c026fdf118916fa0286073bc83ad2585c6ebad5e17edeb0dd03ffb161",
+          "ots_proof": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__anchored3__20261104T063322175211Z__s2425.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426",
+          "locked_at": "2026-11-04T06:34:27Z",
+          "entries": 1,
+          "merkle_root": "5fb407e74be2c51711f92f38d0f88043af0aeb814cfe34152cb04fb19e20cda4",
+          "manifest": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426.json",
+          "manifest_sha256": "e22f136cce25026e23c8d00d51a7ae563dd6910f0fb3ac95f748b93a0f54e614",
+          "ots_proof": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
@@ -5981,11 +6150,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-asda__20261103T200629276357Z__s2393.json",
           "manifest_sha256": "c56405d298e9fc5f27d3d708e243bbae19acc0c7afe99c96466d51244517dc21",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda__20261103T200629276357Z__s2393.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974436,
+          "bitcoin_block_time_utc": "2026-11-03T20:27:35Z",
+          "bitcoin_block_hash": "000000000000000000001a32d1225f92c3ea3fe5607408d5c178ba24a7079c6f",
+          "bitcoin_block_merkle_root": "c57a09a8c776c96cc0a7d919dac8b8305e28674794b7b15138506ac6eb72f5b6"
         },
         {
           "batch_id": "gb-system1-xmas-2026-asda__anchored3__20261103T200807811283Z__s2394",
@@ -5995,11 +6164,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-asda__anchored3__20261103T200807811283Z__s2394.json",
           "manifest_sha256": "d82c1fd0b61256edd941d46261ad5821fc1cc949eb34880c580faefcd7521a41",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda__anchored3__20261103T200807811283Z__s2394.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974436,
+          "bitcoin_block_time_utc": "2026-11-03T20:27:35Z",
+          "bitcoin_block_hash": "000000000000000000001a32d1225f92c3ea3fe5607408d5c178ba24a7079c6f",
+          "bitcoin_block_merkle_root": "c57a09a8c776c96cc0a7d919dac8b8305e28674794b7b15138506ac6eb72f5b6"
         }
       ]
     },
@@ -6038,11 +6207,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-asda-2__20261103T200921592796Z__s2395.json",
           "manifest_sha256": "967208d308676cd2b8f1c05d31e46034cbfdd40d8ef02180efb67215ea7658ed",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-2__20261103T200921592796Z__s2395.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974436,
+          "bitcoin_block_time_utc": "2026-11-03T20:27:35Z",
+          "bitcoin_block_hash": "000000000000000000001a32d1225f92c3ea3fe5607408d5c178ba24a7079c6f",
+          "bitcoin_block_merkle_root": "c57a09a8c776c96cc0a7d919dac8b8305e28674794b7b15138506ac6eb72f5b6"
         },
         {
           "batch_id": "gb-system1-xmas-2026-asda-2__anchored3__20261103T201212585418Z__s2396",
@@ -6052,11 +6221,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-asda-2__anchored3__20261103T201212585418Z__s2396.json",
           "manifest_sha256": "e228599001e4a2839de59dba9c9817dcec53e7beb828d4f162ce55ba9082dea5",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-2__anchored3__20261103T201212585418Z__s2396.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974436,
+          "bitcoin_block_time_utc": "2026-11-03T20:27:35Z",
+          "bitcoin_block_hash": "000000000000000000001a32d1225f92c3ea3fe5607408d5c178ba24a7079c6f",
+          "bitcoin_block_merkle_root": "c57a09a8c776c96cc0a7d919dac8b8305e28674794b7b15138506ac6eb72f5b6"
         }
       ]
     },
@@ -6095,11 +6264,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-burberry__20261103T201300522145Z__s2397.json",
           "manifest_sha256": "13d6a1c7823df4cf316a58231326fecd2108aeab7002435966a183fe421c12f6",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-burberry__20261103T201300522145Z__s2397.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974436,
+          "bitcoin_block_time_utc": "2026-11-03T20:27:35Z",
+          "bitcoin_block_hash": "000000000000000000001a32d1225f92c3ea3fe5607408d5c178ba24a7079c6f",
+          "bitcoin_block_merkle_root": "c57a09a8c776c96cc0a7d919dac8b8305e28674794b7b15138506ac6eb72f5b6"
         },
         {
           "batch_id": "gb-system1-xmas-2026-burberry__anchored3__20261103T201406041339Z__s2398",
@@ -6109,11 +6278,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-burberry__anchored3__20261103T201406041339Z__s2398.json",
           "manifest_sha256": "e574438a15e8ae9e334b4fe3f8be75feb126b8caa041820ee4a4da4905c56809",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-burberry__anchored3__20261103T201406041339Z__s2398.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974436,
+          "bitcoin_block_time_utc": "2026-11-03T20:27:35Z",
+          "bitcoin_block_hash": "000000000000000000001a32d1225f92c3ea3fe5607408d5c178ba24a7079c6f",
+          "bitcoin_block_merkle_root": "c57a09a8c776c96cc0a7d919dac8b8305e28674794b7b15138506ac6eb72f5b6"
         }
       ]
     },
@@ -6152,11 +6321,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391.json",
           "manifest_sha256": "ed7710f158ce7c8c131824b420d125acfac05ab2a929daf7888ce7683bc9e14c",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974435,
+          "bitcoin_block_time_utc": "2026-11-03T20:17:43Z",
+          "bitcoin_block_hash": "0000000000000000000154ea6a0400a68392c38acda821d629dcfaca2236241f",
+          "bitcoin_block_merkle_root": "bbe7b4785b1855638ba4a9bb001e722851ae71ae8295cad5f845ff5fa58e21c2"
         },
         {
           "batch_id": "gb-system1-xmas-2026-lidl__anchored3__20261103T200509658710Z__s2392",
@@ -6166,11 +6335,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-lidl__anchored3__20261103T200509658710Z__s2392.json",
           "manifest_sha256": "13dcec2cec4660c7774ac0a938c3250b9d8fbc913a877aa38f462e8adbac1edb",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-lidl__anchored3__20261103T200509658710Z__s2392.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974435,
+          "bitcoin_block_time_utc": "2026-11-03T20:17:43Z",
+          "bitcoin_block_hash": "0000000000000000000154ea6a0400a68392c38acda821d629dcfaca2236241f",
+          "bitcoin_block_merkle_root": "bbe7b4785b1855638ba4a9bb001e722851ae71ae8295cad5f845ff5fa58e21c2"
         }
       ]
     },
@@ -6344,11 +6513,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-gap__20261103T201453602770Z__s2399.json",
           "manifest_sha256": "245822a4de8a6cabc0569b0378b5558cf1d8879ca76df229b505995962945ec4",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-gap__20261103T201453602770Z__s2399.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974436,
+          "bitcoin_block_time_utc": "2026-11-03T20:27:35Z",
+          "bitcoin_block_hash": "000000000000000000001a32d1225f92c3ea3fe5607408d5c178ba24a7079c6f",
+          "bitcoin_block_merkle_root": "c57a09a8c776c96cc0a7d919dac8b8305e28674794b7b15138506ac6eb72f5b6"
         }
       ]
     },
