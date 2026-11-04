@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-starbucks",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-starbucks__anchored3__star_rating__overall__r1",
+      "entry_sha256": "d7c13d71842f18912b531594d00da128be473f3b40864b5338da9a0572197c2c",
+      "seq": 2430,
+      "batch_id": "us-system1-xmas-2026-starbucks__anchored3__20261104T200319250857Z__s2430",
+      "locked_at": "2026-11-04T20:03:19Z"
+    }
+  ]
+}

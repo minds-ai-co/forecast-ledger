@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-asda-3",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-asda-3__anchored3__star_rating__overall__r1",
+      "entry_sha256": "78b38de13d7d02f4ac142b5065956d84adcf81895129c5c51bccbff606c155b8",
+      "seq": 2428,
+      "batch_id": "gb-system1-xmas-2026-asda-3__anchored3__20261104T200059238904Z__s2428",
+      "locked_at": "2026-11-04T20:00:59Z"
+    }
+  ]
+}

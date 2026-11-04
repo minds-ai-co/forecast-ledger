@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-starbucks",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-starbucks__star_rating__overall__r1",
+      "entry_sha256": "5be46e2e9c47b2af7e53f831a9d0429bf2a7b69e303f29620b9441fc248a5fcf",
+      "seq": 2429,
+      "batch_id": "us-system1-xmas-2026-starbucks__20261104T200228134231Z__s2429",
+      "locked_at": "2026-11-04T20:02:28Z"
+    }
+  ]
+}

@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-04T12:14:50Z",
+  "as_of": "2026-11-04T20:03:19Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "09413138126afdf3bf34f65e4f2a1d127be7cb2c8fdce1bc9a2a32fb30f10dc9",
+  "chain_head_sha256": "d54ef2db7cfa95fd82242e4ae9255470d793d8b4b3cae339f0451f5cf42558c1",
   "counts": {
-    "targets": 74,
+    "targets": 76,
     "targets_scored": 19,
-    "targets_pending": 55,
+    "targets_pending": 57,
     "targets_not_scoreable": 0,
-    "entries": 2427,
-    "batches": 280,
+    "entries": 2431,
+    "batches": 284,
     "entries_scored": 419,
-    "entries_pending": 1993,
+    "entries_pending": 1997,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -55,7 +55,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 581,
+    "forecasts_locked": 583,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
@@ -98,7 +98,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 583,
+        "forecasts_locked": 585,
         "scored": {
           "surveys": 19,
           "questions": 86,
@@ -171,7 +171,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1911,
+    "attitude": 1915,
     "stated_intent": 448,
     "behaviour": 68
   },
@@ -6607,6 +6607,120 @@
           "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
           "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
           "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-asda-3",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Home Delivery (spot name not stated)\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Asda, released 2026-11-04 09:16Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-06T09:16:22Z",
+      "first_lock_utc": "2026-11-04T19:58:07Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-asda-3/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-asda-3/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-asda-3__20261104T195807719390Z__s2427",
+          "locked_at": "2026-11-04T19:58:07Z",
+          "entries": 1,
+          "merkle_root": "1aa4689cfab4ea8ab93d4e362775263220f8a81523fdf3225404b840e1adabcc",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-asda-3__20261104T195807719390Z__s2427.json",
+          "manifest_sha256": "25a0a25bf59b229f6af6e6c249d784cf8f2fa745f26117f3cb176c4992a53f3b",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-3__20261104T195807719390Z__s2427.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-asda-3__anchored3__20261104T200059238904Z__s2428",
+          "locked_at": "2026-11-04T20:00:59Z",
+          "entries": 1,
+          "merkle_root": "54987bef2f9ef290aa5ac13df0dc891b748e4510fb4261f43e67a9465ac81b2b",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-asda-3__anchored3__20261104T200059238904Z__s2428.json",
+          "manifest_sha256": "345f12e256322b6dcdd5a20c5f045bf30e7fad358a1deef3d36bafbcdaa67d46",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-3__anchored3__20261104T200059238904Z__s2428.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-starbucks",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Starbucks \"Perfect Harmony | The Starbucks Coffee Company\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Starbucks, released 2026-11-04 18:49Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-06T18:49:25Z",
+      "first_lock_utc": "2026-11-04T20:02:28Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-system1-xmas-2026-starbucks/pure.json",
+        "anchored3": "forecasts/us-system1-xmas-2026-starbucks/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-starbucks__20261104T200228134231Z__s2429",
+          "locked_at": "2026-11-04T20:02:28Z",
+          "entries": 1,
+          "merkle_root": "638d26d02c0cc3cf0b014abfd709ea8d52a4107e1cdb7d1ad3553dcc6feb6030",
+          "manifest": "proofs/batches/us-system1-xmas-2026-starbucks__20261104T200228134231Z__s2429.json",
+          "manifest_sha256": "36f8a869fac42f97c300ec492bfdece774807bb5a19979b86818bbc82dc7a9bc",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-starbucks__20261104T200228134231Z__s2429.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-starbucks__anchored3__20261104T200319250857Z__s2430",
+          "locked_at": "2026-11-04T20:03:19Z",
+          "entries": 1,
+          "merkle_root": "4a20e9125e301208a695cde7d5887900f04ef5b769b0c95437f4bee1c9eb17cb",
+          "manifest": "proofs/batches/us-system1-xmas-2026-starbucks__anchored3__20261104T200319250857Z__s2430.json",
+          "manifest_sha256": "0d81a1897bb242022123d490277b736f3acff62568fe26b905fbf156d659e363",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-starbucks__anchored3__20261104T200319250857Z__s2430.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     },
