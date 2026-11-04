@@ -4367,11 +4367,11 @@
           "manifest": "proofs/batches/de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190.json",
           "manifest_sha256": "4b451678cf14eb67aa22806c936c6b3280b0fab21ef4701b82652d611a8853bd",
           "ots_proof": "proofs/batches/de-kba-car-registrations-brand-2026-10__20261102T115148526994Z__s2190.json.ots",
-          "ots_status": "bitcoin-attested-unchecked",
+          "ots_status": "bitcoin-verified",
           "bitcoin_block_height": 974253,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "bitcoin_block_time_utc": "2026-11-02T12:10:01Z",
+          "bitcoin_block_hash": "00000000000000000001dac1ccd1102621ae27cb517adaf9206853e5b02a3d76",
+          "bitcoin_block_merkle_root": "1edbef853bedd5312d0921814f7e92837f9e47e6baa572d0a94119a8f466d3a0"
         },
         {
           "batch_id": "de-kba-car-registrations-brand-2026-10__anchored3__20261102T115306098089Z__s2191",
@@ -5850,11 +5850,11 @@
           "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__20261104T061917327367Z__s2400.json",
           "manifest_sha256": "aea82b1549b463e293ae7b02ae613084c35045d7a99f3833baf2ebb1da8b049f",
           "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__20261104T061917327367Z__s2400.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974494,
+          "bitcoin_block_time_utc": "2026-11-04T06:34:48Z",
+          "bitcoin_block_hash": "0000000000000000000162a724ff1f9b696881da41c0e8d30bca168c8d716ccc",
+          "bitcoin_block_merkle_root": "1153fc50776a50dc2737cb4c277b4768060b2e2a6a53b86d274bfa1d332a5647"
         },
         {
           "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404",
@@ -5864,11 +5864,11 @@
           "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404.json",
           "manifest_sha256": "f636e9f39724e45451a1e8c4909724ee2bf150f0803d535a2eac5c7199eeda19",
           "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__anchored3__20261104T062022215692Z__s2404.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974494,
+          "bitcoin_block_time_utc": "2026-11-04T06:34:48Z",
+          "bitcoin_block_hash": "0000000000000000000162a724ff1f9b696881da41c0e8d30bca168c8d716ccc",
+          "bitcoin_block_merkle_root": "1153fc50776a50dc2737cb4c277b4768060b2e2a6a53b86d274bfa1d332a5647"
         },
         {
           "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__memory3__20261104T062326032273Z__s2408",
@@ -5878,11 +5878,11 @@
           "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__memory3__20261104T062326032273Z__s2408.json",
           "manifest_sha256": "4a8ac8f74333aafac9b525d42f9648ae91041a4517afcfe5fb512ebdb24ae8d0",
           "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__memory3__20261104T062326032273Z__s2408.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974494,
+          "bitcoin_block_time_utc": "2026-11-04T06:34:48Z",
+          "bitcoin_block_hash": "0000000000000000000162a724ff1f9b696881da41c0e8d30bca168c8d716ccc",
+          "bitcoin_block_merkle_root": "1153fc50776a50dc2737cb4c277b4768060b2e2a6a53b86d274bfa1d332a5647"
         },
         {
           "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bank3__20261104T062646631048Z__s2412",
@@ -5892,11 +5892,11 @@
           "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bank3__20261104T062646631048Z__s2412.json",
           "manifest_sha256": "4d63f8e4718a04c43fdf2f9cca68de2b908d2c99ffcf6b85e5b8d34f8d570968",
           "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bank3__20261104T062646631048Z__s2412.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974495,
+          "bitcoin_block_time_utc": "2026-11-04T06:35:56Z",
+          "bitcoin_block_hash": "000000000000000000015c7458022183c89058fd147205d0101a8ef6e7716710",
+          "bitcoin_block_merkle_root": "66fadf2f2a9ebdbd6a1dc1a969806d238a4977e005d96dd5e0c5b5ef45e92f88"
         },
         {
           "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416",
@@ -5906,11 +5906,11 @@
           "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416.json",
           "manifest_sha256": "1b7b8258aed4ca64fed46a274dc56041817a6c847147de73809551b1e29b22ad",
           "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__bankR3__20261104T062919723789Z__s2416.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974495,
+          "bitcoin_block_time_utc": "2026-11-04T06:35:56Z",
+          "bitcoin_block_hash": "000000000000000000015c7458022183c89058fd147205d0101a8ef6e7716710",
+          "bitcoin_block_merkle_root": "66fadf2f2a9ebdbd6a1dc1a969806d238a4977e005d96dd5e0c5b5ef45e92f88"
         },
         {
           "batch_id": "jp-nhk-seiji-ishiki-2026-11-05__cohort__20261104T063148532947Z__s2420",
@@ -5920,11 +5920,11 @@
           "manifest": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__cohort__20261104T063148532947Z__s2420.json",
           "manifest_sha256": "4c6b20f7b137c296ada7d6a88e7d48fd561a37e9a53d034629e6d77127cc4b28",
           "ots_proof": "proofs/batches/jp-nhk-seiji-ishiki-2026-11-05__cohort__20261104T063148532947Z__s2420.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974495,
+          "bitcoin_block_time_utc": "2026-11-04T06:35:56Z",
+          "bitcoin_block_hash": "000000000000000000015c7458022183c89058fd147205d0101a8ef6e7716710",
+          "bitcoin_block_merkle_root": "66fadf2f2a9ebdbd6a1dc1a969806d238a4977e005d96dd5e0c5b5ef45e92f88"
         }
       ]
     },
@@ -6022,11 +6022,11 @@
           "manifest": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__20261104T063232610630Z__s2424.json",
           "manifest_sha256": "b5f0f1a1ad6504c2b19f411e6d32de484e470fe6b56af725d654e1877bcfb99a",
           "ots_proof": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__20261104T063232610630Z__s2424.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974495,
+          "bitcoin_block_time_utc": "2026-11-04T06:35:56Z",
+          "bitcoin_block_hash": "000000000000000000015c7458022183c89058fd147205d0101a8ef6e7716710",
+          "bitcoin_block_merkle_root": "66fadf2f2a9ebdbd6a1dc1a969806d238a4977e005d96dd5e0c5b5ef45e92f88"
         },
         {
           "batch_id": "gb-smmt-car-registrations-marque-2026-10__anchored3__20261104T063322175211Z__s2425",
@@ -6036,11 +6036,11 @@
           "manifest": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__anchored3__20261104T063322175211Z__s2425.json",
           "manifest_sha256": "e5c3052c026fdf118916fa0286073bc83ad2585c6ebad5e17edeb0dd03ffb161",
           "ots_proof": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__anchored3__20261104T063322175211Z__s2425.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974495,
+          "bitcoin_block_time_utc": "2026-11-04T06:35:56Z",
+          "bitcoin_block_hash": "000000000000000000015c7458022183c89058fd147205d0101a8ef6e7716710",
+          "bitcoin_block_merkle_root": "66fadf2f2a9ebdbd6a1dc1a969806d238a4977e005d96dd5e0c5b5ef45e92f88"
         },
         {
           "batch_id": "gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426",
@@ -6050,11 +6050,11 @@
           "manifest": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426.json",
           "manifest_sha256": "e22f136cce25026e23c8d00d51a7ae563dd6910f0fb3ac95f748b93a0f54e614",
           "ots_proof": "proofs/batches/gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974495,
+          "bitcoin_block_time_utc": "2026-11-04T06:35:56Z",
+          "bitcoin_block_hash": "000000000000000000015c7458022183c89058fd147205d0101a8ef6e7716710",
+          "bitcoin_block_merkle_root": "66fadf2f2a9ebdbd6a1dc1a969806d238a4977e005d96dd5e0c5b5ef45e92f88"
         }
       ]
     },
