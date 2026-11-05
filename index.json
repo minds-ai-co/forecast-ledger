@@ -1,16 +1,16 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-04T20:03:19Z",
+  "as_of": "2026-11-05T07:58:16Z",
   "model": "Minds Mosaic",
-  "chain_head_sha256": "d54ef2db7cfa95fd82242e4ae9255470d793d8b4b3cae339f0451f5cf42558c1",
+  "chain_head_sha256": "2d8d0dc35775e4fe7282d207bc1e848ebd3da66278a2e1ed583aa1ab3ec16ca2",
   "counts": {
-    "targets": 76,
-    "targets_scored": 19,
+    "targets": 77,
+    "targets_scored": 20,
     "targets_pending": 57,
     "targets_not_scoreable": 0,
-    "entries": 2431,
-    "batches": 284,
-    "entries_scored": 419,
+    "entries": 2433,
+    "batches": 286,
+    "entries_scored": 421,
     "entries_pending": 1997,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
@@ -55,15 +55,15 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 583,
+    "forecasts_locked": 584,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
-      "surveys": 19,
-      "questions": 86,
-      "tvd": 0.057416,
-      "mae_pp": 1.621896,
-      "pearson_r": 0.973456
+      "surveys": 20,
+      "questions": 87,
+      "tvd": 0.066814,
+      "mae_pp": 1.826753,
+      "pearson_r": 0.940484
     },
     "locked_before_fieldwork": {
       "surveys": 6,
@@ -74,11 +74,11 @@
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 12,
-        "questions": 62,
-        "tvd": 0.036414,
-        "mae_pp": 1.492919,
-        "pearson_r": 0.992197
+        "surveys": 13,
+        "questions": 63,
+        "tvd": 0.049725,
+        "mae_pp": 1.777863,
+        "pearson_r": 0.946793
       },
       "stated_intent": {
         "surveys": 12,
@@ -98,13 +98,13 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 585,
+        "forecasts_locked": 586,
         "scored": {
-          "surveys": 19,
-          "questions": 86,
-          "tvd": 0.110733,
-          "mae_pp": 3.615404,
-          "pearson_r": 0.929799
+          "surveys": 20,
+          "questions": 87,
+          "tvd": 0.119891,
+          "mae_pp": 3.805648,
+          "pearson_r": 0.897268
         }
       },
       "cellsS": {
@@ -171,7 +171,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1915,
+    "attitude": 1917,
     "stated_intent": 448,
     "behaviour": 68
   },
@@ -179,10 +179,15 @@
     "attitude": {
       "pure": {
         "overall": {
-          "n": 57,
-          "n_distribution": 57,
-          "tvd": 0.09379,
-          "mae_pp": 3.822613
+          "n": 58,
+          "n_distribution": 58,
+          "tvd": 0.107819,
+          "mae_pp": 4.104407,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.961,
+            "pct_error": 17.160714
+          }
         },
         "subgroups": {
           "n": 55,
@@ -191,18 +196,28 @@
           "mae_pp": 6.571789
         },
         "all": {
-          "n": 112,
-          "n_distribution": 112,
-          "tvd": 0.100602,
-          "mae_pp": 5.172655
+          "n": 113,
+          "n_distribution": 113,
+          "tvd": 0.107743,
+          "mae_pp": 5.305345,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.961,
+            "pct_error": 17.160714
+          }
         }
       },
       "anchored3": {
         "overall": {
-          "n": 57,
-          "n_distribution": 57,
-          "tvd": 0.036494,
-          "mae_pp": 1.416274
+          "n": 58,
+          "n_distribution": 58,
+          "tvd": 0.050951,
+          "mae_pp": 1.727105,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.72775,
+            "pct_error": 12.995536
+          }
         },
         "subgroups": {
           "n": 55,
@@ -211,10 +226,15 @@
           "mae_pp": 2.381145
         },
         "all": {
-          "n": 112,
-          "n_distribution": 112,
-          "tvd": 0.038931,
-          "mae_pp": 1.890095
+          "n": 113,
+          "n_distribution": 113,
+          "tvd": 0.04633,
+          "mae_pp": 2.045443,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.72775,
+            "pct_error": 12.995536
+          }
         }
       },
       "blend": {
@@ -4627,11 +4647,11 @@
           "manifest": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json",
           "manifest_sha256": "145a2050ce0d32a0a729b30505286d1bfdd67e6786c0f2622902c9a1c31aba1c",
           "ots_proof": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json.ots",
-          "ots_status": "bitcoin-verified",
+          "ots_status": "bitcoin-attested-unchecked",
           "bitcoin_block_height": 974190,
-          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
-          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
-          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         },
         {
           "batch_id": "gb-findoutnow-vi-2026-11-04__bank3__20261102T121439740911Z__s2208",
@@ -4778,11 +4798,11 @@
           "manifest": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json",
           "manifest_sha256": "ee19933c55f59aaa5bc9386181c8a47df3ee33c962753b085302c3c4ac26f5b9",
           "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json.ots",
-          "ots_status": "bitcoin-verified",
+          "ots_status": "bitcoin-attested-unchecked",
           "bitcoin_block_height": 974267,
-          "bitcoin_block_time_utc": "2026-11-02T14:37:36Z",
-          "bitcoin_block_hash": "0000000000000000000041b469802e54db1c1c23d87af95fac75005093710a00",
-          "bitcoin_block_merkle_root": "ffe64c505521a8e86a7aad0d011fbc3bee94b9f90b70dcc014e7aeb2c96f5724"
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         },
         {
           "batch_id": "gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350",
@@ -6063,17 +6083,17 @@
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: John Lewis \"Gloria and Pickles\"",
       "publisher": "System1 Group (Test Your Ad)",
       "wave": "Christmas 2026 (John Lewis, released 2026-11-03 07:28Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-05T07:28:17Z",
       "first_lock_utc": "2026-11-03T08:01:56Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-04T00:10:22Z",
+      "publication_url": "https://www.advanced-television.com/2026/11/04/john-lewis-2026-xmas-ad-scores-high-with-system1/",
       "forecasts_count": 2,
       "variants": [
         "pure",
@@ -6083,7 +6103,7 @@
         "pure": "forecasts/gb-system1-xmas-2026-john-lewis/pure.json",
         "anchored3": "forecasts/gb-system1-xmas-2026-john-lewis/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-system1-xmas-2026-john-lewis.json",
       "batches": [
         {
           "batch_id": "gb-system1-xmas-2026-john-lewis__20261103T080156156696Z__s2378",
@@ -6645,11 +6665,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-asda-3__20261104T195807719390Z__s2427.json",
           "manifest_sha256": "25a0a25bf59b229f6af6e6c249d784cf8f2fa745f26117f3cb176c4992a53f3b",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-3__20261104T195807719390Z__s2427.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974579,
+          "bitcoin_block_time_utc": "2026-11-04T20:35:46Z",
+          "bitcoin_block_hash": "0000000000000000000158811ab1c0cd6cc90dc8e3eb54b34dbf35fb6602d100",
+          "bitcoin_block_merkle_root": "fb93a05e4166721ae18310d60c86a7d66c6824242a17890c53d97116ceb07f1d"
         },
         {
           "batch_id": "gb-system1-xmas-2026-asda-3__anchored3__20261104T200059238904Z__s2428",
@@ -6659,11 +6679,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-asda-3__anchored3__20261104T200059238904Z__s2428.json",
           "manifest_sha256": "345f12e256322b6dcdd5a20c5f045bf30e7fad358a1deef3d36bafbcdaa67d46",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-asda-3__anchored3__20261104T200059238904Z__s2428.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974579,
+          "bitcoin_block_time_utc": "2026-11-04T20:35:46Z",
+          "bitcoin_block_hash": "0000000000000000000158811ab1c0cd6cc90dc8e3eb54b34dbf35fb6602d100",
+          "bitcoin_block_merkle_root": "fb93a05e4166721ae18310d60c86a7d66c6824242a17890c53d97116ceb07f1d"
         }
       ]
     },
@@ -6702,11 +6722,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-starbucks__20261104T200228134231Z__s2429.json",
           "manifest_sha256": "36f8a869fac42f97c300ec492bfdece774807bb5a19979b86818bbc82dc7a9bc",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-starbucks__20261104T200228134231Z__s2429.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974579,
+          "bitcoin_block_time_utc": "2026-11-04T20:35:46Z",
+          "bitcoin_block_hash": "0000000000000000000158811ab1c0cd6cc90dc8e3eb54b34dbf35fb6602d100",
+          "bitcoin_block_merkle_root": "fb93a05e4166721ae18310d60c86a7d66c6824242a17890c53d97116ceb07f1d"
         },
         {
           "batch_id": "us-system1-xmas-2026-starbucks__anchored3__20261104T200319250857Z__s2430",
@@ -6716,6 +6736,63 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-starbucks__anchored3__20261104T200319250857Z__s2430.json",
           "manifest_sha256": "0d81a1897bb242022123d490277b736f3acff62568fe26b905fbf156d659e363",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-starbucks__anchored3__20261104T200319250857Z__s2430.json.ots",
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974579,
+          "bitcoin_block_time_utc": "2026-11-04T20:35:46Z",
+          "bitcoin_block_hash": "0000000000000000000158811ab1c0cd6cc90dc8e3eb54b34dbf35fb6602d100",
+          "bitcoin_block_merkle_root": "fb93a05e4166721ae18310d60c86a7d66c6824242a17890c53d97116ceb07f1d"
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-aldi",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Aldi \"Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "wave": "Christmas 2026 (Aldi, released 2026-11-05 00:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-07T00:00:00Z",
+      "first_lock_utc": "2026-11-05T07:56:23Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/gb-system1-xmas-2026-aldi/pure.json",
+        "anchored3": "forecasts/gb-system1-xmas-2026-aldi/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-aldi__20261105T075623730689Z__s2431",
+          "locked_at": "2026-11-05T07:56:23Z",
+          "entries": 1,
+          "merkle_root": "d4e6de3581adc1ce8a7d84f7334c8d855511cbf547bfa1507824da464da65bbb",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-aldi__20261105T075623730689Z__s2431.json",
+          "manifest_sha256": "ea56ac30db688bd3b7ee4212074d28de844f61e9d518bf0a399e8a8e6960d546",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-aldi__20261105T075623730689Z__s2431.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-aldi__anchored3__20261105T075816457725Z__s2432",
+          "locked_at": "2026-11-05T07:58:16Z",
+          "entries": 1,
+          "merkle_root": "812d8b7030b76f128533404461080e22453713b009617ab6da09349d93193133",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-aldi__anchored3__20261105T075816457725Z__s2432.json",
+          "manifest_sha256": "9d837e54bfced1173c4ca6d63ff08d8365f557053871d34d68a5ceea3422da60",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-aldi__anchored3__20261105T075816457725Z__s2432.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,

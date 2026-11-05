@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-aldi",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-aldi__star_rating__overall__r1",
+      "entry_sha256": "4e6eb517b2fa9c96353a1fdcfb1a2018fef1c54c3ebdc2777ad64a3d46f53658",
+      "seq": 2431,
+      "batch_id": "gb-system1-xmas-2026-aldi__20261105T075623730689Z__s2431",
+      "locked_at": "2026-11-05T07:56:23Z"
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "target_id": "gb-system1-xmas-2026-john-lewis",
+  "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: John Lewis \"Gloria and Pickles\"",
+  "status": "scored",
+  "released_at": "2026-11-04T00:10:22Z",
+  "source_url": "https://www.advanced-television.com/2026/11/04/john-lewis-2026-xmas-ad-scores-high-with-system1/",
+  "scored_at": "2026-11-05T07:53:08Z",
+  "results_sha256": "58556b32f18a513045bf89ab283567e520a088afef5e20566feb0850560eaefa",
+  "released_values_public": false,
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.9075,
+      "mae_pp": 20.166667
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.875,
+      "mae_pp": 19.444444
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.9075,
+          "mae_pp": 20.166667,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.961,
+            "pct_error": 17.160714
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.9075,
+          "mae_pp": 20.166667,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.961,
+            "pct_error": 17.160714
+          }
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.875,
+          "mae_pp": 19.444444,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.72775,
+            "pct_error": 12.995536
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.875,
+          "mae_pp": 19.444444,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.72775,
+            "pct_error": 12.995536
+          }
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-system1-xmas-2026-john-lewis__star_rating__overall__r1",
+      "entry_sha256": "b097f9e1392bb3c01555d9437efcaf61e49a60a82c5dfe76c1ff18481c7935ec",
+      "variant": "pure",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 4.639,
+        "abs_error": 0.961,
+        "pct_error": 17.160714
+      },
+      "tvd": 0.9075,
+      "mae_pp": 20.166667
+    },
+    {
+      "entry_id": "gb-system1-xmas-2026-john-lewis__anchored3__star_rating__overall__r1",
+      "entry_sha256": "5606427abc1d09d5e692bfaafe291e93c9db90088f3a171cdbc1c139b78ba833",
+      "variant": "anchored3",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 4.87225,
+        "abs_error": 0.72775,
+        "pct_error": 12.995536
+      },
+      "tvd": 0.875,
+      "mae_pp": 19.444444
+    }
+  ]
+}
