@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-lego",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-lego__anchored3__star_rating__overall__r1",
+      "entry_sha256": "2cd64a6c773bf9e7a619927b847c663c92823ad6137cfbc8be01ab380107a3db",
+      "seq": 2446,
+      "batch_id": "us-system1-xmas-2026-lego__anchored3__20261105T201543012941Z__s2446",
+      "locked_at": "2026-11-05T20:15:43Z"
+    }
+  ]
+}

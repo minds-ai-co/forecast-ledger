@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-boots",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-boots__star_rating__overall__r1",
+      "entry_sha256": "66032e433a9a21eb31df94ad92d2c623f7951b136cc1c34c0a064ac83880f355",
+      "seq": 2433,
+      "batch_id": "gb-system1-xmas-2026-boots__20261105T195704088866Z__s2433",
+      "locked_at": "2026-11-05T19:57:04Z"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-tk-maxx",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-tk-maxx__star_rating__overall__r1",
+      "entry_sha256": "0a7302fd98a254e3b9a148d80c8fb326ca55ddb3c125b236ff13058a644b4efb",
+      "seq": 2435,
+      "batch_id": "gb-system1-xmas-2026-tk-maxx__20261105T195936650932Z__s2435",
+      "locked_at": "2026-11-05T19:59:36Z"
+    }
+  ]
+}

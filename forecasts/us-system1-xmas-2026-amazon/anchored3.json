@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-amazon",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-amazon__anchored3__star_rating__overall__r1",
+      "entry_sha256": "24b76c08c784922621b31ea98771c9ed70f88bfccf39d43d614fdec909b9e2ad",
+      "seq": 2442,
+      "batch_id": "us-system1-xmas-2026-amazon__anchored3__20261105T201120885360Z__s2442",
+      "locked_at": "2026-11-05T20:11:20Z"
+    }
+  ]
+}

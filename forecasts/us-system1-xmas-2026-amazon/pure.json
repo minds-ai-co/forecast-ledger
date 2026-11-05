@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-amazon",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-amazon__star_rating__overall__r1",
+      "entry_sha256": "c5877eb4625504e28b72bd8afd451572c38686fdee7701e11cadf334d0543c38",
+      "seq": 2441,
+      "batch_id": "us-system1-xmas-2026-amazon__20261105T200902600057Z__s2441",
+      "locked_at": "2026-11-05T20:09:02Z"
+    }
+  ]
+}

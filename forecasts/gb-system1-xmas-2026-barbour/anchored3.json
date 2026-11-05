@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-barbour",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-barbour__anchored3__star_rating__overall__r1",
+      "entry_sha256": "1fc0477d25abfbaf669abe27820cb2c60daaaba129fff25bbca29db9cc740b19",
+      "seq": 2438,
+      "batch_id": "gb-system1-xmas-2026-barbour__anchored3__20261105T200455180026Z__s2438",
+      "locked_at": "2026-11-05T20:04:55Z"
+    }
+  ]
+}

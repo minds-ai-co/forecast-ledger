@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-lego",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-lego__star_rating__overall__r1",
+      "entry_sha256": "12d2908e050127551107a02fbd2f4e923446470313b5f9c510f8c2aa4009b182",
+      "seq": 2443,
+      "batch_id": "gb-system1-xmas-2026-lego__20261105T201206927666Z__s2443",
+      "locked_at": "2026-11-05T20:12:06Z"
+    }
+  ]
+}

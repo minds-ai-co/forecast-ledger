@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-barbour",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-barbour__star_rating__overall__r1",
+      "entry_sha256": "b10323fcb3c06daff4f9de8e9ccad5ec9848671626b0e446385cef8588fd8ce1",
+      "seq": 2437,
+      "batch_id": "gb-system1-xmas-2026-barbour__20261105T200303619707Z__s2437",
+      "locked_at": "2026-11-05T20:03:03Z"
+    }
+  ]
+}
