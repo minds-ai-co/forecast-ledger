@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-05T07:58:16Z",
+  "as_of": "2026-11-05T10:24:52Z",
   "model": "Minds Mosaic",
   "chain_head_sha256": "2d8d0dc35775e4fe7282d207bc1e848ebd3da66278a2e1ed583aa1ab3ec16ca2",
   "counts": {
     "targets": 77,
-    "targets_scored": 20,
-    "targets_pending": 57,
+    "targets_scored": 21,
+    "targets_pending": 56,
     "targets_not_scoreable": 0,
     "entries": 2433,
     "batches": 286,
-    "entries_scored": 421,
-    "entries_pending": 1997,
+    "entries_scored": 424,
+    "entries_pending": 1994,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -59,11 +59,11 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
-      "surveys": 20,
-      "questions": 87,
-      "tvd": 0.066814,
-      "mae_pp": 1.826753,
-      "pearson_r": 0.940484
+      "surveys": 21,
+      "questions": 88,
+      "tvd": 0.066614,
+      "mae_pp": 1.812578,
+      "pearson_r": 0.941504
     },
     "locked_before_fieldwork": {
       "surveys": 6,
@@ -88,11 +88,11 @@
         "pearson_r": 0.995605
       },
       "behaviour": {
-        "surveys": 4,
-        "questions": 7,
-        "tvd": 0.322907,
-        "mae_pp": 4.663354,
-        "pearson_r": 0.538824
+        "surveys": 5,
+        "questions": 8,
+        "tvd": 0.288699,
+        "mae_pp": 4.152853,
+        "pearson_r": 0.59641
       }
     },
     "additional_research": {
@@ -100,11 +100,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 586,
         "scored": {
-          "surveys": 20,
-          "questions": 87,
-          "tvd": 0.119891,
-          "mae_pp": 3.805648,
-          "pearson_r": 0.897268
+          "surveys": 21,
+          "questions": 88,
+          "tvd": 0.119854,
+          "mae_pp": 3.777992,
+          "pearson_r": 0.898876
         }
       },
       "cellsS": {
@@ -121,11 +121,11 @@
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 474,
         "scored": {
-          "surveys": 17,
-          "questions": 71,
-          "tvd": 0.118626,
-          "mae_pp": 3.565202,
-          "pearson_r": 0.92729
+          "surveys": 18,
+          "questions": 72,
+          "tvd": 0.118376,
+          "mae_pp": 3.532124,
+          "pearson_r": 0.928534
         }
       },
       "blend": {
@@ -343,47 +343,47 @@
     "behaviour": {
       "pure": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.397635,
-          "mae_pp": 5.713489
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.362506,
+          "mae_pp": 5.170787
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.397635,
-          "mae_pp": 5.713489
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.362506,
+          "mae_pp": 5.170787
         }
       },
       "anchored3": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.322907,
-          "mae_pp": 4.663354
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.288699,
+          "mae_pp": 4.152853
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.322907,
-          "mae_pp": 4.663354
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.288699,
+          "mae_pp": 4.152853
         }
       },
       "memory3": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.362535,
-          "mae_pp": 5.179267
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.329794,
+          "mae_pp": 4.679813
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.362535,
-          "mae_pp": 5.179267
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.329794,
+          "mae_pp": 4.679813
         }
       }
     }
@@ -4647,11 +4647,11 @@
           "manifest": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json",
           "manifest_sha256": "145a2050ce0d32a0a729b30505286d1bfdd67e6786c0f2622902c9a1c31aba1c",
           "ots_proof": "proofs/batches/gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183.json.ots",
-          "ots_status": "bitcoin-attested-unchecked",
+          "ots_status": "bitcoin-verified",
           "bitcoin_block_height": 974190,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
+          "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
+          "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
         },
         {
           "batch_id": "gb-findoutnow-vi-2026-11-04__bank3__20261102T121439740911Z__s2208",
@@ -4798,11 +4798,11 @@
           "manifest": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json",
           "manifest_sha256": "ee19933c55f59aaa5bc9386181c8a47df3ee33c962753b085302c3c4ac26f5b9",
           "ots_proof": "proofs/batches/gb-ons-opn-2026-11-04__bankR3__20261102T131602888772Z__s2285.json.ots",
-          "ots_status": "bitcoin-attested-unchecked",
+          "ots_status": "bitcoin-verified",
           "bitcoin_block_height": 974267,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "bitcoin_block_time_utc": "2026-11-02T14:37:36Z",
+          "bitcoin_block_hash": "0000000000000000000041b469802e54db1c1c23d87af95fac75005093710a00",
+          "bitcoin_block_merkle_root": "ffe64c505521a8e86a7aad0d011fbc3bee94b9f90b70dcc014e7aeb2c96f5724"
         },
         {
           "batch_id": "gb-ons-opn-2026-11-04__cohort__20261102T132020611145Z__s2350",
@@ -6010,16 +6010,16 @@
       "survey": "SMMT new car registrations by marque, United Kingdom",
       "publisher": "SMMT (Society of Motor Manufacturers and Traders)",
       "wave": "October 2026 (release Thu 5 Nov 2026, 09:00 UK time)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-04T23:00:00Z",
       "first_lock_utc": "2026-11-04T06:32:32Z",
-      "released_at": null,
+      "released_at": "2026-11-05T09:00:00Z",
       "publication_url": "https://www.smmt.co.uk/vehicle-data/car-registrations/",
       "forecasts_count": 3,
       "variants": [
@@ -6032,7 +6032,7 @@
         "anchored3": "forecasts/gb-smmt-car-registrations-marque-2026-10/anchored3.json",
         "memory3": "forecasts/gb-smmt-car-registrations-marque-2026-10/memory3.json"
       },
-      "results": null,
+      "results": "results/gb-smmt-car-registrations-marque-2026-10.json",
       "batches": [
         {
           "batch_id": "gb-smmt-car-registrations-marque-2026-10__20261104T063232610630Z__s2424",
@@ -6779,11 +6779,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-aldi__20261105T075623730689Z__s2431.json",
           "manifest_sha256": "ea56ac30db688bd3b7ee4212074d28de844f61e9d518bf0a399e8a8e6960d546",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-aldi__20261105T075623730689Z__s2431.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974643,
+          "bitcoin_block_time_utc": "2026-11-05T08:12:49Z",
+          "bitcoin_block_hash": "0000000000000000000172c8295241d08616b8fa4e52e829601d27cad40fabd4",
+          "bitcoin_block_merkle_root": "a95b2a77d3bef045c24ada287631ce15cc9257ff877c6b267376f0182377ccbc"
         },
         {
           "batch_id": "gb-system1-xmas-2026-aldi__anchored3__20261105T075816457725Z__s2432",
@@ -6793,11 +6793,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-aldi__anchored3__20261105T075816457725Z__s2432.json",
           "manifest_sha256": "9d837e54bfced1173c4ca6d63ff08d8365f557053871d34d68a5ceea3422da60",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-aldi__anchored3__20261105T075816457725Z__s2432.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974643,
+          "bitcoin_block_time_utc": "2026-11-05T08:12:49Z",
+          "bitcoin_block_hash": "0000000000000000000172c8295241d08616b8fa4e52e829601d27cad40fabd4",
+          "bitcoin_block_merkle_root": "a95b2a77d3bef045c24ada287631ce15cc9257ff877c6b267376f0182377ccbc"
         }
       ]
     },

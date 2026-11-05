@@ -3,15 +3,69 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-smmt-car-registrations-marque-2026-10__memory3__brand_share__overall__r1",
       "entry_sha256": "8940d9ca65f5ad993747547f38d7ecca26dba46fa9a80d1807ec487d411843b0",
       "seq": 2426,
       "batch_id": "gb-smmt-car-registrations-marque-2026-10__memory3__20261104T063427311669Z__s2426",
-      "locked_at": "2026-11-04T06:34:27Z"
+      "locked_at": "2026-11-04T06:34:27Z",
+      "state": "scored",
+      "question": {
+        "id": "brand_share",
+        "text": "Which marque is the new car you registered in the United Kingdom in October 2026? (SMMT registrations by marque; marques not listed count as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Volkswagen",
+          "BYD",
+          "Kia",
+          "MG",
+          "Audi",
+          "Tesla",
+          "BMW",
+          "Mercedes-Benz",
+          "Jaecoo",
+          "Toyota",
+          "Skoda",
+          "Volvo",
+          "Vauxhall",
+          "Ford",
+          "Nissan",
+          "Hyundai",
+          "Another marque"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.088,
+        0.0325,
+        0.0565,
+        0.042499999999999996,
+        0.062,
+        0.019,
+        0.0645,
+        0.0485,
+        0.0175,
+        0.05,
+        0.042,
+        0.0335,
+        0.0385,
+        0.051000000000000004,
+        0.045,
+        0.0435,
+        0.2655
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }
