@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-walmart-2",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-walmart-2__anchored3__star_rating__overall__r1",
+      "entry_sha256": "81162984c84b13cd1e9c48a29a86cabf558d78f8394ba87324033625e33fcd1e",
+      "seq": 2452,
+      "batch_id": "us-system1-xmas-2026-walmart-2__anchored3__20261106T075840792351Z__s2452",
+      "locked_at": "2026-11-06T07:58:40Z"
+    }
+  ]
+}

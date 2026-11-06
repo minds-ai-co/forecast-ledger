@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-walmart-2",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-walmart-2__star_rating__overall__r1",
+      "entry_sha256": "d445bec25d7736e2c2037974f8701c03dce502700054e9deeae9414642e3398b",
+      "seq": 2451,
+      "batch_id": "us-system1-xmas-2026-walmart-2__20261106T075747084601Z__s2451",
+      "locked_at": "2026-11-06T07:57:47Z"
+    }
+  ]
+}
