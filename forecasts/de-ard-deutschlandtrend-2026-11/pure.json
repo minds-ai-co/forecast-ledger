@@ -3,29 +3,115 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__sonntagsfrage__overall__r1",
       "entry_sha256": "3776fa7765bc51dac95f9faf35ce124c8c2b5d2d4d9e93f98bfcaa4c97630b90",
       "seq": 119,
       "batch_id": "de-ard-deutschlandtrend-2026-11__20261024T020754281900Z__s119",
-      "locked_at": "2026-10-24T02:07:54Z"
+      "locked_at": "2026-10-24T02:07:54Z",
+      "state": "scored",
+      "question": {
+        "id": "sonntagsfrage",
+        "text": "Welche Partei würden Sie wählen, wenn am kommenden Sonntag Bundestagswahl wäre? (Which party would you vote for if there were a federal election next Sunday? Shares among respondents naming a party.)",
+        "type": "categorical",
+        "options": [
+          "CDU/CSU",
+          "AfD",
+          "SPD",
+          "Grüne",
+          "Die Linke",
+          "FDP",
+          "Sonstige (incl. BSW)"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2625,
+        0.2475,
+        0.145,
+        0.125,
+        0.1,
+        0.035,
+        0.08499999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__government_satisfaction__overall__r1",
       "entry_sha256": "20e23ec0287474993ba3d0aab934fca3640541e794e71be1d197bff2a5b16b3b",
       "seq": 120,
       "batch_id": "de-ard-deutschlandtrend-2026-11__20261024T020754281900Z__s119",
-      "locked_at": "2026-10-24T02:07:54Z"
+      "locked_at": "2026-10-24T02:07:54Z",
+      "state": "scored",
+      "question": {
+        "id": "government_satisfaction",
+        "text": "Wie zufrieden sind Sie mit der Arbeit der Bundesregierung? Sind Sie damit sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden? (How satisfied are you with the work of the federal government? Very satisfied, satisfied, less satisfied, or not at all satisfied?)",
+        "type": "ordinal",
+        "options": [
+          "Sehr zufrieden / zufrieden",
+          "Weniger / gar nicht zufrieden",
+          "Weiß nicht / keine Angabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.21,
+        0.77,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__merz_satisfaction__overall__r1",
       "entry_sha256": "2a0b6495358f5a1b1ef22ba615130a435d48d36ec0e518dc423d73eda53edd64",
       "seq": 121,
       "batch_id": "de-ard-deutschlandtrend-2026-11__20261024T020754281900Z__s119",
-      "locked_at": "2026-10-24T02:07:54Z"
+      "locked_at": "2026-10-24T02:07:54Z",
+      "state": "scored",
+      "question": {
+        "id": "merz_satisfaction",
+        "text": "Sind Sie mit der politischen Arbeit von Bundeskanzler Friedrich Merz sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden? (Are you very satisfied, satisfied, less satisfied or not at all satisfied with the political work of Chancellor Friedrich Merz?)",
+        "type": "ordinal",
+        "options": [
+          "Sehr zufrieden / zufrieden",
+          "Weniger / gar nicht zufrieden",
+          "Weiß nicht / keine Angabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.24,
+        0.725,
+        0.035
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     }
   ]
 }

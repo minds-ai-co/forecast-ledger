@@ -3,29 +3,115 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__sonntagsfrage__overall__r1",
       "entry_sha256": "4cc8d41049763f66f22f47dea9ae09a48f32ba85f0ea417f709476ef93ef06cd",
       "seq": 1777,
       "batch_id": "de-ard-deutschlandtrend-2026-11__memory3__20261030T163133912823Z__s1777",
-      "locked_at": "2026-10-30T16:31:33Z"
+      "locked_at": "2026-10-30T16:31:33Z",
+      "state": "scored",
+      "question": {
+        "id": "sonntagsfrage",
+        "text": "Welche Partei würden Sie wählen, wenn am kommenden Sonntag Bundestagswahl wäre? (Which party would you vote for if there were a federal election next Sunday? Shares among respondents naming a party.)",
+        "type": "categorical",
+        "options": [
+          "CDU/CSU",
+          "AfD",
+          "SPD",
+          "Grüne",
+          "Die Linke",
+          "FDP",
+          "Sonstige (incl. BSW)"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2625,
+        0.25,
+        0.14250000000000002,
+        0.12,
+        0.0975,
+        0.035,
+        0.0925
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__government_satisfaction__overall__r1",
       "entry_sha256": "ffc0c0d135ec83dc0b4091644521bdb02a6ccdf4a7d96a8cd90609b78ca50ee4",
       "seq": 1778,
       "batch_id": "de-ard-deutschlandtrend-2026-11__memory3__20261030T163133912823Z__s1777",
-      "locked_at": "2026-10-30T16:31:33Z"
+      "locked_at": "2026-10-30T16:31:33Z",
+      "state": "scored",
+      "question": {
+        "id": "government_satisfaction",
+        "text": "Wie zufrieden sind Sie mit der Arbeit der Bundesregierung? Sind Sie damit sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden? (How satisfied are you with the work of the federal government? Very satisfied, satisfied, less satisfied, or not at all satisfied?)",
+        "type": "ordinal",
+        "options": [
+          "Sehr zufrieden / zufrieden",
+          "Weniger / gar nicht zufrieden",
+          "Weiß nicht / keine Angabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.21,
+        0.7625,
+        0.0275
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__merz_satisfaction__overall__r1",
       "entry_sha256": "f8686b12989ec9625dd8ed3c048fb0bc9ea02a63acd3b0835cc053523e0c372e",
       "seq": 1779,
       "batch_id": "de-ard-deutschlandtrend-2026-11__memory3__20261030T163133912823Z__s1777",
-      "locked_at": "2026-10-30T16:31:33Z"
+      "locked_at": "2026-10-30T16:31:33Z",
+      "state": "scored",
+      "question": {
+        "id": "merz_satisfaction",
+        "text": "Sind Sie mit der politischen Arbeit von Bundeskanzler Friedrich Merz sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden? (Are you very satisfied, satisfied, less satisfied or not at all satisfied with the political work of Chancellor Friedrich Merz?)",
+        "type": "ordinal",
+        "options": [
+          "Sehr zufrieden / zufrieden",
+          "Weniger / gar nicht zufrieden",
+          "Weiß nicht / keine Angabe"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.24,
+        0.7224999999999999,
+        0.037500000000000006
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

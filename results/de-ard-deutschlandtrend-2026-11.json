@@ -1,0 +1,305 @@
+{
+  "target_id": "de-ard-deutschlandtrend-2026-11",
+  "survey": "ARD-DeutschlandTrend (infratest dimap for ARD tagesthemen)",
+  "status": "scored",
+  "released_at": "2026-11-05T17:01:03Z",
+  "source_url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/2026/november/",
+  "scored_at": "2026-11-06T08:19:02Z",
+  "results_sha256": "c193e8623a08ae39b38cc3564f7ca256c8726b834601fc41f419724acfd3f8ab",
+  "released_values_public": false,
+  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "summary": {
+    "pure": {
+      "items": 3,
+      "tvd": 0.1025,
+      "mae_pp": 5.785714
+    },
+    "anchored3": {
+      "items": 3,
+      "tvd": 0.013667,
+      "mae_pp": 0.733333
+    },
+    "memory3": {
+      "items": 3,
+      "tvd": 0.105,
+      "mae_pp": 5.984127
+    },
+    "blend": {
+      "items": 3,
+      "tvd": 0.05075,
+      "mae_pp": 2.770635
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.1125,
+          "mae_pp": 7.5
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.1125,
+          "mae_pp": 7.5
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0135,
+          "mae_pp": 0.9
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0135,
+          "mae_pp": 0.9
+        }
+      },
+      "blend": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.052,
+          "mae_pp": 3.466666
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.052,
+          "mae_pp": 3.466666
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.1175,
+          "mae_pp": 7.833334
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.1175,
+          "mae_pp": 7.833334
+        }
+      }
+    },
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0825,
+          "mae_pp": 2.357143
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0825,
+          "mae_pp": 2.357143
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.014,
+          "mae_pp": 0.4
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.014,
+          "mae_pp": 0.4
+        }
+      },
+      "blend": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.04825,
+          "mae_pp": 1.378571
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.04825,
+          "mae_pp": 1.378571
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.08,
+          "mae_pp": 2.285714
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.08,
+          "mae_pp": 2.285714
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__sonntagsfrage__overall__r1",
+      "entry_sha256": "3776fa7765bc51dac95f9faf35ce124c8c2b5d2d4d9e93f98bfcaa4c97630b90",
+      "variant": "pure",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0825,
+      "mae_pp": 2.357143
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__government_satisfaction__overall__r1",
+      "entry_sha256": "20e23ec0287474993ba3d0aab934fca3640541e794e71be1d197bff2a5b16b3b",
+      "variant": "pure",
+      "question_id": "government_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.1,
+      "mae_pp": 6.666667
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__merz_satisfaction__overall__r1",
+      "entry_sha256": "2a0b6495358f5a1b1ef22ba615130a435d48d36ec0e518dc423d73eda53edd64",
+      "variant": "pure",
+      "question_id": "merz_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.125,
+      "mae_pp": 8.333333
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "b02899f12ad738fc0ea2d85a88199dc079355023c444f4ff308b78f4ee3e9372",
+      "variant": "anchored3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.014,
+      "mae_pp": 0.4
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__government_satisfaction__overall__r1",
+      "entry_sha256": "5a768cc8850981b324d16277a5756146d3d1ca30b99b075b20b9fc53d642365d",
+      "variant": "anchored3",
+      "question_id": "government_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0085,
+      "mae_pp": 0.566667
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__merz_satisfaction__overall__r1",
+      "entry_sha256": "7494757212c23001c75e75e2f782ad4a631a2c2b6567d3280fa42dfb0d82f7b6",
+      "variant": "anchored3",
+      "question_id": "merz_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0185,
+      "mae_pp": 1.233333
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__blend__sonntagsfrage__overall__r1",
+      "entry_sha256": "a0188d9d4c9c4e55cbfdbf28cfaaf40e3997926c70363777cf2716295673fb38",
+      "variant": "blend",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.04825,
+      "mae_pp": 1.378571
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__blend__government_satisfaction__overall__r1",
+      "entry_sha256": "246dea9139cd28108eb2e8e1827a711277edd4e4bc2d9883bfa21abed1fed6f6",
+      "variant": "blend",
+      "question_id": "government_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0495,
+      "mae_pp": 3.3
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__blend__merz_satisfaction__overall__r1",
+      "entry_sha256": "c9d3c2e5acb2c69b9a57d360ad1b40cd5ed296aaa13b1953dbbca3310fd57525",
+      "variant": "blend",
+      "question_id": "merz_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0545,
+      "mae_pp": 3.633333
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "4cc8d41049763f66f22f47dea9ae09a48f32ba85f0ea417f709476ef93ef06cd",
+      "variant": "memory3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.08,
+      "mae_pp": 2.285714
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__government_satisfaction__overall__r1",
+      "entry_sha256": "ffc0c0d135ec83dc0b4091644521bdb02a6ccdf4a7d96a8cd90609b78ca50ee4",
+      "variant": "memory3",
+      "question_id": "government_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.1075,
+      "mae_pp": 7.166667
+    },
+    {
+      "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__merz_satisfaction__overall__r1",
+      "entry_sha256": "f8686b12989ec9625dd8ed3c048fb0bc9ea02a63acd3b0835cc053523e0c372e",
+      "variant": "memory3",
+      "question_id": "merz_satisfaction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.1275,
+      "mae_pp": 8.5
+    }
+  ]
+}

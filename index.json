@@ -1,17 +1,17 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-06T07:58:40Z",
+  "as_of": "2026-11-06T08:19:02Z",
   "model": "Minds Mosaic",
   "chain_head_sha256": "28995f6d7ad9d174d008d1b43ba7195d0f369036ab84f784cb0304fcc39de449",
   "counts": {
     "targets": 87,
-    "targets_scored": 21,
-    "targets_pending": 66,
+    "targets_scored": 22,
+    "targets_pending": 65,
     "targets_not_scoreable": 0,
     "entries": 2453,
     "batches": 306,
-    "entries_scored": 424,
-    "entries_pending": 2014,
+    "entries_scored": 436,
+    "entries_pending": 2002,
     "entries_not_scoreable": 15,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -59,33 +59,33 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
-      "surveys": 21,
-      "questions": 88,
-      "tvd": 0.066614,
-      "mae_pp": 1.812578,
-      "pearson_r": 0.941504
+      "surveys": 22,
+      "questions": 91,
+      "tvd": 0.064869,
+      "mae_pp": 1.776999,
+      "pearson_r": 0.945405
     },
     "locked_before_fieldwork": {
-      "surveys": 6,
-      "questions": 21,
-      "tvd": 0.023011,
-      "mae_pp": 1.045652,
-      "pearson_r": 0.997761
+      "surveys": 7,
+      "questions": 24,
+      "tvd": 0.021843,
+      "mae_pp": 1.006612,
+      "pearson_r": 0.998241
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 13,
-        "questions": 63,
-        "tvd": 0.049725,
-        "mae_pp": 1.777863,
-        "pearson_r": 0.946793
+        "surveys": 14,
+        "questions": 65,
+        "tvd": 0.04861,
+        "mae_pp": 1.750852,
+        "pearson_r": 0.95114
       },
       "stated_intent": {
-        "surveys": 12,
-        "questions": 17,
-        "tvd": 0.024694,
-        "mae_pp": 0.83992,
-        "pearson_r": 0.995605
+        "surveys": 13,
+        "questions": 18,
+        "tvd": 0.0241,
+        "mae_pp": 0.81548,
+        "pearson_r": 0.995628
       },
       "behaviour": {
         "surveys": 5,
@@ -100,11 +100,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 596,
         "scored": {
-          "surveys": 21,
-          "questions": 88,
-          "tvd": 0.119854,
-          "mae_pp": 3.777992,
-          "pearson_r": 0.898876
+          "surveys": 22,
+          "questions": 91,
+          "tvd": 0.119282,
+          "mae_pp": 3.844181,
+          "pearson_r": 0.903611
         }
       },
       "cellsS": {
@@ -121,22 +121,22 @@
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 474,
         "scored": {
-          "surveys": 18,
-          "questions": 72,
-          "tvd": 0.118376,
-          "mae_pp": 3.532124,
-          "pearson_r": 0.928534
+          "surveys": 19,
+          "questions": 75,
+          "tvd": 0.117841,
+          "mae_pp": 3.630205,
+          "pearson_r": 0.93175
         }
       },
       "blend": {
         "label": "Additional research forecast (blend)",
         "forecasts_locked": 51,
         "scored": {
-          "surveys": 4,
-          "questions": 38,
-          "tvd": 0.052354,
-          "mae_pp": 1.866738,
-          "pearson_r": 0.985646
+          "surveys": 5,
+          "questions": 41,
+          "tvd": 0.052236,
+          "mae_pp": 1.932877,
+          "pearson_r": 0.987094
         }
       },
       "bank3": {
@@ -179,10 +179,10 @@
     "attitude": {
       "pure": {
         "overall": {
-          "n": 58,
-          "n_distribution": 58,
-          "tvd": 0.107819,
-          "mae_pp": 4.104407,
+          "n": 60,
+          "n_distribution": 60,
+          "tvd": 0.107975,
+          "mae_pp": 4.217594,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -196,10 +196,10 @@
           "mae_pp": 6.571789
         },
         "all": {
-          "n": 113,
-          "n_distribution": 113,
-          "tvd": 0.107743,
-          "mae_pp": 5.305345,
+          "n": 115,
+          "n_distribution": 115,
+          "tvd": 0.107825,
+          "mae_pp": 5.343513,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -209,10 +209,10 @@
       },
       "anchored3": {
         "overall": {
-          "n": 58,
-          "n_distribution": 58,
-          "tvd": 0.050951,
-          "mae_pp": 1.727105,
+          "n": 60,
+          "n_distribution": 60,
+          "tvd": 0.049702,
+          "mae_pp": 1.699534,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -226,10 +226,10 @@
           "mae_pp": 2.381145
         },
         "all": {
-          "n": 113,
-          "n_distribution": 113,
-          "tvd": 0.04633,
-          "mae_pp": 2.045443,
+          "n": 115,
+          "n_distribution": 115,
+          "tvd": 0.045759,
+          "mae_pp": 2.025522,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -239,42 +239,42 @@
       },
       "blend": {
         "overall": {
-          "n": 32,
-          "n_distribution": 32,
-          "tvd": 0.051013,
-          "mae_pp": 1.806309
+          "n": 34,
+          "n_distribution": 34,
+          "tvd": 0.051071,
+          "mae_pp": 1.903977
         },
         "subgroups": null,
         "all": {
-          "n": 32,
-          "n_distribution": 32,
-          "tvd": 0.051013,
-          "mae_pp": 1.806309
+          "n": 34,
+          "n_distribution": 34,
+          "tvd": 0.051071,
+          "mae_pp": 1.903977
         }
       },
       "memory3": {
         "overall": {
-          "n": 45,
-          "n_distribution": 45,
-          "tvd": 0.103565,
-          "mae_pp": 3.731987
+          "n": 47,
+          "n_distribution": 47,
+          "tvd": 0.104158,
+          "mae_pp": 3.906512
         },
         "subgroups": null,
         "all": {
-          "n": 45,
-          "n_distribution": 45,
-          "tvd": 0.103565,
-          "mae_pp": 3.731987
+          "n": 47,
+          "n_distribution": 47,
+          "tvd": 0.104158,
+          "mae_pp": 3.906512
         }
       }
     },
     "stated_intent": {
       "pure": {
         "overall": {
-          "n": 17,
-          "n_distribution": 17,
-          "tvd": 0.075768,
-          "mae_pp": 2.706355
+          "n": 18,
+          "n_distribution": 18,
+          "tvd": 0.076142,
+          "mae_pp": 2.686955
         },
         "subgroups": {
           "n": 14,
@@ -283,18 +283,18 @@
           "mae_pp": 2.673883
         },
         "all": {
-          "n": 31,
-          "n_distribution": 31,
-          "tvd": 0.081982,
-          "mae_pp": 2.69169
+          "n": 32,
+          "n_distribution": 32,
+          "tvd": 0.081998,
+          "mae_pp": 2.681236
         }
       },
       "anchored3": {
         "overall": {
-          "n": 17,
-          "n_distribution": 17,
-          "tvd": 0.024694,
-          "mae_pp": 0.83992
+          "n": 18,
+          "n_distribution": 18,
+          "tvd": 0.0241,
+          "mae_pp": 0.81548
         },
         "subgroups": {
           "n": 14,
@@ -303,40 +303,40 @@
           "mae_pp": 1.975001
         },
         "all": {
-          "n": 31,
-          "n_distribution": 31,
-          "tvd": 0.043437,
-          "mae_pp": 1.352538
+          "n": 32,
+          "n_distribution": 32,
+          "tvd": 0.042517,
+          "mae_pp": 1.322771
         }
       },
       "blend": {
         "overall": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.059505,
-          "mae_pp": 2.189023
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.057897,
+          "mae_pp": 2.073244
         },
         "subgroups": null,
         "all": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.059505,
-          "mae_pp": 2.189023
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.057897,
+          "mae_pp": 2.073244
         }
       },
       "memory3": {
         "overall": {
-          "n": 14,
-          "n_distribution": 14,
-          "tvd": 0.077914,
-          "mae_pp": 2.859647
+          "n": 15,
+          "n_distribution": 15,
+          "tvd": 0.078053,
+          "mae_pp": 2.821384
         },
         "subgroups": null,
         "all": {
-          "n": 14,
-          "n_distribution": 14,
-          "tvd": 0.077914,
-          "mae_pp": 2.859647
+          "n": 15,
+          "n_distribution": 15,
+          "tvd": 0.078053,
+          "mae_pp": 2.821384
         }
       }
     },
@@ -3247,9 +3247,9 @@
       "survey": "ARD-DeutschlandTrend (infratest dimap for ARD tagesthemen)",
       "publisher": "infratest dimap for ARD",
       "wave": "November 2026 (expected fieldwork Mon 2 to Wed 4 Nov, release expected Thu 5 Nov)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -3257,8 +3257,8 @@
       ],
       "cutoff_utc": "2026-11-01T12:00:00Z",
       "first_lock_utc": "2026-10-24T02:07:54Z",
-      "released_at": null,
-      "publication_url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/",
+      "released_at": "2026-11-05T17:01:03Z",
+      "publication_url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/2026/november/",
       "forecasts_count": 12,
       "variants": [
         "pure",
@@ -3272,7 +3272,7 @@
         "memory3": "forecasts/de-ard-deutschlandtrend-2026-11/memory3.json",
         "blend": "forecasts/de-ard-deutschlandtrend-2026-11/blend.json"
       },
-      "results": null,
+      "results": "results/de-ard-deutschlandtrend-2026-11.json",
       "batches": [
         {
           "batch_id": "de-ard-deutschlandtrend-2026-11__20261024T020754281900Z__s119",
