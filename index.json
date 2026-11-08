@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-08T14:02:23Z",
+  "as_of": "2026-11-08T15:48:40Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-06T08:19:02Z",
+  "latest_event_at": "2026-11-08T14:25:08Z",
   "chain_head_sha256": "28995f6d7ad9d174d008d1b43ba7195d0f369036ab84f784cb0304fcc39de449",
   "counts": {
     "targets": 87,
-    "targets_scored": 22,
-    "targets_pending": 65,
+    "targets_scored": 23,
+    "targets_pending": 64,
     "targets_not_scoreable": 0,
     "entries": 2453,
     "batches": 306,
-    "entries_scored": 436,
-    "entries_pending": 2002,
-    "entries_not_scoreable": 15,
+    "entries_scored": 556,
+    "entries_pending": 1732,
+    "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
   },
@@ -60,26 +60,26 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 1,
     "all": {
-      "surveys": 22,
-      "questions": 91,
-      "tvd": 0.064869,
-      "mae_pp": 1.776999,
-      "pearson_r": 0.945405
+      "surveys": 23,
+      "questions": 95,
+      "tvd": 0.064703,
+      "mae_pp": 1.830314,
+      "pearson_r": 0.947141
     },
     "locked_before_fieldwork": {
-      "surveys": 7,
-      "questions": 24,
-      "tvd": 0.021843,
-      "mae_pp": 1.006612,
-      "pearson_r": 0.998241
+      "surveys": 8,
+      "questions": 28,
+      "tvd": 0.027429,
+      "mae_pp": 1.29756,
+      "pearson_r": 0.996425
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 14,
-        "questions": 65,
-        "tvd": 0.04861,
-        "mae_pp": 1.750852,
-        "pearson_r": 0.95114
+        "surveys": 15,
+        "questions": 69,
+        "tvd": 0.049325,
+        "mae_pp": 1.825774,
+        "pearson_r": 0.952892
       },
       "stated_intent": {
         "surveys": 13,
@@ -101,32 +101,44 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 596,
         "scored": {
-          "surveys": 22,
-          "questions": 91,
-          "tvd": 0.119282,
-          "mae_pp": 3.844181,
-          "pearson_r": 0.903611
+          "surveys": 23,
+          "questions": 95,
+          "tvd": 0.118531,
+          "mae_pp": 3.898264,
+          "pearson_r": 0.905796
         }
       },
       "cellsS": {
         "label": "Additional research forecast (cellsS)",
         "forecasts_locked": 237,
-        "scored": null
+        "scored": {
+          "surveys": 1,
+          "questions": 4,
+          "tvd": 0.117269,
+          "mae_pp": 5.763596,
+          "pearson_r": 0.932756
+        }
       },
       "cellsH": {
         "label": "Additional research forecast (cellsH)",
         "forecasts_locked": 237,
-        "scored": null
+        "scored": {
+          "surveys": 1,
+          "questions": 4,
+          "tvd": 0.109313,
+          "mae_pp": 5.444341,
+          "pearson_r": 0.943428
+        }
       },
       "memory3": {
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 474,
         "scored": {
-          "surveys": 19,
-          "questions": 75,
-          "tvd": 0.117841,
-          "mae_pp": 3.630205,
-          "pearson_r": 0.93175
+          "surveys": 20,
+          "questions": 79,
+          "tvd": 0.117198,
+          "mae_pp": 3.712092,
+          "pearson_r": 0.932729
         }
       },
       "blend": {
@@ -180,10 +192,10 @@
     "attitude": {
       "pure": {
         "overall": {
-          "n": 60,
-          "n_distribution": 60,
-          "tvd": 0.107975,
-          "mae_pp": 4.217594,
+          "n": 64,
+          "n_distribution": 64,
+          "tvd": 0.107567,
+          "mae_pp": 4.274535,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -191,16 +203,16 @@
           }
         },
         "subgroups": {
-          "n": 55,
-          "n_distribution": 55,
-          "tvd": 0.107662,
-          "mae_pp": 6.571789
+          "n": 75,
+          "n_distribution": 75,
+          "tvd": 0.111382,
+          "mae_pp": 6.447271
         },
         "all": {
-          "n": 115,
-          "n_distribution": 115,
-          "tvd": 0.107825,
-          "mae_pp": 5.343513,
+          "n": 139,
+          "n_distribution": 139,
+          "tvd": 0.109626,
+          "mae_pp": 5.446875,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -210,10 +222,10 @@
       },
       "anchored3": {
         "overall": {
-          "n": 60,
-          "n_distribution": 60,
-          "tvd": 0.049702,
-          "mae_pp": 1.699534,
+          "n": 64,
+          "n_distribution": 64,
+          "tvd": 0.050405,
+          "mae_pp": 1.783516,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -221,16 +233,16 @@
           }
         },
         "subgroups": {
-          "n": 55,
-          "n_distribution": 55,
-          "tvd": 0.041456,
-          "mae_pp": 2.381145
+          "n": 75,
+          "n_distribution": 75,
+          "tvd": 0.054025,
+          "mae_pp": 2.984565
         },
         "all": {
-          "n": 115,
-          "n_distribution": 115,
-          "tvd": 0.045759,
-          "mae_pp": 2.025522,
+          "n": 139,
+          "n_distribution": 139,
+          "tvd": 0.052358,
+          "mae_pp": 2.431564,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -253,19 +265,64 @@
           "mae_pp": 1.903977
         }
       },
+      "cellsH": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.109313,
+          "mae_pp": 5.444341
+        },
+        "subgroups": {
+          "n": 20,
+          "n_distribution": 20,
+          "tvd": 0.12762,
+          "mae_pp": 6.376006
+        },
+        "all": {
+          "n": 24,
+          "n_distribution": 24,
+          "tvd": 0.124568,
+          "mae_pp": 6.220728
+        }
+      },
+      "cellsS": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.117269,
+          "mae_pp": 5.763596
+        },
+        "subgroups": {
+          "n": 20,
+          "n_distribution": 20,
+          "tvd": 0.13476,
+          "mae_pp": 6.710637
+        },
+        "all": {
+          "n": 24,
+          "n_distribution": 24,
+          "tvd": 0.131845,
+          "mae_pp": 6.552797
+        }
+      },
       "memory3": {
         "overall": {
-          "n": 47,
-          "n_distribution": 47,
-          "tvd": 0.104158,
-          "mae_pp": 3.906512
+          "n": 51,
+          "n_distribution": 51,
+          "tvd": 0.104235,
+          "mae_pp": 4.011686
         },
-        "subgroups": null,
+        "subgroups": {
+          "n": 20,
+          "n_distribution": 20,
+          "tvd": 0.123737,
+          "mae_pp": 6.232324
+        },
         "all": {
-          "n": 47,
-          "n_distribution": 47,
-          "tvd": 0.104158,
-          "mae_pp": 3.906512
+          "n": 71,
+          "n_distribution": 71,
+          "tvd": 0.109729,
+          "mae_pp": 4.637218
         }
       }
     },
@@ -2845,9 +2902,9 @@
       "survey": "The Economist/YouGov Poll (weekly, US registered voters)",
       "publisher": "YouGov for The Economist",
       "wave": "Next weekly wave after October 23-26, 2026 (expected fieldwork about Oct 30 - Nov 2, 2026)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -2855,8 +2912,8 @@
       ],
       "cutoff_utc": "2026-10-30T04:00:00Z",
       "first_lock_utc": "2026-10-30T01:25:05Z",
-      "released_at": null,
-      "publication_url": "https://yougov.com/en-us/articles",
+      "released_at": "2026-11-06T10:00:00Z",
+      "publication_url": "https://yougov.com/en-us/articles/55922-understanding-big-democratic-midterms-win-2026-election-november-4-6-2026-economist-yougov-poll",
       "forecasts_count": 270,
       "variants": [
         "pure",
@@ -2872,7 +2929,7 @@
         "cellsH": "forecasts/us-economist-yougov-2026-10-30/cellsH.json",
         "memory3": "forecasts/us-economist-yougov-2026-10-30/memory3.json"
       },
-      "results": null,
+      "results": "results/us-economist-yougov-2026-10-30.json",
       "batches": [
         {
           "batch_id": "us-economist-yougov-2026-10-30__20261030T012505316687Z__s1474",
