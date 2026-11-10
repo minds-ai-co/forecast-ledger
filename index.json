@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-10T08:15:57Z",
+  "as_of": "2026-11-10T10:20:25Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-10T00:00:01Z",
-  "chain_head_sha256": "d5ad5b45182de788a82b6530415b7b307a8b5806e49293f184454fc34d360c0a",
+  "latest_event_at": "2026-11-10T09:55:00Z",
+  "chain_head_sha256": "63fefeeb91f8f6337e782576c2fad90a60c02a8e6cf24e03244ad23b83898e10",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 90,
+    "targets": 91,
     "targets_scored": 23,
-    "targets_pending": 67,
+    "targets_pending": 68,
     "targets_not_scoreable": 0,
-    "entries": 2456,
-    "batches": 309,
+    "entries": 2457,
+    "batches": 310,
     "entries_scored": 556,
-    "entries_pending": 1735,
+    "entries_pending": 1736,
     "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -100,7 +100,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 599,
+        "forecasts_locked": 600,
         "scored": {
           "surveys": 23,
           "questions": 95,
@@ -187,7 +187,7 @@
   "counts_by_evidence_type": {
     "attitude": 1937,
     "stated_intent": 448,
-    "behaviour": 71
+    "behaviour": 72
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -7683,6 +7683,47 @@
           "manifest": "proofs/batches/netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461.json",
           "manifest_sha256": "f9cae52b89d9bb28836ea9ed7d4517a9b0888270713a9b8e88000a8f459c5a79",
           "ots_proof": "proofs/batches/netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "spotify-de-weekly-2026-11-26-rolling-v3",
+      "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "wave": "2026-11-26",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-19T23:00:00Z",
+      "first_lock_utc": "2026-11-10T09:55:00Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/spotify-de-weekly-2026-11-26-rolling-v3/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-de-weekly-2026-11-26-rolling-v3__20261110T095500578800Z__s2462",
+          "locked_at": "2026-11-10T09:55:00Z",
+          "entries": 1,
+          "merkle_root": "59faae37b24d7a17cdd3ebd042105fe00fe369e43c972eee92ddb12ab4d61b20",
+          "manifest": "proofs/batches/spotify-de-weekly-2026-11-26-rolling-v3__20261110T095500578800Z__s2462.json",
+          "manifest_sha256": "a5deb9778059f058a7667d998642c220db0ac4d8c6974f4932bd1f0f037c7507",
+          "ots_proof": "proofs/batches/spotify-de-weekly-2026-11-26-rolling-v3__20261110T095500578800Z__s2462.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,
