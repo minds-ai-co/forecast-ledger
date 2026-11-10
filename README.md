@@ -97,7 +97,7 @@ Alongside Minds Mosaic we lock additional research forecasts for the same survey
 
 ## Status
 
-As of 2026-11-10 00:05 UTC: 90 surveys, 2456 forecasts in 309 timestamped batches. 23 scored, 67 pending, 0 not scoreable. 594 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
+As of 2026-11-10 08:15 UTC: 90 surveys, 2456 forecasts in 309 timestamped batches. 23 scored, 67 pending, 0 not scoreable. 594 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
 Latest forecast or scoring event: 2026-11-10T00:00:01Z. A status refresh does not add forecasts or results.
 
 ## Files
