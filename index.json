@@ -1,18 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-09T23:01:11Z",
+  "as_of": "2026-11-10T00:05:10Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-08T14:25:08Z",
-  "chain_head_sha256": "28995f6d7ad9d174d008d1b43ba7195d0f369036ab84f784cb0304fcc39de449",
+  "latest_event_at": "2026-11-10T00:00:01Z",
+  "chain_head_sha256": "d5ad5b45182de788a82b6530415b7b307a8b5806e49293f184454fc34d360c0a",
+  "proof_only_entries": 6,
   "counts": {
-    "targets": 87,
+    "targets": 90,
     "targets_scored": 23,
-    "targets_pending": 64,
+    "targets_pending": 67,
     "targets_not_scoreable": 0,
-    "entries": 2453,
-    "batches": 306,
+    "entries": 2456,
+    "batches": 309,
     "entries_scored": 556,
-    "entries_pending": 1732,
+    "entries_pending": 1735,
     "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -99,7 +100,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 596,
+        "forecasts_locked": 599,
         "scored": {
           "surveys": 23,
           "questions": 95,
@@ -186,7 +187,7 @@
   "counts_by_evidence_type": {
     "attitude": 1937,
     "stated_intent": 448,
-    "behaviour": 68
+    "behaviour": 71
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -7564,6 +7565,129 @@
           "bitcoin_block_time_utc": "2026-11-01T23:13:01Z",
           "bitcoin_block_hash": "000000000000000000001b5f5d73ab6b8ba6ba5b4413a506f24b1daff7846692",
           "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
+        }
+      ]
+    },
+    {
+      "target_id": "spotify-de-weekly-2026-11-19-measurement-v2",
+      "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "wave": "2026-11-19",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-12T23:00:00Z",
+      "first_lock_utc": "2026-11-09T23:57:27Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/spotify-de-weekly-2026-11-19-measurement-v2/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-de-weekly-2026-11-19-measurement-v2__20261109T235727481777Z__s2459",
+          "locked_at": "2026-11-09T23:57:27Z",
+          "entries": 1,
+          "merkle_root": "88bebb0fde275d220c63406d04afddf0c5d74ba459536c56f773e5f011b3aabd",
+          "manifest": "proofs/batches/spotify-de-weekly-2026-11-19-measurement-v2__20261109T235727481777Z__s2459.json",
+          "manifest_sha256": "eaa694b217b28e260b2ab3cb47b4349c96a6c578131c671c2ee3f623f470943e",
+          "ots_proof": "proofs/batches/spotify-de-weekly-2026-11-19-measurement-v2__20261109T235727481777Z__s2459.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "spotify-us-weekly-2026-11-19-measurement-v2",
+      "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "wave": "2026-11-19",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-12T23:00:00Z",
+      "first_lock_utc": "2026-11-09T23:58:55Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/spotify-us-weekly-2026-11-19-measurement-v2/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-us-weekly-2026-11-19-measurement-v2__20261109T235855991009Z__s2460",
+          "locked_at": "2026-11-09T23:58:55Z",
+          "entries": 1,
+          "merkle_root": "c95cff3cd29d98d90d8055f24ede583cbc83768cfbda72366d155c2a11d6778a",
+          "manifest": "proofs/batches/spotify-us-weekly-2026-11-19-measurement-v2__20261109T235855991009Z__s2460.json",
+          "manifest_sha256": "eb32ecc0a9e36a92c51c724f96d9b37c549e47021c8bb57fcd86d3c4779bd921",
+          "ots_proof": "proofs/batches/spotify-us-weekly-2026-11-19-measurement-v2__20261109T235855991009Z__s2460.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "netflix-global-english-films-2026-11-22-measurement-v2",
+      "survey": "Netflix global English films (volume shares; measurement v2)",
+      "publisher": "Netflix Tudum",
+      "wave": "2026-11-22",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-15T09:00:00Z",
+      "first_lock_utc": "2026-11-10T00:00:01Z",
+      "released_at": null,
+      "publication_url": "https://www.netflix.com/tudum/top10",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/netflix-global-english-films-2026-11-22-measurement-v2/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461",
+          "locked_at": "2026-11-10T00:00:01Z",
+          "entries": 1,
+          "merkle_root": "456b877faef0f3883027890f3f8f9c693862b258de82761df1cd79098b4129ca",
+          "manifest": "proofs/batches/netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461.json",
+          "manifest_sha256": "f9cae52b89d9bb28836ea9ed7d4517a9b0888270713a9b8e88000a8f459c5a79",
+          "ots_proof": "proofs/batches/netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
         }
       ]
     }
