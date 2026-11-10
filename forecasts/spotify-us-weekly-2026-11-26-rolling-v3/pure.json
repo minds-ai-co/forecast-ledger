@@ -1,0 +1,17 @@
+{
+  "target_id": "spotify-us-weekly-2026-11-26-rolling-v3",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "spotify-us-weekly-2026-11-26-rolling-v3__top10_volume_share__overall__r1",
+      "entry_sha256": "ad506ccb2b32dc82f0156c34792c6889f92303c7a872c160aa2c2e7f0f7f64e8",
+      "seq": 2463,
+      "batch_id": "spotify-us-weekly-2026-11-26-rolling-v3__20261110T103020126279Z__s2463",
+      "locked_at": "2026-11-10T10:30:20Z"
+    }
+  ]
+}
