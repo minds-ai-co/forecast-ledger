@@ -26,15 +26,26 @@
     },
     "credit": "Source: System1 Test Your Ad, John Lewis “Gloria and Pickles”, as reported by Advanced Television on 4 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share."
   },
-  "summary": {},
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.9075,
+      "mae_pp": 20.166667
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.875,
+      "mae_pp": 19.444444
+    }
+  },
   "summary_by_evidence_type": {
     "attitude": {
       "pure": {
         "overall": {
           "n": 1,
-          "n_distribution": 0,
-          "tvd": null,
-          "mae_pp": null,
+          "n_distribution": 1,
+          "tvd": 0.9075,
+          "mae_pp": 20.166667,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -44,9 +55,9 @@
         "subgroups": null,
         "all": {
           "n": 1,
-          "n_distribution": 0,
-          "tvd": null,
-          "mae_pp": null,
+          "n_distribution": 1,
+          "tvd": 0.9075,
+          "mae_pp": 20.166667,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -57,9 +68,9 @@
       "anchored3": {
         "overall": {
           "n": 1,
-          "n_distribution": 0,
-          "tvd": null,
-          "mae_pp": null,
+          "n_distribution": 1,
+          "tvd": 0.875,
+          "mae_pp": 19.444444,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -69,9 +80,9 @@
         "subgroups": null,
         "all": {
           "n": 1,
-          "n_distribution": 0,
-          "tvd": null,
-          "mae_pp": null,
+          "n_distribution": 1,
+          "tvd": 0.875,
+          "mae_pp": 19.444444,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
