@@ -3,43 +3,173 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "us-conference-board-cci-2026-10__present_business_conditions__overall__r1",
       "entry_sha256": "bbadd16d9b4f5c4576d9c83c5098e4825aff4ebd4501257226007a9bc6f244a4",
       "seq": 103,
       "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
-      "locked_at": "2026-10-24T01:55:03Z"
+      "locked_at": "2026-10-24T01:55:03Z",
+      "state": "scored",
+      "question": {
+        "id": "present_business_conditions",
+        "text": "How would you rate the present general business conditions in your area? Good, normal, or bad?",
+        "type": "ordinal",
+        "options": [
+          "Good",
+          "Normal",
+          "Bad"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.189,
+        0.6034999999999999,
+        0.2075
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "us-conference-board-cci-2026-10__present_jobs__overall__r1",
       "entry_sha256": "0891b9e3eba4e127b91b79f8c7bcac6425dbdc651109a038fd8acd89510d9dfd",
       "seq": 104,
       "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
-      "locked_at": "2026-10-24T01:55:03Z"
+      "locked_at": "2026-10-24T01:55:03Z",
+      "state": "scored",
+      "question": {
+        "id": "present_jobs",
+        "text": "What would you say about available jobs in your area right now? Plenty, not so many, or hard to get?",
+        "type": "ordinal",
+        "options": [
+          "Jobs plentiful",
+          "Jobs not so plentiful",
+          "Jobs hard to get"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2915,
+        0.511,
+        0.1975
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "us-conference-board-cci-2026-10__expected_business_conditions__overall__r1",
       "entry_sha256": "b8314c4af169d23150c6e366aa8f2cad3716aeb8d7e2f85a2df05d41091dcf77",
       "seq": 105,
       "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
-      "locked_at": "2026-10-24T01:55:03Z"
+      "locked_at": "2026-10-24T01:55:03Z",
+      "state": "scored",
+      "question": {
+        "id": "expected_business_conditions",
+        "text": "Six months from now, do you think business conditions in your area will be better, the same, or worse?",
+        "type": "ordinal",
+        "options": [
+          "Better",
+          "Same",
+          "Worse"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.174,
+        0.5985,
+        0.2275
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "us-conference-board-cci-2026-10__expected_jobs__overall__r1",
       "entry_sha256": "cede07f3477667443caa3f851c098086b7e7e49dea373d38aad13d2699efccc9",
       "seq": 106,
       "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
-      "locked_at": "2026-10-24T01:55:03Z"
+      "locked_at": "2026-10-24T01:55:03Z",
+      "state": "scored",
+      "question": {
+        "id": "expected_jobs",
+        "text": "Six months from now, do you think there will be more, the same, or fewer jobs available in your area?",
+        "type": "ordinal",
+        "options": [
+          "More jobs",
+          "Same",
+          "Fewer jobs"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.16,
+        0.5925,
+        0.2475
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "us-conference-board-cci-2026-10__expected_income__overall__r1",
       "entry_sha256": "e3a2b17a2a6a5764390b8ed319e447217541d4b0995dc0df21389f985f625694",
       "seq": 107,
       "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
-      "locked_at": "2026-10-24T01:55:03Z"
+      "locked_at": "2026-10-24T01:55:03Z",
+      "state": "scored",
+      "question": {
+        "id": "expected_income",
+        "text": "How would you guess your total family income to be six months from now? Higher, the same, or lower?",
+        "type": "ordinal",
+        "options": [
+          "Increase",
+          "Same",
+          "Decrease"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.176,
+        0.6885,
+        0.1355
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     }
   ]
 }

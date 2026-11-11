@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-11T13:45:43Z",
+  "as_of": "2026-11-11T14:03:05Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-10T10:30:20Z",
   "chain_head_sha256": "2b439cac7d928cdae6fb99adf3efe1a61f75142f2b6347215bc01b15023ac35c",
@@ -59,7 +59,7 @@
     "variant": "anchored3",
     "forecasts_locked": 594,
     "scope": "full-population questions of every scored survey",
-    "includes_hashes_only_surveys": 1,
+    "includes_hashes_only_surveys": 0,
     "all": {
       "surveys": 23,
       "questions": 95,
@@ -193,10 +193,10 @@
     "attitude": {
       "pure": {
         "overall": {
-          "n": 64,
-          "n_distribution": 64,
-          "tvd": 0.107567,
-          "mae_pp": 4.274535,
+          "n": 69,
+          "n_distribution": 69,
+          "tvd": 0.101302,
+          "mae_pp": 4.066719,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -210,10 +210,10 @@
           "mae_pp": 6.447271
         },
         "all": {
-          "n": 139,
-          "n_distribution": 139,
-          "tvd": 0.109626,
-          "mae_pp": 5.446875,
+          "n": 144,
+          "n_distribution": 144,
+          "tvd": 0.106552,
+          "mae_pp": 5.30659,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -223,10 +223,10 @@
       },
       "anchored3": {
         "overall": {
-          "n": 64,
-          "n_distribution": 64,
-          "tvd": 0.050405,
-          "mae_pp": 1.783516,
+          "n": 69,
+          "n_distribution": 69,
+          "tvd": 0.049325,
+          "mae_pp": 1.825774,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -240,10 +240,10 @@
           "mae_pp": 2.984565
         },
         "all": {
-          "n": 139,
-          "n_distribution": 139,
-          "tvd": 0.052358,
-          "mae_pp": 2.431564,
+          "n": 144,
+          "n_distribution": 144,
+          "tvd": 0.051773,
+          "mae_pp": 2.429311,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -308,10 +308,10 @@
       },
       "memory3": {
         "overall": {
-          "n": 51,
-          "n_distribution": 51,
-          "tvd": 0.104235,
-          "mae_pp": 4.011686
+          "n": 56,
+          "n_distribution": 56,
+          "tvd": 0.097312,
+          "mae_pp": 3.812428
         },
         "subgroups": {
           "n": 20,
@@ -320,10 +320,10 @@
           "mae_pp": 6.232324
         },
         "all": {
-          "n": 71,
-          "n_distribution": 71,
-          "tvd": 0.109729,
-          "mae_pp": 4.637218
+          "n": 76,
+          "n_distribution": 76,
+          "tvd": 0.104266,
+          "mae_pp": 4.449243
         }
       }
     },
@@ -460,6 +460,17 @@
           "height": 128
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "The Economist / YouGov",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "Next weekly wave after October 19-20, 2026 (expected fieldwork about Oct 24-27, 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -526,6 +537,17 @@
           "height": 128
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "YouGov",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "Weekly wave expected 25-26 October 2026 (next after 18-19 October 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -585,6 +607,16 @@
       "survey": "Elabe for Les Echos, L'Observatoire politique (monthly confidence barometer for the President and the Prime Minister)",
       "publisher": "Elabe for Les Echos",
       "source_logos": [],
+      "display": {
+        "label": "Political Approval",
+        "country": "France",
+        "country_code": "fr",
+        "topic": "Politics",
+        "source": "Elabe / Les Echos",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "First Observatoire politique wave with fieldwork starting on or after Tue 27 Oct 2026 (expected 27-28 Oct, published Thu 29 Oct; or 3-4 Nov, published Thu 5 Nov)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -659,6 +691,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), healthinfo items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Health Information",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Health",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -751,6 +793,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-a items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Trust in Institutions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Society",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -843,6 +895,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-b items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Trust in Institutions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Society",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -935,6 +997,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), wellbeing items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Wellbeing",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Health",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1034,6 +1106,16 @@
           "height": 123
         }
       ],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "Forsa / RTL",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "Weekly wave expected Tue 27 October to Mon 2 November 2026, published Tue 3 November 2026",
       "status": "scored",
       "disclosure": "full",
@@ -1115,6 +1197,16 @@
           "height": 112
         }
       ],
+      "display": {
+        "label": "Political Approval",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "ABC / Washington Post / Ipsos",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "The first national ABC News/Washington Post/Ipsos poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose topline reports Trump job approval and right/wrong direction among all adults. Expected: final pre-midterm wave, fieldwork about Oct 27-Nov 1, 2026, release about Nov 1-2, 2026.",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1196,6 +1288,17 @@
           "height": 300
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "Emerson College Polling",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "The first national Emerson College Polling survey whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose full results report Trump job approval and the 2026 congressional ballot for the national likely-voter sample. Expected: October/final pre-midterm national poll, fieldwork about Oct 26-Nov 1, 2026, release about Oct 28-Nov 2.",
       "status": "scored",
       "disclosure": "full",
@@ -1271,6 +1374,17 @@
       "survey": "NPR/PBS News/Marist Poll (national, US registered voters)",
       "publisher": "Marist Institute for Public Opinion (Marist Poll) with NPR and PBS News",
       "source_logos": [],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "NPR / PBS / Marist",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "The first national NPR/PBS News/Marist poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and that reports Trump job approval and the congressional ballot for National Registered Voters. Expected: final pre-midterm national poll, fieldwork about Oct 26-30, 2026, release about Oct 29-Nov 2.",
       "status": "scored",
       "disclosure": "full",
@@ -1346,6 +1460,16 @@
       "survey": "Quinnipiac University Poll, national (US registered voters)",
       "publisher": "Quinnipiac University Poll",
       "source_logos": [],
+      "display": {
+        "label": "Political Approval",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "Quinnipiac University",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "The first national Quinnipiac University poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and that reports Trump job approval and House control preference among registered voters. Expected: final pre-midterm national poll, fieldwork about Oct 22-Nov 1, 2026, release about Oct 28-Nov 2.",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1427,6 +1551,17 @@
           "height": 112
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "Reuters / Ipsos",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "The first national Reuters/Ipsos poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose topline reports Trump job approval (Approval5_Combined) and the generic congressional ballot (TM3287Y24). Expected: final pre-midterm wave, fieldwork about Oct 28 - Nov 2, 2026, release about Nov 1-3, 2026.",
       "status": "scored",
       "disclosure": "full",
@@ -1509,6 +1644,16 @@
           "height": 192
         }
       ],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "Find Out Now",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "Weekly wave expected Wed 28 Oct 2026 (possibly running into Thu 29 Oct)",
       "status": "scored",
       "disclosure": "full",
@@ -1590,6 +1735,17 @@
           "height": 180
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "Opinium / The Observer",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "First Opinium/Observer wave with fieldwork starting on or after Wed 28 Oct 2026 (expected 28-30 Oct, published about Sat 31 Oct)",
       "status": "scored",
       "disclosure": "full",
@@ -1672,18 +1828,28 @@
           "height": 56
         }
       ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Economy",
+        "source": "The Conference Board",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "October 2026 preliminary results (survey period Oct 1 to the preliminary cutoff, about Oct 20-21, 2026)",
       "status": "scored",
-      "disclosure": "hashes_only",
-      "disclosure_note": "The Conference Board does not allow its data to be redistributed or published. This target is listed with entry hashes and lock times only; its forecasts, wording and scores are not published.",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-10-27T04:00:00Z",
       "first_lock_utc": "2026-10-24T01:55:03Z",
-      "released_at": null,
-      "publication_url": null,
+      "released_at": "2026-10-27T14:00:00Z",
+      "publication_url": "https://www.conference-board.org/topics/consumer-confidence/",
       "forecasts_count": 15,
       "variants": [
         "pure",
@@ -1695,7 +1861,7 @@
         "anchored3": "forecasts/us-conference-board-cci-2026-10/anchored3.json",
         "memory3": "forecasts/us-conference-board-cci-2026-10/memory3.json"
       },
-      "results": null,
+      "results": "results/us-conference-board-cci-2026-10.json",
       "batches": [
         {
           "batch_id": "us-conference-board-cci-2026-10__20261024T015503966645Z__s103",
@@ -1753,6 +1919,17 @@
           "height": 180
         }
       ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "France",
+        "country_code": "fr",
+        "topic": "Economy",
+        "source": "European Commission",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "October 2026 French consumer survey wave (INSEE CAMME, fieldwork about 25 September to mid-October 2026, already closed or closing), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -1828,6 +2005,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), healthinfo items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Health Information",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Health",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1920,6 +2107,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-a items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Trust in Institutions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Society",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2012,6 +2209,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-b items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Trust in Institutions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Society",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2104,6 +2311,16 @@
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), wellbeing items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
       "source_logos": [],
+      "display": {
+        "label": "Wellbeing",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Health",
+        "source": "US Census Bureau",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2203,6 +2420,17 @@
           "height": 180
         }
       ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Economy",
+        "source": "European Commission",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "November 2026 German consumer survey wave (expected fieldwork Thu 29 Oct or Thu 5 Nov to about 10-16 Nov 2026), EC release 27 November 2026 11:00 CET",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2285,6 +2513,17 @@
           "height": 112
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "Ipsos",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "First Ipsos Political Monitor wave (KnowledgePanel, GB) with fieldwork starting on or after Thu 29 Oct 2026 (expected to start Thu 19 Nov or Thu 26 Nov 2026); void if no such wave is published by 2026-12-18",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2391,6 +2630,17 @@
           "height": 112
         }
       ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "Austria",
+        "country_code": "at",
+        "topic": "Economy",
+        "source": "European Commission",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "October 2026 Austrian consumer survey wave (fieldwork about 1 to 15 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -2489,6 +2739,17 @@
           "height": 180
         }
       ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Economy",
+        "source": "European Commission",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "October 2026 German consumer survey wave (GfK fieldwork Thu 1 to about Mon 12 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -2587,6 +2848,17 @@
           "height": 180
         }
       ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "Spain",
+        "country_code": "es",
+        "topic": "Economy",
+        "source": "European Commission",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "October 2026 Spanish consumer survey wave (fieldwork about 4 to 11 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -2685,6 +2957,16 @@
           "height": 225
         }
       ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Economy",
+        "source": "Cabinet Office / ESRI",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "October 2026 survey (令和8年10月実施分; reference date 15 Oct 2026), results released Thu 29 Oct 2026 14:00 JST; void if not released by 2026-11-20",
       "status": "scored",
       "disclosure": "full",
@@ -2775,6 +3057,17 @@
       "survey": "City AM / Freshwater Strategy monthly UK poll (Westminster voting intention, preferred PM, direction of the country, economic expectations)",
       "publisher": "Freshwater Strategy for City AM",
       "source_logos": [],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "Freshwater / City AM",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "First City AM / Freshwater Strategy UK poll with fieldwork starting on or after Fri 30 Oct 2026 (expected Fri 6-Sun 8 Nov 2026, data tables about Mon 9-Wed 11 Nov); void if no such wave is published by 2026-11-30",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2884,6 +3177,17 @@
       "survey": "More in Common GB Voting Intention & Trackers (weekly)",
       "publisher": "More in Common UK",
       "source_logos": [],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "More in Common",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "Weekly wave expected Fri 30 Oct to Mon 2 Nov 2026 (first wave with fieldwork starting on or after Thu 29 Oct 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2984,6 +3288,16 @@
           "height": 534
         }
       ],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "INSA / BILD",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "Online wave expected Fri 30 October to Mon 2 November 2026, published Mon 2 / Tue 3 November 2026",
       "status": "scored",
       "disclosure": "full",
@@ -3065,6 +3379,17 @@
           "height": 128
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "The Economist / YouGov",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "Next weekly wave after October 23-26, 2026 (expected fieldwork about Oct 30 - Nov 2, 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -3158,6 +3483,16 @@
       "survey": "Federal Reserve Bank of New York Survey of Consumer Expectations (monthly core survey), household finance and credit access questions",
       "publisher": "Federal Reserve Bank of New York, Center for Microeconomic Data",
       "source_logos": [],
+      "display": {
+        "label": "Household Finances",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Economy",
+        "source": "New York Fed",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "November 2026 survey (fieldwork November 1-30, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3232,6 +3567,16 @@
       "survey": "SRG SSR Trendumfrage (gfs.bern), 2nd wave before the Swiss federal popular votes of 29 November 2026",
       "publisher": "gfs.bern for SRG SSR (CR-Konferenz der SRG SSR)",
       "source_logos": [],
+      "display": {
+        "label": "Referendum Intentions",
+        "country": "Switzerland",
+        "country_code": "ch",
+        "topic": "Politics",
+        "source": "gfs.bern / SRG SSR",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "2. Welle der SRG-Trendumfragen zur Volksabstimmung vom 29. November 2026 (expected fieldwork about 4-12 Nov 2026, publication Wed 18 Nov 2026 06:00 CET)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3313,6 +3658,17 @@
           "height": 128
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "YouGov",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "Weekly wave expected 1-2 November 2026 (next after 25-26 October 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3406,6 +3762,16 @@
       "survey": "Gallup Poll Social Series, monthly (U.S. satisfaction, Economic Confidence Index components, most important problem)",
       "publisher": "Gallup",
       "source_logos": [],
+      "display": {
+        "label": "Political Approval",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "Gallup",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "November 2026 (expected fieldwork about Nov 2-20, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3493,6 +3859,17 @@
           "height": 170
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "ARD / infratest dimap",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "November 2026 (expected fieldwork Mon 2 to Wed 4 Nov, release expected Thu 5 Nov)",
       "status": "scored",
       "disclosure": "full",
@@ -3584,6 +3961,16 @@
       "survey": "Ifop-Endrix pour L'Opinion, Les indices de popularité (Baromètre Ifop Opinion; monthly satisfaction with the President and the Prime Minister, successor of the Ifop/JDD index)",
       "publisher": "Ifop (Ifop Opinion) with Endrix for L'Opinion",
       "source_logos": [],
+      "display": {
+        "label": "Political Approval",
+        "country": "France",
+        "country_code": "fr",
+        "topic": "Politics",
+        "source": "Ifop / Endrix",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "First \"Indices de popularité\" wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork starting about 4-12 Nov, published on a Monday about 16-23 Nov 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3713,6 +4100,16 @@
           "height": 112
         }
       ],
+      "display": {
+        "label": "Political Approval",
+        "country": "France",
+        "country_code": "fr",
+        "topic": "Politics",
+        "source": "Ipsos bva / CESI",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "First Baromètre politique wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork about 4-5 Nov or 12-13 Nov, published the following Saturday)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3835,6 +4232,16 @@
       "survey": "Gallup Poll Social Series, November: Christmas / holiday gift spending estimate",
       "publisher": "Gallup",
       "source_logos": [],
+      "display": {
+        "label": "Holiday Spending",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Shopping",
+        "source": "Gallup",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "November 2026 (expected fieldwork about Nov 2-20, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3964,6 +4371,18 @@
           "height": 112
         }
       ],
+      "display": {
+        "label": "Consumer Habits",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Shopping",
+        "source": "Ipsos",
+        "categories": [
+          "Attitude",
+          "Stated intent",
+          "Behaviour"
+        ]
+      },
       "wave": "First Ipsos Consumer Tracker wave with fieldwork starting Nov 3-8, 2026 (expected wave 151, Tue-Wed Nov 3-4, 2026, possibly shifted to about Nov 5-7 around election day)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4088,6 +4507,16 @@
       "survey": "Steam weekly top sellers, global, by gross revenue (Borda rank shares of the top 10)",
       "publisher": "Valve (Steam store charts and IStoreTopSellersService API, free, no login or key)",
       "source_logos": [],
+      "display": {
+        "label": "Game Sales",
+        "country": "Global",
+        "country_code": "global",
+        "topic": "Gaming",
+        "source": "Steam",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "Week Tuesday 3 November to Tuesday 10 November 2026 (Steam week starting 2026-11-03)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4217,6 +4646,16 @@
           "height": 123
         }
       ],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "Forsa / RTL",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "Weekly wave expected Tue 3 November to Mon 9 November 2026, published Tue 10 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4355,6 +4794,16 @@
       "survey": "Institut für Demoskopie Allensbach Sonntagsfrage for the Frankfurter Allgemeine Zeitung",
       "publisher": "Institut für Demoskopie Allensbach for the Frankfurter Allgemeine Zeitung (FAZ)",
       "source_logos": [],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "Allensbach / FAZ",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "First Allensbach / FAZ Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected about 6 to 19 November 2026, published about 20 to 26 November 2026 (or the December wave if the November wave started before 3 November)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4493,6 +4942,16 @@
       "survey": "GMS (Gesellschaft für Markt- und Sozialforschung) Sonntagsfrage",
       "publisher": "GMS Dr. Jung GmbH (Gesellschaft für Markt- und Sozialforschung), Hamburg",
       "source_logos": [],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "GMS",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "First GMS Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected mid November to mid December 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4638,6 +5097,16 @@
           "height": 81
         }
       ],
+      "display": {
+        "label": "Car Registrations",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Cars",
+        "source": "KBA",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "October 2026 (press release expected Wed 4 Nov 2026; FZ 10 table announced Fri 6 Nov 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -4712,6 +5181,16 @@
       "survey": "Verian (formerly Emnid) Sonntagsfrage for Bild am Sonntag",
       "publisher": "Verian (formerly Kantar Public / Emnid) for Bild am Sonntag",
       "source_logos": [],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "Verian",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "First Verian / BamS Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected about Wed 11 to Tue 17 November 2026, published about Fri 20 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4857,6 +5336,16 @@
           "height": 192
         }
       ],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "Find Out Now",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "Weekly wave expected Wed 4 Nov 2026 (possibly running into Thu 5 Nov)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4995,6 +5484,18 @@
       "survey": "ONS Opinions and Lifestyle Survey (OPN): Public opinions and social trends, Great Britain, November 2026 period (household finances, cost of living, loneliness, health, Christmas spending)",
       "publisher": "Office for National Statistics (ONS), OPN Analysis team",
       "source_logos": [],
+      "display": {
+        "label": "Daily Life",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Society",
+        "source": "ONS",
+        "categories": [
+          "Attitude",
+          "Stated intent",
+          "Behaviour"
+        ]
+      },
       "wave": "November 2026 OPN data collection period, expected 4 to 29 November 2026 (bulletin \"Public opinions and social trends, Great Britain: November 2026\", release 18 December 2026 09:30)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5126,6 +5627,17 @@
           "height": 180
         }
       ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "Opinium / The Observer",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "First Opinium/Observer wave with fieldwork starting on or after Wed 4 Nov 2026 (expected 4-6 Nov, published about Sat 7 Nov; 11-13 Nov if fortnightly)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5272,6 +5784,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Tesco Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Tesco, released 2026-11-01 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5330,6 +5852,16 @@
       "survey": "The Voter Poll by SSRS (2026 US midterm voters; national results)",
       "publisher": "SSRS for ABC News, The Associated Press, CBS News, CNN, Fox News, MS NOW and NBC News",
       "source_logos": [],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "SSRS",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "2026 midterm election (Election Day November 3, 2026), national sample",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5427,6 +5959,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Sainsbury's Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Sainsbury's, released 2026-11-01 08:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5485,6 +6027,16 @@
       "survey": "US 2026 general election turnout (voting-eligible population)",
       "publisher": "UF Election Lab / US Elections Project (Michael McDonald)",
       "source_logos": [],
+      "display": {
+        "label": "Voter Turnout",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "UF Election Lab",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "November 3, 2026 general election (midterm)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5566,6 +6118,16 @@
           "height": 64
         }
       ],
+      "display": {
+        "label": "Streaming Rankings",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Film & TV",
+        "source": "Netflix",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
       "disclosure": "full",
@@ -5647,6 +6209,16 @@
           "height": 64
         }
       ],
+      "display": {
+        "label": "Streaming Rankings",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Film & TV",
+        "source": "Netflix",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
       "disclosure": "full",
@@ -5728,6 +6300,16 @@
           "height": 64
         }
       ],
+      "display": {
+        "label": "Streaming Rankings",
+        "country": "Global",
+        "country_code": "global",
+        "topic": "Film & TV",
+        "source": "Netflix",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
       "disclosure": "full",
@@ -5809,6 +6391,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Best Buy Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Best Buy, released 2026-11-01 16:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5874,6 +6466,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Chewy Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Chewy, released 2026-11-01 17:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5932,6 +6534,16 @@
       "survey": "US and Canada (domestic) weekend box office: share of gross by film",
       "publisher": "Box Office Mojo (IMDbPro) / studio reports",
       "source_logos": [],
+      "display": {
+        "label": "Box Office",
+        "country": "United States & Canada",
+        "country_code": "us",
+        "topic": "Film & TV",
+        "source": "Box Office Mojo",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "Weekend Friday 6 - Sunday 8 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6013,6 +6625,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Chewy Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6078,6 +6700,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Chewy Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6143,6 +6775,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Very Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Very, released 2026-11-02 11:11Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6201,6 +6843,16 @@
       "survey": "NHK 政治意識月例電話調査 (NHK monthly political opinion telephone poll: cabinet support, party support and reasons)",
       "publisher": "NHK (Japan Broadcasting Corporation), NHK選挙WEB",
       "source_logos": [],
+      "display": {
+        "label": "Political Approval",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Politics",
+        "source": "NHK",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "First NHK monthly political-attitudes telephone poll (政治意識月例電話調査) whose fieldwork starts on or after Thu 5 Nov 2026 JST (expected Fri 6-Sun 8 Nov or Fri 13-Sun 15 Nov 2026, results the following day); void if not published by 2026-11-20",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6346,6 +6998,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Etsy Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Etsy, released 2026-11-02 18:01Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6411,6 +7073,16 @@
           "height": 192
         }
       ],
+      "display": {
+        "label": "Car Registrations",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Cars",
+        "source": "SMMT",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "October 2026 (release Thu 5 Nov 2026, 09:00 UK time)",
       "status": "scored",
       "disclosure": "full",
@@ -6492,6 +7164,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "John Lewis Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (John Lewis, released 2026-11-03 07:28Z)",
       "status": "scored",
       "disclosure": "full",
@@ -6557,6 +7239,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Asda Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Asda, released 2026-11-03 08:35Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6622,6 +7314,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Asda Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Asda, released 2026-11-03 08:36Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6687,6 +7389,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Burberry Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Burberry, released 2026-11-03 10:02Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6752,6 +7464,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Lidl Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Lidl, released 2026-11-03 10:08Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6817,6 +7539,16 @@
           "height": 534
         }
       ],
+      "display": {
+        "label": "Voting Intentions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "INSA / BILD",
+        "categories": [
+          "Stated intent"
+        ]
+      },
       "wave": "Online wave expected Fri 6 November to Mon 9 November 2026, published Mon 9 / Tue 10 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6962,6 +7694,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Gap Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Gap, released 2026-11-03 14:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7011,6 +7753,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Boots Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Boots, released 2026-11-04 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7069,6 +7821,16 @@
       "survey": "University of Michigan Surveys of Consumers (monthly), November 2026, five core questions",
       "publisher": "Survey Research Center, University of Michigan",
       "source_logos": [],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Economy",
+        "source": "University of Michigan",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "November 2026 final (interviews Oct 20 - Nov 16, 2026; preliminary cutoff Nov 2; preliminary release Nov 6, final release Nov 20)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7166,6 +7928,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Asda Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Asda, released 2026-11-04 09:16Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7231,6 +8003,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Starbucks Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Starbucks, released 2026-11-04 18:49Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7296,6 +8078,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Aldi Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Aldi, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7361,6 +8153,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Amazon Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Amazon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7426,6 +8228,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Barbour Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Barbour, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7491,6 +8303,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Lego Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Lego, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7556,6 +8378,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "TK Maxx Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (TK Maxx, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7621,6 +8453,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Amazon Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Amazon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7686,6 +8528,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Lego Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Lego, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7751,6 +8603,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Verizon Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Verizon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7816,6 +8678,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "Walmart Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (Walmart, released 2026-11-05 22:38Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7881,6 +8753,16 @@
           "height": 152
         }
       ],
+      "display": {
+        "label": "M&S Food Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
       "wave": "Christmas 2026 (M&S Food, released 2026-11-06 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7939,6 +8821,17 @@
       "survey": "ZDF-Politbarometer (Forschungsgruppe Wahlen)",
       "publisher": "Forschungsgruppe Wahlen e.V. for ZDF",
       "source_logos": [],
+      "display": {
+        "label": "Political Opinions",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Politics",
+        "source": "ZDF / Forschungsgruppe Wahlen",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
       "wave": "Release Fri 13 November 2026 (fieldwork expected about Tue Nov 10 to Thu Nov 12)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -8078,6 +8971,16 @@
       "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
       "source_logos": [],
+      "display": {
+        "label": "Music Streams",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "2026-11-19",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -8120,6 +9023,16 @@
       "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
       "source_logos": [],
+      "display": {
+        "label": "Music Streams",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "2026-11-19",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -8169,6 +9082,16 @@
           "height": 64
         }
       ],
+      "display": {
+        "label": "Streaming Rankings",
+        "country": "Global",
+        "country_code": "global",
+        "topic": "Film & TV",
+        "source": "Netflix",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "2026-11-22",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -8211,6 +9134,16 @@
       "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
       "source_logos": [],
+      "display": {
+        "label": "Music Streams",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "2026-11-26",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -8253,6 +9186,16 @@
       "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
       "source_logos": [],
+      "display": {
+        "label": "Music Streams",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
       "wave": "2026-11-26",
       "status": "pending",
       "disclosure": "hashes_only",

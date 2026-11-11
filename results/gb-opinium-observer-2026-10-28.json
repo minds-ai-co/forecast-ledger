@@ -6,19 +6,28 @@
   "source_url": "https://www.opinium.com/wp-content/uploads/2026/10/VI-2026-10-28-Opinium-Observer-Tables-Web-Tables-1403.xlsx",
   "scored_at": "2026-11-01T00:54:39Z",
   "results_sha256": "67ca91ec293f6f582b35bfb582360acd532c7489526c8be64af62d555f6a5a56",
-  "released_values_public": false,
-  "licence_note": "The located Opinium terms concern panel membership, not republication rights for this poll. Publication clearance is still unverified.",
+  "released_values_public": true,
+  "licence_note": "Source: Opinium / The Observer, October 2026 political poll. Selected published question shares reported for journalistic comparison; normalised over the listed options and rounded for display.",
   "publication": {
-    "status": "unverified",
+    "status": "journalistic_publication",
     "reviewed_on": "2026-11-11",
-    "source_url": "https://www.opinium.com/resource-center/",
-    "note": "The located Opinium terms concern panel membership, not republication rights for this poll. Publication clearance is still unverified.",
+    "source_url": "https://www.opinium.com/wp-content/uploads/2026/10/VI-2026-10-28-Opinium-Observer-Tables-Web-Tables-1403.xlsx",
     "terms": [
       {
         "label": "Opinium published terms",
         "url": "https://www.opinium.com/terms-and-conditions/"
       }
-    ]
+    ],
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner. This is not a claim of a new publisher licence.",
+    "item_scope": {
+      "burnham_approval": [
+        "overall"
+      ],
+      "westminster_vi": [
+        "overall"
+      ]
+    },
+    "credit": "Source: Opinium / The Observer, October 2026 political poll. Selected published question shares reported for journalistic comparison; normalised over the listed options and rounded for display."
   },
   "summary": {
     "pure": {
@@ -145,7 +154,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.0201,
       "mae_pp": 0.5025,
-      "released_values_public": false
+      "released": [
+        0.2011,
+        0.3023,
+        0.0983,
+        0.0291,
+        0.219,
+        0.0132,
+        0.0846,
+        0.0524
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "gb-opinium-observer-2026-10-28__burnham_approval__overall__r1",
@@ -158,7 +177,15 @@
       "evidence_type": "attitude",
       "tvd": 0.0901,
       "mae_pp": 3.003333,
-      "released_values_public": false
+      "released": [
+        0.1253,
+        0.2698,
+        0.2204,
+        0.1383,
+        0.1886,
+        0.0576
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "gb-opinium-observer-2026-10-28__anchored3__westminster_vi__overall__r1",
@@ -171,7 +198,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.02,
       "mae_pp": 0.5,
-      "released_values_public": false
+      "released": [
+        0.2011,
+        0.3023,
+        0.0983,
+        0.0291,
+        0.219,
+        0.0132,
+        0.0846,
+        0.0524
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "gb-opinium-observer-2026-10-28__anchored3__burnham_approval__overall__r1",
@@ -184,7 +221,15 @@
       "evidence_type": "attitude",
       "tvd": 0.0274,
       "mae_pp": 0.913333,
-      "released_values_public": false
+      "released": [
+        0.1253,
+        0.2698,
+        0.2204,
+        0.1383,
+        0.1886,
+        0.0576
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "gb-opinium-observer-2026-10-28__memory3__westminster_vi__overall__r1",
@@ -197,7 +242,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.0235,
       "mae_pp": 0.5875,
-      "released_values_public": false
+      "released": [
+        0.2011,
+        0.3023,
+        0.0983,
+        0.0291,
+        0.219,
+        0.0132,
+        0.0846,
+        0.0524
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "gb-opinium-observer-2026-10-28__memory3__burnham_approval__overall__r1",
@@ -210,7 +265,15 @@
       "evidence_type": "attitude",
       "tvd": 0.0851,
       "mae_pp": 2.836667,
-      "released_values_public": false
+      "released": [
+        0.1253,
+        0.2698,
+        0.2204,
+        0.1383,
+        0.1886,
+        0.0576
+      ],
+      "released_values_public": true
     }
   ]
 }

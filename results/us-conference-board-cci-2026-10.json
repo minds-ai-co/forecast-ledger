@@ -1,0 +1,379 @@
+{
+  "target_id": "us-conference-board-cci-2026-10",
+  "survey": "The Conference Board Consumer Confidence Survey (monthly), five index questions",
+  "status": "scored",
+  "released_at": "2026-10-27T14:00:00Z",
+  "source_url": "https://www.conference-board.org/topics/consumer-confidence/",
+  "scored_at": "2026-10-27T14:38:07Z",
+  "results_sha256": "3c1fd7d4bf2998a5588a3b9df606e79b118d1a6c7d7f287f533fc347f343f082",
+  "released_values_public": true,
+  "licence_note": "Source: The Conference Board, October 2026 Consumer Confidence Survey. Selected published response shares reported for journalistic comparison with preregistered Minds forecasts; normalised over the listed options and rounded for display.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://www.conference-board.org/topics/consumer-confidence/",
+    "terms": [
+      {
+        "label": "Publisher terms",
+        "url": "https://www.conference-board.org/terms-of-use"
+      }
+    ],
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner. This is not a claim of a new publisher licence.",
+    "item_scope": {
+      "expected_business_conditions": [
+        "overall"
+      ],
+      "expected_income": [
+        "overall"
+      ],
+      "expected_jobs": [
+        "overall"
+      ],
+      "present_business_conditions": [
+        "overall"
+      ],
+      "present_jobs": [
+        "overall"
+      ]
+    },
+    "credit": "Source: The Conference Board, October 2026 Consumer Confidence Survey. Selected published response shares reported for journalistic comparison with preregistered Minds forecasts; normalised over the listed options and rounded for display."
+  },
+  "summary": {
+    "pure": {
+      "items": 5,
+      "tvd": 0.0211,
+      "mae_pp": 1.406667
+    },
+    "anchored3": {
+      "items": 5,
+      "tvd": 0.0355,
+      "mae_pp": 2.366667
+    },
+    "memory3": {
+      "items": 5,
+      "tvd": 0.0267,
+      "mae_pp": 1.78
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.0211,
+          "mae_pp": 1.406667
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.0211,
+          "mae_pp": 1.406667
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.0355,
+          "mae_pp": 2.366667
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.0355,
+          "mae_pp": 2.366667
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.0267,
+          "mae_pp": 1.78
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.0267,
+          "mae_pp": 1.78
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "us-conference-board-cci-2026-10__present_business_conditions__overall__r1",
+      "entry_sha256": "bbadd16d9b4f5c4576d9c83c5098e4825aff4ebd4501257226007a9bc6f244a4",
+      "variant": "pure",
+      "question_id": "present_business_conditions",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0295,
+      "mae_pp": 1.966667,
+      "released": [
+        0.214,
+        0.608,
+        0.178
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__present_jobs__overall__r1",
+      "entry_sha256": "0891b9e3eba4e127b91b79f8c7bcac6425dbdc651109a038fd8acd89510d9dfd",
+      "variant": "pure",
+      "question_id": "present_jobs",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0245,
+      "mae_pp": 1.633333,
+      "released": [
+        0.267,
+        0.519,
+        0.214
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__expected_business_conditions__overall__r1",
+      "entry_sha256": "b8314c4af169d23150c6e366aa8f2cad3716aeb8d7e2f85a2df05d41091dcf77",
+      "variant": "pure",
+      "question_id": "expected_business_conditions",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0205,
+      "mae_pp": 1.366667,
+      "released": [
+        0.177,
+        0.616,
+        0.207
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__expected_jobs__overall__r1",
+      "entry_sha256": "cede07f3477667443caa3f851c098086b7e7e49dea373d38aad13d2699efccc9",
+      "variant": "pure",
+      "question_id": "expected_jobs",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0155,
+      "mae_pp": 1.033333,
+      "released": [
+        0.152,
+        0.585,
+        0.263
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__expected_income__overall__r1",
+      "entry_sha256": "e3a2b17a2a6a5764390b8ed319e447217541d4b0995dc0df21389f985f625694",
+      "variant": "pure",
+      "question_id": "expected_income",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0155,
+      "mae_pp": 1.033333,
+      "released": [
+        0.187,
+        0.693,
+        0.12
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__present_business_conditions__overall__r1",
+      "entry_sha256": "075b342cba64300660f825e3ac5fc451c1e8112839cbef97ad7f2497c3d873f8",
+      "variant": "anchored3",
+      "question_id": "present_business_conditions",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.032,
+      "mae_pp": 2.133333,
+      "released": [
+        0.214,
+        0.608,
+        0.178
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__present_jobs__overall__r1",
+      "entry_sha256": "43ecfd9b2daf11965ad25cbc48bfc88a25976a1b4952d3736b2c284908bc94a0",
+      "variant": "anchored3",
+      "question_id": "present_jobs",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0345,
+      "mae_pp": 2.3,
+      "released": [
+        0.267,
+        0.519,
+        0.214
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_business_conditions__overall__r1",
+      "entry_sha256": "33d93d7106a0b86ef26b4754e699f67f22d165834378ceefeff31321b05fc4f3",
+      "variant": "anchored3",
+      "question_id": "expected_business_conditions",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.051,
+      "mae_pp": 3.4,
+      "released": [
+        0.177,
+        0.616,
+        0.207
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_jobs__overall__r1",
+      "entry_sha256": "55b7f1ef512f497b8140d079e88c5a62e62476574138fd54bc0298b874432e2a",
+      "variant": "anchored3",
+      "question_id": "expected_jobs",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0235,
+      "mae_pp": 1.566667,
+      "released": [
+        0.152,
+        0.585,
+        0.263
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_income__overall__r1",
+      "entry_sha256": "79f515c97fc8b8e471c19e2c89f2a29cabd65556f670a1ad711ec55810832863",
+      "variant": "anchored3",
+      "question_id": "expected_income",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0365,
+      "mae_pp": 2.433333,
+      "released": [
+        0.187,
+        0.693,
+        0.12
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__present_business_conditions__overall__r1",
+      "entry_sha256": "9f7f0a00ddd48b677ebb78c8b1011201a0df641dd459fba092f5eb520e17f772",
+      "variant": "memory3",
+      "question_id": "present_business_conditions",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.031,
+      "mae_pp": 2.066667,
+      "released": [
+        0.214,
+        0.608,
+        0.178
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__present_jobs__overall__r1",
+      "entry_sha256": "b82171dca732bdbd809c0409b16f1b8a90b418ab1650afde0b06b3b8af0d9cfe",
+      "variant": "memory3",
+      "question_id": "present_jobs",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0265,
+      "mae_pp": 1.766667,
+      "released": [
+        0.267,
+        0.519,
+        0.214
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__expected_business_conditions__overall__r1",
+      "entry_sha256": "355e74abf401143f0092a3e469f12228e52062b4fb29e76f9b8cf2b8d4c99bb9",
+      "variant": "memory3",
+      "question_id": "expected_business_conditions",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.028,
+      "mae_pp": 1.866667,
+      "released": [
+        0.177,
+        0.616,
+        0.207
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__expected_jobs__overall__r1",
+      "entry_sha256": "0bb8df5a28cdc1200d8f1652ee1047e7f881bb3c92cc0c3b6467de8bbb458e67",
+      "variant": "memory3",
+      "question_id": "expected_jobs",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.033,
+      "mae_pp": 2.2,
+      "released": [
+        0.152,
+        0.585,
+        0.263
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-conference-board-cci-2026-10__memory3__expected_income__overall__r1",
+      "entry_sha256": "849efea6e83991e78349299737ffbd34604c1d7a4c05880e08ed5c7a7356c578",
+      "variant": "memory3",
+      "question_id": "expected_income",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.015,
+      "mae_pp": 1.0,
+      "released": [
+        0.187,
+        0.693,
+        0.12
+      ],
+      "released_values_public": true
+    }
+  ]
+}

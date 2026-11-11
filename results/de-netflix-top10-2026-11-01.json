@@ -6,19 +6,28 @@
   "source_url": "https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv",
   "scored_at": "2026-11-03T21:31:11Z",
   "results_sha256": "55d5a1c993c2984918926e80db48aa2597c7396065dcc6d54bff5890c73893d7",
-  "released_values_public": false,
-  "licence_note": "Netflix publishes downloadable Top 10 data, but a licence covering republication in this ledger has not been established.",
+  "released_values_public": true,
+  "licence_note": "Source: Netflix Tudum Top 10, week ending 1 November 2026. Published ranks converted to Borda rank shares (10 points for rank 1 down to 1 for rank 10); these are rank-based shares, not viewing percentages. Reported for journalistic comparison; rounding may affect totals.",
   "publication": {
-    "status": "unverified",
+    "status": "journalistic_publication",
     "reviewed_on": "2026-11-11",
-    "source_url": "https://www.netflix.com/tudum/top10/germany",
-    "note": "Netflix publishes downloadable Top 10 data, but a licence covering republication in this ledger has not been established.",
+    "source_url": "https://www.netflix.com/tudum/top10/data/all-weeks-countries.tsv",
     "terms": [
       {
         "label": "Netflix Top 10 data",
         "url": "https://www.netflix.com/tudum/top10"
       }
-    ]
+    ],
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner. This is not a claim of a new publisher licence.",
+    "item_scope": {
+      "films_top10": [
+        "overall"
+      ],
+      "tv_top10": [
+        "overall"
+      ]
+    },
+    "credit": "Source: Netflix Tudum Top 10, week ending 1 November 2026. Published ranks converted to Borda rank shares (10 points for rank 1 down to 1 for rank 10); these are rank-based shares, not viewing percentages. Reported for journalistic comparison; rounding may affect totals."
   },
   "summary": {
     "pure": {
@@ -98,7 +107,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.53955,
       "mae_pp": 7.707857,
-      "released_values_public": false
+      "released": [
+        0.1818,
+        0.0545,
+        0.0364,
+        0.1455,
+        0.0,
+        0.0,
+        0.0,
+        0.1636,
+        0.0,
+        0.0,
+        0.0,
+        0.1091,
+        0.0,
+        0.3091
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-netflix-top10-2026-11-01__films_top10__overall__r1",
@@ -111,7 +136,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.2223,
       "mae_pp": 3.175714,
-      "released_values_public": false
+      "released": [
+        0.1273,
+        0.1091,
+        0.0909,
+        0.1455,
+        0.0364,
+        0.0,
+        0.0182,
+        0.0,
+        0.0,
+        0.0727,
+        0.1818,
+        0.0,
+        0.0,
+        0.2181
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-netflix-top10-2026-11-01__anchored3__tv_top10__overall__r1",
@@ -124,7 +165,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.3816,
       "mae_pp": 5.451429,
-      "released_values_public": false
+      "released": [
+        0.1818,
+        0.0545,
+        0.0364,
+        0.1455,
+        0.0,
+        0.0,
+        0.0,
+        0.1636,
+        0.0,
+        0.0,
+        0.0,
+        0.1091,
+        0.0,
+        0.3091
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-netflix-top10-2026-11-01__anchored3__films_top10__overall__r1",
@@ -137,7 +194,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.2515,
       "mae_pp": 3.592857,
-      "released_values_public": false
+      "released": [
+        0.1273,
+        0.1091,
+        0.0909,
+        0.1455,
+        0.0364,
+        0.0,
+        0.0182,
+        0.0,
+        0.0,
+        0.0727,
+        0.1818,
+        0.0,
+        0.0,
+        0.2181
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-netflix-top10-2026-11-01__memory3__tv_top10__overall__r1",
@@ -150,7 +223,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.54105,
       "mae_pp": 7.729286,
-      "released_values_public": false
+      "released": [
+        0.1818,
+        0.0545,
+        0.0364,
+        0.1455,
+        0.0,
+        0.0,
+        0.0,
+        0.1636,
+        0.0,
+        0.0,
+        0.0,
+        0.1091,
+        0.0,
+        0.3091
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-netflix-top10-2026-11-01__memory3__films_top10__overall__r1",
@@ -163,7 +252,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.3283,
       "mae_pp": 4.69,
-      "released_values_public": false
+      "released": [
+        0.1273,
+        0.1091,
+        0.0909,
+        0.1455,
+        0.0364,
+        0.0,
+        0.0182,
+        0.0,
+        0.0,
+        0.0727,
+        0.1818,
+        0.0,
+        0.0,
+        0.2181
+      ],
+      "released_values_public": true
     }
   ]
 }

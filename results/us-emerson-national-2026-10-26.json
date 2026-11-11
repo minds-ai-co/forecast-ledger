@@ -6,19 +6,28 @@
   "source_url": "https://emersoncollegepolling.com/october-2026-national-poll-democrats-hold-10-point-midterm-advantage/",
   "scored_at": "2026-10-30T19:05:40Z",
   "results_sha256": "9d767ae3b0af15b481ac38318072dcc686af4f52d3b8f0b8e48aa43de9b3772c",
-  "released_values_public": false,
-  "licence_note": "The linked Emerson policy does not establish the scope for republishing these poll values in this public research comparison.",
+  "released_values_public": true,
+  "licence_note": "Source: Emerson College Polling, October 2026 national poll. Selected question and audience shares reported for journalistic comparison; normalised over the listed answer options and rounded for display.",
   "publication": {
-    "status": "unverified",
+    "status": "journalistic_publication",
     "reviewed_on": "2026-11-11",
     "source_url": "https://emersoncollegepolling.com/october-2026-national-poll-democrats-hold-10-point-midterm-advantage/",
-    "note": "The linked Emerson policy does not establish the scope for republishing these poll values in this public research comparison.",
     "terms": [
       {
         "label": "Emerson terms",
         "url": "https://emerson.edu/policies/terms-of-use/"
       }
-    ]
+    ],
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner. This is not a claim of a new publisher licence.",
+    "item_scope": {
+      "congress_ballot": [
+        "overall"
+      ],
+      "trump_job_approval": [
+        "overall"
+      ]
+    },
+    "credit": "Source: Emerson College Polling, October 2026 national poll. Selected question and audience shares reported for journalistic comparison; normalised over the listed answer options and rounded for display."
   },
   "summary": {
     "pure": {
@@ -145,7 +154,12 @@
       "evidence_type": "attitude",
       "tvd": 0.062528,
       "mae_pp": 4.168533,
-      "released_values_public": false
+      "released": [
+        0.37247199999999997,
+        0.571134,
+        0.056394
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__congress_ballot__overall__r1",
@@ -158,7 +172,12 @@
       "evidence_type": "stated_intent",
       "tvd": 0.043,
       "mae_pp": 2.866667,
-      "released_values_public": false
+      "released": [
+        0.524,
+        0.424,
+        0.052000000000000005
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__anchored3__trump_job_approval__overall__r1",
@@ -171,7 +190,12 @@
       "evidence_type": "attitude",
       "tvd": 0.029528,
       "mae_pp": 1.968533,
-      "released_values_public": false
+      "released": [
+        0.37247199999999997,
+        0.571134,
+        0.056394
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__anchored3__congress_ballot__overall__r1",
@@ -184,7 +208,12 @@
       "evidence_type": "stated_intent",
       "tvd": 0.0135,
       "mae_pp": 0.9,
-      "released_values_public": false
+      "released": [
+        0.524,
+        0.424,
+        0.052000000000000005
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__memory3__trump_job_approval__overall__r1",
@@ -197,7 +226,12 @@
       "evidence_type": "attitude",
       "tvd": 0.062528,
       "mae_pp": 4.168533,
-      "released_values_public": false
+      "released": [
+        0.37247199999999997,
+        0.571134,
+        0.056394
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-emerson-national-2026-10-26__memory3__congress_ballot__overall__r1",
@@ -210,7 +244,12 @@
       "evidence_type": "stated_intent",
       "tvd": 0.04,
       "mae_pp": 2.666667,
-      "released_values_public": false
+      "released": [
+        0.524,
+        0.424,
+        0.052000000000000005
+      ],
+      "released_values_public": true
     }
   ]
 }

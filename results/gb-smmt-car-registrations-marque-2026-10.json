@@ -9,7 +9,7 @@
   "released_values_public": true,
   "licence_note": "Source: SMMT, UK new car registrations by marque, October 2026. Selected aggregate registration shares shown for research comparison; remaining marques grouped as “Another marque”. Figures rounded for display. Minds forecasts are independent estimates.",
   "publication": {
-    "status": "research_publication",
+    "status": "journalistic_publication",
     "reviewed_on": "2026-11-11",
     "source_url": "https://www.smmt.co.uk/vehicle-data/car-registrations/",
     "terms": [
@@ -18,14 +18,13 @@
         "url": "https://www.smmt.co.uk/terms-conditions/"
       }
     ],
-    "question_ids": [
-      "brand_share"
-    ],
-    "group_ids": [
-      "overall"
-    ],
-    "decision_basis": "Owner-approved publication for non-commercial research; no publisher licence grant is asserted.",
-    "credit": "Source: SMMT, UK new car registrations by marque, October 2026. Selected aggregate registration shares shown for research comparison; remaining marques grouped as “Another marque”. Figures rounded for display. Minds forecasts are independent estimates."
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner. This is not a claim of a new publisher licence.",
+    "credit": "Source: SMMT, UK new car registrations by marque, October 2026. Selected aggregate registration shares shown for research comparison; remaining marques grouped as “Another marque”. Figures rounded for display. Minds forecasts are independent estimates.",
+    "item_scope": {
+      "brand_share": [
+        "overall"
+      ]
+    }
   },
   "summary": {
     "pure": {

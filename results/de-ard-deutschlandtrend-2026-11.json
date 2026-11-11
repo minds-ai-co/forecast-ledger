@@ -7,12 +7,11 @@
   "scored_at": "2026-11-06T08:19:02Z",
   "results_sha256": "c193e8623a08ae39b38cc3564f7ca256c8726b834601fc41f419724acfd3f8ab",
   "released_values_public": true,
-  "licence_note": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4372, Infratest dimap, 2026-11-05; ODbL 1.0. Party shares mapped into the locked answer order; BSW grouped with other parties where specified. The source subset is downloadable under the same licence. Minds forecasts are separate independent estimates.",
+  "licence_note": "Sources: ARD / infratest dimap, DeutschlandTrend November 2026. Voting intention independently matched to DAWUM / Philipp Guttmann, survey 4372, ODbL 1.0; its reusable source subset is linked below. Satisfaction shares reported from the original release for journalistic comparison. Shares mapped to the locked answer options and rounded for display.",
   "publication": {
-    "status": "partial",
+    "status": "journalistic_publication",
     "reviewed_on": "2026-11-11",
-    "source_url": "https://api.dawum.de/",
-    "note": "Only the voting-intention question is cleared from DAWUM. Satisfaction questions still need publication clearance.",
+    "source_url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/2026/november/",
     "terms": [
       {
         "label": "DAWUM data source",
@@ -27,10 +26,19 @@
         "url": "https://forecasts.getminds.ai/sources/de-ard-deutschlandtrend-2026-11.json"
       }
     ],
-    "question_ids": [
-      "sonntagsfrage"
-    ],
-    "credit": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4372, Infratest dimap, 2026-11-05; ODbL 1.0. Party shares mapped into the locked answer order; BSW grouped with other parties where specified. The source subset is downloadable under the same licence. Minds forecasts are separate independent estimates."
+    "credit": "Sources: ARD / infratest dimap, DeutschlandTrend November 2026. Voting intention independently matched to DAWUM / Philipp Guttmann, survey 4372, ODbL 1.0; its reusable source subset is linked below. Satisfaction shares reported from the original release for journalistic comparison. Shares mapped to the locked answer options and rounded for display.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner. This is not a claim of a new publisher licence.",
+    "item_scope": {
+      "government_satisfaction": [
+        "overall"
+      ],
+      "merz_satisfaction": [
+        "overall"
+      ],
+      "sonntagsfrage": [
+        "overall"
+      ]
+    }
   },
   "summary": {
     "pure": {
@@ -214,7 +222,12 @@
       "evidence_type": "attitude",
       "tvd": 0.1,
       "mae_pp": 6.666667,
-      "released_values_public": false
+      "released": [
+        0.11,
+        0.87,
+        0.02
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__merz_satisfaction__overall__r1",
@@ -227,7 +240,12 @@
       "evidence_type": "attitude",
       "tvd": 0.125,
       "mae_pp": 8.333333,
-      "released_values_public": false
+      "released": [
+        0.12,
+        0.85,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__sonntagsfrage__overall__r1",
@@ -262,7 +280,12 @@
       "evidence_type": "attitude",
       "tvd": 0.0085,
       "mae_pp": 0.566667,
-      "released_values_public": false
+      "released": [
+        0.11,
+        0.87,
+        0.02
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__anchored3__merz_satisfaction__overall__r1",
@@ -275,7 +298,12 @@
       "evidence_type": "attitude",
       "tvd": 0.0185,
       "mae_pp": 1.233333,
-      "released_values_public": false
+      "released": [
+        0.12,
+        0.85,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__blend__sonntagsfrage__overall__r1",
@@ -310,7 +338,12 @@
       "evidence_type": "attitude",
       "tvd": 0.0495,
       "mae_pp": 3.3,
-      "released_values_public": false
+      "released": [
+        0.11,
+        0.87,
+        0.02
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__blend__merz_satisfaction__overall__r1",
@@ -323,7 +356,12 @@
       "evidence_type": "attitude",
       "tvd": 0.0545,
       "mae_pp": 3.633333,
-      "released_values_public": false
+      "released": [
+        0.12,
+        0.85,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__sonntagsfrage__overall__r1",
@@ -358,7 +396,12 @@
       "evidence_type": "attitude",
       "tvd": 0.1075,
       "mae_pp": 7.166667,
-      "released_values_public": false
+      "released": [
+        0.11,
+        0.87,
+        0.02
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-ard-deutschlandtrend-2026-11__memory3__merz_satisfaction__overall__r1",
@@ -371,7 +414,12 @@
       "evidence_type": "attitude",
       "tvd": 0.1275,
       "mae_pp": 8.5,
-      "released_values_public": false
+      "released": [
+        0.12,
+        0.85,
+        0.03
+      ],
+      "released_values_public": true
     }
   ]
 }
