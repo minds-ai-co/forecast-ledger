@@ -6,19 +6,26 @@
   "source_url": "https://www.smmt.co.uk/vehicle-data/car-registrations/",
   "scored_at": "2026-11-05T10:24:52Z",
   "results_sha256": "71e56636e98df0a57bf04973635a6d3da79b92070bcf854ccb1a55db9ca1f0d1",
-  "released_values_public": false,
-  "licence_note": "Source: SMMT. The scope for displaying these figures in public research is under review; the published results are linked below.",
+  "released_values_public": true,
+  "licence_note": "Source: SMMT, UK new car registrations by marque, October 2026. Selected aggregate registration shares shown for research comparison; remaining marques grouped as “Another marque”. Figures rounded for display. Minds forecasts are independent estimates.",
   "publication": {
-    "status": "unverified",
+    "status": "research_publication",
     "reviewed_on": "2026-11-11",
     "source_url": "https://www.smmt.co.uk/vehicle-data/car-registrations/",
-    "note": "Source: SMMT. The scope for displaying these figures in public research is under review; the published results are linked below.",
     "terms": [
       {
         "label": "SMMT terms",
         "url": "https://www.smmt.co.uk/terms-conditions/"
       }
-    ]
+    ],
+    "question_ids": [
+      "brand_share"
+    ],
+    "group_ids": [
+      "overall"
+    ],
+    "decision_basis": "Owner-approved publication for non-commercial research; no publisher licence grant is asserted.",
+    "credit": "Source: SMMT, UK new car registrations by marque, October 2026. Selected aggregate registration shares shown for research comparison; remaining marques grouped as “Another marque”. Figures rounded for display. Minds forecasts are independent estimates."
   },
   "summary": {
     "pure": {
@@ -98,7 +105,26 @@
       "evidence_type": "behaviour",
       "tvd": 0.116609,
       "mae_pp": 1.371871,
-      "released_values_public": false
+      "released": [
+        0.089616,
+        0.039711,
+        0.051195,
+        0.051313,
+        0.053198,
+        0.001846,
+        0.056079,
+        0.043122,
+        0.039868,
+        0.040529,
+        0.044733,
+        0.026216,
+        0.033608,
+        0.038309,
+        0.035645,
+        0.031644,
+        0.323368
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "gb-smmt-car-registrations-marque-2026-10__anchored3__brand_share__overall__r1",
@@ -111,7 +137,26 @@
       "evidence_type": "behaviour",
       "tvd": 0.049244,
       "mae_pp": 0.579341,
-      "released_values_public": false
+      "released": [
+        0.089616,
+        0.039711,
+        0.051195,
+        0.051313,
+        0.053198,
+        0.001846,
+        0.056079,
+        0.043122,
+        0.039868,
+        0.040529,
+        0.044733,
+        0.026216,
+        0.033608,
+        0.038309,
+        0.035645,
+        0.031644,
+        0.323368
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "gb-smmt-car-registrations-marque-2026-10__memory3__brand_share__overall__r1",
@@ -124,7 +169,26 @@
       "evidence_type": "behaviour",
       "tvd": 0.100609,
       "mae_pp": 1.183635,
-      "released_values_public": false
+      "released": [
+        0.089616,
+        0.039711,
+        0.051195,
+        0.051313,
+        0.053198,
+        0.001846,
+        0.056079,
+        0.043122,
+        0.039868,
+        0.040529,
+        0.044733,
+        0.026216,
+        0.033608,
+        0.038309,
+        0.035645,
+        0.031644,
+        0.323368
+      ],
+      "released_values_public": true
     }
   ]
 }

@@ -103,14 +103,14 @@ Alongside Minds Mosaic we lock additional research forecasts for the same survey
 
 ## Status
 
-As of 2026-11-11 13:02 UTC: 92 surveys, 2458 forecasts in 311 timestamped batches. 23 scored, 69 pending, 0 not scoreable. 594 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
+As of 2026-11-11 13:29 UTC: 92 surveys, 2458 forecasts in 311 timestamped batches. 23 scored, 69 pending, 0 not scoreable. 594 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
 Latest forecast or scoring event: 2026-11-10T10:30:20Z. A status refresh does not add forecasts or results.
 
 ## Files
 
 - [`index.json`](index.json): every locked survey with status, lock times, hashes, Bitcoin blocks and file paths. Start here.
 - `forecasts/<survey>/<tag>.json`: the locked forecasts. Pending surveys list hashes and lock times only.
-- `results/<survey>.json`: release date, source and scores. Released numbers appear only where the publisher allows it.
+- `results/<survey>.json`: release date, source and scores. Published numbers include attribution and a release-specific publication basis.
 - `proofs/`: the hash chain (`index.jsonl`), batch manifests and their OpenTimestamps proofs.
 - [`verify.py`](verify.py): checks all of it with plain Python 3.
 
