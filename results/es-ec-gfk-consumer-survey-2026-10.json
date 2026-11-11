@@ -8,6 +8,22 @@
   "results_sha256": "165ea240c8818d908cf453d7d52521dc8c29666d1eca10894edd7f8bc73747af",
   "released_values_public": true,
   "licence_note": "Source: European Commission, DG ECFIN, Business and Consumer Surveys, October 2026. © European Union, CC BY 4.0. Answer shares normalised over the listed options and rounded for display. Minds forecasts are independent estimates; no EU endorsement is implied.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
+    "terms": [
+      {
+        "label": "EU reuse terms",
+        "url": "https://commission.europa.eu/legal-notice_en"
+      },
+      {
+        "label": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "credit": "Source: European Commission, DG ECFIN, Business and Consumer Surveys, October 2026. © European Union, CC BY 4.0. Answer shares normalised over the listed options and rounded for display. Minds forecasts are independent estimates; no EU endorsement is implied."
+  },
   "summary": {
     "pure": {
       "items": 11,
@@ -175,7 +191,8 @@
         0.227,
         0.076,
         0.006
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__fin_next12__overall__r1",
@@ -195,7 +212,8 @@
         0.147,
         0.054,
         0.017
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__econ_past12__overall__r1",
@@ -215,7 +233,8 @@
         0.30333033303330337,
         0.2903290329032903,
         0.019001900190019003
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__econ_next12__overall__r1",
@@ -235,7 +254,8 @@
         0.279,
         0.2,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__prices_past12__overall__r1",
@@ -255,7 +275,8 @@
         0.029,
         0.008,
         0.008
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__prices_next12__overall__r1",
@@ -275,7 +296,8 @@
         0.079,
         0.053,
         0.031
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__unemployment_next12__overall__r1",
@@ -295,7 +317,8 @@
         0.119,
         0.016,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__major_purchases_now__overall__r1",
@@ -313,7 +336,8 @@
         0.5064493550644935,
         0.32766723327667235,
         0.045995400459954004
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__major_purchases_next12__overall__r1",
@@ -333,7 +357,8 @@
         0.16,
         0.155,
         0.048
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__savings_next12__overall__r1",
@@ -352,7 +377,8 @@
         0.2736726327367263,
         0.13488651134886512,
         0.024997500249975005
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__household_fin_now__overall__r1",
@@ -372,7 +398,8 @@
         0.0849,
         0.048,
         0.018
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__fin_past12__overall__r1",
@@ -392,7 +419,8 @@
         0.227,
         0.076,
         0.006
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
@@ -412,7 +440,8 @@
         0.147,
         0.054,
         0.017
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
@@ -432,7 +461,8 @@
         0.30333033303330337,
         0.2903290329032903,
         0.019001900190019003
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
@@ -452,7 +482,8 @@
         0.279,
         0.2,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
@@ -472,7 +503,8 @@
         0.029,
         0.008,
         0.008
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
@@ -492,7 +524,8 @@
         0.079,
         0.053,
         0.031
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
@@ -512,7 +545,8 @@
         0.119,
         0.016,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
@@ -530,7 +564,8 @@
         0.5064493550644935,
         0.32766723327667235,
         0.045995400459954004
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__major_purchases_next12__overall__r1",
@@ -550,7 +585,8 @@
         0.16,
         0.155,
         0.048
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
@@ -569,7 +605,8 @@
         0.2736726327367263,
         0.13488651134886512,
         0.024997500249975005
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
@@ -589,7 +626,8 @@
         0.0849,
         0.048,
         0.018
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__fin_past12__overall__r1",
@@ -609,7 +647,8 @@
         0.227,
         0.076,
         0.006
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__fin_next12__overall__r1",
@@ -629,7 +668,8 @@
         0.147,
         0.054,
         0.017
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__econ_past12__overall__r1",
@@ -649,7 +689,8 @@
         0.30333033303330337,
         0.2903290329032903,
         0.019001900190019003
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__econ_next12__overall__r1",
@@ -669,7 +710,8 @@
         0.279,
         0.2,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__prices_past12__overall__r1",
@@ -689,7 +731,8 @@
         0.029,
         0.008,
         0.008
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__prices_next12__overall__r1",
@@ -709,7 +752,8 @@
         0.079,
         0.053,
         0.031
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__unemployment_next12__overall__r1",
@@ -729,7 +773,8 @@
         0.119,
         0.016,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__major_purchases_now__overall__r1",
@@ -747,7 +792,8 @@
         0.5064493550644935,
         0.32766723327667235,
         0.045995400459954004
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__major_purchases_next12__overall__r1",
@@ -767,7 +813,8 @@
         0.16,
         0.155,
         0.048
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__savings_next12__overall__r1",
@@ -786,7 +833,8 @@
         0.2736726327367263,
         0.13488651134886512,
         0.024997500249975005
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__memory3__household_fin_now__overall__r1",
@@ -806,7 +854,8 @@
         0.0849,
         0.048,
         0.018
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__fin_past12__overall__r1",
@@ -826,7 +875,8 @@
         0.227,
         0.076,
         0.006
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__fin_next12__overall__r1",
@@ -846,7 +896,8 @@
         0.147,
         0.054,
         0.017
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__econ_past12__overall__r1",
@@ -866,7 +917,8 @@
         0.30333033303330337,
         0.2903290329032903,
         0.019001900190019003
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__econ_next12__overall__r1",
@@ -886,7 +938,8 @@
         0.279,
         0.2,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__prices_past12__overall__r1",
@@ -906,7 +959,8 @@
         0.029,
         0.008,
         0.008
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__prices_next12__overall__r1",
@@ -926,7 +980,8 @@
         0.079,
         0.053,
         0.031
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__unemployment_next12__overall__r1",
@@ -946,7 +1001,8 @@
         0.119,
         0.016,
         0.045
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__major_purchases_now__overall__r1",
@@ -964,7 +1020,8 @@
         0.5064493550644935,
         0.32766723327667235,
         0.045995400459954004
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__major_purchases_next12__overall__r1",
@@ -984,7 +1041,8 @@
         0.16,
         0.155,
         0.048
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__savings_next12__overall__r1",
@@ -1003,7 +1061,8 @@
         0.2736726327367263,
         0.13488651134886512,
         0.024997500249975005
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "es-ec-gfk-consumer-survey-2026-10__blend__household_fin_now__overall__r1",
@@ -1023,7 +1082,8 @@
         0.0849,
         0.048,
         0.018
-      ]
+      ],
+      "released_values_public": true
     }
   ]
 }

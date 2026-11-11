@@ -6,8 +6,20 @@
   "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf",
   "scored_at": "2026-10-27T13:00:58Z",
   "results_sha256": "bdf4bce7995e1464408ba1033f8a9e03e0f26efae8e4c1423570dafdd2649bd0",
-  "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "released_values_public": true,
+  "licence_note": "Source: NPR/PBS News/Marist Poll, interviews October 19–20, 2026, 1,289 national registered voters. Reproduced with attribution under the Marist Poll Terms of Use, section 3. Selected question and audience shares normalised and rounded by Minds; full methods and sampling details are in the linked release.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf",
+    "terms": [
+      {
+        "label": "Marist reuse terms",
+        "url": "https://maristpoll.marist.edu/terms-of-use/"
+      }
+    ],
+    "credit": "Source: NPR/PBS News/Marist Poll, interviews October 19–20, 2026, 1,289 national registered voters. Reproduced with attribution under the Marist Poll Terms of Use, section 3. Selected question and audience shares normalised and rounded by Minds; full methods and sampling details are in the linked release."
+  },
   "summary": {
     "pure": {
       "items": 2,
@@ -132,7 +144,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0875,
-      "mae_pp": 3.5
+      "mae_pp": 3.5,
+      "released": [
+        0.23,
+        0.15,
+        0.07,
+        0.53,
+        0.02
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__congress_ballot__overall__r1",
@@ -144,7 +164,14 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.04,
-      "mae_pp": 2.0
+      "mae_pp": 2.0,
+      "released": [
+        0.52,
+        0.42,
+        0.02,
+        0.04
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__anchored3__trump_job_approval__overall__r1",
@@ -156,7 +183,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.045,
-      "mae_pp": 1.8
+      "mae_pp": 1.8,
+      "released": [
+        0.23,
+        0.15,
+        0.07,
+        0.53,
+        0.02
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__anchored3__congress_ballot__overall__r1",
@@ -168,7 +203,14 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.005,
-      "mae_pp": 0.25
+      "mae_pp": 0.25,
+      "released": [
+        0.52,
+        0.42,
+        0.02,
+        0.04
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__memory3__trump_job_approval__overall__r1",
@@ -180,7 +222,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0875,
-      "mae_pp": 3.5
+      "mae_pp": 3.5,
+      "released": [
+        0.23,
+        0.15,
+        0.07,
+        0.53,
+        0.02
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__memory3__congress_ballot__overall__r1",
@@ -192,7 +242,14 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0375,
-      "mae_pp": 1.875
+      "mae_pp": 1.875,
+      "released": [
+        0.52,
+        0.42,
+        0.02,
+        0.04
+      ],
+      "released_values_public": true
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-11T12:22:59Z",
+  "as_of": "2026-11-11T12:54:56Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-10T10:30:20Z",
   "chain_head_sha256": "2b439cac7d928cdae6fb99adf3efe1a61f75142f2b6347215bc01b15023ac35c",
@@ -452,6 +452,14 @@
       "target_id": "us-economist-yougov-2026-10-24",
       "survey": "The Economist/YouGov Poll (weekly, US registered voters)",
       "publisher": "YouGov for The Economist",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
       "wave": "Next weekly wave after October 19-20, 2026 (expected fieldwork about Oct 24-27, 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -510,6 +518,14 @@
       "target_id": "gb-yougov-trackers-2026-10-25",
       "survey": "YouGov GB weekly trackers (government approval, most important issues, Westminster voting intention)",
       "publisher": "YouGov (voting intention commissioned by The Times and Sky News)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
       "wave": "Weekly wave expected 25-26 October 2026 (next after 18-19 October 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -568,6 +584,7 @@
       "target_id": "fr-elabe-observatoire-2026-10-27",
       "survey": "Elabe for Les Echos, L'Observatoire politique (monthly confidence barometer for the President and the Prime Minister)",
       "publisher": "Elabe for Les Echos",
+      "source_logos": [],
       "wave": "First Observatoire politique wave with fieldwork starting on or after Tue 27 Oct 2026 (expected 27-28 Oct, published Thu 29 Oct; or 3-4 Nov, published Thu 5 Nov)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -641,6 +658,7 @@
       "target_id": "us-census-htops-2609-healthinfo",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), healthinfo items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -732,6 +750,7 @@
       "target_id": "us-census-htops-2609-trust-a",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-a items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -823,6 +842,7 @@
       "target_id": "us-census-htops-2609-trust-b",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-b items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -914,6 +934,7 @@
       "target_id": "us-census-htops-2609-wellbeing",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), wellbeing items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1005,6 +1026,14 @@
       "target_id": "de-forsa-trendbarometer-2026-11-03",
       "survey": "RTL/ntv Trendbarometer Sonntagsfrage (Forsa)",
       "publisher": "Forsa Gesellschaft für Sozialforschung und statistische Analysen for RTL Deutschland (RTL/ntv)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/forsa.png",
+          "alt": "Forsa",
+          "width": 40,
+          "height": 123
+        }
+      ],
       "wave": "Weekly wave expected Tue 27 October to Mon 2 November 2026, published Tue 3 November 2026",
       "status": "scored",
       "disclosure": "full",
@@ -1078,6 +1107,14 @@
       "target_id": "us-abc-post-ipsos-2026-10-26",
       "survey": "ABC News/Washington Post/Ipsos poll (national, US adults, Ipsos KnowledgePanel)",
       "publisher": "ABC News, The Washington Post and Ipsos",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ipsos.png",
+          "alt": "Ipsos",
+          "width": 112,
+          "height": 112
+        }
+      ],
       "wave": "The first national ABC News/Washington Post/Ipsos poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose topline reports Trump job approval and right/wrong direction among all adults. Expected: final pre-midterm wave, fieldwork about Oct 27-Nov 1, 2026, release about Nov 1-2, 2026.",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1151,6 +1188,14 @@
       "target_id": "us-emerson-national-2026-10-26",
       "survey": "Emerson College Polling national poll (US likely voters)",
       "publisher": "Emerson College Polling",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/emerson.png",
+          "alt": "Emerson College Polling",
+          "width": 300,
+          "height": 300
+        }
+      ],
       "wave": "The first national Emerson College Polling survey whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose full results report Trump job approval and the 2026 congressional ballot for the national likely-voter sample. Expected: October/final pre-midterm national poll, fieldwork about Oct 26-Nov 1, 2026, release about Oct 28-Nov 2.",
       "status": "scored",
       "disclosure": "full",
@@ -1225,6 +1270,7 @@
       "target_id": "us-npr-pbs-marist-2026-10-26",
       "survey": "NPR/PBS News/Marist Poll (national, US registered voters)",
       "publisher": "Marist Institute for Public Opinion (Marist Poll) with NPR and PBS News",
+      "source_logos": [],
       "wave": "The first national NPR/PBS News/Marist poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and that reports Trump job approval and the congressional ballot for National Registered Voters. Expected: final pre-midterm national poll, fieldwork about Oct 26-30, 2026, release about Oct 29-Nov 2.",
       "status": "scored",
       "disclosure": "full",
@@ -1299,6 +1345,7 @@
       "target_id": "us-quinnipiac-national-2026-10-26",
       "survey": "Quinnipiac University Poll, national (US registered voters)",
       "publisher": "Quinnipiac University Poll",
+      "source_logos": [],
       "wave": "The first national Quinnipiac University poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and that reports Trump job approval and House control preference among registered voters. Expected: final pre-midterm national poll, fieldwork about Oct 22-Nov 1, 2026, release about Oct 28-Nov 2.",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1372,6 +1419,14 @@
       "target_id": "us-reuters-ipsos-2026-10-26",
       "survey": "Reuters/Ipsos poll (national, US adults, Ipsos KnowledgePanel)",
       "publisher": "Ipsos for Reuters",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ipsos.png",
+          "alt": "Ipsos",
+          "width": 112,
+          "height": 112
+        }
+      ],
       "wave": "The first national Reuters/Ipsos poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose topline reports Trump job approval (Approval5_Combined) and the generic congressional ballot (TM3287Y24). Expected: final pre-midterm wave, fieldwork about Oct 28 - Nov 2, 2026, release about Nov 1-3, 2026.",
       "status": "scored",
       "disclosure": "full",
@@ -1446,6 +1501,14 @@
       "target_id": "gb-findoutnow-vi-2026-10-28",
       "survey": "Find Out Now weekly GB Westminster voting intention",
       "publisher": "Find Out Now (self-published tracker)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/find-out-now.png",
+          "alt": "Find Out Now",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "wave": "Weekly wave expected Wed 28 Oct 2026 (possibly running into Thu 29 Oct)",
       "status": "scored",
       "disclosure": "full",
@@ -1519,6 +1582,14 @@
       "target_id": "gb-opinium-observer-2026-10-28",
       "survey": "Opinium / The Observer political poll (Westminster voting intention and leader approval)",
       "publisher": "Opinium Research for The Observer",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/opinium.png",
+          "alt": "Opinium",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "wave": "First Opinium/Observer wave with fieldwork starting on or after Wed 28 Oct 2026 (expected 28-30 Oct, published about Sat 31 Oct)",
       "status": "scored",
       "disclosure": "full",
@@ -1593,6 +1664,14 @@
       "target_id": "us-conference-board-cci-2026-10",
       "survey": "The Conference Board Consumer Confidence Survey (monthly), five index questions",
       "publisher": "The Conference Board (fieldwork by Toluna)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/conference-board.png",
+          "alt": "The Conference Board",
+          "width": 407,
+          "height": 56
+        }
+      ],
       "wave": "October 2026 preliminary results (survey period Oct 1 to the preliminary cutoff, about Oct 20-21, 2026)",
       "status": "scored",
       "disclosure": "hashes_only",
@@ -1666,6 +1745,14 @@
       "target_id": "fr-ec-insee-consumer-survey-2026-10",
       "survey": "European Commission Joint Harmonised Consumer Survey, France (INSEE monthly household survey CAMME), monthly questions Q1-Q8, Q11, Q12, October 2026",
       "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); French partner institute INSEE",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/european-commission.png",
+          "alt": "European Commission",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "wave": "October 2026 French consumer survey wave (INSEE CAMME, fieldwork about 25 September to mid-October 2026, already closed or closing), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -1740,6 +1827,7 @@
       "target_id": "us-census-htops-2611-healthinfo",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), healthinfo items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1831,6 +1919,7 @@
       "target_id": "us-census-htops-2611-trust-a",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-a items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -1922,6 +2011,7 @@
       "target_id": "us-census-htops-2611-trust-b",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-b items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2013,6 +2103,7 @@
       "target_id": "us-census-htops-2611-wellbeing",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), wellbeing items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
+      "source_logos": [],
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2104,6 +2195,14 @@
       "target_id": "de-ec-gfk-consumer-survey-2026-11-05",
       "survey": "European Commission Joint Harmonised Consumer Survey, Germany (fieldwork NIQ/GfK eBUS), monthly questions Q1-Q9, Q11, Q12, November 2026",
       "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); German partner institute GfK GmbH / NIQ",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/european-commission.png",
+          "alt": "European Commission",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "wave": "November 2026 German consumer survey wave (expected fieldwork Thu 29 Oct or Thu 5 Nov to about 10-16 Nov 2026), EC release 27 November 2026 11:00 CET",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2178,6 +2277,14 @@
       "target_id": "gb-ipsos-political-monitor-2026-11-19",
       "survey": "Ipsos UK Political Monitor (KnowledgePanel) - Westminster voting intention and satisfaction with the Government and party leaders",
       "publisher": "Ipsos UK",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ipsos.png",
+          "alt": "Ipsos",
+          "width": 112,
+          "height": 112
+        }
+      ],
       "wave": "First Ipsos Political Monitor wave (KnowledgePanel, GB) with fieldwork starting on or after Thu 29 Oct 2026 (expected to start Thu 19 Nov or Thu 26 Nov 2026); void if no such wave is published by 2026-12-18",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2270,6 +2377,20 @@
       "target_id": "at-ec-ipsos-consumer-survey-2026-10",
       "survey": "European Commission Joint Harmonised Consumer Survey, Austria (fieldwork Ipsos, CCB Consumer Confidence Barometer), monthly questions Q1-Q9, Q11, Q12, October 2026",
       "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); partner institute Ipsos GmbH (Vienna)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/european-commission.png",
+          "alt": "European Commission",
+          "width": 180,
+          "height": 180
+        },
+        {
+          "src": "/assets/source-logos/ipsos.png",
+          "alt": "Ipsos",
+          "width": 112,
+          "height": 112
+        }
+      ],
       "wave": "October 2026 Austrian consumer survey wave (fieldwork about 1 to 15 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -2360,6 +2481,14 @@
       "target_id": "de-ec-gfk-consumer-survey-2026-10",
       "survey": "European Commission Joint Harmonised Consumer Survey, Germany (fieldwork NIQ/GfK eBUS), monthly questions Q1-Q9, Q11, Q12, October 2026",
       "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); German partner institute GfK GmbH / NIQ",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/european-commission.png",
+          "alt": "European Commission",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "wave": "October 2026 German consumer survey wave (GfK fieldwork Thu 1 to about Mon 12 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -2450,6 +2579,14 @@
       "target_id": "es-ec-gfk-consumer-survey-2026-10",
       "survey": "European Commission Joint Harmonised Consumer Survey, Spain (fieldwork NIQ/GfK eBUS), monthly questions Q1-Q9, Q11, Q12, October 2026",
       "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); partner institute GfK GmbH / NIQ",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/european-commission.png",
+          "alt": "European Commission",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "wave": "October 2026 Spanish consumer survey wave (fieldwork about 4 to 11 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -2540,6 +2677,14 @@
       "target_id": "jp-esri-consumer-confidence-2026-10",
       "survey": "Cabinet Office ESRI 消費動向調査 (Consumer Confidence Survey, monthly): consumer-attitude components and one-year price outlook, two-or-more-person households",
       "publisher": "Cabinet Office, Economic and Social Research Institute (内閣府経済社会総合研究所 景気統計部); fieldwork contracted to Survey Research Center Co., Ltd.",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/esri.png",
+          "alt": "Economic and Social Research Institute",
+          "width": 1200,
+          "height": 225
+        }
+      ],
       "wave": "October 2026 survey (令和8年10月実施分; reference date 15 Oct 2026), results released Thu 29 Oct 2026 14:00 JST; void if not released by 2026-11-20",
       "status": "scored",
       "disclosure": "full",
@@ -2629,6 +2774,7 @@
       "target_id": "gb-freshwater-cityam-2026-11-06",
       "survey": "City AM / Freshwater Strategy monthly UK poll (Westminster voting intention, preferred PM, direction of the country, economic expectations)",
       "publisher": "Freshwater Strategy for City AM",
+      "source_logos": [],
       "wave": "First City AM / Freshwater Strategy UK poll with fieldwork starting on or after Fri 30 Oct 2026 (expected Fri 6-Sun 8 Nov 2026, data tables about Mon 9-Wed 11 Nov); void if no such wave is published by 2026-11-30",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2737,6 +2883,7 @@
       "target_id": "gb-moreincommon-vi-2026-10-30",
       "survey": "More in Common GB Voting Intention & Trackers (weekly)",
       "publisher": "More in Common UK",
+      "source_logos": [],
       "wave": "Weekly wave expected Fri 30 Oct to Mon 2 Nov 2026 (first wave with fieldwork starting on or after Thu 29 Oct 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -2829,6 +2976,14 @@
       "target_id": "de-insa-meinungstrend-2026-11-03",
       "survey": "INSA-Meinungstrend Sonntagsfrage (online panel wave, for BILD)",
       "publisher": "INSA-CONSULERE for BILD",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/insa.png",
+          "alt": "INSA",
+          "width": 1367,
+          "height": 534
+        }
+      ],
       "wave": "Online wave expected Fri 30 October to Mon 2 November 2026, published Mon 2 / Tue 3 November 2026",
       "status": "scored",
       "disclosure": "full",
@@ -2902,6 +3057,14 @@
       "target_id": "us-economist-yougov-2026-10-30",
       "survey": "The Economist/YouGov Poll (weekly, US registered voters)",
       "publisher": "YouGov for The Economist",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
       "wave": "Next weekly wave after October 23-26, 2026 (expected fieldwork about Oct 30 - Nov 2, 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -2994,6 +3157,7 @@
       "target_id": "us-nyfed-sce-2026-11-01",
       "survey": "Federal Reserve Bank of New York Survey of Consumer Expectations (monthly core survey), household finance and credit access questions",
       "publisher": "Federal Reserve Bank of New York, Center for Microeconomic Data",
+      "source_logos": [],
       "wave": "November 2026 survey (fieldwork November 1-30, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3067,6 +3231,7 @@
       "target_id": "ch-gfsbern-srgtrend-2026-11-04",
       "survey": "SRG SSR Trendumfrage (gfs.bern), 2nd wave before the Swiss federal popular votes of 29 November 2026",
       "publisher": "gfs.bern for SRG SSR (CR-Konferenz der SRG SSR)",
+      "source_logos": [],
       "wave": "2. Welle der SRG-Trendumfragen zur Volksabstimmung vom 29. November 2026 (expected fieldwork about 4-12 Nov 2026, publication Wed 18 Nov 2026 06:00 CET)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3140,6 +3305,14 @@
       "target_id": "gb-yougov-trackers-2026-11-01",
       "survey": "YouGov GB weekly trackers (government approval, most important issues, Westminster voting intention)",
       "publisher": "YouGov (voting intention commissioned by The Times and Sky News)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
       "wave": "Weekly wave expected 1-2 November 2026 (next after 25-26 October 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3232,6 +3405,7 @@
       "target_id": "us-gallup-2026-11",
       "survey": "Gallup Poll Social Series, monthly (U.S. satisfaction, Economic Confidence Index components, most important problem)",
       "publisher": "Gallup",
+      "source_logos": [],
       "wave": "November 2026 (expected fieldwork about Nov 2-20, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3305,6 +3479,20 @@
       "target_id": "de-ard-deutschlandtrend-2026-11",
       "survey": "ARD-DeutschlandTrend (infratest dimap for ARD tagesthemen)",
       "publisher": "infratest dimap for ARD",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ard.png",
+          "alt": "ARD",
+          "width": 152,
+          "height": 152
+        },
+        {
+          "src": "/assets/source-logos/infratest-dimap.png",
+          "alt": "infratest dimap",
+          "width": 600,
+          "height": 170
+        }
+      ],
       "wave": "November 2026 (expected fieldwork Mon 2 to Wed 4 Nov, release expected Thu 5 Nov)",
       "status": "scored",
       "disclosure": "full",
@@ -3395,6 +3583,7 @@
       "target_id": "fr-ifop-popularite-2026-11-04",
       "survey": "Ifop-Endrix pour L'Opinion, Les indices de popularité (Baromètre Ifop Opinion; monthly satisfaction with the President and the Prime Minister, successor of the Ifop/JDD index)",
       "publisher": "Ifop (Ifop Opinion) with Endrix for L'Opinion",
+      "source_logos": [],
       "wave": "First \"Indices de popularité\" wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork starting about 4-12 Nov, published on a Monday about 16-23 Nov 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3516,6 +3705,14 @@
       "target_id": "fr-ipsos-bva-tribune-2026-11-04",
       "survey": "Baromètre politique Ipsos bva-CESI École d'ingénieurs pour La Tribune Dimanche (monthly popularity of the President and the Prime Minister)",
       "publisher": "Ipsos bva and CESI École d'ingénieurs for La Tribune Dimanche",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ipsos.png",
+          "alt": "Ipsos",
+          "width": 112,
+          "height": 112
+        }
+      ],
       "wave": "First Baromètre politique wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork about 4-5 Nov or 12-13 Nov, published the following Saturday)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3637,6 +3834,7 @@
       "target_id": "us-gallup-holiday-spending-2026-11",
       "survey": "Gallup Poll Social Series, November: Christmas / holiday gift spending estimate",
       "publisher": "Gallup",
+      "source_logos": [],
       "wave": "November 2026 (expected fieldwork about Nov 2-20, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3758,6 +3956,14 @@
       "target_id": "us-ipsos-consumer-tracker-2026-11-03",
       "survey": "Ipsos Consumer Tracker (Ipsos Poll on Consumer Behavior), biweekly",
       "publisher": "Ipsos (US Public Affairs, What the Future)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ipsos.png",
+          "alt": "Ipsos",
+          "width": 112,
+          "height": 112
+        }
+      ],
       "wave": "First Ipsos Consumer Tracker wave with fieldwork starting Nov 3-8, 2026 (expected wave 151, Tue-Wed Nov 3-4, 2026, possibly shifted to about Nov 5-7 around election day)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3881,6 +4087,7 @@
       "target_id": "global-steam-weekly-topsellers-2026-11-10",
       "survey": "Steam weekly top sellers, global, by gross revenue (Borda rank shares of the top 10)",
       "publisher": "Valve (Steam store charts and IStoreTopSellersService API, free, no login or key)",
+      "source_logos": [],
       "wave": "Week Tuesday 3 November to Tuesday 10 November 2026 (Steam week starting 2026-11-03)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4002,6 +4209,14 @@
       "target_id": "de-forsa-trendbarometer-2026-11-10",
       "survey": "RTL/ntv Trendbarometer Sonntagsfrage (Forsa)",
       "publisher": "Forsa Gesellschaft für Sozialforschung und statistische Analysen for RTL Deutschland (RTL/ntv)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/forsa.png",
+          "alt": "Forsa",
+          "width": 40,
+          "height": 123
+        }
+      ],
       "wave": "Weekly wave expected Tue 3 November to Mon 9 November 2026, published Tue 10 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4139,6 +4354,7 @@
       "target_id": "de-allensbach-faz-2026-11",
       "survey": "Institut für Demoskopie Allensbach Sonntagsfrage for the Frankfurter Allgemeine Zeitung",
       "publisher": "Institut für Demoskopie Allensbach for the Frankfurter Allgemeine Zeitung (FAZ)",
+      "source_logos": [],
       "wave": "First Allensbach / FAZ Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected about 6 to 19 November 2026, published about 20 to 26 November 2026 (or the December wave if the November wave started before 3 November)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4276,6 +4492,7 @@
       "target_id": "de-gms-2026-11",
       "survey": "GMS (Gesellschaft für Markt- und Sozialforschung) Sonntagsfrage",
       "publisher": "GMS Dr. Jung GmbH (Gesellschaft für Markt- und Sozialforschung), Hamburg",
+      "source_logos": [],
       "wave": "First GMS Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected mid November to mid December 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4413,6 +4630,14 @@
       "target_id": "de-kba-car-registrations-brand-2026-10",
       "survey": "KBA Fahrzeugzulassungen: Pkw-Neuzulassungen nach Marken (new passenger car registrations by brand), Germany",
       "publisher": "Kraftfahrt-Bundesamt (KBA)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/kba.png",
+          "alt": "Kraftfahrt-Bundesamt",
+          "width": 115,
+          "height": 81
+        }
+      ],
       "wave": "October 2026 (press release expected Wed 4 Nov 2026; FZ 10 table announced Fri 6 Nov 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -4486,6 +4711,7 @@
       "target_id": "de-verian-bams-2026-11",
       "survey": "Verian (formerly Emnid) Sonntagsfrage for Bild am Sonntag",
       "publisher": "Verian (formerly Kantar Public / Emnid) for Bild am Sonntag",
+      "source_logos": [],
       "wave": "First Verian / BamS Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected about Wed 11 to Tue 17 November 2026, published about Fri 20 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4623,6 +4849,14 @@
       "target_id": "gb-findoutnow-vi-2026-11-04",
       "survey": "Find Out Now weekly GB Westminster voting intention",
       "publisher": "Find Out Now (self-published tracker)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/find-out-now.png",
+          "alt": "Find Out Now",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "wave": "Weekly wave expected Wed 4 Nov 2026 (possibly running into Thu 5 Nov)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4760,6 +4994,7 @@
       "target_id": "gb-ons-opn-2026-11-04",
       "survey": "ONS Opinions and Lifestyle Survey (OPN): Public opinions and social trends, Great Britain, November 2026 period (household finances, cost of living, loneliness, health, Christmas spending)",
       "publisher": "Office for National Statistics (ONS), OPN Analysis team",
+      "source_logos": [],
       "wave": "November 2026 OPN data collection period, expected 4 to 29 November 2026 (bulletin \"Public opinions and social trends, Great Britain: November 2026\", release 18 December 2026 09:30)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -4883,6 +5118,14 @@
       "target_id": "gb-opinium-observer-2026-11-04",
       "survey": "Opinium / The Observer political poll (Westminster voting intention and leader approval)",
       "publisher": "Opinium Research for The Observer",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/opinium.png",
+          "alt": "Opinium",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "wave": "First Opinium/Observer wave with fieldwork starting on or after Wed 4 Nov 2026 (expected 4-6 Nov, published about Sat 7 Nov; 11-13 Nov if fortnightly)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5021,6 +5264,14 @@
       "target_id": "gb-system1-xmas-2026-tesco",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Tesco \"The Wrong Address\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Tesco, released 2026-11-01 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5078,6 +5329,7 @@
       "target_id": "us-voter-poll-ssrs-2026",
       "survey": "The Voter Poll by SSRS (2026 US midterm voters; national results)",
       "publisher": "SSRS for ABC News, The Associated Press, CBS News, CNN, Fox News, MS NOW and NBC News",
+      "source_logos": [],
       "wave": "2026 midterm election (Election Day November 3, 2026), national sample",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5167,6 +5419,14 @@
       "target_id": "gb-system1-xmas-2026-sainsburys",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Sainsbury's \"Sainsbury’s big delivery.\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Sainsbury's, released 2026-11-01 08:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5224,6 +5484,7 @@
       "target_id": "us-turnout-vep-2026",
       "survey": "US 2026 general election turnout (voting-eligible population)",
       "publisher": "UF Election Lab / US Elections Project (Michael McDonald)",
+      "source_logos": [],
       "wave": "November 3, 2026 general election (midterm)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5297,6 +5558,14 @@
       "target_id": "de-netflix-top10-2026-11-01",
       "survey": "Netflix weekly Top 10 in Germany, series and films (Borda rank shares of the top ten)",
       "publisher": "Netflix (Tudum Top 10, self-published)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/netflix.png",
+          "alt": "Netflix",
+          "width": 64,
+          "height": 64
+        }
+      ],
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
       "disclosure": "full",
@@ -5370,6 +5639,14 @@
       "target_id": "gb-netflix-top10-2026-11-01",
       "survey": "Netflix weekly Top 10 in United Kingdom, series and films (Borda rank shares of the top ten)",
       "publisher": "Netflix (Tudum Top 10, self-published)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/netflix.png",
+          "alt": "Netflix",
+          "width": 64,
+          "height": 64
+        }
+      ],
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
       "disclosure": "full",
@@ -5443,6 +5720,14 @@
       "target_id": "global-netflix-top10-english-2026-11-01",
       "survey": "Netflix global weekly Top 10, English-language films and series (share of views among the top ten)",
       "publisher": "Netflix (Tudum Top 10, self-published)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/netflix.png",
+          "alt": "Netflix",
+          "width": 64,
+          "height": 64
+        }
+      ],
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
       "disclosure": "full",
@@ -5516,6 +5801,14 @@
       "target_id": "us-system1-xmas-2026-best-buy",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Best Buy \"Tech gifts they’ll love.\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Best Buy, released 2026-11-01 16:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5573,6 +5866,14 @@
       "target_id": "us-system1-xmas-2026-chewy",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Chewy \"A Holiday Dream\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Chewy, released 2026-11-01 17:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5630,6 +5931,7 @@
       "target_id": "us-boxoffice-weekend-2026-11-06",
       "survey": "US and Canada (domestic) weekend box office: share of gross by film",
       "publisher": "Box Office Mojo (IMDbPro) / studio reports",
+      "source_logos": [],
       "wave": "Weekend Friday 6 - Sunday 8 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5703,6 +6005,14 @@
       "target_id": "us-system1-xmas-2026-chewy-3",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Chewy \"Chewy Claus: Meet Raybans\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5760,6 +6070,14 @@
       "target_id": "us-system1-xmas-2026-chewy-2",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Chewy \"Chewy Claus: Your Pet's Letter Can Help Shelter Pets\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5817,6 +6135,14 @@
       "target_id": "gb-system1-xmas-2026-very",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Very \"That's the Very thing\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Very, released 2026-11-02 11:11Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5874,6 +6200,7 @@
       "target_id": "jp-nhk-seiji-ishiki-2026-11-05",
       "survey": "NHK 政治意識月例電話調査 (NHK monthly political opinion telephone poll: cabinet support, party support and reasons)",
       "publisher": "NHK (Japan Broadcasting Corporation), NHK選挙WEB",
+      "source_logos": [],
       "wave": "First NHK monthly political-attitudes telephone poll (政治意識月例電話調査) whose fieldwork starts on or after Thu 5 Nov 2026 JST (expected Fri 6-Sun 8 Nov or Fri 13-Sun 15 Nov 2026, results the following day); void if not published by 2026-11-20",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6011,6 +6338,14 @@
       "target_id": "us-system1-xmas-2026-etsy",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Etsy \"Workshops\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Etsy, released 2026-11-02 18:01Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6068,6 +6403,14 @@
       "target_id": "gb-smmt-car-registrations-marque-2026-10",
       "survey": "SMMT new car registrations by marque, United Kingdom",
       "publisher": "SMMT (Society of Motor Manufacturers and Traders)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/smmt.png",
+          "alt": "SMMT",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "wave": "October 2026 (release Thu 5 Nov 2026, 09:00 UK time)",
       "status": "scored",
       "disclosure": "full",
@@ -6141,6 +6484,14 @@
       "target_id": "gb-system1-xmas-2026-john-lewis",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: John Lewis \"Gloria and Pickles\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (John Lewis, released 2026-11-03 07:28Z)",
       "status": "scored",
       "disclosure": "full",
@@ -6198,6 +6549,14 @@
       "target_id": "gb-system1-xmas-2026-asda",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Dinner Table\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Asda, released 2026-11-03 08:35Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6255,6 +6614,14 @@
       "target_id": "gb-system1-xmas-2026-asda-2",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Decorating\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Asda, released 2026-11-03 08:36Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6312,6 +6679,14 @@
       "target_id": "gb-system1-xmas-2026-burberry",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Burberry \"Wrapped in Burberry\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Burberry, released 2026-11-03 10:02Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6369,6 +6744,14 @@
       "target_id": "gb-system1-xmas-2026-lidl",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Lidl \"Lidl Christmas Everybody\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Lidl, released 2026-11-03 10:08Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6426,6 +6809,14 @@
       "target_id": "de-insa-meinungstrend-2026-11-10",
       "survey": "INSA-Meinungstrend Sonntagsfrage (online panel wave, for BILD)",
       "publisher": "INSA-CONSULERE for BILD",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/insa.png",
+          "alt": "INSA",
+          "width": 1367,
+          "height": 534
+        }
+      ],
       "wave": "Online wave expected Fri 6 November to Mon 9 November 2026, published Mon 9 / Tue 10 November 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6563,6 +6954,14 @@
       "target_id": "us-system1-xmas-2026-gap",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Gap \"Give your gift.\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Gap, released 2026-11-03 14:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6604,6 +7003,14 @@
       "target_id": "gb-system1-xmas-2026-boots",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Boots \"Boots Christmas Advert 2026 | Give It Some Boots\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Boots, released 2026-11-04 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6661,6 +7068,7 @@
       "target_id": "us-umich-sca-2026-11",
       "survey": "University of Michigan Surveys of Consumers (monthly), November 2026, five core questions",
       "publisher": "Survey Research Center, University of Michigan",
+      "source_logos": [],
       "wave": "November 2026 final (interviews Oct 20 - Nov 16, 2026; preliminary cutoff Nov 2; preliminary release Nov 6, final release Nov 20)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6750,6 +7158,14 @@
       "target_id": "gb-system1-xmas-2026-asda-3",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Home Delivery (spot name not stated)\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Asda, released 2026-11-04 09:16Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6807,6 +7223,14 @@
       "target_id": "us-system1-xmas-2026-starbucks",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Starbucks \"Perfect Harmony | The Starbucks Coffee Company\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Starbucks, released 2026-11-04 18:49Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6864,6 +7288,14 @@
       "target_id": "gb-system1-xmas-2026-aldi",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Aldi \"Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Aldi, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6921,6 +7353,14 @@
       "target_id": "gb-system1-xmas-2026-amazon",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Amazon \"Amazon | Joy Delivered\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Amazon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6978,6 +7418,14 @@
       "target_id": "gb-system1-xmas-2026-barbour",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Barbour \"Barbour x Wallace & Gromit | Barbour Christmas Film 2026\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Barbour, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7035,6 +7483,14 @@
       "target_id": "gb-system1-xmas-2026-lego",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Lego \"The LEGO® Holiday Ad Drop | Full Edit\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Lego, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7092,6 +7548,14 @@
       "target_id": "gb-system1-xmas-2026-tk-maxx",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: TK Maxx \"TK Maxx Festive Crossing | Christmas Advert 2026\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (TK Maxx, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7149,6 +7613,14 @@
       "target_id": "us-system1-xmas-2026-amazon",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Amazon \"Amazon | Joy Delivered\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Amazon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7206,6 +7678,14 @@
       "target_id": "us-system1-xmas-2026-lego",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Lego \"The LEGO® Holiday Ad Drop | Full Edit\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Lego, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7263,6 +7743,14 @@
       "target_id": "us-system1-xmas-2026-verizon",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Verizon \"Holiday Workshop | Martin Short, Marsai Martin & Meg Stalter | Verizon\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Verizon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7320,6 +7808,14 @@
       "target_id": "us-system1-xmas-2026-walmart-2",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Walmart \"Walmart Presents: The Ghost of Christmas Presents\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (Walmart, released 2026-11-05 22:38Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7377,6 +7873,14 @@
       "target_id": "gb-system1-xmas-2026-ms",
       "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: M&S Food \"The Home Of Christmas | M&S Christmas 2026\"",
       "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "wave": "Christmas 2026 (M&S Food, released 2026-11-06 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7434,6 +7938,7 @@
       "target_id": "de-zdf-politbarometer-2026-11-13",
       "survey": "ZDF-Politbarometer (Forschungsgruppe Wahlen)",
       "publisher": "Forschungsgruppe Wahlen e.V. for ZDF",
+      "source_logos": [],
       "wave": "Release Fri 13 November 2026 (fieldwork expected about Tue Nov 10 to Thu Nov 12)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7572,6 +8077,7 @@
       "target_id": "spotify-de-weekly-2026-11-19-measurement-v2",
       "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [],
       "wave": "2026-11-19",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7613,6 +8119,7 @@
       "target_id": "spotify-us-weekly-2026-11-19-measurement-v2",
       "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [],
       "wave": "2026-11-19",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7654,6 +8161,14 @@
       "target_id": "netflix-global-english-films-2026-11-22-measurement-v2",
       "survey": "Netflix global English films (volume shares; measurement v2)",
       "publisher": "Netflix Tudum",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/netflix.png",
+          "alt": "Netflix",
+          "width": 64,
+          "height": 64
+        }
+      ],
       "wave": "2026-11-22",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7695,6 +8210,7 @@
       "target_id": "spotify-de-weekly-2026-11-26-rolling-v3",
       "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [],
       "wave": "2026-11-26",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7736,6 +8252,7 @@
       "target_id": "spotify-us-weekly-2026-11-26-rolling-v3",
       "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [],
       "wave": "2026-11-26",
       "status": "pending",
       "disclosure": "hashes_only",

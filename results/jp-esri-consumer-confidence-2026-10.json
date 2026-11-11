@@ -6,8 +6,20 @@
   "source_url": "https://www.esri.cao.go.jp/jp/stat/shouhi/honbun.pdf",
   "scored_at": "2026-10-29T06:48:10Z",
   "results_sha256": "3c2bfbd2e79451b752d0932c219e49d1bade4cdaddb9e516882b6d1c0cb4ba25",
-  "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "released_values_public": true,
+  "licence_note": "Source: Consumer Confidence Survey, Cabinet Office of Japan, October 2026. Prepared by Minds from the published response tables; shares normalised over the listed options and rounded. The Cabinet Office permits commercial reuse with attribution and identification of edits.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://www.esri.cao.go.jp/jp/stat/shouhi/honbun.pdf",
+    "terms": [
+      {
+        "label": "Cabinet Office reuse terms",
+        "url": "https://www.cao.go.jp/en/notice-e.html"
+      }
+    ],
+    "credit": "Source: Consumer Confidence Survey, Cabinet Office of Japan, October 2026. Prepared by Minds from the published response tables; shares normalised over the listed options and rounded. The Cabinet Office permits commercial reuse with attribution and identification of edits."
+  },
   "summary": {
     "pure": {
       "items": 5,
@@ -105,7 +117,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.038,
-      "mae_pp": 1.52
+      "mae_pp": 1.52,
+      "released": [
+        0.006,
+        0.037,
+        0.401,
+        0.387,
+        0.169
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__income_growth__overall__r1",
@@ -117,7 +137,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.056,
-      "mae_pp": 2.24
+      "mae_pp": 2.24,
+      "released": [
+        0.003,
+        0.055,
+        0.62,
+        0.198,
+        0.124
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__employment__overall__r1",
@@ -129,7 +157,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.061,
-      "mae_pp": 2.44
+      "mae_pp": 2.44,
+      "released": [
+        0.005,
+        0.052,
+        0.554,
+        0.291,
+        0.098
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__durables_buying__overall__r1",
@@ -141,7 +177,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.205,
-      "mae_pp": 8.2
+      "mae_pp": 8.2,
+      "released": [
+        0.001,
+        0.022,
+        0.239,
+        0.522,
+        0.216
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__price_outlook_1y__overall__r1",
@@ -153,7 +197,18 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.027,
-      "mae_pp": 0.675
+      "mae_pp": 0.675,
+      "released": [
+        0.007,
+        0.01,
+        0.018,
+        0.038,
+        0.11,
+        0.317,
+        0.481,
+        0.019
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__livelihood__overall__r1",
@@ -165,7 +220,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.021,
-      "mae_pp": 0.84
+      "mae_pp": 0.84,
+      "released": [
+        0.006,
+        0.037,
+        0.401,
+        0.387,
+        0.169
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__income_growth__overall__r1",
@@ -177,7 +240,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.011,
-      "mae_pp": 0.44
+      "mae_pp": 0.44,
+      "released": [
+        0.003,
+        0.055,
+        0.62,
+        0.198,
+        0.124
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__employment__overall__r1",
@@ -189,7 +260,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.009,
-      "mae_pp": 0.36
+      "mae_pp": 0.36,
+      "released": [
+        0.005,
+        0.052,
+        0.554,
+        0.291,
+        0.098
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__durables_buying__overall__r1",
@@ -201,7 +280,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.016,
-      "mae_pp": 0.64
+      "mae_pp": 0.64,
+      "released": [
+        0.001,
+        0.022,
+        0.239,
+        0.522,
+        0.216
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__price_outlook_1y__overall__r1",
@@ -213,7 +300,18 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.006,
-      "mae_pp": 0.15
+      "mae_pp": 0.15,
+      "released": [
+        0.007,
+        0.01,
+        0.018,
+        0.038,
+        0.11,
+        0.317,
+        0.481,
+        0.019
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__livelihood__overall__r1",
@@ -225,7 +323,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.042,
-      "mae_pp": 1.68
+      "mae_pp": 1.68,
+      "released": [
+        0.006,
+        0.037,
+        0.401,
+        0.387,
+        0.169
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__income_growth__overall__r1",
@@ -237,7 +343,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.061,
-      "mae_pp": 2.44
+      "mae_pp": 2.44,
+      "released": [
+        0.003,
+        0.055,
+        0.62,
+        0.198,
+        0.124
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__employment__overall__r1",
@@ -249,7 +363,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.059,
-      "mae_pp": 2.36
+      "mae_pp": 2.36,
+      "released": [
+        0.005,
+        0.052,
+        0.554,
+        0.291,
+        0.098
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__durables_buying__overall__r1",
@@ -261,7 +383,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.221,
-      "mae_pp": 8.84
+      "mae_pp": 8.84,
+      "released": [
+        0.001,
+        0.022,
+        0.239,
+        0.522,
+        0.216
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__price_outlook_1y__overall__r1",
@@ -273,7 +403,18 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0375,
-      "mae_pp": 0.9375
+      "mae_pp": 0.9375,
+      "released": [
+        0.007,
+        0.01,
+        0.018,
+        0.038,
+        0.11,
+        0.317,
+        0.481,
+        0.019
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__livelihood__overall__r1",
@@ -285,7 +426,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.02325,
-      "mae_pp": 0.93
+      "mae_pp": 0.93,
+      "released": [
+        0.006,
+        0.037,
+        0.401,
+        0.387,
+        0.169
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__income_growth__overall__r1",
@@ -297,7 +446,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.026,
-      "mae_pp": 1.04
+      "mae_pp": 1.04,
+      "released": [
+        0.003,
+        0.055,
+        0.62,
+        0.198,
+        0.124
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__employment__overall__r1",
@@ -309,7 +466,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0335,
-      "mae_pp": 1.34
+      "mae_pp": 1.34,
+      "released": [
+        0.005,
+        0.052,
+        0.554,
+        0.291,
+        0.098
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__durables_buying__overall__r1",
@@ -321,7 +486,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1075,
-      "mae_pp": 4.3
+      "mae_pp": 4.3,
+      "released": [
+        0.001,
+        0.022,
+        0.239,
+        0.522,
+        0.216
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__price_outlook_1y__overall__r1",
@@ -333,7 +506,18 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0145,
-      "mae_pp": 0.3625
+      "mae_pp": 0.3625,
+      "released": [
+        0.007,
+        0.01,
+        0.018,
+        0.038,
+        0.11,
+        0.317,
+        0.481,
+        0.019
+      ],
+      "released_values_public": true
     }
   ]
 }

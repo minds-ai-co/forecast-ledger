@@ -6,8 +6,31 @@
   "source_url": "https://www.wahlrecht.de/umfragen/insa.htm",
   "scored_at": "2026-11-03T08:35:15Z",
   "results_sha256": "1db557d7419d21368b328d674cae26be83e08ccf87936d0c573c6e21e4a6bd23",
-  "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "released_values_public": true,
+  "licence_note": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4370, INSA, 2026-11-03; ODbL 1.0. Party shares mapped into the locked answer order; BSW grouped with other parties where specified. The source subset is downloadable under the same licence. Minds forecasts are separate independent estimates.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://api.dawum.de/",
+    "terms": [
+      {
+        "label": "DAWUM data source",
+        "url": "https://api.dawum.de/"
+      },
+      {
+        "label": "ODbL 1.0",
+        "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+      },
+      {
+        "label": "Reusable source data (ODbL)",
+        "url": "https://forecasts.getminds.ai/sources/de-insa-meinungstrend-2026-11-03.json"
+      }
+    ],
+    "question_ids": [
+      "sonntagsfrage"
+    ],
+    "credit": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4370, INSA, 2026-11-03; ODbL 1.0. Party shares mapped into the locked answer order; BSW grouped with other parties where specified. The source subset is downloadable under the same licence. Minds forecasts are separate independent estimates."
+  },
   "summary": {
     "pure": {
       "items": 1,
@@ -85,7 +108,18 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.065,
-      "mae_pp": 1.625
+      "mae_pp": 1.625,
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.035,
+        0.05,
+        0.045
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-insa-meinungstrend-2026-11-03__anchored3__sonntagsfrage__overall__r1",
@@ -97,7 +131,18 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0278,
-      "mae_pp": 0.695
+      "mae_pp": 0.695,
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.035,
+        0.05,
+        0.045
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-insa-meinungstrend-2026-11-03__memory3__sonntagsfrage__overall__r1",
@@ -109,7 +154,18 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0625,
-      "mae_pp": 1.5625
+      "mae_pp": 1.5625,
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.035,
+        0.05,
+        0.045
+      ],
+      "released_values_public": true
     }
   ]
 }

@@ -8,6 +8,22 @@
   "results_sha256": "11ec979cd7c8b9e3180dd3bfa26311c0c2e017445d56d69001aa35fe9ea3ca78",
   "released_values_public": true,
   "licence_note": "Source: European Commission, DG ECFIN, Business and Consumer Surveys, October 2026. © European Union, CC BY 4.0. Answer shares normalised over the listed options and rounded for display. Minds forecasts are independent estimates; no EU endorsement is implied.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
+    "terms": [
+      {
+        "label": "EU reuse terms",
+        "url": "https://commission.europa.eu/legal-notice_en"
+      },
+      {
+        "label": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      }
+    ],
+    "credit": "Source: European Commission, DG ECFIN, Business and Consumer Surveys, October 2026. © European Union, CC BY 4.0. Answer shares normalised over the listed options and rounded for display. Minds forecasts are independent estimates; no EU endorsement is implied."
+  },
   "summary": {
     "pure": {
       "items": 10,
@@ -140,7 +156,8 @@
         0.312,
         0.103,
         0.005
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__fin_next12__overall__r1",
@@ -160,7 +177,8 @@
         0.2817,
         0.0779,
         0.03
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__econ_past12__overall__r1",
@@ -180,7 +198,8 @@
         0.31,
         0.607,
         0.004
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__econ_next12__overall__r1",
@@ -200,7 +219,8 @@
         0.3556,
         0.3756,
         0.033
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__prices_past12__overall__r1",
@@ -220,7 +240,8 @@
         0.015998400159984,
         0.000999900009999,
         0.001999800019998
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__prices_next12__overall__r1",
@@ -240,7 +261,8 @@
         0.114,
         0.006,
         0.033
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__unemployment_next12__overall__r1",
@@ -260,7 +282,8 @@
         0.035,
         0.007,
         0.04
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__major_purchases_now__overall__r1",
@@ -278,7 +301,8 @@
         0.401,
         0.512,
         0.019
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__savings_next12__overall__r1",
@@ -297,7 +321,8 @@
         0.215,
         0.234,
         0.016
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__household_fin_now__overall__r1",
@@ -317,7 +342,8 @@
         0.22277772222777723,
         0.04899510048995101,
         0.003999600039996
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_past12__overall__r1",
@@ -337,7 +363,8 @@
         0.312,
         0.103,
         0.005
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
@@ -357,7 +384,8 @@
         0.2817,
         0.0779,
         0.03
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
@@ -377,7 +405,8 @@
         0.31,
         0.607,
         0.004
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
@@ -397,7 +426,8 @@
         0.3556,
         0.3756,
         0.033
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
@@ -417,7 +447,8 @@
         0.015998400159984,
         0.000999900009999,
         0.001999800019998
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
@@ -437,7 +468,8 @@
         0.114,
         0.006,
         0.033
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
@@ -457,7 +489,8 @@
         0.035,
         0.007,
         0.04
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
@@ -475,7 +508,8 @@
         0.401,
         0.512,
         0.019
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
@@ -494,7 +528,8 @@
         0.215,
         0.234,
         0.016
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
@@ -514,7 +549,8 @@
         0.22277772222777723,
         0.04899510048995101,
         0.003999600039996
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__fin_past12__overall__r1",
@@ -534,7 +570,8 @@
         0.312,
         0.103,
         0.005
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__fin_next12__overall__r1",
@@ -554,7 +591,8 @@
         0.2817,
         0.0779,
         0.03
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__econ_past12__overall__r1",
@@ -574,7 +612,8 @@
         0.31,
         0.607,
         0.004
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__econ_next12__overall__r1",
@@ -594,7 +633,8 @@
         0.3556,
         0.3756,
         0.033
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__prices_past12__overall__r1",
@@ -614,7 +654,8 @@
         0.015998400159984,
         0.000999900009999,
         0.001999800019998
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__prices_next12__overall__r1",
@@ -634,7 +675,8 @@
         0.114,
         0.006,
         0.033
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__unemployment_next12__overall__r1",
@@ -654,7 +696,8 @@
         0.035,
         0.007,
         0.04
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__major_purchases_now__overall__r1",
@@ -672,7 +715,8 @@
         0.401,
         0.512,
         0.019
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__savings_next12__overall__r1",
@@ -691,7 +735,8 @@
         0.215,
         0.234,
         0.016
-      ]
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__household_fin_now__overall__r1",
@@ -711,7 +756,8 @@
         0.22277772222777723,
         0.04899510048995101,
         0.003999600039996
-      ]
+      ],
+      "released_values_public": true
     }
   ]
 }

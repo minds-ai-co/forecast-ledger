@@ -7,7 +7,19 @@
   "scored_at": "2026-10-27T18:52:45Z",
   "results_sha256": "af15e04099799cb02b0277a078203fa70c3dd9deaeef1802d2d24c9ad023bb76",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "licence_note": "YouGov’s public licence does not clear this commercial prediction-data publication. Human values remain linked to the original release pending written permission.",
+  "publication": {
+    "status": "permission_required",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://yougov.com/en-gb/trackers/government-approval",
+    "note": "YouGov’s public licence does not clear this commercial prediction-data publication. Human values remain linked to the original release pending written permission.",
+    "terms": [
+      {
+        "label": "YouGov public data licence",
+        "url": "https://yougov.com/about/terms/public-data-license"
+      }
+    ]
+  },
   "summary": {
     "pure": {
       "items": 30,
@@ -117,7 +129,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.07,
-      "mae_pp": 4.666667
+      "mae_pp": 4.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__age_18_24__r1",
@@ -129,7 +142,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.15,
-      "mae_pp": 10.0
+      "mae_pp": 10.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__age_65_plus__r1",
@@ -141,7 +155,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.195,
-      "mae_pp": 13.0
+      "mae_pp": 13.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__ge2024_con__r1",
@@ -153,7 +168,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.19,
-      "mae_pp": 12.666667
+      "mae_pp": 12.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__government_approval__ge2024_lab__r1",
@@ -165,7 +181,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.155,
-      "mae_pp": 10.333333
+      "mae_pp": 10.333333,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__overall__r1",
@@ -177,7 +194,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.068765,
-      "mae_pp": 1.719133
+      "mae_pp": 1.719133,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__age_18_24__r1",
@@ -189,7 +207,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.114394,
-      "mae_pp": 2.859848
+      "mae_pp": 2.859848,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__age_65_plus__r1",
@@ -201,7 +220,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.133267,
-      "mae_pp": 3.331683
+      "mae_pp": 3.331683,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__ge2024_con__r1",
@@ -213,7 +233,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.07,
-      "mae_pp": 1.75
+      "mae_pp": 1.75,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__westminster_vi__ge2024_lab__r1",
@@ -225,7 +246,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.142574,
-      "mae_pp": 3.564356
+      "mae_pp": 3.564356,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__overall__r1",
@@ -237,7 +259,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 1.0
+      "mae_pp": 1.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__age_18_24__r1",
@@ -249,7 +272,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5
+      "mae_pp": 0.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__age_65_plus__r1",
@@ -261,7 +285,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.5
+      "mae_pp": 1.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__ge2024_con__r1",
@@ -273,7 +298,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.06,
-      "mae_pp": 6.0
+      "mae_pp": 6.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_economy__ge2024_lab__r1",
@@ -285,7 +311,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 3.0
+      "mae_pp": 3.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__overall__r1",
@@ -297,7 +324,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0,
-      "mae_pp": 0.0
+      "mae_pp": 0.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__age_18_24__r1",
@@ -309,7 +337,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.5
+      "mae_pp": 1.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__age_65_plus__r1",
@@ -321,7 +350,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5
+      "mae_pp": 0.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__ge2024_con__r1",
@@ -333,7 +363,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5
+      "mae_pp": 0.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_immigration__ge2024_lab__r1",
@@ -345,7 +376,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 1.0
+      "mae_pp": 1.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__overall__r1",
@@ -357,7 +389,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.12,
-      "mae_pp": 12.0
+      "mae_pp": 12.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__age_18_24__r1",
@@ -369,7 +402,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 3.0
+      "mae_pp": 3.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__age_65_plus__r1",
@@ -381,7 +415,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.245,
-      "mae_pp": 24.5
+      "mae_pp": 24.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__ge2024_con__r1",
@@ -393,7 +428,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.16,
-      "mae_pp": 16.0
+      "mae_pp": 16.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_health__ge2024_lab__r1",
@@ -405,7 +441,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.16,
-      "mae_pp": 16.0
+      "mae_pp": 16.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__overall__r1",
@@ -417,7 +454,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.16,
-      "mae_pp": 16.0
+      "mae_pp": 16.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__age_18_24__r1",
@@ -429,7 +467,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0275,
-      "mae_pp": 2.75
+      "mae_pp": 2.75,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__age_65_plus__r1",
@@ -441,7 +480,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.305,
-      "mae_pp": 30.5
+      "mae_pp": 30.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__ge2024_con__r1",
@@ -453,7 +493,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.24,
-      "mae_pp": 24.0
+      "mae_pp": 24.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__mii_defence__ge2024_lab__r1",
@@ -465,7 +506,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.145,
-      "mae_pp": 14.5
+      "mae_pp": 14.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__overall__r1",
@@ -477,7 +519,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.022,
-      "mae_pp": 1.466667
+      "mae_pp": 1.466667,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__age_18_24__r1",
@@ -489,7 +532,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0695,
-      "mae_pp": 4.633333
+      "mae_pp": 4.633333,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__age_65_plus__r1",
@@ -501,7 +545,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.039,
-      "mae_pp": 2.6
+      "mae_pp": 2.6,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__ge2024_con__r1",
@@ -513,7 +558,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.07,
-      "mae_pp": 4.666667
+      "mae_pp": 4.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__government_approval__ge2024_lab__r1",
@@ -525,7 +571,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.046,
-      "mae_pp": 3.066667
+      "mae_pp": 3.066667,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__overall__r1",
@@ -537,7 +584,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.019469,
-      "mae_pp": 0.486735
+      "mae_pp": 0.486735,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__age_18_24__r1",
@@ -549,7 +597,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.088561,
-      "mae_pp": 2.214015
+      "mae_pp": 2.214015,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__age_65_plus__r1",
@@ -561,7 +610,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.040762,
-      "mae_pp": 1.019059
+      "mae_pp": 1.019059,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__ge2024_con__r1",
@@ -573,7 +623,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.097,
-      "mae_pp": 2.425
+      "mae_pp": 2.425,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__westminster_vi__ge2024_lab__r1",
@@ -585,7 +636,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.036881,
-      "mae_pp": 0.92203
+      "mae_pp": 0.92203,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__overall__r1",
@@ -597,7 +649,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.008,
-      "mae_pp": 0.8
+      "mae_pp": 0.8,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__age_18_24__r1",
@@ -609,7 +662,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.025,
-      "mae_pp": 2.5
+      "mae_pp": 2.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__age_65_plus__r1",
@@ -621,7 +675,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0135,
-      "mae_pp": 1.35
+      "mae_pp": 1.35,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__ge2024_con__r1",
@@ -633,7 +688,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0025,
-      "mae_pp": 0.25
+      "mae_pp": 0.25,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_economy__ge2024_lab__r1",
@@ -645,7 +701,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0425,
-      "mae_pp": 4.25
+      "mae_pp": 4.25,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__overall__r1",
@@ -657,7 +714,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.025,
-      "mae_pp": 2.5
+      "mae_pp": 2.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__age_18_24__r1",
@@ -669,7 +727,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.05,
-      "mae_pp": 5.0
+      "mae_pp": 5.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__age_65_plus__r1",
@@ -681,7 +740,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0145,
-      "mae_pp": 1.45
+      "mae_pp": 1.45,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__ge2024_con__r1",
@@ -693,7 +753,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 3.0
+      "mae_pp": 3.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_immigration__ge2024_lab__r1",
@@ -705,7 +766,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.028,
-      "mae_pp": 2.8
+      "mae_pp": 2.8,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__overall__r1",
@@ -717,7 +779,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.018,
-      "mae_pp": 1.8
+      "mae_pp": 1.8,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__age_18_24__r1",
@@ -729,7 +792,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.06,
-      "mae_pp": 6.0
+      "mae_pp": 6.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__age_65_plus__r1",
@@ -741,7 +805,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.049,
-      "mae_pp": 4.9
+      "mae_pp": 4.9,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__ge2024_con__r1",
@@ -753,7 +818,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.035,
-      "mae_pp": 3.5
+      "mae_pp": 3.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_health__ge2024_lab__r1",
@@ -765,7 +831,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.023,
-      "mae_pp": 2.3
+      "mae_pp": 2.3,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__overall__r1",
@@ -777,7 +844,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.024,
-      "mae_pp": 2.4
+      "mae_pp": 2.4,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__age_18_24__r1",
@@ -789,7 +857,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.04,
-      "mae_pp": 4.0
+      "mae_pp": 4.0,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__age_65_plus__r1",
@@ -801,7 +870,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0475,
-      "mae_pp": 4.75
+      "mae_pp": 4.75,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__ge2024_con__r1",
@@ -813,7 +883,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.005,
-      "mae_pp": 0.5
+      "mae_pp": 0.5,
+      "released_values_public": false
     },
     {
       "entry_id": "gb-yougov-trackers-2026-10-25__anchored3__mii_defence__ge2024_lab__r1",
@@ -825,7 +896,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.052,
-      "mae_pp": 5.2
+      "mae_pp": 5.2,
+      "released_values_public": false
     }
   ]
 }

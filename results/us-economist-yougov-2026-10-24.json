@@ -7,7 +7,19 @@
   "scored_at": "2026-10-29T18:56:31Z",
   "results_sha256": "89df706aecb454990fb4abe6d60e5b4decd3c6ab8c8ac0819613c3591e74109a",
   "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "licence_note": "YouGov’s public licence does not clear this commercial prediction-data publication. Human values remain linked to the original release pending written permission.",
+  "publication": {
+    "status": "permission_required",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://yougov.com/en-us/articles/55847",
+    "note": "YouGov’s public licence does not clear this commercial prediction-data publication. Human values remain linked to the original release pending written permission.",
+    "terms": [
+      {
+        "label": "YouGov public data licence",
+        "url": "https://yougov.com/about/terms/public-data-license"
+      }
+    ]
+  },
   "summary": {
     "pure": {
       "items": 54,
@@ -117,7 +129,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.035,
-      "mae_pp": 2.333333
+      "mae_pp": 2.333333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__party_dem__r1",
@@ -129,7 +142,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.065891,
-      "mae_pp": 4.392739
+      "mae_pp": 4.392739,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__party_ind__r1",
@@ -141,7 +155,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.041881,
-      "mae_pp": 2.792079
+      "mae_pp": 2.792079,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__party_rep__r1",
@@ -153,7 +168,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.06,
-      "mae_pp": 4.0
+      "mae_pp": 4.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__age_18_29__r1",
@@ -165,7 +181,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.083333,
-      "mae_pp": 5.555556
+      "mae_pp": 5.555556,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__direction__age_65_plus__r1",
@@ -177,7 +194,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.067871,
-      "mae_pp": 4.524752
+      "mae_pp": 4.524752,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__overall__r1",
@@ -189,7 +207,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.05697,
-      "mae_pp": 2.278788
+      "mae_pp": 2.278788,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_dem__r1",
@@ -201,7 +220,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.07,
-      "mae_pp": 2.8
+      "mae_pp": 2.8,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_ind__r1",
@@ -213,7 +233,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.141162,
-      "mae_pp": 5.646465
+      "mae_pp": 5.646465,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__party_rep__r1",
@@ -225,7 +246,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.155,
-      "mae_pp": 6.2
+      "mae_pp": 6.2,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__age_18_29__r1",
@@ -237,7 +259,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.068069,
-      "mae_pp": 2.722772
+      "mae_pp": 2.722772,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__trump_job_approval__age_65_plus__r1",
@@ -249,7 +272,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.085,
-      "mae_pp": 3.4
+      "mae_pp": 3.4,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__overall__r1",
@@ -261,7 +285,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.04,
-      "mae_pp": 1.6
+      "mae_pp": 1.6,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_dem__r1",
@@ -273,7 +298,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0185,
-      "mae_pp": 0.74
+      "mae_pp": 0.74,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_ind__r1",
@@ -285,7 +311,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.1,
-      "mae_pp": 4.0
+      "mae_pp": 4.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__party_rep__r1",
@@ -297,7 +324,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0825,
-      "mae_pp": 3.3
+      "mae_pp": 3.3,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__age_18_29__r1",
@@ -309,7 +337,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.065,
-      "mae_pp": 2.6
+      "mae_pp": 2.6,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__generic_ballot__age_65_plus__r1",
@@ -321,7 +350,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.019854,
-      "mae_pp": 0.794141
+      "mae_pp": 0.794141,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__overall__r1",
@@ -333,7 +363,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0975,
-      "mae_pp": 2.785714
+      "mae_pp": 2.785714,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_dem__r1",
@@ -345,7 +376,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.08,
-      "mae_pp": 2.285714
+      "mae_pp": 2.285714,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_ind__r1",
@@ -357,7 +389,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.1725,
-      "mae_pp": 4.928571
+      "mae_pp": 4.928571,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__party_rep__r1",
@@ -369,7 +402,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.048232,
-      "mae_pp": 1.378066
+      "mae_pp": 1.378066,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__age_18_29__r1",
@@ -381,7 +415,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.097624,
-      "mae_pp": 2.78925
+      "mae_pp": 2.78925,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__likelihood_to_vote__age_65_plus__r1",
@@ -393,7 +428,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.108946,
-      "mae_pp": 3.11273
+      "mae_pp": 3.11273,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__overall__r1",
@@ -405,7 +441,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.055,
-      "mae_pp": 3.666667
+      "mae_pp": 3.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_dem__r1",
@@ -417,7 +454,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.12,
-      "mae_pp": 8.0
+      "mae_pp": 8.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_ind__r1",
@@ -429,7 +467,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.165,
-      "mae_pp": 11.0
+      "mae_pp": 11.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__party_rep__r1",
@@ -441,7 +480,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.095,
-      "mae_pp": 6.333333
+      "mae_pp": 6.333333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__age_18_29__r1",
@@ -453,7 +493,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0
+      "mae_pp": 2.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__house_majority_expectation__age_65_plus__r1",
@@ -465,7 +506,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1,
-      "mae_pp": 6.666667
+      "mae_pp": 6.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__overall__r1",
@@ -477,7 +519,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.075,
-      "mae_pp": 5.0
+      "mae_pp": 5.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_dem__r1",
@@ -489,7 +532,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.18,
-      "mae_pp": 12.0
+      "mae_pp": 12.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_ind__r1",
@@ -501,7 +545,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.155,
-      "mae_pp": 10.333333
+      "mae_pp": 10.333333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__party_rep__r1",
@@ -513,7 +558,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0
+      "mae_pp": 2.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__age_18_29__r1",
@@ -525,7 +571,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.0
+      "mae_pp": 1.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__senate_majority_expectation__age_65_plus__r1",
@@ -537,7 +584,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.066263,
-      "mae_pp": 4.417508
+      "mae_pp": 4.417508,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__overall__r1",
@@ -547,7 +595,8 @@
       "group_id": "overall",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__party_dem__r1",
@@ -557,7 +606,8 @@
       "group_id": "party_dem",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__party_ind__r1",
@@ -567,7 +617,8 @@
       "group_id": "party_ind",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__party_rep__r1",
@@ -577,7 +628,8 @@
       "group_id": "party_rep",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__age_18_29__r1",
@@ -587,7 +639,8 @@
       "group_id": "age_18_29",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__election_fairness_confidence__age_65_plus__r1",
@@ -597,7 +650,8 @@
       "group_id": "age_65_plus",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__overall__r1",
@@ -609,7 +663,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.069747,
-      "mae_pp": 2.789899
+      "mae_pp": 2.789899,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_dem__r1",
@@ -621,7 +676,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.135,
-      "mae_pp": 5.4
+      "mae_pp": 5.4,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_ind__r1",
@@ -633,7 +689,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.062252,
-      "mae_pp": 2.490099
+      "mae_pp": 2.490099,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__party_rep__r1",
@@ -645,7 +702,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.13,
-      "mae_pp": 5.2
+      "mae_pp": 5.2,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__age_18_29__r1",
@@ -657,7 +715,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.045,
-      "mae_pp": 1.8
+      "mae_pp": 1.8,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_state__age_65_plus__r1",
@@ -669,7 +728,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.075,
-      "mae_pp": 3.0
+      "mae_pp": 3.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__overall__r1",
@@ -681,7 +741,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.125,
-      "mae_pp": 6.25
+      "mae_pp": 6.25,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_dem__r1",
@@ -693,7 +754,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.150891,
-      "mae_pp": 7.544554
+      "mae_pp": 7.544554,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_ind__r1",
@@ -705,7 +767,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.19,
-      "mae_pp": 9.5
+      "mae_pp": 9.5,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__party_rep__r1",
@@ -717,7 +780,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.17,
-      "mae_pp": 8.5
+      "mae_pp": 8.5,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__age_18_29__r1",
@@ -729,7 +793,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.062129,
-      "mae_pp": 3.106436
+      "mae_pp": 3.106436,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__economy_trend__age_65_plus__r1",
@@ -741,7 +806,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.125,
-      "mae_pp": 6.25
+      "mae_pp": 6.25,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__overall__r1",
@@ -753,7 +819,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1095,
-      "mae_pp": 1.46
+      "mae_pp": 1.46,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_dem__r1",
@@ -765,7 +832,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.2075,
-      "mae_pp": 2.766667
+      "mae_pp": 2.766667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_ind__r1",
@@ -777,7 +845,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.129,
-      "mae_pp": 1.72
+      "mae_pp": 1.72,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__party_rep__r1",
@@ -789,7 +858,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.121157,
-      "mae_pp": 1.615421
+      "mae_pp": 1.615421,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__age_18_29__r1",
@@ -801,7 +871,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1575,
-      "mae_pp": 2.1
+      "mae_pp": 2.1,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__most_important_issue__age_65_plus__r1",
@@ -813,7 +884,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.219,
-      "mae_pp": 2.92
+      "mae_pp": 2.92,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__overall__r1",
@@ -825,7 +897,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0
+      "mae_pp": 2.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__party_dem__r1",
@@ -837,7 +910,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.011104,
-      "mae_pp": 0.740264
+      "mae_pp": 0.740264,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__party_ind__r1",
@@ -849,7 +923,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.047129,
-      "mae_pp": 3.141914
+      "mae_pp": 3.141914,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__party_rep__r1",
@@ -861,7 +936,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0175,
-      "mae_pp": 1.166667
+      "mae_pp": 1.166667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__age_18_29__r1",
@@ -873,7 +949,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.050833,
-      "mae_pp": 3.388889
+      "mae_pp": 3.388889,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__direction__age_65_plus__r1",
@@ -885,7 +962,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.04901,
-      "mae_pp": 3.267327
+      "mae_pp": 3.267327,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__overall__r1",
@@ -897,7 +975,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.021475,
-      "mae_pp": 0.85899
+      "mae_pp": 0.85899,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__party_dem__r1",
@@ -909,7 +988,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.034,
-      "mae_pp": 1.36
+      "mae_pp": 1.36,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__party_ind__r1",
@@ -921,7 +1001,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.056919,
-      "mae_pp": 2.276768
+      "mae_pp": 2.276768,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__party_rep__r1",
@@ -933,7 +1014,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.02,
-      "mae_pp": 0.8
+      "mae_pp": 0.8,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__age_18_29__r1",
@@ -945,7 +1027,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.042624,
-      "mae_pp": 1.70495
+      "mae_pp": 1.70495,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__trump_job_approval__age_65_plus__r1",
@@ -957,7 +1040,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 0.4
+      "mae_pp": 0.4,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__overall__r1",
@@ -969,7 +1053,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0075,
-      "mae_pp": 0.3
+      "mae_pp": 0.3,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__party_dem__r1",
@@ -981,7 +1066,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0175,
-      "mae_pp": 0.7
+      "mae_pp": 0.7,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__party_ind__r1",
@@ -993,7 +1079,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0375,
-      "mae_pp": 1.5
+      "mae_pp": 1.5,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__party_rep__r1",
@@ -1005,7 +1092,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0325,
-      "mae_pp": 1.3
+      "mae_pp": 1.3,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__age_18_29__r1",
@@ -1017,7 +1105,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.065,
-      "mae_pp": 2.6
+      "mae_pp": 2.6,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__generic_ballot__age_65_plus__r1",
@@ -1029,7 +1118,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.032253,
-      "mae_pp": 1.290101
+      "mae_pp": 1.290101,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__overall__r1",
@@ -1041,7 +1131,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.05,
-      "mae_pp": 1.428571
+      "mae_pp": 1.428571,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__party_dem__r1",
@@ -1053,7 +1144,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.041,
-      "mae_pp": 1.171429
+      "mae_pp": 1.171429,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__party_ind__r1",
@@ -1065,7 +1157,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.115,
-      "mae_pp": 3.285714
+      "mae_pp": 3.285714,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__party_rep__r1",
@@ -1077,7 +1170,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.077323,
-      "mae_pp": 2.209235
+      "mae_pp": 2.209235,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__age_18_29__r1",
@@ -1089,7 +1183,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.112624,
-      "mae_pp": 3.217822
+      "mae_pp": 3.217822,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__likelihood_to_vote__age_65_plus__r1",
@@ -1101,7 +1196,8 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.132847,
-      "mae_pp": 3.795615
+      "mae_pp": 3.795615,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__overall__r1",
@@ -1113,7 +1209,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0125,
-      "mae_pp": 0.833333
+      "mae_pp": 0.833333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__party_dem__r1",
@@ -1125,7 +1222,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.03,
-      "mae_pp": 2.0
+      "mae_pp": 2.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__party_ind__r1",
@@ -1137,7 +1235,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.045,
-      "mae_pp": 3.0
+      "mae_pp": 3.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__party_rep__r1",
@@ -1149,7 +1248,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 1.0
+      "mae_pp": 1.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__age_18_29__r1",
@@ -1161,7 +1261,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0125,
-      "mae_pp": 0.833333
+      "mae_pp": 0.833333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__house_majority_expectation__age_65_plus__r1",
@@ -1173,7 +1274,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0315,
-      "mae_pp": 2.1
+      "mae_pp": 2.1,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__overall__r1",
@@ -1185,7 +1287,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.01,
-      "mae_pp": 0.666667
+      "mae_pp": 0.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__party_dem__r1",
@@ -1197,7 +1300,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0205,
-      "mae_pp": 1.366667
+      "mae_pp": 1.366667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__party_ind__r1",
@@ -1209,7 +1313,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.025,
-      "mae_pp": 1.666667
+      "mae_pp": 1.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__party_rep__r1",
@@ -1221,7 +1326,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.04,
-      "mae_pp": 2.666667
+      "mae_pp": 2.666667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__age_18_29__r1",
@@ -1233,7 +1339,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0425,
-      "mae_pp": 2.833333
+      "mae_pp": 2.833333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__senate_majority_expectation__age_65_plus__r1",
@@ -1245,7 +1352,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.033778,
-      "mae_pp": 2.251852
+      "mae_pp": 2.251852,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__election_fairness_confidence__overall__r1",
@@ -1255,7 +1363,8 @@
       "group_id": "overall",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__election_fairness_confidence__party_dem__r1",
@@ -1265,7 +1374,8 @@
       "group_id": "party_dem",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__election_fairness_confidence__party_ind__r1",
@@ -1275,7 +1385,8 @@
       "group_id": "party_ind",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__election_fairness_confidence__party_rep__r1",
@@ -1285,7 +1396,8 @@
       "group_id": "party_rep",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__election_fairness_confidence__age_18_29__r1",
@@ -1295,7 +1407,8 @@
       "group_id": "age_18_29",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__election_fairness_confidence__age_65_plus__r1",
@@ -1305,7 +1418,8 @@
       "group_id": "age_65_plus",
       "counted": true,
       "status": "not_released",
-      "evidence_type": "attitude"
+      "evidence_type": "attitude",
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__overall__r1",
@@ -1317,7 +1431,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.028636,
-      "mae_pp": 1.145455
+      "mae_pp": 1.145455,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__party_dem__r1",
@@ -1329,7 +1444,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0355,
-      "mae_pp": 1.42
+      "mae_pp": 1.42,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__party_ind__r1",
@@ -1341,7 +1457,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.110941,
-      "mae_pp": 4.437624
+      "mae_pp": 4.437624,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__party_rep__r1",
@@ -1353,7 +1470,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.015,
-      "mae_pp": 0.6
+      "mae_pp": 0.6,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__age_18_29__r1",
@@ -1365,7 +1483,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.075,
-      "mae_pp": 3.0
+      "mae_pp": 3.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_state__age_65_plus__r1",
@@ -1377,7 +1496,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.049,
-      "mae_pp": 1.96
+      "mae_pp": 1.96,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__overall__r1",
@@ -1389,7 +1509,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.017,
-      "mae_pp": 0.85
+      "mae_pp": 0.85,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__party_dem__r1",
@@ -1401,7 +1522,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.035094,
-      "mae_pp": 1.754703
+      "mae_pp": 1.754703,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__party_ind__r1",
@@ -1413,7 +1535,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0,
-      "mae_pp": 0.0
+      "mae_pp": 0.0,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__party_rep__r1",
@@ -1425,7 +1548,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0275,
-      "mae_pp": 1.375
+      "mae_pp": 1.375,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__age_18_29__r1",
@@ -1437,7 +1561,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.079629,
-      "mae_pp": 3.981436
+      "mae_pp": 3.981436,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__economy_trend__age_65_plus__r1",
@@ -1449,7 +1574,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0385,
-      "mae_pp": 1.925
+      "mae_pp": 1.925,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__overall__r1",
@@ -1461,7 +1587,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.065,
-      "mae_pp": 0.866667
+      "mae_pp": 0.866667,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__party_dem__r1",
@@ -1473,7 +1600,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.055,
-      "mae_pp": 0.733333
+      "mae_pp": 0.733333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__party_ind__r1",
@@ -1485,7 +1613,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0925,
-      "mae_pp": 1.233333
+      "mae_pp": 1.233333,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__party_rep__r1",
@@ -1497,7 +1626,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.081045,
-      "mae_pp": 1.080606
+      "mae_pp": 1.080606,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__age_18_29__r1",
@@ -1509,7 +1639,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.069,
-      "mae_pp": 0.92
+      "mae_pp": 0.92,
+      "released_values_public": false
     },
     {
       "entry_id": "us-economist-yougov-2026-10-24__anchored3__most_important_issue__age_65_plus__r1",
@@ -1521,7 +1652,8 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1395,
-      "mae_pp": 1.86
+      "mae_pp": 1.86,
+      "released_values_public": false
     }
   ]
 }

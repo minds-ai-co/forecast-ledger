@@ -6,8 +6,31 @@
   "source_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
   "scored_at": "2026-11-03T16:09:47Z",
   "results_sha256": "bfbefc4ec0c2c9cab54a0696f748c100201046f5261e9caa4f70d37aabb238ed",
-  "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "released_values_public": true,
+  "licence_note": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4369, Forsa, 2026-11-03; ODbL 1.0. Party shares mapped into the locked answer order; BSW grouped with other parties where specified. The source subset is downloadable under the same licence. Minds forecasts are separate independent estimates.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-11",
+    "source_url": "https://api.dawum.de/",
+    "terms": [
+      {
+        "label": "DAWUM data source",
+        "url": "https://api.dawum.de/"
+      },
+      {
+        "label": "ODbL 1.0",
+        "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+      },
+      {
+        "label": "Reusable source data (ODbL)",
+        "url": "https://forecasts.getminds.ai/sources/de-forsa-trendbarometer-2026-11-03.json"
+      }
+    ],
+    "question_ids": [
+      "sonntagsfrage"
+    ],
+    "credit": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4369, Forsa, 2026-11-03; ODbL 1.0. Party shares mapped into the locked answer order; BSW grouped with other parties where specified. The source subset is downloadable under the same licence. Minds forecasts are separate independent estimates."
+  },
   "summary": {
     "pure": {
       "items": 1,
@@ -85,7 +108,17 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.07,
-      "mae_pp": 2.0
+      "mae_pp": 2.0,
+      "released": [
+        0.2,
+        0.26,
+        0.14,
+        0.17,
+        0.11,
+        0.04,
+        0.08
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-03__anchored3__sonntagsfrage__overall__r1",
@@ -97,7 +130,17 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.01,
-      "mae_pp": 0.285714
+      "mae_pp": 0.285714,
+      "released": [
+        0.2,
+        0.26,
+        0.14,
+        0.17,
+        0.11,
+        0.04,
+        0.08
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-03__memory3__sonntagsfrage__overall__r1",
@@ -109,7 +152,17 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.075,
-      "mae_pp": 2.142857
+      "mae_pp": 2.142857,
+      "released": [
+        0.2,
+        0.26,
+        0.14,
+        0.17,
+        0.11,
+        0.04,
+        0.08
+      ],
+      "released_values_public": true
     }
   ]
 }
