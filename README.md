@@ -2,6 +2,12 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
+<section id="forecast-timeline" class="not-prose ft" aria-label="Forecast timeline">
+<h2>From prediction to reality</h2>
+<p>Loading the latest forecasts…</p>
+<noscript>Enable JavaScript to explore the timeline and response charts. The complete scorecard and survey links are below.</noscript>
+</section>
+
 ## Scorecard
 
 Across 23 scored surveys and 95 questions, Minds Mosaic has an average distribution error (TVD) of 0.065. Average miss per answer option: 1.83 percentage points. Correlation between forecast and actual answer shares: 0.947. On the 8 surveys locked before fieldwork began (28 questions): 0.027.
@@ -97,7 +103,7 @@ Alongside Minds Mosaic we lock additional research forecasts for the same survey
 
 ## Status
 
-As of 2026-11-11 08:16 UTC: 92 surveys, 2458 forecasts in 311 timestamped batches. 23 scored, 69 pending, 0 not scoreable. 594 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
+As of 2026-11-11 12:22 UTC: 92 surveys, 2458 forecasts in 311 timestamped batches. 23 scored, 69 pending, 0 not scoreable. 594 of the forecasts are Minds Mosaic; the rest are additional research forecasts.
 Latest forecast or scoring event: 2026-11-10T10:30:20Z. A status refresh does not add forecasts or results.
 
 ## Files

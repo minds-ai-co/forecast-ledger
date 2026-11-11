@@ -6,8 +6,8 @@
   "source_url": "https://ec.europa.eu/economy_finance/db_indicators/surveys/documents/series/nace2_ecfin_2610/datashares_nsa_m_nace2.zip",
   "scored_at": "2026-10-29T10:20:46Z",
   "results_sha256": "b24a9d6b1ff56774e4923c0cfe12bbcc3144b83774a4cf02f502a55460057fc4",
-  "released_values_public": false,
-  "licence_note": "Publisher licence does not allow republication of released shares; only error metrics are shown.",
+  "released_values_public": true,
+  "licence_note": "Source: European Commission, DG ECFIN, Business and Consumer Surveys, October 2026. © European Union, CC BY 4.0. Answer shares normalised over the listed options and rounded for display. Minds forecasts are independent estimates; no EU endorsement is implied.",
   "summary": {
     "pure": {
       "items": 11,
@@ -167,7 +167,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.077,
-      "mae_pp": 2.566667
+      "mae_pp": 2.566667,
+      "released": [
+        0.049,
+        0.158,
+        0.473,
+        0.216,
+        0.099,
+        0.005
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__fin_next12__overall__r1",
@@ -179,7 +187,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.142951,
-      "mae_pp": 4.765035
+      "mae_pp": 4.765035,
+      "released": [
+        0.0619061906190619,
+        0.1608160816081608,
+        0.47254725472547254,
+        0.20782078207820784,
+        0.07990799079907991,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__econ_past12__overall__r1",
@@ -191,7 +207,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.146446,
-      "mae_pp": 4.881521
+      "mae_pp": 4.881521,
+      "released": [
+        0.030003000300030003,
+        0.1141114111411141,
+        0.2052205220522052,
+        0.3213321332133213,
+        0.31233123312331235,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__econ_next12__overall__r1",
@@ -203,7 +227,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1225,
-      "mae_pp": 4.083333
+      "mae_pp": 4.083333,
+      "released": [
+        0.032,
+        0.133,
+        0.268,
+        0.303,
+        0.229,
+        0.035
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__prices_past12__overall__r1",
@@ -215,7 +247,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.158,
-      "mae_pp": 5.266667
+      "mae_pp": 5.266667,
+      "released": [
+        0.424,
+        0.281,
+        0.219,
+        0.049,
+        0.014,
+        0.013
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__prices_next12__overall__r1",
@@ -227,7 +267,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1005,
-      "mae_pp": 3.35
+      "mae_pp": 3.35,
+      "released": [
+        0.207,
+        0.501,
+        0.162,
+        0.074,
+        0.011,
+        0.045
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__unemployment_next12__overall__r1",
@@ -239,7 +287,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.125,
-      "mae_pp": 4.166667
+      "mae_pp": 4.166667,
+      "released": [
+        0.193,
+        0.421,
+        0.274,
+        0.044,
+        0.007,
+        0.061
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__major_purchases_now__overall__r1",
@@ -251,7 +307,13 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1101,
-      "mae_pp": 5.505
+      "mae_pp": 5.505,
+      "released": [
+        0.06910000000000001,
+        0.5035000000000001,
+        0.32830000000000004,
+        0.09910000000000001
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__major_purchases_next12__overall__r1",
@@ -263,7 +325,15 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.072057,
-      "mae_pp": 2.401898
+      "mae_pp": 2.401898,
+      "released": [
+        0.040995900409959006,
+        0.11588841115888411,
+        0.4275572442755724,
+        0.14188581141885812,
+        0.1937806219378062,
+        0.07989201079892011
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__savings_next12__overall__r1",
@@ -275,7 +345,14 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0662,
-      "mae_pp": 2.648
+      "mae_pp": 2.648,
+      "released": [
+        0.2553,
+        0.3614,
+        0.2122,
+        0.1221,
+        0.049
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__household_fin_now__overall__r1",
@@ -287,7 +364,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.099,
-      "mae_pp": 3.3
+      "mae_pp": 3.3,
+      "released": [
+        0.124,
+        0.454,
+        0.262,
+        0.089,
+        0.052,
+        0.019
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__fin_past12__overall__r1",
@@ -299,7 +384,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0235,
-      "mae_pp": 0.783333
+      "mae_pp": 0.783333,
+      "released": [
+        0.049,
+        0.158,
+        0.473,
+        0.216,
+        0.099,
+        0.005
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
@@ -311,7 +404,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.029682,
-      "mae_pp": 0.989407
+      "mae_pp": 0.989407,
+      "released": [
+        0.0619061906190619,
+        0.1608160816081608,
+        0.47254725472547254,
+        0.20782078207820784,
+        0.07990799079907991,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
@@ -323,7 +424,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.029335,
-      "mae_pp": 0.977831
+      "mae_pp": 0.977831,
+      "released": [
+        0.030003000300030003,
+        0.1141114111411141,
+        0.2052205220522052,
+        0.3213321332133213,
+        0.31233123312331235,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
@@ -335,7 +444,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0295,
-      "mae_pp": 0.983333
+      "mae_pp": 0.983333,
+      "released": [
+        0.032,
+        0.133,
+        0.268,
+        0.303,
+        0.229,
+        0.035
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
@@ -347,7 +464,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0175,
-      "mae_pp": 0.583333
+      "mae_pp": 0.583333,
+      "released": [
+        0.424,
+        0.281,
+        0.219,
+        0.049,
+        0.014,
+        0.013
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
@@ -359,7 +484,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.029,
-      "mae_pp": 0.966667
+      "mae_pp": 0.966667,
+      "released": [
+        0.207,
+        0.501,
+        0.162,
+        0.074,
+        0.011,
+        0.045
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
@@ -371,7 +504,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.017,
-      "mae_pp": 0.566667
+      "mae_pp": 0.566667,
+      "released": [
+        0.193,
+        0.421,
+        0.274,
+        0.044,
+        0.007,
+        0.061
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
@@ -383,7 +524,13 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0098,
-      "mae_pp": 0.49
+      "mae_pp": 0.49,
+      "released": [
+        0.06910000000000001,
+        0.5035000000000001,
+        0.32830000000000004,
+        0.09910000000000001
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__major_purchases_next12__overall__r1",
@@ -395,7 +542,15 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.030338,
-      "mae_pp": 1.011262
+      "mae_pp": 1.011262,
+      "released": [
+        0.040995900409959006,
+        0.11588841115888411,
+        0.4275572442755724,
+        0.14188581141885812,
+        0.1937806219378062,
+        0.07989201079892011
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
@@ -407,7 +562,14 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0238,
-      "mae_pp": 0.952
+      "mae_pp": 0.952,
+      "released": [
+        0.2553,
+        0.3614,
+        0.2122,
+        0.1221,
+        0.049
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
@@ -419,7 +581,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0255,
-      "mae_pp": 0.85
+      "mae_pp": 0.85,
+      "released": [
+        0.124,
+        0.454,
+        0.262,
+        0.089,
+        0.052,
+        0.019
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__fin_past12__overall__r1",
@@ -431,7 +601,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0645,
-      "mae_pp": 2.15
+      "mae_pp": 2.15,
+      "released": [
+        0.049,
+        0.158,
+        0.473,
+        0.216,
+        0.099,
+        0.005
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__fin_next12__overall__r1",
@@ -443,7 +621,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.125451,
-      "mae_pp": 4.181702
+      "mae_pp": 4.181702,
+      "released": [
+        0.0619061906190619,
+        0.1608160816081608,
+        0.47254725472547254,
+        0.20782078207820784,
+        0.07990799079907991,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__econ_past12__overall__r1",
@@ -455,7 +641,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.153946,
-      "mae_pp": 5.131521
+      "mae_pp": 5.131521,
+      "released": [
+        0.030003000300030003,
+        0.1141114111411141,
+        0.2052205220522052,
+        0.3213321332133213,
+        0.31233123312331235,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__econ_next12__overall__r1",
@@ -467,7 +661,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1615,
-      "mae_pp": 5.383333
+      "mae_pp": 5.383333,
+      "released": [
+        0.032,
+        0.133,
+        0.268,
+        0.303,
+        0.229,
+        0.035
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__prices_past12__overall__r1",
@@ -479,7 +681,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1525,
-      "mae_pp": 5.083333
+      "mae_pp": 5.083333,
+      "released": [
+        0.424,
+        0.281,
+        0.219,
+        0.049,
+        0.014,
+        0.013
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__prices_next12__overall__r1",
@@ -491,7 +701,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.099,
-      "mae_pp": 3.3
+      "mae_pp": 3.3,
+      "released": [
+        0.207,
+        0.501,
+        0.162,
+        0.074,
+        0.011,
+        0.045
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__unemployment_next12__overall__r1",
@@ -503,7 +721,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.116,
-      "mae_pp": 3.866667
+      "mae_pp": 3.866667,
+      "released": [
+        0.193,
+        0.421,
+        0.274,
+        0.044,
+        0.007,
+        0.061
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__major_purchases_now__overall__r1",
@@ -515,7 +741,13 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.1251,
-      "mae_pp": 6.255
+      "mae_pp": 6.255,
+      "released": [
+        0.06910000000000001,
+        0.5035000000000001,
+        0.32830000000000004,
+        0.09910000000000001
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__major_purchases_next12__overall__r1",
@@ -527,7 +759,15 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.090557,
-      "mae_pp": 3.018565
+      "mae_pp": 3.018565,
+      "released": [
+        0.040995900409959006,
+        0.11588841115888411,
+        0.4275572442755724,
+        0.14188581141885812,
+        0.1937806219378062,
+        0.07989201079892011
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__savings_next12__overall__r1",
@@ -539,7 +779,14 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0683,
-      "mae_pp": 2.732
+      "mae_pp": 2.732,
+      "released": [
+        0.2553,
+        0.3614,
+        0.2122,
+        0.1221,
+        0.049
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__memory3__household_fin_now__overall__r1",
@@ -551,7 +798,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.069,
-      "mae_pp": 2.3
+      "mae_pp": 2.3,
+      "released": [
+        0.124,
+        0.454,
+        0.262,
+        0.089,
+        0.052,
+        0.019
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__fin_past12__overall__r1",
@@ -563,7 +818,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.04275,
-      "mae_pp": 1.425
+      "mae_pp": 1.425,
+      "released": [
+        0.049,
+        0.158,
+        0.473,
+        0.216,
+        0.099,
+        0.005
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__fin_next12__overall__r1",
@@ -575,7 +838,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.076635,
-      "mae_pp": 2.554499
+      "mae_pp": 2.554499,
+      "released": [
+        0.0619061906190619,
+        0.1608160816081608,
+        0.47254725472547254,
+        0.20782078207820784,
+        0.07990799079907991,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__econ_past12__overall__r1",
@@ -587,7 +858,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.084446,
-      "mae_pp": 2.814855
+      "mae_pp": 2.814855,
+      "released": [
+        0.030003000300030003,
+        0.1141114111411141,
+        0.2052205220522052,
+        0.3213321332133213,
+        0.31233123312331235,
+        0.017001700170017002
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__econ_next12__overall__r1",
@@ -599,7 +878,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.05125,
-      "mae_pp": 1.708333
+      "mae_pp": 1.708333,
+      "released": [
+        0.032,
+        0.133,
+        0.268,
+        0.303,
+        0.229,
+        0.035
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__prices_past12__overall__r1",
@@ -611,7 +898,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.08725,
-      "mae_pp": 2.908333
+      "mae_pp": 2.908333,
+      "released": [
+        0.424,
+        0.281,
+        0.219,
+        0.049,
+        0.014,
+        0.013
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__prices_next12__overall__r1",
@@ -623,7 +918,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0505,
-      "mae_pp": 1.683333
+      "mae_pp": 1.683333,
+      "released": [
+        0.207,
+        0.501,
+        0.162,
+        0.074,
+        0.011,
+        0.045
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__unemployment_next12__overall__r1",
@@ -635,7 +938,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0575,
-      "mae_pp": 1.916667
+      "mae_pp": 1.916667,
+      "released": [
+        0.193,
+        0.421,
+        0.274,
+        0.044,
+        0.007,
+        0.061
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__major_purchases_now__overall__r1",
@@ -647,7 +958,13 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0516,
-      "mae_pp": 2.58
+      "mae_pp": 2.58,
+      "released": [
+        0.06910000000000001,
+        0.5035000000000001,
+        0.32830000000000004,
+        0.09910000000000001
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__major_purchases_next12__overall__r1",
@@ -659,7 +976,15 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.029557,
-      "mae_pp": 0.985231
+      "mae_pp": 0.985231,
+      "released": [
+        0.040995900409959006,
+        0.11588841115888411,
+        0.4275572442755724,
+        0.14188581141885812,
+        0.1937806219378062,
+        0.07989201079892011
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__savings_next12__overall__r1",
@@ -671,7 +996,14 @@
       "status": "scored",
       "evidence_type": "stated_intent",
       "tvd": 0.0433,
-      "mae_pp": 1.732
+      "mae_pp": 1.732,
+      "released": [
+        0.2553,
+        0.3614,
+        0.2122,
+        0.1221,
+        0.049
+      ]
     },
     {
       "entry_id": "de-ec-gfk-consumer-survey-2026-10__blend__household_fin_now__overall__r1",
@@ -683,7 +1015,15 @@
       "status": "scored",
       "evidence_type": "attitude",
       "tvd": 0.0515,
-      "mae_pp": 1.716667
+      "mae_pp": 1.716667,
+      "released": [
+        0.124,
+        0.454,
+        0.262,
+        0.089,
+        0.052,
+        0.019
+      ]
     }
   ]
 }
