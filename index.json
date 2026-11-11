@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-11T15:20:33Z",
+  "as_of": "2026-11-11T15:28:23Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-10T10:30:20Z",
   "chain_head_sha256": "2b439cac7d928cdae6fb99adf3efe1a61f75142f2b6347215bc01b15023ac35c",
@@ -8970,7 +8970,14 @@
       "target_id": "spotify-de-weekly-2026-11-19-measurement-v2",
       "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
       "display": {
         "label": "Music Streams",
         "country": "Germany",
@@ -9022,7 +9029,14 @@
       "target_id": "spotify-us-weekly-2026-11-19-measurement-v2",
       "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
       "display": {
         "label": "Music Streams",
         "country": "United States",
@@ -9133,7 +9147,14 @@
       "target_id": "spotify-de-weekly-2026-11-26-rolling-v3",
       "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
       "display": {
         "label": "Music Streams",
         "country": "Germany",
@@ -9185,7 +9206,14 @@
       "target_id": "spotify-us-weekly-2026-11-26-rolling-v3",
       "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
       "display": {
         "label": "Music Streams",
         "country": "United States",
