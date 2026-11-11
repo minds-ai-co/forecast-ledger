@@ -7,12 +7,12 @@
   "scored_at": "2026-11-05T10:24:52Z",
   "results_sha256": "71e56636e98df0a57bf04973635a6d3da79b92070bcf854ccb1a55db9ca1f0d1",
   "released_values_public": false,
-  "licence_note": "SMMT requires express permission for use beyond personal non-commercial use. Human values remain linked to the source pending permission.",
+  "licence_note": "Source: SMMT. The scope for displaying these figures in public research is under review; the published results are linked below.",
   "publication": {
-    "status": "permission_required",
+    "status": "unverified",
     "reviewed_on": "2026-11-11",
     "source_url": "https://www.smmt.co.uk/vehicle-data/car-registrations/",
-    "note": "SMMT requires express permission for use beyond personal non-commercial use. Human values remain linked to the source pending permission.",
+    "note": "Source: SMMT. The scope for displaying these figures in public research is under review; the published results are linked below.",
     "terms": [
       {
         "label": "SMMT terms",

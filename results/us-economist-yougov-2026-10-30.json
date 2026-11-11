@@ -7,12 +7,12 @@
   "scored_at": "2026-11-08T14:25:08Z",
   "results_sha256": "e4fed5a16248a1c31c538cba7796a2898302a4f9abb1ff25f02c090f01b0cb18",
   "released_values_public": false,
-  "licence_note": "YouGov’s public licence does not clear this commercial prediction-data publication. Human values remain linked to the original release pending written permission.",
+  "licence_note": "YouGov permits attributed non-commercial research and editorial reuse. Its separate AI-development and automated-extraction restrictions still need assessment for this benchmark; see the original release.",
   "publication": {
     "status": "permission_required",
     "reviewed_on": "2026-11-11",
     "source_url": "https://yougov.com/en-us/articles/55922-understanding-big-democratic-midterms-win-2026-election-november-4-6-2026-economist-yougov-poll",
-    "note": "YouGov’s public licence does not clear this commercial prediction-data publication. Human values remain linked to the original release pending written permission.",
+    "note": "YouGov permits attributed non-commercial research and editorial reuse. Its separate AI-development and automated-extraction restrictions still need assessment for this benchmark; see the original release.",
     "terms": [
       {
         "label": "YouGov public data licence",
