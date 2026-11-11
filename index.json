@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-11T15:44:35Z",
+  "as_of": "2026-11-11T18:25:30Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-10T10:30:20Z",
   "chain_head_sha256": "2b439cac7d928cdae6fb99adf3efe1a61f75142f2b6347215bc01b15023ac35c",
@@ -58,14 +58,14 @@
     "label": "Minds Mosaic",
     "variant": "anchored3",
     "forecasts_locked": 594,
-    "scope": "full-population questions of every scored survey",
+    "scope": "full-population response distributions; numeric outcomes reported separately",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 23,
-      "questions": 95,
-      "tvd": 0.064703,
-      "mae_pp": 1.830314,
-      "pearson_r": 0.947141
+      "surveys": 22,
+      "questions": 94,
+      "tvd": 0.056083,
+      "mae_pp": 1.64293,
+      "pearson_r": 0.976155
     },
     "locked_before_fieldwork": {
       "surveys": 8,
@@ -76,11 +76,11 @@
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 15,
-        "questions": 69,
-        "tvd": 0.049325,
-        "mae_pp": 1.825774,
-        "pearson_r": 0.952892
+        "surveys": 14,
+        "questions": 68,
+        "tvd": 0.037183,
+        "mae_pp": 1.566675,
+        "pearson_r": 0.992379
       },
       "stated_intent": {
         "surveys": 13,
@@ -102,11 +102,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 601,
         "scored": {
-          "surveys": 23,
-          "questions": 95,
-          "tvd": 0.118531,
-          "mae_pp": 3.898264,
-          "pearson_r": 0.905796
+          "surveys": 22,
+          "questions": 94,
+          "tvd": 0.110137,
+          "mae_pp": 3.725196,
+          "pearson_r": 0.934576
         }
       },
       "cellsS": {
@@ -194,9 +194,9 @@
       "pure": {
         "overall": {
           "n": 69,
-          "n_distribution": 69,
-          "tvd": 0.101302,
-          "mae_pp": 4.066719,
+          "n_distribution": 68,
+          "tvd": 0.089446,
+          "mae_pp": 3.829955,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -211,9 +211,9 @@
         },
         "all": {
           "n": 144,
-          "n_distribution": 144,
-          "tvd": 0.106552,
-          "mae_pp": 5.30659,
+          "n_distribution": 143,
+          "tvd": 0.100951,
+          "mae_pp": 5.202673,
           "numeric": {
             "n": 1,
             "abs_error": 0.961,
@@ -224,9 +224,9 @@
       "anchored3": {
         "overall": {
           "n": 69,
-          "n_distribution": 69,
-          "tvd": 0.049325,
-          "mae_pp": 1.825774,
+          "n_distribution": 68,
+          "tvd": 0.037183,
+          "mae_pp": 1.566676,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
@@ -241,9 +241,9 @@
         },
         "all": {
           "n": 144,
-          "n_distribution": 144,
-          "tvd": 0.051773,
-          "mae_pp": 2.429311,
+          "n_distribution": 143,
+          "tvd": 0.046016,
+          "mae_pp": 2.310324,
           "numeric": {
             "n": 1,
             "abs_error": 0.72775,
