@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-11T18:46:25Z",
+  "as_of": "2026-11-11T18:56:16Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-10T10:30:20Z",
   "chain_head_sha256": "2b439cac7d928cdae6fb99adf3efe1a61f75142f2b6347215bc01b15023ac35c",
@@ -21,7 +21,8 @@
   "files": {
     "hash_chain": "proofs/index.jsonl",
     "batches": "proofs/batches/",
-    "verify": "verify.py"
+    "verify": "verify.py",
+    "error_over_time": "charts/error-over-time.json"
   },
   "primary_variant": "anchored3",
   "variants": {

@@ -1,0 +1,731 @@
+{
+  "format": "forecast-topic-trends.v1",
+  "options": [
+    {
+      "id": "all",
+      "label": "All topics"
+    },
+    {
+      "id": "Advertising",
+      "label": "Advertising"
+    },
+    {
+      "id": "Cars",
+      "label": "Cars"
+    },
+    {
+      "id": "Economy",
+      "label": "Economy"
+    },
+    {
+      "id": "Film & TV",
+      "label": "Film & TV"
+    },
+    {
+      "id": "Politics",
+      "label": "Politics"
+    }
+  ],
+  "charts": {
+    "all": {
+      "label": "All topics",
+      "surveys": 23,
+      "target_ids": [
+        "at-ec-ipsos-consumer-survey-2026-10",
+        "de-ard-deutschlandtrend-2026-11",
+        "de-ec-gfk-consumer-survey-2026-10",
+        "de-forsa-trendbarometer-2026-11-03",
+        "de-insa-meinungstrend-2026-11-03",
+        "de-kba-car-registrations-brand-2026-10",
+        "de-netflix-top10-2026-11-01",
+        "es-ec-gfk-consumer-survey-2026-10",
+        "fr-ec-insee-consumer-survey-2026-10",
+        "gb-findoutnow-vi-2026-10-28",
+        "gb-netflix-top10-2026-11-01",
+        "gb-opinium-observer-2026-10-28",
+        "gb-smmt-car-registrations-marque-2026-10",
+        "gb-system1-xmas-2026-john-lewis",
+        "gb-yougov-trackers-2026-10-25",
+        "global-netflix-top10-english-2026-11-01",
+        "jp-esri-consumer-confidence-2026-10",
+        "us-conference-board-cci-2026-10",
+        "us-economist-yougov-2026-10-24",
+        "us-economist-yougov-2026-10-30",
+        "us-emerson-national-2026-10-26",
+        "us-npr-pbs-marist-2026-10-26",
+        "us-reuters-ipsos-2026-10-26"
+      ],
+      "counts": "23 surveys; Behaviour 5, Attitude 15, Stated intent 13",
+      "props": {
+        "locale": "en-GB",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            0.4
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-10-26",
+                  "x": 20752,
+                  "label": "26 Oct",
+                  "value": 0.0175
+                },
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.022478
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.030348
+                },
+                {
+                  "id": "2026-10-30",
+                  "x": 20756,
+                  "label": "30 Oct",
+                  "value": 0.028726
+                },
+                {
+                  "id": "2026-10-31",
+                  "x": 20757,
+                  "label": "31 Oct",
+                  "value": 0.02834
+                },
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.084362
+                },
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.121463
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.113281
+                },
+                {
+                  "id": "2026-11-06",
+                  "x": 20763,
+                  "label": "6 Nov",
+                  "value": 0.111005
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "behaviour",
+              "label": "Behaviour",
+              "data": [
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.370767
+                },
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.287013
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.239459
+                },
+                {
+                  "id": "2026-11-06",
+                  "x": 20763,
+                  "label": "6 Nov",
+                  "value": 0.239459
+                }
+              ]
+            },
+            {
+              "id": "attitude",
+              "label": "Attitude",
+              "data": [
+                {
+                  "id": "2026-10-26",
+                  "x": 20752,
+                  "label": "26 Oct",
+                  "value": 0.0275
+                },
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.027475
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.032927
+                },
+                {
+                  "id": "2026-10-30",
+                  "x": 20756,
+                  "label": "30 Oct",
+                  "value": 0.032618
+                },
+                {
+                  "id": "2026-10-31",
+                  "x": 20757,
+                  "label": "31 Oct",
+                  "value": 0.032183
+                },
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.032183
+                },
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.097016
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.09105
+                },
+                {
+                  "id": "2026-11-06",
+                  "x": 20763,
+                  "label": "6 Nov",
+                  "value": 0.089043
+                }
+              ]
+            },
+            {
+              "id": "stated_intent",
+              "label": "Stated intent",
+              "data": [
+                {
+                  "id": "2026-10-26",
+                  "x": 20752,
+                  "label": "26 Oct",
+                  "value": 0.005
+                },
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.012235
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.026716
+                },
+                {
+                  "id": "2026-10-30",
+                  "x": 20756,
+                  "label": "30 Oct",
+                  "value": 0.02447
+                },
+                {
+                  "id": "2026-10-31",
+                  "x": 20757,
+                  "label": "31 Oct",
+                  "value": 0.024023
+                },
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.023169
+                },
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.023169
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.022464
+                },
+                {
+                  "id": "2026-11-06",
+                  "x": 20763,
+                  "label": "6 Nov",
+                  "value": 0.022464
+                }
+              ]
+            }
+          ],
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    },
+    "Advertising": {
+      "label": "Advertising",
+      "surveys": 1,
+      "target_ids": [
+        "gb-system1-xmas-2026-john-lewis"
+      ],
+      "counts": "1 survey; Attitude 1",
+      "props": {
+        "locale": "en-GB",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            1.0
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.875
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "attitude",
+              "label": "Attitude",
+              "data": [
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.875
+                }
+              ]
+            }
+          ],
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    },
+    "Cars": {
+      "label": "Cars",
+      "surveys": 2,
+      "target_ids": [
+        "de-kba-car-registrations-brand-2026-10",
+        "gb-smmt-car-registrations-marque-2026-10"
+      ],
+      "counts": "2 surveys; Behaviour 2",
+      "props": {
+        "locale": "en-GB",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            0.08
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.035751
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.042498
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "behaviour",
+              "label": "Behaviour",
+              "data": [
+                {
+                  "id": "2026-11-04",
+                  "x": 20761,
+                  "label": "4 Nov",
+                  "value": 0.035751
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.042498
+                }
+              ]
+            }
+          ],
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    },
+    "Economy": {
+      "label": "Economy",
+      "surveys": 6,
+      "target_ids": [
+        "at-ec-ipsos-consumer-survey-2026-10",
+        "de-ec-gfk-consumer-survey-2026-10",
+        "es-ec-gfk-consumer-survey-2026-10",
+        "fr-ec-insee-consumer-survey-2026-10",
+        "jp-esri-consumer-confidence-2026-10",
+        "us-conference-board-cci-2026-10"
+      ],
+      "counts": "6 surveys; Attitude 6, Stated intent 4",
+      "props": {
+        "locale": "en-GB",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            0.08
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.0355
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.037028
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "attitude",
+              "label": "Attitude",
+              "data": [
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.0355
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.038083
+                }
+              ]
+            },
+            {
+              "id": "stated_intent",
+              "label": "Stated intent",
+              "data": [
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.033448
+                }
+              ]
+            }
+          ],
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    },
+    "Film & TV": {
+      "label": "Film & TV",
+      "surveys": 3,
+      "target_ids": [
+        "de-netflix-top10-2026-11-01",
+        "gb-netflix-top10-2026-11-01",
+        "global-netflix-top10-english-2026-11-01"
+      ],
+      "counts": "3 surveys; Behaviour 3",
+      "props": {
+        "locale": "en-GB",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            0.4
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.370767
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "behaviour",
+              "label": "Behaviour",
+              "data": [
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.370767
+                }
+              ]
+            }
+          ],
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    },
+    "Politics": {
+      "label": "Politics",
+      "surveys": 11,
+      "target_ids": [
+        "de-ard-deutschlandtrend-2026-11",
+        "de-forsa-trendbarometer-2026-11-03",
+        "de-insa-meinungstrend-2026-11-03",
+        "gb-findoutnow-vi-2026-10-28",
+        "gb-opinium-observer-2026-10-28",
+        "gb-yougov-trackers-2026-10-25",
+        "us-economist-yougov-2026-10-24",
+        "us-economist-yougov-2026-10-30",
+        "us-emerson-national-2026-10-26",
+        "us-npr-pbs-marist-2026-10-26",
+        "us-reuters-ipsos-2026-10-26"
+      ],
+      "counts": "11 surveys; Attitude 8, Stated intent 9",
+      "props": {
+        "locale": "en-GB",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            0.04
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-10-26",
+                  "x": 20752,
+                  "label": "26 Oct",
+                  "value": 0.0175
+                },
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.018137
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.020328
+                },
+                {
+                  "id": "2026-10-30",
+                  "x": 20756,
+                  "label": "30 Oct",
+                  "value": 0.020425
+                },
+                {
+                  "id": "2026-10-31",
+                  "x": 20757,
+                  "label": "31 Oct",
+                  "value": 0.020893
+                },
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.02045
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.019771
+                },
+                {
+                  "id": "2026-11-06",
+                  "x": 20763,
+                  "label": "6 Nov",
+                  "value": 0.023515
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "attitude",
+              "label": "Attitude",
+              "data": [
+                {
+                  "id": "2026-10-26",
+                  "x": 20752,
+                  "label": "26 Oct",
+                  "value": 0.0275
+                },
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.0248
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.025193
+                },
+                {
+                  "id": "2026-10-30",
+                  "x": 20756,
+                  "label": "30 Oct",
+                  "value": 0.02606
+                },
+                {
+                  "id": "2026-10-31",
+                  "x": 20757,
+                  "label": "31 Oct",
+                  "value": 0.026284
+                },
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.026284
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.024457
+                },
+                {
+                  "id": "2026-11-06",
+                  "x": 20763,
+                  "label": "6 Nov",
+                  "value": 0.029018
+                }
+              ]
+            },
+            {
+              "id": "stated_intent",
+              "label": "Stated intent",
+              "data": [
+                {
+                  "id": "2026-10-26",
+                  "x": 20752,
+                  "label": "26 Oct",
+                  "value": 0.005
+                },
+                {
+                  "id": "2026-10-27",
+                  "x": 20753,
+                  "label": "27 Oct",
+                  "value": 0.012235
+                },
+                {
+                  "id": "2026-10-29",
+                  "x": 20755,
+                  "label": "29 Oct",
+                  "value": 0.01774
+                },
+                {
+                  "id": "2026-10-30",
+                  "x": 20756,
+                  "label": "30 Oct",
+                  "value": 0.017288
+                },
+                {
+                  "id": "2026-10-31",
+                  "x": 20757,
+                  "label": "31 Oct",
+                  "value": 0.01774
+                },
+                {
+                  "id": "2026-11-03",
+                  "x": 20760,
+                  "label": "3 Nov",
+                  "value": 0.01803
+                },
+                {
+                  "id": "2026-11-05",
+                  "x": 20762,
+                  "label": "5 Nov",
+                  "value": 0.017582
+                },
+                {
+                  "id": "2026-11-06",
+                  "x": 20763,
+                  "label": "6 Nov",
+                  "value": 0.017582
+                }
+              ]
+            }
+          ],
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    }
+  }
+}
