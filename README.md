@@ -48,4 +48,4 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
-Ledger chain head `2b439cac7d928cdae6fb99adf3efe1a61f75142f2b6347215bc01b15023ac35c`.
+Ledger chain head `937a2f8feb989da577e0e04692831540e3c7cca722178cf152607890d0d2da35`.

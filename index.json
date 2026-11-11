@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-11T20:15:55Z",
+  "as_of": "2026-11-11T20:29:32Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-10T10:30:20Z",
-  "chain_head_sha256": "2b439cac7d928cdae6fb99adf3efe1a61f75142f2b6347215bc01b15023ac35c",
+  "latest_event_at": "2026-11-11T20:24:38Z",
+  "chain_head_sha256": "937a2f8feb989da577e0e04692831540e3c7cca722178cf152607890d0d2da35",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 92,
+    "targets": 93,
     "targets_scored": 23,
-    "targets_pending": 69,
+    "targets_pending": 70,
     "targets_not_scoreable": 0,
-    "entries": 2458,
-    "batches": 311,
+    "entries": 2483,
+    "batches": 312,
     "entries_scored": 556,
-    "entries_pending": 1737,
+    "entries_pending": 1762,
     "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 594,
+    "forecasts_locked": 619,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -187,8 +187,8 @@
   },
   "counts_by_evidence_type": {
     "attitude": 1937,
-    "stated_intent": 448,
-    "behaviour": 73
+    "stated_intent": 453,
+    "behaviour": 93
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -5484,7 +5484,14 @@
       "target_id": "gb-ons-opn-2026-11-04",
       "survey": "ONS Opinions and Lifestyle Survey (OPN): Public opinions and social trends, Great Britain, November 2026 period (household finances, cost of living, loneliness, health, Christmas spending)",
       "publisher": "Office for National Statistics (ONS), OPN Analysis team",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ons.png",
+          "alt": "Office for National Statistics",
+          "width": 596,
+          "height": 117
+        }
+      ],
       "display": {
         "label": "Daily Life",
         "country": "United Kingdom",
@@ -9136,6 +9143,67 @@
           "manifest": "proofs/batches/netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461.json",
           "manifest_sha256": "f9cae52b89d9bb28836ea9ed7d4517a9b0888270713a9b8e88000a8f459c5a79",
           "ots_proof": "proofs/batches/netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-ons-bics-wave168-2026-11-19",
+      "survey": "ONS BICS: Business decisions",
+      "publisher": "Office for National Statistics",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ons.png",
+          "alt": "Office for National Statistics",
+          "width": 596,
+          "height": 117
+        }
+      ],
+      "display": {
+        "label": "Business Decisions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "B2B",
+        "source": "ONS",
+        "categories": [
+          "Stated intent",
+          "Behaviour"
+        ]
+      },
+      "wave": "Wave 168",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "stated_intent",
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-18T00:00:00Z",
+      "first_lock_utc": "2026-11-11T20:24:38Z",
+      "released_at": null,
+      "publication_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/businessinsightsandimpactontheukeconomy",
+      "forecasts_count": 25,
+      "variants": [
+        "anchored3"
+      ],
+      "forecasts": {
+        "anchored3": "forecasts/gb-ons-bics-wave168-2026-11-19/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-ons-bics-wave168-2026-11-19__anchored3__20261111T202438685501Z__s2464",
+          "locked_at": "2026-11-11T20:24:38Z",
+          "entries": 25,
+          "merkle_root": "4018b3ee3017bbedb497ade4ed83fb3790f52ee025704f4bb715f3acb7c2969e",
+          "manifest": "proofs/batches/gb-ons-bics-wave168-2026-11-19__anchored3__20261111T202438685501Z__s2464.json",
+          "manifest_sha256": "5e17b7f6719cb8fc5aa16324930e8602b0e2f78cb4873ce6cd4b316687f73b1a",
+          "ots_proof": "proofs/batches/gb-ons-bics-wave168-2026-11-19__anchored3__20261111T202438685501Z__s2464.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,
