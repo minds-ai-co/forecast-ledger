@@ -1,0 +1,339 @@
+{
+  "target_id": "de-forsa-trendbarometer-2026-11-10",
+  "survey": "RTL/ntv Trendbarometer Sonntagsfrage (Forsa)",
+  "status": "scored",
+  "released_at": "2026-11-10T00:00:00Z",
+  "source_url": "https://api.dawum.de/",
+  "scored_at": "2026-11-14T12:12:22Z",
+  "results_sha256": "1a87a569515272beebd4409a771814334a83126b2751035f5c78a5570189764a",
+  "released_values_public": true,
+  "licence_note": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4376, Forsa, 10 November 2026; ODbL 1.0. Shares mapped to the locked answer order. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-14",
+    "source_url": "https://api.dawum.de/",
+    "credit": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4376, Forsa, 10 November 2026; ODbL 1.0. Shares mapped to the locked answer order. Minds forecasts are independent estimates.",
+    "terms": [
+      {
+        "label": "DAWUM data source",
+        "url": "https://api.dawum.de/"
+      },
+      {
+        "label": "ODbL 1.0",
+        "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+      },
+      {
+        "label": "Reusable source data (ODbL)",
+        "url": "https://forecasts.getminds.ai/sources/de-forsa-trendbarometer-2026-11-10.json"
+      }
+    ],
+    "decision_basis": "Owner-requested update of the existing journalistic forecast ledger; selected released aggregate comparisons with attribution. No new publisher licence is claimed.",
+    "item_scope": {
+      "sonntagsfrage": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.0675,
+      "mae_pp": 1.928571
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.011,
+      "mae_pp": 0.314286
+    },
+    "memory3": {
+      "items": 1,
+      "tvd": 0.065,
+      "mae_pp": 1.857143
+    },
+    "bank3": {
+      "items": 1,
+      "tvd": 0.07,
+      "mae_pp": 2.0
+    },
+    "bankR3": {
+      "items": 1,
+      "tvd": 0.07,
+      "mae_pp": 2.0
+    },
+    "cohort": {
+      "items": 1,
+      "tvd": 0.08,
+      "mae_pp": 2.285714
+    },
+    "xpub3": {
+      "items": 1,
+      "tvd": 0.02,
+      "mae_pp": 0.571429
+    }
+  },
+  "summary_by_evidence_type": {
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0675,
+          "mae_pp": 1.928571
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0675,
+          "mae_pp": 1.928571
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.011,
+          "mae_pp": 0.314286
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.011,
+          "mae_pp": 0.314286
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.07,
+          "mae_pp": 2.0
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.07,
+          "mae_pp": 2.0
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.07,
+          "mae_pp": 2.0
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.07,
+          "mae_pp": 2.0
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.08,
+          "mae_pp": 2.285714
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.08,
+          "mae_pp": 2.285714
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.857143
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.857143
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.02,
+          "mae_pp": 0.571429
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.02,
+          "mae_pp": 0.571429
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__sonntagsfrage__overall__r1",
+      "entry_sha256": "ddde6167f134aab9d0aad7e4aff4aadbc830669cc1cb2f64330257551cc54d7e",
+      "variant": "pure",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0675,
+      "mae_pp": 1.928571,
+      "released": [
+        0.2,
+        0.27,
+        0.13,
+        0.16,
+        0.11,
+        0.04,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "56930ba27b14b94cbe280b15c8f073f8797a5f9d784ad355af6d35e81a37a827",
+      "variant": "anchored3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.011,
+      "mae_pp": 0.314286,
+      "released": [
+        0.2,
+        0.27,
+        0.13,
+        0.16,
+        0.11,
+        0.04,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "c7f326ba7ae44bbb3cabd8e07bdf89f6c5f5ba7d01bd64c089f2ba75d659cbb6",
+      "variant": "memory3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.065,
+      "mae_pp": 1.857143,
+      "released": [
+        0.2,
+        0.27,
+        0.13,
+        0.16,
+        0.11,
+        0.04,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__bank3__sonntagsfrage__overall__r1",
+      "entry_sha256": "c44a628f88a31dc6462b081e7ca223d4df00c76b8ff7cba0be10dc2400254174",
+      "variant": "bank3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.07,
+      "mae_pp": 2.0,
+      "released": [
+        0.2,
+        0.27,
+        0.13,
+        0.16,
+        0.11,
+        0.04,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "ff054840d89244eecca4deb140135976a7f3e1c03bef9148b2c823a6bd8d7fbe",
+      "variant": "bankR3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.07,
+      "mae_pp": 2.0,
+      "released": [
+        0.2,
+        0.27,
+        0.13,
+        0.16,
+        0.11,
+        0.04,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "7e3100d0922abdcf36c699b53216654417211227fa26fb3016b7c765f23ec32d",
+      "variant": "cohort",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.08,
+      "mae_pp": 2.285714,
+      "released": [
+        0.2,
+        0.27,
+        0.13,
+        0.16,
+        0.11,
+        0.04,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-forsa-trendbarometer-2026-11-10__xpub3__sonntagsfrage__overall__r1",
+      "entry_sha256": "7ffb1b6fb5c551310600330c9c3b4c3d741c00137cb83eeecaef3351ac7f06d4",
+      "variant": "xpub3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.02,
+      "mae_pp": 0.571429,
+      "released": [
+        0.2,
+        0.27,
+        0.13,
+        0.16,
+        0.11,
+        0.04,
+        0.09
+      ],
+      "released_values_public": true
+    }
+  ]
+}

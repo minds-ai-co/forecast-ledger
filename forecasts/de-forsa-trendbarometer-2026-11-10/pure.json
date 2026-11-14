@@ -3,15 +3,49 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__sonntagsfrage__overall__r1",
       "entry_sha256": "ddde6167f134aab9d0aad7e4aff4aadbc830669cc1cb2f64330257551cc54d7e",
       "seq": 1837,
       "batch_id": "de-forsa-trendbarometer-2026-11-10__20261101T121629818517Z__s1837",
-      "locked_at": "2026-11-01T12:16:29Z"
+      "locked_at": "2026-11-01T12:16:29Z",
+      "state": "scored",
+      "question": {
+        "id": "sonntagsfrage",
+        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann wählen? (If there were a federal election next Sunday, which party would you vote for? Shares among respondents naming a party.)",
+        "type": "categorical",
+        "options": [
+          "CDU/CSU",
+          "AfD",
+          "SPD",
+          "Grüne",
+          "Die Linke",
+          "FDP",
+          "Sonstige (incl. BSW)"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.25,
+        0.255,
+        0.14,
+        0.115,
+        0.1075,
+        0.035,
+        0.0975
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

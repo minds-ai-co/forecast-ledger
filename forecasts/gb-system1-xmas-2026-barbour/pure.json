@@ -3,15 +3,53 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-system1-xmas-2026-barbour__star_rating__overall__r1",
       "entry_sha256": "b10323fcb3c06daff4f9de8e9ccad5ec9848671626b0e446385cef8588fd8ce1",
       "seq": 2437,
       "batch_id": "gb-system1-xmas-2026-barbour__20261105T200303619707Z__s2437",
-      "locked_at": "2026-11-05T20:03:03Z"
+      "locked_at": "2026-11-05T20:03:03Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 Group's Test Your Ad shows each new UK TV ad to a nationally representative sample of UK adults, measures their second-by-second emotional response and publishes a Star Rating from 1.0 to 5.9 stars (one decimal) that predicts the ad's long-term brand-building potential. What Star Rating will System1 publish for the following UK Christmas 2026 ad? Ad description:\nBrand: Barbour (UK)\nAd title: Barbour x Wallace & Gromit | Barbour Christmas Film 2026\nReleased: 5 November 2026 (brand online release; TV slot: not stated)\nLength of the main edit: 90 seconds\nFormat: stop-motion\nSetting: Wallace's house at Christmas; snowy countryside with dry-stone walls and a signpost reading \"Tripton Fell\" and \"Barbour Way\".\nCharacters: Wallace and Gromit (licensed Aardman characters, returning from Barbour's previous Christmas collaboration); a sheep appears in the key art. Other characters and voice cast: not stated.\nStory:\n1. Gromit sits by the Christmas tree holding a wrapped present.\n2. Wallace sets out on a Christmas Day walk riding one of his new inventions, a tracked machine with an armchair seat, with Gromit walking alongside.\n3. Wallace says it is time to head back for the turkey.\n4. The walk goes wrong.\n5. Gromit, with the help of Barbour, comes to the rescue. Ending: not stated.\nMusic: not stated.\nDialogue and voiceover: Wallace (subtitled): \"Merry Christmas! Lovely day for a peaceful walk, eh!\" and \"Oh we better be headed back... the turkey'll be done!\"\nTone: comedic, nostalgic\nBrand and product presence: Both are \"wrapped up in Barbour\": Wallace in a knitted hat, tartan scarf and wellingtons, Gromit in a dog coat. Key art shows \"Wallace & Gromit x Barbour\". End line: not stated.",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.005,
+        0.015,
+        0.042499999999999996,
+        0.10250000000000001,
+        0.23,
+        0.315,
+        0.21,
+        0.06,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

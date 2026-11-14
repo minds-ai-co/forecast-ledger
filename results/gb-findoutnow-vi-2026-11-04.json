@@ -1,0 +1,456 @@
+{
+  "target_id": "gb-findoutnow-vi-2026-11-04",
+  "survey": "Find Out Now weekly GB Westminster voting intention",
+  "status": "scored",
+  "released_at": "2026-11-06T00:00:00Z",
+  "source_url": "https://findoutnow.co.uk/blog/voting-intention-4th-november/",
+  "scored_at": "2026-11-14T12:12:28Z",
+  "results_sha256": "1da704485872a441b822f49f5a3444b843cf96797ccb2387565510d7d63d29fb",
+  "released_values_public": true,
+  "licence_note": "Source: Find Out Now, November 2026 polling tables. Selected published overall response shares compared with preregistered Minds forecasts. Headline vote intention uses the publisher’s turnout-adjusted base; figures rounded for display.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-14",
+    "source_url": "https://findoutnow.co.uk/blog/voting-intention-4th-november/",
+    "credit": "Source: Find Out Now, November 2026 polling tables. Selected published overall response shares compared with preregistered Minds forecasts. Headline vote intention uses the publisher’s turnout-adjusted base; figures rounded for display.",
+    "terms": [],
+    "decision_basis": "Owner-requested update of the existing journalistic forecast ledger; selected released aggregate comparisons with attribution. No new publisher licence is claimed.",
+    "item_scope": {
+      "westminster_vi": [
+        "overall"
+      ],
+      "likelihood_to_vote": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 2,
+      "tvd": 0.059105,
+      "mae_pp": 2.026587
+    },
+    "anchored3": {
+      "items": 2,
+      "tvd": 0.021566,
+      "mae_pp": 0.678731
+    },
+    "memory3": {
+      "items": 2,
+      "tvd": 0.065355,
+      "mae_pp": 2.254087
+    },
+    "bank3": {
+      "items": 2,
+      "tvd": 0.069106,
+      "mae_pp": 2.441587
+    },
+    "bankR3": {
+      "items": 2,
+      "tvd": 0.066355,
+      "mae_pp": 2.309087
+    },
+    "cohort": {
+      "items": 2,
+      "tvd": 0.114378,
+      "mae_pp": 3.723409
+    },
+    "xpub3": {
+      "items": 1,
+      "tvd": 0.043272,
+      "mae_pp": 1.081794
+    }
+  },
+  "summary_by_evidence_type": {
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.059105,
+          "mae_pp": 2.026587
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.059105,
+          "mae_pp": 2.026587
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.021566,
+          "mae_pp": 0.678731
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.021566,
+          "mae_pp": 0.678731
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.069106,
+          "mae_pp": 2.441587
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.069106,
+          "mae_pp": 2.441587
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.066355,
+          "mae_pp": 2.309087
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.066355,
+          "mae_pp": 2.309087
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.114378,
+          "mae_pp": 3.723409
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.114378,
+          "mae_pp": 3.723409
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.065355,
+          "mae_pp": 2.254087
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.065355,
+          "mae_pp": 2.254087
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.043272,
+          "mae_pp": 1.081794
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.043272,
+          "mae_pp": 1.081794
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__westminster_vi__overall__r1",
+      "entry_sha256": "4dab76b6fde0c01b2d18a67b08ce864cc0852ac95f05869659456697b50978fd",
+      "variant": "pure",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.045017,
+      "mae_pp": 1.125416,
+      "released": [
+        0.21393514783447995,
+        0.2812449026274035,
+        0.08483665089843852,
+        0.197536420883302,
+        0.12883659536045106,
+        0.0245645486283359,
+        0.012200537791712342,
+        0.05684519597587682
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__likelihood_to_vote__overall__r1",
+      "entry_sha256": "c5303d89f55cd7b1d947138bff210958c45e90e7c6498f9849e740efe9c0c1bf",
+      "variant": "pure",
+      "question_id": "likelihood_to_vote",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.073194,
+      "mae_pp": 2.927759,
+      "released": [
+        0.5177411534732784,
+        0.14687246987822883,
+        0.060192403406079356,
+        0.11937765354587239,
+        0.15581631969654108
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "a446ac4c7255dc7f872f732c670780c51a23a6550c90060e341678c1ede2fe70",
+      "variant": "anchored3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.024517,
+      "mae_pp": 0.612916,
+      "released": [
+        0.21393514783447995,
+        0.2812449026274035,
+        0.08483665089843852,
+        0.197536420883302,
+        0.12883659536045106,
+        0.0245645486283359,
+        0.012200537791712342,
+        0.05684519597587682
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__anchored3__likelihood_to_vote__overall__r1",
+      "entry_sha256": "df21efc1217b10d15ae0473516c3c4c9f82df53e2d21eb2299fc4e92108a9e6b",
+      "variant": "anchored3",
+      "question_id": "likelihood_to_vote",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.018614,
+      "mae_pp": 0.744545,
+      "released": [
+        0.5177411534732784,
+        0.14687246987822883,
+        0.060192403406079356,
+        0.11937765354587239,
+        0.15581631969654108
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__memory3__westminster_vi__overall__r1",
+      "entry_sha256": "5e633f5e615861fa8979907c489186c12942271abe0cee5eae424d9b11f7cff2",
+      "variant": "memory3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.048017,
+      "mae_pp": 1.200416,
+      "released": [
+        0.21393514783447995,
+        0.2812449026274035,
+        0.08483665089843852,
+        0.197536420883302,
+        0.12883659536045106,
+        0.0245645486283359,
+        0.012200537791712342,
+        0.05684519597587682
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__memory3__likelihood_to_vote__overall__r1",
+      "entry_sha256": "120c4d7d62de3f59d0b3d5549ae6877f71067978f933ab29d0c6849b3fc7e2c2",
+      "variant": "memory3",
+      "question_id": "likelihood_to_vote",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.082694,
+      "mae_pp": 3.307759,
+      "released": [
+        0.5177411534732784,
+        0.14687246987822883,
+        0.060192403406079356,
+        0.11937765354587239,
+        0.15581631969654108
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__xpub3__westminster_vi__overall__r1",
+      "entry_sha256": "a75f4b9071d5dd15ad4c287c2ec9d8d2dbce267013f310e61073217698a93ccd",
+      "variant": "xpub3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.043272,
+      "mae_pp": 1.081794,
+      "released": [
+        0.21393514783447995,
+        0.2812449026274035,
+        0.08483665089843852,
+        0.197536420883302,
+        0.12883659536045106,
+        0.0245645486283359,
+        0.012200537791712342,
+        0.05684519597587682
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__bank3__westminster_vi__overall__r1",
+      "entry_sha256": "efd49995a400ce7308a9835b037e00991adebc2f5cf71e79b1ef1976b5a74fd5",
+      "variant": "bank3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.043017,
+      "mae_pp": 1.075416,
+      "released": [
+        0.21393514783447995,
+        0.2812449026274035,
+        0.08483665089843852,
+        0.197536420883302,
+        0.12883659536045106,
+        0.0245645486283359,
+        0.012200537791712342,
+        0.05684519597587682
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__bank3__likelihood_to_vote__overall__r1",
+      "entry_sha256": "c834c1e00150e7c84008cbd1fbc7bffa5ec1888de4be03edf5bf13c50818f983",
+      "variant": "bank3",
+      "question_id": "likelihood_to_vote",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.095194,
+      "mae_pp": 3.807759,
+      "released": [
+        0.5177411534732784,
+        0.14687246987822883,
+        0.060192403406079356,
+        0.11937765354587239,
+        0.15581631969654108
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__bankR3__westminster_vi__overall__r1",
+      "entry_sha256": "88236867231f2980ab7cc1d27ab3cfbf096d9f1d3aada894542b95a9243e43bd",
+      "variant": "bankR3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.046017,
+      "mae_pp": 1.150416,
+      "released": [
+        0.21393514783447995,
+        0.2812449026274035,
+        0.08483665089843852,
+        0.197536420883302,
+        0.12883659536045106,
+        0.0245645486283359,
+        0.012200537791712342,
+        0.05684519597587682
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__bankR3__likelihood_to_vote__overall__r1",
+      "entry_sha256": "585134997ca2b0f51dfa401faa4625d5a0ac7b66ac8cd2151fbf259068508b57",
+      "variant": "bankR3",
+      "question_id": "likelihood_to_vote",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.086694,
+      "mae_pp": 3.467759,
+      "released": [
+        0.5177411534732784,
+        0.14687246987822883,
+        0.060192403406079356,
+        0.11937765354587239,
+        0.15581631969654108
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__cohort__westminster_vi__overall__r1",
+      "entry_sha256": "061709969643c08e08f44eca0e16ee335ed31c996e92a50947d471817dc9d53a",
+      "variant": "cohort",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.113562,
+      "mae_pp": 2.839059,
+      "released": [
+        0.21393514783447995,
+        0.2812449026274035,
+        0.08483665089843852,
+        0.197536420883302,
+        0.12883659536045106,
+        0.0245645486283359,
+        0.012200537791712342,
+        0.05684519597587682
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-findoutnow-vi-2026-11-04__cohort__likelihood_to_vote__overall__r1",
+      "entry_sha256": "d7d760117c6f7d343bf47a701ecb66bb1eb0b648809ec08e97a8c1f28c20cc35",
+      "variant": "cohort",
+      "question_id": "likelihood_to_vote",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.115194,
+      "mae_pp": 4.607759,
+      "released": [
+        0.5177411534732784,
+        0.14687246987822883,
+        0.060192403406079356,
+        0.11937765354587239,
+        0.15581631969654108
+      ],
+      "released_values_public": true
+    }
+  ]
+}

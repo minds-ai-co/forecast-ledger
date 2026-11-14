@@ -3,22 +3,90 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-opinium-observer-2026-11-04__memory3__westminster_vi__overall__r1",
       "entry_sha256": "29774f4844e03e2fdecd785b6139a76ebde31d94d2035bbf27439690bcba2e20",
       "seq": 1850,
       "batch_id": "gb-opinium-observer-2026-11-04__memory3__20261101T130159779084Z__s1850",
-      "locked_at": "2026-11-01T13:01:59Z"
+      "locked_at": "2026-11-01T13:01:59Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "If there were a general election tomorrow, for which party would you vote? (Opinium headline voting intention: shares among GB respondents giving a voting intention; don't know and would not vote excluded; \"some other party\" respondents allocated via a follow-up question. Restore Britain and Your Party are counted in Other.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "SNP",
+          "Reform UK",
+          "Plaid Cymru",
+          "Green",
+          "Other"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.206,
+        0.308,
+        0.1005,
+        0.0285,
+        0.225,
+        0.0095,
+        0.0875,
+        0.035
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "gb-opinium-observer-2026-11-04__memory3__burnham_approval__overall__r1",
       "entry_sha256": "d43d0654abdb690987b92840077acecb15e63f92909f7ee10700f1c23ed3ad3b",
       "seq": 1851,
       "batch_id": "gb-opinium-observer-2026-11-04__memory3__20261101T130159779084Z__s1850",
-      "locked_at": "2026-11-01T13:01:59Z"
+      "locked_at": "2026-11-01T13:01:59Z",
+      "state": "scored",
+      "question": {
+        "id": "burnham_approval",
+        "text": "To what extent do you approve or disapprove of the way Andy Burnham is handling his job as Prime Minister?",
+        "type": "categorical",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Neither approve nor disapprove",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.075,
+        0.215,
+        0.2175,
+        0.1875,
+        0.2175,
+        0.0875
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

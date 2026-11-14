@@ -3,15 +3,51 @@
   "variant": "xpub3",
   "variant_label": "Additional research forecast (xpub3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__xpub3__westminster_vi__overall__r1",
       "entry_sha256": "a75f4b9071d5dd15ad4c287c2ec9d8d2dbce267013f310e61073217698a93ccd",
       "seq": 2183,
       "batch_id": "gb-findoutnow-vi-2026-11-04__xpub3__20261101T225140922991Z__s2183",
-      "locked_at": "2026-11-01T22:51:40Z"
+      "locked_at": "2026-11-01T22:51:40Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Thinking about your own constituency, if a general election were held tomorrow, which party would you vote for? (Find Out Now headline: respondents \"definitely\" or \"very likely\" to vote, 2024 non-voters only if \"definitely\"; don't knows asked \"If you were forced to choose, how would you vote?\" and excluded if still undecided. Restore Britain and Your Party are in Other.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrats",
+          "Reform UK",
+          "Green Party",
+          "Scottish National Party (SNP)",
+          "Plaid Cymru",
+          "Other"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2085,
+        0.2835,
+        0.093,
+        0.2075,
+        0.091,
+        0.0285,
+        0.013,
+        0.075
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

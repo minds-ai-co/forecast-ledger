@@ -3,15 +3,53 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-system1-xmas-2026-tesco__star_rating__overall__r1",
       "entry_sha256": "4cff372e2d9eac3e65fe5b01d02427edd06c12ef6e4884e336b0f5763356f2e3",
       "seq": 2363,
       "batch_id": "gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363",
-      "locked_at": "2026-11-02T20:24:51Z"
+      "locked_at": "2026-11-02T20:24:51Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 Group's Test Your Ad shows each new UK TV ad to a nationally representative sample of UK adults, measures their second-by-second emotional response and publishes a Star Rating from 1.0 to 5.9 stars (one decimal) that predicts the ad's long-term brand-building potential. What Star Rating will System1 publish for the following UK Christmas 2026 ad? Ad description:\nBrand: Tesco (UK)\nAd title: The Wrong Address\nReleased: 1 November 2026 (official YouTube release)\nLength of the main edit: 180 seconds\nFormat: live action\nSetting: A Christmas grocery delivery that turns into a road trip across the UK.\nCharacters: Lizzie, a woman whose Christmas food order has gone to her old address (played by Anna Maxwell Martin, named actress); Polly, a Tesco delivery driver and Lizzie's former school friend (played by Roisin Conaty, named comedian and actress).\nStory:\n1. Lizzie realises her festive food order has been sent to her former address, hundreds of miles from where she now lives.\n2. Polly, the Tesco delivery driver, recognises Lizzie's name and offers to help.\n3. Polly arranges to meet Lizzie halfway so she can collect her shopping in time for Christmas.\n4. Car trouble disrupts the plan.\n5. The two set off together on an unplanned road trip across the UK.\n6. On the way they reminisce about their friendship and address an unresolved falling-out from their school days.\nMusic: \"Every Little Thing She Does Is Magic\" by The Police.\nDialogue and voiceover: not stated.\nTone: comedic, heartfelt\nBrand and product presence: The Tesco delivery service and driver are central to the plot throughout; exact timing of logo appearances not stated. End line not stated; the official upload is titled \"Because this Christmas, Every little helps\".",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.01,
+        0.035,
+        0.08499999999999999,
+        0.16,
+        0.255,
+        0.245,
+        0.14500000000000002,
+        0.05,
+        0.015
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

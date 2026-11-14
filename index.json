@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-14T08:16:08Z",
+  "as_of": "2026-11-14T12:16:26Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-11T20:24:38Z",
+  "latest_event_at": "2026-11-14T12:14:17Z",
   "chain_head_sha256": "937a2f8feb989da577e0e04692831540e3c7cca722178cf152607890d0d2da35",
   "proof_only_entries": 6,
   "counts": {
     "targets": 93,
-    "targets_scored": 23,
-    "targets_pending": 70,
+    "targets_scored": 34,
+    "targets_pending": 59,
     "targets_not_scoreable": 0,
     "entries": 2483,
     "batches": 312,
-    "entries_scored": 556,
-    "entries_pending": 1762,
+    "entries_scored": 648,
+    "entries_pending": 1670,
     "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -62,33 +62,33 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 23,
-      "questions": 95,
-      "tvd": 0.064703,
-      "mae_pp": 1.830314,
-      "pearson_r": 0.947141
+      "surveys": 34,
+      "questions": 113,
+      "tvd": 0.098048,
+      "mae_pp": 2.556712,
+      "pearson_r": 0.851836
     },
     "locked_before_fieldwork": {
-      "surveys": 8,
-      "questions": 28,
-      "tvd": 0.027429,
-      "mae_pp": 1.29756,
-      "pearson_r": 0.996425
+      "surveys": 13,
+      "questions": 40,
+      "tvd": 0.027602,
+      "mae_pp": 1.230396,
+      "pearson_r": 0.996229
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 15,
-        "questions": 69,
-        "tvd": 0.049325,
-        "mae_pp": 1.825774,
-        "pearson_r": 0.952892
+        "surveys": 23,
+        "questions": 80,
+        "tvd": 0.101888,
+        "mae_pp": 2.946794,
+        "pearson_r": 0.830836
       },
       "stated_intent": {
-        "surveys": 13,
-        "questions": 18,
-        "tvd": 0.0241,
-        "mae_pp": 0.81548,
-        "pearson_r": 0.995628
+        "surveys": 18,
+        "questions": 25,
+        "tvd": 0.02475,
+        "mae_pp": 0.797686,
+        "pearson_r": 0.99523
       },
       "behaviour": {
         "surveys": 5,
@@ -103,11 +103,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 601,
         "scored": {
-          "surveys": 23,
-          "questions": 95,
-          "tvd": 0.118531,
-          "mae_pp": 3.898264,
-          "pearson_r": 0.905796
+          "surveys": 34,
+          "questions": 113,
+          "tvd": 0.159741,
+          "mae_pp": 4.80948,
+          "pearson_r": 0.769174
         }
       },
       "cellsS": {
@@ -136,11 +136,11 @@
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 474,
         "scored": {
-          "surveys": 20,
-          "questions": 79,
-          "tvd": 0.117198,
-          "mae_pp": 3.712092,
-          "pearson_r": 0.932729
+          "surveys": 25,
+          "questions": 91,
+          "tvd": 0.113194,
+          "mae_pp": 3.723235,
+          "pearson_r": 0.934267
         }
       },
       "blend": {
@@ -157,22 +157,46 @@
       "bank3": {
         "label": "Additional research forecast (bank3)",
         "forecasts_locked": 100,
-        "scored": null
+        "scored": {
+          "surveys": 5,
+          "questions": 12,
+          "tvd": 0.089983,
+          "mae_pp": 3.958765,
+          "pearson_r": 0.9437
+        }
       },
       "bankR3": {
         "label": "Additional research forecast (bankR3)",
         "forecasts_locked": 100,
-        "scored": null
+        "scored": {
+          "surveys": 5,
+          "questions": 12,
+          "tvd": 0.088896,
+          "mae_pp": 3.88512,
+          "pearson_r": 0.946234
+        }
       },
       "cohort": {
         "label": "Additional research forecast (cohort)",
         "forecasts_locked": 48,
-        "scored": null
+        "scored": {
+          "surveys": 5,
+          "questions": 12,
+          "tvd": 0.098439,
+          "mae_pp": 4.125525,
+          "pearson_r": 0.939279
+        }
       },
       "xpub3": {
         "label": "Additional research forecast (xpub3)",
         "forecasts_locked": 16,
-        "scored": null
+        "scored": {
+          "surveys": 5,
+          "questions": 8,
+          "tvd": 0.041017,
+          "mae_pp": 1.525717,
+          "pearson_r": 0.991674
+        }
       }
     }
   },
@@ -194,14 +218,14 @@
     "attitude": {
       "pure": {
         "overall": {
-          "n": 69,
-          "n_distribution": 69,
-          "tvd": 0.101302,
-          "mae_pp": 4.066719,
+          "n": 80,
+          "n_distribution": 80,
+          "tvd": 0.166344,
+          "mae_pp": 5.499524,
           "numeric": {
-            "n": 1,
-            "abs_error": 0.961,
-            "pct_error": 17.160714
+            "n": 7,
+            "abs_error": 1.287714,
+            "pct_error": 22.207871
           }
         },
         "subgroups": {
@@ -211,27 +235,27 @@
           "mae_pp": 6.447271
         },
         "all": {
-          "n": 144,
-          "n_distribution": 144,
-          "tvd": 0.106552,
-          "mae_pp": 5.30659,
+          "n": 155,
+          "n_distribution": 155,
+          "tvd": 0.13975,
+          "mae_pp": 5.958111,
           "numeric": {
-            "n": 1,
-            "abs_error": 0.961,
-            "pct_error": 17.160714
+            "n": 7,
+            "abs_error": 1.287714,
+            "pct_error": 22.207871
           }
         }
       },
       "anchored3": {
         "overall": {
-          "n": 69,
-          "n_distribution": 69,
-          "tvd": 0.049325,
-          "mae_pp": 1.825774,
+          "n": 80,
+          "n_distribution": 80,
+          "tvd": 0.101888,
+          "mae_pp": 2.946794,
           "numeric": {
-            "n": 1,
-            "abs_error": 0.72775,
-            "pct_error": 12.995536
+            "n": 7,
+            "abs_error": 0.755339,
+            "pct_error": 13.104355
           }
         },
         "subgroups": {
@@ -241,15 +265,45 @@
           "mae_pp": 2.984565
         },
         "all": {
-          "n": 144,
-          "n_distribution": 144,
-          "tvd": 0.051773,
-          "mae_pp": 2.429311,
+          "n": 155,
+          "n_distribution": 155,
+          "tvd": 0.078729,
+          "mae_pp": 2.96507,
           "numeric": {
-            "n": 1,
-            "abs_error": 0.72775,
-            "pct_error": 12.995536
+            "n": 7,
+            "abs_error": 0.755339,
+            "pct_error": 13.104355
           }
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.113948,
+          "mae_pp": 6.481608
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.113948,
+          "mae_pp": 6.481608
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.112139,
+          "mae_pp": 6.354644
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.112139,
+          "mae_pp": 6.354644
         }
       },
       "blend": {
@@ -307,12 +361,27 @@
           "mae_pp": 6.552797
         }
       },
+      "cohort": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.10635,
+          "mae_pp": 6.111661
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.10635,
+          "mae_pp": 6.111661
+        }
+      },
       "memory3": {
         "overall": {
-          "n": 56,
-          "n_distribution": 56,
-          "tvd": 0.097312,
-          "mae_pp": 3.812428
+          "n": 61,
+          "n_distribution": 61,
+          "tvd": 0.098487,
+          "mae_pp": 4.013976
         },
         "subgroups": {
           "n": 20,
@@ -321,20 +390,35 @@
           "mae_pp": 6.232324
         },
         "all": {
-          "n": 76,
-          "n_distribution": 76,
-          "tvd": 0.104266,
-          "mae_pp": 4.449243
+          "n": 81,
+          "n_distribution": 81,
+          "tvd": 0.104721,
+          "mae_pp": 4.561716
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0425,
+          "mae_pp": 2.833334
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0425,
+          "mae_pp": 2.833334
         }
       }
     },
     "stated_intent": {
       "pure": {
         "overall": {
-          "n": 18,
-          "n_distribution": 18,
-          "tvd": 0.076142,
-          "mae_pp": 2.686955
+          "n": 25,
+          "n_distribution": 25,
+          "tvd": 0.073725,
+          "mae_pp": 2.485722
         },
         "subgroups": {
           "n": 14,
@@ -343,18 +427,18 @@
           "mae_pp": 2.673883
         },
         "all": {
-          "n": 32,
-          "n_distribution": 32,
-          "tvd": 0.081998,
-          "mae_pp": 2.681236
+          "n": 39,
+          "n_distribution": 39,
+          "tvd": 0.079398,
+          "mae_pp": 2.553267
         }
       },
       "anchored3": {
         "overall": {
-          "n": 18,
-          "n_distribution": 18,
-          "tvd": 0.0241,
-          "mae_pp": 0.81548
+          "n": 25,
+          "n_distribution": 25,
+          "tvd": 0.02475,
+          "mae_pp": 0.797686
         },
         "subgroups": {
           "n": 14,
@@ -363,10 +447,40 @@
           "mae_pp": 1.975001
         },
         "all": {
-          "n": 32,
-          "n_distribution": 32,
-          "tvd": 0.042517,
-          "mae_pp": 1.322771
+          "n": 39,
+          "n_distribution": 39,
+          "tvd": 0.039628,
+          "mae_pp": 1.220312
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.072865,
+          "mae_pp": 2.156735
+        },
+        "subgroups": null,
+        "all": {
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.072865,
+          "mae_pp": 2.156735
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.072294,
+          "mae_pp": 2.121174
+        },
+        "subgroups": null,
+        "all": {
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.072294,
+          "mae_pp": 2.121174
         }
       },
       "blend": {
@@ -384,19 +498,49 @@
           "mae_pp": 2.073244
         }
       },
-      "memory3": {
+      "cohort": {
         "overall": {
-          "n": 15,
-          "n_distribution": 15,
-          "tvd": 0.078053,
-          "mae_pp": 2.821384
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.092788,
+          "mae_pp": 2.706856
         },
         "subgroups": null,
         "all": {
-          "n": 15,
-          "n_distribution": 15,
-          "tvd": 0.078053,
-          "mae_pp": 2.821384
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.092788,
+          "mae_pp": 2.706856
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 22,
+          "n_distribution": 22,
+          "tvd": 0.075211,
+          "mae_pp": 2.569243
+        },
+        "subgroups": null,
+        "all": {
+          "n": 22,
+          "n_distribution": 22,
+          "tvd": 0.075211,
+          "mae_pp": 2.569243
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.040522,
+          "mae_pp": 1.089845
+        },
+        "subgroups": null,
+        "all": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.040522,
+          "mae_pp": 1.089845
         }
       }
     },
@@ -4658,16 +4802,16 @@
         ]
       },
       "wave": "Weekly wave expected Tue 3 November to Mon 9 November 2026, published Tue 10 November 2026",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "stated_intent"
       ],
       "cutoff_utc": "2026-11-02T12:00:00Z",
       "first_lock_utc": "2026-11-01T12:16:29Z",
-      "released_at": null,
+      "released_at": "2026-11-10T00:00:00Z",
       "publication_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
       "forecasts_count": 7,
       "variants": [
@@ -4688,7 +4832,7 @@
         "cohort": "forecasts/de-forsa-trendbarometer-2026-11-10/cohort.json",
         "xpub3": "forecasts/de-forsa-trendbarometer-2026-11-10/xpub3.json"
       },
-      "results": null,
+      "results": "results/de-forsa-trendbarometer-2026-11-10.json",
       "batches": [
         {
           "batch_id": "de-forsa-trendbarometer-2026-11-10__20261101T121629818517Z__s1837",
@@ -5348,17 +5492,17 @@
         ]
       },
       "wave": "Weekly wave expected Wed 4 Nov 2026 (possibly running into Thu 5 Nov)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "stated_intent"
       ],
       "cutoff_utc": "2026-11-03T00:00:00Z",
       "first_lock_utc": "2026-11-01T12:52:07Z",
-      "released_at": null,
-      "publication_url": "https://findoutnow.co.uk/blog/",
+      "released_at": "2026-11-06T00:00:00Z",
+      "publication_url": "https://findoutnow.co.uk/blog/voting-intention-4th-november/",
       "forecasts_count": 13,
       "variants": [
         "pure",
@@ -5378,7 +5522,7 @@
         "cohort": "forecasts/gb-findoutnow-vi-2026-11-04/cohort.json",
         "xpub3": "forecasts/gb-findoutnow-vi-2026-11-04/xpub3.json"
       },
-      "results": null,
+      "results": "results/gb-findoutnow-vi-2026-11-04.json",
       "batches": [
         {
           "batch_id": "gb-findoutnow-vi-2026-11-04__20261101T125207644299Z__s1840",
@@ -5647,9 +5791,9 @@
         ]
       },
       "wave": "First Opinium/Observer wave with fieldwork starting on or after Wed 4 Nov 2026 (expected 4-6 Nov, published about Sat 7 Nov; 11-13 Nov if fortnightly)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -5657,8 +5801,8 @@
       ],
       "cutoff_utc": "2026-11-03T00:00:00Z",
       "first_lock_utc": "2026-11-01T12:59:48Z",
-      "released_at": null,
-      "publication_url": "https://www.opinium.com/resource-center/",
+      "released_at": "2026-11-07T00:00:00Z",
+      "publication_url": "https://www.opinium.com/resource-center/voting-intention-4th-november-2026",
       "forecasts_count": 13,
       "variants": [
         "pure",
@@ -5678,7 +5822,7 @@
         "cohort": "forecasts/gb-opinium-observer-2026-11-04/cohort.json",
         "xpub3": "forecasts/gb-opinium-observer-2026-11-04/xpub3.json"
       },
-      "results": null,
+      "results": "results/gb-opinium-observer-2026-11-04.json",
       "batches": [
         {
           "batch_id": "gb-opinium-observer-2026-11-04__20261101T125948686131Z__s1846",
@@ -5803,17 +5947,17 @@
         ]
       },
       "wave": "Christmas 2026 (Tesco, released 2026-11-01 00:00Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-03T00:00:00Z",
       "first_lock_utc": "2026-11-02T20:24:51Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-12T00:00:00Z",
+      "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
         "pure",
@@ -5823,7 +5967,7 @@
         "pure": "forecasts/gb-system1-xmas-2026-tesco/pure.json",
         "anchored3": "forecasts/gb-system1-xmas-2026-tesco/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-system1-xmas-2026-tesco.json",
       "batches": [
         {
           "batch_id": "gb-system1-xmas-2026-tesco__20261102T202451705396Z__s2363",
@@ -5978,17 +6122,17 @@
         ]
       },
       "wave": "Christmas 2026 (Sainsbury's, released 2026-11-01 08:00Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-03T08:00:00Z",
       "first_lock_utc": "2026-11-02T20:27:03Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-12T00:00:00Z",
+      "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
         "pure",
@@ -5998,7 +6142,7 @@
         "pure": "forecasts/gb-system1-xmas-2026-sainsburys/pure.json",
         "anchored3": "forecasts/gb-system1-xmas-2026-sainsburys/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-system1-xmas-2026-sainsburys.json",
       "batches": [
         {
           "batch_id": "gb-system1-xmas-2026-sainsburys__20261102T202703661418Z__s2365",
@@ -7483,17 +7627,17 @@
         ]
       },
       "wave": "Christmas 2026 (Lidl, released 2026-11-03 10:08Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-05T10:08:38Z",
       "first_lock_utc": "2026-11-03T20:03:22Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-12T00:00:00Z",
+      "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
         "pure",
@@ -7503,7 +7647,7 @@
         "pure": "forecasts/gb-system1-xmas-2026-lidl/pure.json",
         "anchored3": "forecasts/gb-system1-xmas-2026-lidl/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-system1-xmas-2026-lidl.json",
       "batches": [
         {
           "batch_id": "gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391",
@@ -7558,16 +7702,16 @@
         ]
       },
       "wave": "Online wave expected Fri 6 November to Mon 9 November 2026, published Mon 9 / Tue 10 November 2026",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "stated_intent"
       ],
       "cutoff_utc": "2026-11-05T12:00:00Z",
       "first_lock_utc": "2026-11-03T08:38:12Z",
-      "released_at": null,
+      "released_at": "2026-11-10T00:00:00Z",
       "publication_url": "https://www.wahlrecht.de/umfragen/insa.htm",
       "forecasts_count": 7,
       "variants": [
@@ -7588,7 +7732,7 @@
         "cohort": "forecasts/de-insa-meinungstrend-2026-11-10/cohort.json",
         "xpub3": "forecasts/de-insa-meinungstrend-2026-11-10/xpub3.json"
       },
-      "results": null,
+      "results": "results/de-insa-meinungstrend-2026-11-10.json",
       "batches": [
         {
           "batch_id": "de-insa-meinungstrend-2026-11-10__20261103T083812557021Z__s2384",
@@ -8097,17 +8241,17 @@
         ]
       },
       "wave": "Christmas 2026 (Aldi, released 2026-11-05 00:00Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-07T00:00:00Z",
       "first_lock_utc": "2026-11-05T07:56:23Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-12T00:00:00Z",
+      "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
         "pure",
@@ -8117,7 +8261,7 @@
         "pure": "forecasts/gb-system1-xmas-2026-aldi/pure.json",
         "anchored3": "forecasts/gb-system1-xmas-2026-aldi/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-system1-xmas-2026-aldi.json",
       "batches": [
         {
           "batch_id": "gb-system1-xmas-2026-aldi__20261105T075623730689Z__s2431",
@@ -8247,17 +8391,17 @@
         ]
       },
       "wave": "Christmas 2026 (Barbour, released 2026-11-05 00:00Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-07T00:00:00Z",
       "first_lock_utc": "2026-11-05T20:03:03Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-12T00:00:00Z",
+      "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
         "pure",
@@ -8267,7 +8411,7 @@
         "pure": "forecasts/gb-system1-xmas-2026-barbour/pure.json",
         "anchored3": "forecasts/gb-system1-xmas-2026-barbour/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-system1-xmas-2026-barbour.json",
       "batches": [
         {
           "batch_id": "gb-system1-xmas-2026-barbour__20261105T200303619707Z__s2437",
@@ -8772,17 +8916,17 @@
         ]
       },
       "wave": "Christmas 2026 (M&S Food, released 2026-11-06 00:00Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-08T00:00:00Z",
       "first_lock_utc": "2026-11-06T07:53:43Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-12T00:00:00Z",
+      "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
         "pure",
@@ -8792,7 +8936,7 @@
         "pure": "forecasts/gb-system1-xmas-2026-ms/pure.json",
         "anchored3": "forecasts/gb-system1-xmas-2026-ms/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-system1-xmas-2026-ms.json",
       "batches": [
         {
           "batch_id": "gb-system1-xmas-2026-ms__20261106T075343762124Z__s2449",
@@ -8802,11 +8946,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-ms__20261106T075343762124Z__s2449.json",
           "manifest_sha256": "ae0ad0eca2be01045df1012a599023696b84ad64bc67de0aadb7bc73a20b6db3",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-ms__20261106T075343762124Z__s2449.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974780,
+          "bitcoin_block_time_utc": "2026-11-06T08:08:14Z",
+          "bitcoin_block_hash": "0000000000000000000167226bad96164c6f85d4f6948b965d6b49641b03cca8",
+          "bitcoin_block_merkle_root": "90a9fcf44ba18c596cc4fe555a6cfd8582c33c4e4fa48aa0d2aed799ba0ccf3f"
         },
         {
           "batch_id": "gb-system1-xmas-2026-ms__anchored3__20261106T075446564691Z__s2450",
@@ -8816,11 +8960,11 @@
           "manifest": "proofs/batches/gb-system1-xmas-2026-ms__anchored3__20261106T075446564691Z__s2450.json",
           "manifest_sha256": "34a8f2aacd5485de756649695445388b8f3e0f58e480b8507b45b2b5d2f7e4d8",
           "ots_proof": "proofs/batches/gb-system1-xmas-2026-ms__anchored3__20261106T075446564691Z__s2450.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974780,
+          "bitcoin_block_time_utc": "2026-11-06T08:08:14Z",
+          "bitcoin_block_hash": "0000000000000000000167226bad96164c6f85d4f6948b965d6b49641b03cca8",
+          "bitcoin_block_merkle_root": "90a9fcf44ba18c596cc4fe555a6cfd8582c33c4e4fa48aa0d2aed799ba0ccf3f"
         }
       ]
     },
@@ -8841,9 +8985,9 @@
         ]
       },
       "wave": "Release Fri 13 November 2026 (fieldwork expected about Tue Nov 10 to Thu Nov 12)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -8851,8 +8995,8 @@
       ],
       "cutoff_utc": "2026-11-08T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:29:14Z",
-      "released_at": null,
-      "publication_url": "https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/",
+      "released_at": "2026-11-13T00:00:00Z",
+      "publication_url": "https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/November_I_2026/",
       "forecasts_count": 40,
       "variants": [
         "pure",
@@ -8872,7 +9016,7 @@
         "cohort": "forecasts/de-zdf-politbarometer-2026-11-13/cohort.json",
         "xpub3": "forecasts/de-zdf-politbarometer-2026-11-13/xpub3.json"
       },
-      "results": null,
+      "results": "results/de-zdf-politbarometer-2026-11-13.json",
       "batches": [
         {
           "batch_id": "de-zdf-politbarometer-2026-11-13__20261101T212914857936Z__s2133",
@@ -9331,5 +9475,45 @@
       ]
     }
   ],
-  "missed": []
+  "missed": [],
+  "arena": {
+    "available": true,
+    "source_url": "https://social-simulation-arena.com/data.json",
+    "source_generated_at": "2026-11-14T06:20:09+00:00",
+    "checked_at": "2026-11-14T12:05:55.201135+00:00",
+    "stale": false,
+    "ranking_available": true,
+    "overall": {
+      "rank": 26,
+      "methods": 29,
+      "answered": 11,
+      "scored_questions": 137
+    },
+    "profiles": [
+      {
+        "round_id": "yougov-xtab-2026-w45",
+        "lock_at": "2026-11-01T14:00:00+00:00",
+        "state": "awaiting_result",
+        "energy": null
+      },
+      {
+        "round_id": "civiqs-profile-2026-w45",
+        "lock_at": "2026-11-04T22:00:00+00:00",
+        "state": "scored",
+        "energy": 4.9625
+      },
+      {
+        "round_id": "civiqs-profile-2026-w46",
+        "lock_at": "2026-11-11T22:00:00+00:00",
+        "state": "awaiting_result",
+        "energy": null
+      },
+      {
+        "round_id": "yougov-xtab-2026-w47",
+        "lock_at": "2026-11-15T14:00:00+00:00",
+        "state": "submitted",
+        "energy": null
+      }
+    ]
+  }
 }

@@ -1,0 +1,1082 @@
+{
+  "target_id": "de-zdf-politbarometer-2026-11-13",
+  "survey": "ZDF-Politbarometer (Forschungsgruppe Wahlen)",
+  "status": "scored",
+  "released_at": "2026-11-13T00:00:00Z",
+  "source_url": "https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/November_I_2026/",
+  "scored_at": "2026-11-14T12:12:26Z",
+  "results_sha256": "d73af20ddfaa5978ce1aa339f4017ee1c09194f2f37bf350cf935d042f2cc38d",
+  "released_values_public": true,
+  "licence_note": "Source: Forschungsgruppe Wahlen: Politbarometer, interviews 10–12 November 2026, 1,297 eligible German voters. Selected aggregate results compared with preregistered Minds forecasts. Unreported answers calculated as the remainder to 100%; shares rounded for display.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-14",
+    "source_url": "https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/November_I_2026/",
+    "credit": "Source: Forschungsgruppe Wahlen: Politbarometer, interviews 10–12 November 2026, 1,297 eligible German voters. Selected aggregate results compared with preregistered Minds forecasts. Unreported answers calculated as the remainder to 100%; shares rounded for display.",
+    "terms": [],
+    "decision_basis": "Owner-requested update of the existing journalistic forecast ledger; selected released aggregate comparisons with attribution. No new publisher licence is claimed.",
+    "item_scope": {
+      "projektion": [
+        "overall"
+      ],
+      "stimmung": [
+        "overall"
+      ],
+      "government_performance": [
+        "overall"
+      ],
+      "merz_performance": [
+        "overall"
+      ],
+      "economy_situation": [
+        "overall"
+      ],
+      "economy_direction": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 6,
+      "tvd": 0.104167,
+      "mae_pp": 5.458333
+    },
+    "anchored3": {
+      "items": 6,
+      "tvd": 0.03375,
+      "mae_pp": 1.484127
+    },
+    "memory3": {
+      "items": 6,
+      "tvd": 0.105417,
+      "mae_pp": 5.498016
+    },
+    "bank3": {
+      "items": 6,
+      "tvd": 0.111167,
+      "mae_pp": 5.793254
+    },
+    "bankR3": {
+      "items": 6,
+      "tvd": 0.1085,
+      "mae_pp": 5.653572
+    },
+    "cohort": {
+      "items": 6,
+      "tvd": 0.108333,
+      "mae_pp": 5.595238
+    },
+    "xpub3": {
+      "items": 4,
+      "tvd": 0.0485,
+      "mae_pp": 2.195238
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.1125,
+          "mae_pp": 6.9375
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.1125,
+          "mae_pp": 6.9375
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.028125,
+          "mae_pp": 1.583333
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.028125,
+          "mae_pp": 1.583333
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.12,
+          "mae_pp": 7.354166
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.12,
+          "mae_pp": 7.354166
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.1175,
+          "mae_pp": 7.1875
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.1175,
+          "mae_pp": 7.1875
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.11375,
+          "mae_pp": 7.0
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.11375,
+          "mae_pp": 7.0
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.11375,
+          "mae_pp": 6.979167
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.11375,
+          "mae_pp": 6.979167
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0425,
+          "mae_pp": 2.833334
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0425,
+          "mae_pp": 2.833334
+        }
+      }
+    },
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0875,
+          "mae_pp": 2.5
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0875,
+          "mae_pp": 2.5
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.045,
+          "mae_pp": 1.285715
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.045,
+          "mae_pp": 1.285715
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0935,
+          "mae_pp": 2.671429
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0935,
+          "mae_pp": 2.671429
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0905,
+          "mae_pp": 2.585714
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0905,
+          "mae_pp": 2.585714
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0975,
+          "mae_pp": 2.785715
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0975,
+          "mae_pp": 2.785715
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.08875,
+          "mae_pp": 2.535714
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.08875,
+          "mae_pp": 2.535714
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0545,
+          "mae_pp": 1.557143
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0545,
+          "mae_pp": 1.557143
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__projektion__overall__r1",
+      "entry_sha256": "4fde77fadda1b4604c79397ae3cadddc0dce1e54ceda8c20ca39c79c242cb138",
+      "variant": "pure",
+      "question_id": "projektion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.08,
+      "mae_pp": 2.285714,
+      "released": [
+        0.22,
+        0.28,
+        0.13,
+        0.15,
+        0.1,
+        0.03,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__stimmung__overall__r1",
+      "entry_sha256": "4c7e8b690fc417614acb9a131b0a919a30dbbc76d42e92ebb124e271dcf7cad6",
+      "variant": "pure",
+      "question_id": "stimmung",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.095,
+      "mae_pp": 2.714286,
+      "released": [
+        0.23,
+        0.23,
+        0.14,
+        0.22,
+        0.1,
+        0.02,
+        0.06
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__government_performance__overall__r1",
+      "entry_sha256": "97d4f51d38c708b07395e9a808b15631f860fc1541544d65070f85418eccca50",
+      "variant": "pure",
+      "question_id": "government_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.125,
+      "mae_pp": 8.333333,
+      "released": [
+        0.26,
+        0.69,
+        0.05
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__merz_performance__overall__r1",
+      "entry_sha256": "988d2552be18e7d5badba79cc2c62ff9b419e4108efab55864147df6fa919fca",
+      "variant": "pure",
+      "question_id": "merz_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.19,
+      "mae_pp": 12.666667,
+      "released": [
+        0.22,
+        0.75,
+        0.03
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__economy_situation__overall__r1",
+      "entry_sha256": "f21458469540cc4b41ab62d395a66c6695f603599e9993874b37eb283a1281a8",
+      "variant": "pure",
+      "question_id": "economy_situation",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.12,
+      "mae_pp": 6.0,
+      "released": [
+        0.08,
+        0.54,
+        0.38,
+        0.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__economy_direction__overall__r1",
+      "entry_sha256": "34127eb658399dade8bfb807a913382570c14593b27d11486a9a616de1f9c909",
+      "variant": "pure",
+      "question_id": "economy_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.015,
+      "mae_pp": 0.75,
+      "released": [
+        0.15,
+        0.52,
+        0.31,
+        0.02
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__anchored3__projektion__overall__r1",
+      "entry_sha256": "de78cf8dd6a5fc82d06389624ab64ae8db4f4f66cbfdbde3deb2860660835437",
+      "variant": "anchored3",
+      "question_id": "projektion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.03,
+      "mae_pp": 0.857143,
+      "released": [
+        0.22,
+        0.28,
+        0.13,
+        0.15,
+        0.1,
+        0.03,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__anchored3__stimmung__overall__r1",
+      "entry_sha256": "1d2a40a76c557fa09a8858b0afb71d8dc52a4b3841e75e42af0f9493df08ba43",
+      "variant": "anchored3",
+      "question_id": "stimmung",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.06,
+      "mae_pp": 1.714286,
+      "released": [
+        0.23,
+        0.23,
+        0.14,
+        0.22,
+        0.1,
+        0.02,
+        0.06
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__anchored3__government_performance__overall__r1",
+      "entry_sha256": "bf8e2d04185cfa1a4d73ab71f2b354fede986bc8c6acb118a5c34cedf116b04a",
+      "variant": "anchored3",
+      "question_id": "government_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0125,
+      "mae_pp": 0.833333,
+      "released": [
+        0.26,
+        0.69,
+        0.05
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__anchored3__merz_performance__overall__r1",
+      "entry_sha256": "2d820a312e8defedaf0de4179f68c9511e3e080a5e15c703d0dbfae3e377ba35",
+      "variant": "anchored3",
+      "question_id": "merz_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.03,
+      "mae_pp": 2.0,
+      "released": [
+        0.22,
+        0.75,
+        0.03
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__anchored3__economy_situation__overall__r1",
+      "entry_sha256": "8fa25e26f2ce201f36ab3a934624dbacf8f7f86312f4dc66f6c6ca67cda0303e",
+      "variant": "anchored3",
+      "question_id": "economy_situation",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.025,
+      "mae_pp": 1.25,
+      "released": [
+        0.08,
+        0.54,
+        0.38,
+        0.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__anchored3__economy_direction__overall__r1",
+      "entry_sha256": "f4bb0428cdba6d42bd5c923e62f600237fddd7c33590807683ad6e1641177121",
+      "variant": "anchored3",
+      "question_id": "economy_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.045,
+      "mae_pp": 2.25,
+      "released": [
+        0.15,
+        0.52,
+        0.31,
+        0.02
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bank3__projektion__overall__r1",
+      "entry_sha256": "1e756e1c9c21c7e5b87d9ba43d187a6be4721866c857f8499ba5fe22043c6dfa",
+      "variant": "bank3",
+      "question_id": "projektion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.086,
+      "mae_pp": 2.457143,
+      "released": [
+        0.22,
+        0.28,
+        0.13,
+        0.15,
+        0.1,
+        0.03,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bank3__stimmung__overall__r1",
+      "entry_sha256": "4bc58fa1d29636e05c6ff40190f58e1df207e7111de37828ee1ae9305527e4f4",
+      "variant": "bank3",
+      "question_id": "stimmung",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.101,
+      "mae_pp": 2.885714,
+      "released": [
+        0.23,
+        0.23,
+        0.14,
+        0.22,
+        0.1,
+        0.02,
+        0.06
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bank3__government_performance__overall__r1",
+      "entry_sha256": "588c6a6474f0405433c9d221979a00957081553bec9796b4d5f395a06dbecff8",
+      "variant": "bank3",
+      "question_id": "government_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.125,
+      "mae_pp": 8.333333,
+      "released": [
+        0.26,
+        0.69,
+        0.05
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bank3__merz_performance__overall__r1",
+      "entry_sha256": "2efca4c9ed7104a5995b7a5cae81ca68dd7ce691f6c5e050c5a49ffcc6207ac7",
+      "variant": "bank3",
+      "question_id": "merz_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.2,
+      "mae_pp": 13.333333,
+      "released": [
+        0.22,
+        0.75,
+        0.03
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bank3__economy_situation__overall__r1",
+      "entry_sha256": "18e5a89f89f7394304e92186aeffa7f781afb65a6d55f28369d3f48cb015e53b",
+      "variant": "bank3",
+      "question_id": "economy_situation",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.135,
+      "mae_pp": 6.75,
+      "released": [
+        0.08,
+        0.54,
+        0.38,
+        0.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bank3__economy_direction__overall__r1",
+      "entry_sha256": "e636bdc2c24fe85e689f6050ceab923e17b90b6e088451c9e75afa0cb74c5c17",
+      "variant": "bank3",
+      "question_id": "economy_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.02,
+      "mae_pp": 1.0,
+      "released": [
+        0.15,
+        0.52,
+        0.31,
+        0.02
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__projektion__overall__r1",
+      "entry_sha256": "460f30575a3cbf55b3df72bc6e99daf5a0f092a2751e26b8e56953e08b126ff7",
+      "variant": "bankR3",
+      "question_id": "projektion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0825,
+      "mae_pp": 2.357143,
+      "released": [
+        0.22,
+        0.28,
+        0.13,
+        0.15,
+        0.1,
+        0.03,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__stimmung__overall__r1",
+      "entry_sha256": "b8dea0c1e028b49a145e963881d40b415e4747b7e292c4868e53fea6c5ded6f0",
+      "variant": "bankR3",
+      "question_id": "stimmung",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0985,
+      "mae_pp": 2.814286,
+      "released": [
+        0.23,
+        0.23,
+        0.14,
+        0.22,
+        0.1,
+        0.02,
+        0.06
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__government_performance__overall__r1",
+      "entry_sha256": "216f8b3c87f4e7ccd2ec942be1fa71f17ec37b8045aa353fb21df77476ee1540",
+      "variant": "bankR3",
+      "question_id": "government_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.125,
+      "mae_pp": 8.333333,
+      "released": [
+        0.26,
+        0.69,
+        0.05
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__merz_performance__overall__r1",
+      "entry_sha256": "9802b2484ec44ebf30cde0a4fab8b8612def26aa425cca27029f2db4fa94b927",
+      "variant": "bankR3",
+      "question_id": "merz_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.19,
+      "mae_pp": 12.666667,
+      "released": [
+        0.22,
+        0.75,
+        0.03
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__economy_situation__overall__r1",
+      "entry_sha256": "4a6c834591905cbddf0cfc1dd317627943a34b9094405cda202ba5c294c91398",
+      "variant": "bankR3",
+      "question_id": "economy_situation",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.125,
+      "mae_pp": 6.25,
+      "released": [
+        0.08,
+        0.54,
+        0.38,
+        0.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__economy_direction__overall__r1",
+      "entry_sha256": "de4e263398b14bf24e1ed68682d1d71c66dab2fef34e1eceb589793979b1cb42",
+      "variant": "bankR3",
+      "question_id": "economy_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.03,
+      "mae_pp": 1.5,
+      "released": [
+        0.15,
+        0.52,
+        0.31,
+        0.02
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__projektion__overall__r1",
+      "entry_sha256": "123297e4ccf515b204f9dca31a01a3260ec33566ef3d16a3bd12eeb8aadb7a3e",
+      "variant": "cohort",
+      "question_id": "projektion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0825,
+      "mae_pp": 2.357143,
+      "released": [
+        0.22,
+        0.28,
+        0.13,
+        0.15,
+        0.1,
+        0.03,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__stimmung__overall__r1",
+      "entry_sha256": "9f05e319faf46919196702ab70800d7ac23581505b3cc325947256e9059b63bc",
+      "variant": "cohort",
+      "question_id": "stimmung",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.1125,
+      "mae_pp": 3.214286,
+      "released": [
+        0.23,
+        0.23,
+        0.14,
+        0.22,
+        0.1,
+        0.02,
+        0.06
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__government_performance__overall__r1",
+      "entry_sha256": "66d29ff31d9a28824b8018029adf0381b81f86a002fe9fd1bafa0334a9b7e7b6",
+      "variant": "cohort",
+      "question_id": "government_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.115,
+      "mae_pp": 7.666667,
+      "released": [
+        0.26,
+        0.69,
+        0.05
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__merz_performance__overall__r1",
+      "entry_sha256": "9895a201bc95b71be2fa23968904264995b13b960f18e273d8736b5473788d0b",
+      "variant": "cohort",
+      "question_id": "merz_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.2,
+      "mae_pp": 13.333333,
+      "released": [
+        0.22,
+        0.75,
+        0.03
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__economy_situation__overall__r1",
+      "entry_sha256": "655df653c1a60c7c80435259d0f30089ae12188849e2cc8ee3849d5d07830e33",
+      "variant": "cohort",
+      "question_id": "economy_situation",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.12,
+      "mae_pp": 6.0,
+      "released": [
+        0.08,
+        0.54,
+        0.38,
+        0.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__cohort__economy_direction__overall__r1",
+      "entry_sha256": "7ca88dfbb11aa64a98c32d3f0df8cdf20a0d03c423ef26ff8dcf3eeffe1e204a",
+      "variant": "cohort",
+      "question_id": "economy_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.02,
+      "mae_pp": 1.0,
+      "released": [
+        0.15,
+        0.52,
+        0.31,
+        0.02
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__memory3__projektion__overall__r1",
+      "entry_sha256": "26a55d47a1ad6c41a5dc98a2a361843504efb02340921dfe25cc1430ce553a6b",
+      "variant": "memory3",
+      "question_id": "projektion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.08,
+      "mae_pp": 2.285714,
+      "released": [
+        0.22,
+        0.28,
+        0.13,
+        0.15,
+        0.1,
+        0.03,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__memory3__stimmung__overall__r1",
+      "entry_sha256": "68a3f49be7d36d7436efd3d4097dc286de92b0724e354d30b1dec2ff52cb1620",
+      "variant": "memory3",
+      "question_id": "stimmung",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0975,
+      "mae_pp": 2.785714,
+      "released": [
+        0.23,
+        0.23,
+        0.14,
+        0.22,
+        0.1,
+        0.02,
+        0.06
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__memory3__government_performance__overall__r1",
+      "entry_sha256": "4c3ba7fe5a1280daa4dfc14e9970e91e8bbad2679bc4dfe9de826df73ab9588d",
+      "variant": "memory3",
+      "question_id": "government_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.12,
+      "mae_pp": 8.0,
+      "released": [
+        0.26,
+        0.69,
+        0.05
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__memory3__merz_performance__overall__r1",
+      "entry_sha256": "1b467d00d907bd4173d95da439931c33e2a87e1f30f16aea31c13d6553625c8b",
+      "variant": "memory3",
+      "question_id": "merz_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.19,
+      "mae_pp": 12.666667,
+      "released": [
+        0.22,
+        0.75,
+        0.03
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__memory3__economy_situation__overall__r1",
+      "entry_sha256": "8f11041807946d845e9a07475f035d9ddee704a2691833d264d233aae375a8ff",
+      "variant": "memory3",
+      "question_id": "economy_situation",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.115,
+      "mae_pp": 5.75,
+      "released": [
+        0.08,
+        0.54,
+        0.38,
+        0.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__memory3__economy_direction__overall__r1",
+      "entry_sha256": "c0c743a65866f0ce56e56b64708539e16bab0d411a389e2a229cef559de5e280",
+      "variant": "memory3",
+      "question_id": "economy_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.03,
+      "mae_pp": 1.5,
+      "released": [
+        0.15,
+        0.52,
+        0.31,
+        0.02
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__xpub3__projektion__overall__r1",
+      "entry_sha256": "b03819582a6a9708a988f9bcd0bb0401ee3955d1c3375ccfdaf4645bd8fde9bd",
+      "variant": "xpub3",
+      "question_id": "projektion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0265,
+      "mae_pp": 0.757143,
+      "released": [
+        0.22,
+        0.28,
+        0.13,
+        0.15,
+        0.1,
+        0.03,
+        0.09
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__xpub3__stimmung__overall__r1",
+      "entry_sha256": "b64726ded05452bea650821582d791c7174ab1ae0b36d2b7349c22f878e41dd8",
+      "variant": "xpub3",
+      "question_id": "stimmung",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0825,
+      "mae_pp": 2.357143,
+      "released": [
+        0.23,
+        0.23,
+        0.14,
+        0.22,
+        0.1,
+        0.02,
+        0.06
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__xpub3__government_performance__overall__r1",
+      "entry_sha256": "153bd4662dcfc2da963d046fed1353c2d00536325c30e4c654482aca47a4fa7c",
+      "variant": "xpub3",
+      "question_id": "government_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.025,
+      "mae_pp": 1.666667,
+      "released": [
+        0.26,
+        0.69,
+        0.05
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-zdf-politbarometer-2026-11-13__xpub3__merz_performance__overall__r1",
+      "entry_sha256": "3354cdee16d102bc1a3c294fd0edd70fe798da8ab517f7d341efc170bed63c90",
+      "variant": "xpub3",
+      "question_id": "merz_performance",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.06,
+      "mae_pp": 4.0,
+      "released": [
+        0.22,
+        0.75,
+        0.03
+      ],
+      "released_values_public": true
+    }
+  ]
+}

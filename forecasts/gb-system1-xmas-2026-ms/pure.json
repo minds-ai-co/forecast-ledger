@@ -3,15 +3,53 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-system1-xmas-2026-ms__star_rating__overall__r1",
       "entry_sha256": "5ac38b61cc9003b5bf6a587b2d568642693b6276b876e720ecd4edbb59c98fc5",
       "seq": 2449,
       "batch_id": "gb-system1-xmas-2026-ms__20261106T075343762124Z__s2449",
-      "locked_at": "2026-11-06T07:53:43Z"
+      "locked_at": "2026-11-06T07:53:43Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 Group's Test Your Ad shows each new UK TV ad to a nationally representative sample of UK adults, measures their second-by-second emotional response and publishes a Star Rating from 1.0 to 5.9 stars (one decimal) that predicts the ad's long-term brand-building potential. What Star Rating will System1 publish for the following UK Christmas 2026 ad? Ad description:\nBrand: M&S (UK; one campaign for M&S Food and M&S Clothing & Home)\nAd title: The Home of Christmas\nReleased: 6 November 2026 (brand online release 7am; first TV slot ITV1 10:15)\nLength of the main edit: 180 seconds\nFormat: live action\nSetting: A wooden cabin at the North Pole, then homes across the country.\nCharacters: James Norton as an undercover Santa and Lucy Punch as Mrs Claus (named celebrities); Katherine Jenkins (named celebrity, special appearance); a children's choir.\nStory:\n1. In their cabin, Mrs Claus encourages Santa to leave and experience Christmas for himself.\n2. Santa swaps his red suit for a Christmas jumper and shaves off his beard so he is not recognised.\n3. Unrecognised, he joins celebrations in people's homes, wearing a red scarf and carrying a plate of food.\n4. Katherine Jenkins sings with the children's choir.\n5. His journey brings together festive meals, gifts, fashion and home.\nMusic: \"Heaven Is a Place on Earth\", a version specially recorded by Katherine Jenkins.\nDialogue and voiceover: not stated.\nTone: comedic, musical, magical\nBrand and product presence: Featured products include an Oakham Turkey Crown with stuffing, a Sequin Dress, an Autograph Pure Cashmere Scarf and an M&S X Kelly Hoppen candle. End line: \"The Home of Christmas\".",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.005,
+        0.015,
+        0.045,
+        0.11,
+        0.22749999999999998,
+        0.27749999999999997,
+        0.21250000000000002,
+        0.0825,
+        0.025
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

@@ -3,15 +3,53 @@
   "variant": "anchored3",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-system1-xmas-2026-aldi__anchored3__star_rating__overall__r1",
       "entry_sha256": "e61a1dba7777cb85a1376732fff1fcdf029f6b4e6779e0e88f653b5703d9066e",
       "seq": 2432,
       "batch_id": "gb-system1-xmas-2026-aldi__anchored3__20261105T075816457725Z__s2432",
-      "locked_at": "2026-11-05T07:58:16Z"
+      "locked_at": "2026-11-05T07:58:16Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 Group's Test Your Ad shows each new UK TV ad to a nationally representative sample of UK adults, measures their second-by-second emotional response and publishes a Star Rating from 1.0 to 5.9 stars (one decimal) that predicts the ad's long-term brand-building potential. What Star Rating will System1 publish for the following UK Christmas 2026 ad? Ad description:\nBrand: Aldi (UK)\nAd title: Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?\nReleased: 5 November 2026 (brand online release; TV debut scheduled 5 November)\nLength of the main edit: 50 seconds (a 30-second cut-down is also published)\nFormat: CGI\nSetting: Snowy pine forest above a lit village at night; a candlelit dinner table at the end.\nCharacters: Kevin the Carrot (recurring brand character); his daughter Chantenay; Cauli Dog, the family's cauliflower pet (from the previous year's campaign); a scarecrow dressed as Santa. Celebrity voices: not stated.\nStory:\n1. Chantenay, in a fur-hooded coat, holds a \"LOST CAULI-DOG\" poster beside a red \"Letters to Santa\" post box and wishes for Cauli Dog's return.\n2. Kevin and Chantenay follow a trail of small paw prints into the snowy forest at night.\n3. They come upon a scarecrow dressed as Santa, wrapped in fairy lights.\n4. Whether they bring Cauli Dog home for Christmas Day: not stated.\n5. The film closes on a table of Christmas food.\nMusic: not stated.\nDialogue and voiceover: not stated.\nTone: magical, heartfelt\nBrand and product presence: The Aldi logo appears on a title card reading \"Kevin the Carrot and the Christmas Wish\" and on the end card. The end card shows a dinner spread with the line \"ALL YOU WANT FOR CHRISTMAS\".",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.001,
+        0.0015,
+        0.0025,
+        0.005,
+        0.0125,
+        0.03,
+        0.0825,
+        0.215,
+        0.65
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

@@ -1,0 +1,40 @@
+{
+  "available": true,
+  "source_url": "https://social-simulation-arena.com/data.json",
+  "source_generated_at": "2026-11-14T06:20:09+00:00",
+  "checked_at": "2026-11-14T12:05:55.201135+00:00",
+  "stale": false,
+  "ranking_available": true,
+  "overall": {
+    "rank": 26,
+    "methods": 29,
+    "answered": 11,
+    "scored_questions": 137
+  },
+  "profiles": [
+    {
+      "round_id": "yougov-xtab-2026-w45",
+      "lock_at": "2026-11-01T14:00:00+00:00",
+      "state": "awaiting_result",
+      "energy": null
+    },
+    {
+      "round_id": "civiqs-profile-2026-w45",
+      "lock_at": "2026-11-04T22:00:00+00:00",
+      "state": "scored",
+      "energy": 4.9625
+    },
+    {
+      "round_id": "civiqs-profile-2026-w46",
+      "lock_at": "2026-11-11T22:00:00+00:00",
+      "state": "awaiting_result",
+      "energy": null
+    },
+    {
+      "round_id": "yougov-xtab-2026-w47",
+      "lock_at": "2026-11-15T14:00:00+00:00",
+      "state": "submitted",
+      "energy": null
+    }
+  ]
+}

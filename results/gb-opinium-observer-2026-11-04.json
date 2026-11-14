@@ -1,0 +1,554 @@
+{
+  "target_id": "gb-opinium-observer-2026-11-04",
+  "survey": "Opinium / The Observer political poll (Westminster voting intention and leader approval)",
+  "status": "scored",
+  "released_at": "2026-11-07T00:00:00Z",
+  "source_url": "https://www.opinium.com/resource-center/voting-intention-4th-november-2026",
+  "scored_at": "2026-11-14T12:12:30Z",
+  "results_sha256": "d26c990331e549545622ef20407ec92e8fc67908985bda5368352db60264f956",
+  "released_values_public": true,
+  "licence_note": "Source: Opinium / The Observer, November 2026 polling tables. Selected published overall response shares compared with preregistered Minds forecasts. Headline vote intention uses the publisher’s turnout-adjusted base; figures rounded for display.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-14",
+    "source_url": "https://www.opinium.com/resource-center/voting-intention-4th-november-2026",
+    "credit": "Source: Opinium / The Observer, November 2026 polling tables. Selected published overall response shares compared with preregistered Minds forecasts. Headline vote intention uses the publisher’s turnout-adjusted base; figures rounded for display.",
+    "terms": [],
+    "decision_basis": "Owner-requested update of the existing journalistic forecast ledger; selected released aggregate comparisons with attribution. No new publisher licence is claimed.",
+    "item_scope": {
+      "westminster_vi": [
+        "overall"
+      ],
+      "burnham_approval": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 2,
+      "tvd": 0.078047,
+      "mae_pp": 2.406376
+    },
+    "anchored3": {
+      "items": 2,
+      "tvd": 0.034216,
+      "mae_pp": 1.016336
+    },
+    "memory3": {
+      "items": 2,
+      "tvd": 0.075665,
+      "mae_pp": 2.321616
+    },
+    "bank3": {
+      "items": 2,
+      "tvd": 0.071043,
+      "mae_pp": 2.149993
+    },
+    "bankR3": {
+      "items": 2,
+      "tvd": 0.074021,
+      "mae_pp": 2.228417
+    },
+    "cohort": {
+      "items": 2,
+      "tvd": 0.073755,
+      "mae_pp": 2.163668
+    },
+    "xpub3": {
+      "items": 1,
+      "tvd": 0.033362,
+      "mae_pp": 0.834062
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.109249,
+          "mae_pp": 3.641638
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.109249,
+          "mae_pp": 3.641638
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.03862,
+          "mae_pp": 1.287346
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.03862,
+          "mae_pp": 1.287346
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.089741,
+          "mae_pp": 2.991372
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.089741,
+          "mae_pp": 2.991372
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.090697,
+          "mae_pp": 3.023221
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.090697,
+          "mae_pp": 3.023221
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.076749,
+          "mae_pp": 2.558304
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.076749,
+          "mae_pp": 2.558304
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.103197,
+          "mae_pp": 3.439888
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.103197,
+          "mae_pp": 3.439888
+        }
+      }
+    },
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.046845,
+          "mae_pp": 1.171114
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.046845,
+          "mae_pp": 1.171114
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.029813,
+          "mae_pp": 0.745326
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.029813,
+          "mae_pp": 0.745326
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.052345,
+          "mae_pp": 1.308614
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.052345,
+          "mae_pp": 1.308614
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.057345,
+          "mae_pp": 1.433614
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.057345,
+          "mae_pp": 1.433614
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.070761,
+          "mae_pp": 1.769032
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.070761,
+          "mae_pp": 1.769032
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.048134,
+          "mae_pp": 1.203343
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.048134,
+          "mae_pp": 1.203343
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.033362,
+          "mae_pp": 0.834062
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.033362,
+          "mae_pp": 0.834062
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__westminster_vi__overall__r1",
+      "entry_sha256": "f533a9fddeb166d818174858b0289b94ad39b85dd26f0a2af0783b4defab4215",
+      "variant": "pure",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.046845,
+      "mae_pp": 1.171114,
+      "released": [
+        0.196814966360057,
+        0.282416712791616,
+        0.0994684574029961,
+        0.0282108555705983,
+        0.212955300247178,
+        0.0131323256387354,
+        0.113050840011032,
+        0.0539505419777873
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__burnham_approval__overall__r1",
+      "entry_sha256": "3d2fb92556380a495eca82c5b563f7c7a33c27082a582219e0097746ca1c8dc2",
+      "variant": "pure",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.109249,
+      "mae_pp": 3.641638,
+      "released": [
+        0.1252174011789959,
+        0.2555762498040268,
+        0.22595547565187887,
+        0.11153601258785993,
+        0.22144750367050886,
+        0.06026735710672966
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "d66712e7664e4764f4ef68c9cd50e005945c39f25bbbe0c74810b55af795e9a3",
+      "variant": "anchored3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.029813,
+      "mae_pp": 0.745326,
+      "released": [
+        0.196814966360057,
+        0.282416712791616,
+        0.0994684574029961,
+        0.0282108555705983,
+        0.212955300247178,
+        0.0131323256387354,
+        0.113050840011032,
+        0.0539505419777873
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__anchored3__burnham_approval__overall__r1",
+      "entry_sha256": "2a7f9cf4cc96373d96c7111de5bbbc3a8f28815a691bba81e94007927f673586",
+      "variant": "anchored3",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.03862,
+      "mae_pp": 1.287346,
+      "released": [
+        0.1252174011789959,
+        0.2555762498040268,
+        0.22595547565187887,
+        0.11153601258785993,
+        0.22144750367050886,
+        0.06026735710672966
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__memory3__westminster_vi__overall__r1",
+      "entry_sha256": "29774f4844e03e2fdecd785b6139a76ebde31d94d2035bbf27439690bcba2e20",
+      "variant": "memory3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.048134,
+      "mae_pp": 1.203343,
+      "released": [
+        0.196814966360057,
+        0.282416712791616,
+        0.0994684574029961,
+        0.0282108555705983,
+        0.212955300247178,
+        0.0131323256387354,
+        0.113050840011032,
+        0.0539505419777873
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__memory3__burnham_approval__overall__r1",
+      "entry_sha256": "d43d0654abdb690987b92840077acecb15e63f92909f7ee10700f1c23ed3ad3b",
+      "variant": "memory3",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.103197,
+      "mae_pp": 3.439888,
+      "released": [
+        0.1252174011789959,
+        0.2555762498040268,
+        0.22595547565187887,
+        0.11153601258785993,
+        0.22144750367050886,
+        0.06026735710672966
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__xpub3__westminster_vi__overall__r1",
+      "entry_sha256": "07fb981f7ab41af5c8cff03778f44e97f338d48d925091ddcb00def3bb8cd552",
+      "variant": "xpub3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.033362,
+      "mae_pp": 0.834062,
+      "released": [
+        0.196814966360057,
+        0.282416712791616,
+        0.0994684574029961,
+        0.0282108555705983,
+        0.212955300247178,
+        0.0131323256387354,
+        0.113050840011032,
+        0.0539505419777873
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__bank3__westminster_vi__overall__r1",
+      "entry_sha256": "a2e5063192776cca4cc58a340f13b639f307b444fd49b10b5c10b8a49ac74f0b",
+      "variant": "bank3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.052345,
+      "mae_pp": 1.308614,
+      "released": [
+        0.196814966360057,
+        0.282416712791616,
+        0.0994684574029961,
+        0.0282108555705983,
+        0.212955300247178,
+        0.0131323256387354,
+        0.113050840011032,
+        0.0539505419777873
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__bank3__burnham_approval__overall__r1",
+      "entry_sha256": "e4f180050a2ca8daef7e17610549cc1a163247edd987354cbd25ebdb38a1f7ba",
+      "variant": "bank3",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.089741,
+      "mae_pp": 2.991372,
+      "released": [
+        0.1252174011789959,
+        0.2555762498040268,
+        0.22595547565187887,
+        0.11153601258785993,
+        0.22144750367050886,
+        0.06026735710672966
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__bankR3__westminster_vi__overall__r1",
+      "entry_sha256": "1f3ec0e9fe642a8312d9935ce11cb71a0295168b5c18290a731d22aa3777e015",
+      "variant": "bankR3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.057345,
+      "mae_pp": 1.433614,
+      "released": [
+        0.196814966360057,
+        0.282416712791616,
+        0.0994684574029961,
+        0.0282108555705983,
+        0.212955300247178,
+        0.0131323256387354,
+        0.113050840011032,
+        0.0539505419777873
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__bankR3__burnham_approval__overall__r1",
+      "entry_sha256": "c1d6acad990079285ec05dea17dc643abdb72c6b067a87f06824a92a96a17958",
+      "variant": "bankR3",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.090697,
+      "mae_pp": 3.023221,
+      "released": [
+        0.1252174011789959,
+        0.2555762498040268,
+        0.22595547565187887,
+        0.11153601258785993,
+        0.22144750367050886,
+        0.06026735710672966
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__cohort__westminster_vi__overall__r1",
+      "entry_sha256": "7394968a3418b48567fbfcde6966973a4b3c1de14276241e6ebc8e33b1eaa339",
+      "variant": "cohort",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.070761,
+      "mae_pp": 1.769032,
+      "released": [
+        0.196814966360057,
+        0.282416712791616,
+        0.0994684574029961,
+        0.0282108555705983,
+        0.212955300247178,
+        0.0131323256387354,
+        0.113050840011032,
+        0.0539505419777873
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-opinium-observer-2026-11-04__cohort__burnham_approval__overall__r1",
+      "entry_sha256": "830e1497f835c3574d9085403d98010dac94dccaf1a64eba9c18df754b8151c4",
+      "variant": "cohort",
+      "question_id": "burnham_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.076749,
+      "mae_pp": 2.558304,
+      "released": [
+        0.1252174011789959,
+        0.2555762498040268,
+        0.22595547565187887,
+        0.11153601258785993,
+        0.22144750367050886,
+        0.06026735710672966
+      ],
+      "released_values_public": true
+    }
+  ]
+}

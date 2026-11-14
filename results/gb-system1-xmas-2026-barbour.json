@@ -1,0 +1,154 @@
+{
+  "target_id": "gb-system1-xmas-2026-barbour",
+  "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Barbour \"Barbour x Wallace & Gromit | Barbour Christmas Film 2026\"",
+  "status": "scored",
+  "released_at": "2026-11-12T00:00:00Z",
+  "source_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
+  "scored_at": "2026-11-14T12:14:15Z",
+  "results_sha256": "11fd5c3fbeec467c91b1c6855077ca64c14d8791126559c14913279ef0bf0c5c",
+  "released_values_public": true,
+  "licence_note": "Source: System1 Test Your Ad, UK Christmas 2026 early rankings as of 12 November, reported by Advanced Television on 12 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-14",
+    "source_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
+    "credit": "Source: System1 Test Your Ad, UK Christmas 2026 early rankings as of 12 November, reported by Advanced Television on 12 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share.",
+    "terms": [],
+    "decision_basis": "Owner-requested update of the existing journalistic forecast ledger; selected released aggregate comparisons with attribution. No new publisher licence is claimed.",
+    "item_scope": {
+      "star_rating": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.98,
+      "mae_pp": 21.777778
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.7225,
+      "mae_pp": 16.055556
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.98,
+          "mae_pp": 21.777778,
+          "numeric": {
+            "n": 1,
+            "abs_error": 1.34925,
+            "pct_error": 22.868644
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.98,
+          "mae_pp": 21.777778,
+          "numeric": {
+            "n": 1,
+            "abs_error": 1.34925,
+            "pct_error": 22.868644
+          }
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.7225,
+          "mae_pp": 16.055556,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.466125,
+            "pct_error": 7.900424
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.7225,
+          "mae_pp": 16.055556,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.466125,
+            "pct_error": 7.900424
+          }
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-system1-xmas-2026-barbour__star_rating__overall__r1",
+      "entry_sha256": "b10323fcb3c06daff4f9de8e9ccad5ec9848671626b0e446385cef8588fd8ce1",
+      "variant": "pure",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 4.55075,
+        "abs_error": 1.34925,
+        "pct_error": 22.868644,
+        "actual": 5.9
+      },
+      "tvd": 0.98,
+      "mae_pp": 21.777778,
+      "released": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-system1-xmas-2026-barbour__anchored3__star_rating__overall__r1",
+      "entry_sha256": "1fc0477d25abfbaf669abe27820cb2c60daaaba129fff25bbca29db9cc740b19",
+      "variant": "anchored3",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 5.433875,
+        "abs_error": 0.466125,
+        "pct_error": 7.900424,
+        "actual": 5.9
+      },
+      "tvd": 0.7225,
+      "mae_pp": 16.055556,
+      "released": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "released_values_public": true
+    }
+  ]
+}

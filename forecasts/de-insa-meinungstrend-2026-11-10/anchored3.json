@@ -3,15 +3,51 @@
   "variant": "anchored3",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-insa-meinungstrend-2026-11-10__anchored3__sonntagsfrage__overall__r1",
       "entry_sha256": "cff11ea9909e2c7ed15d31be6e5534d157dbf9f9abe8593654c99611fcadb900",
       "seq": 2385,
       "batch_id": "de-insa-meinungstrend-2026-11-10__anchored3__20261103T083851040111Z__s2385",
-      "locked_at": "2026-11-03T08:38:51Z"
+      "locked_at": "2026-11-03T08:38:51Z",
+      "state": "scored",
+      "question": {
+        "id": "sonntagsfrage",
+        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie wählen? (If there were a federal election next Sunday, which party would you vote for? Shares among respondents naming a party, in half points.)",
+        "type": "categorical",
+        "options": [
+          "CDU/CSU",
+          "AfD",
+          "SPD",
+          "Grüne",
+          "Die Linke",
+          "BSW",
+          "FDP",
+          "Sonstige"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.199,
+        0.2835,
+        0.14,
+        0.1465,
+        0.1005,
+        0.0345,
+        0.05,
+        0.046
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

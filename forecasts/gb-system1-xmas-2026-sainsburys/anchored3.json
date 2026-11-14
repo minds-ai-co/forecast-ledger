@@ -3,15 +3,53 @@
   "variant": "anchored3",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-system1-xmas-2026-sainsburys__anchored3__star_rating__overall__r1",
       "entry_sha256": "5dbedcde52dbda5385ec6a51f9b99d27df0bfcf90b742a6c2d2750285781ee59",
       "seq": 2366,
       "batch_id": "gb-system1-xmas-2026-sainsburys__anchored3__20261102T202847696226Z__s2366",
-      "locked_at": "2026-11-02T20:28:47Z"
+      "locked_at": "2026-11-02T20:28:47Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 Group's Test Your Ad shows each new UK TV ad to a nationally representative sample of UK adults, measures their second-by-second emotional response and publishes a Star Rating from 1.0 to 5.9 stars (one decimal) that predicts the ad's long-term brand-building potential. What Star Rating will System1 publish for the following UK Christmas 2026 ad? Ad description:\nBrand: Sainsbury's (UK)\nAd title: Sainsbury’s big delivery.\nReleased: 1 November 2026 (official YouTube release)\nLength of the main edit: 120 seconds\nFormat: not stated (visual effects by Electric Theatre Collective)\nSetting: A festive food delivery journey to Giant Country.\nCharacters: Annie, a Sainsbury's colleague; Fred, her sidekick; the BFG (licensed Roald Dahl character, recurring in the brand's Christmas ads); the Greedy Giant (licensed character); an oversized Squizzly Scotch-Hopper.\nStory:\n1. The BFG falls ill before Christmas.\n2. Annie and Fred set off at speed in a van full of festive food, bound for Giant Country.\n3. On the way they have a run-in with the Greedy Giant.\n4. They also encounter an oversized Squizzly Scotch-Hopper.\n5. They reach the BFG's cave with Sainsbury's Taste the Difference products.\n6. Annie tells the BFG that \"nobody should miss Christmas\", and the three share a festive meal.\nMusic: not stated.\nDialogue and voiceover: Annie says \"nobody should miss Christmas\"; other lines not stated.\nTone: magical, comedic\nBrand and product presence: Taste the Difference products (including a Slow Cooked Turkey Crown and a Brussels Sprout and Cavolo Nero Gratin) are delivered and eaten in the final meal. End line not stated. The official upload caption reads \"BFG missing Christmas? Not on Sainsbury’s watch!\"",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.002,
+        0.005,
+        0.010499999999999999,
+        0.025,
+        0.065,
+        0.1825,
+        0.3625,
+        0.2375,
+        0.11
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

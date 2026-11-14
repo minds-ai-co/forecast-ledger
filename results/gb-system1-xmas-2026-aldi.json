@@ -1,0 +1,154 @@
+{
+  "target_id": "gb-system1-xmas-2026-aldi",
+  "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Aldi \"Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?\"",
+  "status": "scored",
+  "released_at": "2026-11-12T00:00:00Z",
+  "source_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
+  "scored_at": "2026-11-14T12:14:14Z",
+  "results_sha256": "b198f7ab513761f7b2eeeeeff34bc1630f8a8a6b1b6dbc54430cde540a4cf3ca",
+  "released_values_public": true,
+  "licence_note": "Source: System1 Test Your Ad, UK Christmas 2026 early rankings as of 12 November, reported by Advanced Television on 12 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-14",
+    "source_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
+    "credit": "Source: System1 Test Your Ad, UK Christmas 2026 early rankings as of 12 November, reported by Advanced Television on 12 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share.",
+    "terms": [],
+    "decision_basis": "Owner-requested update of the existing journalistic forecast ledger; selected released aggregate comparisons with attribution. No new publisher licence is claimed.",
+    "item_scope": {
+      "star_rating": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.9,
+      "mae_pp": 20.0
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.35,
+      "mae_pp": 7.777778
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.9,
+          "mae_pp": 20.0,
+          "numeric": {
+            "n": 1,
+            "abs_error": 1.01275,
+            "pct_error": 17.165254
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.9,
+          "mae_pp": 20.0,
+          "numeric": {
+            "n": 1,
+            "abs_error": 1.01275,
+            "pct_error": 17.165254
+          }
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.35,
+          "mae_pp": 7.777778,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.239375,
+            "pct_error": 4.057203
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.35,
+          "mae_pp": 7.777778,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.239375,
+            "pct_error": 4.057203
+          }
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-system1-xmas-2026-aldi__star_rating__overall__r1",
+      "entry_sha256": "4e6eb517b2fa9c96353a1fdcfb1a2018fef1c54c3ebdc2777ad64a3d46f53658",
+      "variant": "pure",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 4.88725,
+        "abs_error": 1.01275,
+        "pct_error": 17.165254,
+        "actual": 5.9
+      },
+      "tvd": 0.9,
+      "mae_pp": 20.0,
+      "released": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "gb-system1-xmas-2026-aldi__anchored3__star_rating__overall__r1",
+      "entry_sha256": "e61a1dba7777cb85a1376732fff1fcdf029f6b4e6779e0e88f653b5703d9066e",
+      "variant": "anchored3",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 5.660625,
+        "abs_error": 0.239375,
+        "pct_error": 4.057203,
+        "actual": 5.9
+      },
+      "tvd": 0.35,
+      "mae_pp": 7.777778,
+      "released": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "released_values_public": true
+    }
+  ]
+}

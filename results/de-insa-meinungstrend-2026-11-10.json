@@ -1,0 +1,346 @@
+{
+  "target_id": "de-insa-meinungstrend-2026-11-10",
+  "survey": "INSA-Meinungstrend Sonntagsfrage (online panel wave, for BILD)",
+  "status": "scored",
+  "released_at": "2026-11-10T00:00:00Z",
+  "source_url": "https://api.dawum.de/",
+  "scored_at": "2026-11-14T12:12:23Z",
+  "results_sha256": "68ca24cb4db3fdca796ca856201141ea9dc7c2af0d0a057212eaa65939a83a29",
+  "released_values_public": true,
+  "licence_note": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4377, INSA, 10 November 2026; ODbL 1.0. Shares mapped to the locked answer order. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "cleared",
+    "reviewed_on": "2026-11-14",
+    "source_url": "https://api.dawum.de/",
+    "credit": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4377, INSA, 10 November 2026; ODbL 1.0. Shares mapped to the locked answer order. Minds forecasts are independent estimates.",
+    "terms": [
+      {
+        "label": "DAWUM data source",
+        "url": "https://api.dawum.de/"
+      },
+      {
+        "label": "ODbL 1.0",
+        "url": "https://opendatacommons.org/licenses/odbl/1-0/"
+      },
+      {
+        "label": "Reusable source data (ODbL)",
+        "url": "https://forecasts.getminds.ai/sources/de-insa-meinungstrend-2026-11-10.json"
+      }
+    ],
+    "decision_basis": "Owner-requested update of the existing journalistic forecast ledger; selected released aggregate comparisons with attribution. No new publisher licence is claimed.",
+    "item_scope": {
+      "sonntagsfrage": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.065,
+      "mae_pp": 1.625
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.011,
+      "mae_pp": 0.275
+    },
+    "memory3": {
+      "items": 1,
+      "tvd": 0.0625,
+      "mae_pp": 1.5625
+    },
+    "bank3": {
+      "items": 1,
+      "tvd": 0.0625,
+      "mae_pp": 1.5625
+    },
+    "bankR3": {
+      "items": 1,
+      "tvd": 0.065,
+      "mae_pp": 1.625
+    },
+    "cohort": {
+      "items": 1,
+      "tvd": 0.075,
+      "mae_pp": 1.875
+    },
+    "xpub3": {
+      "items": 1,
+      "tvd": 0.0375,
+      "mae_pp": 0.9375
+    }
+  },
+  "summary_by_evidence_type": {
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.625
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.625
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.011,
+          "mae_pp": 0.275
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.011,
+          "mae_pp": 0.275
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0625,
+          "mae_pp": 1.5625
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0625,
+          "mae_pp": 1.5625
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.625
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.065,
+          "mae_pp": 1.625
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.075,
+          "mae_pp": 1.875
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.075,
+          "mae_pp": 1.875
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0625,
+          "mae_pp": 1.5625
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0625,
+          "mae_pp": 1.5625
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0375,
+          "mae_pp": 0.9375
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0375,
+          "mae_pp": 0.9375
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__sonntagsfrage__overall__r1",
+      "entry_sha256": "85de885830c8831fecc095ce55b500234e33ca71cc1adcb24729d403b2cfebd7",
+      "variant": "pure",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.065,
+      "mae_pp": 1.625,
+      "released": [
+        0.195,
+        0.285,
+        0.14,
+        0.145,
+        0.095,
+        0.035,
+        0.05,
+        0.055
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "cff11ea9909e2c7ed15d31be6e5534d157dbf9f9abe8593654c99611fcadb900",
+      "variant": "anchored3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.011,
+      "mae_pp": 0.275,
+      "released": [
+        0.195,
+        0.285,
+        0.14,
+        0.145,
+        0.095,
+        0.035,
+        0.05,
+        0.055
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "ad6dba2abe048cc6d154be2b55c9d7b8cb9952b06bba90bd8c8b42f49122a772",
+      "variant": "memory3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0625,
+      "mae_pp": 1.5625,
+      "released": [
+        0.195,
+        0.285,
+        0.14,
+        0.145,
+        0.095,
+        0.035,
+        0.05,
+        0.055
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__bank3__sonntagsfrage__overall__r1",
+      "entry_sha256": "ae3df8371613aee09946f189919f27ac344acbbf64094b5157656463cc1022fd",
+      "variant": "bank3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0625,
+      "mae_pp": 1.5625,
+      "released": [
+        0.195,
+        0.285,
+        0.14,
+        0.145,
+        0.095,
+        0.035,
+        0.05,
+        0.055
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "752b3e5a4359dd9d0e25334f3be5de8556aff39adbb178316ceaa569b90c73d1",
+      "variant": "bankR3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.065,
+      "mae_pp": 1.625,
+      "released": [
+        0.195,
+        0.285,
+        0.14,
+        0.145,
+        0.095,
+        0.035,
+        0.05,
+        0.055
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "c23485aae3afd0e1617da0b411b3f814494c8ea8beffec887f7cbc294bbcd607",
+      "variant": "cohort",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.075,
+      "mae_pp": 1.875,
+      "released": [
+        0.195,
+        0.285,
+        0.14,
+        0.145,
+        0.095,
+        0.035,
+        0.05,
+        0.055
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "de-insa-meinungstrend-2026-11-10__xpub3__sonntagsfrage__overall__r1",
+      "entry_sha256": "81ee14052fadb70302422fc6ce9d6716f0ddcc74abc141ebd132591174fe5dd7",
+      "variant": "xpub3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0375,
+      "mae_pp": 0.9375,
+      "released": [
+        0.195,
+        0.285,
+        0.14,
+        0.145,
+        0.095,
+        0.035,
+        0.05,
+        0.055
+      ],
+      "released_values_public": true
+    }
+  ]
+}

@@ -3,22 +3,88 @@
   "variant": "bankR3",
   "variant_label": "Additional research forecast (bankR3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__bankR3__westminster_vi__overall__r1",
       "entry_sha256": "88236867231f2980ab7cc1d27ab3cfbf096d9f1d3aada894542b95a9243e43bd",
       "seq": 2210,
       "batch_id": "gb-findoutnow-vi-2026-11-04__bankR3__20261102T121623990166Z__s2210",
-      "locked_at": "2026-11-02T12:16:23Z"
+      "locked_at": "2026-11-02T12:16:23Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "Thinking about your own constituency, if a general election were held tomorrow, which party would you vote for? (Find Out Now headline: respondents \"definitely\" or \"very likely\" to vote, 2024 non-voters only if \"definitely\"; don't knows asked \"If you were forced to choose, how would you vote?\" and excluded if still undecided. Restore Britain and Your Party are in Other.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrats",
+          "Reform UK",
+          "Green Party",
+          "Scottish National Party (SNP)",
+          "Plaid Cymru",
+          "Other"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2065,
+        0.279,
+        0.095,
+        0.20400000000000001,
+        0.0925,
+        0.029,
+        0.014499999999999999,
+        0.0795
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__bankR3__likelihood_to_vote__overall__r1",
       "entry_sha256": "585134997ca2b0f51dfa401faa4625d5a0ac7b66ac8cd2151fbf259068508b57",
       "seq": 2211,
       "batch_id": "gb-findoutnow-vi-2026-11-04__bankR3__20261102T121623990166Z__s2210",
-      "locked_at": "2026-11-02T12:16:23Z"
+      "locked_at": "2026-11-02T12:16:23Z",
+      "state": "scored",
+      "question": {
+        "id": "likelihood_to_vote",
+        "text": "If a general election was called tomorrow, how likely would you be to vote?",
+        "type": "categorical",
+        "options": [
+          "I would definitely vote",
+          "I would be very likely to vote",
+          "I would be unlikely to vote",
+          "I would definitely not vote",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.5575,
+        0.156,
+        0.098,
+        0.1115,
+        0.077
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

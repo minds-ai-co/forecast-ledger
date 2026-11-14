@@ -3,15 +3,53 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "gb-system1-xmas-2026-lidl__star_rating__overall__r1",
       "entry_sha256": "df1bf8a79a604584291466bcc06c40ec5e4c36e913f0b7a3b4003ff024274629",
       "seq": 2391,
       "batch_id": "gb-system1-xmas-2026-lidl__20261103T200322871295Z__s2391",
-      "locked_at": "2026-11-03T20:03:22Z"
+      "locked_at": "2026-11-03T20:03:22Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 Group's Test Your Ad shows each new UK TV ad to a nationally representative sample of UK adults, measures their second-by-second emotional response and publishes a Star Rating from 1.0 to 5.9 stars (one decimal) that predicts the ad's long-term brand-building potential. What Star Rating will System1 publish for the following UK Christmas 2026 ad? Ad description:\nBrand: Lidl (UK)\nAd title: Lidl Christmas Everybody\nReleased: 3 November 2026 (brand online release; first TV slot not stated)\nLength of the main edit: 205 seconds\nFormat: not stated\nSetting: A residential street, doorstep to doorstep.\nCharacters: Shaun Williamson (named actor, known as Barry in EastEnders); Chris Kamara, Kemi Rodgers and Abi Clarke (named presenters and comedian); neighbours.\nStory:\n1. Williamson carries bags of Lidl seasonal food to neighbours' doors.\n2. He sings a reworked \"Merry Christmas Everybody\" whose new lyrics list turkey, prosecco and other Lidl festive food.\n3. Chris Kamara, in a black shirt printed with Santa cartoons, opens his door to a plate of pigs in blankets, fist-pumps and shouts \"Get in!\"\n4. Kamara, Rodgers and Clarke join him in the street, gathering a growing crowd and granting neighbours' festive wishes.\n5. As the song winds down, Kamara says \"Lidl is unbelievable!\"\nMusic: \"Merry Christmas Everybody\" by Slade, reworked with new lyrics as \"Lidl Christmas Everybody\", sung by Shaun Williamson with the cast.\nDialogue and voiceover: Kamara's lines above; otherwise sung; voiceover not stated.\nTone: comedic, musical\nBrand and product presence: Lidl food is handed out throughout; products named are turkeys, Brussels sprouts, mince pies, chocolate gonks, pigs in blankets and prosecco. Logo timing and end line not stated.",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0125,
+        0.057499999999999996,
+        0.13,
+        0.22749999999999998,
+        0.2575,
+        0.1875,
+        0.09,
+        0.0275,
+        0.01
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

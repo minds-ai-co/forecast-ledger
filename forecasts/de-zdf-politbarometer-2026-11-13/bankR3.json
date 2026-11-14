@@ -3,50 +3,226 @@
   "variant": "bankR3",
   "variant_label": "Additional research forecast (bankR3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__projektion__overall__r1",
       "entry_sha256": "460f30575a3cbf55b3df72bc6e99daf5a0f092a2751e26b8e56953e08b126ff7",
       "seq": 2151,
       "batch_id": "de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151",
-      "locked_at": "2026-11-01T21:38:17Z"
+      "locked_at": "2026-11-01T21:38:17Z",
+      "state": "scored",
+      "question": {
+        "id": "projektion",
+        "text": "Wenn am nächsten Sonntag wirklich Bundestagswahl wäre, welche Partei würden Sie wählen? (Politbarometer Projektion, Forschungsgruppe Wahlen's published Sonntagsfrage figure, which adjusts the raw vote intention for long-term party ties and past voting behaviour. If there were really a federal election next Sunday, which party would get what share?)",
+        "type": "categorical",
+        "options": [
+          "CDU/CSU",
+          "AfD",
+          "SPD",
+          "Grüne",
+          "Die Linke",
+          "FDP",
+          "Sonstige"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2725,
+        0.23249999999999998,
+        0.1525,
+        0.12,
+        0.095,
+        0.036500000000000005,
+        0.091
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__stimmung__overall__r1",
       "entry_sha256": "b8dea0c1e028b49a145e963881d40b415e4747b7e292c4868e53fea6c5ded6f0",
       "seq": 2152,
       "batch_id": "de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151",
-      "locked_at": "2026-11-01T21:38:17Z"
+      "locked_at": "2026-11-01T21:38:17Z",
+      "state": "scored",
+      "question": {
+        "id": "stimmung",
+        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, würden Sie dann zur Wahl gehen? Und welche Partei würden Sie wählen? (If there were a federal election next Sunday, would you vote? And which party would you vote for? Shares among respondents naming a party.)",
+        "type": "categorical",
+        "options": [
+          "CDU/CSU",
+          "AfD",
+          "SPD",
+          "Grüne",
+          "Die Linke",
+          "FDP",
+          "Sonstige"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.27,
+        0.231,
+        0.1515,
+        0.1225,
+        0.099,
+        0.036000000000000004,
+        0.09
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__government_performance__overall__r1",
       "entry_sha256": "216f8b3c87f4e7ccd2ec942be1fa71f17ec37b8045aa353fb21df77476ee1540",
       "seq": 2153,
       "batch_id": "de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151",
-      "locked_at": "2026-11-01T21:38:17Z"
+      "locked_at": "2026-11-01T21:38:17Z",
+      "state": "scored",
+      "question": {
+        "id": "government_performance",
+        "text": "Ganz allgemein: Macht die Bundesregierung aus CDU/CSU und SPD ihre Arbeit alles in allem gesehen eher gut oder eher schlecht? (All in all, is the CDU/CSU-SPD federal government doing its job rather well or rather badly?)",
+        "type": "categorical",
+        "options": [
+          "Eher gut",
+          "Eher schlecht",
+          "Weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.37,
+        0.565,
+        0.065
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__merz_performance__overall__r1",
       "entry_sha256": "9802b2484ec44ebf30cde0a4fab8b8612def26aa425cca27029f2db4fa94b927",
       "seq": 2154,
       "batch_id": "de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151",
-      "locked_at": "2026-11-01T21:38:17Z"
+      "locked_at": "2026-11-01T21:38:17Z",
+      "state": "scored",
+      "question": {
+        "id": "merz_performance",
+        "text": "Macht Friedrich Merz als Bundeskanzler seine Arbeit eher gut oder eher schlecht? (Is Friedrich Merz doing his job as Chancellor rather well or rather badly?)",
+        "type": "categorical",
+        "options": [
+          "Eher gut",
+          "Eher schlecht",
+          "Weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.37,
+        0.56,
+        0.07
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__economy_situation__overall__r1",
       "entry_sha256": "4a6c834591905cbddf0cfc1dd317627943a34b9094405cda202ba5c294c91398",
       "seq": 2155,
       "batch_id": "de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151",
-      "locked_at": "2026-11-01T21:38:17Z"
+      "locked_at": "2026-11-01T21:38:17Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_situation",
+        "text": "Wie beurteilen Sie ganz allgemein die heutige wirtschaftliche Lage in Deutschland? Ist sie gut, teils gut/teils schlecht oder schlecht? (How do you rate the current economic situation in Germany? Good, partly good/partly bad, or bad?)",
+        "type": "ordinal",
+        "options": [
+          "Gut",
+          "Teils gut / teils schlecht",
+          "Schlecht",
+          "Weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1,
+        0.41500000000000004,
+        0.475,
+        0.01
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "de-zdf-politbarometer-2026-11-13__bankR3__economy_direction__overall__r1",
       "entry_sha256": "de4e263398b14bf24e1ed68682d1d71c66dab2fef34e1eceb589793979b1cb42",
       "seq": 2156,
       "batch_id": "de-zdf-politbarometer-2026-11-13__bankR3__20261101T213817620007Z__s2151",
-      "locked_at": "2026-11-01T21:38:17Z"
+      "locked_at": "2026-11-01T21:38:17Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_direction",
+        "text": "Was meinen Sie, geht es mit der Wirtschaft in Deutschland eher aufwärts, eher abwärts oder verändert sich da nicht so viel? (Is the German economy going rather up, rather down, or not changing much?)",
+        "type": "categorical",
+        "options": [
+          "Eher aufwärts",
+          "Eher abwärts",
+          "Verändert sich nicht so viel",
+          "Weiß nicht"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.1575,
+        0.49,
+        0.32499999999999996,
+        0.0275
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }
