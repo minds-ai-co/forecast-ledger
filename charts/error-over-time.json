@@ -388,6 +388,7 @@
               ]
             }
           ],
+          "highlightedSeriesId": "combined",
           "xLabel": "Result release date (UTC)",
           "yLabel": "Average error so far (TVD)"
         }
@@ -457,6 +458,7 @@
               ]
             }
           ],
+          "highlightedSeriesId": "combined",
           "xLabel": "Result release date (UTC)",
           "yLabel": "Average error so far (TVD)"
         }
@@ -521,6 +523,7 @@
               ]
             }
           ],
+          "highlightedSeriesId": "combined",
           "xLabel": "Result release date (UTC)",
           "yLabel": "Average error so far (TVD)"
         }
@@ -601,6 +604,7 @@
               ]
             }
           ],
+          "highlightedSeriesId": "combined",
           "xLabel": "Result release date (UTC)",
           "yLabel": "Average error so far (TVD)"
         }
@@ -654,6 +658,7 @@
               ]
             }
           ],
+          "highlightedSeriesId": "combined",
           "xLabel": "Result release date (UTC)",
           "yLabel": "Average error so far (TVD)"
         }
@@ -912,6 +917,7 @@
               ]
             }
           ],
+          "highlightedSeriesId": "combined",
           "xLabel": "Result release date (UTC)",
           "yLabel": "Average error so far (TVD)"
         }
