@@ -69,6 +69,7 @@
       "counts": "34 surveys; Behaviour 5, Attitude 23, Stated intent 18",
       "props": {
         "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
         "chart": {
           "kind": "line",
           "label": "",
@@ -407,6 +408,7 @@
       "counts": "7 surveys; Attitude 7",
       "props": {
         "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
         "chart": {
           "kind": "line",
           "label": "",
@@ -470,6 +472,7 @@
       "counts": "2 surveys; Behaviour 2",
       "props": {
         "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
         "chart": {
           "kind": "line",
           "label": "",
@@ -537,6 +540,7 @@
       "counts": "6 surveys; Attitude 6, Stated intent 4",
       "props": {
         "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
         "chart": {
           "kind": "line",
           "label": "",
@@ -613,6 +617,7 @@
       "counts": "3 surveys; Behaviour 3",
       "props": {
         "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
         "chart": {
           "kind": "line",
           "label": "",
@@ -678,6 +683,7 @@
       "counts": "16 surveys; Attitude 10, Stated intent 14",
       "props": {
         "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
         "chart": {
           "kind": "line",
           "label": "",
