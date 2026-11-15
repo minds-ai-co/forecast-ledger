@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-15T08:16:57Z**. Latest recorded forecast or score: **2026-11-14T12:14:17Z**. 34 surveys scored; 59 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-15T20:16:19Z**. Latest recorded forecast or score: **2026-11-14T12:14:17Z**. 34 surveys scored; 59 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -34,7 +34,7 @@ Attitude: opinions and ratings. Stated intent: what people say they will do. Beh
 
 ## Social Simulation Arena
 
-Arena data published 15 Nov 2026, 06:29 UTC; checked 15 Nov 2026, 08:05 UTC.
+Arena data published 15 Nov 2026, 18:51 UTC; checked 15 Nov 2026, 20:05 UTC.
 
 Minds Mosaic ranks **22 of 25** on the official overall board, with **11 of 138** resolved questions answered. The overall ranking counts missing answers against each entrant, including questions before it joined.
 
@@ -43,7 +43,7 @@ Minds Mosaic ranks **22 of 25** on the official overall board, with **11 of 138*
 | yougov-xtab-2026-w45 | Awaiting result | 01 Nov 2026, 14:00 UTC | — |
 | civiqs-profile-2026-w45 | Scored | 04 Nov 2026, 22:00 UTC | 4.9625 |
 | civiqs-profile-2026-w46 | Awaiting result | 11 Nov 2026, 22:00 UTC | — |
-| yougov-xtab-2026-w47 | Submitted; sealed | 15 Nov 2026, 14:00 UTC | — |
+| yougov-xtab-2026-w47 | Awaiting result | 15 Nov 2026, 14:00 UTC | — |
 
 Audience profiles use the Arena’s energy score to measure error across the whole group of answers; lower is better. These external benchmark results have their own scoring and are excluded from the survey TVD totals above. [Official Arena](https://social-simulation-arena.com/) · [Snapshot data](arena.json).
 

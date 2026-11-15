@@ -1,8 +1,8 @@
 {
   "available": true,
   "source_url": "https://social-simulation-arena.com/data.json",
-  "source_generated_at": "2026-11-15T06:29:28+00:00",
-  "checked_at": "2026-11-15T08:05:09.899321+00:00",
+  "source_generated_at": "2026-11-15T18:51:32+00:00",
+  "checked_at": "2026-11-15T20:05:50.913825+00:00",
   "stale": false,
   "ranking_available": true,
   "overall": {
@@ -33,7 +33,7 @@
     {
       "round_id": "yougov-xtab-2026-w47",
       "lock_at": "2026-11-15T14:00:00+00:00",
-      "state": "submitted",
+      "state": "awaiting_result",
       "energy": null
     }
   ]
