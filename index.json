@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-15T20:16:19Z",
+  "as_of": "2026-11-16T08:15:47Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-14T12:14:17Z",
-  "chain_head_sha256": "937a2f8feb989da577e0e04692831540e3c7cca722178cf152607890d0d2da35",
+  "latest_event_at": "2026-11-16T07:54:26Z",
+  "chain_head_sha256": "4bcd60353858b13522d8213c623fc6362df0ac7be5a97a9ae9002b4d3cde66a6",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 93,
+    "targets": 96,
     "targets_scored": 34,
-    "targets_pending": 59,
+    "targets_pending": 62,
     "targets_not_scoreable": 0,
-    "entries": 2483,
-    "batches": 312,
+    "entries": 2486,
+    "batches": 315,
     "entries_scored": 648,
-    "entries_pending": 1670,
+    "entries_pending": 1673,
     "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -101,7 +101,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 601,
+        "forecasts_locked": 604,
         "scored": {
           "surveys": 34,
           "questions": 113,
@@ -212,7 +212,7 @@
   "counts_by_evidence_type": {
     "attitude": 1937,
     "stated_intent": 453,
-    "behaviour": 93
+    "behaviour": 96
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -9473,14 +9473,191 @@
           "bitcoin_block_merkle_root": null
         }
       ]
+    },
+    {
+      "target_id": "spotify-de-weekly-2026-12-03-rolling-v3",
+      "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
+      "display": {
+        "label": "Music Streams",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "wave": "2026-12-03",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-26T23:00:00Z",
+      "first_lock_utc": "2026-11-16T07:47:32Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/spotify-de-weekly-2026-12-03-rolling-v3/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-de-weekly-2026-12-03-rolling-v3__20261116T074732510298Z__s2489",
+          "locked_at": "2026-11-16T07:47:32Z",
+          "entries": 1,
+          "merkle_root": "d6a73b665e835e97b9858e9854381c397d77d6cf5a9f843fff482ec6e43d9ab6",
+          "manifest": "proofs/batches/spotify-de-weekly-2026-12-03-rolling-v3__20261116T074732510298Z__s2489.json",
+          "manifest_sha256": "8c04ef96c42dbed7f17a5509c2f3426a6c49f48adfd7aaa849a82000109fd9e0",
+          "ots_proof": "proofs/batches/spotify-de-weekly-2026-12-03-rolling-v3__20261116T074732510298Z__s2489.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "spotify-us-weekly-2026-12-03-rolling-v3",
+      "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
+      "display": {
+        "label": "Music Streams",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "wave": "2026-12-03",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-26T23:00:00Z",
+      "first_lock_utc": "2026-11-16T07:50:57Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/spotify-us-weekly-2026-12-03-rolling-v3/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-us-weekly-2026-12-03-rolling-v3__20261116T075057051404Z__s2490",
+          "locked_at": "2026-11-16T07:50:57Z",
+          "entries": 1,
+          "merkle_root": "ea538601ed3a31f2ce9ccd3304860ca33762391b2caf4a88e3ebe86028fdcc06",
+          "manifest": "proofs/batches/spotify-us-weekly-2026-12-03-rolling-v3__20261116T075057051404Z__s2490.json",
+          "manifest_sha256": "698a0f2301edcd52e5cc9fd3e1d1c8f0c47f435ee84ab4202561d47305c8f72d",
+          "ots_proof": "proofs/batches/spotify-us-weekly-2026-12-03-rolling-v3__20261116T075057051404Z__s2490.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "netflix-global-english-films-2026-12-06-rolling-v3",
+      "survey": "Netflix global English films (volume shares; measurement v2)",
+      "publisher": "Netflix Tudum",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/netflix.png",
+          "alt": "Netflix",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "display": {
+        "label": "Streaming Rankings",
+        "country": "Global",
+        "country_code": "global",
+        "topic": "Film & TV",
+        "source": "Netflix",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "wave": "2026-12-06",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-29T09:00:00Z",
+      "first_lock_utc": "2026-11-16T07:54:26Z",
+      "released_at": null,
+      "publication_url": "https://www.netflix.com/tudum/top10",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/netflix-global-english-films-2026-12-06-rolling-v3/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "netflix-global-english-films-2026-12-06-rolling-v3__20261116T075426856172Z__s2491",
+          "locked_at": "2026-11-16T07:54:26Z",
+          "entries": 1,
+          "merkle_root": "fed45cfbb136a9a80ceec19c9cd439f12d17de6b0887af4710aa87fc6c43b53e",
+          "manifest": "proofs/batches/netflix-global-english-films-2026-12-06-rolling-v3__20261116T075426856172Z__s2491.json",
+          "manifest_sha256": "c03ce929288c680ec542d13640064d68ab201d0a26b95d4ad9422dd86d912982",
+          "ots_proof": "proofs/batches/netflix-global-english-films-2026-12-06-rolling-v3__20261116T075426856172Z__s2491.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
     }
   ],
   "missed": [],
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-15T18:51:32+00:00",
-    "checked_at": "2026-11-15T20:05:50.913825+00:00",
+    "source_generated_at": "2026-11-16T06:27:39+00:00",
+    "checked_at": "2026-11-16T08:05:06.406127+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
