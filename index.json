@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-17T08:15:02Z",
+  "as_of": "2026-11-17T20:16:30Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-16T07:54:26Z",
   "chain_head_sha256": "4bcd60353858b13522d8213c623fc6362df0ac7be5a97a9ae9002b4d3cde66a6",
@@ -9657,7 +9657,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-17T07:54:16+00:00",
-    "checked_at": "2026-11-17T08:05:55.153983+00:00",
+    "checked_at": "2026-11-17T20:05:03.148035+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
