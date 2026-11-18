@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-17T20:16:30Z",
+  "as_of": "2026-11-18T08:15:24Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-16T07:54:26Z",
   "chain_head_sha256": "4bcd60353858b13522d8213c623fc6362df0ac7be5a97a9ae9002b4d3cde66a6",
@@ -9656,15 +9656,15 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-17T07:54:16+00:00",
-    "checked_at": "2026-11-17T20:05:03.148035+00:00",
+    "source_generated_at": "2026-11-18T07:36:17+00:00",
+    "checked_at": "2026-11-18T08:05:16.647862+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
-      "rank": 22,
-      "methods": 25,
-      "answered": 11,
-      "scored_questions": 138
+      "rank": 24,
+      "methods": 27,
+      "answered": 12,
+      "scored_questions": 146
     },
     "profiles": [
       {
@@ -9682,8 +9682,8 @@
       {
         "round_id": "civiqs-profile-2026-w46",
         "lock_at": "2026-11-11T22:00:00+00:00",
-        "state": "awaiting_result",
-        "energy": null
+        "state": "scored",
+        "energy": 4.7742
       },
       {
         "round_id": "yougov-xtab-2026-w47",
