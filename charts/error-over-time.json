@@ -10,6 +10,10 @@
       "label": "Advertising"
     },
     {
+      "id": "B2B",
+      "label": "B2B"
+    },
+    {
       "id": "Cars",
       "label": "Cars"
     },
@@ -29,7 +33,7 @@
   "charts": {
     "all": {
       "label": "All topics",
-      "surveys": 34,
+      "surveys": 35,
       "target_ids": [
         "at-ec-ipsos-consumer-survey-2026-10",
         "de-ard-deutschlandtrend-2026-11",
@@ -46,6 +50,7 @@
         "gb-findoutnow-vi-2026-10-28",
         "gb-findoutnow-vi-2026-11-04",
         "gb-netflix-top10-2026-11-01",
+        "gb-ons-bics-wave168-2026-11-19",
         "gb-opinium-observer-2026-10-28",
         "gb-opinium-observer-2026-11-04",
         "gb-smmt-car-registrations-marque-2026-10",
@@ -66,7 +71,7 @@
         "us-npr-pbs-marist-2026-10-26",
         "us-reuters-ipsos-2026-10-26"
       ],
-      "counts": "34 surveys; Behaviour 5, Attitude 23, Stated intent 18",
+      "counts": "35 surveys; Behaviour 6, Attitude 23, Stated intent 19",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -161,6 +166,12 @@
                   "x": 20770,
                   "label": "13 Nov",
                   "value": 0.213563
+                },
+                {
+                  "id": "2026-11-19",
+                  "x": 20776,
+                  "label": "19 Nov",
+                  "value": 0.208166
                 }
               ],
               "emphasis": "primary"
@@ -216,6 +227,12 @@
                   "x": 20770,
                   "label": "13 Nov",
                   "value": 0.239459
+                },
+                {
+                  "id": "2026-11-19",
+                  "x": 20776,
+                  "label": "19 Nov",
+                  "value": 0.204258
                 }
               ]
             },
@@ -299,6 +316,12 @@
                   "id": "2026-11-13",
                   "x": 20770,
                   "label": "13 Nov",
+                  "value": 0.260821
+                },
+                {
+                  "id": "2026-11-19",
+                  "x": 20776,
+                  "label": "19 Nov",
                   "value": 0.260821
                 }
               ]
@@ -384,6 +407,12 @@
                   "x": 20770,
                   "label": "13 Nov",
                   "value": 0.022801
+                },
+                {
+                  "id": "2026-11-19",
+                  "x": 20776,
+                  "label": "19 Nov",
+                  "value": 0.022144
                 }
               ]
             }
@@ -454,6 +483,70 @@
                   "x": 20769,
                   "label": "12 Nov",
                   "value": 0.781643
+                }
+              ]
+            }
+          ],
+          "highlightedSeriesId": "combined",
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    },
+    "B2B": {
+      "label": "B2B",
+      "surveys": 1,
+      "target_ids": [
+        "gb-ons-bics-wave168-2026-11-19"
+      ],
+      "counts": "1 survey; Behaviour 1, Stated intent 1",
+      "props": {
+        "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            0.04
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-11-19",
+                  "x": 20776,
+                  "label": "19 Nov",
+                  "value": 0.024666
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "behaviour",
+              "label": "Behaviour",
+              "data": [
+                {
+                  "id": "2026-11-19",
+                  "x": 20776,
+                  "label": "19 Nov",
+                  "value": 0.02825
+                }
+              ]
+            },
+            {
+              "id": "stated_intent",
+              "label": "Stated intent",
+              "data": [
+                {
+                  "id": "2026-11-19",
+                  "x": 20776,
+                  "label": "19 Nov",
+                  "value": 0.010331
                 }
               ]
             }

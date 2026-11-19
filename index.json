@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-19T08:16:22Z",
+  "as_of": "2026-11-19T20:15:54Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-16T07:54:26Z",
+  "latest_event_at": "2026-11-19T19:46:35Z",
   "chain_head_sha256": "4bcd60353858b13522d8213c623fc6362df0ac7be5a97a9ae9002b4d3cde66a6",
   "proof_only_entries": 6,
   "counts": {
     "targets": 96,
-    "targets_scored": 34,
-    "targets_pending": 62,
+    "targets_scored": 35,
+    "targets_pending": 61,
     "targets_not_scoreable": 0,
     "entries": 2486,
     "batches": 315,
-    "entries_scored": 648,
-    "entries_pending": 1673,
+    "entries_scored": 673,
+    "entries_pending": 1648,
     "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -62,11 +62,11 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 34,
-      "questions": 113,
-      "tvd": 0.098048,
-      "mae_pp": 2.556712,
-      "pearson_r": 0.851836
+      "surveys": 35,
+      "questions": 118,
+      "tvd": 0.094938,
+      "mae_pp": 2.501483,
+      "pearson_r": 0.861814
     },
     "locked_before_fieldwork": {
       "surveys": 13,
@@ -84,18 +84,18 @@
         "pearson_r": 0.830836
       },
       "stated_intent": {
-        "surveys": 18,
-        "questions": 25,
-        "tvd": 0.02475,
-        "mae_pp": 0.797686,
-        "pearson_r": 0.99523
+        "surveys": 19,
+        "questions": 26,
+        "tvd": 0.024195,
+        "mae_pp": 0.786873,
+        "pearson_r": 0.995922
       },
       "behaviour": {
-        "surveys": 5,
-        "questions": 8,
-        "tvd": 0.288699,
-        "mae_pp": 4.152853,
-        "pearson_r": 0.59641
+        "surveys": 6,
+        "questions": 12,
+        "tvd": 0.201883,
+        "mae_pp": 3.247735,
+        "pearson_r": 0.874996
       }
     },
     "additional_research": {
@@ -435,22 +435,22 @@
       },
       "anchored3": {
         "overall": {
-          "n": 25,
-          "n_distribution": 25,
-          "tvd": 0.02475,
-          "mae_pp": 0.797686
+          "n": 26,
+          "n_distribution": 26,
+          "tvd": 0.024195,
+          "mae_pp": 0.786873
         },
         "subgroups": {
-          "n": 14,
-          "n_distribution": 14,
-          "tvd": 0.066197,
-          "mae_pp": 1.975001
+          "n": 18,
+          "n_distribution": 18,
+          "tvd": 0.059376,
+          "mae_pp": 1.930583
         },
         "all": {
-          "n": 39,
-          "n_distribution": 39,
-          "tvd": 0.039628,
-          "mae_pp": 1.220312
+          "n": 44,
+          "n_distribution": 44,
+          "tvd": 0.038587,
+          "mae_pp": 1.254754
         }
       },
       "bank3": {
@@ -562,17 +562,22 @@
       },
       "anchored3": {
         "overall": {
-          "n": 8,
-          "n_distribution": 8,
-          "tvd": 0.288699,
-          "mae_pp": 4.152853
+          "n": 12,
+          "n_distribution": 12,
+          "tvd": 0.201883,
+          "mae_pp": 3.247735
         },
-        "subgroups": null,
+        "subgroups": {
+          "n": 16,
+          "n_distribution": 16,
+          "tvd": 0.037547,
+          "mae_pp": 2.014318
+        },
         "all": {
-          "n": 8,
-          "n_distribution": 8,
-          "tvd": 0.288699,
-          "mae_pp": 4.152853
+          "n": 28,
+          "n_distribution": 28,
+          "tvd": 0.107977,
+          "mae_pp": 2.542925
         }
       },
       "memory3": {
@@ -9319,9 +9324,9 @@
         ]
       },
       "wave": "Wave 168",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "stated_intent",
@@ -9329,7 +9334,7 @@
       ],
       "cutoff_utc": "2026-11-18T00:00:00Z",
       "first_lock_utc": "2026-11-11T20:24:38Z",
-      "released_at": null,
+      "released_at": "2026-11-19T00:00:00Z",
       "publication_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/businessinsightsandimpactontheukeconomy",
       "forecasts_count": 25,
       "variants": [
@@ -9338,7 +9343,7 @@
       "forecasts": {
         "anchored3": "forecasts/gb-ons-bics-wave168-2026-11-19/anchored3.json"
       },
-      "results": null,
+      "results": "results/gb-ons-bics-wave168-2026-11-19.json",
       "batches": [
         {
           "batch_id": "gb-ons-bics-wave168-2026-11-19__anchored3__20261111T202438685501Z__s2464",
@@ -9657,7 +9662,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-19T07:27:32+00:00",
-    "checked_at": "2026-11-19T08:05:22.179967+00:00",
+    "checked_at": "2026-11-19T20:05:21.685979+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
