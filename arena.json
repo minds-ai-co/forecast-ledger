@@ -1,15 +1,15 @@
 {
   "available": true,
   "source_url": "https://social-simulation-arena.com/data.json",
-  "source_generated_at": "2026-11-18T07:36:17+00:00",
-  "checked_at": "2026-11-18T20:05:06.436984+00:00",
+  "source_generated_at": "2026-11-19T07:27:32+00:00",
+  "checked_at": "2026-11-19T08:05:22.179967+00:00",
   "stale": false,
   "ranking_available": true,
   "overall": {
-    "rank": 24,
+    "rank": 25,
     "methods": 27,
     "answered": 12,
-    "scored_questions": 146
+    "scored_questions": 147
   },
   "profiles": [
     {
