@@ -13,7 +13,40 @@
     "description": "30 Minds modelled on people in the United States who read The Atlantic. Qualification used in the study: reads The Atlantic at least monthly, or is a paid subscriber.",
     "orbit": {
       "label": "30 Minds",
-      "count": 30
+      "count": 30,
+      "portraits": [
+        "/assets/minds/mind-01.webp",
+        "/assets/minds/mind-02.webp",
+        "/assets/minds/mind-03.webp",
+        "/assets/minds/mind-04.webp",
+        "/assets/minds/mind-05.webp",
+        "/assets/minds/mind-06.webp",
+        "/assets/minds/mind-07.webp",
+        "/assets/minds/mind-08.webp",
+        "/assets/minds/mind-09.webp",
+        "/assets/minds/mind-10.webp",
+        "/assets/minds/mind-11.webp",
+        "/assets/minds/mind-12.webp",
+        "/assets/minds/mind-13.webp",
+        "/assets/minds/mind-14.webp",
+        "/assets/minds/mind-15.webp",
+        "/assets/minds/mind-16.webp",
+        "/assets/minds/mind-17.webp",
+        "/assets/minds/mind-18.webp",
+        "/assets/minds/mind-19.webp",
+        "/assets/minds/mind-20.webp",
+        "/assets/minds/mind-21.webp",
+        "/assets/minds/mind-22.webp",
+        "/assets/minds/mind-23.webp",
+        "/assets/minds/mind-24.webp",
+        "/assets/minds/mind-25.webp",
+        "/assets/minds/mind-26.webp",
+        "/assets/minds/mind-27.webp",
+        "/assets/minds/mind-28.webp",
+        "/assets/minds/mind-29.webp",
+        "/assets/minds/mind-30.webp"
+      ],
+      "portrait_source": "Minds persona image bank (approved production catalog, adult portraits only). Cut from webapp public/images/sparks/landing-persona-groups-v4.webp, tile ids in scorecard/assets/minds/manifest.json. Illustrative faces, not individual Atlantic readers."
     },
     "distributions": [
       {
@@ -519,5 +552,6 @@
     "photo": "https://getminds.ai/images/team-portraits/jerome-salow.webp",
     "email": "jerome@getminds.ai",
     "booking_url": "https://getminds.ai/"
-  }
+  },
+  "nav_title": "The Atlantic"
 }
