@@ -1,0 +1,441 @@
+{
+  "format": "forecast-ledger-account.v1",
+  "account": "theatlantic",
+  "title": "The Atlantic x Minds: Forecast Ledger (mock, Aug to Nov 2026)",
+  "forecast_date": "2026-11-20",
+  "kind": "mock_forecast",
+  "note": "This is a mock forecast. The forecasts were generated on 20 November 2026, after these stories had already run. It is not part of the locked public ledger and is not included in headline accuracy.",
+  "study_url": "https://getminds.ai/studies/shared/d0a12987-6227-4c5a-bb5e-1a20460e8cac",
+  "audience": {
+    "name": "The Atlantic Readers (US)",
+    "minds": 30,
+    "question": "Headline, subhead and lead image as shown on the homepage. How likely are you to click and read this story? 0 to 10."
+  },
+  "outcome_source": "Days a story appeared in the theatlantic.com homepage Popular list (top 10), from 130 Internet Archive Wayback Machine snapshots on 55 days, 20 August to 18 November 2026.",
+  "scorecard": {
+    "pairs_right": "64 of 108",
+    "pairs_right_share": 0.59,
+    "spearman": 0.21,
+    "top3_hit": "2 of 3",
+    "popular_vs_never": 0.56
+  },
+  "order": "Items are listed in actual Popular-run order (longest first). Ties share a rank.",
+  "items": [
+    {
+      "id": "theatlantic-dark-side-of-mindfulness",
+      "title": "The Dark Side of Mindfulness",
+      "section": "Ideas",
+      "first_on_homepage": "2026-09-04",
+      "url": "https://www.theatlantic.com/ideas/2026/09/meditation-willoughby-britton-downsides/688474/",
+      "forecast": {
+        "score": 6.21,
+        "answered": 28,
+        "top_box_pct": 32,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 10,
+        "snapshots": 25,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 3,
+      "rank_actual": 1,
+      "pairs_right": "12 of 14",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story01.jpg",
+        "alt": "The Dark Side of Mindfulness"
+      }
+    },
+    {
+      "id": "theatlantic-maga-world-safe-for-corruption",
+      "title": "MAGA Is Making the World Safe for Corruption",
+      "section": "Magazine, Oct issue",
+      "first_on_homepage": "2026-09-14",
+      "url": "https://www.theatlantic.com/magazine/2026/10/maga-foreign-policy/688352/",
+      "forecast": {
+        "score": 5.71,
+        "answered": 28,
+        "top_box_pct": 36,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 10,
+        "snapshots": 18,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 12,
+      "rank_actual": 2,
+      "pairs_right": "4 of 14",
+      "hit": false,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story02.jpg",
+        "alt": "MAGA Is Making the World Safe for Corruption"
+      }
+    },
+    {
+      "id": "theatlantic-when-anesthesia-goes-wrong",
+      "title": "When Anesthesia Goes Wrong",
+      "section": "Magazine, Nov issue",
+      "first_on_homepage": "2026-10-05",
+      "url": "https://www.theatlantic.com/magazine/2026/11/anesthesia-brain-damage-death/688691/",
+      "forecast": {
+        "score": 6.46,
+        "answered": 28,
+        "top_box_pct": 36,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 8,
+        "snapshots": 16,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 1,
+      "rank_actual": 3,
+      "pairs_right": "13 of 15",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story03.jpg",
+        "alt": "When Anesthesia Goes Wrong"
+      }
+    },
+    {
+      "id": "theatlantic-why-americans-stopped-throwing-dinner-parties",
+      "title": "Why Americans Stopped Throwing Dinner Parties",
+      "section": "Ideas",
+      "first_on_homepage": "2026-10-02",
+      "url": "https://www.theatlantic.com/ideas/2026/10/americans-socialization-dinner-decline-hosting/688846/",
+      "forecast": {
+        "score": 6.0,
+        "answered": 27,
+        "top_box_pct": 30,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 6,
+        "snapshots": 13,
+        "best_rank": "#2"
+      },
+      "rank_forecast": 9,
+      "rank_actual": 4,
+      "pairs_right": "8 of 15",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story04.jpg",
+        "alt": "Why Americans Stopped Throwing Dinner Parties"
+      }
+    },
+    {
+      "id": "theatlantic-qataris-gave-trump-an-airplane",
+      "title": "The Qataris Gave Trump an Airplane. He Crippled Their Country in Return.",
+      "section": "National Security",
+      "first_on_homepage": "2026-08-25",
+      "url": "https://www.theatlantic.com/national-security/2026/08/qatar-jet-donald-trump/688321/",
+      "forecast": {
+        "score": 5.93,
+        "answered": 27,
+        "top_box_pct": 37,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 5,
+        "snapshots": 7,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 10,
+      "rank_actual": 6,
+      "pairs_right": "8 of 14",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story05.jpg",
+        "alt": "The Qataris Gave Trump an Airplane. He Crippled Their Country in Return."
+      }
+    },
+    {
+      "id": "theatlantic-singularity-is-not-what-it-seems",
+      "title": "The Singularity Is Not What It Seems",
+      "section": "Technology",
+      "first_on_homepage": "2026-09-02",
+      "url": "https://www.theatlantic.com/technology/2026/09/ai-future-reckoning-singularity/688487/",
+      "forecast": {
+        "score": 6.15,
+        "answered": 27,
+        "top_box_pct": 30,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 5,
+        "snapshots": 9,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 4,
+      "rank_actual": 5,
+      "pairs_right": "10 of 13",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story06.jpg",
+        "alt": "The Singularity Is Not What It Seems"
+      }
+    },
+    {
+      "id": "theatlantic-whats-happening-to-the-wnba",
+      "title": "What's Happening to the WNBA Isn't Normal",
+      "section": "Culture",
+      "first_on_homepage": "2026-08-21",
+      "url": "https://www.theatlantic.com/culture/2026/08/wnba-caitlin-clark-sophie-cunningham/688341/",
+      "forecast": {
+        "score": 4.89,
+        "answered": 27,
+        "top_box_pct": 19,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 4,
+        "snapshots": 8,
+        "best_rank": "#2"
+      },
+      "rank_forecast": 16,
+      "rank_actual": 7,
+      "pairs_right": "6 of 13",
+      "hit": false,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story07.jpg",
+        "alt": "What's Happening to the WNBA Isn't Normal"
+      }
+    },
+    {
+      "id": "theatlantic-tiny-e-reader",
+      "title": "This Tiny E-Reader Is the Single Best Piece of Technology in Years",
+      "section": "Technology",
+      "first_on_homepage": "2026-09-06",
+      "url": "https://www.theatlantic.com/technology/2026/09/xteink-e-reader-best-technology-years/688539/",
+      "forecast": {
+        "score": 5.52,
+        "answered": 27,
+        "top_box_pct": 26,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 4,
+        "snapshots": 7,
+        "best_rank": "#3"
+      },
+      "rank_forecast": 14,
+      "rank_actual": 8,
+      "pairs_right": "7 of 13",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story08.jpg",
+        "alt": "This Tiny E-Reader Is the Single Best Piece of Technology in Years"
+      }
+    },
+    {
+      "id": "theatlantic-college-is-coming-apart",
+      "title": "College Is Coming Apart",
+      "section": "Ideas",
+      "first_on_homepage": "2026-09-17",
+      "url": "https://www.theatlantic.com/ideas/2026/09/college-education-future-ai/688655/",
+      "forecast": {
+        "score": 6.15,
+        "answered": 27,
+        "top_box_pct": 33,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 4,
+        "snapshots": 7,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 4,
+      "rank_actual": 8,
+      "pairs_right": "8 of 12",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story09.jpg",
+        "alt": "College Is Coming Apart"
+      }
+    },
+    {
+      "id": "theatlantic-mothers-for-sale",
+      "title": "Mothers for Sale",
+      "section": "Magazine, Oct issue",
+      "first_on_homepage": "2026-09-09",
+      "url": "https://www.theatlantic.com/magazine/2026/10/usa-commercial-surrogacy-industry/688357/",
+      "forecast": {
+        "score": 6.12,
+        "answered": 26,
+        "top_box_pct": 31,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 3,
+        "snapshots": 4,
+        "best_rank": "#3"
+      },
+      "rank_forecast": 6,
+      "rank_actual": 11,
+      "pairs_right": "7 of 13",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story10.jpg",
+        "alt": "Mothers for Sale"
+      }
+    },
+    {
+      "id": "theatlantic-choose-your-overlord",
+      "title": "Choose Your Overlord (Musk vs. Bezos)",
+      "section": "Magazine, Nov cover story",
+      "first_on_homepage": "2026-10-13",
+      "url": "https://www.theatlantic.com/magazine/2026/11/bezos-musk-billionaire-space-race/688690/",
+      "forecast": {
+        "score": 5.54,
+        "answered": 28,
+        "top_box_pct": 21,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 3,
+        "snapshots": 7,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 13,
+      "rank_actual": 10,
+      "pairs_right": "8 of 13",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story11.jpg",
+        "alt": "Choose Your Overlord (Musk vs. Bezos)"
+      }
+    },
+    {
+      "id": "theatlantic-truth-about-thomas-jefferson",
+      "title": "Researchers Say They've Found the Truth About Thomas Jefferson",
+      "section": "Ideas",
+      "first_on_homepage": "2026-09-19",
+      "url": "https://www.theatlantic.com/ideas/2026/09/thomas-jefferson-genome-children/688635/",
+      "forecast": {
+        "score": 6.11,
+        "answered": 28,
+        "top_box_pct": 36,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 3,
+        "snapshots": 4,
+        "best_rank": "#1"
+      },
+      "rank_forecast": 7,
+      "rank_actual": 11,
+      "pairs_right": "7 of 13",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story12.jpg",
+        "alt": "Researchers Say They've Found the Truth About Thomas Jefferson"
+      }
+    },
+    {
+      "id": "theatlantic-logging-in-was-never-supposed-to-be-this-complicated",
+      "title": "Logging In Was Never Supposed to Be This Complicated",
+      "section": "Technology",
+      "first_on_homepage": "2026-08-25",
+      "url": "https://www.theatlantic.com/technology/2026/08/password-manager-login-difficulty/688396/",
+      "forecast": {
+        "score": 6.04,
+        "answered": 28,
+        "top_box_pct": 29,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 2,
+        "snapshots": 4,
+        "best_rank": "#4"
+      },
+      "rank_forecast": 8,
+      "rank_actual": 13,
+      "pairs_right": "8 of 15",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story13.jpg",
+        "alt": "Logging In Was Never Supposed to Be This Complicated"
+      }
+    },
+    {
+      "id": "theatlantic-ai-pandemic-isnt-on-its-way",
+      "title": "The AI Pandemic Isn't On Its Way",
+      "section": "Health",
+      "first_on_homepage": "2026-09-11",
+      "url": "https://www.theatlantic.com/health/2026/09/ai-virus-nature-pandemic/688569/",
+      "forecast": {
+        "score": 6.41,
+        "answered": 27,
+        "top_box_pct": 33,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 0,
+        "snapshots": 0,
+        "best_rank": "never"
+      },
+      "rank_forecast": 2,
+      "rank_actual": 14,
+      "pairs_right": "1 of 13",
+      "hit": false,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story14.jpg",
+        "alt": "The AI Pandemic Isn't On Its Way"
+      }
+    },
+    {
+      "id": "theatlantic-what-lonnie-bunch-told-me",
+      "title": "What Lonnie Bunch Told Me",
+      "section": "Culture",
+      "first_on_homepage": "2026-09-10",
+      "url": "https://www.theatlantic.com/culture/2026/09/lonnie-bunch-smithsonian-retirement/688564/",
+      "forecast": {
+        "score": 5.79,
+        "answered": 28,
+        "top_box_pct": 25,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 0,
+        "snapshots": 0,
+        "best_rank": "never"
+      },
+      "rank_forecast": 11,
+      "rank_actual": 14,
+      "pairs_right": "9 of 13",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story15.jpg",
+        "alt": "What Lonnie Bunch Told Me"
+      }
+    },
+    {
+      "id": "theatlantic-nobel-laureate-who-rescued-me",
+      "title": "The Nobel Laureate Who Rescued Me",
+      "section": "Books",
+      "first_on_homepage": "2026-10-09",
+      "url": "https://www.theatlantic.com/books/2026/10/how-nobel-laureate-anne-carson-changed-writers-life/688949/",
+      "forecast": {
+        "score": 5.5,
+        "answered": 26,
+        "top_box_pct": 19,
+        "scale": "0-10 click likelihood"
+      },
+      "outcome": {
+        "days_in_popular": 0,
+        "snapshots": 0,
+        "best_rank": "never"
+      },
+      "rank_forecast": 15,
+      "rank_actual": 14,
+      "pairs_right": "12 of 13",
+      "hit": true,
+      "stimulus": {
+        "image": "/accounts/theatlantic/story16.jpg",
+        "alt": "The Nobel Laureate Who Rescued Me"
+      }
+    }
+  ]
+}

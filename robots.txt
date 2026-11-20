@@ -1,0 +1,5 @@
+User-agent: *
+# Key-account lead-funnel pages are unlisted and must not be indexed.
+Disallow: /accounts/
+Disallow: /theatlantic
+Disallow: /theatlantic/
