@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-19T20:15:54Z",
+  "as_of": "2026-11-20T08:15:08Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-19T19:46:35Z",
-  "chain_head_sha256": "4bcd60353858b13522d8213c623fc6362df0ac7be5a97a9ae9002b4d3cde66a6",
+  "latest_event_at": "2026-11-20T07:53:57Z",
+  "chain_head_sha256": "fb370900ba784e20f525c53e99e60fa12683c6fbb4d4a09fba1fc6df41448e03",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 96,
+    "targets": 97,
     "targets_scored": 35,
-    "targets_pending": 61,
+    "targets_pending": 62,
     "targets_not_scoreable": 0,
-    "entries": 2486,
-    "batches": 315,
+    "entries": 2487,
+    "batches": 316,
     "entries_scored": 673,
-    "entries_pending": 1648,
+    "entries_pending": 1649,
     "entries_not_scoreable": 165,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -101,7 +101,7 @@
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 604,
+        "forecasts_locked": 605,
         "scored": {
           "surveys": 34,
           "questions": 113,
@@ -212,7 +212,7 @@
   "counts_by_evidence_type": {
     "attitude": 1937,
     "stated_intent": 453,
-    "behaviour": 96
+    "behaviour": 97
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -9655,14 +9655,73 @@
           "bitcoin_block_merkle_root": null
         }
       ]
+    },
+    {
+      "target_id": "spotify-us-weekly-2026-12-10-rolling-v3",
+      "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
+      "display": {
+        "label": "Music Streams",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "wave": "2026-12-10",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-12-03T23:00:00Z",
+      "first_lock_utc": "2026-11-20T07:53:57Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "pure"
+      ],
+      "forecasts": {
+        "pure": "forecasts/spotify-us-weekly-2026-12-10-rolling-v3/pure.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-us-weekly-2026-12-10-rolling-v3__20261120T075357963279Z__s2492",
+          "locked_at": "2026-11-20T07:53:57Z",
+          "entries": 1,
+          "merkle_root": "b9a818df916716a00892652f78ae35c8e3458108063e24a0e5a24543e7db9aab",
+          "manifest": "proofs/batches/spotify-us-weekly-2026-12-10-rolling-v3__20261120T075357963279Z__s2492.json",
+          "manifest_sha256": "9d3b88872d2acebce65e1039c42626827fa6b40c8a1023ea42e5d5b82b64f69a",
+          "ots_proof": "proofs/batches/spotify-us-weekly-2026-12-10-rolling-v3__20261120T075357963279Z__s2492.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
     }
   ],
   "missed": [],
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-19T07:27:32+00:00",
-    "checked_at": "2026-11-19T20:05:21.685979+00:00",
+    "source_generated_at": "2026-11-20T07:13:22+00:00",
+    "checked_at": "2026-11-20T08:05:45.690078+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
