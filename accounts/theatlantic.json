@@ -114,7 +114,324 @@
           "url": "https://cdn.theatlantic.com/assets/marketing/prod/misc-files/2026/05/The_Atlantic_2026_Media_Kit.pdf"
         }
       }
-    ]
+    ],
+    "example_mind": {
+      "label": "Example Mind",
+      "name": "Maya Santos-Brooks",
+      "discipline": "Adjunct Humanities Lecturer",
+      "image": "/assets/minds/example-maya-santos-brooks.webp",
+      "description": "At 60, Maya Santos-Brooks is an adjunct humanities lecturer in the United States who brings deep critical analysis to cultural and civic discussions. A thoughtful conservative, Maya regularly consults digital journalism like The Atlantic and political magazines to examine contemporary social discourse through an objective, historically grounded lens.",
+      "note": "A simulated member of The Atlantic Readers (US) audience used in this mock forecast, not a real person. The profile and the source links below come from the Mind as stored in that audience.",
+      "sources_note": "The 25 public sources this Mind was grounded in, from its official Minds profile export.",
+      "profileDetails": {
+        "defaults": [
+          {
+            "dimension": "age",
+            "values": [
+              {
+                "label": "Age",
+                "value": "55-64",
+                "dimension": "age",
+                "state": "assigned",
+                "basis": "modeled",
+                "category": "demographic",
+                "canonical": "55-64",
+                "reason": "Adult readers and subscribers of long-form political and cultural magazines like The Atlantic do not reflect the general resident population distribution, as readership concentrates substantially more heavily among college-educated, older adults and working professionals than among young adults. No research measured this Audience's ages, so these shares are model assumptions for the target population, not research findings.",
+                "figure": {
+                  "value": 60,
+                  "approximate": false
+                }
+              }
+            ]
+          },
+          {
+            "dimension": "geography",
+            "values": [
+              {
+                "label": "Market",
+                "value": "United States",
+                "dimension": "geography",
+                "state": "assigned",
+                "basis": "user_target",
+                "category": "geographic",
+                "reason": "Target market is United States only"
+              }
+            ]
+          },
+          {
+            "dimension": "occupation",
+            "values": [
+              {
+                "label": "Occupation Category",
+                "value": "Education, Academia, and Research",
+                "dimension": "occupation",
+                "state": "assigned",
+                "basis": "modeled",
+                "category": "demographic",
+                "reason": "No source covered this dimension for this audience, so these shares are model assumptions, not research findings. Use rework to change them. The Atlantic's readership skews heavily toward knowledge workers, professional services, academia, media, and executive management."
+              }
+            ]
+          },
+          {
+            "dimension": "income",
+            "values": [
+              {
+                "label": "Family income (last year, family's annual income)",
+                "value": "Less than $30,000",
+                "dimension": "income",
+                "state": "assigned",
+                "basis": "public_evidence",
+                "category": "demographic"
+              }
+            ]
+          },
+          {
+            "dimension": "education",
+            "values": [
+              {
+                "label": "Education",
+                "value": "College degree or higher",
+                "dimension": "education",
+                "state": "assigned",
+                "basis": "unknown",
+                "category": "demographic",
+                "canonical": "tertiary_undergraduate"
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "label": "Language",
+            "value": "English",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "user_target",
+            "category": "demographic",
+            "reason": "Language specified as English"
+          },
+          {
+            "label": "Qualification rule",
+            "value": "reads The Atlantic at least monthly",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "modeled",
+            "category": "behavioral",
+            "reason": "US adults who qualify via reading The Atlantic at least monthly or being paid subscribers, reflecting that regular (monthly+) readers generally outnumber paying digital/print subscribers among total monthly reach."
+          },
+          {
+            "label": "Do you pay directly for some kind of news product or service?",
+            "value": "No",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence",
+            "category": "behavioral",
+            "reason": "Calculated as 100% minus the stated 56%; the source does not state this share."
+          },
+          {
+            "label": "Civic engagement groups",
+            "value": "Connectors",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "unknown",
+            "category": "psychographic",
+            "canonical": "established"
+          },
+          {
+            "label": "Political identification",
+            "value": "Conservative",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence",
+            "category": "psychographic",
+            "canonical": "right"
+          },
+          {
+            "label": "Political party identification",
+            "value": "Independent or Republican",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "unknown",
+            "category": "psychographic",
+            "reason": "Calculated as 100% minus the stated 57%; the source does not state this share."
+          },
+          {
+            "label": "Reads political magazines",
+            "value": "Yes",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence"
+          },
+          {
+            "label": "Reads news magazines",
+            "value": "Yes",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence"
+          },
+          {
+            "label": "Internet as primary source of information",
+            "value": "Yes",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence"
+          },
+          {
+            "label": "Trust news organizations with a track record of objectivity",
+            "value": "Yes",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence"
+          },
+          {
+            "label": "News consumption across all platforms: television",
+            "value": "Rarely",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "unknown",
+            "category": "behavioral"
+          },
+          {
+            "label": "News consumption across digital platforms: news websites or apps",
+            "value": "Often",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "unknown",
+            "category": "behavioral"
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "An adjunct explains why literature matters | Danielle Carlotti Smith | TEDxUniversityofTulsa",
+          "url": "https://www.youtube.com/watch?v=TpE8TiN8HyY",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "Resisting Dehumanization in the Age of AI: The View from the Humanities, Emily M. Bender",
+          "url": "https://www.youtube.com/watch?v=T7Lc6QNxolQ",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "Sociology LEO Lecturer I and/or Adjunct Lecturer | University of Michigan Careers",
+          "url": "https://careers.umich.edu/job_detail/283931/sociology-leo-lecturer-i-andor-adjunct-lecturer",
+          "domain": "careers.umich.edu"
+        },
+        {
+          "title": "Dual Credit Lecturer or Adjunct Instructor in History 2026-2027 | Sul Ross State University",
+          "url": "https://sulross.peopleadmin.com/postings/9508",
+          "domain": "sulross.peopleadmin.com"
+        },
+        {
+          "title": "Adjunct Faculty | SUNY Cortland",
+          "url": "https://jobs.cortland.edu/postings/11133",
+          "domain": "jobs.cortland.edu"
+        },
+        {
+          "title": "Adjunct Lecturer European History | HigherEdJobs",
+          "url": "https://www.higheredjobs.com/faculty/details.cfm?JobCode=177632472",
+          "domain": "higheredjobs.com"
+        },
+        {
+          "title": "Adjunct History Professor Jobs | OpenLecture",
+          "url": "https://www.openlecture.com/jobs/subject/history",
+          "domain": "openlecture.com"
+        },
+        {
+          "title": "Adjunct Lecturer, Division of Humanities and Social Sciences | College of Staten Island, CUNY",
+          "url": "https://www.csi.cuny.edu/sites/default/files/pdf/jobs/hcm_DHSS.pdf",
+          "domain": "csi.cuny.edu"
+        },
+        {
+          "title": "Adjunct Lecturer or Adjunct Assistant Professor, Humanities | CUNY New York City College of Technology",
+          "url": "https://alumnijobs.cofc.edu/jobs/22216078/adjunct-lecturer-or-adjunct-assistant-professor-humanities",
+          "domain": "alumnijobs.cofc.edu"
+        },
+        {
+          "title": "Faculty Adjunct Humanities | Johnson and Wales University",
+          "url": "https://jobs.jwu.edu/en-us/job/497958/facultyadjuncthumanities",
+          "domain": "jobs.jwu.edu"
+        },
+        {
+          "title": "Adjunct Lecturer, Arts and Humanities | Babson College",
+          "url": "https://babson.peopleadmin.com/postings/6471",
+          "domain": "babson.peopleadmin.com"
+        },
+        {
+          "title": "Humanities Instructor Adjunct | Spokane Community College",
+          "url": "https://careers.ccs.spokane.edu/jobs/humanities-instructor-adjunct-spokane-community-college-spokane-washington-united-states",
+          "domain": "careers.ccs.spokane.edu"
+        },
+        {
+          "title": "On Media Consumption: The Gen Z Mind, Unfiltered",
+          "url": "https://www.youtube.com/watch?v=Y9knNHxU0YI",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "How The Atlantic went from losing $20 million a year to profitable (CEO Nicholas Thompson)",
+          "url": "https://www.youtube.com/watch?v=qnAk9Oz-PUg",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "The Atlantic's Nicholas Thompson on the risky move of tightening their pay wall",
+          "url": "https://www.youtube.com/watch?v=MfOw8bLPUfs",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "Who's reading magazines online and who's sticking to print in the US | YouGov",
+          "url": "https://yougov.com/en-us/articles/52783-whos-reading-magazines-online-and-whos-sticking-to-print-in-the-us",
+          "domain": "yougov.com"
+        },
+        {
+          "title": "Customer Growth at The Atlantic | Emilie Harkin, INMA, October 2020",
+          "url": "https://www.inma.org/modules/event/2020SubscriptionAcquisitionMasterClass/replay/October_Module_2_Harkin.pdf",
+          "domain": "inma.org"
+        },
+        {
+          "title": "The Atlantic thrives in volatile industry with newspaper magazine hybrid | AP News",
+          "url": "https://apnews.com/article/atlantic-goldberg-magazine-journalism-signal-75286cf858022d6dfdd2e386b4e35c7c",
+          "domain": "apnews.com"
+        },
+        {
+          "title": "The Atlantic 2026 Media Kit",
+          "url": "https://cdn.theatlantic.com/assets/marketing/prod/misc-files/2026/05/The_Atlantic_2026_Media_Kit.pdf",
+          "domain": "cdn.theatlantic.com"
+        },
+        {
+          "title": "BuzzFeed and Atlantic readers are largely one and the same | YouGov",
+          "url": "https://yougov.com/en-us/articles/19747-buzzfeed-and-atlantic-readers-are-largely-one-and-",
+          "domain": "yougov.com"
+        },
+        {
+          "title": "Lecturer: An Alternative to the Tenure Track | ASEE 2002",
+          "url": "https://www.cs.uic.edu/~jbell/Professional/Papers/ASEE_2002_Lecturers.pdf",
+          "domain": "cs.uic.edu"
+        },
+        {
+          "title": "Episode 108: Why your professor might be a gig worker | UWire",
+          "url": "https://www.uwire.com/2022/12/14/episode-108-why-your-professor-might-be-a-gig-worker/",
+          "domain": "uwire.com"
+        },
+        {
+          "title": "Part Time Professors at City Colleges Want More From Their Employer | WTTW",
+          "url": "https://news.wttw.com/2016/12/13/part-time-professors-city-colleges-want-more-from-their-employer",
+          "domain": "news.wttw.com"
+        },
+        {
+          "title": "Chronicle Survey Yields a Rare Look Into Adjuncts' Work Lives | The Chronicle of Higher Education",
+          "url": "https://www.chronicle.com/article/chronicle-survey-yields-a-rare-look-into-adjuncts-work-lives/",
+          "domain": "chronicle.com"
+        },
+        {
+          "title": "If this was about money, we'd still be teaching: inside the longest adjunct strike in US history | The Guardian",
+          "url": "https://www.theguardian.com/us-news/2023/dec/10/part-time-faculty-columbia-college-longest-strike",
+          "domain": "theguardian.com"
+        }
+      ],
+      "audience_id": "b96dc200-458e-4ef3-a555-9ddc48c2ee28",
+      "study_id": "08193b0a-4446-401b-918b-50103c854543",
+      "mind_id": "ad5348bf-e9ce-499c-9d00-3c33bc433f27"
+    }
   },
   "outcome_source": "Days a story appeared in the theatlantic.com homepage Popular list (top 10), from 130 Internet Archive Wayback Machine snapshots on 55 days, 20 August to 18 November 2026.",
   "scorecard": {
