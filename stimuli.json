@@ -1,0 +1,276 @@
+{
+  "format": "forecast-ledger-stimuli.v1",
+  "note": "Unlocked display metadata for the public ledger feed. Not part of the hash chain, Merkle proofs, OpenTimestamps, index.json, or any locked forecast or result file. Keyed by target_id. Official ad films are linked and embedded from their public YouTube source. Video files are not rehosted. The forecasts themselves were made from a written ad description, not from the film.",
+  "items": {
+    "gb-system1-xmas-2026-tesco": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "The Wrong Address",
+      "alt": "Tesco: The Wrong Address",
+      "image": "https://i.ytimg.com/vi/xeh44x7eqzk/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=xeh44x7eqzk",
+      "embed_url": "https://www.youtube-nocookie.com/embed/xeh44x7eqzk",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-sainsburys": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Sainsbury’s big delivery.",
+      "alt": "Sainsbury's: Sainsbury’s big delivery.",
+      "image": "https://i.ytimg.com/vi/C9mEsqI8ULc/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=C9mEsqI8ULc",
+      "embed_url": "https://www.youtube-nocookie.com/embed/C9mEsqI8ULc",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-best-buy": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Tech gifts they’ll love.",
+      "alt": "Best Buy: Tech gifts they’ll love.",
+      "image": "https://i.ytimg.com/vi/C2P9B2aFl3k/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=C2P9B2aFl3k",
+      "embed_url": "https://www.youtube-nocookie.com/embed/C2P9B2aFl3k",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-chewy": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "A Holiday Dream",
+      "alt": "Chewy: A Holiday Dream",
+      "image": "https://i.ytimg.com/vi/9BVw9WN9Jlw/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=9BVw9WN9Jlw",
+      "embed_url": "https://www.youtube-nocookie.com/embed/9BVw9WN9Jlw",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-chewy-3": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Chewy Claus: Meet Raybans",
+      "alt": "Chewy: Chewy Claus: Meet Raybans",
+      "image": "https://i.ytimg.com/vi/jYGeviZrlqg/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=jYGeviZrlqg",
+      "embed_url": "https://www.youtube-nocookie.com/embed/jYGeviZrlqg",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-chewy-2": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Chewy Claus: Your Pet's Letter Can Help Shelter Pets",
+      "alt": "Chewy: Chewy Claus: Your Pet's Letter Can Help Shelter Pets",
+      "image": "https://i.ytimg.com/vi/zgIuoofMwHQ/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=zgIuoofMwHQ",
+      "embed_url": "https://www.youtube-nocookie.com/embed/zgIuoofMwHQ",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-very": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "That's the Very thing",
+      "alt": "Very: That's the Very thing",
+      "image": "https://i.ytimg.com/vi/kBs3pANW30w/hqdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=kBs3pANW30w",
+      "embed_url": "https://www.youtube-nocookie.com/embed/kBs3pANW30w",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-etsy": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Workshops",
+      "alt": "Etsy: Workshops",
+      "image": "https://i.ytimg.com/vi/_4iD4b0Et5U/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=_4iD4b0Et5U",
+      "embed_url": "https://www.youtube-nocookie.com/embed/_4iD4b0Et5U",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-john-lewis": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Gloria and Pickles",
+      "alt": "John Lewis: Gloria and Pickles",
+      "image": "https://i.ytimg.com/vi/CbdvIoLx_BQ/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=CbdvIoLx_BQ",
+      "embed_url": "https://www.youtube-nocookie.com/embed/CbdvIoLx_BQ",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-asda": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "All of Christmas at Asda Price. Boom. - Dinner Table",
+      "alt": "Asda: All of Christmas at Asda Price. Boom. - Dinner Table",
+      "image": "https://i.ytimg.com/vi/7jEyBPEmVhI/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=7jEyBPEmVhI",
+      "embed_url": "https://www.youtube-nocookie.com/embed/7jEyBPEmVhI",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-asda-2": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "All of Christmas at Asda Price. Boom. - Decorating",
+      "alt": "Asda: All of Christmas at Asda Price. Boom. - Decorating",
+      "image": "https://i.ytimg.com/vi/3wNREJrL99Y/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=3wNREJrL99Y",
+      "embed_url": "https://www.youtube-nocookie.com/embed/3wNREJrL99Y",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-burberry": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Wrapped in Burberry",
+      "alt": "Burberry: Wrapped in Burberry",
+      "image": "https://i.ytimg.com/vi/LNDJde_oNAk/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=LNDJde_oNAk",
+      "embed_url": "https://www.youtube-nocookie.com/embed/LNDJde_oNAk",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-lidl": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Lidl Christmas Everybody",
+      "alt": "Lidl: Lidl Christmas Everybody",
+      "image": "https://i.ytimg.com/vi/6OzqEiJWfYk/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=6OzqEiJWfYk",
+      "embed_url": "https://www.youtube-nocookie.com/embed/6OzqEiJWfYk",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-gap": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Give your gift.",
+      "alt": "Gap: Give your gift.",
+      "image": "https://i.ytimg.com/vi/ASJ06RUu9kw/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=ASJ06RUu9kw",
+      "embed_url": "https://www.youtube-nocookie.com/embed/ASJ06RUu9kw",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-boots": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Boots Christmas Advert 2026 | Give It Some Boots",
+      "alt": "Boots: Boots Christmas Advert 2026 | Give It Some Boots",
+      "image": "https://i.ytimg.com/vi/powSmKDgxnI/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=powSmKDgxnI",
+      "embed_url": "https://www.youtube-nocookie.com/embed/powSmKDgxnI",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-asda-3": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "All of Christmas at Asda Price. Boom. - Home Delivery (spot name not stated)",
+      "alt": "Asda: All of Christmas at Asda Price. Boom. - Home Delivery (spot name not stated)",
+      "image": "https://i.ytimg.com/vi/lboYR5lluL8/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=lboYR5lluL8",
+      "embed_url": "https://www.youtube-nocookie.com/embed/lboYR5lluL8",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-starbucks": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Perfect Harmony | The Starbucks Coffee Company",
+      "alt": "Starbucks: Perfect Harmony | The Starbucks Coffee Company",
+      "image": "https://i.ytimg.com/vi/nHPorplY6ng/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=nHPorplY6ng",
+      "embed_url": "https://www.youtube-nocookie.com/embed/nHPorplY6ng",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-aldi": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?",
+      "alt": "Aldi: Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?",
+      "image": "https://i.ytimg.com/vi/rqXD0E6H2OY/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=rqXD0E6H2OY",
+      "embed_url": "https://www.youtube-nocookie.com/embed/rqXD0E6H2OY",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-amazon": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Amazon | Joy Delivered",
+      "alt": "Amazon: Amazon | Joy Delivered",
+      "image": "https://i.ytimg.com/vi/oAl_EHxk8sw/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=oAl_EHxk8sw",
+      "embed_url": "https://www.youtube-nocookie.com/embed/oAl_EHxk8sw",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-barbour": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Barbour x Wallace & Gromit | Barbour Christmas Film 2026",
+      "alt": "Barbour: Barbour x Wallace & Gromit | Barbour Christmas Film 2026",
+      "image": "https://i.ytimg.com/vi/SSz419dRawM/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=SSz419dRawM",
+      "embed_url": "https://www.youtube-nocookie.com/embed/SSz419dRawM",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-lego": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "The LEGO® Holiday Ad Drop | Full Edit",
+      "alt": "Lego: The LEGO® Holiday Ad Drop | Full Edit",
+      "image": "https://i.ytimg.com/vi/WFofAsvzvSw/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=WFofAsvzvSw",
+      "embed_url": "https://www.youtube-nocookie.com/embed/WFofAsvzvSw",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-tk-maxx": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "TK Maxx Festive Crossing | Christmas Advert 2026",
+      "alt": "TK Maxx: TK Maxx Festive Crossing | Christmas Advert 2026",
+      "image": "https://i.ytimg.com/vi/qlNIEwtWn6s/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=qlNIEwtWn6s",
+      "embed_url": "https://www.youtube-nocookie.com/embed/qlNIEwtWn6s",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-amazon": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Amazon | Joy Delivered",
+      "alt": "Amazon: Amazon | Joy Delivered",
+      "image": "https://i.ytimg.com/vi/oAl_EHxk8sw/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=oAl_EHxk8sw",
+      "embed_url": "https://www.youtube-nocookie.com/embed/oAl_EHxk8sw",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-lego": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "The LEGO® Holiday Ad Drop | Full Edit",
+      "alt": "Lego: The LEGO® Holiday Ad Drop | Full Edit",
+      "image": "https://i.ytimg.com/vi/WFofAsvzvSw/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=WFofAsvzvSw",
+      "embed_url": "https://www.youtube-nocookie.com/embed/WFofAsvzvSw",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-verizon": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Holiday Workshop | Martin Short, Marsai Martin & Meg Stalter | Verizon",
+      "alt": "Verizon: Holiday Workshop | Martin Short, Marsai Martin & Meg Stalter | Verizon",
+      "image": "https://i.ytimg.com/vi/iCY9jlUyKSQ/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=iCY9jlUyKSQ",
+      "embed_url": "https://www.youtube-nocookie.com/embed/iCY9jlUyKSQ",
+      "shown": "written_description"
+    },
+    "us-system1-xmas-2026-walmart-2": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "Walmart Presents: The Ghost of Christmas Presents",
+      "alt": "Walmart: Walmart Presents: The Ghost of Christmas Presents",
+      "image": "https://i.ytimg.com/vi/l0Kh2Ajtcks/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=l0Kh2Ajtcks",
+      "embed_url": "https://www.youtube-nocookie.com/embed/l0Kh2Ajtcks",
+      "shown": "written_description"
+    },
+    "gb-system1-xmas-2026-ms": {
+      "kind": "video",
+      "provider": "youtube",
+      "title": "The Home Of Christmas | M&S Christmas 2026",
+      "alt": "M&S Food: The Home Of Christmas | M&S Christmas 2026",
+      "image": "https://i.ytimg.com/vi/TTTRuOXPDvo/maxresdefault.jpg",
+      "source_url": "https://www.youtube.com/watch?v=TTTRuOXPDvo",
+      "embed_url": "https://www.youtube-nocookie.com/embed/TTTRuOXPDvo",
+      "shown": "written_description"
+    }
+  }
+}
