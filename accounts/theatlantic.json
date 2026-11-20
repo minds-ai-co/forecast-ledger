@@ -2,6 +2,14 @@
   "format": "forecast-ledger-account.v1",
   "account": "theatlantic",
   "title": "The Atlantic x Minds: Forecast Ledger (mock, Aug to Nov 2026)",
+  "brand": {
+    "name": "The Atlantic",
+    "logo": "/accounts/theatlantic/logo.png",
+    "logo_width": 856,
+    "logo_height": 133,
+    "logo_source": "https://cdn.theatlantic.com/assets/marketing/prod/misc-files/2026/05/The_Atlantic_2026_Media_Kit.pdf",
+    "logo_note": "Official The Atlantic wordmark from the cover of The Atlantic 2026 Media Kit, recoloured to a single colour with its own alpha mask."
+  },
   "forecast_date": "2026-11-20",
   "kind": "mock_forecast",
   "note": "This is a mock forecast. The forecasts were generated on 20 November 2026, after these stories had already run. It is not part of the locked public ledger and is not included in headline accuracy.",
