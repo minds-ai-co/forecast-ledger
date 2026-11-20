@@ -9,7 +9,79 @@
   "audience": {
     "name": "The Atlantic Readers (US)",
     "minds": 30,
-    "question": "Headline, subhead and lead image as shown on the homepage. How likely are you to click and read this story? 0 to 10."
+    "question": "Headline, subhead and lead image as shown on the homepage. How likely are you to click and read this story? 0 to 10.",
+    "description": "30 Minds modelled on people in the United States who read The Atlantic. Qualification used in the study: reads The Atlantic at least monthly, or is a paid subscriber.",
+    "orbit": {
+      "label": "30 Minds",
+      "count": 30
+    },
+    "distributions": [
+      {
+        "id": "education",
+        "name": "Education among regular Atlantic news users",
+        "note": "Share of U.S. adults who regularly get news from The Atlantic. Pew reports 62% have at least a bachelor's degree; the remainder is the complement of that official figure.",
+        "segments": [
+          {
+            "label": "Bachelor's degree or higher",
+            "share": 0.62
+          },
+          {
+            "label": "No bachelor's degree",
+            "share": 0.38
+          }
+        ],
+        "source": {
+          "label": "Pew Research Center, 18 August 2025",
+          "url": "https://www.pewresearch.org/short-reads/2025/08/18/how-the-audiences-of-30-major-news-sources-differ-in-their-levels-of-education/"
+        }
+      },
+      {
+        "id": "civic-engagement",
+        "name": "Civic engagement among regular Atlantic news users",
+        "note": "Among U.S. adults who regularly get news from The Atlantic, from a Pew survey of U.S. adults conducted 10 to 16 March 2025. Figures are as published and may not sum to 100 because of rounding.",
+        "segments": [
+          {
+            "label": "Mobilizers",
+            "share": 0.18
+          },
+          {
+            "label": "Connectors",
+            "share": 0.47
+          },
+          {
+            "label": "Spectators",
+            "share": 0.24
+          },
+          {
+            "label": "Outsiders",
+            "share": 0.12
+          }
+        ],
+        "source": {
+          "label": "Pew Research Center, 13 November 2026",
+          "url": "https://www.pewresearch.org/short-reads/2026/11/13/where-americans-get-news-relates-to-how-they-engage-in-public-life/"
+        }
+      },
+      {
+        "id": "employed-reader-age",
+        "name": "Age among employed print and digital readers",
+        "note": "The Atlantic reports that Gen Z and Millennials are 58% of employed print and digital readers. The complement is shown so the bar has a clear remainder, using the same official figure.",
+        "segments": [
+          {
+            "label": "Gen Z / Millennials",
+            "share": 0.58
+          },
+          {
+            "label": "Other generations",
+            "share": 0.42
+          }
+        ],
+        "source": {
+          "label": "The Atlantic 2026 Media Kit",
+          "url": "https://cdn.theatlantic.com/assets/marketing/prod/misc-files/2026/05/The_Atlantic_2026_Media_Kit.pdf"
+        }
+      }
+    ]
   },
   "outcome_source": "Days a story appeared in the theatlantic.com homepage Popular list (top 10), from 130 Internet Archive Wayback Machine snapshots on 55 days, 20 August to 18 November 2026.",
   "scorecard": {
@@ -437,5 +509,15 @@
         "alt": "The Nobel Laureate Who Rescued Me"
       }
     }
-  ]
+  ],
+  "intro": "Minds is a simulated audience: people modelled on published evidence, who can be asked the same questions you would put to a real sample.",
+  "contact": {
+    "name": "Jerome Salow",
+    "role": "Commercial Lead",
+    "headline": "Want to see Minds on your next pack, claim or price decision?",
+    "quote": "I help publishers and brands run a first study on a grounded audience. Write to me and I will follow up.",
+    "photo": "https://getminds.ai/images/team-portraits/jerome-salow.webp",
+    "email": "jerome@getminds.ai",
+    "booking_url": "https://getminds.ai/"
+  }
 }

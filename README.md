@@ -51,6 +51,7 @@ Audience profiles use the Arena’s energy score to measure error across the who
 ## Files
 
 - [`index.json`](index.json): every locked survey with status, lock times, hashes, Bitcoin blocks and file paths. Start here.
+- [`stimuli.json`](stimuli.json): unlocked display metadata (official ad links and thumbnails). Not part of the hash chain.
 - `forecasts/<survey>/<tag>.json`: the locked forecasts. Pending surveys list hashes and lock times only.
 - `results/<survey>.json`: release date, source and scores. Published numbers include attribution and a release-specific publication basis.
 - `proofs/`: the hash chain (`index.jsonl`), batch manifests and their OpenTimestamps proofs.
