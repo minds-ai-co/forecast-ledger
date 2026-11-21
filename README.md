@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-21T18:12:51Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-21T18:19:31Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -75,42 +75,45 @@ Ledger chain head `c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778
 
 ## Methodology
 
-Every forecast is locked and timestamped before the survey is in the field or before its result is released. When the publisher releases the real result, we compare it with the locked Minds Mosaic forecast. Every locked forecast is scored, including the misses. The figures below use the main forecast version, for the full surveyed population.
+Every forecast is locked and timestamped before the survey is in the field or before its result is released. When the publisher releases the result, the locked Minds Mosaic forecast is compared with it. Every locked forecast is scored, misses included. All figures use the primary forecast version and the full surveyed population.
 
-### Approximation: how close we were
+**Notation.** For a question with *K* answer options, *f<sub>k</sub>* is the forecast share and *a<sub>k</sub>* the released share of option *k* (shares between 0 and 1, each set summing to 1). For a single number, *x̂* is the point forecast (the expected value of the forecast distribution) and *x* the released value. Every question yields an accuracy *A* between 0 (completely wrong) and 1 (exact), shown as a percentage.
 
-The headline number. It says how close the forecast was to the real result, from 0% (completely wrong) to 100% (exactly right). Each kind of question is turned into this same 0 to 100% scale, so different questions can be compared and combined:
+### Accuracy by question type
 
-| Kind of question | Example | How "close" is measured |
+| Question type | Metric | Formula | Notes |
+|---|---|---|---|
+| Answer shares (categorical) | Approximation | *A* = 1 − (1/*K*) Σ<sub>k</sub> \|*f<sub>k</sub>* − *a<sub>k</sub>*\| | 100% minus the mean absolute error per option. Pew Research Center (2026) uses the same average absolute error. |
+| Ordered scale | Approximation; Wasserstein distance | *A* as above; *W* = Σ<sub>j&lt;K′</sub> \|*F<sub>j</sub>* − *G<sub>j</sub>*\| / (*K′* − 1) | *F*, *G*: cumulative forecast and released shares over the *K′* substantive options ("Not sure"-type options removed, both sides renormalised). *W* = 0 identical, 1 all mass at opposite ends (normalised as in Santurkar et al. 2023). |
+| Rating on a fixed scale | Normalised rating accuracy | *A* = 1 − \|*x̂* − *x*\| / (*hi* − *lo*) | [*lo*, *hi*]: the scale declared when the forecast was locked (System1 stars: 1.0 to 5.9). |
+| Open-ended number | Relative accuracy | *A* = max(0, 1 − \|*x̂* − *x*\| / \|*x*\|) | 100% minus the absolute percentage error, floored at 0. |
+| Ranking | Pairwise ranking accuracy | *A* = *C* / *N* | *N*: pairs of items whose released values differ; *C*: pairs ordered the same way by the forecast. 0.5 is a coin flip. |
+| Yes/no event | 1 − Brier score | *A* = 1 − (*p* − *o*)<sup>2</sup> | *p*: forecast probability of the event; *o* = 1 if it happened, else 0. Brier (1950). |
+
+### Further measures
+
+| Measure | Formula | Reading |
 |---|---|---|
-| Answer shares | Which party would you vote for? | 100% minus the average miss per answer option, in percentage points. If we forecast 30% and the result was 32%, that option missed by 2 points. |
-| Ordered scale | Approve strongly, somewhat, ... disapprove | The same, plus how far apart the two answer curves are along the scale ("Not sure"-type answers are left out of that part). |
-| Rating | An ad's star rating from 1.0 to 5.9 | 100% minus the miss as a share of the whole scale. Off by 0.49 stars on a 4.9-star range is 90%. |
-| Number | Box office takings, car registrations | 100% minus the miss as a share of the real value (never below 0%). |
-| Ranking | A top-10 chart | The share of pairs of items put in the right order. |
-| Yes/no event | Will a vote pass? | 100% minus the Brier score: rewards being confident and right, punishes being confident and wrong. |
+| Distribution error (TVD) | TVD = ½ Σ<sub>k</sub> \|*f<sub>k</sub>* − *a<sub>k</sub>*\| | Share of answers placed in the wrong option; 0 identical, 1 disjoint. Lower is better. |
+| Correlation (Pearson *r*) | *r* = cov(*f*, *a*) / (σ<sub>f</sub> σ<sub>a</sub>) over all answer options of the selected questions | Companion measure only: it can be high when levels are off. |
+| Rating error (bias) | *b* = (1/*n*) Σ<sub>i</sub> (*x̂<sub>i</sub>* − *x<sub>i</sub>*) | Average signed error in the rating's unit; negative means too low. |
+| CRPS | CRPS = E\|*X* − *x*\| − ½ E\|*X* − *X′*\| | *X*, *X′*: independent draws from the forecast distribution. A proper score of the whole forecast spread in the question's unit; equals \|*x̂* − *x*\| for a point forecast. Lower is better (Gneiting and Raftery 2007). |
 
-### Other measures on the page
+### Aggregation and uncertainty
 
-- **Distribution error (TVD):** the share of answers placed in the wrong option. 0% means the forecast and the real result are identical, 100% means they have nothing in common. Lower is better.
-- **Distance on the scale (Wasserstein):** for ordered scales only. It counts being one step off as smaller than being three steps off. Shown as a share of the largest possible distance; lower is better.
-- **Correlation (Pearson r):** whether big answers were forecast big and small answers small, from -1 to 1. A companion measure only: it can look high even when the exact numbers are off.
-- **Ranking:** the share of pairs put in the right order. 50% is what a coin flip would get, 100% is a perfect order. Pairs with the same real value are not counted.
-- **Rating error:** the average difference between the forecast rating and the published rating, in the rating's own unit, with its direction (too high or too low).
-- **CRPS:** scores the whole spread of a numeric forecast, not just its middle. It is the average miss in the question's own unit; lower is better.
+| Step | Rule |
+|---|---|
+| Within a series | A series is all waves of one repeated survey. Its accuracy is the mean over all its questions: *A<sub>s</sub>* = (1/*n<sub>s</sub>*) Σ<sub>i∈s</sub> *A<sub>i</sub>*. |
+| Across series | Headline = (1/*S*) Σ<sub>s</sub> *A<sub>s</sub>*: every series weighs the same, however many waves or questions it has. |
+| 95% range | Percentile bootstrap: resample the *S* series with replacement 2,000 times and take the 2.5th and 97.5th percentiles of the headline. Waves of one series are resampled together. |
+| Conclusiveness | With *S* &lt; 5 independent series a figure is shown but marked as too few to conclude. |
+| Audience subgroups | Age, party and similar subgroups form a separate pool; they never enter the full-population figure. |
+| Last 30 days | The same calculation restricted to surveys whose results were released in the last 30 days. |
+| Filters | Topic, type and search filters recompute every figure for the selected surveys only. |
 
-### How results are combined
+### Limitations
 
-- **Questions first, then series.** A survey series that repeats (for example a weekly poll) counts once, however many waves or questions it has. Its questions are averaged first, then every series weighs the same. One large survey cannot drown out the small ones.
-- **95% range.** The range is found by resampling the series many times. It shows how much the figure could move by chance with this many surveys.
-- **Too few to conclude.** With fewer than 5 independent series, a figure is shown but marked as too few to draw a conclusion.
-- **Audience subgroups** (age, party and similar) are scored separately and never mixed into the full-population figure.
-- **Last 30 days** uses only surveys whose results were released in the last 30 days, to show recent performance.
-- **Filters.** Choosing a topic, a type or a search term recalculates every figure for just those surveys.
-
-### What these numbers do not mean
-
-- They compare whole answer distributions, not individual people. They do not say how many respondents were predicted correctly.
-- Approximation depends on the number of answer options: questions with many options have smaller shares, so their misses tend to be smaller. Compare like with like.
-- High scores are common for stable, frequently repeated surveys. A result holds for the surveys, audiences and question formats tested here; it is no guarantee for a new questionnaire.
-- Some publishers do not allow their released numbers to be republished. Those surveys are scored and counted, but their released numbers are not shown.
+- The metrics compare population answer distributions, not individual respondents.
+- Approximation depends on *K*: with more options the shares, and so the absolute misses, are smaller. Compare questions with similar numbers of options.
+- Stable, frequently repeated surveys tend to score high. Results hold for the surveys, audiences and question formats tested; they are no error guarantee for a new questionnaire.
+- Where a publisher does not permit republication, the released numbers are withheld but the survey is still scored and counted.
