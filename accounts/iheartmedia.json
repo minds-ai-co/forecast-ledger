@@ -1,0 +1,1487 @@
+{
+  "format": "forecast-ledger-account.v1",
+  "account": "iheartmedia",
+  "title": "Predicting Audience reactions for iHeartMedia",
+  "nav_title": "iHeartMedia",
+  "brand": {
+    "name": "iHeartMedia",
+    "logo": "/accounts/iheartmedia/logo.svg",
+    "logo_width": 455,
+    "logo_height": 144,
+    "logo_source": "https://cdn.iheartmedia.com/img/ihm-stackedlogo.svg",
+    "logo_note": "Official iHeartMedia stacked logo, as used in the header of iheartmedia.com."
+  },
+  "tagline": "Test podcast launches, trailers and new music on a simulated iHeart audience before you commit airtime or marketing.",
+  "forecast_date": "2026-11-21",
+  "kind": "mock_forecast",
+  "note": "Retrospective test: Minds rated these 15 podcasts and songs on 2026-11-21, after they had launched. It is separate from the pre-registered public forecast ledger and its headline accuracy.",
+  "study_id": "2e2e0e45-bb97-456f-9c05-1d18e6e3b5bd",
+  "intro": "Minds is a simulated audience built from published evidence about real people. Ask it the questions you would put to a listener panel, and get answers without recruiting one.",
+  "labels": {
+    "items": "podcasts and songs",
+    "itemsCap": "Podcasts and songs",
+    "item": "title",
+    "order": "Podcasts, then songs, best real-world result first"
+  },
+  "predicted": {
+    "heading": "Which shows and songs would listeners pick?",
+    "lead": "We played 8 new iHeartPodcasts launches and 7 new songs to 30 Minds built on iHeart listeners: each podcast with its cover art and official trailer, each song with its cover and frames from a minute of its official music video. Then we compared their answers with how each title actually did: its peak in Apple Podcasts’ Top New Shows, or on the Billboard Hot 100.",
+    "stats": [
+      {
+        "label": "Hit podcasts picked",
+        "value": "5 of 6",
+        "comparison": "of the launches that reached Apple’s Top New Shows top 10 were among Minds’ top 6"
+      },
+      {
+        "label": "Charting songs picked",
+        "value": "2 of 4",
+        "comparison": "of the songs that entered the Billboard Hot 100 were among Minds’ top 4"
+      },
+      {
+        "label": "Head-to-head calls",
+        "value": "73%",
+        "comparison": "of title pairs called right: which of two did better (30 of 41)"
+      }
+    ]
+  },
+  "scorecard": {
+    "pairs_right": "30 of 41",
+    "pairs_right_share": 0.73,
+    "by_kind": {
+      "podcast_launch": {
+        "pairs_right": "22 of 24",
+        "charted_in_top": "5 of 6"
+      },
+      "song": {
+        "pairs_right": "8 of 17",
+        "charted_in_top": "2 of 4"
+      }
+    }
+  },
+  "outcome_source": {
+    "podcast_launch": {
+      "definition": "Best (lowest) position reached in the Associated Press weekly 'Apple Podcasts – Top New Shows (US)' top-10 list (published each Monday/Tuesday) from the show's launch through the 2026-11-17 list. null = never in that top 10 in any readable weekly list after launch. Lower is better; all nulls tie below #10.",
+      "sources": "13 consecutive AP weekly lists 2026-08-25 to 2026-11-17 read on wtop.com (plus the 2026-07-28 list on Yahoo for context). Lists for 2026-08-04, 08-11 and 08-18 could not be fetched (wtop/yahoo URLs 404). Launch dates are the first episode pubDate in each show's official RSS feed (Omny); descriptions are the channel <description> from that feed; artwork is the Apple Podcasts artworkUrl600 from the iTunes lookup API."
+    },
+    "song": {
+      "definition": "Peak position on the Billboard Hot 100 as of the chart dated 2026-11-21, with weeks on chart; null = did not enter the Hot 100 (checked against every weekly Hot 100 and Bubbling Under chart 2026-06-20 to 2026-11-21).",
+      "sources": "Billboard weekly Hot 100 / Bubbling Under chart pages and Billboard artist chart-history pages (billboard.com), read 2026-11-21. Songs named in iHeartMedia press releases: On The Verge (2026-07-31) and the weekly 'iHeartMedia Celebrates New Music' World Premiere / New Music Friday releases (2026-10-23, 2026-11-06). Artwork from Apple Music via iTunes lookup."
+    }
+  },
+  "order": "Podcasts, then songs; each by actual result, best first. Ties share a rank.",
+  "responses_url": "/accounts/iheartmedia/responses.json",
+  "items": [
+    {
+      "id": "survivor-files-elizabeth-smart",
+      "kind": "podcast_launch",
+      "title": "The Survivor Files with Elizabeth Smart",
+      "creator": "Elizabeth Smart",
+      "section": "Podcast",
+      "date": "2026-08-17",
+      "url": "https://podcasts.apple.com/us/podcast/id6799944065",
+      "forecast": {
+        "score": 4.67,
+        "answered": 30,
+        "top_box_pct": 23,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 1,
+        "charted": true,
+        "label": "best #1 on AP weekly Apple Podcasts Top New Shows (US) top 10; listed in 3 of 13 readable weekly snapshots after launch",
+        "as_of": "2026-08-25",
+        "source_url": "https://wtop.com/national/2026/08/apple-podcasts-top-new-shows/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/survivor-files-elizabeth-smart.jpg",
+        "alt": "The Survivor Files with Elizabeth Smart",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/6182b3b8-7b16-4b8e-92d0-b49e00ef02ef/35f3ef89-5d58-4498-8cff-b49e00ef15b7/audio.mp3?utm_source=Podcast&in_playlist=21c7e826-82f2-4aee-a3de-b49e00ef075d",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/6182b3b8-7b16-4b8e-92d0-b49e00ef02ef/35f3ef89-5d58-4498-8cff-b49e00ef15b7/audio.mp3?utm_source=Podcast&in_playlist=21c7e826-82f2-4aee-a3de-b49e00ef075d"
+      },
+      "caveats": "Trailer 6 Aug, first full episode 17 Aug. Host is a nationally famous abduction survivor (existing name recognition). AP lists for 4, 11 and 18 Aug 2026 could not be read, but the show already reached #1 in a readable week, so its best rank cannot be higher.",
+      "rank_forecast": 1,
+      "rank_actual": 1,
+      "pairs_right": "7 of 7",
+      "hit": true
+    },
+    {
+      "id": "the-builders-walter-isaacson",
+      "kind": "podcast_launch",
+      "title": "The Builders",
+      "creator": "Walter Isaacson",
+      "section": "Podcast",
+      "date": "2026-10-14",
+      "url": "https://podcasts.apple.com/us/podcast/id6820674378",
+      "forecast": {
+        "score": 4.63,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 2,
+        "charted": true,
+        "label": "best #2 on AP weekly Apple Podcasts Top New Shows (US) top 10; listed in 2 of 7 readable weekly snapshots after launch",
+        "as_of": "2026-10-27",
+        "source_url": "https://wtop.com/national/2026/10/apple-podcasts-top-new-shows-27/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/the-builders-walter-isaacson.jpg",
+        "alt": "The Builders",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8adeeef5-b6c0-4cfa-b6cc-b4c0011490b1/0b89bac7-ec31-437d-91d0-b4d401212058/audio.mp3?utm_source=Podcast&in_playlist=51d9281c-e886-4139-b940-b4c0011494bc",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/8adeeef5-b6c0-4cfa-b6cc-b4c0011490b1/0b89bac7-ec31-437d-91d0-b4d401212058/audio.mp3?utm_source=Podcast&in_playlist=51d9281c-e886-4139-b940-b4c0011494bc"
+      },
+      "caveats": "Bestselling biographer host; guests Elon Musk, Peter Thiel, Dario and Daniela Amodei; heavy press. Co-produced with Kaleidoscope. Only ~5 weekly snapshots after launch.",
+      "rank_forecast": 2,
+      "rank_actual": 2,
+      "pairs_right": "6 of 6",
+      "hit": true
+    },
+    {
+      "id": "underground-zero-911-mob",
+      "kind": "podcast_launch",
+      "title": "UnderGround Zero: 9/11 & The Mob",
+      "creator": "Michael Imperioli & Steve Schirripa",
+      "section": "Podcast",
+      "date": "2026-09-01",
+      "url": "https://podcasts.apple.com/us/podcast/id6804012117",
+      "forecast": {
+        "score": 4.63,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 3,
+        "charted": true,
+        "label": "best #3 on AP weekly Apple Podcasts Top New Shows (US) top 10; listed in 1 of 13 readable weekly snapshots after launch",
+        "as_of": "2026-09-15",
+        "source_url": "https://wtop.com/national/2026/09/apple-podcasts-top-new-shows-4/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/underground-zero-911-mob.jpg",
+        "alt": "UnderGround Zero: 9/11 & The Mob",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/943b225a-5a93-4465-8f6c-b4ab0112645b/04f5cef2-afd2-419f-a333-b4ad00ffd9b7/audio.mp3?utm_source=Podcast&in_playlist=9d814865-d09e-45db-9c6b-b4ab0112686b",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/943b225a-5a93-4465-8f6c-b4ab0112645b/04f5cef2-afd2-419f-a333-b4ad00ffd9b7/audio.mp3?utm_source=Podcast&in_playlist=9d814865-d09e-45db-9c6b-b4ab0112686b"
+      },
+      "caveats": "Scripted audio drama, all 6 chapters dropped 1 Sep; Sopranos actors with an existing podcast audience (Talking Sopranos). Peak tied to the 9/11 anniversary week. Full title on Apple includes '| Starring Michael Imperioli & Steve Schirripa'.",
+      "rank_forecast": 2,
+      "rank_actual": 3,
+      "pairs_right": "6 of 6",
+      "hit": true
+    },
+    {
+      "id": "midnight-radio-ethan-hawke",
+      "kind": "podcast_launch",
+      "title": "Midnight Radio",
+      "creator": "Ethan Hawke",
+      "section": "Podcast",
+      "date": "2026-10-22",
+      "url": "https://podcasts.apple.com/us/podcast/id6821125433",
+      "forecast": {
+        "score": 4.43,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 4,
+        "charted": true,
+        "label": "best #4 on AP weekly Apple Podcasts Top New Shows (US) top 10; listed in 2 of 6 readable weekly snapshots after launch",
+        "as_of": "2026-11-03",
+        "source_url": "https://wtop.com/national/2026/11/apple-podcasts-top-new-shows-28/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/midnight-radio-ethan-hawke.jpg",
+        "alt": "Midnight Radio",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/b86ad516-baad-4e99-9b99-b4de011c14eb/cb17663d-8ee4-4153-a30c-b4e2013f11b0/audio.mp3?utm_source=Podcast&in_playlist=268bd2bd-17f6-4561-9992-b4de011c1902",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/b86ad516-baad-4e99-9b99-b4de011c14eb/cb17663d-8ee4-4153-a30c-b4e2013f11b0/audio.mp3?utm_source=Podcast&in_playlist=268bd2bd-17f6-4561-9992-b4de011c1902"
+      },
+      "caveats": "Scripted horror fiction with an A-list star; launched in Halloween season. Only ~4 weekly snapshots after launch.",
+      "rank_forecast": 4,
+      "rank_actual": 4,
+      "pairs_right": "7 of 7",
+      "hit": true
+    },
+    {
+      "id": "not-so-fast-pabst-perloff",
+      "kind": "podcast_launch",
+      "title": "Not So Fast",
+      "creator": "Pabst & Perloff",
+      "section": "Podcast",
+      "date": "2026-08-31",
+      "url": "https://podcasts.apple.com/us/podcast/id6807036090",
+      "forecast": {
+        "score": 4.4,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 6,
+        "charted": true,
+        "label": "best #6 on AP weekly Apple Podcasts Top New Shows (US) top 10; listed in 1 of 12 readable weekly snapshots after launch",
+        "as_of": "2026-09-08",
+        "source_url": "https://wtop.com/national/2026/09/apple-podcasts-top-new-shows-3/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/not-so-fast-pabst-perloff.jpg",
+        "alt": "Not So Fast",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/b54b8a49-261f-4914-89a9-b4b3013d965c/87ab031c-3a87-4dd9-b395-b4b3013df7f0/audio.mp3?utm_source=Podcast&in_playlist=f76bf642-7b68-4a2d-8ac6-b4b3013d9a81",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/b54b8a49-261f-4914-89a9-b4b3013d965c/87ab031c-3a87-4dd9-b395-b4b3013df7f0/audio.mp3?utm_source=Podcast&in_playlist=f76bf642-7b68-4a2d-8ac6-b4b3013d9a81"
+      },
+      "caveats": "Daily sports show; episode notes say 'Pabst & Perloff are back together again with their brand new show', i.e. hosts bring an existing audience from a previous show. Official description does not name the hosts.",
+      "rank_forecast": 5,
+      "rank_actual": 5,
+      "pairs_right": "5 of 5",
+      "hit": true
+    },
+    {
+      "id": "3-putt-bogey",
+      "kind": "podcast_launch",
+      "title": "3 Putt Bogey with Chuck and Adam",
+      "creator": "Chuck Bryant & Adam Pranica",
+      "section": "Podcast",
+      "date": "2026-09-25",
+      "url": "https://podcasts.apple.com/us/podcast/id6814907254",
+      "forecast": {
+        "score": 4.2,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 10,
+        "charted": true,
+        "label": "best #10 on AP weekly Apple Podcasts Top New Shows (US) top 10; listed in 2 of 9 readable weekly snapshots after launch",
+        "as_of": "2026-10-06",
+        "source_url": "https://wtop.com/national/2026/10/apple-podcasts-top-new-shows-22/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/3-putt-bogey.jpg",
+        "alt": "3 Putt Bogey with Chuck and Adam",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/cd356562-4330-4195-a98e-b4c600fe51bc/cfc13a0b-6f77-4fa3-ac92-b4cd00e2c6e3/audio.mp3?utm_source=Podcast&in_playlist=d3b98a9d-12e6-44aa-8c5b-b4c600fe562e",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/cd356562-4330-4195-a98e-b4c600fe51bc/cfc13a0b-6f77-4fa3-ac92-b4cd00e2c6e3/audio.mp3?utm_source=Podcast&in_playlist=d3b98a9d-12e6-44aa-8c5b-b4c600fe562e"
+      },
+      "caveats": "Chuck Bryant co-hosts Stuff You Should Know (one of iHeart's biggest shows), so there is built-in cross-promotion and audience.",
+      "rank_forecast": 8,
+      "rank_actual": 6,
+      "pairs_right": "5 of 7",
+      "hit": true
+    },
+    {
+      "id": "whatever-it-takes-carli-lloyd",
+      "kind": "podcast_launch",
+      "title": "Whatever It Takes with Carli Lloyd and Jenny Taft",
+      "creator": "Carli Lloyd & Jenny Taft",
+      "section": "Podcast",
+      "date": "2026-09-10",
+      "url": "https://podcasts.apple.com/us/podcast/id6807985919",
+      "forecast": {
+        "score": 4.4,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": null,
+        "charted": false,
+        "label": "not in the AP weekly Apple Podcasts Top New Shows (US) top 10 in any of 11 readable weekly snapshots after launch (through 2026-11-17)",
+        "as_of": "2026-11-17",
+        "source_url": "https://wtop.com/national/2026/11/apple-podcasts-top-new-shows-30/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/whatever-it-takes-carli-lloyd.jpg",
+        "alt": "Whatever It Takes with Carli Lloyd and Jenny Taft",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/bf67c991-8203-43ba-badd-b4800102363a/33453e2a-0ddc-4055-93d9-b4b90152b374/audio.mp3?utm_source=Podcast&in_playlist=f4f8b409-1391-4a73-bc01-b48001023ad8",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/bf67c991-8203-43ba-badd-b4800102363a/33453e2a-0ddc-4055-93d9-b4b90152b374/audio.mp3?utm_source=Podcast&in_playlist=f4f8b409-1391-4a73-bc01-b48001023ad8"
+      },
+      "caveats": "USWNT legend plus FOX Sports host. Never in the AP weekly top 10 after launch.",
+      "rank_forecast": 5,
+      "rank_actual": 7,
+      "pairs_right": "4 of 5",
+      "hit": true
+    },
+    {
+      "id": "no-safe-words-gonzalez",
+      "kind": "podcast_launch",
+      "title": "No Safe Words with October and Tony Gonzalez",
+      "creator": "October & Tony Gonzalez",
+      "section": "Podcast",
+      "date": "2026-09-01",
+      "url": "https://podcasts.apple.com/us/podcast/id6805093618",
+      "forecast": {
+        "score": 4.4,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": null,
+        "charted": false,
+        "label": "not in the AP weekly Apple Podcasts Top New Shows (US) top 10 in any of 13 readable weekly snapshots after launch (through 2026-11-17)",
+        "as_of": "2026-11-17",
+        "source_url": "https://wtop.com/national/2026/11/apple-podcasts-top-new-shows-30/"
+      },
+      "labels": {
+        "date": "Launched",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Apple Top New Shows peak",
+        "never": "not in the Apple Top New Shows top 10",
+        "question": "How likely are you to listen to an episode of this show?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/no-safe-words-gonzalez.jpg",
+        "alt": "No Safe Words with October and Tony Gonzalez",
+        "width": 1,
+        "height": 1,
+        "audio_url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/dc96a045-27cd-4274-9e62-b4aa01252066/3f7ff44c-8c52-4993-9142-b4aa01254c11/audio.mp3?utm_source=Podcast&in_playlist=5b19866e-4dcd-4f1b-9415-b4aa01252496",
+        "audio_label": "Official trailer, as played to the Minds"
+      },
+      "media": {
+        "kind": "podcast_trailer",
+        "url": "https://traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/dc96a045-27cd-4274-9e62-b4aa01252066/3f7ff44c-8c52-4993-9142-b4aa01254c11/audio.mp3?utm_source=Podcast&in_playlist=5b19866e-4dcd-4f1b-9415-b4aa01252496"
+      },
+      "caveats": "NFL Hall of Famer Tony Gonzalez; My Cultura / SMAC Productions. Never in the AP weekly top 10 after launch.",
+      "rank_forecast": 5,
+      "rank_actual": 7,
+      "pairs_right": "4 of 5",
+      "hit": true
+    },
+    {
+      "id": "boston-stella-lefty",
+      "kind": "song",
+      "title": "Boston",
+      "creator": "STELLA LEFTY",
+      "section": "Song",
+      "date": "2026-03-27",
+      "url": "https://music.apple.com/us/album/boston/1884403092?i=1884403093&uo=4",
+      "forecast": {
+        "score": 4.6,
+        "answered": 30,
+        "top_box_pct": 17,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 2,
+        "charted": true,
+        "label": "peak #2 on Billboard Hot 100 (first reached 2026-08-29); 32 weeks on chart, still #2 on 2026-11-21",
+        "as_of": "2026-11-21",
+        "source_url": "https://www.billboard.com/charts/hot-100/2026-11-21/"
+      },
+      "labels": {
+        "date": "Released",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Billboard Hot 100 peak",
+        "never": "did not chart on the Billboard Hot 100",
+        "question": "How likely are you to listen to this song?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/boston-stella-lefty.jpg",
+        "alt": "Boston",
+        "width": 1,
+        "height": 1,
+        "embed_url": "https://www.youtube-nocookie.com/embed/Xh0GyxWgKPs?start=30&end=90",
+        "play_label": "Play the official music video, 0:30 to 1:30"
+      },
+      "media": {
+        "kind": "music_video",
+        "url": "https://www.youtube.com/watch?v=Xh0GyxWgKPs",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/44/0f/c5/440fc55c-cd76-7620-e6f8-b261df255ac0/mzaf_16427196732428704455.plus.aac.p.m4a"
+      },
+      "caveats": "Released 2026-03-27, four months before the window; already a viral TikTok hit on the Hot 100 (debut #95 on 2026-04-18) before the On The Verge pick. Secondary: Country Airplay #1, Pop Airplay #10 (Wikipedia). Weeks count includes pre-window weeks.",
+      "rank_forecast": 1,
+      "rank_actual": 1,
+      "pairs_right": "5 of 5",
+      "hit": true
+    },
+    {
+      "id": "housewife-tate-mcrae",
+      "kind": "song",
+      "title": "Housewife",
+      "creator": "Tate McRae",
+      "section": "Song",
+      "date": "2026-10-15",
+      "url": "https://music.apple.com/us/album/housewife/6822497770?i=6822497774&uo=4",
+      "forecast": {
+        "score": 4.33,
+        "answered": 30,
+        "top_box_pct": 17,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 2,
+        "charted": true,
+        "label": "peak #2 on Billboard Hot 100 (debut 2026-10-31); 4 weeks on chart",
+        "as_of": "2026-11-21",
+        "source_url": "https://www.billboard.com/artist/tate-mcrae/chart-history/hsi/"
+      },
+      "labels": {
+        "date": "Released",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Billboard Hot 100 peak",
+        "never": "did not chart on the Billboard Hot 100",
+        "question": "How likely are you to listen to this song?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/housewife-tate-mcrae.jpg",
+        "alt": "Housewife",
+        "width": 1,
+        "height": 1,
+        "embed_url": "https://www.youtube-nocookie.com/embed/DPEodkHzH-s?start=30&end=90",
+        "play_label": "Play the official music video, 0:30 to 1:30"
+      },
+      "media": {
+        "kind": "music_video",
+        "url": "https://www.youtube.com/watch?v=DPEodkHzH-s",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/05/27/d4/0527d4f3-f6af-1ef8-6a32-25477b7b00ba/mzaf_18270786579537755861.plus.aac.p.m4a"
+      },
+      "caveats": "Established superstar; high debut expected.",
+      "rank_forecast": 4,
+      "rank_actual": 1,
+      "pairs_right": "3 of 5",
+      "hit": true
+    },
+    {
+      "id": "pop-it-gunna",
+      "kind": "song",
+      "title": "pop it",
+      "creator": "Gunna",
+      "section": "Song",
+      "date": "2026-10-08",
+      "url": "https://music.apple.com/us/album/pop-it/6819441629?i=6819441636&uo=4",
+      "forecast": {
+        "score": 3.93,
+        "answered": 30,
+        "top_box_pct": 17,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 55,
+        "charted": true,
+        "label": "peak #55 on Billboard Hot 100 (debut 2026-10-24); 4 weeks, off chart by 2026-11-21",
+        "as_of": "2026-11-21",
+        "source_url": "https://www.billboard.com/artist/gunna/chart-history/hsi/"
+      },
+      "labels": {
+        "date": "Released",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Billboard Hot 100 peak",
+        "never": "did not chart on the Billboard Hot 100",
+        "question": "How likely are you to listen to this song?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/pop-it-gunna.jpg",
+        "alt": "pop it",
+        "width": 1,
+        "height": 1,
+        "embed_url": "https://www.youtube-nocookie.com/embed/48rRv5ISfrg?start=30&end=90",
+        "play_label": "Play the official music video, 0:30 to 1:30"
+      },
+      "media": {
+        "kind": "music_video",
+        "url": "https://www.youtube.com/watch?v=48rRv5ISfrg",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8d/b4/22/8db422a9-8f7a-6863-6a47-1249696f012b/mzaf_9062412188855492119.plus.aac.p.m4a"
+      },
+      "caveats": "Established artist. Apple track metadata shows a 2020 date that looks erroneous; single listing says 2026-10-08.",
+      "rank_forecast": 7,
+      "rank_actual": 3,
+      "pairs_right": "2 of 6",
+      "hit": false
+    },
+    {
+      "id": "burn-bigxthaplug-ava-max",
+      "kind": "song",
+      "title": "BURN",
+      "creator": "BigXthaPlug featuring Ava Max",
+      "section": "Song",
+      "date": "2026-10-09",
+      "url": "https://music.apple.com/us/album/burn/6818244562?i=6818244563&uo=4",
+      "forecast": {
+        "score": 4.23,
+        "answered": 30,
+        "top_box_pct": 17,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": 70,
+        "charted": true,
+        "label": "peak #70 on Billboard Hot 100 (2026-11-14); 1 week on chart",
+        "as_of": "2026-11-21",
+        "source_url": "https://www.billboard.com/charts/hot-100/2026-11-14/"
+      },
+      "labels": {
+        "date": "Released",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Billboard Hot 100 peak",
+        "never": "did not chart on the Billboard Hot 100",
+        "question": "How likely are you to listen to this song?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/burn-bigxthaplug-ava-max.jpg",
+        "alt": "BURN",
+        "width": 1,
+        "height": 1,
+        "embed_url": "https://www.youtube-nocookie.com/embed/vLLdKVYJUzs?start=30&end=90",
+        "play_label": "Play the official music video, 0:30 to 1:30"
+      },
+      "media": {
+        "kind": "music_video",
+        "url": "https://www.youtube.com/watch?v=vLLdKVYJUzs",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/8b/e2/b2/8be2b227-7056-90e1-fd76-680c7e63893d/mzaf_9558616550288809739.plus.aac.p.m4a"
+      },
+      "caveats": "Featured artist; feature slot rather than a station add. Secondary: Bubbling Under #3 (3 weeks, 10/24 to 11/07).",
+      "rank_forecast": 6,
+      "rank_actual": 4,
+      "pairs_right": "2 of 6",
+      "hit": false
+    },
+    {
+      "id": "dont-break-her-heart-flo",
+      "kind": "song",
+      "title": "Don't Break Her Heart",
+      "creator": "FLO",
+      "section": "Song",
+      "date": "2026-06-05",
+      "url": "https://music.apple.com/us/album/dont-break-her-heart/6790801559?i=6790801802&uo=4",
+      "forecast": {
+        "score": 4.3,
+        "answered": 30,
+        "top_box_pct": 17,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": null,
+        "charted": false,
+        "label": "did not chart on the Billboard Hot 100 (absent from every weekly Hot 100 and Bubbling Under chart 2026-06-20 to 2026-11-21)",
+        "as_of": "2026-11-21",
+        "source_url": "https://www.billboard.com/charts/hot-100/2026-11-21/"
+      },
+      "labels": {
+        "date": "Released",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Billboard Hot 100 peak",
+        "never": "did not chart on the Billboard Hot 100",
+        "question": "How likely are you to listen to this song?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/dont-break-her-heart-flo.jpg",
+        "alt": "Don't Break Her Heart",
+        "width": 1,
+        "height": 1,
+        "embed_url": "https://www.youtube-nocookie.com/embed/BsMJaanzzg0?start=30&end=90",
+        "play_label": "Play the official music video, 0:30 to 1:30"
+      },
+      "media": {
+        "kind": "music_video",
+        "url": "https://www.youtube.com/watch?v=BsMJaanzzg0",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/9a/83/99/9a8399b5-e6f5-e328-8d48-51d7a77582d6/mzaf_13452288290049428380.plus.aac.p.m4a"
+      },
+      "caveats": "Release date from Wikipedia (released before window). Image is album art (THERAPY AT THE CLUB), not single art. UK girl group, new to US radio. Secondary: US Rhythmic Airplay #19 (https://en.wikipedia.org/wiki/Flo_discography).",
+      "rank_forecast": 5,
+      "rank_actual": 5,
+      "pairs_right": "2 of 4",
+      "hit": true
+    },
+    {
+      "id": "born-and-raised-hell-brothers-osborne",
+      "kind": "song",
+      "title": "Born and Raised Hell",
+      "creator": "Brothers Osborne featuring Cody Johnson",
+      "section": "Song",
+      "date": "2026-10-23",
+      "url": "https://music.apple.com/us/album/born-and-raised-hell-feat-cody-johnson-edit/6801354087?i=6801354951&uo=4",
+      "forecast": {
+        "score": 4.34,
+        "answered": 29,
+        "top_box_pct": 17,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": null,
+        "charted": false,
+        "label": "did not chart on the Billboard Hot 100 through 2026-11-21 (absent from Hot 100 and Bubbling Under 11/07 to 11/21)",
+        "as_of": "2026-11-21",
+        "source_url": "https://www.billboard.com/charts/hot-100/2026-11-21/"
+      },
+      "labels": {
+        "date": "Released",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Billboard Hot 100 peak",
+        "never": "did not chart on the Billboard Hot 100",
+        "question": "How likely are you to listen to this song?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/born-and-raised-hell-brothers-osborne.jpg",
+        "alt": "Born and Raised Hell",
+        "width": 1,
+        "height": 1,
+        "embed_url": "https://www.youtube-nocookie.com/embed/4iJTVYqKRUY?start=30&end=90",
+        "play_label": "Play the official music video, 0:30 to 1:30"
+      },
+      "media": {
+        "kind": "music_video",
+        "url": "https://www.youtube.com/watch?v=4iJTVYqKRUY",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview221/v4/b6/b6/9c/b6b69ce2-ce83-bb24-491e-56618c5eeaa0/mzaf_5673685497615966723.plus.aac.p.m4a"
+      },
+      "caveats": "Established duo with feature; only 3 eligible chart weeks; country radio singles often enter the Hot 100 late, so not settled.",
+      "rank_forecast": 3,
+      "rank_actual": 5,
+      "pairs_right": "1 of 4",
+      "hit": false
+    },
+    {
+      "id": "ghosts-staind",
+      "kind": "song",
+      "title": "Ghosts",
+      "creator": "Staind",
+      "section": "Song",
+      "date": "2026-10-14",
+      "url": "https://music.apple.com/us/album/ghosts/6818629263?i=6818629264&uo=4",
+      "forecast": {
+        "score": 4.5,
+        "answered": 30,
+        "top_box_pct": 20,
+        "scale": "0-10 listen likelihood"
+      },
+      "outcome": {
+        "peak": null,
+        "charted": false,
+        "label": "did not chart on the Billboard Hot 100 (absent from Hot 100 and Bubbling Under 10/24 to 11/21)",
+        "as_of": "2026-11-21",
+        "source_url": "https://www.billboard.com/artist/staind/chart-history/hsi/"
+      },
+      "labels": {
+        "date": "Released",
+        "score": "Listen likelihood · 0 to 10",
+        "rank": "Billboard Hot 100 peak",
+        "never": "did not chart on the Billboard Hot 100",
+        "question": "How likely are you to listen to this song?"
+      },
+      "stimulus": {
+        "image": "/accounts/iheartmedia/ghosts-staind.jpg",
+        "alt": "Ghosts",
+        "width": 1,
+        "height": 1,
+        "embed_url": "https://www.youtube-nocookie.com/embed/CiMMFk5PhaU?start=30&end=90",
+        "play_label": "Play the official music video, 0:30 to 1:30"
+      },
+      "media": {
+        "kind": "music_video",
+        "url": "https://www.youtube.com/watch?v=CiMMFk5PhaU",
+        "preview": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview211/v4/24/46/f8/2446f821-842b-a19f-9f15-6ee19bfcda8f/mzaf_2976992570670161849.plus.aac.p.m4a"
+      },
+      "caveats": "Legacy rock act; rock singles rarely reach the Hot 100, so the genre, not appeal to listeners, mostly decides this.",
+      "rank_forecast": 2,
+      "rank_actual": 5,
+      "pairs_right": "1 of 4",
+      "hit": false
+    }
+  ],
+  "audience": {
+    "name": "iHeartMedia Listeners (US)",
+    "audience_id": "fe2d4503-64fd-46e3-ab47-29859bc23c6f",
+    "minds": 30,
+    "question": "Each podcast: cover art and official trailer. Each song: cover art and a one-minute clip of the official music video. How likely are you to listen? 0 to 10.",
+    "description": "30 Minds modelled on US adults who listen to iHeartMedia at least monthly: iHeart AM/FM radio, the iHeartRadio app or iHeart podcasts.",
+    "explainer": "We built 30 Minds: simulated iHeart listeners. Each Mind is a complete person, with an age, a job, a commute, favourite radio formats, podcast and streaming habits and a voice of their own, grounded in public sources. Together they match published statistics on who listens to iHeart, so you can play them a trailer or a new single the way you would a listener panel.",
+    "orbit": {
+      "label": "30 Minds",
+      "count": 30,
+      "portraits": [
+        "/accounts/iheartmedia/minds/0a83432f-39e4-46f7-9c0d-8f04531d3c90.webp",
+        "/accounts/iheartmedia/minds/115e2cb9-3f5b-456a-9617-05a900850453.webp",
+        "/accounts/iheartmedia/minds/22a9cd07-4c52-4467-96b9-2b71802d1a26.webp",
+        "/accounts/iheartmedia/minds/354db91c-b7c0-48b4-91cd-5c494354fd4b.webp",
+        "/accounts/iheartmedia/minds/36950aba-9af3-465a-99f1-dfc231a1536e.webp",
+        "/accounts/iheartmedia/minds/43a22173-9373-4f73-ad84-ee08a3b31089.webp",
+        "/accounts/iheartmedia/minds/58892167-05ff-47d9-b4a0-57dc56b2e2d0.webp",
+        "/accounts/iheartmedia/minds/5b19c91e-3c1b-4073-ba91-4280dd421588.webp",
+        "/accounts/iheartmedia/minds/5f1d179f-7e85-4153-b13b-87676b5fa261.webp",
+        "/accounts/iheartmedia/minds/61b409b6-38a4-4a57-9d1c-9c09eb072066.webp",
+        "/accounts/iheartmedia/minds/64e335a7-9ac7-42da-b3a8-241afcd57467.webp",
+        "/accounts/iheartmedia/minds/6a46a904-cb25-490b-a67f-f61c6befc167.webp",
+        "/accounts/iheartmedia/minds/6ac122a6-a13d-4c86-bd24-befdc3acf19a.webp",
+        "/accounts/iheartmedia/minds/7371f761-0c37-4045-9a23-124be70454a1.webp",
+        "/accounts/iheartmedia/minds/8f6cbd43-9316-4647-af3d-209c22b93dda.webp",
+        "/accounts/iheartmedia/minds/9d47fb66-7e39-4ed9-bdea-6eccb160bcf9.webp",
+        "/accounts/iheartmedia/minds/a6bb48df-3ee5-42df-861f-4cd59fd509b3.webp",
+        "/accounts/iheartmedia/minds/ac99981c-0843-4a01-8187-2d647e621084.webp",
+        "/accounts/iheartmedia/minds/aca0ebf1-c712-4e34-8fe7-f20fc5367624.webp",
+        "/accounts/iheartmedia/minds/af19a0cd-b595-4834-bee1-dfa1ebc3cf71.webp",
+        "/accounts/iheartmedia/minds/af7adb66-4d6f-4b1f-b682-816ff60985bd.webp",
+        "/accounts/iheartmedia/minds/b8827cce-f810-4d45-af7f-3c311ec23c48.webp",
+        "/accounts/iheartmedia/minds/b9ce3934-19df-4ca0-9a81-e1d7ccf85abc.webp",
+        "/accounts/iheartmedia/minds/c703b641-2bf1-457d-bea9-de9154670c02.webp",
+        "/accounts/iheartmedia/minds/d48a12b5-7fe6-4381-bb3c-94c96ffd1fca.webp",
+        "/accounts/iheartmedia/minds/df4c2855-e6c9-41c6-9e46-fdf1d2342365.webp",
+        "/accounts/iheartmedia/minds/e05a0b97-40f7-41e4-a7e4-7281bd066c46.webp",
+        "/accounts/iheartmedia/minds/e1476963-9b67-4268-926f-676b41585cd5.webp",
+        "/accounts/iheartmedia/minds/e3f7b2a4-098d-4361-86a3-5ccf7b9d2497.webp",
+        "/accounts/iheartmedia/minds/ec1fb5f0-7e2f-4b9f-a3f2-dc56c5d5758e.webp"
+      ],
+      "portrait_source": "Production portraits of the 30 Minds in this Audience (Minds generated images, adult portraits only). Simulated people, not individual iHeart listeners."
+    },
+    "distributions": [
+      {
+        "id": "ad-supported-time",
+        "name": "Daily ad-supported audio time, Americans 13+",
+        "note": "Edison Research Share of Ear: AM/FM radio accounts for 78 of the 127 daily minutes Americans 13+ spend with ad-supported audio. The remainder covers podcasts, streaming and other ad-supported audio.",
+        "segments": [
+          {
+            "label": "AM/FM radio",
+            "share": 0.61
+          },
+          {
+            "label": "Other audio",
+            "share": 0.39
+          }
+        ],
+        "source": {
+          "label": "iHeartMedia, Edison Research Share of Ear, 19 November 2026",
+          "url": "https://www.iheartmedia.com/advertise/insights/articles/edison-share-of-ear-data-ad-supported-audio-time"
+        }
+      },
+      {
+        "id": "radio-location",
+        "name": "Where adults listen to radio",
+        "note": "Share of adult radio listening. Nielsen: about 65% takes place away from home, mostly in the car, rising to 73% during weekday drive times.",
+        "segments": [
+          {
+            "label": "Away from home",
+            "share": 0.65
+          },
+          {
+            "label": "At home",
+            "share": 0.35
+          }
+        ],
+        "source": {
+          "label": "Nielsen, The Record: Q3 2026, 5 November 2026",
+          "url": "https://www.nielsen.com/insights/2026/the-record-q3-2026-us-audio-listening-trends/"
+        }
+      },
+      {
+        "id": "in-car",
+        "name": "Ad-supported audio in the car, adults",
+        "note": "Edison Research Share of Ear: AM/FM accounts for 81% of adults' ad-supported in-vehicle audio listening. The remainder is all other ad-supported audio.",
+        "segments": [
+          {
+            "label": "AM/FM radio",
+            "share": 0.81
+          },
+          {
+            "label": "Other audio",
+            "share": 0.19
+          }
+        ],
+        "source": {
+          "label": "iHeartMedia, Edison Research Share of Ear, 19 November 2026",
+          "url": "https://www.iheartmedia.com/advertise/insights/articles/edison-share-of-ear-data-ad-supported-audio-time"
+        }
+      },
+      {
+        "id": "podcast-monthly",
+        "name": "Monthly podcast listening, Americans 12+",
+        "note": "Listened to or watched a podcast in the last month, January 2026 survey: an all-time high.",
+        "segments": [
+          {
+            "label": "Monthly podcast consumers",
+            "share": 0.58
+          },
+          {
+            "label": "Not in the last month",
+            "share": 0.42
+          }
+        ],
+        "source": {
+          "label": "Edison Research, The Infinite Dial 2026",
+          "url": "https://www.edisonresearch.com/wp-content/uploads/2026/03/The-Infinite-Dial-2026-Presentation.pdf"
+        }
+      }
+    ],
+    "example_mind": {
+      "label": "Example Mind",
+      "name": "Raul Espinoza",
+      "discipline": "Sales Representative",
+      "image": "/accounts/iheartmedia/example-raul-espinoza.webp",
+      "description": "Raul Espinoza is a 61-year-old full-time sales representative who offers keen insight into daily commuter listening habits. Living alone, he relies on his in-car receiver away from home, tuning into broadcast country radio for steady morning companionship. He balances over-the-air country broadcasts with curated free playlists to navigate his workday on the road.",
+      "note": "Every Mind is a full profile grounded in public sources. Meet one of the 30. Simulated, not a real person.",
+      "sources_note": "Every attribute traces back to public evidence. These are the sources behind this Mind.",
+      "profileDetails": {
+        "defaults": [
+          {
+            "dimension": "age",
+            "values": [
+              {
+                "label": "Age",
+                "value": "55-64",
+                "dimension": "age",
+                "canonical": "55-64",
+                "state": "assigned",
+                "basis": "user_target",
+                "reason": "Explicit target quota band.",
+                "figure": {
+                  "value": 61,
+                  "approximate": false
+                },
+                "category": "demographic",
+                "translations": {
+                  "en": {
+                    "value": "55–64"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "dimension": "gender",
+            "values": [
+              {
+                "label": "Gender",
+                "value": "Male",
+                "dimension": "gender_identity",
+                "canonical": "man",
+                "state": "assigned",
+                "basis": "public_evidence",
+                "category": "demographic"
+              }
+            ]
+          },
+          {
+            "dimension": "geography",
+            "values": [
+              {
+                "label": "Country",
+                "value": "US adults",
+                "dimension": "geography",
+                "state": "assigned",
+                "basis": "user_target",
+                "reason": "Target population specifies US adults.",
+                "category": "geographic"
+              }
+            ]
+          },
+          {
+            "dimension": "employment_status",
+            "values": [
+              {
+                "label": "Employment status",
+                "value": "Working full time now",
+                "dimension": "employment_status",
+                "state": "assigned",
+                "basis": "public_evidence",
+                "category": "demographic",
+                "translations": {
+                  "en": {
+                    "value": "Working full-time"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "dimension": "occupation",
+            "values": [
+              {
+                "label": "Occupation Category",
+                "value": "Sales and office occupations",
+                "dimension": "occupation",
+                "state": "assigned",
+                "basis": "modeled",
+                "reason": "No source covered this dimension for this audience, so these shares are model assumptions, not research findings. Use rework to change them. iHeartMedia's broad mass-market audio reach reflects typical occupational patterns of the US adult civilian workforce and non-working population.",
+                "category": "demographic",
+                "translations": {
+                  "en": {
+                    "label": "Occupational category"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "attributes": [
+          {
+            "category": "behavioral",
+            "label": "iHeartMedia audio listening",
+            "value": "listeners of iHeart-owned AM/FM radio stations",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "modeled",
+            "reason": "US adults who consume iHeartMedia audio monthly across broadcast, streaming, and podcast platforms. Traditional broadcast radio remains the broadest reach channel for iHeart's audience, followed by digital app streaming and podcast network listenership with multi-platform overlap.",
+            "options": [
+              "listeners of iHeart-owned AM/FM radio stations"
+            ],
+            "translations": {
+              "en": {
+                "value": "Listeners of iHeart-owned AM/FM radio stations"
+              }
+            }
+          },
+          {
+            "label": "Education",
+            "value": "Some college",
+            "dimension": "education",
+            "state": "assigned",
+            "basis": "public_evidence",
+            "category": "demographic",
+            "translations": {
+              "en": {
+                "label": "Educational attainment"
+              }
+            }
+          },
+          {
+            "label": "Family income",
+            "value": "$30,000-$59,999",
+            "dimension": "household_income",
+            "state": "assigned",
+            "basis": "public_evidence",
+            "figure": {
+              "value": 50000,
+              "unit": "$",
+              "unitPosition": "before",
+              "approximate": true
+            },
+            "category": "demographic",
+            "translations": {
+              "en": {
+                "label": "Annual family income in the past year"
+              }
+            }
+          },
+          {
+            "label": "Race and Ethnicity",
+            "value": "Hispanic or Latino",
+            "dimension": "representation",
+            "state": "assigned",
+            "basis": "modeled",
+            "reason": "No source covered this dimension for this audience, so these shares are model assumptions, not research findings. Use rework to change them. Nielsen Audio reach shows radio consumption aligns closely with US adult demographics across major racial and ethnic groups.",
+            "category": "demographic",
+            "translations": {
+              "en": {
+                "label": "Race and ethnicity"
+              }
+            }
+          },
+          {
+            "label": "Number of People in Household",
+            "value": "1 person",
+            "dimension": "household_size",
+            "state": "assigned",
+            "basis": "modeled",
+            "reason": "No source covered this dimension for this audience, so these shares are model assumptions, not research findings. Use rework to change them. Household size distribution corresponds directly to US adult population census averages across single, couple, and family living arrangements.",
+            "category": "demographic",
+            "translations": {
+              "en": {
+                "label": "Household size"
+              }
+            }
+          },
+          {
+            "label": "Favourite radio format",
+            "value": "Country",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "unknown",
+            "reason": "The source lists categories covering only 55.8% of this population, too little to divide the Audience by. Shown for reference; not used for allocation.",
+            "category": "behavioral"
+          },
+          {
+            "label": "Adult radio listening location",
+            "value": "Away from home",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "unknown",
+            "category": "behavioral"
+          },
+          {
+            "label": "Owns an in-car AM/FM radio",
+            "value": "Yes",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence",
+            "category": "behavioral",
+            "translations": {
+              "en": {
+                "label": "In-car FM/AM radio ownership",
+                "value": "Owns an in-car radio receiver"
+              }
+            }
+          },
+          {
+            "label": "Pays for streaming audio",
+            "value": "Do not pay a subscription fee",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "unknown",
+            "reason": "The source states this share in approximate words (\"4 in 10\"); the value follows that wording and is used as a proxy.",
+            "category": "behavioral",
+            "translations": {
+              "en": {
+                "value": "Does not pay a subscription fee"
+              }
+            }
+          },
+          {
+            "label": "How he listens to music",
+            "value": "Playlists",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence",
+            "category": "behavioral",
+            "translations": {
+              "en": {
+                "label": "Music listening format distribution"
+              }
+            }
+          },
+          {
+            "label": "Have you listened to a podcast in the last year?",
+            "value": "No",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence",
+            "reason": "Calculated as 100% minus the stated 47%; the source does not state this share.",
+            "category": "behavioral",
+            "translations": {
+              "en": {
+                "label": "Podcast listening in the past year",
+                "value": "Did not listen to a podcast in the past year"
+              }
+            }
+          },
+          {
+            "label": "Discovers music through streaming recommendations",
+            "value": "Yes",
+            "dimension": null,
+            "state": "assigned",
+            "basis": "public_evidence",
+            "reason": "Measured among Americans listening to more music (adults (18+)), a related group; used as a broader proxy.",
+            "category": "behavioral",
+            "translations": {
+              "en": {
+                "label": "Music discovery via streaming service recommendations",
+                "value": "Discovers music via streaming service recommendations"
+              }
+            }
+          }
+        ]
+      },
+      "sources": [
+        {
+          "title": "Entertainment",
+          "url": "https://theharrispoll.com/wp-content/uploads/2024/01/Tear-Sheet-Entertainment-2024-FINAL.pdf",
+          "domain": "theharrispoll.com"
+        },
+        {
+          "title": "Retail Sales Workers : Occupational Outlook Handbook: : U.S. Bureau of Labor Statistics",
+          "url": "https://www.bls.gov/ooh/sales/retail-sales-workers.htm",
+          "domain": "bls.gov"
+        },
+        {
+          "title": "New Edison Research Reveals Americans Spend More Than 2X as Much Time With Ad-Supported Audio",
+          "url": "https://www.iheartmedia.com/advertise/insights/articles/edison-share-of-ear-data-ad-supported-audio-time",
+          "domain": "iheartmedia.com"
+        },
+        {
+          "title": "State of Media 2024 – Country Radio - Harker Bos Group",
+          "url": "https://harkerbos.com/radio/som24-country-radio/",
+          "domain": "harkerbos.com"
+        },
+        {
+          "title": "The Record: Q4 2025 Audio Data Radio listening by format and audience Source: Nielsen PPM Cross-Market AQH Share. Mon-Sun 6a-Mid The Record provides a quarter",
+          "url": "https://www.nielsen.com/wp-content/uploads/sites/2/2026/02/The-Record-_-Data-Tables-_-Q4-2025.pdf",
+          "domain": "nielsen.com"
+        },
+        {
+          "title": "'It's about companionship': iHeartMedia CEO on radio's resilience in a changing media landscape - >>> WE HAVE TALKED A LOT ABOUT >>> WE HAVE TALKED A LOT ABOUT",
+          "url": "https://www.youtube.com/watch?v=DmywNeBXDEc",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "Where do you get your news, and how old are you? - Bogleheads.org",
+          "url": "https://www.bogleheads.org/forum/viewtopic.php?t=74145",
+          "domain": "bogleheads.org"
+        },
+        {
+          "title": "Nielsen Audio Ratings",
+          "url": "https://ratings.radio-online.com/content/arb516",
+          "domain": "ratings.radio-online.com"
+        },
+        {
+          "title": "Who's Listening? 06/18/2002",
+          "url": "https://www.mediapost.com/publications/article/7566/whos-listening.html",
+          "domain": "mediapost.com"
+        },
+        {
+          "title": "New Edison Share of Ear Data Reveals How Consumers Actually Spend Time With Audio",
+          "url": "https://www.iheartmedia.com/advertise/insights/articles/edison-share-of-ear-data-consumer-audio-use",
+          "domain": "iheartmedia.com"
+        },
+        {
+          "title": "Report Shows Podcasting Now Reaches More Than Half of the U.S. Population as Audio Remains Core and Video Strategy Becomes Genre-Dependent",
+          "url": "https://www.tritondigital.com/resources/audio-insights-and-news/report-shows-podcasting-now-reaches-more-than-half-of-the-u-s-population-as-audio-remains-core-and-video-strategy-becomes-genre-dependent",
+          "domain": "tritondigital.com"
+        },
+        {
+          "title": "Study: While Algorithms Falter, Radio Holding Its Audience - Radio Ink",
+          "url": "https://radioink.com/2026/06/23/study-while-algorithms-falter-radio-holding-its-audience/",
+          "domain": "radioink.com"
+        },
+        {
+          "title": "Local Radio is the Most Trusted News Source, Besting TV and Social Media, Says Audacy Study | Audacy Inc.",
+          "url": "https://audacyinc.com/press/local-radio-is-the-most-trusted-news-source-besting-tv-and-social-media-says-audacy-study/",
+          "domain": "audacyinc.com"
+        },
+        {
+          "title": "U.S. PODCAST REPORT",
+          "url": "https://www.tritondigital.com/hubfs/Podcast%20Reports%202026/U.S.%20Podcast%20Report_2025.pdf",
+          "domain": "tritondigital.com"
+        },
+        {
+          "title": "Major New Podcast Study Reveals Listener Habits, Trust in Hosts - UF College of Journalism and Communications",
+          "url": "https://www.jou.ufl.edu/2019/04/10/major-new-podcast-study-reveals-listener-habits-trust-in-hosts/",
+          "domain": "jou.ufl.edu"
+        },
+        {
+          "title": "Publicidad en radio y TV dominicana — datos auditados 2024 - Frecuencias Dominicanas",
+          "url": "https://frecuenciasdominicanas.com/audiencia/",
+          "domain": "frecuenciasdominicanas.com"
+        },
+        {
+          "title": "2025 US Media Consumption Report – Attest",
+          "url": "https://www.askattest.com/wp-content/uploads/2025/06/US-Media-consumption-report-2025_digital.pdf",
+          "domain": "askattest.com"
+        },
+        {
+          "title": "A dose of public health and community pride: American local radio at the outset of the COVID-19 pandemic | Intellect",
+          "url": "https://intellectdiscover.com/content/journals/10.1386/rjao_00060_1",
+          "domain": "intellectdiscover.com"
+        },
+        {
+          "title": "Unprecedented National Research on \"State of Listening in America\" Shows Radio Remains Hugely Popular Across Multiple Platforms",
+          "url": "https://www.iheartmedia.com/press/unprecedented-national-research-state-listening-america-shows-radio-remains-hugely-popular",
+          "domain": "iheartmedia.com"
+        },
+        {
+          "title": "The Record: Q4 U.S. audio listening trends",
+          "url": "https://www.nielsen.com/insights/2025/the-record-q4-audio-listening-trends/",
+          "domain": "nielsen.com"
+        },
+        {
+          "title": "The IMPACT of Audio - iHeartMedia at IMPACT 23",
+          "url": "https://www.youtube.com/watch?v=x2af-Zf4YF0",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "Your morning radio routine",
+          "url": "https://boards.straightdope.com/t/your-morning-radio-routine/945330",
+          "domain": "boards.straightdope.com"
+        },
+        {
+          "title": "Listening to the radio in your vehicle..... | BobIsTheOilGuy",
+          "url": "https://bobistheoilguy.com/forums/threads/listening-to-the-radio-in-your-vehicle.364461/",
+          "domain": "bobistheoilguy.com"
+        },
+        {
+          "title": "The Human Connection: Country Radio's Superpower - We are recording in progress according to Zoom, so welcome everyone. This is CRS 360, our first episode for J",
+          "url": "https://www.youtube.com/watch?v=cHdqsp8YRKc",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "Audiogon Discussion Forum",
+          "url": "https://forum.audiogon.com/discussions/does-anyone-listen-to-the-radio-anymore",
+          "domain": "forum.audiogon.com"
+        },
+        {
+          "title": "The Gen Z Audio Report - Edison Research at SSRS",
+          "url": "https://www.edisonresearch.com/the-gen-z-audio-report/",
+          "domain": "edisonresearch.com"
+        },
+        {
+          "title": "If you're male, mid 50's and still listening to radio, what the heck is there? | RadioDiscussions",
+          "url": "https://radiodiscussions.com/threads/if-youre-male-mid-50s-and-still-listening-to-radio-what-the-heck-is-there.632069/",
+          "domain": "radiodiscussions.com"
+        },
+        {
+          "title": "AnalyticsIQ Research Report - Podcast Listening Behaviors",
+          "url": "https://analytics-iq.com/wp-content/uploads/AnalyticsIQ-Research-Report-Podcast-Listening-Behaviors.pdf",
+          "domain": "analytics-iq.com"
+        },
+        {
+          "title": "41-3091.00 - Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel",
+          "url": "https://www.onetonline.org/link/summary/41-3091.00",
+          "domain": "onetonline.org"
+        },
+        {
+          "title": "Why Gen Z Is Turning to Radio for Trust, Belonging, and Community",
+          "url": "https://www.iheartmedia.com/advertise/insights/articles/new-iheartmedia-gen-z-research-generation-seeks-radio-belonging-community",
+          "domain": "iheartmedia.com"
+        },
+        {
+          "title": "Gratification Changes Among Country Music Radio Listeners",
+          "url": "https://thekeep.eiu.edu/theses/1984",
+          "domain": "thekeep.eiu.edu"
+        },
+        {
+          "title": "2020 AARP Music and Brain Health Survey",
+          "url": "https://www.aarp.org/pri/topics/health/brain-health/brain-health-and-music/",
+          "domain": "aarp.org"
+        },
+        {
+          "title": "Key facts about the US radio industry and its listeners for National Radio Day | Pew Research Center",
+          "url": "https://www.pewresearch.org/short-reads/2023/08/17/for-national-radio-day-key-facts-about-radio-listeners-and-the-radio-industry-in-the-us/",
+          "domain": "pewresearch.org"
+        },
+        {
+          "title": "The Podcast Consumer 2026",
+          "url": "https://ssrs.com/wp-content/uploads/Podcast-Consumer-2026.pdf",
+          "domain": "ssrs.com"
+        },
+        {
+          "title": "Audio Streaming - Are You Listening? — Lab42 Research Insights",
+          "url": "https://www.lab42.com/blog/audio-streaming-are-you-listening",
+          "domain": "lab42.com"
+        },
+        {
+          "title": "U.S. PODCAST REPORT",
+          "url": "https://www.tritondigital.com/hubfs/2024%20U.S.%20Podcast%20Report.pdf",
+          "domain": "tritondigital.com"
+        },
+        {
+          "title": "Inside Techsurvey 2026: What Radio’s Biggest Fans Are Telling Us. | Story | insideradio.com",
+          "url": "https://www.insideradio.com/free/inside-techsurvey-2026-what-radio-s-biggest-fans-are-telling-us/article_94ee308a-f928-4753-92bd-d001350c64bb.html",
+          "domain": "insideradio.com"
+        },
+        {
+          "title": "Music Consumption_",
+          "url": "https://musicbiz.org/wp-content/uploads/2017/09/MusicConsumptionTheOverallLandscape_AudienceNet.pdf",
+          "domain": "musicbiz.org"
+        },
+        {
+          "title": "Sports Audio Report: Demographics at Play",
+          "url": "https://ssrs.com/wp-content/uploads/sports-audio-report-demographics-at-play.pdf",
+          "domain": "ssrs.com"
+        },
+        {
+          "title": "Which podcast genres are most popular among men and women in the U.S.? Article — United States — Decoding large household appliance purchases",
+          "url": "https://yougov.com/en-us/articles/54981-which-podcast-genres-are-most-popular-among-men-and-women-in-the-united-states",
+          "domain": "yougov.com"
+        },
+        {
+          "title": "AI in advertising and building trust: iHeartMedia on human voices in media | Deloitte Insights - iHeart has taken the position that we want to guarantee that an",
+          "url": "https://www.youtube.com/watch?v=jgypvjJj0G8",
+          "domain": "youtube.com"
+        },
+        {
+          "title": "Gratification Changes Among Country Music Radio Listeners",
+          "url": "https://thekeep.eiu.edu/cgi/viewcontent.cgi?article=2984&context=theses",
+          "domain": "thekeep.eiu.edu"
+        },
+        {
+          "title": "Trends and Facts on Audio and Podcasts | State of the News Media | Pew Research Center",
+          "url": "https://www.pewresearch.org/journalism/fact-sheet/audio-and-podcasting/",
+          "domain": "pewresearch.org"
+        },
+        {
+          "title": "Podcast Audio Story Q1 2023",
+          "url": "https://podnews.net/uploads/iheart-state-of-podcasting-2023-via-podnews.pdf",
+          "domain": "podnews.net"
+        },
+        {
+          "title": "Coleman Insights CRS 2011 Country P1 Consumer & New Media Study - Country P1 Consumer & New Media Study Written & Presented by Chris Ackerman Vice President Sam",
+          "url": "http://www.colemaninsights.com/wp-content/uploads/2013/07/Coleman-Insights-CRS-2011-Country-P1-Consumer-New-Media-Study.pdf",
+          "domain": "colemaninsights.com"
+        },
+        {
+          "title": "The Record: Q3 2026 U.S. audio listening trends | Nielsen",
+          "url": "https://www.nielsen.com/insights/2026/the-record-q3-2026-us-audio-listening-trends/",
+          "domain": "nielsen.com"
+        },
+        {
+          "title": "The Infinite Dial 2025 - Edison Research at SSRS",
+          "url": "https://www.edisonresearch.com/the-infinite-dial-2025/",
+          "domain": "edisonresearch.com"
+        },
+        {
+          "title": "Public Radio Today 2012, How America Listens to Radio",
+          "url": "https://www.worldradiohistory.com/Archive-Arbitron/Radio-Today-State-of-the-Media/publicradiotoday_2012.pdf",
+          "domain": "worldradiohistory.com"
+        },
+        {
+          "title": "The Infinite Dial 2024 - Edison Research at SSRS",
+          "url": "https://www.edisonresearch.com/the-infinite-dial-2024/",
+          "domain": "edisonresearch.com"
+        },
+        {
+          "title": "#SpokenWordAudio",
+          "url": "https://www.nationalpublicmedia.com/uploads/2023/11/2023-Spoken-Word-Audio-Report-from-NPR-and-Edison-Research.pdf",
+          "domain": "nationalpublicmedia.com"
+        },
+        {
+          "title": "The Infinite Dial 20206",
+          "url": "https://www.edisonresearch.com/wp-content/uploads/2026/03/The-Infinite-Dial-2026-Presentation.pdf",
+          "domain": "edisonresearch.com"
+        },
+        {
+          "title": "The Infinite Dial 2023 from Edison Research with Amazon Music, Wondery, and ART19",
+          "url": "https://www.edisonresearch.com/infinite-dial-2023-from-edison-research-with-amazon-music-wondery-and-art19/?amp=",
+          "domain": "edisonresearch.com"
+        },
+        {
+          "title": "MUSIC CONSUMER PROFILE - 2019",
+          "url": "https://www.riaa.com/wp-content/uploads/2020/04/MusicWatch-Consumer-Profile-2019.pdf",
+          "domain": "riaa.com"
+        },
+        {
+          "title": "US Podcast Consumption reaches record high: The Infinite Dial® 2025",
+          "url": "https://podnews.net/press-release/edison-research-infinite-dial-2025",
+          "domain": "podnews.net"
+        },
+        {
+          "title": "Music Consumer Profile - 2014",
+          "url": "https://www.riaa.com/wp-content/uploads/2016/03/RIAA-Music-Consumer-Profile-2014.pdf",
+          "domain": "riaa.com"
+        },
+        {
+          "title": "MUSIC CONSUMER PROFILE - 2018",
+          "url": "http://www.riaa.com/wp-content/uploads/2019/05/MusicWatch-Consumer-Profile-RIAA-2018.pdf",
+          "domain": "riaa.com"
+        },
+        {
+          "title": "MUSIC CONSUMER PROFILE - 2022",
+          "url": "https://www.riaa.com/wp-content/uploads/2023/05/MW_Table_033123a.pdf",
+          "domain": "riaa.com"
+        },
+        {
+          "title": "Media consumption report 2025",
+          "url": "https://d3nkl3psvxxpe9.cloudfront.net/documents/Report_AgenciesMediaContentLeisureEntertainment_MediaConsumption-2025_DE_YouGov.pdf",
+          "domain": "d3nkl3psvxxpe9.cloudfront.net"
+        },
+        {
+          "title": "Music Listening",
+          "url": "https://www.musikindustrie.de/fileadmin/bvmi/upload/06_Publikationen/Music_Listening/Music_Listening_2019_ENG_Fassung.pdf",
+          "domain": "musikindustrie.de"
+        },
+        {
+          "title": "THE NIELSEN TOTAL AUDIENCE REPORT",
+          "url": "https://radioconnects.ca/wp-content/uploads/2018/08/Nielsen-Q1-2018-Total-US-Audience-Report.pdf",
+          "domain": "radioconnects.ca"
+        }
+      ],
+      "audience_id": "fe2d4503-64fd-46e3-ab47-29859bc23c6f",
+      "study_id": "2e2e0e45-bb97-456f-9c05-1d18e6e3b5bd",
+      "mind_id": "58892167-05ff-47d9-b4a0-57dc56b2e2d0"
+    },
+    "source_counts": {
+      "official": 12,
+      "official_label": "published surveys and statistics behind the audience mix (Edison Research, Nielsen, Pew, YouGov and more)",
+      "official_note": "Published surveys and statistics behind the audience grounding: Edison Research, Nielsen, Pew Research Center, YouGov, SSRS, the Cooperative Election Study and others (12 linked grounding sources; the brief and search queries are not counted).",
+      "qualitative": 482,
+      "qualitative_label": "qualitative sources across the 30 Minds' knowledge banks",
+      "qualitative_note": "Distinct public sources across the 30 Minds' knowledge banks (1,275 source items in total).",
+      "counted_at": "2026-11-21"
+    }
+  },
+  "contact": {
+    "name": "Jerome Salow",
+    "role": "Commercial Lead",
+    "headline": "See what your listeners will play next.",
+    "quote": "I help audio and podcast teams run a first study on their own audience. Tell me what you want to test and I will set it up with you.",
+    "photo": "https://getminds.ai/images/team-portraits/jerome-salow.webp",
+    "email": "jerome@getminds.ai",
+    "booking_url": "https://getminds.ai/"
+  }
+}

@@ -1,7 +1,7 @@
 {
   "format": "forecast-ledger-account.v1",
   "account": "theatlantic",
-  "title": "The Atlantic x Minds: Forecast Ledger (mock, Aug to Nov 2026)",
+  "title": "Predicting Audience reactions for The Atlantic",
   "brand": {
     "name": "The Atlantic",
     "logo": "/accounts/theatlantic/logo.png",
@@ -12,13 +12,13 @@
   },
   "forecast_date": "2026-11-20",
   "kind": "mock_forecast",
-  "note": "This is a mock forecast. The forecasts were generated on 20 November 2026, after these stories had already run. It is not part of the locked public ledger and is not included in headline accuracy.",
+  "note": "Retrospective test: Minds rated these 16 stories on 20 November 2026, after they had run. It is separate from the pre-registered public forecast ledger and its headline accuracy.",
   "study_url": "https://getminds.ai/studies/shared/d0a12987-6227-4c5a-bb5e-1a20460e8cac",
   "audience": {
     "name": "The Atlantic Readers (US)",
     "minds": 30,
     "question": "Headline, subhead and lead image as shown on the homepage. How likely are you to click and read this story? 0 to 10.",
-    "description": "30 Minds modelled on people in the United States who read The Atlantic. Qualification used in the study: reads The Atlantic at least monthly, or is a paid subscriber.",
+    "description": "30 Minds modelled on US readers of The Atlantic: people who read it at least monthly or pay for a subscription.",
     "orbit": {
       "label": "30 Minds",
       "count": 30,
@@ -129,8 +129,8 @@
       "discipline": "Adjunct Humanities Lecturer",
       "image": "/assets/minds/example-maya-santos-brooks.webp",
       "description": "At 60, Maya Santos-Brooks is an adjunct humanities lecturer in the United States who brings deep critical analysis to cultural and civic discussions. A thoughtful conservative, Maya regularly consults digital journalism like The Atlantic and political magazines to examine contemporary social discourse through an objective, historically grounded lens.",
-      "note": "A simulated member of The Atlantic Readers (US) audience used in this mock forecast, not a real person. The profile and the source links below come from the Mind as stored in that audience.",
-      "sources_note": "The 25 public sources this Mind was grounded in, from its official Minds profile export.",
+      "note": "Every Mind is a full profile grounded in public sources. Meet one of the 30. Simulated, not a real person.",
+      "sources_note": "Every attribute traces back to public evidence. These are the sources behind this Mind.",
       "profileDetails": {
         "defaults": [
           {
@@ -439,7 +439,17 @@
       "audience_id": "b96dc200-458e-4ef3-a555-9ddc48c2ee28",
       "study_id": "08193b0a-4446-401b-918b-50103c854543",
       "mind_id": "ad5348bf-e9ce-499c-9d00-3c33bc433f27"
-    }
+    },
+    "source_counts": {
+      "official": 15,
+      "official_label": "published surveys and statistics behind the audience mix (Pew, Reuters Institute, AP-NORC, YouGov and more)",
+      "official_note": "Published surveys and statistics behind the audience grounding: Pew Research Center, Reuters Institute, AP-NORC, American Press Institute, YouGov, the Cooperative Election Study and others (15 of 18 linked grounding sources; the other three are Wikipedia and The Atlantic's own site).",
+      "qualitative": 558,
+      "qualitative_label": "qualitative sources across the 30 Minds' knowledge banks",
+      "qualitative_note": "Distinct public sources across the 30 Minds' knowledge banks (699 source items in total).",
+      "counted_at": "2026-11-21"
+    },
+    "explainer": "We built 30 Minds: simulated readers of The Atlantic. Each Mind is a complete person, with an age, a job, political views, news habits and a voice of their own, grounded in public sources. Together they match published statistics on who reads The Atlantic, so you can put a headline in front of them the way you would a reader panel."
   },
   "outcome_source": "Days a story appeared in the theatlantic.com homepage Popular list (top 10), from 130 Internet Archive Wayback Machine snapshots on 55 days, 20 August to 18 November 2026.",
   "scorecard": {
@@ -868,15 +878,33 @@
       }
     }
   ],
-  "intro": "Minds is a simulated audience: people modelled on published evidence, who can be asked the same questions you would put to a real sample.",
+  "intro": "Minds is a simulated audience built from published evidence about real people. Ask it the questions you would put to a reader panel, and get answers without recruiting one.",
   "contact": {
     "name": "Jerome Salow",
     "role": "Commercial Lead",
-    "headline": "Want to see Minds on your next pack, claim or price decision?",
-    "quote": "I help publishers and brands run a first study on a grounded audience. Write to me and I will follow up.",
+    "headline": "See what your readers will click next.",
+    "quote": "I help editorial and audience teams run a first study on their own readership. Tell me what you want to test and I will set it up with you.",
     "photo": "https://getminds.ai/images/team-portraits/jerome-salow.webp",
     "email": "jerome@getminds.ai",
     "booking_url": "https://getminds.ai/"
   },
-  "nav_title": "The Atlantic"
+  "nav_title": "The Atlantic",
+  "tagline": "Test headlines, images and story mix on a simulated Atlantic readership before you publish.",
+  "predicted": {
+    "heading": "Which stories would readers click?",
+    "lead": "We showed 30 Minds built on Atlantic readers 16 homepage stories from August to November 2026, each as headline, subhead and lead image, and asked how likely they were to click. Then we compared their answers with how long each story actually held a place in the homepage Popular list.",
+    "stats": [
+      {
+        "label": "Top stories picked",
+        "value": "2 of 3",
+        "comparison": "of the three longest-running Popular stories were in Minds' top three"
+      },
+      {
+        "label": "Head-to-head calls",
+        "value": "59%",
+        "comparison": "of story pairs called right: which of two stays in Popular longer (64 of 108)"
+      }
+    ]
+  },
+  "responses_url": "/accounts/theatlantic/responses.json"
 }
