@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-21T18:02:50Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-21T18:12:51Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -16,8 +16,6 @@ Across 42 scored surveys and 160 questions, Minds Mosaic has an average distribu
 Lower is better for TVD and miss. TVD is 0 for a perfect forecast and 1 for a completely wrong one. All figures are for the full surveyed population.
 
 Approximation, each of the 43 survey series weighted equally: 96.1%; audience subgroups, pooled separately: 97.9% (198 question x audience cells).
-
-How each question is scored depends on what it measures. Answer shares: approximation (100% minus the average miss per answer option) and TVD. Ordered answer scales also get the Wasserstein distance over the substantive options, as a share of its maximum. Published ratings are scored as numbers: error as a share of the rating scale, signed error, CRPS of the forecast distribution and pairwise ranking. Results are reported per topic; with fewer than 5 scored surveys a topic is shown but not treated as conclusive. Ranges are 95% intervals from resampling surveys. Ordered scales so far: 95 questions, Wasserstein 1.7% of the maximum.
 
 Rating questions (7 published ratings, System1 stars) are scored as numbers and kept out of the share figures above: average accuracy 84.6% of the rating scale, mean error 0.76 System1 stars too low, CRPS 0.46, and 12 of 14 pairs ranked in the right order (pairs with the same published rating are not counted).
 
@@ -40,7 +38,7 @@ Attitude: opinions and ratings. Stated intent: what people say they will do. Beh
 
 ## Social Simulation Arena
 
-Arena data published 21 Nov 2026, 07:04 UTC; checked 21 Nov 2026, 17:05 UTC.
+Arena data published 21 Nov 2026, 07:04 UTC; checked 21 Nov 2026, 18:05 UTC.
 
 Minds Mosaic ranks **25 of 28** on the official overall board, with **12 of 154** resolved questions answered. The overall ranking counts missing answers against each entrant, including questions before it joined.
 
@@ -74,3 +72,45 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
 Ledger chain head `c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42`.
+
+## Methodology
+
+Every forecast is locked and timestamped before the survey is in the field or before its result is released. When the publisher releases the real result, we compare it with the locked Minds Mosaic forecast. Every locked forecast is scored, including the misses. The figures below use the main forecast version, for the full surveyed population.
+
+### Approximation: how close we were
+
+The headline number. It says how close the forecast was to the real result, from 0% (completely wrong) to 100% (exactly right). Each kind of question is turned into this same 0 to 100% scale, so different questions can be compared and combined:
+
+| Kind of question | Example | How "close" is measured |
+|---|---|---|
+| Answer shares | Which party would you vote for? | 100% minus the average miss per answer option, in percentage points. If we forecast 30% and the result was 32%, that option missed by 2 points. |
+| Ordered scale | Approve strongly, somewhat, ... disapprove | The same, plus how far apart the two answer curves are along the scale ("Not sure"-type answers are left out of that part). |
+| Rating | An ad's star rating from 1.0 to 5.9 | 100% minus the miss as a share of the whole scale. Off by 0.49 stars on a 4.9-star range is 90%. |
+| Number | Box office takings, car registrations | 100% minus the miss as a share of the real value (never below 0%). |
+| Ranking | A top-10 chart | The share of pairs of items put in the right order. |
+| Yes/no event | Will a vote pass? | 100% minus the Brier score: rewards being confident and right, punishes being confident and wrong. |
+
+### Other measures on the page
+
+- **Distribution error (TVD):** the share of answers placed in the wrong option. 0% means the forecast and the real result are identical, 100% means they have nothing in common. Lower is better.
+- **Distance on the scale (Wasserstein):** for ordered scales only. It counts being one step off as smaller than being three steps off. Shown as a share of the largest possible distance; lower is better.
+- **Correlation (Pearson r):** whether big answers were forecast big and small answers small, from -1 to 1. A companion measure only: it can look high even when the exact numbers are off.
+- **Ranking:** the share of pairs put in the right order. 50% is what a coin flip would get, 100% is a perfect order. Pairs with the same real value are not counted.
+- **Rating error:** the average difference between the forecast rating and the published rating, in the rating's own unit, with its direction (too high or too low).
+- **CRPS:** scores the whole spread of a numeric forecast, not just its middle. It is the average miss in the question's own unit; lower is better.
+
+### How results are combined
+
+- **Questions first, then series.** A survey series that repeats (for example a weekly poll) counts once, however many waves or questions it has. Its questions are averaged first, then every series weighs the same. One large survey cannot drown out the small ones.
+- **95% range.** The range is found by resampling the series many times. It shows how much the figure could move by chance with this many surveys.
+- **Too few to conclude.** With fewer than 5 independent series, a figure is shown but marked as too few to draw a conclusion.
+- **Audience subgroups** (age, party and similar) are scored separately and never mixed into the full-population figure.
+- **Last 30 days** uses only surveys whose results were released in the last 30 days, to show recent performance.
+- **Filters.** Choosing a topic, a type or a search term recalculates every figure for just those surveys.
+
+### What these numbers do not mean
+
+- They compare whole answer distributions, not individual people. They do not say how many respondents were predicted correctly.
+- Approximation depends on the number of answer options: questions with many options have smaller shares, so their misses tend to be smaller. Compare like with like.
+- High scores are common for stable, frequently repeated surveys. A result holds for the surveys, audiences and question formats tested here; it is no guarantee for a new questionnaire.
+- Some publishers do not allow their released numbers to be republished. Those surveys are scored and counted, but their released numbers are not shown.
