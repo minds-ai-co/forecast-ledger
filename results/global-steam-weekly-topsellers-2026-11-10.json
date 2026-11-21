@@ -6,15 +6,15 @@
   "source_url": "https://api.steampowered.com/IStoreTopSellersService/GetWeeklyTopSellers/v1/?input_json={\"context\":{\"language\":\"english\",\"country_code\":\"US\"},\"start_date\":1793664000,\"page_count\":30}",
   "scored_at": "2026-11-21T00:08:29Z",
   "results_sha256": "a68d78ce8d57ca2d31317fd7350394ae3f02afe0cbb3ec22d9b172c6ef59d5a2",
-  "released_values_public": false,
-  "licence_note": "Source: Valve, Steam weekly top sellers (Steam Web API), week starting 3 November 2026. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "released_values_public": true,
+  "licence_note": "Source: Valve, Steam weekly top sellers (Steam Web API), week starting 3 November 2026. Source linked. Minds forecasts are independent estimates.",
   "publication": {
-    "status": "pending_review",
-    "reviewed_on": "2026-11-20",
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-21",
     "source_url": "https://api.steampowered.com/IStoreTopSellersService/GetWeeklyTopSellers/v1/?input_json={\"context\":{\"language\":\"english\",\"country_code\":\"US\"},\"start_date\":1793664000,\"page_count\":30}",
-    "credit": "Source: Valve, Steam weekly top sellers (Steam Web API), week starting 3 November 2026. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "credit": "Source: Valve, Steam weekly top sellers (Steam Web API), week starting 3 November 2026. Source linked. Minds forecasts are independent estimates.",
     "terms": [],
-    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 21 Nov 2026. This is not a claim of a new publisher licence.",
     "item_scope": {
       "steam_weekly_topsellers": [
         "overall"
@@ -159,7 +159,24 @@
       "evidence_type": "behaviour",
       "tvd": 0.305455,
       "mae_pp": 4.072727,
-      "released_values_public": false
+      "released": [
+        0.16363636363636364,
+        0.09090909090909091,
+        0.14545454545454545,
+        0.12727272727272726,
+        0.0,
+        0.10909090909090909,
+        0.18181818181818182,
+        0.0,
+        0.0,
+        0.01818181818181818,
+        0.0,
+        0.05454545454545454,
+        0.0,
+        0.0,
+        0.10909090909090909
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__memory3__steam_weekly_topsellers__overall__r1",
@@ -172,7 +189,24 @@
       "evidence_type": "behaviour",
       "tvd": 0.343955,
       "mae_pp": 4.586061,
-      "released_values_public": false
+      "released": [
+        0.16363636363636364,
+        0.09090909090909091,
+        0.14545454545454545,
+        0.12727272727272726,
+        0.0,
+        0.10909090909090909,
+        0.18181818181818182,
+        0.0,
+        0.0,
+        0.01818181818181818,
+        0.0,
+        0.05454545454545454,
+        0.0,
+        0.0,
+        0.10909090909090909
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__anchored3__steam_weekly_topsellers__overall__r1",
@@ -185,7 +219,24 @@
       "evidence_type": "behaviour",
       "tvd": 0.299091,
       "mae_pp": 3.987879,
-      "released_values_public": false
+      "released": [
+        0.16363636363636364,
+        0.09090909090909091,
+        0.14545454545454545,
+        0.12727272727272726,
+        0.0,
+        0.10909090909090909,
+        0.18181818181818182,
+        0.0,
+        0.0,
+        0.01818181818181818,
+        0.0,
+        0.05454545454545454,
+        0.0,
+        0.0,
+        0.10909090909090909
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__bank3__steam_weekly_topsellers__overall__r1",
@@ -198,7 +249,24 @@
       "evidence_type": "behaviour",
       "tvd": 0.353455,
       "mae_pp": 4.712727,
-      "released_values_public": false
+      "released": [
+        0.16363636363636364,
+        0.09090909090909091,
+        0.14545454545454545,
+        0.12727272727272726,
+        0.0,
+        0.10909090909090909,
+        0.18181818181818182,
+        0.0,
+        0.0,
+        0.01818181818181818,
+        0.0,
+        0.05454545454545454,
+        0.0,
+        0.0,
+        0.10909090909090909
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__bankR3__steam_weekly_topsellers__overall__r1",
@@ -211,7 +279,24 @@
       "evidence_type": "behaviour",
       "tvd": 0.366045,
       "mae_pp": 4.880606,
-      "released_values_public": false
+      "released": [
+        0.16363636363636364,
+        0.09090909090909091,
+        0.14545454545454545,
+        0.12727272727272726,
+        0.0,
+        0.10909090909090909,
+        0.18181818181818182,
+        0.0,
+        0.0,
+        0.01818181818181818,
+        0.0,
+        0.05454545454545454,
+        0.0,
+        0.0,
+        0.10909090909090909
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__cohort__steam_weekly_topsellers__overall__r1",
@@ -224,7 +309,24 @@
       "evidence_type": "behaviour",
       "tvd": 0.452955,
       "mae_pp": 6.039394,
-      "released_values_public": false
+      "released": [
+        0.16363636363636364,
+        0.09090909090909091,
+        0.14545454545454545,
+        0.12727272727272726,
+        0.0,
+        0.10909090909090909,
+        0.18181818181818182,
+        0.0,
+        0.0,
+        0.01818181818181818,
+        0.0,
+        0.05454545454545454,
+        0.0,
+        0.0,
+        0.10909090909090909
+      ],
+      "released_values_public": true
     }
   ]
 }

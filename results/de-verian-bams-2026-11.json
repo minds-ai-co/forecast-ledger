@@ -6,15 +6,15 @@
   "source_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
   "scored_at": "2026-11-21T00:08:27Z",
   "results_sha256": "6b973ad014ca62e82890b542eb4581933958dbd231c2ff6954d72c9fd1d1f1c2",
-  "released_values_public": false,
-  "licence_note": "Source: Verian (formerly Emnid), Sonntagsfrage, fieldwork 11-17 November 2026, 1,472 respondents; listed by wahlrecht.de. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "released_values_public": true,
+  "licence_note": "Source: Verian (formerly Emnid), Sonntagsfrage, fieldwork 11-17 November 2026, 1,472 respondents; listed by wahlrecht.de. Source linked. Minds forecasts are independent estimates.",
   "publication": {
-    "status": "pending_review",
-    "reviewed_on": "2026-11-20",
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-21",
     "source_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
-    "credit": "Source: Verian (formerly Emnid), Sonntagsfrage, fieldwork 11-17 November 2026, 1,472 respondents; listed by wahlrecht.de. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "credit": "Source: Verian (formerly Emnid), Sonntagsfrage, fieldwork 11-17 November 2026, 1,472 respondents; listed by wahlrecht.de. Source linked. Minds forecasts are independent estimates.",
     "terms": [],
-    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 21 Nov 2026. This is not a claim of a new publisher licence.",
     "item_scope": {
       "sonntagsfrage": [
         "overall"
@@ -179,7 +179,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.06,
       "mae_pp": 1.5,
-      "released_values_public": false
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.03,
+        0.04,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-verian-bams-2026-11__anchored3__sonntagsfrage__overall__r1",
@@ -192,7 +202,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.02125,
       "mae_pp": 0.53125,
-      "released_values_public": false
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.03,
+        0.04,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-verian-bams-2026-11__bank3__sonntagsfrage__overall__r1",
@@ -205,7 +225,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.0575,
       "mae_pp": 1.4375,
-      "released_values_public": false
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.03,
+        0.04,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-verian-bams-2026-11__bankR3__sonntagsfrage__overall__r1",
@@ -218,7 +248,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.06,
       "mae_pp": 1.5,
-      "released_values_public": false
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.03,
+        0.04,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-verian-bams-2026-11__cohort__sonntagsfrage__overall__r1",
@@ -231,7 +271,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.09,
       "mae_pp": 2.25,
-      "released_values_public": false
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.03,
+        0.04,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-verian-bams-2026-11__memory3__sonntagsfrage__overall__r1",
@@ -244,7 +294,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.0575,
       "mae_pp": 1.4375,
-      "released_values_public": false
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.03,
+        0.04,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "de-verian-bams-2026-11__xpub3__sonntagsfrage__overall__r1",
@@ -257,7 +317,17 @@
       "evidence_type": "stated_intent",
       "tvd": 0.024,
       "mae_pp": 0.6,
-      "released_values_public": false
+      "released": [
+        0.2,
+        0.28,
+        0.14,
+        0.15,
+        0.1,
+        0.03,
+        0.04,
+        0.06
+      ],
+      "released_values_public": true
     }
   ]
 }

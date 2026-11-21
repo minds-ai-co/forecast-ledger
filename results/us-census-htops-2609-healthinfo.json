@@ -6,15 +6,15 @@
   "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2609_CSV.zip",
   "scored_at": "2026-11-21T00:01:25Z",
   "results_sha256": "70a59ae0e159e5f7721dcd4b7f91c7f1998e54802af6794adb3875b8d54c7238",
-  "released_values_public": false,
+  "released_values_public": true,
   "licence_note": "Source: U.S. Census Bureau, Household Trends and Outlook Pulse Survey (HTOPS), September 2026 cycle 2609 public-use file (released 12 November 2026). PWEIGHT-weighted shares computed by Minds over valid answers; U.S. Government work. Minds forecasts are independent estimates.",
   "publication": {
-    "status": "pending_review",
-    "reviewed_on": "2026-11-20",
+    "status": "cleared",
+    "reviewed_on": "2026-11-21",
     "source_url": "https://www2.census.gov/programs-surveys/demo/datasets/hhp/2026/topical/HTOPS_HPS_2609_CSV.zip",
     "credit": "Source: U.S. Census Bureau, Household Trends and Outlook Pulse Survey (HTOPS), September 2026 cycle 2609 public-use file (released 12 November 2026). PWEIGHT-weighted shares computed by Minds over valid answers; U.S. Government work. Minds forecasts are independent estimates.",
     "terms": [],
-    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "decision_basis": "U.S. Government work (public domain, 17 U.S.C. 105); published by the site owner's decision of 21 Nov 2026.",
     "item_scope": {
       "HLTHTRUST_DR": [
         "overall",
@@ -185,7 +185,13 @@
       "evidence_type": "attitude",
       "tvd": 0.006228,
       "mae_pp": 0.3114,
-      "released_values_public": false
+      "released": [
+        0.369308,
+        0.392844,
+        0.188384,
+        0.049464
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__female__r1",
@@ -198,7 +204,13 @@
       "evidence_type": "attitude",
       "tvd": 0.046252,
       "mae_pp": 2.3126,
-      "released_values_public": false
+      "released": [
+        0.343748,
+        0.397459,
+        0.214961,
+        0.043832
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__educ_hs_or_less__r1",
@@ -211,7 +223,13 @@
       "evidence_type": "attitude",
       "tvd": 0.110493,
       "mae_pp": 5.52465,
-      "released_values_public": false
+      "released": [
+        0.274507,
+        0.399562,
+        0.235822,
+        0.090109
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__age_65_plus__r1",
@@ -224,7 +242,13 @@
       "evidence_type": "attitude",
       "tvd": 0.08347,
       "mae_pp": 4.1735,
-      "released_values_public": false
+      "released": [
+        0.35403,
+        0.420565,
+        0.188689,
+        0.036716
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__overall__r1",
@@ -237,7 +261,13 @@
       "evidence_type": "attitude",
       "tvd": 0.01652,
       "mae_pp": 0.826,
-      "released_values_public": false
+      "released": [
+        0.089181,
+        0.222517,
+        0.419299,
+        0.269003
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__female__r1",
@@ -250,7 +280,13 @@
       "evidence_type": "attitude",
       "tvd": 0.067286,
       "mae_pp": 3.3643,
-      "released_values_public": false
+      "released": [
+        0.08667,
+        0.201044,
+        0.431596,
+        0.28069
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__educ_hs_or_less__r1",
@@ -263,7 +299,13 @@
       "evidence_type": "attitude",
       "tvd": 0.034075,
       "mae_pp": 1.70373,
-      "released_values_public": false
+      "released": [
+        0.1067041067041067,
+        0.2173942173942174,
+        0.3969253969253969,
+        0.27897627897627897
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__age_65_plus__r1",
@@ -276,7 +318,13 @@
       "evidence_type": "attitude",
       "tvd": 0.095523,
       "mae_pp": 4.776136,
-      "released_values_public": false
+      "released": [
+        0.06797706797706797,
+        0.208000208000208,
+        0.4775914775914776,
+        0.24643124643124645
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__overall__r1",
@@ -289,7 +337,13 @@
       "evidence_type": "attitude",
       "tvd": 0.098311,
       "mae_pp": 4.91555,
-      "released_values_public": false
+      "released": [
+        0.323311,
+        0.300401,
+        0.292765,
+        0.083523
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__female__r1",
@@ -302,7 +356,13 @@
       "evidence_type": "attitude",
       "tvd": 0.07207,
       "mae_pp": 3.6035,
-      "released_values_public": false
+      "released": [
+        0.30707,
+        0.309803,
+        0.306745,
+        0.076382
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__educ_hs_or_less__r1",
@@ -315,7 +375,13 @@
       "evidence_type": "attitude",
       "tvd": 0.084793,
       "mae_pp": 4.23965,
-      "released_values_public": false
+      "released": [
+        0.225891,
+        0.291402,
+        0.350659,
+        0.132048
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__age_65_plus__r1",
@@ -328,7 +394,13 @@
       "evidence_type": "attitude",
       "tvd": 0.073044,
       "mae_pp": 3.6522,
-      "released_values_public": false
+      "released": [
+        0.236965,
+        0.294491,
+        0.350424,
+        0.11812
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__overall__r1",
@@ -341,7 +413,13 @@
       "evidence_type": "attitude",
       "tvd": 0.070778,
       "mae_pp": 3.538878,
-      "released_values_public": false
+      "released": [
+        0.03088003088003088,
+        0.12311412311412312,
+        0.4391634391634392,
+        0.40684240684240686
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__female__r1",
@@ -354,7 +432,13 @@
       "evidence_type": "attitude",
       "tvd": 0.045903,
       "mae_pp": 2.29515,
-      "released_values_public": false
+      "released": [
+        0.027208,
+        0.097301,
+        0.451394,
+        0.424097
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__educ_hs_or_less__r1",
@@ -367,7 +451,13 @@
       "evidence_type": "attitude",
       "tvd": 0.04469,
       "mae_pp": 2.2345,
-      "released_values_public": false
+      "released": [
+        0.047743,
+        0.097381,
+        0.362066,
+        0.49281
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__age_65_plus__r1",
@@ -380,7 +470,13 @@
       "evidence_type": "attitude",
       "tvd": 0.210967,
       "mae_pp": 10.54835,
-      "released_values_public": false
+      "released": [
+        0.021425,
+        0.121843,
+        0.455199,
+        0.401533
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__overall__r1",
@@ -393,7 +489,13 @@
       "evidence_type": "attitude",
       "tvd": 0.021772,
       "mae_pp": 1.0886,
-      "released_values_public": false
+      "released": [
+        0.369308,
+        0.392844,
+        0.188384,
+        0.049464
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__female__r1",
@@ -406,7 +508,13 @@
       "evidence_type": "attitude",
       "tvd": 0.003291,
       "mae_pp": 0.16455,
-      "released_values_public": false
+      "released": [
+        0.343748,
+        0.397459,
+        0.214961,
+        0.043832
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__educ_hs_or_less__r1",
@@ -419,7 +527,13 @@
       "evidence_type": "attitude",
       "tvd": 0.014671,
       "mae_pp": 0.73355,
-      "released_values_public": false
+      "released": [
+        0.274507,
+        0.399562,
+        0.235822,
+        0.090109
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__age_65_plus__r1",
@@ -432,7 +546,13 @@
       "evidence_type": "attitude",
       "tvd": 0.010435,
       "mae_pp": 0.52175,
-      "released_values_public": false
+      "released": [
+        0.35403,
+        0.420565,
+        0.188689,
+        0.036716
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__overall__r1",
@@ -445,7 +565,13 @@
       "evidence_type": "attitude",
       "tvd": 0.020483,
       "mae_pp": 1.02415,
-      "released_values_public": false
+      "released": [
+        0.089181,
+        0.222517,
+        0.419299,
+        0.269003
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__female__r1",
@@ -458,7 +584,13 @@
       "evidence_type": "attitude",
       "tvd": 0.024956,
       "mae_pp": 1.2478,
-      "released_values_public": false
+      "released": [
+        0.08667,
+        0.201044,
+        0.431596,
+        0.28069
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__educ_hs_or_less__r1",
@@ -471,7 +603,13 @@
       "evidence_type": "attitude",
       "tvd": 0.024402,
       "mae_pp": 1.220084,
-      "released_values_public": false
+      "released": [
+        0.1067041067041067,
+        0.2173942173942174,
+        0.3969253969253969,
+        0.27897627897627897
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__age_65_plus__r1",
@@ -484,7 +622,13 @@
       "evidence_type": "attitude",
       "tvd": 0.041,
       "mae_pp": 2.04999,
-      "released_values_public": false
+      "released": [
+        0.06797706797706797,
+        0.208000208000208,
+        0.4775914775914776,
+        0.24643124643124645
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__overall__r1",
@@ -497,7 +641,13 @@
       "evidence_type": "attitude",
       "tvd": 0.035599,
       "mae_pp": 1.77995,
-      "released_values_public": false
+      "released": [
+        0.323311,
+        0.300401,
+        0.292765,
+        0.083523
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__female__r1",
@@ -510,7 +660,13 @@
       "evidence_type": "attitude",
       "tvd": 0.019197,
       "mae_pp": 0.95985,
-      "released_values_public": false
+      "released": [
+        0.30707,
+        0.309803,
+        0.306745,
+        0.076382
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__educ_hs_or_less__r1",
@@ -523,7 +679,13 @@
       "evidence_type": "attitude",
       "tvd": 0.030439,
       "mae_pp": 1.52195,
-      "released_values_public": false
+      "released": [
+        0.225891,
+        0.291402,
+        0.350659,
+        0.132048
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__age_65_plus__r1",
@@ -536,7 +698,13 @@
       "evidence_type": "attitude",
       "tvd": 0.053544,
       "mae_pp": 2.6772,
-      "released_values_public": false
+      "released": [
+        0.236965,
+        0.294491,
+        0.350424,
+        0.11812
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__overall__r1",
@@ -549,7 +717,13 @@
       "evidence_type": "attitude",
       "tvd": 0.024842,
       "mae_pp": 1.24212,
-      "released_values_public": false
+      "released": [
+        0.03088003088003088,
+        0.12311412311412312,
+        0.4391634391634392,
+        0.40684240684240686
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__female__r1",
@@ -562,7 +736,13 @@
       "evidence_type": "attitude",
       "tvd": 0.023699,
       "mae_pp": 1.18495,
-      "released_values_public": false
+      "released": [
+        0.027208,
+        0.097301,
+        0.451394,
+        0.424097
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__educ_hs_or_less__r1",
@@ -575,7 +755,13 @@
       "evidence_type": "attitude",
       "tvd": 0.07881,
       "mae_pp": 3.9405,
-      "released_values_public": false
+      "released": [
+        0.047743,
+        0.097381,
+        0.362066,
+        0.49281
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__age_65_plus__r1",
@@ -588,7 +774,13 @@
       "evidence_type": "attitude",
       "tvd": 0.051042,
       "mae_pp": 2.5521,
-      "released_values_public": false
+      "released": [
+        0.021425,
+        0.121843,
+        0.455199,
+        0.401533
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__overall__r1",
@@ -601,7 +793,13 @@
       "evidence_type": "attitude",
       "tvd": 0.036444,
       "mae_pp": 1.822186,
-      "released_values_public": false
+      "released": [
+        0.369308,
+        0.392844,
+        0.188384,
+        0.049464
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__overall__r1",
@@ -614,7 +812,13 @@
       "evidence_type": "attitude",
       "tvd": 0.019646,
       "mae_pp": 0.982293,
-      "released_values_public": false
+      "released": [
+        0.369308,
+        0.392844,
+        0.188384,
+        0.049464
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__female__r1",
@@ -627,7 +831,13 @@
       "evidence_type": "attitude",
       "tvd": 0.058853,
       "mae_pp": 2.942639,
-      "released_values_public": false
+      "released": [
+        0.343748,
+        0.397459,
+        0.214961,
+        0.043832
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__female__r1",
@@ -640,7 +850,13 @@
       "evidence_type": "attitude",
       "tvd": 0.050474,
       "mae_pp": 2.523681,
-      "released_values_public": false
+      "released": [
+        0.343748,
+        0.397459,
+        0.214961,
+        0.043832
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__educ_hs_or_less__r1",
@@ -653,7 +869,13 @@
       "evidence_type": "attitude",
       "tvd": 0.095275,
       "mae_pp": 4.763741,
-      "released_values_public": false
+      "released": [
+        0.274507,
+        0.399562,
+        0.235822,
+        0.090109
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__educ_hs_or_less__r1",
@@ -666,7 +888,13 @@
       "evidence_type": "attitude",
       "tvd": 0.102884,
       "mae_pp": 5.144196,
-      "released_values_public": false
+      "released": [
+        0.274507,
+        0.399562,
+        0.235822,
+        0.090109
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__age_65_plus__r1",
@@ -679,7 +907,13 @@
       "evidence_type": "attitude",
       "tvd": 0.044042,
       "mae_pp": 2.202108,
-      "released_values_public": false
+      "released": [
+        0.35403,
+        0.420565,
+        0.188689,
+        0.036716
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__age_65_plus__r1",
@@ -692,7 +926,13 @@
       "evidence_type": "attitude",
       "tvd": 0.062733,
       "mae_pp": 3.136645,
-      "released_values_public": false
+      "released": [
+        0.35403,
+        0.420565,
+        0.188689,
+        0.036716
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__overall__r1",
@@ -705,7 +945,13 @@
       "evidence_type": "attitude",
       "tvd": 0.094804,
       "mae_pp": 4.740212,
-      "released_values_public": false
+      "released": [
+        0.089181,
+        0.222517,
+        0.419299,
+        0.269003
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__overall__r1",
@@ -718,7 +964,13 @@
       "evidence_type": "attitude",
       "tvd": 0.052803,
       "mae_pp": 2.640156,
-      "released_values_public": false
+      "released": [
+        0.089181,
+        0.222517,
+        0.419299,
+        0.269003
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__female__r1",
@@ -731,7 +983,13 @@
       "evidence_type": "attitude",
       "tvd": 0.126599,
       "mae_pp": 6.329958,
-      "released_values_public": false
+      "released": [
+        0.08667,
+        0.201044,
+        0.431596,
+        0.28069
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__female__r1",
@@ -744,7 +1002,13 @@
       "evidence_type": "attitude",
       "tvd": 0.096943,
       "mae_pp": 4.847129,
-      "released_values_public": false
+      "released": [
+        0.08667,
+        0.201044,
+        0.431596,
+        0.28069
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__educ_hs_or_less__r1",
@@ -757,7 +1021,13 @@
       "evidence_type": "attitude",
       "tvd": 0.006865,
       "mae_pp": 0.34326,
-      "released_values_public": false
+      "released": [
+        0.1067041067041067,
+        0.2173942173942174,
+        0.3969253969253969,
+        0.27897627897627897
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__educ_hs_or_less__r1",
@@ -770,7 +1040,13 @@
       "evidence_type": "attitude",
       "tvd": 0.013605,
       "mae_pp": 0.680235,
-      "released_values_public": false
+      "released": [
+        0.1067041067041067,
+        0.2173942173942174,
+        0.3969253969253969,
+        0.27897627897627897
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__age_65_plus__r1",
@@ -783,7 +1059,13 @@
       "evidence_type": "attitude",
       "tvd": 0.113027,
       "mae_pp": 5.651361,
-      "released_values_public": false
+      "released": [
+        0.06797706797706797,
+        0.208000208000208,
+        0.4775914775914776,
+        0.24643124643124645
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__age_65_plus__r1",
@@ -796,7 +1078,13 @@
       "evidence_type": "attitude",
       "tvd": 0.104275,
       "mae_pp": 5.213748,
-      "released_values_public": false
+      "released": [
+        0.06797706797706797,
+        0.208000208000208,
+        0.4775914775914776,
+        0.24643124643124645
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__overall__r1",
@@ -809,7 +1097,13 @@
       "evidence_type": "attitude",
       "tvd": 0.083144,
       "mae_pp": 4.157184,
-      "released_values_public": false
+      "released": [
+        0.323311,
+        0.300401,
+        0.292765,
+        0.083523
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__overall__r1",
@@ -822,7 +1116,13 @@
       "evidence_type": "attitude",
       "tvd": 0.08461,
       "mae_pp": 4.230492,
-      "released_values_public": false
+      "released": [
+        0.323311,
+        0.300401,
+        0.292765,
+        0.083523
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__female__r1",
@@ -835,7 +1135,13 @@
       "evidence_type": "attitude",
       "tvd": 0.077322,
       "mae_pp": 3.866081,
-      "released_values_public": false
+      "released": [
+        0.30707,
+        0.309803,
+        0.306745,
+        0.076382
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__female__r1",
@@ -848,7 +1154,13 @@
       "evidence_type": "attitude",
       "tvd": 0.070568,
       "mae_pp": 3.528416,
-      "released_values_public": false
+      "released": [
+        0.30707,
+        0.309803,
+        0.306745,
+        0.076382
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__educ_hs_or_less__r1",
@@ -861,7 +1173,13 @@
       "evidence_type": "attitude",
       "tvd": 0.043358,
       "mae_pp": 2.167877,
-      "released_values_public": false
+      "released": [
+        0.225891,
+        0.291402,
+        0.350659,
+        0.132048
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__educ_hs_or_less__r1",
@@ -874,7 +1192,13 @@
       "evidence_type": "attitude",
       "tvd": 0.046726,
       "mae_pp": 2.336295,
-      "released_values_public": false
+      "released": [
+        0.225891,
+        0.291402,
+        0.350659,
+        0.132048
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__age_65_plus__r1",
@@ -887,7 +1211,13 @@
       "evidence_type": "attitude",
       "tvd": 0.077063,
       "mae_pp": 3.853175,
-      "released_values_public": false
+      "released": [
+        0.236965,
+        0.294491,
+        0.350424,
+        0.11812
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__age_65_plus__r1",
@@ -900,7 +1230,13 @@
       "evidence_type": "attitude",
       "tvd": 0.075054,
       "mae_pp": 3.752687,
-      "released_values_public": false
+      "released": [
+        0.236965,
+        0.294491,
+        0.350424,
+        0.11812
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__overall__r1",
@@ -913,7 +1249,13 @@
       "evidence_type": "attitude",
       "tvd": 0.12586,
       "mae_pp": 6.292988,
-      "released_values_public": false
+      "released": [
+        0.03088003088003088,
+        0.12311412311412312,
+        0.4391634391634392,
+        0.40684240684240686
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__overall__r1",
@@ -926,7 +1268,13 @@
       "evidence_type": "attitude",
       "tvd": 0.096259,
       "mae_pp": 4.812934,
-      "released_values_public": false
+      "released": [
+        0.03088003088003088,
+        0.12311412311412312,
+        0.4391634391634392,
+        0.40684240684240686
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__female__r1",
@@ -939,7 +1287,13 @@
       "evidence_type": "attitude",
       "tvd": 0.12803,
       "mae_pp": 6.40148,
-      "released_values_public": false
+      "released": [
+        0.027208,
+        0.097301,
+        0.451394,
+        0.424097
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__female__r1",
@@ -952,7 +1306,13 @@
       "evidence_type": "attitude",
       "tvd": 0.086966,
       "mae_pp": 4.348315,
-      "released_values_public": false
+      "released": [
+        0.027208,
+        0.097301,
+        0.451394,
+        0.424097
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__educ_hs_or_less__r1",
@@ -965,7 +1325,13 @@
       "evidence_type": "attitude",
       "tvd": 0.128556,
       "mae_pp": 6.427825,
-      "released_values_public": false
+      "released": [
+        0.047743,
+        0.097381,
+        0.362066,
+        0.49281
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__educ_hs_or_less__r1",
@@ -978,7 +1344,13 @@
       "evidence_type": "attitude",
       "tvd": 0.086623,
       "mae_pp": 4.331162,
-      "released_values_public": false
+      "released": [
+        0.047743,
+        0.097381,
+        0.362066,
+        0.49281
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__age_65_plus__r1",
@@ -991,7 +1363,13 @@
       "evidence_type": "attitude",
       "tvd": 0.149646,
       "mae_pp": 7.482282,
-      "released_values_public": false
+      "released": [
+        0.021425,
+        0.121843,
+        0.455199,
+        0.401533
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__age_65_plus__r1",
@@ -1004,7 +1382,13 @@
       "evidence_type": "attitude",
       "tvd": 0.179594,
       "mae_pp": 8.979691,
-      "released_values_public": false
+      "released": [
+        0.021425,
+        0.121843,
+        0.455199,
+        0.401533
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__overall__r1",
@@ -1017,7 +1401,13 @@
       "evidence_type": "attitude",
       "tvd": 0.022844,
       "mae_pp": 1.1422,
-      "released_values_public": false
+      "released": [
+        0.369308,
+        0.392844,
+        0.188384,
+        0.049464
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__female__r1",
@@ -1030,7 +1420,13 @@
       "evidence_type": "attitude",
       "tvd": 0.02992,
       "mae_pp": 1.496,
-      "released_values_public": false
+      "released": [
+        0.343748,
+        0.397459,
+        0.214961,
+        0.043832
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__educ_hs_or_less__r1",
@@ -1043,7 +1439,13 @@
       "evidence_type": "attitude",
       "tvd": 0.082171,
       "mae_pp": 4.10855,
-      "released_values_public": false
+      "released": [
+        0.274507,
+        0.399562,
+        0.235822,
+        0.090109
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__age_65_plus__r1",
@@ -1056,7 +1458,13 @@
       "evidence_type": "attitude",
       "tvd": 0.08347,
       "mae_pp": 4.1735,
-      "released_values_public": false
+      "released": [
+        0.35403,
+        0.420565,
+        0.188689,
+        0.036716
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__overall__r1",
@@ -1069,7 +1477,13 @@
       "evidence_type": "attitude",
       "tvd": 0.079003,
       "mae_pp": 3.95015,
-      "released_values_public": false
+      "released": [
+        0.089181,
+        0.222517,
+        0.419299,
+        0.269003
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__female__r1",
@@ -1082,7 +1496,13 @@
       "evidence_type": "attitude",
       "tvd": 0.11319,
       "mae_pp": 5.6595,
-      "released_values_public": false
+      "released": [
+        0.08667,
+        0.201044,
+        0.431596,
+        0.28069
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__educ_hs_or_less__r1",
@@ -1095,7 +1515,13 @@
       "evidence_type": "attitude",
       "tvd": 0.053976,
       "mae_pp": 2.698814,
-      "released_values_public": false
+      "released": [
+        0.1067041067041067,
+        0.2173942173942174,
+        0.3969253969253969,
+        0.27897627897627897
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__age_65_plus__r1",
@@ -1108,7 +1534,13 @@
       "evidence_type": "attitude",
       "tvd": 0.146523,
       "mae_pp": 7.326136,
-      "released_values_public": false
+      "released": [
+        0.06797706797706797,
+        0.208000208000208,
+        0.4775914775914776,
+        0.24643124643124645
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__overall__r1",
@@ -1121,7 +1553,13 @@
       "evidence_type": "attitude",
       "tvd": 0.093311,
       "mae_pp": 4.66555,
-      "released_values_public": false
+      "released": [
+        0.323311,
+        0.300401,
+        0.292765,
+        0.083523
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__female__r1",
@@ -1134,7 +1572,13 @@
       "evidence_type": "attitude",
       "tvd": 0.088315,
       "mae_pp": 4.41575,
-      "released_values_public": false
+      "released": [
+        0.30707,
+        0.309803,
+        0.306745,
+        0.076382
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__educ_hs_or_less__r1",
@@ -1147,7 +1591,13 @@
       "evidence_type": "attitude",
       "tvd": 0.053793,
       "mae_pp": 2.68965,
-      "released_values_public": false
+      "released": [
+        0.225891,
+        0.291402,
+        0.350659,
+        0.132048
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__age_65_plus__r1",
@@ -1160,7 +1610,13 @@
       "evidence_type": "attitude",
       "tvd": 0.079044,
       "mae_pp": 3.9522,
-      "released_values_public": false
+      "released": [
+        0.236965,
+        0.294491,
+        0.350424,
+        0.11812
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__overall__r1",
@@ -1173,7 +1629,13 @@
       "evidence_type": "attitude",
       "tvd": 0.059778,
       "mae_pp": 2.988878,
-      "released_values_public": false
+      "released": [
+        0.03088003088003088,
+        0.12311412311412312,
+        0.4391634391634392,
+        0.40684240684240686
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__female__r1",
@@ -1186,7 +1648,13 @@
       "evidence_type": "attitude",
       "tvd": 0.043894,
       "mae_pp": 2.1947,
-      "released_values_public": false
+      "released": [
+        0.027208,
+        0.097301,
+        0.451394,
+        0.424097
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__educ_hs_or_less__r1",
@@ -1199,7 +1667,13 @@
       "evidence_type": "attitude",
       "tvd": 0.021434,
       "mae_pp": 1.0717,
-      "released_values_public": false
+      "released": [
+        0.047743,
+        0.097381,
+        0.362066,
+        0.49281
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__age_65_plus__r1",
@@ -1212,7 +1686,13 @@
       "evidence_type": "attitude",
       "tvd": 0.137042,
       "mae_pp": 6.8521,
-      "released_values_public": false
+      "released": [
+        0.021425,
+        0.121843,
+        0.455199,
+        0.401533
+      ],
+      "released_values_public": true
     }
   ]
 }

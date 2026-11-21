@@ -6,15 +6,15 @@
   "source_url": "https://www.boxofficemojo.com/weekend/2026W45/",
   "scored_at": "2026-11-21T00:25:26Z",
   "results_sha256": "830f64b2a3c75f7936c9bee9e802b0482af71eec43e218ae4e336710ffb92d89",
-  "released_values_public": false,
-  "licence_note": "Source: Box Office Mojo, domestic weekend box office, 6-8 November 2026 (2026W45). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "released_values_public": true,
+  "licence_note": "Source: Box Office Mojo, domestic weekend box office, 6-8 November 2026 (2026W45). Source linked. Minds forecasts are independent estimates.",
   "publication": {
-    "status": "pending_review",
-    "reviewed_on": "2026-11-20",
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-21",
     "source_url": "https://www.boxofficemojo.com/weekend/2026W45/",
-    "credit": "Source: Box Office Mojo, domestic weekend box office, 6-8 November 2026 (2026W45). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "credit": "Source: Box Office Mojo, domestic weekend box office, 6-8 November 2026 (2026W45). Source linked. Minds forecasts are independent estimates.",
     "terms": [],
-    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 21 Nov 2026. This is not a claim of a new publisher licence.",
     "item_scope": {
       "weekend_gross_share": [
         "overall"
@@ -99,7 +99,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.266602,
       "mae_pp": 3.808596,
-      "released_values_public": false
+      "released": [
+        0.16530655127714106,
+        0.2531988359629057,
+        0.0738779450916643,
+        0.04881181157892489,
+        0.07786408753239488,
+        0.06977027744539126,
+        0.05560161199693523,
+        0.05988343133694486,
+        0.028195318715202304,
+        0.017535157436172368,
+        0.010515331001768342,
+        0.012827375928921978,
+        0.006728463452655962,
+        0.11988380124297683
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-boxoffice-weekend-2026-11-06__anchored3__weekend_gross_share__overall__r1",
@@ -112,7 +128,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.190465,
       "mae_pp": 2.720928,
-      "released_values_public": false
+      "released": [
+        0.16530655127714106,
+        0.2531988359629057,
+        0.0738779450916643,
+        0.04881181157892489,
+        0.07786408753239488,
+        0.06977027744539126,
+        0.05560161199693523,
+        0.05988343133694486,
+        0.028195318715202304,
+        0.017535157436172368,
+        0.010515331001768342,
+        0.012827375928921978,
+        0.006728463452655962,
+        0.11988380124297683
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "us-boxoffice-weekend-2026-11-06__memory3__weekend_gross_share__overall__r1",
@@ -125,7 +157,23 @@
       "evidence_type": "behaviour",
       "tvd": 0.28433,
       "mae_pp": 4.06186,
-      "released_values_public": false
+      "released": [
+        0.16530655127714106,
+        0.2531988359629057,
+        0.0738779450916643,
+        0.04881181157892489,
+        0.07786408753239488,
+        0.06977027744539126,
+        0.05560161199693523,
+        0.05988343133694486,
+        0.028195318715202304,
+        0.017535157436172368,
+        0.010515331001768342,
+        0.012827375928921978,
+        0.006728463452655962,
+        0.11988380124297683
+      ],
+      "released_values_public": true
     }
   ]
 }

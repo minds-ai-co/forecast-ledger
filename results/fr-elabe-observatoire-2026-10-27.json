@@ -6,15 +6,15 @@
   "source_url": "https://elabe.fr/lobservatoire-politique-novembre-2026/",
   "scored_at": "2026-11-21T00:08:19Z",
   "results_sha256": "fd707d704084fe8c77942e24fd07201012bc90433b5cb3cae06695c36846fd2f",
-  "released_values_public": false,
-  "licence_note": "Source: Elabe for Les Echos, L'Observatoire politique, November 2026 (fieldwork 3-4 November 2026, 1,004 adults). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "released_values_public": true,
+  "licence_note": "Source: Elabe for Les Echos, L'Observatoire politique, November 2026 (fieldwork 3-4 November 2026, 1,004 adults). Source linked. Minds forecasts are independent estimates.",
   "publication": {
-    "status": "pending_review",
-    "reviewed_on": "2026-11-20",
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-21",
     "source_url": "https://elabe.fr/lobservatoire-politique-novembre-2026/",
-    "credit": "Source: Elabe for Les Echos, L'Observatoire politique, November 2026 (fieldwork 3-4 November 2026, 1,004 adults). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "credit": "Source: Elabe for Les Echos, L'Observatoire politique, November 2026 (fieldwork 3-4 November 2026, 1,004 adults). Source linked. Minds forecasts are independent estimates.",
     "terms": [],
-    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 21 Nov 2026. This is not a claim of a new publisher licence.",
     "item_scope": {
       "confidence_macron": [
         "overall",
@@ -125,7 +125,14 @@
       "evidence_type": "attitude",
       "tvd": 0.0875,
       "mae_pp": 3.5,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.11,
+        0.22,
+        0.6,
+        0.05
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__sex_men__r1",
@@ -138,7 +145,14 @@
       "evidence_type": "attitude",
       "tvd": 0.195,
       "mae_pp": 7.8,
-      "released_values_public": false
+      "released": [
+        0.03,
+        0.11,
+        0.18,
+        0.65,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__sex_women__r1",
@@ -151,7 +165,14 @@
       "evidence_type": "attitude",
       "tvd": 0.12,
       "mae_pp": 4.8,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.11,
+        0.25,
+        0.56,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__age_18_24__r1",
@@ -164,7 +185,14 @@
       "evidence_type": "attitude",
       "tvd": 0.115,
       "mae_pp": 4.6,
-      "released_values_public": false
+      "released": [
+        0.05,
+        0.13,
+        0.4,
+        0.34,
+        0.08
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__age_65_plus__r1",
@@ -177,7 +205,14 @@
       "evidence_type": "attitude",
       "tvd": 0.185,
       "mae_pp": 7.4,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.12,
+        0.23,
+        0.6,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__overall__r1",
@@ -190,7 +225,14 @@
       "evidence_type": "attitude",
       "tvd": 0.055,
       "mae_pp": 2.2,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.15,
+        0.27,
+        0.46,
+        0.1
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__sex_men__r1",
@@ -203,7 +245,14 @@
       "evidence_type": "attitude",
       "tvd": 0.15,
       "mae_pp": 6.0,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.16,
+        0.25,
+        0.51,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__sex_women__r1",
@@ -216,7 +265,14 @@
       "evidence_type": "attitude",
       "tvd": 0.08,
       "mae_pp": 3.2,
-      "released_values_public": false
+      "released": [
+        0.01,
+        0.14,
+        0.3,
+        0.41,
+        0.14
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__age_18_24__r1",
@@ -229,7 +285,14 @@
       "evidence_type": "attitude",
       "tvd": 0.12096,
       "mae_pp": 4.838384,
-      "released_values_public": false
+      "released": [
+        0.0,
+        0.1111111111111111,
+        0.29292929292929293,
+        0.42424242424242425,
+        0.1717171717171717
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__age_65_plus__r1",
@@ -242,7 +305,14 @@
       "evidence_type": "attitude",
       "tvd": 0.105,
       "mae_pp": 4.2,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.18,
+        0.34,
+        0.39,
+        0.07
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__overall__r1",
@@ -255,7 +325,14 @@
       "evidence_type": "attitude",
       "tvd": 0.075,
       "mae_pp": 3.0,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.11,
+        0.22,
+        0.6,
+        0.05
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__sex_men__r1",
@@ -268,7 +345,14 @@
       "evidence_type": "attitude",
       "tvd": 0.11,
       "mae_pp": 4.4,
-      "released_values_public": false
+      "released": [
+        0.03,
+        0.11,
+        0.18,
+        0.65,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__sex_women__r1",
@@ -281,7 +365,14 @@
       "evidence_type": "attitude",
       "tvd": 0.05,
       "mae_pp": 2.0,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.11,
+        0.25,
+        0.56,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__age_18_24__r1",
@@ -294,7 +385,14 @@
       "evidence_type": "attitude",
       "tvd": 0.115,
       "mae_pp": 4.6,
-      "released_values_public": false
+      "released": [
+        0.05,
+        0.13,
+        0.4,
+        0.34,
+        0.08
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__age_65_plus__r1",
@@ -307,7 +405,14 @@
       "evidence_type": "attitude",
       "tvd": 0.108,
       "mae_pp": 4.32,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.12,
+        0.23,
+        0.6,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__overall__r1",
@@ -320,7 +425,14 @@
       "evidence_type": "attitude",
       "tvd": 0.0375,
       "mae_pp": 1.5,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.15,
+        0.27,
+        0.46,
+        0.1
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__sex_men__r1",
@@ -333,7 +445,14 @@
       "evidence_type": "attitude",
       "tvd": 0.045,
       "mae_pp": 1.8,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.16,
+        0.25,
+        0.51,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__sex_women__r1",
@@ -346,7 +465,14 @@
       "evidence_type": "attitude",
       "tvd": 0.04,
       "mae_pp": 1.6,
-      "released_values_public": false
+      "released": [
+        0.01,
+        0.14,
+        0.3,
+        0.41,
+        0.14
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__age_18_24__r1",
@@ -359,7 +485,14 @@
       "evidence_type": "attitude",
       "tvd": 0.122172,
       "mae_pp": 4.886869,
-      "released_values_public": false
+      "released": [
+        0.0,
+        0.1111111111111111,
+        0.29292929292929293,
+        0.42424242424242425,
+        0.1717171717171717
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__age_65_plus__r1",
@@ -372,7 +505,14 @@
       "evidence_type": "attitude",
       "tvd": 0.0925,
       "mae_pp": 3.7,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.18,
+        0.34,
+        0.39,
+        0.07
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__overall__r1",
@@ -385,7 +525,14 @@
       "evidence_type": "attitude",
       "tvd": 0.1025,
       "mae_pp": 4.1,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.11,
+        0.22,
+        0.6,
+        0.05
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__sex_men__r1",
@@ -398,7 +545,14 @@
       "evidence_type": "attitude",
       "tvd": 0.19,
       "mae_pp": 7.6,
-      "released_values_public": false
+      "released": [
+        0.03,
+        0.11,
+        0.18,
+        0.65,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__sex_women__r1",
@@ -411,7 +565,14 @@
       "evidence_type": "attitude",
       "tvd": 0.115,
       "mae_pp": 4.6,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.11,
+        0.25,
+        0.56,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__age_18_24__r1",
@@ -424,7 +585,14 @@
       "evidence_type": "attitude",
       "tvd": 0.1025,
       "mae_pp": 4.1,
-      "released_values_public": false
+      "released": [
+        0.05,
+        0.13,
+        0.4,
+        0.34,
+        0.08
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__age_65_plus__r1",
@@ -437,7 +605,14 @@
       "evidence_type": "attitude",
       "tvd": 0.19,
       "mae_pp": 7.6,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.12,
+        0.23,
+        0.6,
+        0.03
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__overall__r1",
@@ -450,7 +625,14 @@
       "evidence_type": "attitude",
       "tvd": 0.055,
       "mae_pp": 2.2,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.15,
+        0.27,
+        0.46,
+        0.1
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__sex_men__r1",
@@ -463,7 +645,14 @@
       "evidence_type": "attitude",
       "tvd": 0.14,
       "mae_pp": 5.6,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.16,
+        0.25,
+        0.51,
+        0.06
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__sex_women__r1",
@@ -476,7 +665,14 @@
       "evidence_type": "attitude",
       "tvd": 0.0825,
       "mae_pp": 3.3,
-      "released_values_public": false
+      "released": [
+        0.01,
+        0.14,
+        0.3,
+        0.41,
+        0.14
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__age_18_24__r1",
@@ -489,7 +685,14 @@
       "evidence_type": "attitude",
       "tvd": 0.12846,
       "mae_pp": 5.138384,
-      "released_values_public": false
+      "released": [
+        0.0,
+        0.1111111111111111,
+        0.29292929292929293,
+        0.42424242424242425,
+        0.1717171717171717
+      ],
+      "released_values_public": true
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__age_65_plus__r1",
@@ -502,7 +705,14 @@
       "evidence_type": "attitude",
       "tvd": 0.11,
       "mae_pp": 4.4,
-      "released_values_public": false
+      "released": [
+        0.02,
+        0.18,
+        0.34,
+        0.39,
+        0.07
+      ],
+      "released_values_public": true
     }
   ]
 }
