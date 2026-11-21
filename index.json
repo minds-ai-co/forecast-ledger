@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-21T01:01:01Z",
+  "as_of": "2026-11-21T01:22:38Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-21T00:26:55Z",
   "chain_head_sha256": "c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42",
@@ -846,7 +846,14 @@
       "target_id": "fr-elabe-observatoire-2026-10-27",
       "survey": "Elabe for Les Echos, L'Observatoire politique (monthly confidence barometer for the President and the Prime Minister)",
       "publisher": "Elabe for Les Echos",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/elabe.png",
+          "alt": "Elabe",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "display": {
         "label": "Political Approval",
         "country": "France",
@@ -930,7 +937,14 @@
       "target_id": "us-census-htops-2609-healthinfo",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), healthinfo items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Health Information",
         "country": "United States",
@@ -1032,7 +1046,14 @@
       "target_id": "us-census-htops-2609-trust-a",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-a items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Trust in Institutions",
         "country": "United States",
@@ -1134,7 +1155,14 @@
       "target_id": "us-census-htops-2609-trust-b",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-b items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Trust in Institutions",
         "country": "United States",
@@ -1236,7 +1264,14 @@
       "target_id": "us-census-htops-2609-wellbeing",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), wellbeing items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Wellbeing",
         "country": "United States",
@@ -1613,7 +1648,14 @@
       "target_id": "us-npr-pbs-marist-2026-10-26",
       "survey": "NPR/PBS News/Marist Poll (national, US registered voters)",
       "publisher": "Marist Institute for Public Opinion (Marist Poll) with NPR and PBS News",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/marist.png",
+          "alt": "Marist Poll",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "display": {
         "label": "Political Opinions",
         "country": "United States",
@@ -1699,7 +1741,14 @@
       "target_id": "us-quinnipiac-national-2026-10-26",
       "survey": "Quinnipiac University Poll, national (US registered voters)",
       "publisher": "Quinnipiac University Poll",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/quinnipiac.png",
+          "alt": "Quinnipiac University Poll",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "display": {
         "label": "Political Approval",
         "country": "United States",
@@ -2244,7 +2293,14 @@
       "target_id": "us-census-htops-2611-healthinfo",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), healthinfo items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Health Information",
         "country": "United States",
@@ -2346,7 +2402,14 @@
       "target_id": "us-census-htops-2611-trust-a",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-a items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Trust in Institutions",
         "country": "United States",
@@ -2448,7 +2511,14 @@
       "target_id": "us-census-htops-2611-trust-b",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), trust-b items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Trust in Institutions",
         "country": "United States",
@@ -2550,7 +2620,14 @@
       "target_id": "us-census-htops-2611-wellbeing",
       "survey": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS), wellbeing items of the AS harness task htops_2607",
       "publisher": "US Census Bureau",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Wellbeing",
         "country": "United States",
@@ -3296,7 +3373,20 @@
       "target_id": "gb-freshwater-cityam-2026-11-06",
       "survey": "City AM / Freshwater Strategy monthly UK poll (Westminster voting intention, preferred PM, direction of the country, economic expectations)",
       "publisher": "Freshwater Strategy for City AM",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/freshwater-strategy.png",
+          "alt": "Freshwater Strategy",
+          "width": 171,
+          "height": 198
+        },
+        {
+          "src": "/assets/source-logos/city-am.png",
+          "alt": "City AM",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "display": {
         "label": "Political Opinions",
         "country": "United Kingdom",
@@ -3416,7 +3506,14 @@
       "target_id": "gb-moreincommon-vi-2026-10-30",
       "survey": "More in Common GB Voting Intention & Trackers (weekly)",
       "publisher": "More in Common UK",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/more-in-common.png",
+          "alt": "More in Common",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "display": {
         "label": "Political Opinions",
         "country": "United Kingdom",
@@ -3806,7 +3903,14 @@
       "target_id": "ch-gfsbern-srgtrend-2026-11-04",
       "survey": "SRG SSR Trendumfrage (gfs.bern), 2nd wave before the Swiss federal popular votes of 29 November 2026",
       "publisher": "gfs.bern for SRG SSR (CR-Konferenz der SRG SSR)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/gfs-bern.png",
+          "alt": "gfs.bern",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "display": {
         "label": "Referendum Intentions",
         "country": "Switzerland",
@@ -4001,7 +4105,14 @@
       "target_id": "us-gallup-2026-11",
       "survey": "Gallup Poll Social Series, monthly (U.S. satisfaction, Economic Confidence Index components, most important problem)",
       "publisher": "Gallup",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/gallup.png",
+          "alt": "Gallup",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "display": {
         "label": "Political Approval",
         "country": "United States",
@@ -4471,7 +4582,14 @@
       "target_id": "us-gallup-holiday-spending-2026-11",
       "survey": "Gallup Poll Social Series, November: Christmas / holiday gift spending estimate",
       "publisher": "Gallup",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/gallup.png",
+          "alt": "Gallup",
+          "width": 180,
+          "height": 180
+        }
+      ],
       "display": {
         "label": "Holiday Spending",
         "country": "United States",
@@ -4746,7 +4864,14 @@
       "target_id": "global-steam-weekly-topsellers-2026-11-10",
       "survey": "Steam weekly top sellers, global, by gross revenue (Borda rank shares of the top 10)",
       "publisher": "Valve (Steam store charts and IStoreTopSellersService API, free, no login or key)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/steam.png",
+          "alt": "Steam",
+          "width": 256,
+          "height": 256
+        }
+      ],
       "display": {
         "label": "Game Sales",
         "country": "Global",
@@ -5033,7 +5158,14 @@
       "target_id": "de-allensbach-faz-2026-11",
       "survey": "Institut für Demoskopie Allensbach Sonntagsfrage for the Frankfurter Allgemeine Zeitung",
       "publisher": "Institut für Demoskopie Allensbach for the Frankfurter Allgemeine Zeitung (FAZ)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/allensbach.png",
+          "alt": "Institut für Demoskopie Allensbach",
+          "width": 215,
+          "height": 50
+        }
+      ],
       "display": {
         "label": "Voting Intentions",
         "country": "Germany",
@@ -5420,7 +5552,14 @@
       "target_id": "de-verian-bams-2026-11",
       "survey": "Verian (formerly Emnid) Sonntagsfrage for Bild am Sonntag",
       "publisher": "Verian (formerly Kantar Public / Emnid) for Bild am Sonntag",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/verian.png",
+          "alt": "Verian",
+          "width": 344,
+          "height": 301
+        }
+      ],
       "display": {
         "label": "Voting Intentions",
         "country": "Germany",
@@ -6098,7 +6237,14 @@
       "target_id": "us-voter-poll-ssrs-2026",
       "survey": "The Voter Poll by SSRS (2026 US midterm voters; national results)",
       "publisher": "SSRS for ABC News, The Associated Press, CBS News, CNN, Fox News, MS NOW and NBC News",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ssrs.png",
+          "alt": "SSRS",
+          "width": 64,
+          "height": 64
+        }
+      ],
       "display": {
         "label": "Political Opinions",
         "country": "United States",
@@ -6273,7 +6419,14 @@
       "target_id": "us-turnout-vep-2026",
       "survey": "US 2026 general election turnout (voting-eligible population)",
       "publisher": "UF Election Lab / US Elections Project (Michael McDonald)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/uf-election-lab.png",
+          "alt": "UF Election Lab",
+          "width": 48,
+          "height": 48
+        }
+      ],
       "display": {
         "label": "Voter Turnout",
         "country": "United States",
@@ -6780,7 +6933,14 @@
       "target_id": "us-boxoffice-weekend-2026-11-06",
       "survey": "US and Canada (domestic) weekend box office: share of gross by film",
       "publisher": "Box Office Mojo (IMDbPro) / studio reports",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/box-office-mojo.png",
+          "alt": "Box Office Mojo",
+          "width": 640,
+          "height": 480
+        }
+      ],
       "display": {
         "label": "Box Office",
         "country": "United States & Canada",
@@ -7089,7 +7249,14 @@
       "target_id": "jp-nhk-seiji-ishiki-2026-11-05",
       "survey": "NHK 政治意識月例電話調査 (NHK monthly political opinion telephone poll: cabinet support, party support and reasons)",
       "publisher": "NHK (Japan Broadcasting Corporation), NHK選挙WEB",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/nhk.png",
+          "alt": "NHK",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "display": {
         "label": "Political Approval",
         "country": "Japan",
@@ -8067,7 +8234,14 @@
       "target_id": "us-umich-sca-2026-11",
       "survey": "University of Michigan Surveys of Consumers (monthly), November 2026, five core questions",
       "publisher": "Survey Research Center, University of Michigan",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/umich-surveys-of-consumers.png",
+          "alt": "University of Michigan Surveys of Consumers",
+          "width": 923,
+          "height": 117
+        }
+      ],
       "display": {
         "label": "Consumer Confidence",
         "country": "United States",
@@ -9067,7 +9241,20 @@
       "target_id": "de-zdf-politbarometer-2026-11-13",
       "survey": "ZDF-Politbarometer (Forschungsgruppe Wahlen)",
       "publisher": "Forschungsgruppe Wahlen e.V. for ZDF",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/zdf.png",
+          "alt": "ZDF",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "src": "/assets/source-logos/forschungsgruppe-wahlen.png",
+          "alt": "Forschungsgruppe Wahlen",
+          "width": 32,
+          "height": 32
+        }
+      ],
       "display": {
         "label": "Political Opinions",
         "country": "Germany",
@@ -9768,7 +9955,14 @@
       "target_id": "us-nrf-prosper-thanksgiving-weekend-2026",
       "survey": "NRF / Prosper Insights & Analytics Thanksgiving holiday weekend consumer survey (US adults)",
       "publisher": "National Retail Federation with Prosper Insights & Analytics",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/nrf.png",
+          "alt": "National Retail Federation",
+          "width": 48,
+          "height": 48
+        }
+      ],
       "display": {
         "label": "NRF / Prosper Insights & Analytics Thanksgiving holiday weekend consumer survey",
         "country": "United States",
@@ -10058,7 +10252,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-20T20:15:39+00:00",
-    "checked_at": "2026-11-21T00:05:46.531100+00:00",
+    "checked_at": "2026-11-21T01:05:18.853555+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
