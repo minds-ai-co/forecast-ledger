@@ -6,10 +6,6 @@
       "label": "All topics"
     },
     {
-      "id": "Advertising",
-      "label": "Advertising"
-    },
-    {
       "id": "B2B",
       "label": "B2B"
     },
@@ -45,7 +41,7 @@
   "charts": {
     "all": {
       "label": "All topics",
-      "surveys": 49,
+      "surveys": 42,
       "target_ids": [
         "at-ec-ipsos-consumer-survey-2026-10",
         "ch-gfsbern-srgtrend-2026-11-04",
@@ -72,13 +68,6 @@
         "gb-opinium-observer-2026-10-28",
         "gb-opinium-observer-2026-11-04",
         "gb-smmt-car-registrations-marque-2026-10",
-        "gb-system1-xmas-2026-aldi",
-        "gb-system1-xmas-2026-barbour",
-        "gb-system1-xmas-2026-john-lewis",
-        "gb-system1-xmas-2026-lidl",
-        "gb-system1-xmas-2026-ms",
-        "gb-system1-xmas-2026-sainsburys",
-        "gb-system1-xmas-2026-tesco",
         "gb-yougov-trackers-2026-10-25",
         "gb-yougov-trackers-2026-11-01",
         "global-netflix-top10-english-2026-11-01",
@@ -97,7 +86,7 @@
         "us-reuters-ipsos-2026-10-26",
         "us-voter-poll-ssrs-2026"
       ],
-      "counts": "49 surveys; Behaviour 8, Attitude 33, Stated intent 24",
+      "counts": "42 surveys; Behaviour 8, Attitude 26, Stated intent 24",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -155,73 +144,73 @@
                   "id": "2026-11-04",
                   "x": 20761,
                   "label": "4 Nov",
-                  "value": 0.109243
+                  "value": 0.074436
                 },
                 {
                   "id": "2026-11-05",
                   "x": 20762,
                   "label": "5 Nov",
-                  "value": 0.098811
+                  "value": 0.068957
                 },
                 {
                   "id": "2026-11-06",
                   "x": 20763,
                   "label": "6 Nov",
-                  "value": 0.094842
+                  "value": 0.066979
                 },
                 {
                   "id": "2026-11-07",
                   "x": 20764,
                   "label": "7 Nov",
-                  "value": 0.092821
+                  "value": 0.065849
                 },
                 {
                   "id": "2026-11-10",
                   "x": 20767,
                   "label": "10 Nov",
-                  "value": 0.094113
+                  "value": 0.06971
                 },
                 {
                   "id": "2026-11-12",
                   "x": 20769,
                   "label": "12 Nov",
-                  "value": 0.181021
+                  "value": 0.064234
                 },
                 {
                   "id": "2026-11-13",
                   "x": 20770,
                   "label": "13 Nov",
-                  "value": 0.177674
+                  "value": 0.06341
                 },
                 {
                   "id": "2026-11-14",
                   "x": 20771,
                   "label": "14 Nov",
-                  "value": 0.174337
+                  "value": 0.062465
                 },
                 {
                   "id": "2026-11-18",
                   "x": 20775,
                   "label": "18 Nov",
-                  "value": 0.171547
+                  "value": 0.062043
                 },
                 {
                   "id": "2026-11-19",
                   "x": 20776,
                   "label": "19 Nov",
-                  "value": 0.168422
+                  "value": 0.061108
                 },
                 {
                   "id": "2026-11-20",
                   "x": 20777,
                   "label": "20 Nov",
-                  "value": 0.165356
+                  "value": 0.060136
                 },
                 {
                   "id": "2026-11-21",
                   "x": 20778,
                   "label": "21 Nov",
-                  "value": 0.165868
+                  "value": 0.063239
                 }
               ],
               "emphasis": "primary"
@@ -354,73 +343,73 @@
                   "id": "2026-11-04",
                   "x": 20761,
                   "label": "4 Nov",
-                  "value": 0.08367
+                  "value": 0.030915
                 },
                 {
                   "id": "2026-11-05",
                   "x": 20762,
                   "label": "5 Nov",
-                  "value": 0.076086
+                  "value": 0.031701
                 },
                 {
                   "id": "2026-11-06",
                   "x": 20763,
                   "label": "6 Nov",
-                  "value": 0.075329
+                  "value": 0.033241
                 },
                 {
                   "id": "2026-11-07",
                   "x": 20764,
                   "label": "7 Nov",
-                  "value": 0.073581
+                  "value": 0.03351
                 },
                 {
                   "id": "2026-11-10",
                   "x": 20767,
                   "label": "10 Nov",
-                  "value": 0.073581
+                  "value": 0.03351
                 },
                 {
                   "id": "2026-11-12",
                   "x": 20769,
                   "label": "12 Nov",
-                  "value": 0.200755
+                  "value": 0.031329
                 },
                 {
                   "id": "2026-11-13",
                   "x": 20770,
                   "label": "13 Nov",
-                  "value": 0.19536
+                  "value": 0.031201
                 },
                 {
                   "id": "2026-11-14",
                   "x": 20771,
                   "label": "14 Nov",
-                  "value": 0.190273
+                  "value": 0.031058
                 },
                 {
                   "id": "2026-11-18",
                   "x": 20775,
                   "label": "18 Nov",
-                  "value": 0.190273
+                  "value": 0.031058
                 },
                 {
                   "id": "2026-11-19",
                   "x": 20776,
                   "label": "19 Nov",
-                  "value": 0.190273
+                  "value": 0.031058
                 },
                 {
                   "id": "2026-11-20",
                   "x": 20777,
                   "label": "20 Nov",
-                  "value": 0.190273
+                  "value": 0.031058
                 },
                 {
                   "id": "2026-11-21",
                   "x": 20778,
                   "label": "21 Nov",
-                  "value": 0.190273
+                  "value": 0.031058
                 }
               ]
             },
@@ -535,76 +524,6 @@
                   "x": 20778,
                   "label": "21 Nov",
                   "value": 0.024022
-                }
-              ]
-            }
-          ],
-          "highlightedSeriesId": "combined",
-          "xLabel": "Result release date (UTC)",
-          "yLabel": "Average error so far (TVD)"
-        }
-      }
-    },
-    "Advertising": {
-      "label": "Advertising",
-      "surveys": 7,
-      "target_ids": [
-        "gb-system1-xmas-2026-aldi",
-        "gb-system1-xmas-2026-barbour",
-        "gb-system1-xmas-2026-john-lewis",
-        "gb-system1-xmas-2026-lidl",
-        "gb-system1-xmas-2026-ms",
-        "gb-system1-xmas-2026-sainsburys",
-        "gb-system1-xmas-2026-tesco"
-      ],
-      "counts": "7 surveys; Attitude 7",
-      "props": {
-        "locale": "en-GB",
-        "missingValueLabel": "no surveys yet",
-        "chart": {
-          "kind": "line",
-          "label": "",
-          "unit": "number",
-          "scaleRange": [
-            0,
-            1.0
-          ],
-          "data": [],
-          "series": [
-            {
-              "id": "combined",
-              "label": "Combined",
-              "data": [
-                {
-                  "id": "2026-11-04",
-                  "x": 20761,
-                  "label": "4 Nov",
-                  "value": 0.875
-                },
-                {
-                  "id": "2026-11-12",
-                  "x": 20769,
-                  "label": "12 Nov",
-                  "value": 0.781643
-                }
-              ],
-              "emphasis": "primary"
-            },
-            {
-              "id": "attitude",
-              "label": "Attitude",
-              "data": [
-                {
-                  "id": "2026-11-04",
-                  "x": 20761,
-                  "label": "4 Nov",
-                  "value": 0.875
-                },
-                {
-                  "id": "2026-11-12",
-                  "x": 20769,
-                  "label": "12 Nov",
-                  "value": 0.781643
                 }
               ]
             }

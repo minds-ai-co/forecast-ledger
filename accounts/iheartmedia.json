@@ -25,24 +25,7 @@
   },
   "predicted": {
     "heading": "Which shows and songs would listeners pick?",
-    "lead": "We played 8 new iHeartPodcasts launches and 7 new songs to 30 Minds built on iHeart listeners: each podcast with its cover art and official trailer, each song with its cover and frames from a minute of its official music video. Then we compared their answers with how each title actually did: its peak in Apple Podcasts’ Top New Shows, or on the Billboard Hot 100.",
-    "stats": [
-      {
-        "label": "Hit podcasts picked",
-        "value": "5 of 6",
-        "comparison": "of the launches that reached Apple’s Top New Shows top 10 were among Minds’ top 6"
-      },
-      {
-        "label": "Charting songs picked",
-        "value": "2 of 4",
-        "comparison": "of the songs that entered the Billboard Hot 100 were among Minds’ top 4"
-      },
-      {
-        "label": "Head-to-head calls",
-        "value": "73%",
-        "comparison": "of title pairs called right: which of two did better (30 of 41)"
-      }
-    ]
+    "lead": "We played 8 new iHeartPodcasts launches and 7 new songs to 30 Minds built on iHeart listeners: each podcast with its cover art and official trailer, each song with its cover and frames from a minute of its official music video. Then we compared their answers with how each title actually did: its peak in Apple Podcasts’ Top New Shows, or on the Billboard Hot 100."
   },
   "scorecard": {
     "pairs_right": "30 of 41",
@@ -1483,5 +1466,18 @@
     "photo": "https://getminds.ai/images/team-portraits/jerome-salow.webp",
     "email": "jerome@getminds.ai",
     "booking_url": "https://getminds.ai/"
+  },
+  "metrics": {
+    "groups": {
+      "podcast_launch": {
+        "hit_label": "Hit podcasts picked",
+        "hit_comparison": "of the launches that reached Apple’s Top New Shows top 10 were among Minds’ top {n}"
+      },
+      "song": {
+        "hit_label": "Charting songs picked",
+        "hit_comparison": "of the songs that entered the Billboard Hot 100 were among Minds’ top {n}"
+      }
+    },
+    "pairs_comparison": "of title pairs called right: which of two did better ({right} of {total})"
   }
 }

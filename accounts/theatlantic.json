@@ -892,19 +892,18 @@
   "tagline": "Test headlines, images and story mix on a simulated Atlantic readership before you publish.",
   "predicted": {
     "heading": "Which stories would readers click?",
-    "lead": "We showed 30 Minds built on Atlantic readers 16 homepage stories from August to November 2026, each as headline, subhead and lead image, and asked how likely they were to click. Then we compared their answers with how long each story actually held a place in the homepage Popular list.",
-    "stats": [
-      {
-        "label": "Top stories picked",
-        "value": "2 of 3",
-        "comparison": "of the three longest-running Popular stories were in Minds' top three"
-      },
-      {
-        "label": "Head-to-head calls",
-        "value": "59%",
-        "comparison": "of story pairs called right: which of two stays in Popular longer (64 of 108)"
-      }
-    ]
+    "lead": "We showed 30 Minds built on Atlantic readers 16 homepage stories from August to November 2026, each as headline, subhead and lead image, and asked how likely they were to click. Then we compared their answers with how long each story actually held a place in the homepage Popular list."
   },
-  "responses_url": "/accounts/theatlantic/responses.json"
+  "responses_url": "/accounts/theatlantic/responses.json",
+  "metrics": {
+    "groups": {
+      "all": {
+        "top_k": 3,
+        "hit_label": "Top stories picked",
+        "hit_comparison": "of the {n} longest-running Popular stories were in Minds' top {n}"
+      }
+    },
+    "pairs_comparison": "of story pairs called right: which of two stays in Popular longer ({right} of {total})",
+    "outcome": "days_in_popular"
+  }
 }

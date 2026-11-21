@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-21T15:51:25Z",
+  "as_of": "2026-11-21T16:19:45Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-21T07:45:11Z",
   "chain_head_sha256": "c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42",
@@ -62,11 +62,23 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 49,
-      "questions": 167,
-      "tvd": 0.078026,
-      "mae_pp": 2.20452,
-      "pearson_r": 0.89186
+      "surveys": 42,
+      "questions": 160,
+      "tvd": 0.047243,
+      "mae_pp": 1.541037,
+      "pearson_r": 0.98222
+    },
+    "ratings": {
+      "surveys": 7,
+      "questions": 7,
+      "units": [
+        "System1 stars"
+      ],
+      "accuracy": 0.845849,
+      "mean_error": -0.755339,
+      "mean_abs_error": 0.755339,
+      "pairs_right": 12,
+      "pairs_total": 14
     },
     "locked_before_fieldwork": {
       "surveys": 22,
@@ -77,11 +89,11 @@
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 33,
-        "questions": 118,
-        "tvd": 0.077537,
-        "mae_pp": 2.446894,
-        "pearson_r": 0.868895
+        "surveys": 26,
+        "questions": 111,
+        "tvd": 0.033134,
+        "mae_pp": 1.505807,
+        "pearson_r": 0.993335
       },
       "stated_intent": {
         "surveys": 24,
@@ -103,11 +115,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 665,
         "scored": {
-          "surveys": 50,
-          "questions": 165,
-          "tvd": 0.141944,
-          "mae_pp": 4.73958,
-          "pearson_r": 0.817653
+          "surveys": 43,
+          "questions": 158,
+          "tvd": 0.106043,
+          "mae_pp": 4.012009,
+          "pearson_r": 0.938759
         }
       },
       "cellsS": {
@@ -6815,19 +6827,18 @@
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 1,
-          "tvd_sum": 0.969,
-          "mae_pp_sum": 21.533333333,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.247699,
-          "syy": 1.0,
-          "sxy": 0.031
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 4.44225,
+          "actual": 5.7
         }
-      }
+      ]
     },
     {
       "target_id": "us-voter-poll-ssrs-2026",
@@ -7023,19 +7034,18 @@
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 1,
-          "tvd_sum": 0.89,
-          "mae_pp_sum": 19.777777778,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.238208,
-          "syy": 1.0,
-          "sxy": 0.11
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 5.1305,
+          "actual": 5.9
         }
-      }
+      ]
     },
     {
       "target_id": "us-turnout-vep-2026",
@@ -8327,19 +8337,18 @@
           "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 1,
-          "tvd_sum": 0.875,
-          "mae_pp_sum": 19.444444444,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.241301,
-          "syy": 1.0,
-          "sxy": 0.125
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 4.87225,
+          "actual": 5.6
         }
-      }
+      ]
     },
     {
       "target_id": "gb-system1-xmas-2026-asda",
@@ -8640,19 +8649,18 @@
           "bitcoin_block_merkle_root": "bbe7b4785b1855638ba4a9bb001e722851ae71ae8295cad5f845ff5fa58e21c2"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 1,
-          "tvd_sum": 0.915,
-          "mae_pp_sum": 20.333333333,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1749,
-          "syy": 1.0,
-          "sxy": 0.085
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 4.51425,
+          "actual": 5.7
         }
-      }
+      ]
     },
     {
       "target_id": "de-insa-meinungstrend-2026-11-10",
@@ -9287,19 +9295,18 @@
           "bitcoin_block_merkle_root": "a95b2a77d3bef045c24ada287631ce15cc9257ff877c6b267376f0182377ccbc"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 1,
-          "tvd_sum": 0.35,
-          "mae_pp_sum": 7.777777778,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.476622,
-          "syy": 1.0,
-          "sxy": 0.65
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 5.660625,
+          "actual": 5.9
         }
-      }
+      ]
     },
     {
       "target_id": "gb-system1-xmas-2026-amazon",
@@ -9450,19 +9457,18 @@
           "bitcoin_block_merkle_root": "49863c91afe3bd3488c4bc89baa2d8a21863da893aa07a60e89bf20e7b708b90"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 1,
-          "tvd_sum": 0.7225,
-          "mae_pp_sum": 16.055555556,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.286113,
-          "syy": 1.0,
-          "sxy": 0.2775
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 5.433875,
+          "actual": 5.9
         }
-      }
+      ]
     },
     {
       "target_id": "gb-system1-xmas-2026-lego",
@@ -9988,19 +9994,18 @@
           "bitcoin_block_merkle_root": "90a9fcf44ba18c596cc4fe555a6cfd8582c33c4e4fa48aa0d2aed799ba0ccf3f"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 1,
-          "tvd_sum": 0.75,
-          "mae_pp_sum": 16.666666667,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.21731,
-          "syy": 1.0,
-          "sxy": 0.25
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 5.258875,
+          "actual": 5.9
         }
-      }
+      ]
     },
     {
       "target_id": "de-zdf-politbarometer-2026-11-13",
@@ -11065,7 +11070,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-21T07:04:54+00:00",
-    "checked_at": "2026-11-21T15:05:10.848617+00:00",
+    "checked_at": "2026-11-21T16:05:48.615796+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
