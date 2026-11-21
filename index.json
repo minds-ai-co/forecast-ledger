@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-21T01:22:38Z",
+  "as_of": "2026-11-21T08:15:21Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-21T00:26:55Z",
+  "latest_event_at": "2026-11-21T07:45:11Z",
   "chain_head_sha256": "c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42",
   "proof_only_entries": 6,
   "counts": {
     "targets": 101,
-    "targets_scored": 49,
-    "targets_pending": 49,
+    "targets_scored": 51,
+    "targets_pending": 47,
     "targets_not_scoreable": 3,
     "entries": 2657,
     "batches": 321,
-    "entries_scored": 1310,
-    "entries_pending": 1110,
+    "entries_scored": 1312,
+    "entries_pending": 1108,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -103,11 +103,11 @@
         "label": "Additional research forecast (pure)",
         "forecasts_locked": 665,
         "scored": {
-          "surveys": 48,
-          "questions": 163,
-          "tvd": 0.140357,
-          "mae_pp": 4.73721,
-          "pearson_r": 0.81505
+          "surveys": 50,
+          "questions": 165,
+          "tvd": 0.141944,
+          "mae_pp": 4.73958,
+          "pearson_r": 0.817653
         }
       },
       "cellsS": {
@@ -592,17 +592,17 @@
     "behaviour": {
       "pure": {
         "overall": {
-          "n": 10,
-          "n_distribution": 10,
-          "tvd": 0.347211,
-          "mae_pp": 4.924762
+          "n": 12,
+          "n_distribution": 12,
+          "tvd": 0.334559,
+          "mae_pp": 4.926092
         },
         "subgroups": null,
         "all": {
-          "n": 10,
-          "n_distribution": 10,
-          "tvd": 0.347211,
-          "mae_pp": 4.924762
+          "n": 12,
+          "n_distribution": 12,
+          "tvd": 0.334559,
+          "mae_pp": 4.926092
         }
       },
       "anchored3": {
@@ -9423,16 +9423,16 @@
         ]
       },
       "wave": "2026-11-19",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-12T23:00:00Z",
       "first_lock_utc": "2026-11-09T23:57:27Z",
-      "released_at": null,
+      "released_at": "2026-11-21T07:45:06Z",
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
@@ -9441,7 +9441,7 @@
       "forecasts": {
         "pure": "forecasts/spotify-de-weekly-2026-11-19-measurement-v2/pure.json"
       },
-      "results": null,
+      "results": "results/spotify-de-weekly-2026-11-19-measurement-v2.json",
       "batches": [
         {
           "batch_id": "spotify-de-weekly-2026-11-19-measurement-v2__20261109T235727481777Z__s2459",
@@ -9482,16 +9482,16 @@
         ]
       },
       "wave": "2026-11-19",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-12T23:00:00Z",
       "first_lock_utc": "2026-11-09T23:58:55Z",
-      "released_at": null,
+      "released_at": "2026-11-21T07:45:10Z",
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
@@ -9500,7 +9500,7 @@
       "forecasts": {
         "pure": "forecasts/spotify-us-weekly-2026-11-19-measurement-v2/pure.json"
       },
-      "results": null,
+      "results": "results/spotify-us-weekly-2026-11-19-measurement-v2.json",
       "batches": [
         {
           "batch_id": "spotify-us-weekly-2026-11-19-measurement-v2__20261109T235855991009Z__s2460",
@@ -10251,15 +10251,15 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-20T20:15:39+00:00",
-    "checked_at": "2026-11-21T01:05:18.853555+00:00",
+    "source_generated_at": "2026-11-21T07:04:54+00:00",
+    "checked_at": "2026-11-21T08:05:57.349424+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
       "rank": 25,
       "methods": 28,
       "answered": 12,
-      "scored_questions": 153
+      "scored_questions": 154
     },
     "profiles": [
       {

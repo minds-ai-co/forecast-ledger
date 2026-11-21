@@ -1,0 +1,57 @@
+{
+  "target_id": "spotify-us-weekly-2026-11-19-measurement-v2",
+  "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
+  "status": "scored",
+  "released_at": "2026-11-21T07:45:10Z",
+  "source_url": "https://kworb.net/spotify/country/us_weekly.html",
+  "scored_at": "2026-11-21T07:45:11Z",
+  "results_sha256": "ccae68b302b29a216500030a633626362f5b9ba14d74bcd6593e27e9159e6062",
+  "released_values_public": false,
+  "licence_note": "Publication permission for these result values has not been established.",
+  "publication": {
+    "status": "unverified",
+    "note": "Publication permission for these result values has not been established.",
+    "terms": []
+  },
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.191977,
+      "mae_pp": 3.4905
+    }
+  },
+  "summary_by_evidence_type": {
+    "behaviour": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.191977,
+          "mae_pp": 3.4905
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.191977,
+          "mae_pp": 3.4905
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "spotify-us-weekly-2026-11-19-measurement-v2__top10_volume_share__overall__r1",
+      "entry_sha256": "14434fa0fc3f26387ca01251e6b4ead0642f00124f1ea894614953cf8ff63ab7",
+      "variant": "pure",
+      "question_id": "top10_volume_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.191977,
+      "mae_pp": 3.4905,
+      "released_values_public": false
+    }
+  ]
+}
