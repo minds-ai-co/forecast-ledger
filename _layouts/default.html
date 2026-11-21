@@ -3,23 +3,25 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="forecast-ledger-version" content="b6b53fc2773f7dc5">
+<meta name="forecast-ledger-version" content="2d300d1e6c3be0d7">
 <title>{{ site.title }}</title>
 <meta name="description" content="{{ site.description }}">
 <link rel="icon" href="{{ '/assets/favicon-light.svg' | relative_url }}" type="image/svg+xml">
-<link rel="stylesheet" href="{{ '/assets/css/minds.css' | relative_url }}?v=b6b53fc2773f7dc5">
-<script type="module" src="{{ '/assets/js/timeline.js' | relative_url }}?v=b6b53fc2773f7dc5"></script>
+<link rel="stylesheet" href="{{ '/assets/css/minds.css' | relative_url }}?v=2d300d1e6c3be0d7">
+<script type="module" src="{{ '/assets/js/timeline.js' | relative_url }}?v=2d300d1e6c3be0d7"></script>
+<style>.ledger-shell-ready [data-ledger-static],.ledger-shell-ready [data-ledger-static-main]{display:none}.ledger-shell-ready #ledger-shell{height:100dvh}</style>
 </head>
 <body class="bg-background text-foreground">
-<header class="container-wide pt-8 pb-6">
+<div id="ledger-shell"></div>
+<header class="container-wide pt-8 pb-6" data-ledger-static>
 <a href="https://getminds.ai/" class="inline-block" aria-label="Minds"><img src="{{ '/assets/logo-full.svg' | relative_url }}" alt="Minds" class="h-5 w-auto"></a>
 </header>
-<main class="container-wide pb-16">
-<article class="prose article-prose max-w-none ledger-prose">
+<main class="container-wide pb-16" data-ledger-static-main>
+<article class="prose article-prose max-w-none ledger-prose" data-ledger-article>
 {{ content }}
 </article>
 </main>
-<footer class="container-wide pb-10 text-xs text-text-grey">
+<footer class="container-wide pb-10 text-xs text-text-grey" data-ledger-static>
 <div class="border-t border-input pt-4">Minds forecast ledger. Every forecast is hashed and timestamped before the result exists.</div>
 </footer>
 </body>
