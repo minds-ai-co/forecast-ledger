@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-21T16:58:03Z",
+  "as_of": "2026-11-21T17:18:34Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-21T07:45:11Z",
   "chain_head_sha256": "c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42",
@@ -239,6 +239,20 @@
           "wasserstein": 0.059066
         }
       }
+    },
+    "approximation": {
+      "value": 0.961078,
+      "series": 43,
+      "surveys": 49,
+      "questions": 167,
+      "weighting": "each series weighted equally; questions averaged within a series"
+    },
+    "subgroup_approximation": {
+      "value": 0.97854,
+      "series": 8,
+      "surveys": 10,
+      "questions": 198,
+      "weighting": "each series weighted equally; questions averaged within a series"
     }
   },
   "evidence_classes": {
@@ -805,34 +819,242 @@
           "bitcoin_block_merkle_root": "7831eb58df04094f7a2cd209c99c82854e801cc923d284d80458140f1b3515ad"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 7,
-          "tvd_sum": 0.184611111,
-          "mae_pp_sum": 7.221111111,
-          "ordinal": 3,
-          "wasserstein_sum": 0.019580546,
-          "n": 38,
-          "sx": 7.0,
-          "sy": 7.0,
-          "sxx": 2.495373,
-          "syy": 2.425820977,
-          "sxy": 2.457827828
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 3,
+          "accuracy_sum": 2.971455556,
+          "sums": {
+            "tvd": 0.067111111,
+            "wasserstein": 0.019580546
+          },
+          "counts": {
+            "tvd": 3,
+            "wasserstein": 3
+          },
+          "pearson": {
+            "n": 14,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 1.1103895,
+            "syy": 1.090620977,
+            "sxy": 1.099512828
+          }
         },
-        "stated_intent": {
-          "questions": 2,
-          "tvd_sum": 0.0575,
-          "mae_pp_sum": 1.728571429,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 12,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.7879625,
-          "syy": 0.759,
-          "sxy": 0.77205
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
+          "questions": 3,
+          "accuracy_sum": 2.965,
+          "sums": {
+            "tvd": 0.0525
+          },
+          "counts": {
+            "tvd": 3
+          },
+          "pearson": {
+            "n": 9,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 1.2213625,
+            "syy": 1.1838,
+            "sxy": 1.20165
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.991333333,
+          "sums": {
+            "tvd": 0.065
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 15,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.163621,
+            "syy": 0.1514,
+            "sxy": 0.156665
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 1,
+          "accuracy_sum": 0.997,
+          "sums": {
+            "tvd": 0.0075
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 5,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.3809875,
+            "syy": 0.3792,
+            "sxy": 0.38005
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.985714286,
+          "sums": {
+            "tvd": 0.05
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 7,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.406975,
+            "syy": 0.3798,
+            "sxy": 0.392
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 15,
+          "accuracy_sum": 14.730045195,
+          "sums": {
+            "tvd": 0.629706321,
+            "wasserstein": 0.287852561
+          },
+          "counts": {
+            "tvd": 15,
+            "wasserstein": 15
+          },
+          "pearson": {
+            "n": 70,
+            "sx": 15.0,
+            "sy": 15.0,
+            "sxx": 6.62565,
+            "syy": 6.508581644,
+            "sxy": 6.541231842
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "2-3",
+          "questions": 15,
+          "accuracy_sum": 14.68576421,
+          "sums": {
+            "tvd": 0.471353685
+          },
+          "counts": {
+            "tvd": 15
+          },
+          "pearson": {
+            "n": 45,
+            "sx": 15.0,
+            "sy": 15.0,
+            "sxx": 7.4003655,
+            "syy": 7.307395222,
+            "sxy": 7.340116138
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "7+",
+          "questions": 5,
+          "accuracy_sum": 4.941727273,
+          "sums": {
+            "tvd": 0.437045455
+          },
+          "counts": {
+            "tvd": 5
+          },
+          "pearson": {
+            "n": 75,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 0.846255,
+            "syy": 0.807811591,
+            "sxy": 0.817441162
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 5,
+          "accuracy_sum": 4.92609899,
+          "sums": {
+            "tvd": 0.184752525
+          },
+          "counts": {
+            "tvd": 5
+          },
+          "pearson": {
+            "n": 25,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 2.688982,
+            "syy": 2.684926171,
+            "sxy": 2.682207626
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "subgroup",
+          "bucket": "7+",
+          "questions": 5,
+          "accuracy_sum": 4.863201849,
+          "sums": {
+            "tvd": 0.478793529
+          },
+          "counts": {
+            "tvd": 5
+          },
+          "pearson": {
+            "n": 35,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 2.091281,
+            "syy": 1.888930984,
+            "sxy": 1.963761322
+          }
         }
-      },
+      ],
       "series": "us-economist-yougov"
     },
     {
@@ -911,34 +1133,100 @@
           "bitcoin_block_merkle_root": "7831eb58df04094f7a2cd209c99c82854e801cc923d284d80458140f1b3515ad"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 5,
-          "tvd_sum": 0.097,
-          "mae_pp_sum": 8.966666667,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 11,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 2.588856,
-          "syy": 2.5816,
-          "sxy": 2.58326
+          "accuracy_sum": 4.910333333,
+          "sums": {
+            "tvd": 0.097
+          },
+          "counts": {
+            "tvd": 5
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 2.588856,
+            "syy": 2.5816,
+            "sxy": 2.58326
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.019469388,
-          "mae_pp_sum": 0.486734694,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 8,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1911365,
-          "syy": 0.194085798,
-          "sxy": 0.192408163
+          "accuracy_sum": 0.995132653,
+          "sums": {
+            "tvd": 0.019469388
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1911365,
+            "syy": 0.194085798,
+            "sxy": 0.192408163
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "2-3",
+          "questions": 20,
+          "accuracy_sum": 19.332833333,
+          "sums": {
+            "tvd": 0.742
+          },
+          "counts": {
+            "tvd": 20
+          },
+          "pearson": {
+            "n": 44,
+            "sx": 20.0,
+            "sy": 20.0,
+            "sxx": 11.030352,
+            "syy": 10.9282,
+            "sxy": 10.94662
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "subgroup",
+          "bucket": "7+",
+          "questions": 4,
+          "accuracy_sum": 3.934198957,
+          "sums": {
+            "tvd": 0.26320417
+          },
+          "counts": {
+            "tvd": 4
+          },
+          "pearson": {
+            "n": 32,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 1.3955225,
+            "syy": 1.483270335,
+            "sxy": 1.42850495
+          }
         }
-      },
+      ],
       "series": "gb-yougov-trackers"
     },
     {
@@ -1031,21 +1319,58 @@
           "bitcoin_block_merkle_root": "4e7308a871f494a949bb982cdb06b4f91de2505cc2714bbb0d45690a77351281"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 2,
-          "tvd_sum": 0.1125,
-          "mae_pp_sum": 4.5,
-          "ordinal": 2,
-          "wasserstein_sum": 0.066867207,
-          "n": 10,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.665792,
-          "syy": 0.7408,
-          "sxy": 0.698835
+          "accuracy_sum": 1.955,
+          "sums": {
+            "tvd": 0.1125,
+            "wasserstein": 0.066867207
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 10,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.665792,
+            "syy": 0.7408,
+            "sxy": 0.698835
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 8,
+          "accuracy_sum": 7.726931313,
+          "sums": {
+            "tvd": 0.682671717,
+            "wasserstein": 0.407033421
+          },
+          "counts": {
+            "tvd": 8,
+            "wasserstein": 8
+          },
+          "pearson": {
+            "n": 40,
+            "sx": 8.0,
+            "sy": 8.0,
+            "sxx": 2.4918395,
+            "syy": 2.853621671,
+            "sxy": 2.631046667
+          }
         }
-      },
+      ],
       "series": "fr-elabe-observatoire"
     },
     {
@@ -1156,21 +1481,58 @@
           "bitcoin_block_merkle_root": "4e7308a871f494a949bb982cdb06b4f91de2505cc2714bbb0d45690a77351281"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 4,
-          "tvd_sum": 0.102696407,
-          "mae_pp_sum": 5.134820342,
-          "ordinal": 4,
-          "wasserstein_sum": 0.052500074,
-          "n": 16,
-          "sx": 4.0,
-          "sy": 4.0,
-          "sxx": 1.287228,
-          "syy": 1.296245492,
-          "sxy": 1.289827325
+          "accuracy_sum": 3.948651797,
+          "sums": {
+            "tvd": 0.102696407,
+            "wasserstein": 0.052500074
+          },
+          "counts": {
+            "tvd": 4,
+            "wasserstein": 4
+          },
+          "pearson": {
+            "n": 16,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 1.287228,
+            "syy": 1.296245492,
+            "sxy": 1.289827325
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 12,
+          "accuracy_sum": 11.812257266,
+          "sums": {
+            "tvd": 0.375485468,
+            "wasserstein": 0.194094962
+          },
+          "counts": {
+            "tvd": 12,
+            "wasserstein": 12
+          },
+          "pearson": {
+            "n": 48,
+            "sx": 12.0,
+            "sy": 12.0,
+            "sxx": 3.8705645,
+            "syy": 3.915329646,
+            "sxy": 3.881370839
+          }
         }
-      },
+      ],
       "series": "us-census-htops-2609-healthinfo"
     },
     {
@@ -1281,21 +1643,108 @@
           "bitcoin_block_merkle_root": "4652d6a854671d0a3e088ab810528ac34dd8cef33a48b58130cbc562d3e39f8f"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 5,
-          "tvd_sum": 0.115889,
-          "mae_pp_sum": 6.3544,
-          "ordinal": 5,
-          "wasserstein_sum": 0.092404333,
-          "n": 18,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 1.658879,
-          "syy": 1.667075181,
-          "sxy": 1.660765702
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
+          "questions": 1,
+          "accuracy_sum": 0.988801,
+          "sums": {
+            "tvd": 0.011199,
+            "wasserstein": 0.011199
+          },
+          "counts": {
+            "tvd": 1,
+            "wasserstein": 1
+          },
+          "pearson": {
+            "n": 2,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.500338,
+            "syy": 0.501171183,
+            "sxy": 0.500629174
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 4,
+          "accuracy_sum": 3.947655,
+          "sums": {
+            "tvd": 0.10469,
+            "wasserstein": 0.081205333
+          },
+          "counts": {
+            "tvd": 4,
+            "wasserstein": 4
+          },
+          "pearson": {
+            "n": 16,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 1.158541,
+            "syy": 1.165903998,
+            "sxy": 1.160136527
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "2-3",
+          "questions": 3,
+          "accuracy_sum": 2.930709,
+          "sums": {
+            "tvd": 0.069291,
+            "wasserstein": 0.069291
+          },
+          "counts": {
+            "tvd": 3,
+            "wasserstein": 3
+          },
+          "pearson": {
+            "n": 6,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 1.5045285,
+            "syy": 1.500064489,
+            "sxy": 1.500117627
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 12,
+          "accuracy_sum": 11.7773925,
+          "sums": {
+            "tvd": 0.445215,
+            "wasserstein": 0.287846333
+          },
+          "counts": {
+            "tvd": 12,
+            "wasserstein": 12
+          },
+          "pearson": {
+            "n": 48,
+            "sx": 12.0,
+            "sy": 12.0,
+            "sxx": 3.5794795,
+            "syy": 3.577645864,
+            "sxy": 3.566593889
+          }
         }
-      },
+      ],
       "series": "us-census-htops-2609-trust-a"
     },
     {
@@ -1406,21 +1855,58 @@
           "bitcoin_block_merkle_root": "346735a8ebca47fcd32e77da15ca805a2a1880625994aef4b9eaf98aa6c6987b"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 5,
-          "tvd_sum": 0.085429704,
-          "mae_pp_sum": 4.271485218,
-          "ordinal": 5,
-          "wasserstein_sum": 0.046099325,
-          "n": 20,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 1.5861125,
-          "syy": 1.62157642,
-          "sxy": 1.602851944
+          "accuracy_sum": 4.957285148,
+          "sums": {
+            "tvd": 0.085429704,
+            "wasserstein": 0.046099325
+          },
+          "counts": {
+            "tvd": 5,
+            "wasserstein": 5
+          },
+          "pearson": {
+            "n": 20,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 1.5861125,
+            "syy": 1.62157642,
+            "sxy": 1.602851944
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 15,
+          "accuracy_sum": 14.758696443,
+          "sums": {
+            "tvd": 0.482607114,
+            "wasserstein": 0.253456364
+          },
+          "counts": {
+            "tvd": 15,
+            "wasserstein": 15
+          },
+          "pearson": {
+            "n": 60,
+            "sx": 15.0,
+            "sy": 15.0,
+            "sxx": 4.78021,
+            "syy": 4.875477478,
+            "sxy": 4.816036928
+          }
         }
-      },
+      ],
       "series": "us-census-htops-2609-trust-b"
     },
     {
@@ -1531,21 +2017,108 @@
           "bitcoin_block_merkle_root": "4e7308a871f494a949bb982cdb06b4f91de2505cc2714bbb0d45690a77351281"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 5,
-          "tvd_sum": 0.078810544,
-          "mae_pp_sum": 2.979127677,
-          "ordinal": 5,
-          "wasserstein_sum": 0.033507909,
-          "n": 27,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 2.27207066,
-          "syy": 2.254930033,
-          "sxy": 2.262816067
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 4,
+          "accuracy_sum": 3.975702435,
+          "sums": {
+            "tvd": 0.04859513,
+            "wasserstein": 0.028190802
+          },
+          "counts": {
+            "tvd": 4,
+            "wasserstein": 4
+          },
+          "pearson": {
+            "n": 16,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 2.136110995,
+            "syy": 2.119502764,
+            "sxy": 2.127343675
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.994506288,
+          "sums": {
+            "tvd": 0.030215414,
+            "wasserstein": 0.005317107
+          },
+          "counts": {
+            "tvd": 1,
+            "wasserstein": 1
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.135959665,
+            "syy": 0.135427269,
+            "sxy": 0.135472392
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 12,
+          "accuracy_sum": 11.881302003,
+          "sums": {
+            "tvd": 0.237395994,
+            "wasserstein": 0.126512946
+          },
+          "counts": {
+            "tvd": 12,
+            "wasserstein": 12
+          },
+          "pearson": {
+            "n": 48,
+            "sx": 12.0,
+            "sy": 12.0,
+            "sxx": 6.861747,
+            "syy": 6.715730072,
+            "sxy": 6.785019221
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "7+",
+          "questions": 3,
+          "accuracy_sum": 2.975094461,
+          "sums": {
+            "tvd": 0.136980462,
+            "wasserstein": 0.02642943
+          },
+          "counts": {
+            "tvd": 3,
+            "wasserstein": 3
+          },
+          "pearson": {
+            "n": 33,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 0.447351,
+            "syy": 0.460110356,
+            "sxy": 0.451790064
+          }
         }
-      },
+      ],
       "series": "us-census-htops-2609-wellbeing"
     },
     {
@@ -1638,21 +2211,31 @@
           "bitcoin_block_merkle_root": "bab940d07595318618669022b922ac4b9946948dff8cec3b08c8b16c68bf7bb6"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.01,
-          "mae_pp_sum": 0.285714286,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 7,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1788,
-          "syy": 0.1762,
-          "sxy": 0.1774
+          "accuracy_sum": 0.997142857,
+          "sums": {
+            "tvd": 0.01
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 7,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1788,
+            "syy": 0.1762,
+            "sxy": 0.1774
+          }
         }
-      },
+      ],
       "series": "de-forsa-trendbarometer"
     },
     {
@@ -1839,34 +2422,54 @@
           "bitcoin_block_merkle_root": "cf0d96cc5ce955e3b5e0a5e796ed26d3d0a7e3e666a4fc5b5fec4c9d5417ca22"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 1,
-          "tvd_sum": 0.029528,
-          "mae_pp_sum": 1.968533333,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 3,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.481918,
-          "syy": 0.46810972,
-          "sxy": 0.474285456
+          "accuracy_sum": 0.980314667,
+          "sums": {
+            "tvd": 0.029528
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 3,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.481918,
+            "syy": 0.46810972,
+            "sxy": 0.474285456
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 1,
-          "tvd_sum": 0.0135,
-          "mae_pp_sum": 0.9,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 3,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.4621845,
-          "syy": 0.457056,
-          "sxy": 0.459482
+          "accuracy_sum": 0.991,
+          "sums": {
+            "tvd": 0.0135
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 3,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.4621845,
+            "syy": 0.457056,
+            "sxy": 0.459482
+          }
         }
-      },
+      ],
       "series": "us-emerson-national"
     },
     {
@@ -1961,34 +2564,56 @@
           "bitcoin_block_merkle_root": "bab940d07595318618669022b922ac4b9946948dff8cec3b08c8b16c68bf7bb6"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 1,
-          "tvd_sum": 0.045,
-          "mae_pp_sum": 1.8,
-          "ordinal": 1,
-          "wasserstein_sum": 0.025510204,
-          "n": 5,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.3630625,
-          "syy": 0.3616,
-          "sxy": 0.36085
+          "accuracy_sum": 0.982,
+          "sums": {
+            "tvd": 0.045,
+            "wasserstein": 0.025510204
+          },
+          "counts": {
+            "tvd": 1,
+            "wasserstein": 1
+          },
+          "pearson": {
+            "n": 5,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.3630625,
+            "syy": 0.3616,
+            "sxy": 0.36085
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 1,
-          "tvd_sum": 0.005,
-          "mae_pp_sum": 0.25,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 4,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.4531375,
-          "syy": 0.4488,
-          "sxy": 0.45095
+          "accuracy_sum": 0.9975,
+          "sums": {
+            "tvd": 0.005
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 4,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.4531375,
+            "syy": 0.4488,
+            "sxy": 0.45095
+          }
         }
-      },
+      ],
       "series": "us-npr-pbs-marist"
     },
     {
@@ -2175,21 +2800,33 @@
           "bitcoin_block_merkle_root": "bab940d07595318618669022b922ac4b9946948dff8cec3b08c8b16c68bf7bb6"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 1,
-          "tvd_sum": 0.01,
-          "mae_pp_sum": 0.4,
-          "ordinal": 1,
-          "wasserstein_sum": 0.004125,
-          "n": 5,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.3345295,
-          "syy": 0.336,
-          "sxy": 0.33519
+          "accuracy_sum": 0.996,
+          "sums": {
+            "tvd": 0.01,
+            "wasserstein": 0.004125
+          },
+          "counts": {
+            "tvd": 1,
+            "wasserstein": 1
+          },
+          "pearson": {
+            "n": 5,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.3345295,
+            "syy": 0.336,
+            "sxy": 0.33519
+          }
         }
-      },
+      ],
       "series": "us-reuters-ipsos"
     },
     {
@@ -2282,21 +2919,54 @@
           "bitcoin_block_merkle_root": "4e12b1e30655b0f45527370d084ed60e69bace2efb5c3e8a7d444639ea96424e"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
-          "questions": 2,
-          "tvd_sum": 0.039442674,
-          "mae_pp_sum": 1.161566857,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 13,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.511196,
-          "syy": 0.515977459,
-          "sxy": 0.513139676
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 1,
+          "accuracy_sum": 0.99532,
+          "sums": {
+            "tvd": 0.0117
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 5,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.32547,
+            "syy": 0.32742494,
+            "sxy": 0.3263758
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.993064331,
+          "sums": {
+            "tvd": 0.027742674
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.185726,
+            "syy": 0.188552519,
+            "sxy": 0.186763876
+          }
         }
-      },
+      ],
       "series": "gb-findoutnow-vi"
     },
     {
@@ -2391,34 +3061,54 @@
           "bitcoin_block_merkle_root": "22c2cf82a60699700d97261185121727a3e69f2dda6868c6d8d2695752792ae1"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 1,
-          "tvd_sum": 0.0274,
-          "mae_pp_sum": 0.913333333,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 6,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1939705,
-          "syy": 0.1950829,
-          "sxy": 0.19417625
+          "accuracy_sum": 0.990866667,
+          "sums": {
+            "tvd": 0.0274
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 6,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1939705,
+            "syy": 0.1950829,
+            "sxy": 0.19417625
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.02,
-          "mae_pp_sum": 0.5,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 8,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.199514,
-          "syy": 0.20037436,
-          "sxy": 0.1997555
+          "accuracy_sum": 0.995,
+          "sums": {
+            "tvd": 0.02
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.199514,
+            "syy": 0.20037436,
+            "sxy": 0.1997555
+          }
         }
-      },
+      ],
       "series": "gb-opinium-observer"
     },
     {
@@ -2511,21 +3201,33 @@
           "bitcoin_block_merkle_root": "22c2cf82a60699700d97261185121727a3e69f2dda6868c6d8d2695752792ae1"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 5,
-          "tvd_sum": 0.1775,
-          "mae_pp_sum": 11.833333333,
-          "ordinal": 5,
-          "wasserstein_sum": 0.1295,
-          "n": 15,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 2.2147695,
-          "syy": 2.25134,
-          "sxy": 2.227647
+          "accuracy_sum": 4.881666667,
+          "sums": {
+            "tvd": 0.1775,
+            "wasserstein": 0.1295
+          },
+          "counts": {
+            "tvd": 5,
+            "wasserstein": 5
+          },
+          "pearson": {
+            "n": 15,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 2.2147695,
+            "syy": 2.25134,
+            "sxy": 2.227647
+          }
         }
-      },
+      ],
       "series": "us-conference-board-cci"
     },
     {
@@ -2620,34 +3322,58 @@
           "bitcoin_block_merkle_root": "bd07dfb1e30f39cba8e82e907031697485f8d8829f2ce42b412331d64fe569a2"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 9,
-          "tvd_sum": 0.599987121,
-          "mae_pp_sum": 21.191237376,
-          "ordinal": 9,
-          "wasserstein_sum": 0.277651969,
-          "n": 52,
-          "sx": 9.0,
-          "sy": 9.0,
-          "sxx": 3.159686,
-          "syy": 3.292913726,
-          "sxy": 3.188144879
+          "accuracy_sum": 8.788087626,
+          "sums": {
+            "tvd": 0.599987121,
+            "wasserstein": 0.277651969
+          },
+          "counts": {
+            "tvd": 9,
+            "wasserstein": 9
+          },
+          "pearson": {
+            "n": 52,
+            "sx": 9.0,
+            "sy": 9.0,
+            "sxx": 3.159686,
+            "syy": 3.292913726,
+            "sxy": 3.188144879
+          }
         },
-        "stated_intent": {
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 1,
-          "tvd_sum": 0.0405,
-          "mae_pp_sum": 1.62,
-          "ordinal": 1,
-          "wasserstein_sum": 0.030313628,
-          "n": 5,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.2540985,
-          "syy": 0.24747,
-          "sxy": 0.2498435
+          "accuracy_sum": 0.9838,
+          "sums": {
+            "tvd": 0.0405,
+            "wasserstein": 0.030313628
+          },
+          "counts": {
+            "tvd": 1,
+            "wasserstein": 1
+          },
+          "pearson": {
+            "n": 5,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.2540985,
+            "syy": 0.24747,
+            "sxy": 0.2498435
+          }
         }
-      },
+      ],
       "series": "fr-ec-insee-consumer-survey"
     },
     {
@@ -3404,34 +4130,58 @@
           "bitcoin_block_merkle_root": "fbaccebdd5da6abb70514d44c24b0286a0880710d7b19eace82961c136735c44"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 9,
-          "tvd_sum": 0.415399832,
-          "mae_pp_sum": 14.646661076,
-          "ordinal": 9,
-          "wasserstein_sum": 0.146418861,
-          "n": 52,
-          "sx": 9.0,
-          "sy": 9.0,
-          "sxx": 3.028536,
-          "syy": 2.972229204,
-          "sxy": 2.987267695
+          "accuracy_sum": 8.853533389,
+          "sums": {
+            "tvd": 0.415399832,
+            "wasserstein": 0.146418861
+          },
+          "counts": {
+            "tvd": 9,
+            "wasserstein": 9
+          },
+          "pearson": {
+            "n": 52,
+            "sx": 9.0,
+            "sy": 9.0,
+            "sxx": 3.028536,
+            "syy": 2.972229204,
+            "sxy": 2.987267695
+          }
         },
-        "stated_intent": {
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 2,
-          "tvd_sum": 0.090385811,
-          "mae_pp_sum": 3.162099123,
-          "ordinal": 2,
-          "wasserstein_sum": 0.049484304,
-          "n": 11,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.5597835,
-          "syy": 0.533434427,
-          "sxy": 0.542830798
+          "accuracy_sum": 1.968379009,
+          "sums": {
+            "tvd": 0.090385811,
+            "wasserstein": 0.049484304
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.5597835,
+            "syy": 0.533434427,
+            "sxy": 0.542830798
+          }
         }
-      },
+      ],
       "series": "at-ec-ipsos-consumer-survey"
     },
     {
@@ -3542,34 +4292,58 @@
           "bitcoin_block_merkle_root": "fbaccebdd5da6abb70514d44c24b0286a0880710d7b19eace82961c136735c44"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 9,
-          "tvd_sum": 0.210817152,
-          "mae_pp_sum": 7.190571724,
-          "ordinal": 9,
-          "wasserstein_sum": 0.096977165,
-          "n": 52,
-          "sx": 9.0,
-          "sy": 9.0,
-          "sxx": 2.7398155,
-          "syy": 2.713040932,
-          "sxy": 2.723821141
+          "accuracy_sum": 8.928094283,
+          "sums": {
+            "tvd": 0.210817152,
+            "wasserstein": 0.096977165
+          },
+          "counts": {
+            "tvd": 9,
+            "wasserstein": 9
+          },
+          "pearson": {
+            "n": 52,
+            "sx": 9.0,
+            "sy": 9.0,
+            "sxx": 2.7398155,
+            "syy": 2.713040932,
+            "sxy": 2.723821141
+          }
         },
-        "stated_intent": {
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 2,
-          "tvd_sum": 0.054137866,
-          "mae_pp_sum": 1.963262207,
-          "ordinal": 2,
-          "wasserstein_sum": 0.026181412,
-          "n": 11,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.511082,
-          "syy": 0.520107531,
-          "sxy": 0.514861263
+          "accuracy_sum": 1.980367378,
+          "sums": {
+            "tvd": 0.054137866,
+            "wasserstein": 0.026181412
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.511082,
+            "syy": 0.520107531,
+            "sxy": 0.514861263
+          }
         }
-      },
+      ],
       "series": "de-ec-gfk-consumer-survey"
     },
     {
@@ -3680,34 +4454,58 @@
           "bitcoin_block_merkle_root": "fbaccebdd5da6abb70514d44c24b0286a0880710d7b19eace82961c136735c44"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 9,
-          "tvd_sum": 0.397401567,
-          "mae_pp_sum": 13.999506112,
-          "ordinal": 9,
-          "wasserstein_sum": 0.130395938,
-          "n": 52,
-          "sx": 9.0,
-          "sy": 9.0,
-          "sxx": 2.678407,
-          "syy": 2.645892923,
-          "sxy": 2.650420232
+          "accuracy_sum": 8.860004939,
+          "sums": {
+            "tvd": 0.397401567,
+            "wasserstein": 0.130395938
+          },
+          "counts": {
+            "tvd": 9,
+            "wasserstein": 9
+          },
+          "pearson": {
+            "n": 52,
+            "sx": 9.0,
+            "sy": 9.0,
+            "sxx": 2.678407,
+            "syy": 2.645892923,
+            "sxy": 2.650420232
+          }
         },
-        "stated_intent": {
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 2,
-          "tvd_sum": 0.042059144,
-          "mae_pp_sum": 1.525699097,
-          "ordinal": 2,
-          "wasserstein_sum": 0.012189386,
-          "n": 11,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.5472595,
-          "syy": 0.546548072,
-          "sxy": 0.546436831
+          "accuracy_sum": 1.984743009,
+          "sums": {
+            "tvd": 0.042059144,
+            "wasserstein": 0.012189386
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.5472595,
+            "syy": 0.546548072,
+            "sxy": 0.546436831
+          }
         }
-      },
+      ],
       "series": "es-ec-gfk-consumer-survey"
     },
     {
@@ -3816,21 +4614,56 @@
           "bitcoin_block_merkle_root": "fbaccebdd5da6abb70514d44c24b0286a0880710d7b19eace82961c136735c44"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 5,
-          "tvd_sum": 0.063,
-          "mae_pp_sum": 2.43,
-          "ordinal": 4,
-          "wasserstein_sum": 0.023375,
-          "n": 28,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 1.9134305,
-          "syy": 1.909454,
-          "sxy": 1.910824
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 4,
+          "accuracy_sum": 3.9772,
+          "sums": {
+            "tvd": 0.057,
+            "wasserstein": 0.023375
+          },
+          "counts": {
+            "tvd": 4,
+            "wasserstein": 4
+          },
+          "pearson": {
+            "n": 20,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 1.5698245,
+            "syy": 1.563226,
+            "sxy": 1.5659215
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.9985,
+          "sums": {
+            "tvd": 0.006
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.343606,
+            "syy": 0.346228,
+            "sxy": 0.3449025
+          }
         }
-      },
+      ],
       "series": "jp-esri-consumer-confidence"
     },
     {
@@ -3965,34 +4798,102 @@
           "bitcoin_block_merkle_root": "6d86db773e2554b16834bd09955f3ffa1164d952fb029cf8f019906135ce299d"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 4,
-          "tvd_sum": 0.148614438,
-          "mae_pp_sum": 6.91991158,
-          "ordinal": 2,
-          "wasserstein_sum": 0.028497159,
-          "n": 19,
-          "sx": 4.0,
-          "sy": 4.0,
-          "sxx": 1.339516,
-          "syy": 1.347498389,
-          "sxy": 1.339267998
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 2,
+          "accuracy_sum": 1.978904629,
+          "sums": {
+            "tvd": 0.063286113,
+            "wasserstein": 0.028497159
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 12,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.449143,
+            "syy": 0.440528256,
+            "sxy": 0.443553852
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 1,
-          "tvd_sum": 0.032130546,
-          "mae_pp_sum": 0.918015604,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 7,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.20365,
-          "syy": 0.210098362,
-          "sxy": 0.206287725
+          "accuracy_sum": 0.978241671,
+          "sums": {
+            "tvd": 0.032637494
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 3,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.5202845,
+            "syy": 0.499706269,
+            "sxy": 0.508997909
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 1,
+          "accuracy_sum": 0.973654585,
+          "sums": {
+            "tvd": 0.052690831
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 4,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.3700885,
+            "syy": 0.407263864,
+            "sxy": 0.386716237
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.990819844,
+          "sums": {
+            "tvd": 0.032130546
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 7,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.20365,
+            "syy": 0.210098362,
+            "sxy": 0.206287725
+          }
         }
-      },
+      ],
       "series": "gb-freshwater-cityam"
     },
     {
@@ -4105,34 +5006,54 @@
           "bitcoin_block_merkle_root": "7742e86f4808091959190e4fd14599962cc36c0c07813625860f1ac342fb3316"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 1,
-          "tvd_sum": 0.022060995,
-          "mae_pp_sum": 0.73536651,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 6,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.200173,
-          "syy": 0.197526015,
-          "sxy": 0.198615444
+          "accuracy_sum": 0.992646335,
+          "sums": {
+            "tvd": 0.022060995
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 6,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.200173,
+            "syy": 0.197526015,
+            "sxy": 0.198615444
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.028284281,
-          "mae_pp_sum": 0.628539571,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 9,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1968855,
-          "syy": 0.202975303,
-          "sxy": 0.199655709
+          "accuracy_sum": 0.993714604,
+          "sums": {
+            "tvd": 0.028284281
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 9,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1968855,
+            "syy": 0.202975303,
+            "sxy": 0.199655709
+          }
         }
-      },
+      ],
       "series": "gb-moreincommon-vi"
     },
     {
@@ -4225,21 +5146,31 @@
           "bitcoin_block_merkle_root": "7742e86f4808091959190e4fd14599962cc36c0c07813625860f1ac342fb3316"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.0278,
-          "mae_pp_sum": 0.695,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 8,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.17886572,
-          "syy": 0.17625,
-          "sxy": 0.17723325
+          "accuracy_sum": 0.99305,
+          "sums": {
+            "tvd": 0.0278
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.17886572,
+            "syy": 0.17625,
+            "sxy": 0.17723325
+          }
         }
-      },
+      ],
       "series": "de-insa-meinungstrend"
     },
     {
@@ -4352,21 +5283,104 @@
           "bitcoin_block_merkle_root": "9bda73c002749c33b558873db96b37b406ea96869c91e3b05b875c45a855975b"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 4,
-          "tvd_sum": 0.243782828,
-          "mae_pp_sum": 12.172979798,
-          "ordinal": 3,
-          "wasserstein_sum": 0.080769915,
-          "n": 17,
-          "sx": 4.0,
-          "sy": 4.0,
-          "sxx": 1.60656,
-          "syy": 1.568149577,
-          "sxy": 1.576845859
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 3,
+          "accuracy_sum": 2.920936869,
+          "sums": {
+            "tvd": 0.179782828,
+            "wasserstein": 0.080769915
+          },
+          "counts": {
+            "tvd": 3,
+            "wasserstein": 3
+          },
+          "pearson": {
+            "n": 14,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 1.103688,
+            "syy": 1.069749577,
+            "sxy": 1.079605859
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
+          "questions": 1,
+          "accuracy_sum": 0.957333333,
+          "sums": {
+            "tvd": 0.064
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 3,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.502872,
+            "syy": 0.4984,
+            "sxy": 0.49724
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 15,
+          "accuracy_sum": 14.496143736,
+          "sums": {
+            "tvd": 1.134377397,
+            "wasserstein": 0.605349465
+          },
+          "counts": {
+            "tvd": 15,
+            "wasserstein": 15
+          },
+          "pearson": {
+            "n": 70,
+            "sx": 15.0,
+            "sy": 15.0,
+            "sxx": 6.6336995,
+            "syy": 6.157082147,
+            "sxy": 6.32721742
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "2-3",
+          "questions": 5,
+          "accuracy_sum": 4.575062706,
+          "sums": {
+            "tvd": 0.637405941
+          },
+          "counts": {
+            "tvd": 5
+          },
+          "pearson": {
+            "n": 15,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 2.8703825,
+            "syy": 2.53555522,
+            "sxy": 2.608883564
+          }
         }
-      },
+      ],
       "series": "us-economist-yougov"
     },
     {
@@ -4543,21 +5557,58 @@
           "bitcoin_block_merkle_root": "602d33fdc8fdf96e5506c2436a72835ab5aa5614a71bdabf88329b7a65900205"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
-          "questions": 5,
-          "tvd_sum": 0.23,
-          "mae_pp_sum": 10.5,
-          "ordinal": 4,
-          "wasserstein_sum": 0.142975455,
-          "n": 20,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 1.8024875,
-          "syy": 1.8628,
-          "sxy": 1.82135
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "2-3",
+          "questions": 2,
+          "accuracy_sum": 1.975,
+          "sums": {
+            "tvd": 0.03,
+            "wasserstein": 0.00954386
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 1
+          },
+          "pearson": {
+            "n": 5,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.9469375,
+            "syy": 0.955,
+            "sxy": 0.95055
+          }
+        },
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 3,
+          "accuracy_sum": 2.92,
+          "sums": {
+            "tvd": 0.2,
+            "wasserstein": 0.133431595
+          },
+          "counts": {
+            "tvd": 3,
+            "wasserstein": 3
+          },
+          "pearson": {
+            "n": 15,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 0.85555,
+            "syy": 0.9078,
+            "sxy": 0.8708
+          }
         }
-      },
+      ],
       "series": "ch-gfsbern-srgtrend"
     },
     {
@@ -4670,34 +5721,100 @@
           "bitcoin_block_merkle_root": "4993e2184ebc8719b61f309a3f3939690163c916147940fa8a4097e6fa2c471d"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 5,
-          "tvd_sum": 0.060049505,
-          "mae_pp_sum": 5.669966997,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 11,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 2.58075,
-          "syy": 2.581108068,
-          "sxy": 2.579746535
+          "accuracy_sum": 4.94330033,
+          "sums": {
+            "tvd": 0.060049505
+          },
+          "counts": {
+            "tvd": 5
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 5.0,
+            "sy": 5.0,
+            "sxx": 2.58075,
+            "syy": 2.581108068,
+            "sxy": 2.579746535
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.028128713,
-          "mae_pp_sum": 0.703217822,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 8,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1942165,
-          "syy": 0.190471522,
-          "sxy": 0.192064356
+          "accuracy_sum": 0.992967822,
+          "sums": {
+            "tvd": 0.028128713
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1942165,
+            "syy": 0.190471522,
+            "sxy": 0.192064356
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "subgroup",
+          "bucket": "2-3",
+          "questions": 20,
+          "accuracy_sum": 19.362551155,
+          "sums": {
+            "tvd": 0.699173267
+          },
+          "counts": {
+            "tvd": 20
+          },
+          "pearson": {
+            "n": 44,
+            "sx": 20.0,
+            "sy": 20.0,
+            "sxx": 10.9523665,
+            "syy": 11.097181963,
+            "sxy": 10.988679604
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "subgroup",
+          "bucket": "7+",
+          "questions": 4,
+          "accuracy_sum": 3.944575908,
+          "sums": {
+            "tvd": 0.22169637
+          },
+          "counts": {
+            "tvd": 4
+          },
+          "pearson": {
+            "n": 32,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 1.4169355,
+            "syy": 1.380768127,
+            "sxy": 1.391831419
+          }
         }
-      },
+      ],
       "series": "gb-yougov-trackers"
     },
     {
@@ -4905,34 +6022,56 @@
           "bitcoin_block_merkle_root": "134ec22177b01f2000692afff7e2ccab976df828c23b1706170207dd00bf7818"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 2,
-          "tvd_sum": 0.027,
-          "mae_pp_sum": 1.8,
-          "ordinal": 2,
-          "wasserstein_sum": 0.01406754,
-          "n": 6,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 1.550479,
-          "syy": 1.5072,
-          "sxy": 1.528515
+          "accuracy_sum": 1.982,
+          "sums": {
+            "tvd": 0.027,
+            "wasserstein": 0.01406754
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 6,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 1.550479,
+            "syy": 1.5072,
+            "sxy": 1.528515
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.014,
-          "mae_pp_sum": 0.4,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 7,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1766855,
-          "syy": 0.1784,
-          "sxy": 0.177435
+          "accuracy_sum": 0.996,
+          "sums": {
+            "tvd": 0.014
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 7,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1766855,
+            "syy": 0.1784,
+            "sxy": 0.177435
+          }
         }
-      },
+      ],
       "series": "de-ard-deutschlandtrend"
     },
     {
@@ -5205,21 +6344,33 @@
           "bitcoin_block_merkle_root": "c587b85fbdf8de1bec9de27372bad79907e102d059cd46ec68ac839a367714ab"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 2,
-          "tvd_sum": 0.055,
-          "mae_pp_sum": 2.2,
-          "ordinal": 2,
-          "wasserstein_sum": 0.0245,
-          "n": 10,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.6732285,
-          "syy": 0.7098,
-          "sxy": 0.69022
+          "accuracy_sum": 1.978,
+          "sums": {
+            "tvd": 0.055,
+            "wasserstein": 0.0245
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 10,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.6732285,
+            "syy": 0.7098,
+            "sxy": 0.69022
+          }
         }
-      },
+      ],
       "series": "fr-ipsos-bva-tribune"
     },
     {
@@ -5643,21 +6794,31 @@
           "bitcoin_block_merkle_root": "c587b85fbdf8de1bec9de27372bad79907e102d059cd46ec68ac839a367714ab"
         }
       ],
-      "score_stats": {
-        "behaviour": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.299090909,
-          "mae_pp_sum": 3.987878788,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 15,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1010445,
-          "syy": 0.132561983,
-          "sxy": 0.096854545
+          "accuracy_sum": 0.960121212,
+          "sums": {
+            "tvd": 0.299090909
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 15,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1010445,
+            "syy": 0.132561983,
+            "sxy": 0.096854545
+          }
         }
-      },
+      ],
       "series": "global-steam-weekly-topsellers"
     },
     {
@@ -5814,21 +6975,31 @@
           "bitcoin_block_merkle_root": "ab2cdd988e6c9ae0a7ec7a914efcdc761ef99145f1eb813f9113449cd14f2d7d"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.011,
-          "mae_pp_sum": 0.314285714,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 7,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1788805,
-          "syy": 0.1772,
-          "sxy": 0.177965
+          "accuracy_sum": 0.996857143,
+          "sums": {
+            "tvd": 0.011
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 7,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1788805,
+            "syy": 0.1772,
+            "sxy": 0.177965
+          }
         }
-      },
+      ],
       "series": "de-forsa-trendbarometer"
     },
     {
@@ -6224,21 +7395,31 @@
           "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ],
-      "score_stats": {
-        "behaviour": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.035751,
-          "mae_pp_sum": 0.4468875,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 16,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.106445,
-          "syy": 0.112064044,
-          "sxy": 0.108970352
+          "accuracy_sum": 0.995531125,
+          "sums": {
+            "tvd": 0.035751
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 16,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.106445,
+            "syy": 0.112064044,
+            "sxy": 0.108970352
+          }
         }
-      },
+      ],
       "series": "de-kba-car-registrations-brand"
     },
     {
@@ -6395,21 +7576,31 @@
           "bitcoin_block_merkle_root": "ab2cdd988e6c9ae0a7ec7a914efcdc761ef99145f1eb813f9113449cd14f2d7d"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.02125,
-          "mae_pp_sum": 0.53125,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 8,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.17854925,
-          "syy": 0.1766,
-          "sxy": 0.177385
+          "accuracy_sum": 0.9946875,
+          "sums": {
+            "tvd": 0.02125
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.17854925,
+            "syy": 0.1766,
+            "sxy": 0.177385
+          }
         }
-      },
+      ],
       "series": "de-verian-bams"
     },
     {
@@ -6566,21 +7757,54 @@
           "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
-          "questions": 2,
-          "tvd_sum": 0.043130269,
-          "mae_pp_sum": 1.35746108,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 13,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.515165,
-          "syy": 0.523447652,
-          "sxy": 0.518861264
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 1,
+          "accuracy_sum": 0.992554551,
+          "sums": {
+            "tvd": 0.018613623
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 5,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.3274385,
+            "syy": 0.331780299,
+            "sxy": 0.329428469
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.993870839,
+          "sums": {
+            "tvd": 0.024516646
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1877265,
+            "syy": 0.191667352,
+            "sxy": 0.189432795
+          }
         }
-      },
+      ],
       "series": "gb-findoutnow-vi"
     },
     {
@@ -6882,34 +8106,54 @@
           "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ],
-      "score_stats": {
-        "attitude": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
           "questions": 1,
-          "tvd_sum": 0.038620381,
-          "mae_pp_sum": 1.287346017,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 6,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1946425,
-          "syy": 0.197165927,
-          "sxy": 0.195160696
+          "accuracy_sum": 0.98712654,
+          "sums": {
+            "tvd": 0.038620381
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 6,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1946425,
+            "syy": 0.197165927,
+            "sxy": 0.195160696
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.029813021,
-          "mae_pp_sum": 0.745325515,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 8,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.19994,
-          "syy": 0.190398728,
-          "sxy": 0.194692557
+          "accuracy_sum": 0.992546745,
+          "sums": {
+            "tvd": 0.029813021
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.19994,
+            "syy": 0.190398728,
+            "sxy": 0.194692557
+          }
         }
-      },
+      ],
       "series": "gb-opinium-observer"
     },
     {
@@ -6984,6 +8228,25 @@
           "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
           "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.743316327,
+          "sums": {
+            "crps": 0.934269375,
+            "error": -1.25775
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
         }
       ],
       "series": "gb-system1-xmas-2026-tesco",
@@ -7108,21 +8371,56 @@
           "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 5,
-          "tvd_sum": 0.217249725,
-          "mae_pp_sum": 14.224859986,
-          "ordinal": 3,
-          "wasserstein_sum": 0.081435644,
-          "n": 16,
-          "sx": 5.0,
-          "sy": 5.0,
-          "sxx": 1.917825,
-          "syy": 1.965402179,
-          "sxy": 1.933364944
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 3,
+          "accuracy_sum": 2.924998875,
+          "sums": {
+            "tvd": 0.15000225,
+            "wasserstein": 0.081435644
+          },
+          "counts": {
+            "tvd": 3,
+            "wasserstein": 3
+          },
+          "pearson": {
+            "n": 12,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 0.9072625,
+            "syy": 0.944126799,
+            "sxy": 0.919965954
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
+          "questions": 2,
+          "accuracy_sum": 1.932752525,
+          "sums": {
+            "tvd": 0.067247475
+          },
+          "counts": {
+            "tvd": 2
+          },
+          "pearson": {
+            "n": 4,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 1.0105625,
+            "syy": 1.02127538,
+            "sxy": 1.01339899
+          }
         }
-      },
+      ],
       "series": "us-voter-poll-ssrs-2026"
     },
     {
@@ -7197,6 +8495,25 @@
           "bitcoin_block_time_utc": "2026-11-02T20:36:22Z",
           "bitcoin_block_hash": "00000000000000000000e0c9226a291e177ff331013a92b7e63d22ae07981e1c",
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.842959184,
+          "sums": {
+            "crps": 0.467252625,
+            "error": -0.7695
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
         }
       ],
       "series": "gb-system1-xmas-2026-sainsburys",
@@ -7396,21 +8713,31 @@
           "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ],
-      "score_stats": {
-        "behaviour": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 2,
-          "tvd_sum": 0.6331,
-          "mae_pp_sum": 9.044285714,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 28,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.2188845,
-          "syy": 0.33782878,
-          "sxy": 0.2310855
+          "accuracy_sum": 1.909557143,
+          "sums": {
+            "tvd": 0.6331
+          },
+          "counts": {
+            "tvd": 2
+          },
+          "pearson": {
+            "n": 28,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.2188845,
+            "syy": 0.33782878,
+            "sxy": 0.2310855
+          }
         }
-      },
+      ],
       "series": "de-netflix-top10"
     },
     {
@@ -7503,21 +8830,31 @@
           "bitcoin_block_merkle_root": "77029ccf424d4240077d1fec9c4b0c99a24d1a4a4878f65de92533f27b42797a"
         }
       ],
-      "score_stats": {
-        "behaviour": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 2,
-          "tvd_sum": 0.7309,
-          "mae_pp_sum": 10.52974359,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 28,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.198461,
-          "syy": 0.39405588,
-          "sxy": 0.22838925
+          "accuracy_sum": 1.894702564,
+          "sums": {
+            "tvd": 0.7309
+          },
+          "counts": {
+            "tvd": 2
+          },
+          "pearson": {
+            "n": 28,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.198461,
+            "syy": 0.39405588,
+            "sxy": 0.22838925
+          }
         }
-      },
+      ],
       "series": "gb-netflix-top10"
     },
     {
@@ -7610,21 +8947,31 @@
           "bitcoin_block_merkle_root": "414949f9ee35c0cf4713de01a9beee6c64bbe6a04a92a127f9918799eabaa14e"
         }
       ],
-      "score_stats": {
-        "behaviour": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 2,
-          "tvd_sum": 0.8606,
-          "mae_pp_sum": 12.622564103,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 28,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.191159,
-          "syy": 0.43264212,
-          "sxy": 0.14820925
+          "accuracy_sum": 1.873774359,
+          "sums": {
+            "tvd": 0.8606
+          },
+          "counts": {
+            "tvd": 2
+          },
+          "pearson": {
+            "n": 28,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.191159,
+            "syy": 0.43264212,
+            "sxy": 0.14820925
+          }
         }
-      },
+      ],
       "series": "global-netflix-top10-english"
     },
     {
@@ -7867,21 +9214,31 @@
           "bitcoin_block_merkle_root": "6e9ffc83e4359df80d69c008b07c2b5df8312d425b65909b1aacd9b68720eeb7"
         }
       ],
-      "score_stats": {
-        "behaviour": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.190464985,
-          "mae_pp_sum": 2.720928361,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 14,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1890115,
-          "syy": 0.132679692,
-          "sxy": 0.140032503
+          "accuracy_sum": 0.972790716,
+          "sums": {
+            "tvd": 0.190464985
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 14,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1890115,
+            "syy": 0.132679692,
+            "sxy": 0.140032503
+          }
         }
-      },
+      ],
       "series": "us-boxoffice-weekend"
     },
     {
@@ -8429,21 +9786,31 @@
           "bitcoin_block_merkle_root": "66fadf2f2a9ebdbd6a1dc1a969806d238a4977e005d96dd5e0c5b5ef45e92f88"
         }
       ],
-      "score_stats": {
-        "behaviour": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.049244,
-          "mae_pp_sum": 0.579341176,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 17,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.1255835,
-          "syy": 0.138055966,
-          "sxy": 0.131333555
+          "accuracy_sum": 0.994206588,
+          "sums": {
+            "tvd": 0.049244
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 17,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1255835,
+            "syy": 0.138055966,
+            "sxy": 0.131333555
+          }
         }
-      },
+      ],
       "series": "gb-smmt-car-registrations-marque"
     },
     {
@@ -8518,6 +9885,25 @@
           "bitcoin_block_time_utc": "2026-11-03T08:30:44Z",
           "bitcoin_block_hash": "00000000000000000001d704f53d346b433e831a3b3181807faa45639709ea1b",
           "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.851479592,
+          "sums": {
+            "crps": 0.422494125,
+            "error": -0.72775
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
         }
       ],
       "series": "gb-system1-xmas-2026-john-lewis",
@@ -8835,6 +10221,25 @@
           "bitcoin_block_merkle_root": "bbe7b4785b1855638ba4a9bb001e722851ae71ae8295cad5f845ff5fa58e21c2"
         }
       ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.758010204,
+          "sums": {
+            "crps": 0.74512875,
+            "error": -1.18575
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
+        }
+      ],
       "series": "gb-system1-xmas-2026-lidl",
       "rating_stats": [
         {
@@ -9005,21 +10410,31 @@
           "bitcoin_block_merkle_root": "69da8956f9c958bb5958772899042ba7d9ead9aa1c10374a7329a47e684c1d01"
         }
       ],
-      "score_stats": {
-        "stated_intent": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
           "questions": 1,
-          "tvd_sum": 0.011,
-          "mae_pp_sum": 0.275,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 8,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.176942,
-          "syy": 0.17565,
-          "sxy": 0.17623
+          "accuracy_sum": 0.99725,
+          "sums": {
+            "tvd": 0.011
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.176942,
+            "syy": 0.17565,
+            "sxy": 0.17623
+          }
         }
-      },
+      ],
       "series": "de-insa-meinungstrend"
     },
     {
@@ -9487,6 +10902,25 @@
           "bitcoin_block_merkle_root": "a95b2a77d3bef045c24ada287631ce15cc9257ff877c6b267376f0182377ccbc"
         }
       ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.951147959,
+          "sums": {
+            "crps": 0.089614438,
+            "error": -0.239375
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
+        }
+      ],
       "series": "gb-system1-xmas-2026-aldi",
       "rating_stats": [
         {
@@ -9650,6 +11084,25 @@
           "bitcoin_block_time_utc": "2026-11-05T20:34:20Z",
           "bitcoin_block_hash": "00000000000000000001499a40e7bda4cce8310b620f2cb569648caefb6dfb0e",
           "bitcoin_block_merkle_root": "49863c91afe3bd3488c4bc89baa2d8a21863da893aa07a60e89bf20e7b708b90"
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.904872449,
+          "sums": {
+            "crps": 0.229398688,
+            "error": -0.466125
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
         }
       ],
       "series": "gb-system1-xmas-2026-barbour",
@@ -10192,6 +11645,25 @@
           "bitcoin_block_merkle_root": "90a9fcf44ba18c596cc4fe555a6cfd8582c33c4e4fa48aa0d2aed799ba0ccf3f"
         }
       ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.869158163,
+          "sums": {
+            "crps": 0.315090063,
+            "error": -0.641125
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
+        }
+      ],
       "series": "gb-system1-xmas-2026-ms",
       "rating_stats": [
         {
@@ -10370,34 +11842,102 @@
           "bitcoin_block_merkle_root": "16e40ce3b01a89bcde91595ba8a123d953eaf7a25295b4414ec9dded59a4f3ff"
         }
       ],
-      "score_stats": {
-        "attitude": {
-          "questions": 4,
-          "tvd_sum": 0.1125,
-          "mae_pp_sum": 6.333333333,
-          "ordinal": 1,
-          "wasserstein_sum": 0.017424242,
-          "n": 14,
-          "sx": 4.0,
-          "sy": 4.0,
-          "sxx": 1.9634,
-          "syy": 1.9898,
-          "sxy": 1.9738
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 1,
+          "accuracy_sum": 0.9875,
+          "sums": {
+            "tvd": 0.025,
+            "wasserstein": 0.017424242
+          },
+          "counts": {
+            "tvd": 1,
+            "wasserstein": 1
+          },
+          "pearson": {
+            "n": 4,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.4289875,
+            "syy": 0.4424,
+            "sxy": 0.43525
+          }
         },
-        "stated_intent": {
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 2,
-          "tvd_sum": 0.09,
-          "mae_pp_sum": 2.571428571,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 14,
-          "sx": 2.0,
-          "sy": 2.0,
-          "sxx": 0.3598,
-          "syy": 0.373,
-          "sxy": 0.364475
+          "accuracy_sum": 1.971666667,
+          "sums": {
+            "tvd": 0.0425
+          },
+          "counts": {
+            "tvd": 2
+          },
+          "pearson": {
+            "n": 6,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 1.1166625,
+            "syy": 1.158,
+            "sxy": 1.1365
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 1,
+          "accuracy_sum": 0.9775,
+          "sums": {
+            "tvd": 0.045
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 4,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.41775,
+            "syy": 0.3894,
+            "sxy": 0.40205
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 2,
+          "accuracy_sum": 1.974285714,
+          "sums": {
+            "tvd": 0.09
+          },
+          "counts": {
+            "tvd": 2
+          },
+          "pearson": {
+            "n": 14,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.3598,
+            "syy": 0.373,
+            "sxy": 0.364475
+          }
         }
-      },
+      ],
       "series": "de-zdf-politbarometer"
     },
     {
@@ -10639,34 +12179,146 @@
           "bitcoin_block_merkle_root": null
         }
       ],
-      "score_stats": {
-        "behaviour": {
-          "questions": 4,
-          "tvd_sum": 0.113,
-          "mae_pp_sum": 5.75,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 15,
-          "sx": 4.0,
-          "sy": 4.0,
-          "sxx": 2.0869,
-          "syy": 2.092212,
-          "sxy": 2.086019
-        },
-        "stated_intent": {
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "2-3",
           "questions": 1,
-          "tvd_sum": 0.010331169,
-          "mae_pp_sum": 0.516558442,
-          "ordinal": 0,
-          "wasserstein_sum": 0.0,
-          "n": 4,
-          "sx": 1.0,
-          "sy": 1.0,
-          "sxx": 0.6590365,
-          "syy": 0.658471399,
-          "sxy": 0.658673826
+          "accuracy_sum": 0.996,
+          "sums": {
+            "tvd": 0.006
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 3,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.770338,
+            "syy": 0.766986,
+            "sxy": 0.768634
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 3,
+          "accuracy_sum": 2.9465,
+          "sums": {
+            "tvd": 0.107
+          },
+          "counts": {
+            "tvd": 3
+          },
+          "pearson": {
+            "n": 12,
+            "sx": 3.0,
+            "sy": 3.0,
+            "sxx": 1.316562,
+            "syy": 1.325226,
+            "sxy": 1.317385
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 1,
+          "accuracy_sum": 0.994834416,
+          "sums": {
+            "tvd": 0.010331169
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 4,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.6590365,
+            "syy": 0.658471399,
+            "sxy": 0.658673826
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "subgroup",
+          "bucket": "2-3",
+          "questions": 4,
+          "accuracy_sum": 3.912333333,
+          "sums": {
+            "tvd": 0.1315
+          },
+          "counts": {
+            "tvd": 4
+          },
+          "pearson": {
+            "n": 12,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 2.7222505,
+            "syy": 2.563644,
+            "sxy": 2.636573
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 12,
+          "accuracy_sum": 11.765375819,
+          "sums": {
+            "tvd": 0.469248361
+          },
+          "counts": {
+            "tvd": 12
+          },
+          "pearson": {
+            "n": 48,
+            "sx": 12.0,
+            "sy": 12.0,
+            "sxx": 5.772387,
+            "syy": 5.806384718,
+            "sxy": 5.771939491
+          }
+        },
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "stated_intent",
+          "scope": "subgroup",
+          "bucket": "4-6",
+          "questions": 4,
+          "accuracy_sum": 3.928995338,
+          "sums": {
+            "tvd": 0.142009323
+          },
+          "counts": {
+            "tvd": 4
+          },
+          "pearson": {
+            "n": 16,
+            "sx": 4.0,
+            "sy": 4.0,
+            "sxx": 2.4384795,
+            "syy": 2.375958927,
+            "sxy": 2.403352295
+          }
         }
-      },
+      ],
       "series": "gb-ons-bics-wave168"
     },
     {
@@ -11283,7 +12935,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-21T07:04:54+00:00",
-    "checked_at": "2026-11-21T16:05:48.615796+00:00",
+    "checked_at": "2026-11-21T17:05:28.355169+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {

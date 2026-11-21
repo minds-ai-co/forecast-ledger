@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-21T16:58:03Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-21T17:18:34Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -14,6 +14,8 @@ Page refreshed **2026-11-21T16:58:03Z**. Latest recorded forecast or score: **20
 Across 42 scored surveys and 160 questions, Minds Mosaic has an average distribution error (TVD) of 0.047. Average miss per answer option: 1.54 percentage points. Correlation between forecast and actual answer shares: 0.982. On the 22 surveys locked before fieldwork began (65 questions): 0.036.
 
 Lower is better for TVD and miss. TVD is 0 for a perfect forecast and 1 for a completely wrong one. All figures are for the full surveyed population.
+
+Approximation, each of the 43 survey series weighted equally: 96.1%; audience subgroups, pooled separately: 97.9% (198 question x audience cells).
 
 How each question is scored depends on what it measures. Answer shares: approximation (100% minus the average miss per answer option) and TVD. Ordered answer scales also get the Wasserstein distance over the substantive options, as a share of its maximum. Published ratings are scored as numbers: error as a share of the rating scale, signed error, CRPS of the forecast distribution and pairwise ranking. Results are reported per topic; with fewer than 5 scored surveys a topic is shown but not treated as conclusive. Ranges are 95% intervals from resampling surveys. Ordered scales so far: 95 questions, Wasserstein 1.7% of the maximum.
 
@@ -38,7 +40,7 @@ Attitude: opinions and ratings. Stated intent: what people say they will do. Beh
 
 ## Social Simulation Arena
 
-Arena data published 21 Nov 2026, 07:04 UTC; checked 21 Nov 2026, 16:05 UTC.
+Arena data published 21 Nov 2026, 07:04 UTC; checked 21 Nov 2026, 17:05 UTC.
 
 Minds Mosaic ranks **25 of 28** on the official overall board, with **12 of 154** resolved questions answered. The overall ranking counts missing answers against each entrant, including questions before it joined.
 
