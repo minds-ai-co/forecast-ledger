@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-21T16:19:45Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-21T16:58:03Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -15,7 +15,9 @@ Across 42 scored surveys and 160 questions, Minds Mosaic has an average distribu
 
 Lower is better for TVD and miss. TVD is 0 for a perfect forecast and 1 for a completely wrong one. All figures are for the full surveyed population.
 
-Rating questions (7 published ratings, System1 stars) are scored as numbers and kept out of the share figures above: average accuracy 84.6% of the rating scale, mean error 0.76 System1 stars too low, and 12 of 14 pairs ranked in the right order (pairs with the same published rating are not counted).
+How each question is scored depends on what it measures. Answer shares: approximation (100% minus the average miss per answer option) and TVD. Ordered answer scales also get the Wasserstein distance over the substantive options, as a share of its maximum. Published ratings are scored as numbers: error as a share of the rating scale, signed error, CRPS of the forecast distribution and pairwise ranking. Results are reported per topic; with fewer than 5 scored surveys a topic is shown but not treated as conclusive. Ranges are 95% intervals from resampling surveys. Ordered scales so far: 95 questions, Wasserstein 1.7% of the maximum.
+
+Rating questions (7 published ratings, System1 stars) are scored as numbers and kept out of the share figures above: average accuracy 84.6% of the rating scale, mean error 0.76 System1 stars too low, CRPS 0.46, and 12 of 14 pairs ranked in the right order (pairs with the same published rating are not counted).
 
 <section id="forecast-error-chart" class="not-prose" aria-label="Forecast error over time">
 <p><strong>Average error so far, by result release date</strong> (TVD, lower is better)</p>

@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-21T16:19:45Z",
+  "as_of": "2026-11-21T16:58:03Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-21T07:45:11Z",
   "chain_head_sha256": "c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42",
@@ -66,7 +66,9 @@
       "questions": 160,
       "tvd": 0.047243,
       "mae_pp": 1.541037,
-      "pearson_r": 0.98222
+      "pearson_r": 0.98222,
+      "ordinal_questions": 95,
+      "wasserstein": 0.017397
     },
     "ratings": {
       "surveys": 7,
@@ -77,6 +79,7 @@
       "accuracy": 0.845849,
       "mean_error": -0.755339,
       "mean_abs_error": 0.755339,
+      "crps": 0.457607,
       "pairs_right": 12,
       "pairs_total": 14
     },
@@ -85,7 +88,9 @@
       "questions": 65,
       "tvd": 0.035871,
       "mae_pp": 1.372784,
-      "pearson_r": 0.991375
+      "pearson_r": 0.991375,
+      "ordinal_questions": 19,
+      "wasserstein": 0.020773
     },
     "by_evidence_type": {
       "attitude": {
@@ -93,21 +98,27 @@
         "questions": 111,
         "tvd": 0.033134,
         "mae_pp": 1.505807,
-        "pearson_r": 0.993335
+        "pearson_r": 0.993335,
+        "ordinal_questions": 84,
+        "wasserstein": 0.016567
       },
       "stated_intent": {
         "surveys": 24,
         "questions": 35,
         "tvd": 0.027682,
         "mae_pp": 0.963992,
-        "pearson_r": 0.9938
+        "pearson_r": 0.9938,
+        "ordinal_questions": 11,
+        "wasserstein": 0.02374
       },
       "behaviour": {
         "surveys": 8,
         "questions": 14,
         "tvd": 0.208011,
         "mae_pp": 3.262974,
-        "pearson_r": 0.864207
+        "pearson_r": 0.864207,
+        "ordinal_questions": 0,
+        "wasserstein": null
       }
     },
     "additional_research": {
@@ -119,7 +130,9 @@
           "questions": 158,
           "tvd": 0.106043,
           "mae_pp": 4.012009,
-          "pearson_r": 0.938759
+          "pearson_r": 0.938759,
+          "ordinal_questions": 96,
+          "wasserstein": 0.048473
         }
       },
       "cellsS": {
@@ -130,7 +143,9 @@
           "questions": 36,
           "tvd": 0.092524,
           "mae_pp": 4.864411,
-          "pearson_r": 0.948587
+          "pearson_r": 0.948587,
+          "ordinal_questions": 24,
+          "wasserstein": 0.052266
         }
       },
       "cellsH": {
@@ -141,7 +156,9 @@
           "questions": 36,
           "tvd": 0.091417,
           "mae_pp": 4.85448,
-          "pearson_r": 0.946798
+          "pearson_r": 0.946798,
+          "ordinal_questions": 24,
+          "wasserstein": 0.054922
         }
       },
       "memory3": {
@@ -152,7 +169,9 @@
           "questions": 141,
           "tvd": 0.10674,
           "mae_pp": 3.987142,
-          "pearson_r": 0.939964
+          "pearson_r": 0.939964,
+          "ordinal_questions": 93,
+          "wasserstein": 0.04885
         }
       },
       "blend": {
@@ -163,7 +182,9 @@
           "questions": 46,
           "tvd": 0.055128,
           "mae_pp": 2.108758,
-          "pearson_r": 0.984602
+          "pearson_r": 0.984602,
+          "ordinal_questions": 41,
+          "wasserstein": 0.02285
         }
       },
       "bank3": {
@@ -174,7 +195,9 @@
           "questions": 16,
           "tvd": 0.100516,
           "mae_pp": 3.647213,
-          "pearson_r": 0.942702
+          "pearson_r": 0.942702,
+          "ordinal_questions": 3,
+          "wasserstein": 0.034527
         }
       },
       "bankR3": {
@@ -185,7 +208,9 @@
           "questions": 16,
           "tvd": 0.102831,
           "mae_pp": 3.693878,
-          "pearson_r": 0.942582
+          "pearson_r": 0.942582,
+          "ordinal_questions": 3,
+          "wasserstein": 0.03576
         }
       },
       "cohort": {
@@ -196,7 +221,9 @@
           "questions": 16,
           "tvd": 0.119951,
           "mae_pp": 4.099731,
-          "pearson_r": 0.918978
+          "pearson_r": 0.918978,
+          "ordinal_questions": 3,
+          "wasserstein": 0.048281
         }
       },
       "xpub3": {
@@ -207,7 +234,9 @@
           "questions": 10,
           "tvd": 0.044681,
           "mae_pp": 1.753932,
-          "pearson_r": 0.988714
+          "pearson_r": 0.988714,
+          "ordinal_questions": 1,
+          "wasserstein": 0.059066
         }
       }
     }
@@ -781,6 +810,8 @@
           "questions": 7,
           "tvd_sum": 0.184611111,
           "mae_pp_sum": 7.221111111,
+          "ordinal": 3,
+          "wasserstein_sum": 0.019580546,
           "n": 38,
           "sx": 7.0,
           "sy": 7.0,
@@ -792,6 +823,8 @@
           "questions": 2,
           "tvd_sum": 0.0575,
           "mae_pp_sum": 1.728571429,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 12,
           "sx": 2.0,
           "sy": 2.0,
@@ -799,7 +832,8 @@
           "syy": 0.759,
           "sxy": 0.77205
         }
-      }
+      },
+      "series": "us-economist-yougov"
     },
     {
       "target_id": "gb-yougov-trackers-2026-10-25",
@@ -882,6 +916,8 @@
           "questions": 5,
           "tvd_sum": 0.097,
           "mae_pp_sum": 8.966666667,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 11,
           "sx": 5.0,
           "sy": 5.0,
@@ -893,6 +929,8 @@
           "questions": 1,
           "tvd_sum": 0.019469388,
           "mae_pp_sum": 0.486734694,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 8,
           "sx": 1.0,
           "sy": 1.0,
@@ -900,7 +938,8 @@
           "syy": 0.194085798,
           "sxy": 0.192408163
         }
-      }
+      },
+      "series": "gb-yougov-trackers"
     },
     {
       "target_id": "fr-elabe-observatoire-2026-10-27",
@@ -997,6 +1036,8 @@
           "questions": 2,
           "tvd_sum": 0.1125,
           "mae_pp_sum": 4.5,
+          "ordinal": 2,
+          "wasserstein_sum": 0.066867207,
           "n": 10,
           "sx": 2.0,
           "sy": 2.0,
@@ -1004,7 +1045,8 @@
           "syy": 0.7408,
           "sxy": 0.698835
         }
-      }
+      },
+      "series": "fr-elabe-observatoire"
     },
     {
       "target_id": "us-census-htops-2609-healthinfo",
@@ -1119,6 +1161,8 @@
           "questions": 4,
           "tvd_sum": 0.102696407,
           "mae_pp_sum": 5.134820342,
+          "ordinal": 4,
+          "wasserstein_sum": 0.052500074,
           "n": 16,
           "sx": 4.0,
           "sy": 4.0,
@@ -1126,7 +1170,8 @@
           "syy": 1.296245492,
           "sxy": 1.289827325
         }
-      }
+      },
+      "series": "us-census-htops-2609-healthinfo"
     },
     {
       "target_id": "us-census-htops-2609-trust-a",
@@ -1241,6 +1286,8 @@
           "questions": 5,
           "tvd_sum": 0.115889,
           "mae_pp_sum": 6.3544,
+          "ordinal": 5,
+          "wasserstein_sum": 0.092404333,
           "n": 18,
           "sx": 5.0,
           "sy": 5.0,
@@ -1248,7 +1295,8 @@
           "syy": 1.667075181,
           "sxy": 1.660765702
         }
-      }
+      },
+      "series": "us-census-htops-2609-trust-a"
     },
     {
       "target_id": "us-census-htops-2609-trust-b",
@@ -1363,6 +1411,8 @@
           "questions": 5,
           "tvd_sum": 0.085429704,
           "mae_pp_sum": 4.271485218,
+          "ordinal": 5,
+          "wasserstein_sum": 0.046099325,
           "n": 20,
           "sx": 5.0,
           "sy": 5.0,
@@ -1370,7 +1420,8 @@
           "syy": 1.62157642,
           "sxy": 1.602851944
         }
-      }
+      },
+      "series": "us-census-htops-2609-trust-b"
     },
     {
       "target_id": "us-census-htops-2609-wellbeing",
@@ -1485,6 +1536,8 @@
           "questions": 5,
           "tvd_sum": 0.078810544,
           "mae_pp_sum": 2.979127677,
+          "ordinal": 5,
+          "wasserstein_sum": 0.033507909,
           "n": 27,
           "sx": 5.0,
           "sy": 5.0,
@@ -1492,7 +1545,8 @@
           "syy": 2.254930033,
           "sxy": 2.262816067
         }
-      }
+      },
+      "series": "us-census-htops-2609-wellbeing"
     },
     {
       "target_id": "de-forsa-trendbarometer-2026-11-03",
@@ -1589,6 +1643,8 @@
           "questions": 1,
           "tvd_sum": 0.01,
           "mae_pp_sum": 0.285714286,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 7,
           "sx": 1.0,
           "sy": 1.0,
@@ -1596,7 +1652,8 @@
           "syy": 0.1762,
           "sxy": 0.1774
         }
-      }
+      },
+      "series": "de-forsa-trendbarometer"
     },
     {
       "target_id": "us-abc-post-ipsos-2026-10-26",
@@ -1687,7 +1744,8 @@
           "bitcoin_block_hash": "00000000000000000000ba755c587d5b4d7cc2fe7c281645119cf53660ea4bc8",
           "bitcoin_block_merkle_root": "bab940d07595318618669022b922ac4b9946948dff8cec3b08c8b16c68bf7bb6"
         }
-      ]
+      ],
+      "series": "us-abc-post-ipsos"
     },
     {
       "target_id": "us-emerson-national-2026-10-26",
@@ -1786,6 +1844,8 @@
           "questions": 1,
           "tvd_sum": 0.029528,
           "mae_pp_sum": 1.968533333,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 3,
           "sx": 1.0,
           "sy": 1.0,
@@ -1797,6 +1857,8 @@
           "questions": 1,
           "tvd_sum": 0.0135,
           "mae_pp_sum": 0.9,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 3,
           "sx": 1.0,
           "sy": 1.0,
@@ -1804,7 +1866,8 @@
           "syy": 0.457056,
           "sxy": 0.459482
         }
-      }
+      },
+      "series": "us-emerson-national"
     },
     {
       "target_id": "us-npr-pbs-marist-2026-10-26",
@@ -1903,6 +1966,8 @@
           "questions": 1,
           "tvd_sum": 0.045,
           "mae_pp_sum": 1.8,
+          "ordinal": 1,
+          "wasserstein_sum": 0.025510204,
           "n": 5,
           "sx": 1.0,
           "sy": 1.0,
@@ -1914,6 +1979,8 @@
           "questions": 1,
           "tvd_sum": 0.005,
           "mae_pp_sum": 0.25,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 4,
           "sx": 1.0,
           "sy": 1.0,
@@ -1921,7 +1988,8 @@
           "syy": 0.4488,
           "sxy": 0.45095
         }
-      }
+      },
+      "series": "us-npr-pbs-marist"
     },
     {
       "target_id": "us-quinnipiac-national-2026-10-26",
@@ -2012,7 +2080,8 @@
           "bitcoin_block_hash": "00000000000000000000ba755c587d5b4d7cc2fe7c281645119cf53660ea4bc8",
           "bitcoin_block_merkle_root": "bab940d07595318618669022b922ac4b9946948dff8cec3b08c8b16c68bf7bb6"
         }
-      ]
+      ],
+      "series": "us-quinnipiac-national"
     },
     {
       "target_id": "us-reuters-ipsos-2026-10-26",
@@ -2111,6 +2180,8 @@
           "questions": 1,
           "tvd_sum": 0.01,
           "mae_pp_sum": 0.4,
+          "ordinal": 1,
+          "wasserstein_sum": 0.004125,
           "n": 5,
           "sx": 1.0,
           "sy": 1.0,
@@ -2118,7 +2189,8 @@
           "syy": 0.336,
           "sxy": 0.33519
         }
-      }
+      },
+      "series": "us-reuters-ipsos"
     },
     {
       "target_id": "gb-findoutnow-vi-2026-10-28",
@@ -2215,6 +2287,8 @@
           "questions": 2,
           "tvd_sum": 0.039442674,
           "mae_pp_sum": 1.161566857,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 13,
           "sx": 2.0,
           "sy": 2.0,
@@ -2222,7 +2296,8 @@
           "syy": 0.515977459,
           "sxy": 0.513139676
         }
-      }
+      },
+      "series": "gb-findoutnow-vi"
     },
     {
       "target_id": "gb-opinium-observer-2026-10-28",
@@ -2321,6 +2396,8 @@
           "questions": 1,
           "tvd_sum": 0.0274,
           "mae_pp_sum": 0.913333333,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 6,
           "sx": 1.0,
           "sy": 1.0,
@@ -2332,6 +2409,8 @@
           "questions": 1,
           "tvd_sum": 0.02,
           "mae_pp_sum": 0.5,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 8,
           "sx": 1.0,
           "sy": 1.0,
@@ -2339,7 +2418,8 @@
           "syy": 0.20037436,
           "sxy": 0.1997555
         }
-      }
+      },
+      "series": "gb-opinium-observer"
     },
     {
       "target_id": "us-conference-board-cci-2026-10",
@@ -2436,6 +2516,8 @@
           "questions": 5,
           "tvd_sum": 0.1775,
           "mae_pp_sum": 11.833333333,
+          "ordinal": 5,
+          "wasserstein_sum": 0.1295,
           "n": 15,
           "sx": 5.0,
           "sy": 5.0,
@@ -2443,7 +2525,8 @@
           "syy": 2.25134,
           "sxy": 2.227647
         }
-      }
+      },
+      "series": "us-conference-board-cci"
     },
     {
       "target_id": "fr-ec-insee-consumer-survey-2026-10",
@@ -2542,6 +2625,8 @@
           "questions": 9,
           "tvd_sum": 0.599987121,
           "mae_pp_sum": 21.191237376,
+          "ordinal": 9,
+          "wasserstein_sum": 0.277651969,
           "n": 52,
           "sx": 9.0,
           "sy": 9.0,
@@ -2553,6 +2638,8 @@
           "questions": 1,
           "tvd_sum": 0.0405,
           "mae_pp_sum": 1.62,
+          "ordinal": 1,
+          "wasserstein_sum": 0.030313628,
           "n": 5,
           "sx": 1.0,
           "sy": 1.0,
@@ -2560,7 +2647,8 @@
           "syy": 0.24747,
           "sxy": 0.2498435
         }
-      }
+      },
+      "series": "fr-ec-insee-consumer-survey"
     },
     {
       "target_id": "us-census-htops-2611-healthinfo",
@@ -3321,6 +3409,8 @@
           "questions": 9,
           "tvd_sum": 0.415399832,
           "mae_pp_sum": 14.646661076,
+          "ordinal": 9,
+          "wasserstein_sum": 0.146418861,
           "n": 52,
           "sx": 9.0,
           "sy": 9.0,
@@ -3332,6 +3422,8 @@
           "questions": 2,
           "tvd_sum": 0.090385811,
           "mae_pp_sum": 3.162099123,
+          "ordinal": 2,
+          "wasserstein_sum": 0.049484304,
           "n": 11,
           "sx": 2.0,
           "sy": 2.0,
@@ -3339,7 +3431,8 @@
           "syy": 0.533434427,
           "sxy": 0.542830798
         }
-      }
+      },
+      "series": "at-ec-ipsos-consumer-survey"
     },
     {
       "target_id": "de-ec-gfk-consumer-survey-2026-10",
@@ -3454,6 +3547,8 @@
           "questions": 9,
           "tvd_sum": 0.210817152,
           "mae_pp_sum": 7.190571724,
+          "ordinal": 9,
+          "wasserstein_sum": 0.096977165,
           "n": 52,
           "sx": 9.0,
           "sy": 9.0,
@@ -3465,6 +3560,8 @@
           "questions": 2,
           "tvd_sum": 0.054137866,
           "mae_pp_sum": 1.963262207,
+          "ordinal": 2,
+          "wasserstein_sum": 0.026181412,
           "n": 11,
           "sx": 2.0,
           "sy": 2.0,
@@ -3472,7 +3569,8 @@
           "syy": 0.520107531,
           "sxy": 0.514861263
         }
-      }
+      },
+      "series": "de-ec-gfk-consumer-survey"
     },
     {
       "target_id": "es-ec-gfk-consumer-survey-2026-10",
@@ -3587,6 +3685,8 @@
           "questions": 9,
           "tvd_sum": 0.397401567,
           "mae_pp_sum": 13.999506112,
+          "ordinal": 9,
+          "wasserstein_sum": 0.130395938,
           "n": 52,
           "sx": 9.0,
           "sy": 9.0,
@@ -3598,6 +3698,8 @@
           "questions": 2,
           "tvd_sum": 0.042059144,
           "mae_pp_sum": 1.525699097,
+          "ordinal": 2,
+          "wasserstein_sum": 0.012189386,
           "n": 11,
           "sx": 2.0,
           "sy": 2.0,
@@ -3605,7 +3707,8 @@
           "syy": 0.546548072,
           "sxy": 0.546436831
         }
-      }
+      },
+      "series": "es-ec-gfk-consumer-survey"
     },
     {
       "target_id": "jp-esri-consumer-confidence-2026-10",
@@ -3718,6 +3821,8 @@
           "questions": 5,
           "tvd_sum": 0.063,
           "mae_pp_sum": 2.43,
+          "ordinal": 4,
+          "wasserstein_sum": 0.023375,
           "n": 28,
           "sx": 5.0,
           "sy": 5.0,
@@ -3725,7 +3830,8 @@
           "syy": 1.909454,
           "sxy": 1.910824
         }
-      }
+      },
+      "series": "jp-esri-consumer-confidence"
     },
     {
       "target_id": "gb-freshwater-cityam-2026-11-06",
@@ -3864,6 +3970,8 @@
           "questions": 4,
           "tvd_sum": 0.148614438,
           "mae_pp_sum": 6.91991158,
+          "ordinal": 2,
+          "wasserstein_sum": 0.028497159,
           "n": 19,
           "sx": 4.0,
           "sy": 4.0,
@@ -3875,6 +3983,8 @@
           "questions": 1,
           "tvd_sum": 0.032130546,
           "mae_pp_sum": 0.918015604,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 7,
           "sx": 1.0,
           "sy": 1.0,
@@ -3882,7 +3992,8 @@
           "syy": 0.210098362,
           "sxy": 0.206287725
         }
-      }
+      },
+      "series": "gb-freshwater-cityam"
     },
     {
       "target_id": "gb-moreincommon-vi-2026-10-30",
@@ -3999,6 +4110,8 @@
           "questions": 1,
           "tvd_sum": 0.022060995,
           "mae_pp_sum": 0.73536651,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 6,
           "sx": 1.0,
           "sy": 1.0,
@@ -4010,6 +4123,8 @@
           "questions": 1,
           "tvd_sum": 0.028284281,
           "mae_pp_sum": 0.628539571,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 9,
           "sx": 1.0,
           "sy": 1.0,
@@ -4017,7 +4132,8 @@
           "syy": 0.202975303,
           "sxy": 0.199655709
         }
-      }
+      },
+      "series": "gb-moreincommon-vi"
     },
     {
       "target_id": "de-insa-meinungstrend-2026-11-03",
@@ -4114,6 +4230,8 @@
           "questions": 1,
           "tvd_sum": 0.0278,
           "mae_pp_sum": 0.695,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 8,
           "sx": 1.0,
           "sy": 1.0,
@@ -4121,7 +4239,8 @@
           "syy": 0.17625,
           "sxy": 0.17723325
         }
-      }
+      },
+      "series": "de-insa-meinungstrend"
     },
     {
       "target_id": "us-economist-yougov-2026-10-30",
@@ -4238,6 +4357,8 @@
           "questions": 4,
           "tvd_sum": 0.243782828,
           "mae_pp_sum": 12.172979798,
+          "ordinal": 3,
+          "wasserstein_sum": 0.080769915,
           "n": 17,
           "sx": 4.0,
           "sy": 4.0,
@@ -4245,7 +4366,8 @@
           "syy": 1.568149577,
           "sxy": 1.576845859
         }
-      }
+      },
+      "series": "us-economist-yougov"
     },
     {
       "target_id": "us-nyfed-sce-2026-11-01",
@@ -4426,6 +4548,8 @@
           "questions": 5,
           "tvd_sum": 0.23,
           "mae_pp_sum": 10.5,
+          "ordinal": 4,
+          "wasserstein_sum": 0.142975455,
           "n": 20,
           "sx": 5.0,
           "sy": 5.0,
@@ -4433,7 +4557,8 @@
           "syy": 1.8628,
           "sxy": 1.82135
         }
-      }
+      },
+      "series": "ch-gfsbern-srgtrend"
     },
     {
       "target_id": "gb-yougov-trackers-2026-11-01",
@@ -4550,6 +4675,8 @@
           "questions": 5,
           "tvd_sum": 0.060049505,
           "mae_pp_sum": 5.669966997,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 11,
           "sx": 5.0,
           "sy": 5.0,
@@ -4561,6 +4688,8 @@
           "questions": 1,
           "tvd_sum": 0.028128713,
           "mae_pp_sum": 0.703217822,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 8,
           "sx": 1.0,
           "sy": 1.0,
@@ -4568,7 +4697,8 @@
           "syy": 0.190471522,
           "sxy": 0.192064356
         }
-      }
+      },
+      "series": "gb-yougov-trackers"
     },
     {
       "target_id": "us-gallup-2026-11",
@@ -4780,6 +4910,8 @@
           "questions": 2,
           "tvd_sum": 0.027,
           "mae_pp_sum": 1.8,
+          "ordinal": 2,
+          "wasserstein_sum": 0.01406754,
           "n": 6,
           "sx": 2.0,
           "sy": 2.0,
@@ -4791,6 +4923,8 @@
           "questions": 1,
           "tvd_sum": 0.014,
           "mae_pp_sum": 0.4,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 7,
           "sx": 1.0,
           "sy": 1.0,
@@ -4798,7 +4932,8 @@
           "syy": 0.1784,
           "sxy": 0.177435
         }
-      }
+      },
+      "series": "de-ard-deutschlandtrend"
     },
     {
       "target_id": "fr-ifop-popularite-2026-11-04",
@@ -5075,6 +5210,8 @@
           "questions": 2,
           "tvd_sum": 0.055,
           "mae_pp_sum": 2.2,
+          "ordinal": 2,
+          "wasserstein_sum": 0.0245,
           "n": 10,
           "sx": 2.0,
           "sy": 2.0,
@@ -5082,7 +5219,8 @@
           "syy": 0.7098,
           "sxy": 0.69022
         }
-      }
+      },
+      "series": "fr-ipsos-bva-tribune"
     },
     {
       "target_id": "us-gallup-holiday-spending-2026-11",
@@ -5364,7 +5502,8 @@
           "bitcoin_block_hash": "0000000000000000000106faf2e1cb0c6f3930d21f4e4d0d42cab10368555e35",
           "bitcoin_block_merkle_root": "c587b85fbdf8de1bec9de27372bad79907e102d059cd46ec68ac839a367714ab"
         }
-      ]
+      ],
+      "series": "us-ipsos-consumer-tracker"
     },
     {
       "target_id": "global-steam-weekly-topsellers-2026-11-10",
@@ -5509,6 +5648,8 @@
           "questions": 1,
           "tvd_sum": 0.299090909,
           "mae_pp_sum": 3.987878788,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 15,
           "sx": 1.0,
           "sy": 1.0,
@@ -5516,7 +5657,8 @@
           "syy": 0.132561983,
           "sxy": 0.096854545
         }
-      }
+      },
+      "series": "global-steam-weekly-topsellers"
     },
     {
       "target_id": "de-forsa-trendbarometer-2026-11-10",
@@ -5677,6 +5819,8 @@
           "questions": 1,
           "tvd_sum": 0.011,
           "mae_pp_sum": 0.314285714,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 7,
           "sx": 1.0,
           "sy": 1.0,
@@ -5684,7 +5828,8 @@
           "syy": 0.1772,
           "sxy": 0.177965
         }
-      }
+      },
+      "series": "de-forsa-trendbarometer"
     },
     {
       "target_id": "de-allensbach-faz-2026-11",
@@ -6084,6 +6229,8 @@
           "questions": 1,
           "tvd_sum": 0.035751,
           "mae_pp_sum": 0.4468875,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 16,
           "sx": 1.0,
           "sy": 1.0,
@@ -6091,7 +6238,8 @@
           "syy": 0.112064044,
           "sxy": 0.108970352
         }
-      }
+      },
+      "series": "de-kba-car-registrations-brand"
     },
     {
       "target_id": "de-verian-bams-2026-11",
@@ -6252,6 +6400,8 @@
           "questions": 1,
           "tvd_sum": 0.02125,
           "mae_pp_sum": 0.53125,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 8,
           "sx": 1.0,
           "sy": 1.0,
@@ -6259,7 +6409,8 @@
           "syy": 0.1766,
           "sxy": 0.177385
         }
-      }
+      },
+      "series": "de-verian-bams"
     },
     {
       "target_id": "gb-findoutnow-vi-2026-11-04",
@@ -6420,6 +6571,8 @@
           "questions": 2,
           "tvd_sum": 0.043130269,
           "mae_pp_sum": 1.35746108,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 13,
           "sx": 2.0,
           "sy": 2.0,
@@ -6427,7 +6580,8 @@
           "syy": 0.523447652,
           "sxy": 0.518861264
         }
-      }
+      },
+      "series": "gb-findoutnow-vi"
     },
     {
       "target_id": "gb-ons-opn-2026-11-04",
@@ -6733,6 +6887,8 @@
           "questions": 1,
           "tvd_sum": 0.038620381,
           "mae_pp_sum": 1.287346017,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 6,
           "sx": 1.0,
           "sy": 1.0,
@@ -6744,6 +6900,8 @@
           "questions": 1,
           "tvd_sum": 0.029813021,
           "mae_pp_sum": 0.745325515,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 8,
           "sx": 1.0,
           "sy": 1.0,
@@ -6751,7 +6909,8 @@
           "syy": 0.190398728,
           "sxy": 0.194692557
         }
-      }
+      },
+      "series": "gb-opinium-observer"
     },
     {
       "target_id": "gb-system1-xmas-2026-tesco",
@@ -6827,6 +6986,7 @@
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ],
+      "series": "gb-system1-xmas-2026-tesco",
       "rating_stats": [
         {
           "evidence_type": "attitude",
@@ -6836,7 +6996,9 @@
             5.9
           ],
           "point": 4.44225,
-          "actual": 5.7
+          "actual": 5.7,
+          "crps": 0.934269,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -6951,6 +7113,8 @@
           "questions": 5,
           "tvd_sum": 0.217249725,
           "mae_pp_sum": 14.224859986,
+          "ordinal": 3,
+          "wasserstein_sum": 0.081435644,
           "n": 16,
           "sx": 5.0,
           "sy": 5.0,
@@ -6958,7 +7122,8 @@
           "syy": 1.965402179,
           "sxy": 1.933364944
         }
-      }
+      },
+      "series": "us-voter-poll-ssrs-2026"
     },
     {
       "target_id": "gb-system1-xmas-2026-sainsburys",
@@ -7034,6 +7199,7 @@
           "bitcoin_block_merkle_root": "b1e06051b7a1900ae89a676db1fd573742813209ab2b4810b1957f487e980b65"
         }
       ],
+      "series": "gb-system1-xmas-2026-sainsburys",
       "rating_stats": [
         {
           "evidence_type": "attitude",
@@ -7043,7 +7209,9 @@
             5.9
           ],
           "point": 5.1305,
-          "actual": 5.9
+          "actual": 5.9,
+          "crps": 0.467253,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -7233,6 +7401,8 @@
           "questions": 2,
           "tvd_sum": 0.6331,
           "mae_pp_sum": 9.044285714,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 28,
           "sx": 2.0,
           "sy": 2.0,
@@ -7240,7 +7410,8 @@
           "syy": 0.33782878,
           "sxy": 0.2310855
         }
-      }
+      },
+      "series": "de-netflix-top10"
     },
     {
       "target_id": "gb-netflix-top10-2026-11-01",
@@ -7337,6 +7508,8 @@
           "questions": 2,
           "tvd_sum": 0.7309,
           "mae_pp_sum": 10.52974359,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 28,
           "sx": 2.0,
           "sy": 2.0,
@@ -7344,7 +7517,8 @@
           "syy": 0.39405588,
           "sxy": 0.22838925
         }
-      }
+      },
+      "series": "gb-netflix-top10"
     },
     {
       "target_id": "global-netflix-top10-english-2026-11-01",
@@ -7441,6 +7615,8 @@
           "questions": 2,
           "tvd_sum": 0.8606,
           "mae_pp_sum": 12.622564103,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 28,
           "sx": 2.0,
           "sy": 2.0,
@@ -7448,7 +7624,8 @@
           "syy": 0.43264212,
           "sxy": 0.14820925
         }
-      }
+      },
+      "series": "global-netflix-top10-english"
     },
     {
       "target_id": "us-system1-xmas-2026-best-buy",
@@ -7695,6 +7872,8 @@
           "questions": 1,
           "tvd_sum": 0.190464985,
           "mae_pp_sum": 2.720928361,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 14,
           "sx": 1.0,
           "sy": 1.0,
@@ -7702,7 +7881,8 @@
           "syy": 0.132679692,
           "sxy": 0.140032503
         }
-      }
+      },
+      "series": "us-boxoffice-weekend"
     },
     {
       "target_id": "us-system1-xmas-2026-chewy-3",
@@ -8254,6 +8434,8 @@
           "questions": 1,
           "tvd_sum": 0.049244,
           "mae_pp_sum": 0.579341176,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 17,
           "sx": 1.0,
           "sy": 1.0,
@@ -8261,7 +8443,8 @@
           "syy": 0.138055966,
           "sxy": 0.131333555
         }
-      }
+      },
+      "series": "gb-smmt-car-registrations-marque"
     },
     {
       "target_id": "gb-system1-xmas-2026-john-lewis",
@@ -8337,6 +8520,7 @@
           "bitcoin_block_merkle_root": "fa96e6056bd93c20496be688a5d901749e9eb4f3d7492293cffd572775a68f4e"
         }
       ],
+      "series": "gb-system1-xmas-2026-john-lewis",
       "rating_stats": [
         {
           "evidence_type": "attitude",
@@ -8346,7 +8530,9 @@
             5.9
           ],
           "point": 4.87225,
-          "actual": 5.6
+          "actual": 5.6,
+          "crps": 0.422494,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -8649,6 +8835,7 @@
           "bitcoin_block_merkle_root": "bbe7b4785b1855638ba4a9bb001e722851ae71ae8295cad5f845ff5fa58e21c2"
         }
       ],
+      "series": "gb-system1-xmas-2026-lidl",
       "rating_stats": [
         {
           "evidence_type": "attitude",
@@ -8658,7 +8845,9 @@
             5.9
           ],
           "point": 4.51425,
-          "actual": 5.7
+          "actual": 5.7,
+          "crps": 0.745129,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -8821,6 +9010,8 @@
           "questions": 1,
           "tvd_sum": 0.011,
           "mae_pp_sum": 0.275,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 8,
           "sx": 1.0,
           "sy": 1.0,
@@ -8828,7 +9019,8 @@
           "syy": 0.17565,
           "sxy": 0.17623
         }
-      }
+      },
+      "series": "de-insa-meinungstrend"
     },
     {
       "target_id": "us-system1-xmas-2026-gap",
@@ -9295,6 +9487,7 @@
           "bitcoin_block_merkle_root": "a95b2a77d3bef045c24ada287631ce15cc9257ff877c6b267376f0182377ccbc"
         }
       ],
+      "series": "gb-system1-xmas-2026-aldi",
       "rating_stats": [
         {
           "evidence_type": "attitude",
@@ -9304,7 +9497,9 @@
             5.9
           ],
           "point": 5.660625,
-          "actual": 5.9
+          "actual": 5.9,
+          "crps": 0.089614,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -9457,6 +9652,7 @@
           "bitcoin_block_merkle_root": "49863c91afe3bd3488c4bc89baa2d8a21863da893aa07a60e89bf20e7b708b90"
         }
       ],
+      "series": "gb-system1-xmas-2026-barbour",
       "rating_stats": [
         {
           "evidence_type": "attitude",
@@ -9466,7 +9662,9 @@
             5.9
           ],
           "point": 5.433875,
-          "actual": 5.9
+          "actual": 5.9,
+          "crps": 0.229399,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -9994,6 +10192,7 @@
           "bitcoin_block_merkle_root": "90a9fcf44ba18c596cc4fe555a6cfd8582c33c4e4fa48aa0d2aed799ba0ccf3f"
         }
       ],
+      "series": "gb-system1-xmas-2026-ms",
       "rating_stats": [
         {
           "evidence_type": "attitude",
@@ -10003,7 +10202,9 @@
             5.9
           ],
           "point": 5.258875,
-          "actual": 5.9
+          "actual": 5.9,
+          "crps": 0.31509,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -10174,6 +10375,8 @@
           "questions": 4,
           "tvd_sum": 0.1125,
           "mae_pp_sum": 6.333333333,
+          "ordinal": 1,
+          "wasserstein_sum": 0.017424242,
           "n": 14,
           "sx": 4.0,
           "sy": 4.0,
@@ -10185,6 +10388,8 @@
           "questions": 2,
           "tvd_sum": 0.09,
           "mae_pp_sum": 2.571428571,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 14,
           "sx": 2.0,
           "sy": 2.0,
@@ -10192,7 +10397,8 @@
           "syy": 0.373,
           "sxy": 0.364475
         }
-      }
+      },
+      "series": "de-zdf-politbarometer"
     },
     {
       "target_id": "spotify-de-weekly-2026-11-19-measurement-v2",
@@ -10251,7 +10457,8 @@
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
         }
-      ]
+      ],
+      "series": "spotify-de-weekly-2026-11-19-measurement-v2"
     },
     {
       "target_id": "spotify-us-weekly-2026-11-19-measurement-v2",
@@ -10310,7 +10517,8 @@
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
         }
-      ]
+      ],
+      "series": "spotify-us-weekly-2026-11-19-measurement-v2"
     },
     {
       "target_id": "netflix-global-english-films-2026-11-22-measurement-v2",
@@ -10436,6 +10644,8 @@
           "questions": 4,
           "tvd_sum": 0.113,
           "mae_pp_sum": 5.75,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 15,
           "sx": 4.0,
           "sy": 4.0,
@@ -10447,6 +10657,8 @@
           "questions": 1,
           "tvd_sum": 0.010331169,
           "mae_pp_sum": 0.516558442,
+          "ordinal": 0,
+          "wasserstein_sum": 0.0,
           "n": 4,
           "sx": 1.0,
           "sy": 1.0,
@@ -10454,7 +10666,8 @@
           "syy": 0.658471399,
           "sxy": 0.658673826
         }
-      }
+      },
+      "series": "gb-ons-bics-wave168"
     },
     {
       "target_id": "spotify-de-weekly-2026-11-26-rolling-v3",
