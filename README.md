@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-21T17:18:34Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-21T17:26:59Z**. Latest recorded forecast or score: **2026-11-21T07:45:11Z**. 51 surveys scored; 47 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
