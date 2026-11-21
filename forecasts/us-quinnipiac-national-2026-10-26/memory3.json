@@ -3,22 +3,78 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__memory3__trump_job_approval__overall__r1",
       "entry_sha256": "5cebce7ac5843bcfa7ea13c06d169bbd3999a40ec3fdeafb9819f3519f1fae1c",
       "seq": 963,
       "batch_id": "us-quinnipiac-national-2026-10-26__memory3__20261025T185653336784Z__s963",
-      "locked_at": "2026-10-25T18:56:53Z"
+      "locked_at": "2026-10-25T18:56:53Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as president? (If approve/disapprove) Do you strongly or somewhat approve/disapprove?",
+        "type": "ordinal",
+        "options": [
+          "Approve strongly",
+          "Approve somewhat",
+          "Disapprove somewhat",
+          "Disapprove strongly",
+          "DK/NA"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.305,
+        0.12,
+        0.09,
+        0.445,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__memory3__house_control__overall__r1",
       "entry_sha256": "a5bd08df91c0bf6172b4c8a999e2897e87eb99c1afd4c6837c81dc4c663813d1",
       "seq": 964,
       "batch_id": "us-quinnipiac-national-2026-10-26__memory3__20261025T185653336784Z__s963",
-      "locked_at": "2026-10-25T18:56:53Z"
+      "locked_at": "2026-10-25T18:56:53Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "house_control",
+        "text": "If the election were today, would you want to see the Republican Party or the Democratic Party win control of the United States House of Representatives?",
+        "type": "categorical",
+        "options": [
+          "Republican Party",
+          "Democratic Party",
+          "DK/NA"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.45,
+        0.4875,
+        0.0625
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

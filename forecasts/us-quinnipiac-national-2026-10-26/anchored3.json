@@ -3,22 +3,78 @@
   "variant": "anchored3",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__anchored3__trump_job_approval__overall__r1",
       "entry_sha256": "5286f7fda1fa32ae508e2628fc7a8994b5d3b7222adfc5896d2a7011fac7e972",
       "seq": 229,
       "batch_id": "us-quinnipiac-national-2026-10-26__anchored3__20261024T024149705126Z__s229",
-      "locked_at": "2026-10-24T02:41:49Z"
+      "locked_at": "2026-10-24T02:41:49Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as president? (If approve/disapprove) Do you strongly or somewhat approve/disapprove?",
+        "type": "ordinal",
+        "options": [
+          "Approve strongly",
+          "Approve somewhat",
+          "Disapprove somewhat",
+          "Disapprove strongly",
+          "DK/NA"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.235,
+        0.1135,
+        0.0565,
+        0.5425,
+        0.052500000000000005
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__anchored3__house_control__overall__r1",
       "entry_sha256": "4f34ac18436eb0e72664feed25386a961cffca376f36ac24bd5a79934e71e423",
       "seq": 230,
       "batch_id": "us-quinnipiac-national-2026-10-26__anchored3__20261024T024149705126Z__s229",
-      "locked_at": "2026-10-24T02:41:49Z"
+      "locked_at": "2026-10-24T02:41:49Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "house_control",
+        "text": "If the election were today, would you want to see the Republican Party or the Democratic Party win control of the United States House of Representatives?",
+        "type": "categorical",
+        "options": [
+          "Republican Party",
+          "Democratic Party",
+          "DK/NA"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.41,
+        0.515,
+        0.075
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     }
   ]
 }

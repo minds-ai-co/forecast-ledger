@@ -1,20 +1,20 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-20T08:15:08Z",
+  "as_of": "2026-11-21T00:51:33Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-20T07:53:57Z",
-  "chain_head_sha256": "fb370900ba784e20f525c53e99e60fa12683c6fbb4d4a09fba1fc6df41448e03",
+  "latest_event_at": "2026-11-21T00:26:55Z",
+  "chain_head_sha256": "c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 97,
-    "targets_scored": 35,
-    "targets_pending": 62,
-    "targets_not_scoreable": 0,
-    "entries": 2487,
-    "batches": 316,
-    "entries_scored": 673,
-    "entries_pending": 1649,
-    "entries_not_scoreable": 165,
+    "targets": 101,
+    "targets_scored": 49,
+    "targets_pending": 49,
+    "targets_not_scoreable": 3,
+    "entries": 2657,
+    "batches": 321,
+    "entries_scored": 1310,
+    "entries_pending": 1110,
+    "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
   },
@@ -58,144 +58,144 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "anchored3",
-    "forecasts_locked": 619,
+    "forecasts_locked": 729,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 35,
-      "questions": 118,
-      "tvd": 0.094938,
-      "mae_pp": 2.501483,
-      "pearson_r": 0.861814
+      "surveys": 49,
+      "questions": 167,
+      "tvd": 0.078026,
+      "mae_pp": 2.20452,
+      "pearson_r": 0.89186
     },
     "locked_before_fieldwork": {
-      "surveys": 13,
-      "questions": 40,
-      "tvd": 0.027602,
-      "mae_pp": 1.230396,
-      "pearson_r": 0.996229
+      "surveys": 22,
+      "questions": 65,
+      "tvd": 0.035871,
+      "mae_pp": 1.372784,
+      "pearson_r": 0.991375
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 23,
-        "questions": 80,
-        "tvd": 0.101888,
-        "mae_pp": 2.946794,
-        "pearson_r": 0.830836
+        "surveys": 33,
+        "questions": 118,
+        "tvd": 0.077537,
+        "mae_pp": 2.446894,
+        "pearson_r": 0.868895
       },
       "stated_intent": {
-        "surveys": 19,
-        "questions": 26,
-        "tvd": 0.024195,
-        "mae_pp": 0.786873,
-        "pearson_r": 0.995922
+        "surveys": 24,
+        "questions": 35,
+        "tvd": 0.027682,
+        "mae_pp": 0.963992,
+        "pearson_r": 0.9938
       },
       "behaviour": {
-        "surveys": 6,
-        "questions": 12,
-        "tvd": 0.201883,
-        "mae_pp": 3.247735,
-        "pearson_r": 0.874996
+        "surveys": 8,
+        "questions": 14,
+        "tvd": 0.208011,
+        "mae_pp": 3.262974,
+        "pearson_r": 0.864207
       }
     },
     "additional_research": {
       "pure": {
         "label": "Additional research forecast (pure)",
-        "forecasts_locked": 605,
+        "forecasts_locked": 665,
         "scored": {
-          "surveys": 34,
-          "questions": 113,
-          "tvd": 0.159741,
-          "mae_pp": 4.80948,
-          "pearson_r": 0.769174
+          "surveys": 48,
+          "questions": 163,
+          "tvd": 0.140357,
+          "mae_pp": 4.73721,
+          "pearson_r": 0.81505
         }
       },
       "cellsS": {
         "label": "Additional research forecast (cellsS)",
         "forecasts_locked": 237,
         "scored": {
-          "surveys": 1,
-          "questions": 4,
-          "tvd": 0.117269,
-          "mae_pp": 5.763596,
-          "pearson_r": 0.932756
+          "surveys": 8,
+          "questions": 36,
+          "tvd": 0.092524,
+          "mae_pp": 4.864411,
+          "pearson_r": 0.948587
         }
       },
       "cellsH": {
         "label": "Additional research forecast (cellsH)",
         "forecasts_locked": 237,
         "scored": {
-          "surveys": 1,
-          "questions": 4,
-          "tvd": 0.109313,
-          "mae_pp": 5.444341,
-          "pearson_r": 0.943428
+          "surveys": 8,
+          "questions": 36,
+          "tvd": 0.091417,
+          "mae_pp": 4.85448,
+          "pearson_r": 0.946798
         }
       },
       "memory3": {
         "label": "Additional research forecast (memory3)",
         "forecasts_locked": 474,
         "scored": {
-          "surveys": 25,
-          "questions": 91,
-          "tvd": 0.113194,
-          "mae_pp": 3.723235,
-          "pearson_r": 0.934267
+          "surveys": 39,
+          "questions": 141,
+          "tvd": 0.10674,
+          "mae_pp": 3.987142,
+          "pearson_r": 0.939964
         }
       },
       "blend": {
         "label": "Additional research forecast (blend)",
         "forecasts_locked": 51,
         "scored": {
-          "surveys": 5,
-          "questions": 41,
-          "tvd": 0.052236,
-          "mae_pp": 1.932877,
-          "pearson_r": 0.987094
+          "surveys": 6,
+          "questions": 46,
+          "tvd": 0.055128,
+          "mae_pp": 2.108758,
+          "pearson_r": 0.984602
         }
       },
       "bank3": {
         "label": "Additional research forecast (bank3)",
         "forecasts_locked": 100,
         "scored": {
-          "surveys": 5,
-          "questions": 12,
-          "tvd": 0.089983,
-          "mae_pp": 3.958765,
-          "pearson_r": 0.9437
+          "surveys": 8,
+          "questions": 16,
+          "tvd": 0.100516,
+          "mae_pp": 3.647213,
+          "pearson_r": 0.942702
         }
       },
       "bankR3": {
         "label": "Additional research forecast (bankR3)",
         "forecasts_locked": 100,
         "scored": {
-          "surveys": 5,
-          "questions": 12,
-          "tvd": 0.088896,
-          "mae_pp": 3.88512,
-          "pearson_r": 0.946234
+          "surveys": 8,
+          "questions": 16,
+          "tvd": 0.102831,
+          "mae_pp": 3.693878,
+          "pearson_r": 0.942582
         }
       },
       "cohort": {
         "label": "Additional research forecast (cohort)",
         "forecasts_locked": 48,
         "scored": {
-          "surveys": 5,
-          "questions": 12,
-          "tvd": 0.098439,
-          "mae_pp": 4.125525,
-          "pearson_r": 0.939279
+          "surveys": 8,
+          "questions": 16,
+          "tvd": 0.119951,
+          "mae_pp": 4.099731,
+          "pearson_r": 0.918978
         }
       },
       "xpub3": {
         "label": "Additional research forecast (xpub3)",
         "forecasts_locked": 16,
         "scored": {
-          "surveys": 5,
-          "questions": 8,
-          "tvd": 0.041017,
-          "mae_pp": 1.525717,
-          "pearson_r": 0.991674
+          "surveys": 7,
+          "questions": 10,
+          "tvd": 0.044681,
+          "mae_pp": 1.753932,
+          "pearson_r": 0.988714
         }
       }
     }
@@ -210,18 +210,18 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 1937,
-    "stated_intent": 453,
-    "behaviour": 97
+    "attitude": 2096,
+    "stated_intent": 454,
+    "behaviour": 107
   },
   "results_by_evidence_type": {
     "attitude": {
       "pure": {
         "overall": {
-          "n": 80,
-          "n_distribution": 80,
-          "tvd": 0.166344,
-          "mae_pp": 5.499524,
+          "n": 119,
+          "n_distribution": 119,
+          "tvd": 0.142159,
+          "mae_pp": 5.344209,
           "numeric": {
             "n": 7,
             "abs_error": 1.287714,
@@ -229,16 +229,16 @@
           }
         },
         "subgroups": {
-          "n": 75,
-          "n_distribution": 75,
-          "tvd": 0.111382,
-          "mae_pp": 6.447271
+          "n": 160,
+          "n_distribution": 160,
+          "tvd": 0.109287,
+          "mae_pp": 6.317645
         },
         "all": {
-          "n": 155,
-          "n_distribution": 155,
-          "tvd": 0.13975,
-          "mae_pp": 5.958111,
+          "n": 279,
+          "n_distribution": 279,
+          "tvd": 0.123307,
+          "mae_pp": 5.902452,
           "numeric": {
             "n": 7,
             "abs_error": 1.287714,
@@ -248,10 +248,10 @@
       },
       "anchored3": {
         "overall": {
-          "n": 80,
-          "n_distribution": 80,
-          "tvd": 0.101888,
-          "mae_pp": 2.946794,
+          "n": 118,
+          "n_distribution": 118,
+          "tvd": 0.077537,
+          "mae_pp": 2.446894,
           "numeric": {
             "n": 7,
             "abs_error": 0.755339,
@@ -259,16 +259,16 @@
           }
         },
         "subgroups": {
-          "n": 75,
-          "n_distribution": 75,
-          "tvd": 0.054025,
-          "mae_pp": 2.984565
+          "n": 160,
+          "n_distribution": 160,
+          "tvd": 0.044879,
+          "mae_pp": 2.508431
         },
         "all": {
-          "n": 155,
-          "n_distribution": 155,
-          "tvd": 0.078729,
-          "mae_pp": 2.96507,
+          "n": 278,
+          "n_distribution": 278,
+          "tvd": 0.058741,
+          "mae_pp": 2.482311,
           "numeric": {
             "n": 7,
             "abs_error": 0.755339,
@@ -278,294 +278,339 @@
       },
       "bank3": {
         "overall": {
-          "n": 5,
-          "n_distribution": 5,
-          "tvd": 0.113948,
-          "mae_pp": 6.481608
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.098177,
+          "mae_pp": 5.301148
         },
         "subgroups": null,
         "all": {
-          "n": 5,
-          "n_distribution": 5,
-          "tvd": 0.113948,
-          "mae_pp": 6.481608
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.098177,
+          "mae_pp": 5.301148
         }
       },
       "bankR3": {
         "overall": {
-          "n": 5,
-          "n_distribution": 5,
-          "tvd": 0.112139,
-          "mae_pp": 6.354644
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.101885,
+          "mae_pp": 5.41046
         },
         "subgroups": null,
         "all": {
-          "n": 5,
-          "n_distribution": 5,
-          "tvd": 0.112139,
-          "mae_pp": 6.354644
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.101885,
+          "mae_pp": 5.41046
         }
       },
       "blend": {
         "overall": {
-          "n": 34,
-          "n_distribution": 34,
-          "tvd": 0.051071,
-          "mae_pp": 1.903977
+          "n": 38,
+          "n_distribution": 38,
+          "tvd": 0.055089,
+          "mae_pp": 2.142798
         },
         "subgroups": null,
         "all": {
-          "n": 34,
-          "n_distribution": 34,
-          "tvd": 0.051071,
-          "mae_pp": 1.903977
+          "n": 38,
+          "n_distribution": 38,
+          "tvd": 0.055089,
+          "mae_pp": 2.142798
         }
       },
       "cellsH": {
         "overall": {
-          "n": 4,
-          "n_distribution": 4,
-          "tvd": 0.109313,
-          "mae_pp": 5.444341
+          "n": 33,
+          "n_distribution": 33,
+          "tvd": 0.095,
+          "mae_pp": 5.176217
         },
         "subgroups": {
-          "n": 20,
-          "n_distribution": 20,
-          "tvd": 0.12762,
-          "mae_pp": 6.376006
+          "n": 87,
+          "n_distribution": 87,
+          "tvd": 0.104801,
+          "mae_pp": 5.670432
         },
         "all": {
-          "n": 24,
-          "n_distribution": 24,
-          "tvd": 0.124568,
-          "mae_pp": 6.220728
+          "n": 120,
+          "n_distribution": 120,
+          "tvd": 0.102106,
+          "mae_pp": 5.534523
         }
       },
       "cellsS": {
         "overall": {
-          "n": 4,
-          "n_distribution": 4,
-          "tvd": 0.117269,
-          "mae_pp": 5.763596
+          "n": 33,
+          "n_distribution": 33,
+          "tvd": 0.095425,
+          "mae_pp": 5.168512
         },
         "subgroups": {
-          "n": 20,
-          "n_distribution": 20,
-          "tvd": 0.13476,
-          "mae_pp": 6.710637
+          "n": 87,
+          "n_distribution": 87,
+          "tvd": 0.105891,
+          "mae_pp": 5.743969
         },
         "all": {
-          "n": 24,
-          "n_distribution": 24,
-          "tvd": 0.131845,
-          "mae_pp": 6.552797
+          "n": 120,
+          "n_distribution": 120,
+          "tvd": 0.103013,
+          "mae_pp": 5.585718
         }
       },
       "cohort": {
         "overall": {
-          "n": 5,
-          "n_distribution": 5,
-          "tvd": 0.10635,
-          "mae_pp": 6.111661
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.103821,
+          "mae_pp": 5.479758
         },
         "subgroups": null,
         "all": {
-          "n": 5,
-          "n_distribution": 5,
-          "tvd": 0.10635,
-          "mae_pp": 6.111661
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.103821,
+          "mae_pp": 5.479758
         }
       },
       "memory3": {
         "overall": {
-          "n": 61,
-          "n_distribution": 61,
-          "tvd": 0.098487,
-          "mae_pp": 4.013976
+          "n": 100,
+          "n_distribution": 100,
+          "tvd": 0.095586,
+          "mae_pp": 4.377112
         },
         "subgroups": {
-          "n": 20,
-          "n_distribution": 20,
-          "tvd": 0.123737,
-          "mae_pp": 6.232324
+          "n": 105,
+          "n_distribution": 105,
+          "tvd": 0.111743,
+          "mae_pp": 6.405935
         },
         "all": {
-          "n": 81,
-          "n_distribution": 81,
-          "tvd": 0.104721,
-          "mae_pp": 4.561716
+          "n": 205,
+          "n_distribution": 205,
+          "tvd": 0.103862,
+          "mae_pp": 5.416265
         }
       },
       "xpub3": {
         "overall": {
-          "n": 2,
-          "n_distribution": 2,
-          "tvd": 0.0425,
-          "mae_pp": 2.833334
+          "n": 3,
+          "n_distribution": 3,
+          "tvd": 0.059891,
+          "mae_pp": 3.466751
         },
         "subgroups": null,
         "all": {
-          "n": 2,
-          "n_distribution": 2,
-          "tvd": 0.0425,
-          "mae_pp": 2.833334
+          "n": 3,
+          "n_distribution": 3,
+          "tvd": 0.059891,
+          "mae_pp": 3.466751
         }
       }
     },
     "stated_intent": {
       "pure": {
         "overall": {
-          "n": 25,
-          "n_distribution": 25,
-          "tvd": 0.073725,
-          "mae_pp": 2.485722
-        },
-        "subgroups": {
-          "n": 14,
-          "n_distribution": 14,
-          "tvd": 0.089528,
-          "mae_pp": 2.673883
-        },
-        "all": {
-          "n": 39,
-          "n_distribution": 39,
-          "tvd": 0.079398,
-          "mae_pp": 2.553267
-        }
-      },
-      "anchored3": {
-        "overall": {
-          "n": 26,
-          "n_distribution": 26,
-          "tvd": 0.024195,
-          "mae_pp": 0.786873
+          "n": 34,
+          "n_distribution": 34,
+          "tvd": 0.073212,
+          "mae_pp": 2.557553
         },
         "subgroups": {
           "n": 18,
           "n_distribution": 18,
-          "tvd": 0.059376,
-          "mae_pp": 1.930583
+          "tvd": 0.090029,
+          "mae_pp": 2.589591
         },
         "all": {
-          "n": 44,
-          "n_distribution": 44,
-          "tvd": 0.038587,
-          "mae_pp": 1.254754
+          "n": 52,
+          "n_distribution": 52,
+          "tvd": 0.079033,
+          "mae_pp": 2.568643
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 35,
+          "n_distribution": 35,
+          "tvd": 0.027682,
+          "mae_pp": 0.963992
+        },
+        "subgroups": {
+          "n": 22,
+          "n_distribution": 22,
+          "tvd": 0.058657,
+          "mae_pp": 1.831495
+        },
+        "all": {
+          "n": 57,
+          "n_distribution": 57,
+          "tvd": 0.039637,
+          "mae_pp": 1.298818
         }
       },
       "bank3": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.072865,
-          "mae_pp": 2.156735
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.070945,
+          "mae_pp": 2.066831
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.072865,
-          "mae_pp": 2.156735
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.070945,
+          "mae_pp": 2.066831
         }
       },
       "bankR3": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.072294,
-          "mae_pp": 2.121174
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.070757,
+          "mae_pp": 2.043527
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.072294,
-          "mae_pp": 2.121174
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.070757,
+          "mae_pp": 2.043527
         }
       },
       "blend": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.057897,
-          "mae_pp": 2.073244
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.055314,
+          "mae_pp": 1.947066
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.057897,
-          "mae_pp": 2.073244
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.055314,
+          "mae_pp": 1.947066
+        }
+      },
+      "cellsH": {
+        "overall": {
+          "n": 3,
+          "n_distribution": 3,
+          "tvd": 0.052,
+          "mae_pp": 1.315376
+        },
+        "subgroups": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.100524,
+          "mae_pp": 2.513114
+        },
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.07141,
+          "mae_pp": 1.794471
+        }
+      },
+      "cellsS": {
+        "overall": {
+          "n": 3,
+          "n_distribution": 3,
+          "tvd": 0.060612,
+          "mae_pp": 1.519298
+        },
+        "subgroups": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.109516,
+          "mae_pp": 2.737888
+        },
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.080173,
+          "mae_pp": 2.006734
         }
       },
       "cohort": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.092788,
-          "mae_pp": 2.706856
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.09244,
+          "mae_pp": 2.649749
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.092788,
-          "mae_pp": 2.706856
+          "n": 8,
+          "n_distribution": 8,
+          "tvd": 0.09244,
+          "mae_pp": 2.649749
         }
       },
       "memory3": {
         "overall": {
-          "n": 22,
-          "n_distribution": 22,
-          "tvd": 0.075211,
-          "mae_pp": 2.569243
+          "n": 31,
+          "n_distribution": 31,
+          "tvd": 0.071777,
+          "mae_pp": 2.528691
         },
-        "subgroups": null,
+        "subgroups": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.096533,
+          "mae_pp": 2.413318
+        },
         "all": {
-          "n": 22,
-          "n_distribution": 22,
-          "tvd": 0.075211,
-          "mae_pp": 2.569243
+          "n": 35,
+          "n_distribution": 35,
+          "tvd": 0.074606,
+          "mae_pp": 2.515505
         }
       },
       "xpub3": {
         "overall": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.040522,
-          "mae_pp": 1.089845
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.038162,
+          "mae_pp": 1.019867
         },
         "subgroups": null,
         "all": {
-          "n": 6,
-          "n_distribution": 6,
-          "tvd": 0.040522,
-          "mae_pp": 1.089845
+          "n": 7,
+          "n_distribution": 7,
+          "tvd": 0.038162,
+          "mae_pp": 1.019867
         }
       }
     },
     "behaviour": {
       "pure": {
         "overall": {
-          "n": 8,
-          "n_distribution": 8,
-          "tvd": 0.362506,
-          "mae_pp": 5.170787
+          "n": 10,
+          "n_distribution": 10,
+          "tvd": 0.347211,
+          "mae_pp": 4.924762
         },
         "subgroups": null,
         "all": {
-          "n": 8,
-          "n_distribution": 8,
-          "tvd": 0.362506,
-          "mae_pp": 5.170787
+          "n": 10,
+          "n_distribution": 10,
+          "tvd": 0.347211,
+          "mae_pp": 4.924762
         }
       },
       "anchored3": {
         "overall": {
-          "n": 12,
-          "n_distribution": 12,
-          "tvd": 0.201883,
-          "mae_pp": 3.247735
+          "n": 14,
+          "n_distribution": 14,
+          "tvd": 0.208011,
+          "mae_pp": 3.262974
         },
         "subgroups": {
           "n": 16,
@@ -574,25 +619,70 @@
           "mae_pp": 2.014318
         },
         "all": {
-          "n": 28,
-          "n_distribution": 28,
-          "tvd": 0.107977,
-          "mae_pp": 2.542925
+          "n": 30,
+          "n_distribution": 30,
+          "tvd": 0.117097,
+          "mae_pp": 2.597024
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.353455,
+          "mae_pp": 4.712727
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.353455,
+          "mae_pp": 4.712727
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.366045,
+          "mae_pp": 4.880606
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.366045,
+          "mae_pp": 4.880606
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.452955,
+          "mae_pp": 6.039394
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.452955,
+          "mae_pp": 6.039394
         }
       },
       "memory3": {
         "overall": {
-          "n": 8,
-          "n_distribution": 8,
-          "tvd": 0.329794,
-          "mae_pp": 4.679813
+          "n": 10,
+          "n_distribution": 10,
+          "tvd": 0.326664,
+          "mae_pp": 4.608643
         },
         "subgroups": null,
         "all": {
-          "n": 8,
-          "n_distribution": 8,
-          "tvd": 0.329794,
-          "mae_pp": 4.679813
+          "n": 10,
+          "n_distribution": 10,
+          "tvd": 0.326664,
+          "mae_pp": 4.608643
         }
       }
     }
@@ -768,17 +858,17 @@
         ]
       },
       "wave": "First Observatoire politique wave with fieldwork starting on or after Tue 27 Oct 2026 (expected 27-28 Oct, published Thu 29 Oct; or 3-4 Nov, published Thu 5 Nov)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-10-25T23:00:00Z",
       "first_lock_utc": "2026-10-25T06:52:04Z",
-      "released_at": null,
-      "publication_url": "https://elabe.fr/tag/barometre-politique/",
+      "released_at": "2026-11-05T15:00:53Z",
+      "publication_url": "https://elabe.fr/lobservatoire-politique-novembre-2026/",
       "forecasts_count": 30,
       "variants": [
         "pure",
@@ -790,7 +880,7 @@
         "anchored3": "forecasts/fr-elabe-observatoire-2026-10-27/anchored3.json",
         "memory3": "forecasts/fr-elabe-observatoire-2026-10-27/memory3.json"
       },
-      "results": null,
+      "results": "results/fr-elabe-observatoire-2026-10-27.json",
       "batches": [
         {
           "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
@@ -852,16 +942,16 @@
         ]
       },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T12:43:07Z",
-      "released_at": null,
+      "released_at": "2026-11-12T13:45:25Z",
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 80,
       "variants": [
@@ -878,7 +968,7 @@
         "cellsH": "forecasts/us-census-htops-2609-healthinfo/cellsH.json",
         "memory3": "forecasts/us-census-htops-2609-healthinfo/memory3.json"
       },
-      "results": null,
+      "results": "results/us-census-htops-2609-healthinfo.json",
       "batches": [
         {
           "batch_id": "us-census-htops-2609-healthinfo__20261024T124307985034Z__s278",
@@ -954,16 +1044,16 @@
         ]
       },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T12:54:37Z",
-      "released_at": null,
+      "released_at": "2026-11-12T13:45:25Z",
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
@@ -980,7 +1070,7 @@
         "cellsH": "forecasts/us-census-htops-2609-trust-a/cellsH.json",
         "memory3": "forecasts/us-census-htops-2609-trust-a/memory3.json"
       },
-      "results": null,
+      "results": "results/us-census-htops-2609-trust-a.json",
       "batches": [
         {
           "batch_id": "us-census-htops-2609-trust-a__20261024T125437794494Z__s310",
@@ -1056,16 +1146,16 @@
         ]
       },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T13:05:35Z",
-      "released_at": null,
+      "released_at": "2026-11-12T13:45:25Z",
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
@@ -1082,7 +1172,7 @@
         "cellsH": "forecasts/us-census-htops-2609-trust-b/cellsH.json",
         "memory3": "forecasts/us-census-htops-2609-trust-b/memory3.json"
       },
-      "results": null,
+      "results": "results/us-census-htops-2609-trust-b.json",
       "batches": [
         {
           "batch_id": "us-census-htops-2609-trust-b__20261024T130535991588Z__s350",
@@ -1158,16 +1248,16 @@
         ]
       },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-10-26T04:00:00Z",
       "first_lock_utc": "2026-10-24T12:32:21Z",
-      "released_at": null,
+      "released_at": "2026-11-12T13:45:25Z",
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
@@ -1184,7 +1274,7 @@
         "cellsH": "forecasts/us-census-htops-2609-wellbeing/cellsH.json",
         "memory3": "forecasts/us-census-htops-2609-wellbeing/memory3.json"
       },
-      "results": null,
+      "results": "results/us-census-htops-2609-wellbeing.json",
       "batches": [
         {
           "batch_id": "us-census-htops-2609-wellbeing__20261024T123221755201Z__s238",
@@ -1358,9 +1448,9 @@
         ]
       },
       "wave": "The first national ABC News/Washington Post/Ipsos poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose topline reports Trump job approval and right/wrong direction among all adults. Expected: final pre-midterm wave, fieldwork about Oct 27-Nov 1, 2026, release about Nov 1-2, 2026.",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "not_scoreable",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
@@ -1380,7 +1470,7 @@
         "anchored3": "forecasts/us-abc-post-ipsos-2026-10-26/anchored3.json",
         "memory3": "forecasts/us-abc-post-ipsos-2026-10-26/memory3.json"
       },
-      "results": null,
+      "results": "results/us-abc-post-ipsos-2026-10-26.json",
       "batches": [
         {
           "batch_id": "us-abc-post-ipsos-2026-10-26__20261024T014957167936Z__s96",
@@ -1621,9 +1711,9 @@
         ]
       },
       "wave": "The first national Quinnipiac University poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and that reports Trump job approval and House control preference among registered voters. Expected: final pre-midterm national poll, fieldwork about Oct 22-Nov 1, 2026, release about Oct 28-Nov 2.",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "not_scoreable",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
@@ -1643,7 +1733,7 @@
         "anchored3": "forecasts/us-quinnipiac-national-2026-10-26/anchored3.json",
         "memory3": "forecasts/us-quinnipiac-national-2026-10-26/memory3.json"
       },
-      "results": null,
+      "results": "results/us-quinnipiac-national-2026-10-26.json",
       "batches": [
         {
           "batch_id": "us-quinnipiac-national-2026-10-26__20261024T015308419519Z__s101",
@@ -3219,9 +3309,9 @@
         ]
       },
       "wave": "First City AM / Freshwater Strategy UK poll with fieldwork starting on or after Fri 30 Oct 2026 (expected Fri 6-Sun 8 Nov 2026, data tables about Mon 9-Wed 11 Nov); void if no such wave is published by 2026-11-30",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -3229,8 +3319,8 @@
       ],
       "cutoff_utc": "2026-10-29T00:00:00Z",
       "first_lock_utc": "2026-10-28T00:51:22Z",
-      "released_at": null,
-      "publication_url": "https://freshwaterstrategy.com/",
+      "released_at": "2026-11-05T20:52:18Z",
+      "publication_url": "https://freshwaterstrategy.com/2026/11/05/city-am-freshwater-strategy-november-polling-data-2/",
       "forecasts_count": 30,
       "variants": [
         "pure",
@@ -3248,7 +3338,7 @@
         "memory3": "forecasts/gb-freshwater-cityam-2026-11-06/memory3.json",
         "blend": "forecasts/gb-freshwater-cityam-2026-11-06/blend.json"
       },
-      "results": null,
+      "results": "results/gb-freshwater-cityam-2026-11-06.json",
       "batches": [
         {
           "batch_id": "gb-freshwater-cityam-2026-11-06__20261028T005122959209Z__s1305",
@@ -3339,9 +3429,9 @@
         ]
       },
       "wave": "Weekly wave expected Fri 30 Oct to Mon 2 Nov 2026 (first wave with fieldwork starting on or after Thu 29 Oct 2026)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -3349,7 +3439,7 @@
       ],
       "cutoff_utc": "2026-10-29T00:00:00Z",
       "first_lock_utc": "2026-10-28T04:29:12Z",
-      "released_at": null,
+      "released_at": "2026-11-04T08:43:03Z",
       "publication_url": "https://www.moreincommon.org.uk/polling-tables/",
       "forecasts_count": 10,
       "variants": [
@@ -3366,7 +3456,7 @@
         "cellsH": "forecasts/gb-moreincommon-vi-2026-10-30/cellsH.json",
         "memory3": "forecasts/gb-moreincommon-vi-2026-10-30/memory3.json"
       },
-      "results": null,
+      "results": "results/gb-moreincommon-vi-2026-10-30.json",
       "batches": [
         {
           "batch_id": "gb-moreincommon-vi-2026-10-30__20261028T042912739840Z__s1335",
@@ -3728,17 +3818,17 @@
         ]
       },
       "wave": "2. Welle der SRG-Trendumfragen zur Volksabstimmung vom 29. November 2026 (expected fieldwork about 4-12 Nov 2026, publication Wed 18 Nov 2026 06:00 CET)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "stated_intent"
       ],
       "cutoff_utc": "2026-10-31T23:00:00Z",
       "first_lock_utc": "2026-10-30T18:51:57Z",
-      "released_at": null,
-      "publication_url": "https://www.gfsbern.ch/de/news/",
+      "released_at": "2026-11-18T04:59:35Z",
+      "publication_url": "https://cockpit.gfsbern.ch/de/cockpit/trend_w2_29112026-2/",
       "forecasts_count": 15,
       "variants": [
         "pure",
@@ -3750,7 +3840,7 @@
         "anchored3": "forecasts/ch-gfsbern-srgtrend-2026-11-04/anchored3.json",
         "memory3": "forecasts/ch-gfsbern-srgtrend-2026-11-04/memory3.json"
       },
-      "results": null,
+      "results": "results/ch-gfsbern-srgtrend-2026-11-04.json",
       "batches": [
         {
           "batch_id": "ch-gfsbern-srgtrend-2026-11-04__20261030T185157911319Z__s1780",
@@ -3820,9 +3910,9 @@
         ]
       },
       "wave": "Weekly wave expected 1-2 November 2026 (next after 25-26 October 2026)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -3830,7 +3920,7 @@
       ],
       "cutoff_utc": "2026-11-01T00:00:00Z",
       "first_lock_utc": "2026-10-28T05:35:00Z",
-      "released_at": null,
+      "released_at": "2026-11-03T09:54:17Z",
       "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
       "forecasts_count": 126,
       "variants": [
@@ -3847,7 +3937,7 @@
         "cellsH": "forecasts/gb-yougov-trackers-2026-11-01/cellsH.json",
         "memory3": "forecasts/gb-yougov-trackers-2026-11-01/memory3.json"
       },
-      "results": null,
+      "results": "results/gb-yougov-trackers-2026-11-01.json",
       "batches": [
         {
           "batch_id": "gb-yougov-trackers-2026-11-01__20261028T053500830677Z__s1348",
@@ -4261,16 +4351,16 @@
         ]
       },
       "wave": "First Baromètre politique wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork about 4-5 Nov or 12-13 Nov, published the following Saturday)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-01T23:00:00Z",
       "first_lock_utc": "2026-11-01T00:51:57Z",
-      "released_at": null,
+      "released_at": "2026-11-14T23:06:00Z",
       "publication_url": "https://www.ipsos.com/fr-fr/barometre-politique-ipsos-bva-la-tribune-dimanche",
       "forecasts_count": 12,
       "variants": [
@@ -4289,7 +4379,7 @@
         "bankR3": "forecasts/fr-ipsos-bva-tribune-2026-11-04/bankR3.json",
         "cohort": "forecasts/fr-ipsos-bva-tribune-2026-11-04/cohort.json"
       },
-      "results": null,
+      "results": "results/fr-ipsos-bva-tribune-2026-11-04.json",
       "batches": [
         {
           "batch_id": "fr-ipsos-bva-tribune-2026-11-04__20261101T005157679680Z__s1801",
@@ -4534,9 +4624,9 @@
         ]
       },
       "wave": "First Ipsos Consumer Tracker wave with fieldwork starting Nov 3-8, 2026 (expected wave 151, Tue-Wed Nov 3-4, 2026, possibly shifted to about Nov 5-7 around election day)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "not_scoreable",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude",
@@ -4545,8 +4635,8 @@
       ],
       "cutoff_utc": "2026-11-02T05:00:00Z",
       "first_lock_utc": "2026-11-01T12:09:01Z",
-      "released_at": null,
-      "publication_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+      "released_at": "2026-11-13T20:02:52Z",
+      "publication_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Topline%20Ipsos%20Consumer%20Tracker%20Wave%20151.pdf",
       "forecasts_count": 60,
       "variants": [
         "pure",
@@ -4564,7 +4654,7 @@
         "bankR3": "forecasts/us-ipsos-consumer-tracker-2026-11-03/bankR3.json",
         "cohort": "forecasts/us-ipsos-consumer-tracker-2026-11-03/cohort.json"
       },
-      "results": null,
+      "results": "results/us-ipsos-consumer-tracker-2026-11-03.json",
       "batches": [
         {
           "batch_id": "us-ipsos-consumer-tracker-2026-11-03__20261101T120901663638Z__s1807",
@@ -4668,16 +4758,16 @@
         ]
       },
       "wave": "Week Tuesday 3 November to Tuesday 10 November 2026 (Steam week starting 2026-11-03)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-02T09:00:00Z",
       "first_lock_utc": "2026-11-01T15:59:59Z",
-      "released_at": null,
+      "released_at": "2026-11-10T00:00:00Z",
       "publication_url": "https://store.steampowered.com/charts/topsellers/global",
       "forecasts_count": 6,
       "variants": [
@@ -4696,7 +4786,7 @@
         "bankR3": "forecasts/global-steam-weekly-topsellers-2026-11-10/bankR3.json",
         "cohort": "forecasts/global-steam-weekly-topsellers-2026-11-10/cohort.json"
       },
-      "results": null,
+      "results": "results/global-steam-weekly-topsellers-2026-11-10.json",
       "batches": [
         {
           "batch_id": "global-steam-weekly-topsellers-2026-11-10__20261101T155959503857Z__s2067",
@@ -5342,16 +5432,16 @@
         ]
       },
       "wave": "First Verian / BamS Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected about Wed 11 to Tue 17 November 2026, published about Fri 20 November 2026",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "stated_intent"
       ],
       "cutoff_utc": "2026-11-02T23:00:00Z",
       "first_lock_utc": "2026-11-01T21:17:43Z",
-      "released_at": null,
+      "released_at": "2026-11-20T00:00:00Z",
       "publication_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
       "forecasts_count": 7,
       "variants": [
@@ -5372,7 +5462,7 @@
         "cohort": "forecasts/de-verian-bams-2026-11/cohort.json",
         "xpub3": "forecasts/de-verian-bams-2026-11/xpub3.json"
       },
-      "results": null,
+      "results": "results/de-verian-bams-2026-11.json",
       "batches": [
         {
           "batch_id": "de-verian-bams-2026-11__20261101T211743306669Z__s2118",
@@ -6020,17 +6110,17 @@
         ]
       },
       "wave": "2026 midterm election (Election Day November 3, 2026), national sample",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-03T04:59:00Z",
       "first_lock_utc": "2026-10-24T02:00:45Z",
-      "released_at": null,
-      "publication_url": "https://www.foxnews.com/elections/polls/voter-poll-results",
+      "released_at": "2026-11-03T22:00:00Z",
+      "publication_url": "https://www.nbcnews.com/politics/2026-elections/exit-polls",
       "forecasts_count": 18,
       "variants": [
         "pure",
@@ -6044,7 +6134,7 @@
         "memory3": "forecasts/us-voter-poll-ssrs-2026/memory3.json",
         "xpub3": "forecasts/us-voter-poll-ssrs-2026/xpub3.json"
       },
-      "results": null,
+      "results": "results/us-voter-poll-ssrs-2026.json",
       "batches": [
         {
           "batch_id": "us-voter-poll-ssrs-2026__20261024T020045560741Z__s108",
@@ -6702,16 +6792,16 @@
         ]
       },
       "wave": "Weekend Friday 6 - Sunday 8 November 2026",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-03T18:00:00Z",
       "first_lock_utc": "2026-11-03T06:16:34Z",
-      "released_at": null,
+      "released_at": "2026-11-21T00:18:24Z",
       "publication_url": "https://www.boxofficemojo.com/weekend/2026W45/",
       "forecasts_count": 3,
       "variants": [
@@ -6724,7 +6814,7 @@
         "anchored3": "forecasts/us-boxoffice-weekend-2026-11-06/anchored3.json",
         "memory3": "forecasts/us-boxoffice-weekend-2026-11-06/memory3.json"
       },
-      "results": null,
+      "results": "results/us-boxoffice-weekend-2026-11-06.json",
       "batches": [
         {
           "batch_id": "us-boxoffice-weekend-2026-11-06__20261103T061634007268Z__s2375",
@@ -8876,11 +8966,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-walmart-2__20261106T075747084601Z__s2451.json",
           "manifest_sha256": "af981fe7874e1b262e97741d28fd0ae980a31e90883dc14711636295318480b4",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-walmart-2__20261106T075747084601Z__s2451.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974780,
+          "bitcoin_block_time_utc": "2026-11-06T08:08:14Z",
+          "bitcoin_block_hash": "0000000000000000000167226bad96164c6f85d4f6948b965d6b49641b03cca8",
+          "bitcoin_block_merkle_root": "90a9fcf44ba18c596cc4fe555a6cfd8582c33c4e4fa48aa0d2aed799ba0ccf3f"
         },
         {
           "batch_id": "us-system1-xmas-2026-walmart-2__anchored3__20261106T075840792351Z__s2452",
@@ -8890,11 +8980,11 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-walmart-2__anchored3__20261106T075840792351Z__s2452.json",
           "manifest_sha256": "59e197bc85aeba236ca510bee0370bc2d6f8614c7e43fdab942833c0888b66aa",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-walmart-2__anchored3__20261106T075840792351Z__s2452.json.ots",
-          "ots_status": "pending",
-          "bitcoin_block_height": null,
-          "bitcoin_block_time_utc": null,
-          "bitcoin_block_hash": null,
-          "bitcoin_block_merkle_root": null
+          "ots_status": "bitcoin-verified",
+          "bitcoin_block_height": 974780,
+          "bitcoin_block_time_utc": "2026-11-06T08:08:14Z",
+          "bitcoin_block_hash": "0000000000000000000167226bad96164c6f85d4f6948b965d6b49641b03cca8",
+          "bitcoin_block_merkle_root": "90a9fcf44ba18c596cc4fe555a6cfd8582c33c4e4fa48aa0d2aed799ba0ccf3f"
         }
       ]
     },
@@ -9480,6 +9570,253 @@
       ]
     },
     {
+      "target_id": "us-economist-yougov-2026-11-20",
+      "survey": "The Economist/YouGov Poll (weekly, US adult citizens)",
+      "publisher": "YouGov for The Economist",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "The Economist / YouGov",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "wave": "First weekly wave whose fieldwork starts after November 16, 2026 (expected about Nov 20-23, 2026)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-21T04:30:00Z",
+      "first_lock_utc": "2026-11-21T00:01:33Z",
+      "released_at": null,
+      "publication_url": "https://yougov.com/en-us/content/the-economist",
+      "forecasts_count": 120,
+      "variants": [
+        "pure",
+        "anchored3"
+      ],
+      "forecasts": {
+        "pure": "forecasts/us-economist-yougov-2026-11-20/pure.json",
+        "anchored3": "forecasts/us-economist-yougov-2026-11-20/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-economist-yougov-2026-11-20__anchored3__20261121T000133452453Z__s2493",
+          "locked_at": "2026-11-21T00:01:33Z",
+          "entries": 60,
+          "merkle_root": "34f183d789348296145cdf3b0857a77ee8125fe3d5b3891c2bec84b38e0f3fed",
+          "manifest": "proofs/batches/us-economist-yougov-2026-11-20__anchored3__20261121T000133452453Z__s2493.json",
+          "manifest_sha256": "021e3475477d4c0cec2b0048ee5cf191a51eb1ebad40ded43318e9d5ed870ade",
+          "ots_proof": "proofs/batches/us-economist-yougov-2026-11-20__anchored3__20261121T000133452453Z__s2493.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-economist-yougov-2026-11-20__20261121T002455762438Z__s2583",
+          "locked_at": "2026-11-21T00:24:55Z",
+          "entries": 60,
+          "merkle_root": "caa3a05d1bb450ba7f138296d0efd0f551f50976849995deda041c2558dcf630",
+          "manifest": "proofs/batches/us-economist-yougov-2026-11-20__20261121T002455762438Z__s2583.json",
+          "manifest_sha256": "d513647962e8a532a79ab217af7f0246402c2e43fd7540543ac6e25b2c1bc62f",
+          "ots_proof": "proofs/batches/us-economist-yougov-2026-11-20__20261121T002455762438Z__s2583.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-yougov-trackers-2026-11-22",
+      "survey": "YouGov GB weekly trackers (government approval, most important issues, Westminster voting intention)",
+      "publisher": "YouGov (voting intention commissioned by The Times and Sky News)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "YouGov",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "wave": "Weekly wave expected 22-23 November 2026 (next after 15-16 November 2026)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-22T00:00:00Z",
+      "first_lock_utc": "2026-11-21T00:03:36Z",
+      "released_at": null,
+      "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
+      "forecasts_count": 30,
+      "variants": [
+        "anchored3"
+      ],
+      "forecasts": {
+        "anchored3": "forecasts/gb-yougov-trackers-2026-11-22/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-yougov-trackers-2026-11-22__anchored3__20261121T000336462155Z__s2553",
+          "locked_at": "2026-11-21T00:03:36Z",
+          "entries": 30,
+          "merkle_root": "f9ce142d69ca1c19e424a38f9b58117a298d001d39e4c8685590c210165d86e0",
+          "manifest": "proofs/batches/gb-yougov-trackers-2026-11-22__anchored3__20261121T000336462155Z__s2553.json",
+          "manifest_sha256": "2606e07b19603536efd4e8e25f3d154035b15dac1e900f50dce68df34933ee61",
+          "ots_proof": "proofs/batches/gb-yougov-trackers-2026-11-22__anchored3__20261121T000336462155Z__s2553.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "fr-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, France (fieldwork INSEE), monthly questions, December 2026",
+      "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); France partner institute INSEE",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/european-commission.png",
+          "alt": "European Commission",
+          "width": 180,
+          "height": 180
+        }
+      ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "France",
+        "country_code": "fr",
+        "topic": "Economy",
+        "source": "European Commission",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
+      "wave": "December 2026 France consumer survey wave; EC release of country answer shares expected late December 2026",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude",
+        "stated_intent"
+      ],
+      "cutoff_utc": "2026-11-23T23:00:00Z",
+      "first_lock_utc": "2026-11-21T00:26:27Z",
+      "released_at": null,
+      "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
+      "forecasts_count": 10,
+      "variants": [
+        "anchored3"
+      ],
+      "forecasts": {
+        "anchored3": "forecasts/fr-ec-consumer-survey-2026-12/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "fr-ec-consumer-survey-2026-12__anchored3__20261121T002627639879Z__s2643",
+          "locked_at": "2026-11-21T00:26:27Z",
+          "entries": 10,
+          "merkle_root": "9d8d78e05b1b211ecfb1f8943366455ab329e4c450abd82689c6e2dc783e4aa8",
+          "manifest": "proofs/batches/fr-ec-consumer-survey-2026-12__anchored3__20261121T002627639879Z__s2643.json",
+          "manifest_sha256": "cec96388330662d49692a95e2e89e1573a83df6bb64c1fc6966ebdd1cb01d7cd",
+          "ots_proof": "proofs/batches/fr-ec-consumer-survey-2026-12__anchored3__20261121T002627639879Z__s2643.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-nrf-prosper-thanksgiving-weekend-2026",
+      "survey": "NRF / Prosper Insights & Analytics Thanksgiving holiday weekend consumer survey (US adults)",
+      "publisher": "National Retail Federation with Prosper Insights & Analytics",
+      "source_logos": [],
+      "display": {
+        "label": "NRF / Prosper Insights & Analytics Thanksgiving holiday weekend consumer survey",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Other",
+        "source": "National Retail Federation with Prosper Insights & Analytics",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "wave": "Thanksgiving holiday weekend 2026 (Thu 26 Nov - Mon 30 Nov 2026); release expected Tue 1 Dec 2026",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-25T05:00:00Z",
+      "first_lock_utc": "2026-11-21T00:26:55Z",
+      "released_at": null,
+      "publication_url": "https://nrf.com/media-center/press-releases",
+      "forecasts_count": 10,
+      "variants": [
+        "anchored3"
+      ],
+      "forecasts": {
+        "anchored3": "forecasts/us-nrf-prosper-thanksgiving-weekend-2026/anchored3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+          "locked_at": "2026-11-21T00:26:55Z",
+          "entries": 10,
+          "merkle_root": "5e09c20b1014274dca4686989215b1d3bc8c55715c0eeb8e8e04d0641495fb1f",
+          "manifest": "proofs/batches/us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653.json",
+          "manifest_sha256": "841762039ac898f4463c37e94823de8bf1aaf8430eab8b6708d939b416454abb",
+          "ots_proof": "proofs/batches/us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "spotify-de-weekly-2026-12-03-rolling-v3",
       "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
       "publisher": "Spotify Charts via Kworb mirror",
@@ -9720,15 +10057,15 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-20T07:13:22+00:00",
-    "checked_at": "2026-11-20T08:05:45.690078+00:00",
+    "source_generated_at": "2026-11-20T20:15:39+00:00",
+    "checked_at": "2026-11-21T00:05:46.531100+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
       "rank": 25,
-      "methods": 27,
+      "methods": 28,
       "answered": 12,
-      "scored_questions": 147
+      "scored_questions": 153
     },
     "profiles": [
       {

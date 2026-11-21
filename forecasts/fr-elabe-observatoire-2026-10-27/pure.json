@@ -3,78 +3,378 @@
   "variant": "pure",
   "variant_label": "Additional research forecast (pure)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__overall__r1",
       "entry_sha256": "404358aed9061e9cc2d05322c0bb154c2cd7a71b3ebdbe8e5754e260a89ae6a4",
       "seq": 850,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_macron",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.030000000000000002,
+        0.135,
+        0.265,
+        0.5125,
+        0.057499999999999996
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__sex_men__r1",
       "entry_sha256": "a614e272b9ea633de2bee007555e51156f9eaf62b0f50a56fc9f0f256e469fb6",
       "seq": 851,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_macron",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "sex_men",
+        "label": "Hommes (crosstab column Homme)"
+      },
+      "forecast": [
+        0.05,
+        0.175,
+        0.27,
+        0.455,
+        0.05
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__sex_women__r1",
       "entry_sha256": "491887dac5e207764efd7e796e345471f94a422327e5db48c0175b310e423d31",
       "seq": 852,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_macron",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "sex_women",
+        "label": "Femmes (crosstab column Femme)"
+      },
+      "forecast": [
+        0.037500000000000006,
+        0.1775,
+        0.275,
+        0.44,
+        0.07
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__age_18_24__r1",
       "entry_sha256": "f331c70f91dcfb5d928d599c14616ca47b0d54b0654fca4a3e057ea38b291c23",
       "seq": 853,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_macron",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "18-24 ans (crosstab column)"
+      },
+      "forecast": [
+        0.04,
+        0.175,
+        0.295,
+        0.4,
+        0.09
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__age_65_plus__r1",
       "entry_sha256": "6cce45f422894578e758f5b97ed541de1481253e5ea170eceed23ac448558276",
       "seq": 854,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_macron",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "65 ans et plus (crosstab column)"
+      },
+      "forecast": [
+        0.042499999999999996,
+        0.2125,
+        0.295,
+        0.415,
+        0.035
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__overall__r1",
       "entry_sha256": "6bc7121cb901ccf9ef768e92d981e2826ef0ce9b1930a4a47b6c37f96242ee97",
       "seq": 855,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_lecornu",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.025,
+        0.155,
+        0.3125,
+        0.405,
+        0.10250000000000001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__sex_men__r1",
       "entry_sha256": "9140b257d166f6a772eb4e640980333bfa9bbbf9b708997c46877f5108c8a5cc",
       "seq": 856,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_lecornu",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "sex_men",
+        "label": "Hommes (crosstab column Homme)"
+      },
+      "forecast": [
+        0.04,
+        0.22,
+        0.295,
+        0.36,
+        0.08499999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__sex_women__r1",
       "entry_sha256": "b8597b124d84d34fb991e478212ef01555286a684f82018a9dd03a3bfb2561a3",
       "seq": 857,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_lecornu",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "sex_women",
+        "label": "Femmes (crosstab column Femme)"
+      },
+      "forecast": [
+        0.03,
+        0.2,
+        0.295,
+        0.35,
+        0.125
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__age_18_24__r1",
       "entry_sha256": "a8e78da2e9a8c155acf80f48fa9783a646d4ea50316edefdff2ced61c2264846",
       "seq": 858,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_lecornu",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "age_18_24",
+        "label": "18-24 ans (crosstab column)"
+      },
+      "forecast": [
+        0.035,
+        0.185,
+        0.305,
+        0.325,
+        0.15000000000000002
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__age_65_plus__r1",
       "entry_sha256": "3ff37da614b787343b4dc805dd8213b6ad53b09c6f7363fa190ad823d1a68092",
       "seq": 859,
       "batch_id": "fr-elabe-observatoire-2026-10-27__20261025T065204710529Z__s850",
-      "locked_at": "2026-10-25T06:52:04Z"
+      "locked_at": "2026-10-25T06:52:04Z",
+      "state": "scored",
+      "question": {
+        "id": "confidence_lecornu",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "type": "ordinal",
+        "options": [
+          "Tout à fait confiance",
+          "Plutôt confiance",
+          "Pas vraiment confiance",
+          "Pas confiance du tout",
+          "Sans opinion"
+        ]
+      },
+      "group": {
+        "id": "age_65_plus",
+        "label": "65 ans et plus (crosstab column)"
+      },
+      "forecast": [
+        0.04,
+        0.26,
+        0.29500000000000004,
+        0.33,
+        0.07500000000000001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

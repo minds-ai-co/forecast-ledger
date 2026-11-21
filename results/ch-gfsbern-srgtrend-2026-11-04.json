@@ -1,0 +1,299 @@
+{
+  "target_id": "ch-gfsbern-srgtrend-2026-11-04",
+  "survey": "SRG SSR Trendumfrage (gfs.bern), 2nd wave before the Swiss federal popular votes of 29 November 2026",
+  "status": "scored",
+  "released_at": "2026-11-18T04:59:35Z",
+  "source_url": "https://cockpit.gfsbern.ch/de/cockpit/trend_w2_29112026-2/",
+  "scored_at": "2026-11-21T00:08:24Z",
+  "results_sha256": "5e0e39766fa14a34ca181420cfc335fe91d5ea707967d130789f3ac362131772",
+  "released_values_public": false,
+  "licence_note": "Source: © SRG-Trend/gfs.bern, Abstimmung vom 29. November 2026, 2. Welle, 4.–11. November 2026. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "pending_review",
+    "reviewed_on": "2026-11-20",
+    "source_url": "https://cockpit.gfsbern.ch/de/cockpit/trend_w2_29112026-2/",
+    "credit": "Source: © SRG-Trend/gfs.bern, Abstimmung vom 29. November 2026, 2. Welle, 4.–11. November 2026. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "terms": [],
+    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "item_scope": {
+      "vote_ahv_mwst": [
+        "overall"
+      ],
+      "vote_feuerwerk": [
+        "overall"
+      ],
+      "vote_fairness": [
+        "overall"
+      ],
+      "vote_kriegsmaterial_3way": [
+        "overall"
+      ],
+      "participation_definite": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 5,
+      "tvd": 0.081,
+      "mae_pp": 3.746667
+    },
+    "anchored3": {
+      "items": 5,
+      "tvd": 0.046,
+      "mae_pp": 2.1
+    },
+    "memory3": {
+      "items": 5,
+      "tvd": 0.071,
+      "mae_pp": 3.286667
+    }
+  },
+  "summary_by_evidence_type": {
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.081,
+          "mae_pp": 3.746667
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.081,
+          "mae_pp": 3.746667
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.046,
+          "mae_pp": 2.1
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.046,
+          "mae_pp": 2.1
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.071,
+          "mae_pp": 3.286667
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.071,
+          "mae_pp": 3.286667
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__vote_ahv_mwst__overall__r1",
+      "entry_sha256": "6aefec2d7fe684a654a87d41126d5fc8297afc5187f96b35d240d5e843b2e6d5",
+      "variant": "pure",
+      "question_id": "vote_ahv_mwst",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.055,
+      "mae_pp": 2.2,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__vote_feuerwerk__overall__r1",
+      "entry_sha256": "18542af7af9dac9a02bffb22e7e78a337d4b4df85649ef2bbda62f43166b5761",
+      "variant": "pure",
+      "question_id": "vote_feuerwerk",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.185,
+      "mae_pp": 7.4,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__vote_fairness__overall__r1",
+      "entry_sha256": "30c8f2b4461bdfda89a9c0d7a80d6da881b56b56bc4a68f19007705b235f5517",
+      "variant": "pure",
+      "question_id": "vote_fairness",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.095,
+      "mae_pp": 3.8,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__vote_kriegsmaterial_3way__overall__r1",
+      "entry_sha256": "314836700eb2c2a66d3390fd0a878a1938f8dd8912ba4eeb43485fb38653e157",
+      "variant": "pure",
+      "question_id": "vote_kriegsmaterial_3way",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.05,
+      "mae_pp": 3.333333,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__participation_definite__overall__r1",
+      "entry_sha256": "67ccb46b2934db54ced7557ab50a1eaf5f806f7cd96852966b984ae234637ce1",
+      "variant": "pure",
+      "question_id": "participation_definite",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.02,
+      "mae_pp": 2.0,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_ahv_mwst__overall__r1",
+      "entry_sha256": "cff7121e05611de1a2edd4e874120d530c91683e1ac61da1ca853f71613a89da",
+      "variant": "anchored3",
+      "question_id": "vote_ahv_mwst",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.065,
+      "mae_pp": 2.6,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_feuerwerk__overall__r1",
+      "entry_sha256": "b89800ed07adb0d6311d869d02d5b74daec081a336ea6d515c8832743c887ceb",
+      "variant": "anchored3",
+      "question_id": "vote_feuerwerk",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.025,
+      "mae_pp": 1.0,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_fairness__overall__r1",
+      "entry_sha256": "6d2014953a7060f170d2d3d5c7490f909cd25d9520e99303c7fc354d61b9109b",
+      "variant": "anchored3",
+      "question_id": "vote_fairness",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.11,
+      "mae_pp": 4.4,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__vote_kriegsmaterial_3way__overall__r1",
+      "entry_sha256": "4b4d03cb463d93a64dd8188bd3e4fb371cf444792fb464f9c29112060d7baf54",
+      "variant": "anchored3",
+      "question_id": "vote_kriegsmaterial_3way",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.015,
+      "mae_pp": 1.0,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__anchored3__participation_definite__overall__r1",
+      "entry_sha256": "b4a5a0cee91012778e49cd7c142a9990172889de90ba10923ee81bd245760abb",
+      "variant": "anchored3",
+      "question_id": "participation_definite",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.015,
+      "mae_pp": 1.5,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_ahv_mwst__overall__r1",
+      "entry_sha256": "bb09d706fb1bd35f655f6235f306ee00688a62c829ea83765c0f1b11e3d1d926",
+      "variant": "memory3",
+      "question_id": "vote_ahv_mwst",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.06,
+      "mae_pp": 2.4,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_feuerwerk__overall__r1",
+      "entry_sha256": "45513e2e0b0ef587f1098eab27a22fcda90adf51dd0d56dc051262329e0fdbc0",
+      "variant": "memory3",
+      "question_id": "vote_feuerwerk",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.165,
+      "mae_pp": 6.6,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_fairness__overall__r1",
+      "entry_sha256": "c65f0b48527e0d530d23e0522b7def913712859ac293cf87b5b908208f89783f",
+      "variant": "memory3",
+      "question_id": "vote_fairness",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.065,
+      "mae_pp": 2.6,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__vote_kriegsmaterial_3way__overall__r1",
+      "entry_sha256": "ef62eadd0382e7839b6ec139895a1d89a99ece7d9e12d4712588821ee823c636",
+      "variant": "memory3",
+      "question_id": "vote_kriegsmaterial_3way",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.05,
+      "mae_pp": 3.333333,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "ch-gfsbern-srgtrend-2026-11-04__memory3__participation_definite__overall__r1",
+      "entry_sha256": "e8e1ee0bf4412df5f3c58b98e88bbaaf090b36df1ea0afc376fe1dbc54122b42",
+      "variant": "memory3",
+      "question_id": "participation_definite",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.015,
+      "mae_pp": 1.5,
+      "released_values_public": false
+    }
+  ]
+}

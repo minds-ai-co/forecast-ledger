@@ -1,0 +1,80 @@
+{
+  "target_id": "us-nrf-prosper-thanksgiving-weekend-2026",
+  "variant": "anchored3",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__shopped_any__overall__r1",
+      "entry_sha256": "7b2d8cb2ae4a57d1138c60608cbf2d2f6d1dbf2883312e5d36c2d0c48981a261",
+      "seq": 2653,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__shopped_in_store__overall__r1",
+      "entry_sha256": "2268f545b2d98760ce7e4e23f808e20bf0f0ba5cab3b41837533dd5f86029a21",
+      "seq": 2654,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__shopped_online__overall__r1",
+      "entry_sha256": "f98aa0d6d1879e660c48dda42b32c8c11f240a31a5b9d12cc16f88b915d2a06a",
+      "seq": 2655,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__black_friday_in_store__overall__r1",
+      "entry_sha256": "429ecab618dbdc0aede56e6660dd62f2cf222b37a5e47c16a0f09ccb566126b5",
+      "seq": 2656,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__black_friday_online__overall__r1",
+      "entry_sha256": "618046d4a42a35ecdd23de022bc116057cdc051b328ef77ea0b405b6aec4f256",
+      "seq": 2657,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__saturday_in_store__overall__r1",
+      "entry_sha256": "49777137a0b0c80232662f7e023b011cc4ca2291991c6ee17b54e4f057f58d43",
+      "seq": 2658,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__saturday_online__overall__r1",
+      "entry_sha256": "ae88c1687e62d8780c3b0907ef56eb2cec1ca12a6b541ba41f88808fe8a8b2cc",
+      "seq": 2659,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__sunday_in_store__overall__r1",
+      "entry_sha256": "907cfd5fa8f695880d8d329346f47c7e7bc482d33b1f4479cf832863716143b8",
+      "seq": 2660,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__sunday_online__overall__r1",
+      "entry_sha256": "4cc603feef66aeb0b122ad33095c537445ea3250abc9d0dd8b8a1c5c2593a813",
+      "seq": 2661,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    },
+    {
+      "entry_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__cyber_monday_online__overall__r1",
+      "entry_sha256": "aa442a7e4a485543bcdd5f07b84199783b79eeb13abe4fe83a84ff4bae3bfab1",
+      "seq": 2662,
+      "batch_id": "us-nrf-prosper-thanksgiving-weekend-2026__anchored3__20261121T002655183937Z__s2653",
+      "locked_at": "2026-11-21T00:26:55Z"
+    }
+  ]
+}

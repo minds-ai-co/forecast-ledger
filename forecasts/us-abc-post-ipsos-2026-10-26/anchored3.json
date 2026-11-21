@@ -3,22 +3,78 @@
   "variant": "anchored3",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__anchored3__trump_job_approval__overall__r1",
       "entry_sha256": "1fd0b3194af0b12383480940cde7313a7364f721d3b91cbf3e642ebe92d6b5d8",
       "seq": 218,
       "batch_id": "us-abc-post-ipsos-2026-10-26__anchored3__20261024T023855407194Z__s218",
-      "locked_at": "2026-10-24T02:38:55Z"
+      "locked_at": "2026-10-24T02:38:55Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as president? (Approve/disapprove, then strongly or somewhat)",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "No opinion/Skipped"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.133,
+        0.1915,
+        0.1415,
+        0.522,
+        0.012
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     },
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__anchored3__direction__overall__r1",
       "entry_sha256": "dea596423f51ca444fdf174c5300fc19c8de3d78a7c03981a371851fb6e7051e",
       "seq": 219,
       "batch_id": "us-abc-post-ipsos-2026-10-26__anchored3__20261024T023855407194Z__s218",
-      "locked_at": "2026-10-24T02:38:55Z"
+      "locked_at": "2026-10-24T02:38:55Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country are headed in the (right direction) or the (wrong direction)? (Order of the two options rotated)",
+        "type": "categorical",
+        "options": [
+          "Right direction",
+          "Wrong direction",
+          "Skipped"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.262,
+        0.7184999999999999,
+        0.0195
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
     }
   ]
 }

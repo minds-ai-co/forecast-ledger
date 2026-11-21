@@ -3,15 +3,65 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__memory3__steam_weekly_topsellers__overall__r1",
       "entry_sha256": "be890cc375b14fceaccc4aa64a05d071e1068a466d7d4e0becabcd421cf5b9ca",
       "seq": 2068,
       "batch_id": "global-steam-weekly-topsellers-2026-11-10__memory3__20261101T161116778840Z__s2068",
-      "locked_at": "2026-11-01T16:11:16Z"
+      "locked_at": "2026-11-01T16:11:16Z",
+      "state": "scored",
+      "question": {
+        "id": "steam_weekly_topsellers",
+        "text": "Which of these Steam products did you spend the most on in the week Tuesday 3 to Tuesday 10 November 2026? (Steam global weekly top sellers by revenue, Borda shares of the top 10; any product not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Call of Duty®: Modern Warfare® 4",
+          "Dota 2",
+          "Phantom Blade Zero",
+          "Counter-Strike 2",
+          "Cyberpunk 2077",
+          "AION 2",
+          "PUBG: BATTLEGROUNDS",
+          "FINAL FANTASY RESONANCE",
+          "Cyberpunk 2077: Phantom Liberty",
+          "EA SPORTS FC™ 27",
+          "Dead by Daylight",
+          "Apex Legends™",
+          "Steam Deck",
+          "Theos: Cities of Myth (PC city builder, released 4 Nov)",
+          "Any other product"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.10650000000000001,
+        0.0825,
+        0.05,
+        0.161,
+        0.035,
+        0.0225,
+        0.095,
+        0.009,
+        0.019,
+        0.045,
+        0.019,
+        0.045,
+        0.0875,
+        0.034,
+        0.189
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

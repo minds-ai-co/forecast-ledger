@@ -3,15 +3,51 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "de-verian-bams-2026-11__memory3__sonntagsfrage__overall__r1",
       "entry_sha256": "e494b36eb547e19c25ec2d65b27e47ec34295268efb74291178a7ac937939287",
       "seq": 2166,
       "batch_id": "de-verian-bams-2026-11__memory3__20261101T215637198726Z__s2166",
-      "locked_at": "2026-11-01T21:56:37Z"
+      "locked_at": "2026-11-01T21:56:37Z",
+      "state": "scored",
+      "question": {
+        "id": "sonntagsfrage",
+        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann wählen? (If there were a federal election next Sunday, which party would you vote for? Shares among respondents naming a party.)",
+        "type": "categorical",
+        "options": [
+          "CDU/CSU",
+          "AfD",
+          "SPD",
+          "Grüne",
+          "Die Linke",
+          "BSW",
+          "FDP",
+          "Sonstige"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.245,
+        0.2625,
+        0.14250000000000002,
+        0.1175,
+        0.0975,
+        0.04,
+        0.035,
+        0.06
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

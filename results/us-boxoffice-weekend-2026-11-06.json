@@ -1,0 +1,131 @@
+{
+  "target_id": "us-boxoffice-weekend-2026-11-06",
+  "survey": "US and Canada (domestic) weekend box office: share of gross by film",
+  "status": "scored",
+  "released_at": "2026-11-21T00:18:24Z",
+  "source_url": "https://www.boxofficemojo.com/weekend/2026W45/",
+  "scored_at": "2026-11-21T00:25:26Z",
+  "results_sha256": "830f64b2a3c75f7936c9bee9e802b0482af71eec43e218ae4e336710ffb92d89",
+  "released_values_public": false,
+  "licence_note": "Source: Box Office Mojo, domestic weekend box office, 6-8 November 2026 (2026W45). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "pending_review",
+    "reviewed_on": "2026-11-20",
+    "source_url": "https://www.boxofficemojo.com/weekend/2026W45/",
+    "credit": "Source: Box Office Mojo, domestic weekend box office, 6-8 November 2026 (2026W45). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "terms": [],
+    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "item_scope": {
+      "weekend_gross_share": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.266602,
+      "mae_pp": 3.808596
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.190465,
+      "mae_pp": 2.720928
+    },
+    "memory3": {
+      "items": 1,
+      "tvd": 0.28433,
+      "mae_pp": 4.06186
+    }
+  },
+  "summary_by_evidence_type": {
+    "behaviour": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.266602,
+          "mae_pp": 3.808596
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.266602,
+          "mae_pp": 3.808596
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.190465,
+          "mae_pp": 2.720928
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.190465,
+          "mae_pp": 2.720928
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.28433,
+          "mae_pp": 4.06186
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.28433,
+          "mae_pp": 4.06186
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__weekend_gross_share__overall__r1",
+      "entry_sha256": "f2764d33a1af4327cec981f3deb43da6c761e6be97eaef2cba285fd0704d4661",
+      "variant": "pure",
+      "question_id": "weekend_gross_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.266602,
+      "mae_pp": 3.808596,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__anchored3__weekend_gross_share__overall__r1",
+      "entry_sha256": "1bf0c09ed6d6dba6faa6d715b93dcd66a8b2e0c628e91dab8330ae3f69a44c23",
+      "variant": "anchored3",
+      "question_id": "weekend_gross_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.190465,
+      "mae_pp": 2.720928,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__memory3__weekend_gross_share__overall__r1",
+      "entry_sha256": "c1f0dd80315e354670660939c1052d9b53b400df65526b5ec716b29db078b5bc",
+      "variant": "memory3",
+      "question_id": "weekend_gross_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.28433,
+      "mae_pp": 4.06186,
+      "released_values_public": false
+    }
+  ]
+}

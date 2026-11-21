@@ -1,0 +1,311 @@
+{
+  "target_id": "fr-ipsos-bva-tribune-2026-11-04",
+  "survey": "Baromètre politique Ipsos bva-CESI École d'ingénieurs pour La Tribune Dimanche (monthly popularity of the President and the Prime Minister)",
+  "status": "scored",
+  "released_at": "2026-11-14T23:06:00Z",
+  "source_url": "https://www.ipsos.com/fr-fr/barometre-politique-ipsos-bva-la-tribune-dimanche",
+  "scored_at": "2026-11-21T00:08:22Z",
+  "results_sha256": "15256604e76b1fb7633bd97336431225858239eaf871a9ee871e5093b2cbc18a",
+  "released_values_public": false,
+  "licence_note": "Source: Ipsos bva / CESI for La Tribune Dimanche, Barometre politique, November 2026 (fieldwork 10-12 November 2026, 1,000 adults). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "pending_review",
+    "reviewed_on": "2026-11-20",
+    "source_url": "https://www.ipsos.com/fr-fr/barometre-politique-ipsos-bva-la-tribune-dimanche",
+    "credit": "Source: Ipsos bva / CESI for La Tribune Dimanche, Barometre politique, November 2026 (fieldwork 10-12 November 2026, 1,000 adults). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "terms": [],
+    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "item_scope": {
+      "popularity_macron": [
+        "overall"
+      ],
+      "popularity_lecornu": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 2,
+      "tvd": 0.0725,
+      "mae_pp": 2.9
+    },
+    "anchored3": {
+      "items": 2,
+      "tvd": 0.0275,
+      "mae_pp": 1.1
+    },
+    "memory3": {
+      "items": 2,
+      "tvd": 0.07125,
+      "mae_pp": 2.85
+    },
+    "bank3": {
+      "items": 2,
+      "tvd": 0.05875,
+      "mae_pp": 2.35
+    },
+    "bankR3": {
+      "items": 2,
+      "tvd": 0.07625,
+      "mae_pp": 3.05
+    },
+    "cohort": {
+      "items": 2,
+      "tvd": 0.0975,
+      "mae_pp": 3.9
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0725,
+          "mae_pp": 2.9
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0725,
+          "mae_pp": 2.9
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0275,
+          "mae_pp": 1.1
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0275,
+          "mae_pp": 1.1
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.05875,
+          "mae_pp": 2.35
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.05875,
+          "mae_pp": 2.35
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.07625,
+          "mae_pp": 3.05
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.07625,
+          "mae_pp": 3.05
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0975,
+          "mae_pp": 3.9
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0975,
+          "mae_pp": 3.9
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.07125,
+          "mae_pp": 2.85
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.07125,
+          "mae_pp": 2.85
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__popularity_macron__overall__r1",
+      "entry_sha256": "3cca9f56c0a1a839727737fba6fca63ccf1a0d6a87ed5572f5df8ed66b6ef973",
+      "variant": "pure",
+      "question_id": "popularity_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.08,
+      "mae_pp": 3.2,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__popularity_lecornu__overall__r1",
+      "entry_sha256": "4202d2912942626b470190c1bd0823ec6c3079cbcd42f0e1806ff54005d570aa",
+      "variant": "pure",
+      "question_id": "popularity_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.065,
+      "mae_pp": 2.6,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__popularity_macron__overall__r1",
+      "entry_sha256": "623dfe98bd85b5f1ee78599515a42deee8cd1fc3854cab0f34f5435f0f8e7166",
+      "variant": "anchored3",
+      "question_id": "popularity_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0375,
+      "mae_pp": 1.5,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__popularity_lecornu__overall__r1",
+      "entry_sha256": "bb51863e3303c86f167d360af26c849986451c66a48ce178fb13c75e987380f6",
+      "variant": "anchored3",
+      "question_id": "popularity_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0175,
+      "mae_pp": 0.7,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__memory3__popularity_macron__overall__r1",
+      "entry_sha256": "abce6925912b42e7840a5f9e67ce8c6ae01686dd6326f068b087a06c86593829",
+      "variant": "memory3",
+      "question_id": "popularity_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.085,
+      "mae_pp": 3.4,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__memory3__popularity_lecornu__overall__r1",
+      "entry_sha256": "1f9378cced7039cb82d3e00ba948542ae36c77ee5bafef85bf3cdb63b88bcfab",
+      "variant": "memory3",
+      "question_id": "popularity_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0575,
+      "mae_pp": 2.3,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__bank3__popularity_macron__overall__r1",
+      "entry_sha256": "cfa8e760a142b9225d6b7d0de35acc8ed3cbf98ab446ce73a93811d1aaba929f",
+      "variant": "bank3",
+      "question_id": "popularity_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.06,
+      "mae_pp": 2.4,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__bank3__popularity_lecornu__overall__r1",
+      "entry_sha256": "f997933a3d50e21874ae054da8d6ce1369148add2b52999cd96a10e44b4521df",
+      "variant": "bank3",
+      "question_id": "popularity_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0575,
+      "mae_pp": 2.3,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__bankR3__popularity_macron__overall__r1",
+      "entry_sha256": "b4d6ac9ce36cab5b5b87f89eef40c47dcc56aa6fad1fdd75e2d76a5d76210b26",
+      "variant": "bankR3",
+      "question_id": "popularity_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0825,
+      "mae_pp": 3.3,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__bankR3__popularity_lecornu__overall__r1",
+      "entry_sha256": "d3611a3fa24d88dfc95b00b2d08a6c191f5eb66970ad1a0c3a96005099df1287",
+      "variant": "bankR3",
+      "question_id": "popularity_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.07,
+      "mae_pp": 2.8,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__cohort__popularity_macron__overall__r1",
+      "entry_sha256": "4b69d5d1f27fdbf37fdd4e9ae7d55bc9657f32ed0e9511333a1287153cb74ee7",
+      "variant": "cohort",
+      "question_id": "popularity_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.115,
+      "mae_pp": 4.6,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__cohort__popularity_lecornu__overall__r1",
+      "entry_sha256": "b1068f6082bdce1b9263d2a57509e32720f858b517e4f5c3c3f482c66cae3bde",
+      "variant": "cohort",
+      "question_id": "popularity_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.08,
+      "mae_pp": 3.2,
+      "released_values_public": false
+    }
+  ]
+}

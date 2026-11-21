@@ -1,0 +1,361 @@
+{
+  "target_id": "us-voter-poll-ssrs-2026",
+  "survey": "The Voter Poll by SSRS (2026 US midterm voters; national results)",
+  "status": "scored",
+  "released_at": "2026-11-03T22:00:00Z",
+  "source_url": "https://www.nbcnews.com/politics/2026-elections/exit-polls",
+  "scored_at": "2026-11-21T00:24:42Z",
+  "results_sha256": "8a9b46fbb7987d7d35590db01f509ae8f4ba80709006a5dff65866e7a863a0e4",
+  "released_values_public": false,
+  "licence_note": "Source: The Voter Poll by SSRS, 2026 midterm election, national results as published by NBC News (6 November 2026). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "pending_review",
+    "reviewed_on": "2026-11-20",
+    "source_url": "https://www.nbcnews.com/politics/2026-elections/exit-polls",
+    "credit": "Source: The Voter Poll by SSRS, 2026 midterm election, national results as published by NBC News (6 November 2026). Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "terms": [],
+    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "item_scope": {
+      "feel_country": [
+        "overall"
+      ],
+      "trump_approval": [
+        "overall"
+      ],
+      "national_economy": [
+        "overall"
+      ],
+      "abortion": [
+        "overall"
+      ],
+      "dem_party_fav": [
+        "overall"
+      ],
+      "rep_party_fav": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 6,
+      "tvd": 0.0671,
+      "mae_pp": 3.977923
+    },
+    "anchored3": {
+      "items": 5,
+      "tvd": 0.04345,
+      "mae_pp": 2.844972
+    },
+    "memory3": {
+      "items": 6,
+      "tvd": 0.065684,
+      "mae_pp": 3.91959
+    },
+    "xpub3": {
+      "items": 1,
+      "tvd": 0.094672,
+      "mae_pp": 4.733586
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.0671,
+          "mae_pp": 3.977923
+        },
+        "subgroups": null,
+        "all": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.0671,
+          "mae_pp": 3.977923
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.04345,
+          "mae_pp": 2.844972
+        },
+        "subgroups": null,
+        "all": {
+          "n": 5,
+          "n_distribution": 5,
+          "tvd": 0.04345,
+          "mae_pp": 2.844972
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.065684,
+          "mae_pp": 3.91959
+        },
+        "subgroups": null,
+        "all": {
+          "n": 6,
+          "n_distribution": 6,
+          "tvd": 0.065684,
+          "mae_pp": 3.91959
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.094672,
+          "mae_pp": 4.733586
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.094672,
+          "mae_pp": 4.733586
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__feel_country__overall__r1",
+      "entry_sha256": "feb792c722dfd1ca62f2da44a29f143a3c958c3267b52ca986244bf522ac9a5a",
+      "variant": "pure",
+      "question_id": "feel_country",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.091139,
+      "mae_pp": 4.556931,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__trump_approval__overall__r1",
+      "entry_sha256": "58b7980035ca779cb891e9a5707cb8a78000d1387f7058197361ce3c4c3e241c",
+      "variant": "pure",
+      "question_id": "trump_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.117172,
+      "mae_pp": 5.858586,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__national_economy__overall__r1",
+      "entry_sha256": "2b5ebefd33abab3d51796f1ea7b5decb00c74d9280b60edf83d6183858647b47",
+      "variant": "pure",
+      "question_id": "national_economy",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.09,
+      "mae_pp": 4.5,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__abortion__overall__r1",
+      "entry_sha256": "1a62378b3e9a6c8acdf58182d8d51fc5f6a397704437b5cf0c1d8c8c72121067",
+      "variant": "pure",
+      "question_id": "abortion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.029545,
+      "mae_pp": 1.477273,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__dem_party_fav__overall__r1",
+      "entry_sha256": "e499c1fb72466ac36f2b949e2f48bc33aa1ee8ee46e9dbf6731ae9b503b21b3d",
+      "variant": "pure",
+      "question_id": "dem_party_fav",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.027247,
+      "mae_pp": 2.724747,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__rep_party_fav__overall__r1",
+      "entry_sha256": "cb3c5d0d1766fc40e857caa4a0e477a7414c651655f945fdfd5b5c4e61d22db3",
+      "variant": "pure",
+      "question_id": "rep_party_fav",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0475,
+      "mae_pp": 4.75,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__feel_country__overall__r1",
+      "entry_sha256": "b3f2c28d966f313b2ef7364fa7052ec3d6b457c6bf3d8a59007b197e9090c1e6",
+      "variant": "anchored3",
+      "question_id": "feel_country",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.066139,
+      "mae_pp": 3.306931,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__national_economy__overall__r1",
+      "entry_sha256": "fd650e2c9309c7b286ce56af4a038a573174b88ec4f37283b485904a9822ba76",
+      "variant": "anchored3",
+      "question_id": "national_economy",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.035,
+      "mae_pp": 1.75,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__abortion__overall__r1",
+      "entry_sha256": "0e15bff9de6860f0d72aeec343b200993a7cded6ed8c7f63c94ba7c446deb66b",
+      "variant": "anchored3",
+      "question_id": "abortion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.048864,
+      "mae_pp": 2.443182,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__dem_party_fav__overall__r1",
+      "entry_sha256": "dbfc47e029ae076d224af4b52d52013dee72a01676dcb8a299fb7aa7b52f8c80",
+      "variant": "anchored3",
+      "question_id": "dem_party_fav",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.022247,
+      "mae_pp": 2.224747,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__anchored3__rep_party_fav__overall__r1",
+      "entry_sha256": "ffc19de8bb4ab96679d5be26e3877b44b88b883e3c42b30749c9b08545060f3d",
+      "variant": "anchored3",
+      "question_id": "rep_party_fav",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.045,
+      "mae_pp": 4.5,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__feel_country__overall__r1",
+      "entry_sha256": "76d02daeeeaf0c91ab9bbc1629ed7c21eef45c2c0a896bf77271e32f8354af58",
+      "variant": "memory3",
+      "question_id": "feel_country",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.096139,
+      "mae_pp": 4.806931,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__trump_approval__overall__r1",
+      "entry_sha256": "b40cd5a8c7ea2369619e3de2c39ec58705e8ad011f2a694ae2b6530059f4eb50",
+      "variant": "memory3",
+      "question_id": "trump_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.112172,
+      "mae_pp": 5.608586,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__national_economy__overall__r1",
+      "entry_sha256": "1d8a47af92448586c81cf60a5bfddfbd6655a902a893eb05834058fd713d7d00",
+      "variant": "memory3",
+      "question_id": "national_economy",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.08,
+      "mae_pp": 4.0,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__abortion__overall__r1",
+      "entry_sha256": "d7d5ce9265850efdc40a7124d1717dad62d71229044c595213bea7b4b603b5b1",
+      "variant": "memory3",
+      "question_id": "abortion",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.029545,
+      "mae_pp": 1.477273,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__dem_party_fav__overall__r1",
+      "entry_sha256": "a6b150773306529385e09ade472d38afb089845ec2aafc9eaac18a130e69c3ec",
+      "variant": "memory3",
+      "question_id": "dem_party_fav",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.026247,
+      "mae_pp": 2.624747,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__memory3__rep_party_fav__overall__r1",
+      "entry_sha256": "7e314d614d2891f1810625e1f6f2f1cf18bda242cc361d64d0dfca75943b82cf",
+      "variant": "memory3",
+      "question_id": "rep_party_fav",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.05,
+      "mae_pp": 5.0,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__xpub3__trump_approval__overall__r1",
+      "entry_sha256": "91352abd530ba7a182e2103970437bcdefdcda64d7ba4d01b91ebf88001c9b73",
+      "variant": "xpub3",
+      "question_id": "trump_approval",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.094672,
+      "mae_pp": 4.733586,
+      "released_values_public": false
+    }
+  ]
+}

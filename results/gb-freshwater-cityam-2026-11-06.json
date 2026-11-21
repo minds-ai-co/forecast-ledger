@@ -1,0 +1,646 @@
+{
+  "target_id": "gb-freshwater-cityam-2026-11-06",
+  "survey": "City AM / Freshwater Strategy monthly UK poll (Westminster voting intention, preferred PM, direction of the country, economic expectations)",
+  "status": "scored",
+  "released_at": "2026-11-05T20:52:18Z",
+  "source_url": "https://freshwaterstrategy.com/2026/11/05/city-am-freshwater-strategy-november-polling-data-2/",
+  "scored_at": "2026-11-21T00:18:45Z",
+  "results_sha256": "8279183f2a2445742c202525ba89287e1785a48663bd9e954110c99cb0f01112",
+  "released_values_public": false,
+  "licence_note": "Source: Freshwater Strategy for City AM, UK polling, fieldwork 30 October - 1 November 2026, 1,219 UK adults. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "pending_review",
+    "reviewed_on": "2026-11-20",
+    "source_url": "https://freshwaterstrategy.com/2026/11/05/city-am-freshwater-strategy-november-polling-data-2/",
+    "credit": "Source: Freshwater Strategy for City AM, UK polling, fieldwork 30 October - 1 November 2026, 1,219 UK adults. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "terms": [],
+    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "item_scope": {
+      "westminster_vi": [
+        "overall"
+      ],
+      "right_direction": [
+        "overall"
+      ],
+      "preferred_pm_burnham_badenoch": [
+        "overall"
+      ],
+      "economy_next_12m": [
+        "overall"
+      ],
+      "household_finances_next_12m": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 5,
+      "tvd": 0.12579,
+      "mae_pp": 5.713843
+    },
+    "anchored3": {
+      "items": 5,
+      "tvd": 0.036149,
+      "mae_pp": 1.567586
+    },
+    "cellsS": {
+      "items": 5,
+      "tvd": 0.126108,
+      "mae_pp": 5.766961
+    },
+    "cellsH": {
+      "items": 5,
+      "tvd": 0.124923,
+      "mae_pp": 5.711095
+    },
+    "memory3": {
+      "items": 5,
+      "tvd": 0.118044,
+      "mae_pp": 5.330875
+    },
+    "blend": {
+      "items": 5,
+      "tvd": 0.07884,
+      "mae_pp": 3.550986
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.146491,
+          "mae_pp": 6.835277
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.146491,
+          "mae_pp": 6.835277
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.037153,
+          "mae_pp": 1.729978
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.037153,
+          "mae_pp": 1.729978
+        }
+      },
+      "blend": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.089241,
+          "mae_pp": 4.172777
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.089241,
+          "mae_pp": 4.172777
+        }
+      },
+      "cellsH": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.146174,
+          "mae_pp": 6.85373
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.146174,
+          "mae_pp": 6.85373
+        }
+      },
+      "cellsS": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.145857,
+          "mae_pp": 6.872183
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.145857,
+          "mae_pp": 6.872183
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.136866,
+          "mae_pp": 6.358194
+        },
+        "subgroups": null,
+        "all": {
+          "n": 4,
+          "n_distribution": 4,
+          "tvd": 0.136866,
+          "mae_pp": 6.358194
+        }
+      }
+    },
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.042984,
+          "mae_pp": 1.228106
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.042984,
+          "mae_pp": 1.228106
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.032131,
+          "mae_pp": 0.918016
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.032131,
+          "mae_pp": 0.918016
+        }
+      },
+      "blend": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.037234,
+          "mae_pp": 1.063821
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.037234,
+          "mae_pp": 1.063821
+        }
+      },
+      "cellsH": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.039919,
+          "mae_pp": 1.140552
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.039919,
+          "mae_pp": 1.140552
+        }
+      },
+      "cellsS": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.047113,
+          "mae_pp": 1.346073
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.047113,
+          "mae_pp": 1.346073
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.042756,
+          "mae_pp": 1.221598
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.042756,
+          "mae_pp": 1.221598
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__westminster_vi__overall__r1",
+      "entry_sha256": "a465f2eb4046c1d422caf107e28fbc2e974889e75672d5ec3364d191ac99f939",
+      "variant": "pure",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.042984,
+      "mae_pp": 1.228106,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__right_direction__overall__r1",
+      "entry_sha256": "fd9ecb148a0a3442a7723b77075030faa277eb78c6d41ee3ba48502ff12189b3",
+      "variant": "pure",
+      "question_id": "right_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.081637,
+      "mae_pp": 5.4425,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "fcaf2c9bed2b277a625486cf94fad2d2672e72adf377f34dfc98cea119fca7cb",
+      "variant": "pure",
+      "question_id": "preferred_pm_burnham_badenoch",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.305259,
+      "mae_pp": 15.26295,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__economy_next_12m__overall__r1",
+      "entry_sha256": "c42c43259caea5dccc49141cc57618a63e7d5602b49286b456d7a4ad69ab3434",
+      "variant": "pure",
+      "question_id": "economy_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.11173,
+      "mae_pp": 3.724348,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__household_finances_next_12m__overall__r1",
+      "entry_sha256": "fcb2cc4d64cbf2b2fb8bcb78243e81e0f918873dd489fe41db97c2c8130631e8",
+      "variant": "pure",
+      "question_id": "household_finances_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.087339,
+      "mae_pp": 2.911311,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "603a37834add48fa738c8d60797a39a6b06f2d2b7b5096aa1f9f782797314185",
+      "variant": "anchored3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.032131,
+      "mae_pp": 0.918016,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__anchored3__right_direction__overall__r1",
+      "entry_sha256": "0ca4141dd50a82ee512ca8798b193f361cde804403e715cfdf636c541e67a3de",
+      "variant": "anchored3",
+      "question_id": "right_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.032637,
+      "mae_pp": 2.175833,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__anchored3__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "b63ce49df153f6ab157d76824e9ddf5fbedbb8cdca584dde23b60d48e5cb215e",
+      "variant": "anchored3",
+      "question_id": "preferred_pm_burnham_badenoch",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.052691,
+      "mae_pp": 2.634542,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__anchored3__economy_next_12m__overall__r1",
+      "entry_sha256": "6491015334c4d0e51eb3b1345b47a5b93532ebde87ebabc6c63caab8c377e095",
+      "variant": "anchored3",
+      "question_id": "economy_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.030314,
+      "mae_pp": 1.010475,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__anchored3__household_finances_next_12m__overall__r1",
+      "entry_sha256": "26f6b6262c6f1912e37324122bab1fb3cf088df6cb2e1a920c9766064c9f802b",
+      "variant": "anchored3",
+      "question_id": "household_finances_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.032972,
+      "mae_pp": 1.099062,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__westminster_vi__overall__r1",
+      "entry_sha256": "124ba05f6f6af86e3d6153c11fff4dc9a75db9de98877100611b7f36c48358ce",
+      "variant": "blend",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.037234,
+      "mae_pp": 1.063821,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__right_direction__overall__r1",
+      "entry_sha256": "dfaaeae71c47b0426ac493c8e9730b75cb158c1e7c059967da55787bc69f78d0",
+      "variant": "blend",
+      "question_id": "right_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.057137,
+      "mae_pp": 3.809166,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "c23e2c98e88f543c8e3b57869cc868022cca8396c0714b38bec7fcfe4ab9895f",
+      "variant": "blend",
+      "question_id": "preferred_pm_burnham_badenoch",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.173259,
+      "mae_pp": 8.66295,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__economy_next_12m__overall__r1",
+      "entry_sha256": "f6b5e9a541a70c4a93859eb9f7714191d1eb2d2e9685e8be654c755e58c48542",
+      "variant": "blend",
+      "question_id": "economy_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.06773,
+      "mae_pp": 2.257681,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__blend__household_finances_next_12m__overall__r1",
+      "entry_sha256": "3bc53da699510c47dc42cf4dac0f2007cee182411a66706e7bafd530ef217d00",
+      "variant": "blend",
+      "question_id": "household_finances_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.058839,
+      "mae_pp": 1.961311,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__westminster_vi__overall__r1",
+      "entry_sha256": "60798bdb9195ff222c25c5767474edd58c25f1e7e05548a317a58b6e38e91731",
+      "variant": "memory3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.042756,
+      "mae_pp": 1.221598,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__right_direction__overall__r1",
+      "entry_sha256": "d3ac8e6af0c96eaf9d86556e195cd5fca230313a0ae24fc72505b16e0e9eff1c",
+      "variant": "memory3",
+      "question_id": "right_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.084137,
+      "mae_pp": 5.609166,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "fbc0eddea575711af43273e520beb3005c6687401abe48828584605363417af0",
+      "variant": "memory3",
+      "question_id": "preferred_pm_burnham_badenoch",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.262759,
+      "mae_pp": 13.13795,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__economy_next_12m__overall__r1",
+      "entry_sha256": "f09bb6414f86ffd37e556d286534eec76065018170b6578787c922415ac79376",
+      "variant": "memory3",
+      "question_id": "economy_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.10723,
+      "mae_pp": 3.574348,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__household_finances_next_12m__overall__r1",
+      "entry_sha256": "c7386f64d57bd81290418afcf854ac3bbc34308f357a02d2ad1e6c62893539e1",
+      "variant": "memory3",
+      "question_id": "household_finances_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.093339,
+      "mae_pp": 3.111311,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsS__westminster_vi__overall__r1",
+      "entry_sha256": "b4b43c54078a9a9f1a80a7f0a7fbaa95606438a15311b88613b3c791ff26d589",
+      "variant": "cellsS",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.047113,
+      "mae_pp": 1.346073,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__westminster_vi__overall__r1",
+      "entry_sha256": "881783c293f9b234bd49d53485e15de5f5785128b7c4ad33094a25ea08e5587d",
+      "variant": "cellsH",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.039919,
+      "mae_pp": 1.140552,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsS__right_direction__overall__r1",
+      "entry_sha256": "b93e8caacff0ed6707c230630f039332ca2a511fad10eae49a623d3a63659a33",
+      "variant": "cellsS",
+      "question_id": "right_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.093628,
+      "mae_pp": 6.241871,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__right_direction__overall__r1",
+      "entry_sha256": "cd061c72eb8b9bbe1c05ee77a09e953a696d313f3e3f10dc607e3d641e652206",
+      "variant": "cellsH",
+      "question_id": "right_direction",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.087633,
+      "mae_pp": 5.842185,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsS__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "314e1e97db40b458c197042b00ee001cd4b388dd292a74b209587e86e6900939",
+      "variant": "cellsS",
+      "question_id": "preferred_pm_burnham_badenoch",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.295212,
+      "mae_pp": 14.760593,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "a280f2c89ccdf2d17499bcf343786ea0001b5dd8765dd8d5735932e9ce919ca2",
+      "variant": "cellsH",
+      "question_id": "preferred_pm_burnham_badenoch",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.300235,
+      "mae_pp": 15.011772,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsS__economy_next_12m__overall__r1",
+      "entry_sha256": "e3d6cc985eaf21cc1e56e8cd416caeeb40c77def3928dceed052c6b05a199d22",
+      "variant": "cellsS",
+      "question_id": "economy_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.099054,
+      "mae_pp": 3.301787,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__economy_next_12m__overall__r1",
+      "entry_sha256": "c2004649d84b9aa202b19238acacd362cadaacb7e6ce372d882165ccc4ac2e4a",
+      "variant": "cellsH",
+      "question_id": "economy_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.105392,
+      "mae_pp": 3.513068,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsS__household_finances_next_12m__overall__r1",
+      "entry_sha256": "51b09880e5da1d80b19879eca28eba84ef91b6ec0fcf9165e16d44867b1b9104",
+      "variant": "cellsS",
+      "question_id": "household_finances_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.095534,
+      "mae_pp": 3.18448,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__cellsH__household_finances_next_12m__overall__r1",
+      "entry_sha256": "fd989039529e593af8da3cb7e0967313cb41394174ea4019d6734c4f0c81742c",
+      "variant": "cellsH",
+      "question_id": "household_finances_next_12m",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.091437,
+      "mae_pp": 3.047896,
+      "released_values_public": false
+    }
+  ]
+}

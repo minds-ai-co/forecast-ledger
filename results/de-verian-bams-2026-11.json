@@ -1,0 +1,263 @@
+{
+  "target_id": "de-verian-bams-2026-11",
+  "survey": "Verian (formerly Emnid) Sonntagsfrage for Bild am Sonntag",
+  "status": "scored",
+  "released_at": "2026-11-20T00:00:00Z",
+  "source_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
+  "scored_at": "2026-11-21T00:08:27Z",
+  "results_sha256": "6b973ad014ca62e82890b542eb4581933958dbd231c2ff6954d72c9fd1d1f1c2",
+  "released_values_public": false,
+  "licence_note": "Source: Verian (formerly Emnid), Sonntagsfrage, fieldwork 11-17 November 2026, 1,472 respondents; listed by wahlrecht.de. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "pending_review",
+    "reviewed_on": "2026-11-20",
+    "source_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
+    "credit": "Source: Verian (formerly Emnid), Sonntagsfrage, fieldwork 11-17 November 2026, 1,472 respondents; listed by wahlrecht.de. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "terms": [],
+    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "item_scope": {
+      "sonntagsfrage": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 1,
+      "tvd": 0.06,
+      "mae_pp": 1.5
+    },
+    "anchored3": {
+      "items": 1,
+      "tvd": 0.02125,
+      "mae_pp": 0.53125
+    },
+    "memory3": {
+      "items": 1,
+      "tvd": 0.0575,
+      "mae_pp": 1.4375
+    },
+    "bank3": {
+      "items": 1,
+      "tvd": 0.0575,
+      "mae_pp": 1.4375
+    },
+    "bankR3": {
+      "items": 1,
+      "tvd": 0.06,
+      "mae_pp": 1.5
+    },
+    "cohort": {
+      "items": 1,
+      "tvd": 0.09,
+      "mae_pp": 2.25
+    },
+    "xpub3": {
+      "items": 1,
+      "tvd": 0.024,
+      "mae_pp": 0.6
+    }
+  },
+  "summary_by_evidence_type": {
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.06,
+          "mae_pp": 1.5
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.06,
+          "mae_pp": 1.5
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.02125,
+          "mae_pp": 0.53125
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.02125,
+          "mae_pp": 0.53125
+        }
+      },
+      "bank3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0575,
+          "mae_pp": 1.4375
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0575,
+          "mae_pp": 1.4375
+        }
+      },
+      "bankR3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.06,
+          "mae_pp": 1.5
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.06,
+          "mae_pp": 1.5
+        }
+      },
+      "cohort": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.09,
+          "mae_pp": 2.25
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.09,
+          "mae_pp": 2.25
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0575,
+          "mae_pp": 1.4375
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.0575,
+          "mae_pp": 1.4375
+        }
+      },
+      "xpub3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.024,
+          "mae_pp": 0.6
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.024,
+          "mae_pp": 0.6
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "de-verian-bams-2026-11__sonntagsfrage__overall__r1",
+      "entry_sha256": "0ca272a3be0b9b7c68483c1116a8fde50d545cc5814a261d7ad7b0e7d484bdb0",
+      "variant": "pure",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.06,
+      "mae_pp": 1.5,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "de-verian-bams-2026-11__anchored3__sonntagsfrage__overall__r1",
+      "entry_sha256": "e06fa967a5502db2169c7196437bf6036e156a10245b0f766561dbcd98be1b4e",
+      "variant": "anchored3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.02125,
+      "mae_pp": 0.53125,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "de-verian-bams-2026-11__bank3__sonntagsfrage__overall__r1",
+      "entry_sha256": "9d645c0482f9ba9eed975ad8371e97cdf99879b245c168ace2cdb3d748eb4477",
+      "variant": "bank3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0575,
+      "mae_pp": 1.4375,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "de-verian-bams-2026-11__bankR3__sonntagsfrage__overall__r1",
+      "entry_sha256": "654f04944798f3af975e221fe7dd3025f257624337e9f821a0a8210ad5490445",
+      "variant": "bankR3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.06,
+      "mae_pp": 1.5,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "de-verian-bams-2026-11__cohort__sonntagsfrage__overall__r1",
+      "entry_sha256": "73da6981854224cc19cc0abdd04861dbc370605e47a06cf6387de39f37d41474",
+      "variant": "cohort",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.09,
+      "mae_pp": 2.25,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "de-verian-bams-2026-11__memory3__sonntagsfrage__overall__r1",
+      "entry_sha256": "e494b36eb547e19c25ec2d65b27e47ec34295268efb74291178a7ac937939287",
+      "variant": "memory3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.0575,
+      "mae_pp": 1.4375,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "de-verian-bams-2026-11__xpub3__sonntagsfrage__overall__r1",
+      "entry_sha256": "7ce38668229ab8321db1cf1e7cdd30de4f9d96417a9700c8921f7116690abc4f",
+      "variant": "xpub3",
+      "question_id": "sonntagsfrage",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.024,
+      "mae_pp": 0.6,
+      "released_values_public": false
+    }
+  ]
+}

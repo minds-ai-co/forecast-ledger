@@ -3,78 +3,366 @@
   "variant": "memory3",
   "variant_label": "Additional research forecast (memory3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__work_location__overall__r1",
       "entry_sha256": "9d150e6a7cd872077e69418aad066bf89a56a2c04567688bf934816644ac9551",
       "seq": 1827,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "work_location",
+        "text": "[ASKED ONLY IF EMPLOYED] Are you currently working from home, at your workplace, or both a majority of the time?",
+        "type": "categorical",
+        "options": [
+          "Working at my workplace only",
+          "Working from home only",
+          "Working both from home and at my workplace"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.63,
+        0.185,
+        0.185
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_gatherings_local__overall__r1",
       "entry_sha256": "1e277bf806e67e2f883496c87e61a69e5bdaa516eb71aa5b36cd2a5a0a97ebb2",
       "seq": 1828,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "holiday_gatherings_local",
+        "text": "Are you planning to do more, less or the same amount of the following for the holidays compared to this time last year? Attend gatherings with family/friends locally",
+        "type": "categorical",
+        "options": [
+          "More",
+          "About the same",
+          "Less",
+          "Not applicable/Don't plan to do this"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.12,
+        0.5549999999999999,
+        0.185,
+        0.14
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_virtual_calls__overall__r1",
       "entry_sha256": "35dd617f10ffaae2c3ed219cab1a5a763d9a4d6e6c72e552c0b58b54f00c570f",
       "seq": 1829,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "holiday_virtual_calls",
+        "text": "Are you planning to do more, less or the same amount of the following for the holidays compared to this time last year? Connect with family/friends with virtual calls, e.g., Zoom calls",
+        "type": "categorical",
+        "options": [
+          "More",
+          "About the same",
+          "Less",
+          "Not applicable/Don't plan to do this"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.11499999999999999,
+        0.41000000000000003,
+        0.16,
+        0.315
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_sitdown_restaurants__overall__r1",
       "entry_sha256": "3031b60a6548fa3ae637785fad658e0459d5bb036415fbf1155b0f7573a725ad",
       "seq": 1830,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "holiday_sitdown_restaurants",
+        "text": "Are you planning to do more, less or the same amount of the following for the holidays compared to this time last year? Celebrate locally at sit-down restaurants",
+        "type": "categorical",
+        "options": [
+          "More",
+          "About the same",
+          "Less",
+          "Not applicable/Don't plan to do this"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0875,
+        0.3825,
+        0.2625,
+        0.2675
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_restaurant_delivery__overall__r1",
       "entry_sha256": "bdbb08c809058f9c7037ff9e70a15987dfe9df999c50e8871d877a80a25f80b3",
       "seq": 1831,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "holiday_restaurant_delivery",
+        "text": "Are you planning to do more, less or the same amount of the following for the holidays compared to this time last year? Order delivery from restaurants",
+        "type": "categorical",
+        "options": [
+          "More",
+          "About the same",
+          "Less",
+          "Not applicable/Don't plan to do this"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.08,
+        0.355,
+        0.265,
+        0.30000000000000004
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_debt_for_gifts__overall__r1",
       "entry_sha256": "c925d83822825090f351327e07cfa976d1c7517a3228f9653a6e5c24cd5ec546",
       "seq": 1832,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "holiday_debt_for_gifts",
+        "text": "Are you planning to do more, less or the same amount of the following for the holidays compared to this time last year? Take on debt (credit card, buy now/pay later, loans) to pay for holiday gifts",
+        "type": "categorical",
+        "options": [
+          "More",
+          "About the same",
+          "Less",
+          "Not applicable/Don't plan to do this"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.08,
+        0.195,
+        0.23,
+        0.495
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__travel_100_miles__overall__r1",
       "entry_sha256": "a92e2b1e1aacb01de4e6eab61af72714af9af8a0ca45a513fe8c0fdab871a6fa",
       "seq": 1833,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "travel_100_miles",
+        "text": "Do you plan to travel 100 miles or more for Thanksgiving or the December holidays this year?",
+        "type": "categorical",
+        "options": [
+          "True",
+          "False",
+          "Not sure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.31,
+        0.58,
+        0.11
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__cravings_eating_generally__overall__r1",
       "entry_sha256": "004e85c3a23e852c7ab9c68a5db952a9a1280f4af78640301bb315f55dfba8b9",
       "seq": 1834,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "cravings_eating_generally",
+        "text": "New medications are on the market that might help people control cravings. How interested, if at all, would you be in a medication that helped reduce cravings for the following? Eating generally (weight loss)",
+        "type": "categorical",
+        "options": [
+          "Very interested",
+          "Somewhat interested",
+          "Not very interested",
+          "Not at all interested",
+          "Don't know",
+          "Does not apply"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.17,
+        0.235,
+        0.17,
+        0.33,
+        0.035,
+        0.06
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__cravings_sweets__overall__r1",
       "entry_sha256": "4fe774f6e4e9bb358b076a18d03e93d0fff90276371f3826207a2b29a2f599ff",
       "seq": 1835,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "cravings_sweets",
+        "text": "New medications are on the market that might help people control cravings. How interested, if at all, would you be in a medication that helped reduce cravings for the following? Eating sweets (i.e., candy, cookies, chocolate, etc.)",
+        "type": "categorical",
+        "options": [
+          "Very interested",
+          "Somewhat interested",
+          "Not very interested",
+          "Not at all interested",
+          "Don't know",
+          "Does not apply"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.15,
+        0.23,
+        0.19,
+        0.33,
+        0.035,
+        0.065
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__cravings_alcohol__overall__r1",
       "entry_sha256": "61ba5966f3f5127fdede6ca7cdd806d4fd899c60b65af315498f57531054a2b4",
       "seq": 1836,
       "batch_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__20261101T121551445727Z__s1827",
-      "locked_at": "2026-11-01T12:15:51Z"
+      "locked_at": "2026-11-01T12:15:51Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "cravings_alcohol",
+        "text": "[ASKED IF AGE 21+] New medications are on the market that might help people control cravings. How interested, if at all, would you be in a medication that helped reduce cravings for the following? Drinking alcohol",
+        "type": "categorical",
+        "options": [
+          "Very interested",
+          "Somewhat interested",
+          "Not very interested",
+          "Not at all interested",
+          "Don't know",
+          "Does not apply"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.07250000000000001,
+        0.10250000000000001,
+        0.125,
+        0.44,
+        0.03,
+        0.22999999999999998
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

@@ -3,22 +3,82 @@
   "variant": "bankR3",
   "variant_label": "Additional research forecast (bankR3)",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "fr-ipsos-bva-tribune-2026-11-04__bankR3__popularity_macron__overall__r1",
       "entry_sha256": "b4d6ac9ce36cab5b5b87f89eef40c47dcc56aa6fad1fdd75e2d76a5d76210b26",
       "seq": 2078,
       "batch_id": "fr-ipsos-bva-tribune-2026-11-04__bankR3__20261101T173541268967Z__s2078",
-      "locked_at": "2026-11-01T17:35:41Z"
+      "locked_at": "2026-11-01T17:35:41Z",
+      "state": "scored",
+      "question": {
+        "id": "popularity_macron",
+        "text": "Quel jugement portez-vous sur l'action d'Emmanuel Macron en tant que président de la République ? (What is your judgement of Emmanuel Macron's action as President of the Republic?)",
+        "type": "ordinal",
+        "options": [
+          "Très favorable",
+          "Plutôt favorable",
+          "Plutôt défavorable",
+          "Très défavorable",
+          "Ne se prononce pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.025,
+        0.125,
+        0.315,
+        0.4875,
+        0.0475
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-ipsos-bva-tribune-2026-11-04__bankR3__popularity_lecornu__overall__r1",
       "entry_sha256": "d3611a3fa24d88dfc95b00b2d08a6c191f5eb66970ad1a0c3a96005099df1287",
       "seq": 2079,
       "batch_id": "fr-ipsos-bva-tribune-2026-11-04__bankR3__20261101T173541268967Z__s2078",
-      "locked_at": "2026-11-01T17:35:41Z"
+      "locked_at": "2026-11-01T17:35:41Z",
+      "state": "scored",
+      "question": {
+        "id": "popularity_lecornu",
+        "text": "Quel jugement portez-vous sur l'action de Sébastien Lecornu en tant que Premier ministre ? (What is your judgement of Sébastien Lecornu's action as Prime Minister?)",
+        "type": "ordinal",
+        "options": [
+          "Très favorable",
+          "Plutôt favorable",
+          "Plutôt défavorable",
+          "Très défavorable",
+          "Ne se prononce pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.025,
+        0.18,
+        0.3325,
+        0.33999999999999997,
+        0.1225
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

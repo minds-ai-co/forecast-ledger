@@ -1,0 +1,342 @@
+{
+  "target_id": "gb-moreincommon-vi-2026-10-30",
+  "survey": "More in Common GB Voting Intention & Trackers (weekly)",
+  "status": "scored",
+  "released_at": "2026-11-04T08:43:03Z",
+  "source_url": "https://www.moreincommon.org.uk/wp-content/uploads/2026/11/31-10-to-01-11-Voting-Intention.xlsx",
+  "scored_at": "2026-11-21T00:18:48Z",
+  "results_sha256": "4499c08eb63e39e8ac6e8f6e7db1342874908466f835403c690bf9fdc8bc1658",
+  "released_values_public": false,
+  "licence_note": "Source: More in Common, voting intention, fieldwork 31 October - 1 November 2026, 2,602 GB adults. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+  "publication": {
+    "status": "pending_review",
+    "reviewed_on": "2026-11-20",
+    "source_url": "https://www.moreincommon.org.uk/wp-content/uploads/2026/11/31-10-to-01-11-Voting-Intention.xlsx",
+    "credit": "Source: More in Common, voting intention, fieldwork 31 October - 1 November 2026, 2,602 GB adults. Released values shown only if publication review allows; source linked. Minds forecasts are independent estimates.",
+    "terms": [],
+    "decision_basis": "New source in the 20 Nov 2026 backlog; pending owner review. Released values stay unpublished until decided.",
+    "item_scope": {
+      "westminster_vi": [
+        "overall"
+      ],
+      "burnham_good_job": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "pure": {
+      "items": 2,
+      "tvd": 0.083986,
+      "mae_pp": 2.59867
+    },
+    "anchored3": {
+      "items": 2,
+      "tvd": 0.025173,
+      "mae_pp": 0.681953
+    },
+    "cellsS": {
+      "items": 2,
+      "tvd": 0.084889,
+      "mae_pp": 2.51718
+    },
+    "cellsH": {
+      "items": 2,
+      "tvd": 0.078701,
+      "mae_pp": 2.430445
+    },
+    "memory3": {
+      "items": 2,
+      "tvd": 0.079986,
+      "mae_pp": 2.454226
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.131817,
+          "mae_pp": 4.393903
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.131817,
+          "mae_pp": 4.393903
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.022061,
+          "mae_pp": 0.735367
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.022061,
+          "mae_pp": 0.735367
+        }
+      },
+      "cellsH": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.122677,
+          "mae_pp": 4.089221
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.122677,
+          "mae_pp": 4.089221
+        }
+      },
+      "cellsS": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.113536,
+          "mae_pp": 3.78454
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.113536,
+          "mae_pp": 3.78454
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.121817,
+          "mae_pp": 4.06057
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.121817,
+          "mae_pp": 4.06057
+        }
+      }
+    },
+    "stated_intent": {
+      "pure": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.036155,
+          "mae_pp": 0.803438
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.036155,
+          "mae_pp": 0.803438
+        }
+      },
+      "anchored3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.028284,
+          "mae_pp": 0.62854
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.028284,
+          "mae_pp": 0.62854
+        }
+      },
+      "cellsH": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.034725,
+          "mae_pp": 0.771668
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.034725,
+          "mae_pp": 0.771668
+        }
+      },
+      "cellsS": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.056242,
+          "mae_pp": 1.249819
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.056242,
+          "mae_pp": 1.249819
+        }
+      },
+      "memory3": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.038155,
+          "mae_pp": 0.847882
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.038155,
+          "mae_pp": 0.847882
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__westminster_vi__overall__r1",
+      "entry_sha256": "21538feb7775cc4dfc6b6b0563687a589a79011c16597435c77e4046e7581a54",
+      "variant": "pure",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.036155,
+      "mae_pp": 0.803438,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__burnham_good_job__overall__r1",
+      "entry_sha256": "acfdb84e1f6e1fe32886dc3605c09ff536f1ae7b64c39a07af890c792751c615",
+      "variant": "pure",
+      "question_id": "burnham_good_job",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.131817,
+      "mae_pp": 4.393903,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__anchored3__westminster_vi__overall__r1",
+      "entry_sha256": "21967038e762c1ab6728ff1adfc7f6fb70a1d7c2507f8608434e8609905f2a24",
+      "variant": "anchored3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.028284,
+      "mae_pp": 0.62854,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__anchored3__burnham_good_job__overall__r1",
+      "entry_sha256": "24979f36e7667bea0c5e2dfbfbd8efd89c63380c18753e8e107564183460f9d5",
+      "variant": "anchored3",
+      "question_id": "burnham_good_job",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.022061,
+      "mae_pp": 0.735367,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsS__westminster_vi__overall__r1",
+      "entry_sha256": "8bbed9c16796bc84bef22ab81d0c804f258e736a1fe96b42e94befd0b9362aae",
+      "variant": "cellsS",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.056242,
+      "mae_pp": 1.249819,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__westminster_vi__overall__r1",
+      "entry_sha256": "9d70754150882de03b2701f64b17fabb2fe1af4b5594e443e9fe4f7e57f64312",
+      "variant": "cellsH",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.034725,
+      "mae_pp": 0.771668,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsS__burnham_good_job__overall__r1",
+      "entry_sha256": "cda43e432a67339e4230495f33d94e4f389f421340f558317ca1f6e40eff683b",
+      "variant": "cellsS",
+      "question_id": "burnham_good_job",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.113536,
+      "mae_pp": 3.78454,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__burnham_good_job__overall__r1",
+      "entry_sha256": "1de07d923c070d9704259e73044bd71f09a32fe0dad26b5bcd8b3354840f4dc3",
+      "variant": "cellsH",
+      "question_id": "burnham_good_job",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.122677,
+      "mae_pp": 4.089221,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__memory3__westminster_vi__overall__r1",
+      "entry_sha256": "ff2ca6b14c543268d87ff0b4151303915b229ea07430196211a59bb14c5c9731",
+      "variant": "memory3",
+      "question_id": "westminster_vi",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "stated_intent",
+      "tvd": 0.038155,
+      "mae_pp": 0.847882,
+      "released_values_public": false
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__memory3__burnham_good_job__overall__r1",
+      "entry_sha256": "a9d7c569f74aef88927e1416c28efafe0289bc94e8d19a615b2d8880a53af4cd",
+      "variant": "memory3",
+      "question_id": "burnham_good_job",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.121817,
+      "mae_pp": 4.06057,
+      "released_values_public": false
+    }
+  ]
+}
