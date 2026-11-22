@@ -22,17 +22,17 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.266602,
       "mae_pp": 3.808596
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.190465,
       "mae_pp": 2.720928
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.28433,
       "mae_pp": 4.06186
@@ -40,7 +40,7 @@
   },
   "summary_by_evidence_type": {
     "behaviour": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -55,7 +55,7 @@
           "mae_pp": 3.808596
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -70,7 +70,7 @@
           "mae_pp": 2.720928
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -91,7 +91,7 @@
     {
       "entry_id": "us-boxoffice-weekend-2026-11-06__weekend_gross_share__overall__r1",
       "entry_sha256": "f2764d33a1af4327cec981f3deb43da6c761e6be97eaef2cba285fd0704d4661",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "weekend_gross_share",
       "group_id": "overall",
       "counted": true,
@@ -120,7 +120,7 @@
     {
       "entry_id": "us-boxoffice-weekend-2026-11-06__anchored3__weekend_gross_share__overall__r1",
       "entry_sha256": "1bf0c09ed6d6dba6faa6d715b93dcd66a8b2e0c628e91dab8330ae3f69a44c23",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "weekend_gross_share",
       "group_id": "overall",
       "counted": true,
@@ -149,7 +149,7 @@
     {
       "entry_id": "us-boxoffice-weekend-2026-11-06__memory3__weekend_gross_share__overall__r1",
       "entry_sha256": "c1f0dd80315e354670660939c1052d9b53b400df65526b5ec716b29db078b5bc",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "weekend_gross_share",
       "group_id": "overall",
       "counted": true,

@@ -1,0 +1,80 @@
+{
+  "target_id": "us-abc-post-ipsos-2026-10-26",
+  "variant": "research-2",
+  "variant_label": "Additional research forecast 2",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__memory3__trump_job_approval__overall__r1",
+      "entry_sha256": "52b74460c9ad9c22e1ca1293b9078e8d04add541e682381fb3f3ffd713d00e94",
+      "seq": 959,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__memory3__20261025T185458209120Z__s959",
+      "locked_at": "2026-10-25T18:54:58Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as president? (Approve/disapprove, then strongly or somewhat)",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove",
+          "No opinion/Skipped"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.24,
+        0.1635,
+        0.115,
+        0.454,
+        0.0275
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "us-abc-post-ipsos-2026-10-26__memory3__direction__overall__r1",
+      "entry_sha256": "9dc14bc9fb38886cc0f481a6c9d748dc741145a05a048d84ce16307155a2bc61",
+      "seq": 960,
+      "batch_id": "us-abc-post-ipsos-2026-10-26__memory3__20261025T185458209120Z__s959",
+      "locked_at": "2026-10-25T18:54:58Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "direction",
+        "text": "Would you say things in this country are headed in the (right direction) or the (wrong direction)? (Order of the two options rotated)",
+        "type": "categorical",
+        "options": [
+          "Right direction",
+          "Wrong direction",
+          "Skipped"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.3235,
+        0.662,
+        0.014499999999999999
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

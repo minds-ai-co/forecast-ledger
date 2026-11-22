@@ -22,12 +22,12 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.981,
       "mae_pp": 21.8
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.89,
       "mae_pp": 19.777778
@@ -35,7 +35,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -60,7 +60,7 @@
           }
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -91,7 +91,7 @@
     {
       "entry_id": "gb-system1-xmas-2026-sainsburys__star_rating__overall__r1",
       "entry_sha256": "c7a0145d2d3043e9439a20f8043f41e786c40087a54bfb043342269d3e5e252e",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "star_rating",
       "group_id": "overall",
       "counted": true,
@@ -122,7 +122,7 @@
     {
       "entry_id": "gb-system1-xmas-2026-sainsburys__anchored3__star_rating__overall__r1",
       "entry_sha256": "5dbedcde52dbda5385ec6a51f9b99d27df0bfcf90b742a6c2d2750285781ee59",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "star_rating",
       "group_id": "overall",
       "counted": true,

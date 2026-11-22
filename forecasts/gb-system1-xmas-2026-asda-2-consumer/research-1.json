@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-asda-2-consumer",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-asda-2-consumer__feeling__overall__r1",
+      "entry_sha256": "c3b195efaf099fe9fce2a7310d31e3577bc80643d4fa9fae80e465840ea99b51",
+      "seq": 2667,
+      "batch_id": "gb-system1-xmas-2026-asda-2-consumer__20261122T194024194587Z__s2667",
+      "locked_at": "2026-11-22T19:40:24Z"
+    }
+  ]
+}

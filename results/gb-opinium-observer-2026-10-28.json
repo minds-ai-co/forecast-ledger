@@ -30,17 +30,17 @@
     "credit": "Source: Opinium / The Observer, October 2026 political poll. Selected published question shares reported for journalistic comparison; normalised over the listed options and rounded for display."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 2,
       "tvd": 0.0551,
       "mae_pp": 1.752916
     },
-    "anchored3": {
+    "mosaic": {
       "items": 2,
       "tvd": 0.0237,
       "mae_pp": 0.706666
     },
-    "memory3": {
+    "research-2": {
       "items": 2,
       "tvd": 0.0543,
       "mae_pp": 1.712083
@@ -48,7 +48,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -63,7 +63,7 @@
           "mae_pp": 3.003333
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -78,7 +78,7 @@
           "mae_pp": 0.913333
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -95,7 +95,7 @@
       }
     },
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -110,7 +110,7 @@
           "mae_pp": 0.5025
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -125,7 +125,7 @@
           "mae_pp": 0.5
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -146,7 +146,7 @@
     {
       "entry_id": "gb-opinium-observer-2026-10-28__westminster_vi__overall__r1",
       "entry_sha256": "59497bc4196d160a565e4091dd6522dcf11907d87163df00c8eacc6925e38f80",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -169,7 +169,7 @@
     {
       "entry_id": "gb-opinium-observer-2026-10-28__burnham_approval__overall__r1",
       "entry_sha256": "bc3acc2d2a7fab324135690b75d098401dfa9bd2322eb90cf785e811a901bfa4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "burnham_approval",
       "group_id": "overall",
       "counted": true,
@@ -190,7 +190,7 @@
     {
       "entry_id": "gb-opinium-observer-2026-10-28__anchored3__westminster_vi__overall__r1",
       "entry_sha256": "a27c5e52996bd4b5bca86b98ab8789cdc2facc92d7d153fd90af717499151763",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -213,7 +213,7 @@
     {
       "entry_id": "gb-opinium-observer-2026-10-28__anchored3__burnham_approval__overall__r1",
       "entry_sha256": "d57a31be0c3383f1fa2188c74a479cdd2dd52a9dd5f9a9239795c35bd41ae897",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "burnham_approval",
       "group_id": "overall",
       "counted": true,
@@ -234,7 +234,7 @@
     {
       "entry_id": "gb-opinium-observer-2026-10-28__memory3__westminster_vi__overall__r1",
       "entry_sha256": "b91211a6dfa6a16b799e292a39cb6dde6a7ed8214db60db34dee0402f7288397",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -257,7 +257,7 @@
     {
       "entry_id": "gb-opinium-observer-2026-10-28__memory3__burnham_approval__overall__r1",
       "entry_sha256": "65237289993a7573bb7ca08abe2d21ee6443483b3e62c7c8cd553fb81c888492",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "burnham_approval",
       "group_id": "overall",
       "counted": true,

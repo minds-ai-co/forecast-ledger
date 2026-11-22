@@ -66,27 +66,27 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 30,
       "tvd": 0.10305,
       "mae_pp": 8.337907
     },
-    "anchored3": {
+    "mosaic": {
       "items": 30,
       "tvd": 0.033635,
       "mae_pp": 2.522016
     },
-    "cellsS": {
+    "research-4": {
       "items": 18,
       "tvd": 0.099381,
       "mae_pp": 8.000977
     },
-    "cellsH": {
+    "research-5": {
       "items": 18,
       "tvd": 0.098953,
       "mae_pp": 7.957804
     },
-    "memory3": {
+    "research-2": {
       "items": 30,
       "tvd": 0.109779,
       "mae_pp": 8.997573
@@ -94,7 +94,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -114,7 +114,7 @@
           "mae_pp": 9.536403
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -134,7 +134,7 @@
           "mae_pp": 2.776594
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -154,7 +154,7 @@
           "mae_pp": 9.078689
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -174,7 +174,7 @@
           "mae_pp": 9.10532
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -196,7 +196,7 @@
       }
     },
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -216,7 +216,7 @@
           "mae_pp": 2.345432
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -236,7 +236,7 @@
           "mae_pp": 1.249126
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -256,7 +256,7 @@
           "mae_pp": 2.353379
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -276,7 +276,7 @@
           "mae_pp": 2.479259
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -302,7 +302,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__government_approval__overall__r1",
       "entry_sha256": "c253c77c64ab076d8aa99f71b9a545303f1de6b70a0699b6c9da99f6d1d91341",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "government_approval",
       "group_id": "overall",
       "counted": true,
@@ -320,7 +320,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__government_approval__age_18_24__r1",
       "entry_sha256": "1e1c11bc351efb091852cdb8e73013bb83e6f100c3512c3f2e3f14103a6db5cf",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "government_approval",
       "group_id": "age_18_24",
       "counted": true,
@@ -338,7 +338,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__government_approval__age_65_plus__r1",
       "entry_sha256": "06ee623ed54775ffc2b990bb159d4f0c4ab84ffcb095479aa1675e4a9e94550d",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "government_approval",
       "group_id": "age_65_plus",
       "counted": true,
@@ -356,7 +356,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__government_approval__ge2024_con__r1",
       "entry_sha256": "5d98540add926e7b9cf106ca570ca00dbd3f9598e5dc01390bc6039f8cdc544b",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "government_approval",
       "group_id": "ge2024_con",
       "counted": true,
@@ -374,7 +374,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__government_approval__ge2024_lab__r1",
       "entry_sha256": "51058c64be6cf63f23bca6113d2b8d12a21c7aea23a559eb1bc05c7faf25f795",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "government_approval",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -392,7 +392,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__westminster_vi__overall__r1",
       "entry_sha256": "9d3885be42d1fd0906da9dc1b28ce0b2b05b6ead0b2fb910e5509e334505fb27",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -415,7 +415,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__westminster_vi__age_18_24__r1",
       "entry_sha256": "1a6f7b2be1de2a35e993b9af4187456f23f53b3a7d8e472599c227a95790592a",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "age_18_24",
       "counted": true,
@@ -438,7 +438,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__westminster_vi__age_65_plus__r1",
       "entry_sha256": "b42c51010632ea58a3ff9a8ed259a1ce46452709dcfd124f4ce7ee7e9075c997",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "age_65_plus",
       "counted": true,
@@ -461,7 +461,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__westminster_vi__ge2024_con__r1",
       "entry_sha256": "9635813f8a3931247f14fbc3b1127149e567438327c8f89ad0794b009e2734d1",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "ge2024_con",
       "counted": true,
@@ -484,7 +484,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__westminster_vi__ge2024_lab__r1",
       "entry_sha256": "7d276e8637b26f1632fa52ccbab510a98a7316992a9ad5c62826de38f54d9f62",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -507,7 +507,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_economy__overall__r1",
       "entry_sha256": "4e058c6063c23fbe62fdef78553acf0138db0ff5de8f8ebc809bf9ccaeb16148",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_economy",
       "group_id": "overall",
       "counted": true,
@@ -524,7 +524,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_economy__age_18_24__r1",
       "entry_sha256": "0c9575108ee236bd6f655123c5cf48ffebdaf2d54e9bc531f6eeb400905d87e4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_economy",
       "group_id": "age_18_24",
       "counted": true,
@@ -541,7 +541,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_economy__age_65_plus__r1",
       "entry_sha256": "53dcf0268841f74d20ffcc1b982549e2c45f70824575f1c5d7a9667bbac9bdc6",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_economy",
       "group_id": "age_65_plus",
       "counted": true,
@@ -558,7 +558,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_economy__ge2024_con__r1",
       "entry_sha256": "f1aa522ab01403633986d406a77dcebf636c436bc1180cfec7967a59e380b1ac",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_economy",
       "group_id": "ge2024_con",
       "counted": true,
@@ -575,7 +575,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_economy__ge2024_lab__r1",
       "entry_sha256": "7a12e23f1c8a700169e5a33d32e34085dbe47268ab1c79e9c9655164c6b842c0",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_economy",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -592,7 +592,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_immigration__overall__r1",
       "entry_sha256": "512a6fe06502ad9d91ce36aacf7438fde2b7df9f9d83633c94f2c073352053ce",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_immigration",
       "group_id": "overall",
       "counted": true,
@@ -609,7 +609,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_immigration__age_18_24__r1",
       "entry_sha256": "297e2e9eee0550c10eda7408d69411f865a52507d09f91af44275c8282f162ae",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_immigration",
       "group_id": "age_18_24",
       "counted": true,
@@ -626,7 +626,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_immigration__age_65_plus__r1",
       "entry_sha256": "78d165dc660d1faed1ef737da1fa301e673b6b042bc705a27f328945701ef890",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_immigration",
       "group_id": "age_65_plus",
       "counted": true,
@@ -643,7 +643,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_immigration__ge2024_con__r1",
       "entry_sha256": "62097bf5f510ddc3172b0756fa6c746a704d9f307d2282f7b8578148a66a3f69",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_immigration",
       "group_id": "ge2024_con",
       "counted": true,
@@ -660,7 +660,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_immigration__ge2024_lab__r1",
       "entry_sha256": "de69eab65eb8f5d465996b4ac7aedb665dcb9f214788c0310e21c0d176012fae",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_immigration",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -677,7 +677,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_health__overall__r1",
       "entry_sha256": "b65452006c75705b5d1e368e2fd549cace2d2e6517d81edb81e164ec4168aca6",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_health",
       "group_id": "overall",
       "counted": true,
@@ -694,7 +694,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_health__age_18_24__r1",
       "entry_sha256": "c96dd20e63644f72c25d0941f10fe958d33b13fa1051b5cc5ce9336be794d343",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_health",
       "group_id": "age_18_24",
       "counted": true,
@@ -711,7 +711,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_health__age_65_plus__r1",
       "entry_sha256": "bb42ccd7d73fcefe11cd0c7f37333f1624781eb31396bfcd8e0ccf0d92580122",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_health",
       "group_id": "age_65_plus",
       "counted": true,
@@ -728,7 +728,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_health__ge2024_con__r1",
       "entry_sha256": "966b209d29855643b3eb426a849a7f48d8bad9b5aeb979f2152d688f5e9f7d9e",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_health",
       "group_id": "ge2024_con",
       "counted": true,
@@ -745,7 +745,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_health__ge2024_lab__r1",
       "entry_sha256": "ccb01b3a134187c665b0d3b73644f8d3e0e159c13e7b79453bbc5f9b614d8292",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_health",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -762,7 +762,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_defence__overall__r1",
       "entry_sha256": "d9f25ba226b19d538f2e08a37faeed3622a9b0c2ea6e18341cf7b5f66e4942c6",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_defence",
       "group_id": "overall",
       "counted": true,
@@ -779,7 +779,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_defence__age_18_24__r1",
       "entry_sha256": "3d9e31e62c96a7d8795617c4443946d3b6a0a4cfb1493c061b6ba85a4da19703",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_defence",
       "group_id": "age_18_24",
       "counted": true,
@@ -796,7 +796,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_defence__age_65_plus__r1",
       "entry_sha256": "152b58052042c5a4d60f1ed30c2164f8dca5b9a7cc66dca2f67da0426417cd80",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_defence",
       "group_id": "age_65_plus",
       "counted": true,
@@ -813,7 +813,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_defence__ge2024_con__r1",
       "entry_sha256": "f2b354a2d9fa0be648a09a4a53d23e9496490c3418a13d1f37de4c351f2ea911",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_defence",
       "group_id": "ge2024_con",
       "counted": true,
@@ -830,7 +830,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__mii_defence__ge2024_lab__r1",
       "entry_sha256": "233e6a3b547e90bee25fe283064afa3747740c2f1f40d16a788d3c2ab1cef2a5",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "mii_defence",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -847,7 +847,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__government_approval__overall__r1",
       "entry_sha256": "a71554b49d729b0f52677e5ad797d554ea4619ae821a7ed60a6eeeea729df750",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "government_approval",
       "group_id": "overall",
       "counted": true,
@@ -865,7 +865,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__government_approval__age_18_24__r1",
       "entry_sha256": "c04bdb39a837e72167cd38843bf294c503d99b3148cbe4596e8d6e4d35912fa3",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "government_approval",
       "group_id": "age_18_24",
       "counted": true,
@@ -883,7 +883,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__government_approval__age_65_plus__r1",
       "entry_sha256": "41d9bc63843ed354ce488917a636ea8ff3068c00b8e241437fb57b03d549f241",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "government_approval",
       "group_id": "age_65_plus",
       "counted": true,
@@ -901,7 +901,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__government_approval__ge2024_con__r1",
       "entry_sha256": "8853d562bf07910b3dad10ca31fa10e3e38e0199cccba3655c0c6aa2e5b361b7",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "government_approval",
       "group_id": "ge2024_con",
       "counted": true,
@@ -919,7 +919,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__government_approval__ge2024_lab__r1",
       "entry_sha256": "b353db0eea48c050f8f7cd2c337f2e7f46ab155945bb0b62b70c3f2e7e89c6cb",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "government_approval",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -937,7 +937,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__westminster_vi__overall__r1",
       "entry_sha256": "2679c0561e76839f6f9d6c80dd0cbc35d907d4ea77087909800856590b27bc24",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -960,7 +960,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__westminster_vi__age_18_24__r1",
       "entry_sha256": "629df6dbaa432c9f17bfdafc3bb027af3c8c66c0143cd59f2abf80432fc860ca",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "age_18_24",
       "counted": true,
@@ -983,7 +983,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__westminster_vi__age_65_plus__r1",
       "entry_sha256": "c1a02ae059c79c216a0560f15b2a547fc19232b817140bfa67812c3ecbe6e118",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1006,7 +1006,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__westminster_vi__ge2024_con__r1",
       "entry_sha256": "a4b014e0bb1aba665565333ea79fa54044f585923dcab20a20bbb128a1a20da8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1029,7 +1029,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__westminster_vi__ge2024_lab__r1",
       "entry_sha256": "095d3f2e4805c29436a8182d241833ba6d93fbe77495f1a9fb523a12aea2f5f2",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1052,7 +1052,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_economy__overall__r1",
       "entry_sha256": "76fef4615766a1f77bb9b6938e5b89f8bb74c25495e9f156996e7a82aac7b5e5",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_economy",
       "group_id": "overall",
       "counted": true,
@@ -1069,7 +1069,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_economy__age_18_24__r1",
       "entry_sha256": "2cb7b047212f9987e877a0141829fb81de53f3504314114afea388688a65035a",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_economy",
       "group_id": "age_18_24",
       "counted": true,
@@ -1086,7 +1086,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_economy__age_65_plus__r1",
       "entry_sha256": "eb67d8bdb7e951f8de03340bef874f0d1b614796e22aabedcfc5e286ae708e45",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_economy",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1103,7 +1103,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_economy__ge2024_con__r1",
       "entry_sha256": "41fe4b9a743ee07b1b5077159253f4a731a0b0fd14f37107dc822ce923d0d3ad",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_economy",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1120,7 +1120,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_economy__ge2024_lab__r1",
       "entry_sha256": "7226dc8420c07cf7fbbd23913d9c94e929e7ac97206771d90e2dbae2ddde94e1",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_economy",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1137,7 +1137,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_immigration__overall__r1",
       "entry_sha256": "f824396dad4abb681be6ac8456ab19380de615f94c2f5d69386d55cff7b8cd49",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_immigration",
       "group_id": "overall",
       "counted": true,
@@ -1154,7 +1154,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_immigration__age_18_24__r1",
       "entry_sha256": "8c568b81b1030d174a6a7868d61cf88cf085522e5190cfaed5f500ae6d91e385",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_immigration",
       "group_id": "age_18_24",
       "counted": true,
@@ -1171,7 +1171,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_immigration__age_65_plus__r1",
       "entry_sha256": "8d646f263d38bbe54afc48bb4a377b1d3fbfcd08613ca18a112a0216eaad4286",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_immigration",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1188,7 +1188,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_immigration__ge2024_con__r1",
       "entry_sha256": "00edb1b2e8cdb3b5be64786931cc4a89f85ee4ac531b1854fde3a5ce656a4a4b",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_immigration",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1205,7 +1205,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_immigration__ge2024_lab__r1",
       "entry_sha256": "5f7df6688875a4c69b510285634614a70979f800591441f28ceb10cf3ddad6a0",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_immigration",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1222,7 +1222,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_health__overall__r1",
       "entry_sha256": "ec74430b5411bcdee7e3333d294bde2460efd75a32ce2a651edb9e4f22d2d8d5",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_health",
       "group_id": "overall",
       "counted": true,
@@ -1239,7 +1239,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_health__age_18_24__r1",
       "entry_sha256": "2ab3f8c1bb1835bac434a3b85520607778846a61b1eb135ce29fee4cb3744f71",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_health",
       "group_id": "age_18_24",
       "counted": true,
@@ -1256,7 +1256,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_health__age_65_plus__r1",
       "entry_sha256": "25d4c82ff5b36aee0c1f45529d1b058e2cc7e860c5be22d3beaf6b21095165e9",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_health",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1273,7 +1273,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_health__ge2024_con__r1",
       "entry_sha256": "439f60e84ffc7577a613851cd57c8be511cee12a184e67a0c92fb0335a2d934f",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_health",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1290,7 +1290,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_health__ge2024_lab__r1",
       "entry_sha256": "e9311247f9b9d5460728673f94ae4d35978b30378595a059cb71e53b6fd7e67d",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_health",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1307,7 +1307,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_defence__overall__r1",
       "entry_sha256": "33518d0b99b371e3ce46665fe65130a2c361c569f8062de5c81e2c8764a99c27",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_defence",
       "group_id": "overall",
       "counted": true,
@@ -1324,7 +1324,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_defence__age_18_24__r1",
       "entry_sha256": "b28b8b633a969911f56703a4e6404a235c76bd8364a876fe4b65ed09718381ad",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_defence",
       "group_id": "age_18_24",
       "counted": true,
@@ -1341,7 +1341,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_defence__age_65_plus__r1",
       "entry_sha256": "188b83f76130cdd75ea369be244834c800483b641ecac6d7ace90dcbd9fcd844",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_defence",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1358,7 +1358,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_defence__ge2024_con__r1",
       "entry_sha256": "bd1dc028fb0b67bba5d49b01c144de8334f6345edab69d61f5ee0abd3629dbc4",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_defence",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1375,7 +1375,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__anchored3__mii_defence__ge2024_lab__r1",
       "entry_sha256": "a2ce43822767761e93df32963ea7ff97b736600ef28bf222061ebc553b8e3f01",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "mii_defence",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1392,7 +1392,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__government_approval__overall__r1",
       "entry_sha256": "209a4fe52e2309a8b5d1341a5a8c2d5b9448ee81e7862d89cf28991510f1ae2c",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "government_approval",
       "group_id": "overall",
       "counted": true,
@@ -1410,7 +1410,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__government_approval__age_18_24__r1",
       "entry_sha256": "a8689db962bb0ba114b13d59a15112e533c32cf335c462fa583547f2f77f77d4",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "government_approval",
       "group_id": "age_18_24",
       "counted": true,
@@ -1428,7 +1428,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__government_approval__age_65_plus__r1",
       "entry_sha256": "f9069252d8b1db5025457c677df1cab7602e09d7cd4061e52a5efcae32d650cc",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "government_approval",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1446,7 +1446,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__government_approval__ge2024_con__r1",
       "entry_sha256": "2c459c0de157961c2b941469e3873c6fdd5d12b4a744e477855ae2b3567f8377",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "government_approval",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1464,7 +1464,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__government_approval__ge2024_lab__r1",
       "entry_sha256": "44eb06747df991c5e1a34d5e7db70df8edf7f85af732e723ebe8ffeadc333a30",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "government_approval",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1482,7 +1482,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__westminster_vi__overall__r1",
       "entry_sha256": "92b8ec575d7cf2fa86c3d531bf1e4921a413197803f3eedb7f1ce0924b194abe",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -1505,7 +1505,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__westminster_vi__age_18_24__r1",
       "entry_sha256": "16395723a1ea1c22fac71cbb51c6581977927d6210e729492236f5fb26800259",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "age_18_24",
       "counted": true,
@@ -1528,7 +1528,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__westminster_vi__age_65_plus__r1",
       "entry_sha256": "1dcad6fbe0df9bfb32e2ba938f9552036540328c5732f2c5f25e58de20ce3f07",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1551,7 +1551,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__westminster_vi__ge2024_con__r1",
       "entry_sha256": "be0f767081c044ef7aff609c0fd2e766029cd557f9650f8e87e50a29f85af0db",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1574,7 +1574,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__westminster_vi__ge2024_lab__r1",
       "entry_sha256": "bf57a832587de82923660d652275b738b10a0066656ed24f55d5120d4de78a34",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1597,7 +1597,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_economy__overall__r1",
       "entry_sha256": "3294c513045e3799ffab2ec4f835583bad45d1d8989f524d69badbb8418076af",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_economy",
       "group_id": "overall",
       "counted": true,
@@ -1614,7 +1614,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_economy__age_18_24__r1",
       "entry_sha256": "2254d12082c5f3765594a34c5d0c9b9cf70cb6be48dcb3d4b5fb76b4fe1a0736",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_economy",
       "group_id": "age_18_24",
       "counted": true,
@@ -1631,7 +1631,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_economy__age_65_plus__r1",
       "entry_sha256": "36c1885500aeb7afdedd66418e9c6f6adb55f47b8cf72fae8e316b0081daa82c",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_economy",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1648,7 +1648,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_economy__ge2024_con__r1",
       "entry_sha256": "a2d306c6a4c515eda5733d9bdacfb2a6235f09e99609e2785e24520b7b8b0d5c",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_economy",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1665,7 +1665,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_economy__ge2024_lab__r1",
       "entry_sha256": "5523305fb2b4ddd2cb8fd741d2c69b178b636c0ac493d4410ccb3dfe82b5b100",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_economy",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1682,7 +1682,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_immigration__overall__r1",
       "entry_sha256": "3e53cd61dbae37b13dd346d758c451802d11e1e2ff3f21b5d4f1a2dc9ae9d70a",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_immigration",
       "group_id": "overall",
       "counted": true,
@@ -1699,7 +1699,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_immigration__age_18_24__r1",
       "entry_sha256": "84fe0217ea4d8acfd7f10ffa49d38695f2252d0598442d4833e84c743b496c1f",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_immigration",
       "group_id": "age_18_24",
       "counted": true,
@@ -1716,7 +1716,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_immigration__age_65_plus__r1",
       "entry_sha256": "a493cd976b1b2392cef5203e1012a82e3ae84eafbdf75ee56208c3a3af00d586",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_immigration",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1733,7 +1733,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_immigration__ge2024_con__r1",
       "entry_sha256": "442bfa45a52205d885233ad5b6d77de6ee2f18225108452ce3bbaed66c168980",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_immigration",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1750,7 +1750,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_immigration__ge2024_lab__r1",
       "entry_sha256": "9a47087746f445cc48686b9c98cefb5cbde00c8876d36116925293ed1710398d",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_immigration",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1767,7 +1767,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_health__overall__r1",
       "entry_sha256": "881ed71360228bd2ec2dd132188a85dcbda104dc1bc045c2b7bb30f55b9f47a6",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_health",
       "group_id": "overall",
       "counted": true,
@@ -1784,7 +1784,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_health__age_18_24__r1",
       "entry_sha256": "cd4c6b3cc5b3365a82b5998dfea6a61453136f1db25d24f1ff1841f8ee860f0e",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_health",
       "group_id": "age_18_24",
       "counted": true,
@@ -1801,7 +1801,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_health__age_65_plus__r1",
       "entry_sha256": "a7df979de3f60447ec421b50f4428973b3df8b9d90c4724b345e95aca0b85c36",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_health",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1818,7 +1818,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_health__ge2024_con__r1",
       "entry_sha256": "07a5d0d9dcc4822dc19328c04ca56ffde2f59d686fe84c066422497b366e58dd",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_health",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1835,7 +1835,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_health__ge2024_lab__r1",
       "entry_sha256": "f754d6211d7525f50a051c7a645853e8295df0e0964856d6e31e89fe1c8141c4",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_health",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1852,7 +1852,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_defence__overall__r1",
       "entry_sha256": "976bb97ec23fc250aed1abe8e673a978e3e8b5cdd47b9c308ad382176b444d64",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_defence",
       "group_id": "overall",
       "counted": true,
@@ -1869,7 +1869,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_defence__age_18_24__r1",
       "entry_sha256": "f0e7c4c8021542578b06b94edfcf78f673068d7bb0a007b20b506e7a73ed1426",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_defence",
       "group_id": "age_18_24",
       "counted": true,
@@ -1886,7 +1886,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_defence__age_65_plus__r1",
       "entry_sha256": "13012dfdd6755e2a628df12c35165baf724ae68465b85fb7928a3e24e578d1fe",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_defence",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1903,7 +1903,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_defence__ge2024_con__r1",
       "entry_sha256": "0f2db34f843e7f319ad65331053e56e82451cbb9ac3947976324529c7f61f5cd",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_defence",
       "group_id": "ge2024_con",
       "counted": true,
@@ -1920,7 +1920,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__memory3__mii_defence__ge2024_lab__r1",
       "entry_sha256": "e00b107991ef12d4da815b0a6de7e0a20a9ca1b27298f048a36409e0276f64b9",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "mii_defence",
       "group_id": "ge2024_lab",
       "counted": true,
@@ -1937,7 +1937,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__government_approval__overall__r1",
       "entry_sha256": "16a093dd18d3ed0347498313b91b98452f6854f212b3e5b34035769fc42f740d",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "government_approval",
       "group_id": "overall",
       "counted": true,
@@ -1955,7 +1955,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__government_approval__overall__r1",
       "entry_sha256": "88bb92d2a379fc9c8e253cfc966680e63616b63a2310bd11ac7e141bbe2c89d9",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "government_approval",
       "group_id": "overall",
       "counted": true,
@@ -1973,7 +1973,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__government_approval__age_18_24__r1",
       "entry_sha256": "cf5aa2a06d6cf6311bcd660c3fec1075af016b737abce41dd77038b40ce3da74",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "government_approval",
       "group_id": "age_18_24",
       "counted": true,
@@ -1991,7 +1991,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__government_approval__age_18_24__r1",
       "entry_sha256": "621939d0504b2f7d0ff90b5da3f037adb8b551957d8c5e7cb36f9138faa67b6c",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "government_approval",
       "group_id": "age_18_24",
       "counted": true,
@@ -2009,7 +2009,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__government_approval__age_65_plus__r1",
       "entry_sha256": "2785f901a9d3874b2fc8315ff6a2d6987a835591017e80470bd97c6eb9d1e5e7",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "government_approval",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2027,7 +2027,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__government_approval__age_65_plus__r1",
       "entry_sha256": "5259055d606f7c5f7e0237744602301e189f71e03da3878cd32f0b9190382147",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "government_approval",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2045,7 +2045,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__westminster_vi__overall__r1",
       "entry_sha256": "dd2997549911cd1b2b8e47d23f336258902cacd5be97e3da3b20c198e822f2a2",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -2068,7 +2068,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__westminster_vi__overall__r1",
       "entry_sha256": "185447ef983d8d0b5fa10fa7ca1dfd029bc2351a0f2040a5ef7e5f715de626d1",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -2091,7 +2091,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__westminster_vi__age_18_24__r1",
       "entry_sha256": "aa70bbed57c84cc4efa8131fdf8d84f8deffbcd2cae4d1cec54a22bf4a43ab2b",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "westminster_vi",
       "group_id": "age_18_24",
       "counted": true,
@@ -2114,7 +2114,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__westminster_vi__age_18_24__r1",
       "entry_sha256": "85141221f5ac2d0cf9e7cc96a26d11250d7bc0a5085c9d1bd879c97afa54f384",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "westminster_vi",
       "group_id": "age_18_24",
       "counted": true,
@@ -2137,7 +2137,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__westminster_vi__age_65_plus__r1",
       "entry_sha256": "4587ec1510d5f3bf4ca5944a56265b786aca1fd5528815dbb3101eeb5f85afc1",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "westminster_vi",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2160,7 +2160,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__westminster_vi__age_65_plus__r1",
       "entry_sha256": "394a9d9e52a22aa63b13f5efcbaadcd9d41a363d0b05b929416ecdac7bc752cc",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "westminster_vi",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2183,7 +2183,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_economy__overall__r1",
       "entry_sha256": "73389381ebb5da8c338eb76b010510f04aa7d4b138bb6d24dcdef66a9edc70e5",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_economy",
       "group_id": "overall",
       "counted": true,
@@ -2200,7 +2200,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_economy__overall__r1",
       "entry_sha256": "df6cb7485e0d1c2032e3fd1ac7735729d57638667eb6c29afc31a73b435a80d6",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_economy",
       "group_id": "overall",
       "counted": true,
@@ -2217,7 +2217,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_economy__age_18_24__r1",
       "entry_sha256": "48388d1c8bdd4544faf6a84b2e9fce2f906251e8dfa37ee204f8986d5b44e310",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_economy",
       "group_id": "age_18_24",
       "counted": true,
@@ -2234,7 +2234,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_economy__age_18_24__r1",
       "entry_sha256": "1c6a1ec16a95566f294f9bd21fe47262a7e9bd3402455950bbf1384fbd5914cd",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_economy",
       "group_id": "age_18_24",
       "counted": true,
@@ -2251,7 +2251,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_economy__age_65_plus__r1",
       "entry_sha256": "912701f70fe556eff424dc72b7af8ab0a18295b999f80e46d0977f620f585e09",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_economy",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2268,7 +2268,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_economy__age_65_plus__r1",
       "entry_sha256": "d0f769cb7a113d0fb964f01426f8f348360b1412ae1fa9f38e8eef1662c33c06",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_economy",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2285,7 +2285,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_immigration__overall__r1",
       "entry_sha256": "318cffb71d6c8ebcbbfca30292a387409ba1228609b219880f58730f4e6f805f",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_immigration",
       "group_id": "overall",
       "counted": true,
@@ -2302,7 +2302,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_immigration__overall__r1",
       "entry_sha256": "8fd124ccb3c7357f39d4ab7fb9f217a0653d5de9ab933aaa9f0f9b143c2447b3",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_immigration",
       "group_id": "overall",
       "counted": true,
@@ -2319,7 +2319,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_immigration__age_18_24__r1",
       "entry_sha256": "6dc49e820628f8dadf2516a73335efb4a00925fc23a2800f0d940bd27efd35e5",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_immigration",
       "group_id": "age_18_24",
       "counted": true,
@@ -2336,7 +2336,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_immigration__age_18_24__r1",
       "entry_sha256": "14e24f4c357c9127945918f40dc63dd27cf558797d4c7b12ca7c2be18b3a1f04",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_immigration",
       "group_id": "age_18_24",
       "counted": true,
@@ -2353,7 +2353,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_immigration__age_65_plus__r1",
       "entry_sha256": "884df29d4451cc762c7e76dad2f5e1b41ce00fab847bfd280f40cdc746d84f6b",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_immigration",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2370,7 +2370,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_immigration__age_65_plus__r1",
       "entry_sha256": "df9acccfbeb7d697c6d5dfc09971f7d1ceaa575832edd8a82252b045dfb7ddab",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_immigration",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2387,7 +2387,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_health__overall__r1",
       "entry_sha256": "4fffaab7db7d2e1c938326c17707af9284c13945906abb60ce6e900d3c724ea3",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_health",
       "group_id": "overall",
       "counted": true,
@@ -2404,7 +2404,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_health__overall__r1",
       "entry_sha256": "5f18340fc4a66472cd8c8d00a6c1d15f86702f99246cdfe8f00ed4117d5c743f",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_health",
       "group_id": "overall",
       "counted": true,
@@ -2421,7 +2421,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_health__age_18_24__r1",
       "entry_sha256": "b91a2ae162db415f1be447e4e4085725d32b3defeb70e96a65870e8c8879851f",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_health",
       "group_id": "age_18_24",
       "counted": true,
@@ -2438,7 +2438,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_health__age_18_24__r1",
       "entry_sha256": "89d7e408626b4a66102c083a1b2584a5c13814526c4aec7253105870a15ad807",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_health",
       "group_id": "age_18_24",
       "counted": true,
@@ -2455,7 +2455,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_health__age_65_plus__r1",
       "entry_sha256": "8c71f00547d442d8cc11f4b053d0930a59277afdc5c5da629a5711b8a4a1e47c",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_health",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2472,7 +2472,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_health__age_65_plus__r1",
       "entry_sha256": "8d8497044c06c1dd9acc80650c5f972164858057726691259d653add381b7805",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_health",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2489,7 +2489,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_defence__overall__r1",
       "entry_sha256": "61c058b355933c6aac530cce0b3f1ae36a3da003eb8fd60deb0e32e87057f342",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_defence",
       "group_id": "overall",
       "counted": true,
@@ -2506,7 +2506,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_defence__overall__r1",
       "entry_sha256": "a41178d63bdb28e88a7e4dc2595c5b9a003f94fbed96ecea9d673d7a0a87c6fb",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_defence",
       "group_id": "overall",
       "counted": true,
@@ -2523,7 +2523,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_defence__age_18_24__r1",
       "entry_sha256": "97afd232295ae3936777b2790d431a7948f4e911b81ead8e7f27a15e7435e837",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_defence",
       "group_id": "age_18_24",
       "counted": true,
@@ -2540,7 +2540,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_defence__age_18_24__r1",
       "entry_sha256": "754d00430a95f2cf2854bef371124631376474e8211d43c1d50838960ad597a3",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_defence",
       "group_id": "age_18_24",
       "counted": true,
@@ -2557,7 +2557,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsS__mii_defence__age_65_plus__r1",
       "entry_sha256": "5b14707223c6e3598d130489c39d82652ecf94e7659f18bb0eedc14f0fbc4fe4",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "mii_defence",
       "group_id": "age_65_plus",
       "counted": true,
@@ -2574,7 +2574,7 @@
     {
       "entry_id": "gb-yougov-trackers-2026-11-01__cellsH__mii_defence__age_65_plus__r1",
       "entry_sha256": "8e4f17524d66d59d40701b73a471000e4dc460ad2ff14066fd69ee39fadaeb18",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "mii_defence",
       "group_id": "age_65_plus",
       "counted": true,

@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-verizon-consumer",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-verizon-consumer__feeling__overall__r1",
+      "entry_sha256": "e60a7b33f93678fad572c98172d37a271f6a7e45bf0f5bc43b86065c4e950a1d",
+      "seq": 2682,
+      "batch_id": "us-system1-xmas-2026-verizon-consumer__20261122T194954218666Z__s2682",
+      "locked_at": "2026-11-22T19:49:54Z"
+    }
+  ]
+}

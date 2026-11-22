@@ -43,27 +43,27 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 16,
       "tvd": 0.072525,
       "mae_pp": 3.626256
     },
-    "anchored3": {
+    "mosaic": {
       "items": 16,
       "tvd": 0.029886,
       "mae_pp": 1.494318
     },
-    "cellsS": {
+    "research-4": {
       "items": 16,
       "tvd": 0.086805,
       "mae_pp": 4.340272
     },
-    "cellsH": {
+    "research-5": {
       "items": 16,
       "tvd": 0.07686,
       "mae_pp": 3.843005
     },
-    "memory3": {
+    "research-2": {
       "items": 16,
       "tvd": 0.074232,
       "mae_pp": 3.711586
@@ -71,7 +71,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 4,
           "n_distribution": 4,
@@ -91,7 +91,7 @@
           "mae_pp": 3.626256
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 4,
           "n_distribution": 4,
@@ -111,7 +111,7 @@
           "mae_pp": 1.494318
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 4,
           "n_distribution": 4,
@@ -131,7 +131,7 @@
           "mae_pp": 3.843005
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 4,
           "n_distribution": 4,
@@ -151,7 +151,7 @@
           "mae_pp": 4.340272
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 4,
           "n_distribution": 4,
@@ -177,7 +177,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__overall__r1",
       "entry_sha256": "40af9f0c4aaacf9e58f35023be5db02117f782781d10bea3e5c76a1299487332",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_DR",
       "group_id": "overall",
       "counted": true,
@@ -196,7 +196,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__female__r1",
       "entry_sha256": "7fa0122c533711fc169a761e2ecf5f6ac1d420bc87b915beefe8fce0915670f7",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_DR",
       "group_id": "female",
       "counted": true,
@@ -215,7 +215,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__educ_hs_or_less__r1",
       "entry_sha256": "e8c341c5f6701c9cab0a36b87b96637405b16fe276aabdfd6a624c93581bcea5",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_DR",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -234,7 +234,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_DR__age_65_plus__r1",
       "entry_sha256": "c99c803f603c9d03d5c6a770adfd8fa9b5d680a21fb30a61eac3786321a457c2",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_DR",
       "group_id": "age_65_plus",
       "counted": true,
@@ -253,7 +253,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__overall__r1",
       "entry_sha256": "5b4c1d666e57b68d5cb467c7e69804b7170d5e45875c2f57e2e34a4a67424e7b",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "overall",
       "counted": true,
@@ -272,7 +272,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__female__r1",
       "entry_sha256": "a6c49daeec1b1ec3bd68eedc1ffc5cffa309b6a4e821613a0a0163ae6553c5d0",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "female",
       "counted": true,
@@ -291,7 +291,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__educ_hs_or_less__r1",
       "entry_sha256": "6114a295f5af438fd24fa874a42d385f86dfe8b70b58f2d40057fabb2b69ab54",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -310,7 +310,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_GOV__age_65_plus__r1",
       "entry_sha256": "c8d409425d157763c06259ceec95cd0eddfae1c6aa9c5fe4e4b1a916775e75ef",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "age_65_plus",
       "counted": true,
@@ -329,7 +329,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__overall__r1",
       "entry_sha256": "0777052dcba0fc88b47f0252b952f7424413a03a9cb793debbff3400171416d7",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "overall",
       "counted": true,
@@ -348,7 +348,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__female__r1",
       "entry_sha256": "9dd110e43c707cb74ca620adfc4d192a3fd99daaa975a4a14524bab0b89ef290",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "female",
       "counted": true,
@@ -367,7 +367,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__educ_hs_or_less__r1",
       "entry_sha256": "ca6ab57782836e8f80b3c48c4a910eafee8a2526cd10307583c8227bee366559",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -386,7 +386,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_SCI__age_65_plus__r1",
       "entry_sha256": "1887bf2d4eb822d70c0e1e4373dd2e75fce8d5c209c7d6a8503007485a03b917",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -405,7 +405,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__overall__r1",
       "entry_sha256": "311ce4f5018c9a5c56c18b5e5493a7c56c428db4133b31b9480e8a604f11ff36",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_AI",
       "group_id": "overall",
       "counted": true,
@@ -424,7 +424,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__female__r1",
       "entry_sha256": "f395e31f198d26af64860938ffa6079ffeeff4c880b956b4cd2f38efd3153b20",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_AI",
       "group_id": "female",
       "counted": true,
@@ -443,7 +443,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__educ_hs_or_less__r1",
       "entry_sha256": "48499e2e59ad64af75e2a36c547e99a938ead3c872137a91503be1acba3f88fe",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_AI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -462,7 +462,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__HLTHTRUST_AI__age_65_plus__r1",
       "entry_sha256": "9f7b7659764c3fbb75598f674a2f397fec45fdbc2f618452ec7b783b8882db4f",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "HLTHTRUST_AI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -481,7 +481,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__overall__r1",
       "entry_sha256": "09cf3cf6aee55894d9efc13610ca8ed089f429d618b334df06bfb83a723426e5",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_DR",
       "group_id": "overall",
       "counted": true,
@@ -500,7 +500,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__female__r1",
       "entry_sha256": "92da4a60e63d21eedbd281fd26e749b31ac104c06eeaeb4030644686ef00879f",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_DR",
       "group_id": "female",
       "counted": true,
@@ -519,7 +519,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__educ_hs_or_less__r1",
       "entry_sha256": "c82578ae12151465f802b5ecb625aa3c4db5c9b5949c62798263862198749f77",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_DR",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -538,7 +538,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_DR__age_65_plus__r1",
       "entry_sha256": "5b0423cf0a6d5d9f065930647cdad2dcc45004a00a7c8bb159dd0c1079e88fc2",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_DR",
       "group_id": "age_65_plus",
       "counted": true,
@@ -557,7 +557,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__overall__r1",
       "entry_sha256": "687c33c579cb5e62bf0f8103727a0bc259ebc5c37b325438c57a49a3207486bc",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "overall",
       "counted": true,
@@ -576,7 +576,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__female__r1",
       "entry_sha256": "a0f0b80de1b7e519352e0dab34077e4068e50880a7874a54db51bdac82f6b4d8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "female",
       "counted": true,
@@ -595,7 +595,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__educ_hs_or_less__r1",
       "entry_sha256": "0f4360983780a49864113536e5711b97d725cf660752809f25179d07525f3607",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -614,7 +614,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_GOV__age_65_plus__r1",
       "entry_sha256": "9467a6ec02ff9c9e398b6988c9503c742aa77f3f3a9ece742f70579054ed8a60",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "age_65_plus",
       "counted": true,
@@ -633,7 +633,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__overall__r1",
       "entry_sha256": "78dca0fe380f59baf10732360d625c59423552f28e86da45fadd72c5f3490838",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "overall",
       "counted": true,
@@ -652,7 +652,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__female__r1",
       "entry_sha256": "32da6d1face68f979ac721d61b2ff4f4251c28baefef0b1c126c5e802287d3be",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "female",
       "counted": true,
@@ -671,7 +671,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__educ_hs_or_less__r1",
       "entry_sha256": "d0a2ab0bdb709ed1b127ebebc179e91316d6480d81a6fe5f2379aa171e03dfae",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -690,7 +690,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_SCI__age_65_plus__r1",
       "entry_sha256": "c9222f3bfecff235c2155b408a254e1f355e4cb07a687634fc2b0a9b7eaccbe4",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -709,7 +709,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__overall__r1",
       "entry_sha256": "080347ab77e70de9775fec6a36cd424de4725b4fe41f27954d3b60708ea6e8e7",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_AI",
       "group_id": "overall",
       "counted": true,
@@ -728,7 +728,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__female__r1",
       "entry_sha256": "e028646d13859828f778f180b716b1feb9f318aeddf106cbae7f4a7eb7a1607f",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_AI",
       "group_id": "female",
       "counted": true,
@@ -747,7 +747,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__educ_hs_or_less__r1",
       "entry_sha256": "90ef191d97dd1f78892218fc93974cd9e4433eb136b9c566f7aa330edc5a531b",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_AI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -766,7 +766,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__anchored3__HLTHTRUST_AI__age_65_plus__r1",
       "entry_sha256": "5881ab33f2f9949b5e0613e7a6a90f8a438a8bfd7d7d83ef72525090b4f4567a",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "HLTHTRUST_AI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -785,7 +785,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__overall__r1",
       "entry_sha256": "aed0842dc924d2c550f64e8e84020c89ef7252d2ef67fad2d00840280bd62ee1",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_DR",
       "group_id": "overall",
       "counted": true,
@@ -804,7 +804,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__overall__r1",
       "entry_sha256": "2f61142da5b0fe80fac4e9e5411b482c41c62f72fdcb800b739c563d152599d5",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_DR",
       "group_id": "overall",
       "counted": true,
@@ -823,7 +823,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__female__r1",
       "entry_sha256": "fce09589fadacc556444096547c49cf0f48151edd96a72650099de4f59fc3478",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_DR",
       "group_id": "female",
       "counted": true,
@@ -842,7 +842,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__female__r1",
       "entry_sha256": "97f9169320ddc5124360bb0e04710820283f20a316dd04cc005108f03a4fe9b6",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_DR",
       "group_id": "female",
       "counted": true,
@@ -861,7 +861,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__educ_hs_or_less__r1",
       "entry_sha256": "329a26faa3befd7c79fed347da0315c0b6e7314792937069f046c7fde684047a",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_DR",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -880,7 +880,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__educ_hs_or_less__r1",
       "entry_sha256": "8e00830b8800f3c635797af1e4e19589895750f3d20ad86b5ac446540206e184",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_DR",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -899,7 +899,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_DR__age_65_plus__r1",
       "entry_sha256": "1d47849dfe656958f0e5bf7a25e0c30172801834f23224bfbabed2966addf68f",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_DR",
       "group_id": "age_65_plus",
       "counted": true,
@@ -918,7 +918,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_DR__age_65_plus__r1",
       "entry_sha256": "86fad1bd17e2c11d6b09eb83ca9008e2ec6ae2f7e4a6a08fd53a66883b02ff32",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_DR",
       "group_id": "age_65_plus",
       "counted": true,
@@ -937,7 +937,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__overall__r1",
       "entry_sha256": "7cf7f5f7278ed2c8533819f968f09f3580d177eda269d18f573b06f4f93d210e",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "overall",
       "counted": true,
@@ -956,7 +956,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__overall__r1",
       "entry_sha256": "798659f6d883eb9ef6aec79af851356251122de63995038d72ac6b30c565edf0",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "overall",
       "counted": true,
@@ -975,7 +975,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__female__r1",
       "entry_sha256": "a50311fa091e12a298923d4b9881169470b0f500472423963366e470c7df30b9",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "female",
       "counted": true,
@@ -994,7 +994,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__female__r1",
       "entry_sha256": "98b76047f9d349121d50f32d829e2f66a74f90e00fa6d360ff861f2f6c0c4bae",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "female",
       "counted": true,
@@ -1013,7 +1013,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__educ_hs_or_less__r1",
       "entry_sha256": "8cd2b8782481de963400d823ba63efa583165302ce248def1a81a3e061a96898",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1032,7 +1032,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__educ_hs_or_less__r1",
       "entry_sha256": "7ab3035f299d01589c1024604fa29e03c14b65293e60729ae0a91441d8e94203",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1051,7 +1051,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_GOV__age_65_plus__r1",
       "entry_sha256": "828059ac87e38cdc91f79de214b400b83d6f0abf64d84fc6779186e03cac31fa",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1070,7 +1070,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_GOV__age_65_plus__r1",
       "entry_sha256": "f3853f000d13fc4421e1b1049c417f4e34401c711a624e70705c667521d1a490",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1089,7 +1089,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__overall__r1",
       "entry_sha256": "a52ad18a565c31caae9c70eb60e6900671d9fc4a27eeeb1599194673c7c6af5a",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "overall",
       "counted": true,
@@ -1108,7 +1108,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__overall__r1",
       "entry_sha256": "85f61e0301a4b981c4ab7ff064c0c6da04f0102a9e48747cc1aff2741850c096",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "overall",
       "counted": true,
@@ -1127,7 +1127,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__female__r1",
       "entry_sha256": "27631da85a2cc7d5b64f90936615b1ab02e3c992cb5a8189f6cfec3f2c36a36a",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "female",
       "counted": true,
@@ -1146,7 +1146,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__female__r1",
       "entry_sha256": "dbec8ea378ac7498abcf46c0f777c532ef3870d5290a9bd620046742f5e1db4a",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "female",
       "counted": true,
@@ -1165,7 +1165,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__educ_hs_or_less__r1",
       "entry_sha256": "ef4bc843c0bfdfa76fb2a5d8dd50b1a59d3f7361a83340b314e0e7e8eb5e85e3",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1184,7 +1184,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__educ_hs_or_less__r1",
       "entry_sha256": "a556e3815425f956808b2833b1ebac7c395ebcfc049c5453f3f588f866a36dfd",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1203,7 +1203,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_SCI__age_65_plus__r1",
       "entry_sha256": "47c04e016133df0d08b1ab8455eabc8448f63457748b3c9c02302177ba9b0228",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1222,7 +1222,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_SCI__age_65_plus__r1",
       "entry_sha256": "ebaebf9799ad4b44ca8b9acb8ee5ed2a1a3fa9f2b1c2d888739aeb77a2719c4a",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1241,7 +1241,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__overall__r1",
       "entry_sha256": "481b25b123a2f79acc632ed5170dc0957bd140602596b295f2b34d855aed2848",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_AI",
       "group_id": "overall",
       "counted": true,
@@ -1260,7 +1260,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__overall__r1",
       "entry_sha256": "12371eddda4e8754e8188b0af961f3eee828417af50afd40e89f02a751c2275d",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_AI",
       "group_id": "overall",
       "counted": true,
@@ -1279,7 +1279,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__female__r1",
       "entry_sha256": "20aa3507d7c237a2e4b3210af09fdd884f6553e3e9bedffe9e5085e2dca2b457",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_AI",
       "group_id": "female",
       "counted": true,
@@ -1298,7 +1298,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__female__r1",
       "entry_sha256": "67e9a1eac28b0acf05fe7719f0e2dbfe730c4d1a55ad0b826612a0ea91a6ccb3",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_AI",
       "group_id": "female",
       "counted": true,
@@ -1317,7 +1317,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__educ_hs_or_less__r1",
       "entry_sha256": "784d8c402bfa3a81c8e52d4f9243ceda55c39f2335305d9a04ae4662e7893050",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_AI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1336,7 +1336,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__educ_hs_or_less__r1",
       "entry_sha256": "5223daf9dc6e25338165bdba2712ad411f024de4277ded0f312a269558f8be8e",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_AI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1355,7 +1355,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsS__HLTHTRUST_AI__age_65_plus__r1",
       "entry_sha256": "1e2a797d98324ddea0975ecb4183cd4370057d4b18a84dbea309f1cbf0ebc73e",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "HLTHTRUST_AI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1374,7 +1374,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__cellsH__HLTHTRUST_AI__age_65_plus__r1",
       "entry_sha256": "d0c440ec7a9151a0cd0b6a4717ffd82b60daac5dc8b6603734e67afcf8cb05f1",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "HLTHTRUST_AI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1393,7 +1393,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__overall__r1",
       "entry_sha256": "66747aeb040947e66d49f0137a9dfccf1e804b8fe591769b5642cda0a548b5bb",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_DR",
       "group_id": "overall",
       "counted": true,
@@ -1412,7 +1412,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__female__r1",
       "entry_sha256": "3d79d493d32e64f99556e4581c5acc2496699d637041e0c56331e337a79e8909",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_DR",
       "group_id": "female",
       "counted": true,
@@ -1431,7 +1431,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__educ_hs_or_less__r1",
       "entry_sha256": "20d1ce049a6bd188ba48c5b188d32dae3b154a8bb3126d6fc1af16f5e351e20a",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_DR",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1450,7 +1450,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_DR__age_65_plus__r1",
       "entry_sha256": "864592c01b149519486dedc28506c8246f853ff2a82e1328ffe1ff7a32f76859",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_DR",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1469,7 +1469,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__overall__r1",
       "entry_sha256": "f60995a6e18134ab4a3cd1bbced9839d94ac2d48f2681df5bae3f11fd48e14d4",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "overall",
       "counted": true,
@@ -1488,7 +1488,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__female__r1",
       "entry_sha256": "6989fe64d3bb35b2bc296e5dd5ecb0a4d1f61ad0b17fbbe18d917b07cc24d48f",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "female",
       "counted": true,
@@ -1507,7 +1507,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__educ_hs_or_less__r1",
       "entry_sha256": "db973b3abff6d54e5870fb7ce9a9ff4b7b7df6e2d7c99f92a2baf51c001b4048",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1526,7 +1526,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_GOV__age_65_plus__r1",
       "entry_sha256": "1db7a3f973bd389d6c0592e82bfdd2cdc67ab38c6f1e83c72c1cf284cfa8679b",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_GOV",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1545,7 +1545,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__overall__r1",
       "entry_sha256": "80425281bc256ff857ffb96f0b7cb3c44a7915c56c0a885c2dc8062a4a154a1e",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "overall",
       "counted": true,
@@ -1564,7 +1564,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__female__r1",
       "entry_sha256": "c804694b5ce87fc7a12fb09ff1fad9640dddcdcf3ddce90396fb8dcc248d5f05",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "female",
       "counted": true,
@@ -1583,7 +1583,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__educ_hs_or_less__r1",
       "entry_sha256": "9058de53fc390fcf118c3eea8f20bc512a635ffb6affb44af8aadd0ccb575538",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1602,7 +1602,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_SCI__age_65_plus__r1",
       "entry_sha256": "1e01b4fe26f74b5565c64c93450071095c4603b15fd215e8201307d470e21da1",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_SCI",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1621,7 +1621,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__overall__r1",
       "entry_sha256": "9e587a684a79f75c6bf902bd429fd979493c949cdff63504a873992fc200e57b",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_AI",
       "group_id": "overall",
       "counted": true,
@@ -1640,7 +1640,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__female__r1",
       "entry_sha256": "4d0f5c1a534980b7008af1293558eaaa02c76cd8ee98986c944b56029887c0e5",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_AI",
       "group_id": "female",
       "counted": true,
@@ -1659,7 +1659,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__educ_hs_or_less__r1",
       "entry_sha256": "8777dbfab47825caf3cdf8cc54489a9bcad8cf366d57808b0e4e8cbceb804064",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_AI",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1678,7 +1678,7 @@
     {
       "entry_id": "us-census-htops-2609-healthinfo__memory3__HLTHTRUST_AI__age_65_plus__r1",
       "entry_sha256": "fc39345d913b506dec0b39d29cdbc3d4556a34f84b95a1c7501ebb715236af54",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "HLTHTRUST_AI",
       "group_id": "age_65_plus",
       "counted": true,

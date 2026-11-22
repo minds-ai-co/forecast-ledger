@@ -35,37 +35,37 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.0675,
       "mae_pp": 1.928571
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.011,
       "mae_pp": 0.314286
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.065,
       "mae_pp": 1.857143
     },
-    "bank3": {
+    "research-4e71fe": {
       "items": 1,
       "tvd": 0.07,
       "mae_pp": 2.0
     },
-    "bankR3": {
+    "research-d5b88a": {
       "items": 1,
       "tvd": 0.07,
       "mae_pp": 2.0
     },
-    "cohort": {
+    "research-16accd": {
       "items": 1,
       "tvd": 0.08,
       "mae_pp": 2.285714
     },
-    "xpub3": {
+    "research-6": {
       "items": 1,
       "tvd": 0.02,
       "mae_pp": 0.571429
@@ -73,7 +73,7 @@
   },
   "summary_by_evidence_type": {
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -88,7 +88,7 @@
           "mae_pp": 1.928571
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -103,7 +103,7 @@
           "mae_pp": 0.314286
         }
       },
-      "bank3": {
+      "research-4e71fe": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -118,7 +118,7 @@
           "mae_pp": 2.0
         }
       },
-      "bankR3": {
+      "research-d5b88a": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -133,7 +133,7 @@
           "mae_pp": 2.0
         }
       },
-      "cohort": {
+      "research-16accd": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -148,7 +148,7 @@
           "mae_pp": 2.285714
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -163,7 +163,7 @@
           "mae_pp": 1.857143
         }
       },
-      "xpub3": {
+      "research-6": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -184,7 +184,7 @@
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__sonntagsfrage__overall__r1",
       "entry_sha256": "ddde6167f134aab9d0aad7e4aff4aadbc830669cc1cb2f64330257551cc54d7e",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -206,7 +206,7 @@
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__anchored3__sonntagsfrage__overall__r1",
       "entry_sha256": "56930ba27b14b94cbe280b15c8f073f8797a5f9d784ad355af6d35e81a37a827",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -228,7 +228,7 @@
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__memory3__sonntagsfrage__overall__r1",
       "entry_sha256": "c7f326ba7ae44bbb3cabd8e07bdf89f6c5f5ba7d01bd64c089f2ba75d659cbb6",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -250,7 +250,7 @@
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__bank3__sonntagsfrage__overall__r1",
       "entry_sha256": "c44a628f88a31dc6462b081e7ca223d4df00c76b8ff7cba0be10dc2400254174",
-      "variant": "bank3",
+      "variant": "research-4e71fe",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -272,7 +272,7 @@
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__bankR3__sonntagsfrage__overall__r1",
       "entry_sha256": "ff054840d89244eecca4deb140135976a7f3e1c03bef9148b2c823a6bd8d7fbe",
-      "variant": "bankR3",
+      "variant": "research-d5b88a",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -294,7 +294,7 @@
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__cohort__sonntagsfrage__overall__r1",
       "entry_sha256": "7e3100d0922abdcf36c699b53216654417211227fa26fb3016b7c765f23ec32d",
-      "variant": "cohort",
+      "variant": "research-16accd",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -316,7 +316,7 @@
     {
       "entry_id": "de-forsa-trendbarometer-2026-11-10__xpub3__sonntagsfrage__overall__r1",
       "entry_sha256": "7ffb1b6fb5c551310600330c9c3b4c3d741c00137cb83eeecaef3351ac7f06d4",
-      "variant": "xpub3",
+      "variant": "research-6",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,

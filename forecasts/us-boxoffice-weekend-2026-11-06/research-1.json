@@ -1,0 +1,65 @@
+{
+  "target_id": "us-boxoffice-weekend-2026-11-06",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__weekend_gross_share__overall__r1",
+      "entry_sha256": "f2764d33a1af4327cec981f3deb43da6c761e6be97eaef2cba285fd0704d4661",
+      "seq": 2375,
+      "batch_id": "us-boxoffice-weekend-2026-11-06__20261103T061634007268Z__s2375",
+      "locked_at": "2026-11-03T06:16:34Z",
+      "state": "scored",
+      "question": {
+        "id": "weekend_gross_share",
+        "text": "Which film did this dollar of US and Canada box office on the weekend of Friday 6 to Sunday 8 November 2026 go to? (Share of the weekend gross of all films as reported by Box Office Mojo; films not listed count as the last option.)",
+        "type": "categorical",
+        "options": [
+          "The Cat in the Hat",
+          "Godzilla Minus Zero",
+          "Ramayana: Rise of A Legend",
+          "Wild Horse Nine",
+          "Drummer Boy",
+          "You Can See Everything",
+          "Clayface",
+          "Wildwood",
+          "Wicker",
+          "Street Fighter",
+          "Resident Evil",
+          "Other Mommy",
+          "The Only Living Pickpocket in New York",
+          "All other films"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.36,
+        0.2,
+        0.0475,
+        0.0285,
+        0.013999999999999999,
+        0.0075,
+        0.0675,
+        0.0325,
+        0.015,
+        0.046,
+        0.026,
+        0.018,
+        0.0075,
+        0.13
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

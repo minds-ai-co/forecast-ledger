@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-chewy-4-consumer",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-chewy-4-consumer__feeling__overall__r1",
+      "entry_sha256": "77661d8c601bd99f8b844b0fdd22af2255e908cbdac3253067544dde0e398dfd",
+      "seq": 2690,
+      "batch_id": "us-system1-xmas-2026-chewy-4-consumer__20261122T200158094605Z__s2690",
+      "locked_at": "2026-11-22T20:01:58Z"
+    }
+  ]
+}

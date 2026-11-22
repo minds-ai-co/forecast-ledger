@@ -21,17 +21,17 @@
     "credit": "Source: NPR/PBS News/Marist Poll, interviews October 19–20, 2026, 1,289 national registered voters. Reproduced with attribution under the Marist Poll Terms of Use, section 3. Selected question and audience shares normalised and rounded by Minds; full methods and sampling details are in the linked release."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 2,
       "tvd": 0.06375,
       "mae_pp": 2.75
     },
-    "anchored3": {
+    "mosaic": {
       "items": 2,
       "tvd": 0.025,
       "mae_pp": 1.025
     },
-    "memory3": {
+    "research-2": {
       "items": 2,
       "tvd": 0.0625,
       "mae_pp": 2.6875
@@ -39,7 +39,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -54,7 +54,7 @@
           "mae_pp": 3.5
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -69,7 +69,7 @@
           "mae_pp": 1.8
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -86,7 +86,7 @@
       }
     },
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -101,7 +101,7 @@
           "mae_pp": 2.0
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -116,7 +116,7 @@
           "mae_pp": 0.25
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -137,7 +137,7 @@
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__trump_job_approval__overall__r1",
       "entry_sha256": "c595fce22bece9c8f653d8061fe03cb787c48317b0a8aa09e33e15d83f95835c",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -157,7 +157,7 @@
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__congress_ballot__overall__r1",
       "entry_sha256": "6fa37802ea40670f0660f384c087b0911ded7963000a4eb69a2cb9e42c85dd34",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "congress_ballot",
       "group_id": "overall",
       "counted": true,
@@ -176,7 +176,7 @@
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__anchored3__trump_job_approval__overall__r1",
       "entry_sha256": "0e0bd8a4dfdf770c3e4b661e4720002e8d32b1823d770525c7821ef4c71c10e2",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -196,7 +196,7 @@
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__anchored3__congress_ballot__overall__r1",
       "entry_sha256": "f28b0dda8a56381ba9bc299ba0703d72b99c11c2ea76a41993452756a7547372",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "congress_ballot",
       "group_id": "overall",
       "counted": true,
@@ -215,7 +215,7 @@
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__memory3__trump_job_approval__overall__r1",
       "entry_sha256": "0e73c1be48f26d084a8e85deedeeb2781ca5b7415eaaa1de7c132fd2a78b02ca",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -235,7 +235,7 @@
     {
       "entry_id": "us-npr-pbs-marist-2026-10-26__memory3__congress_ballot__overall__r1",
       "entry_sha256": "1a859814d478b6e19695c6990a4bb8b600b62954ea75ad3a9c58e1e4a5e70718",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "congress_ballot",
       "group_id": "overall",
       "counted": true,

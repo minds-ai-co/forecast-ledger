@@ -1,0 +1,45 @@
+{
+  "target_id": "us-voter-poll-ssrs-2026",
+  "variant": "research-6",
+  "variant_label": "Additional research forecast 6",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__xpub3__trump_approval__overall__r1",
+      "entry_sha256": "91352abd530ba7a182e2103970437bcdefdcda64d7ba4d01b91ebf88001c9b73",
+      "seq": 2187,
+      "batch_id": "us-voter-poll-ssrs-2026__xpub3__20261101T225542033346Z__s2187",
+      "locked_at": "2026-11-01T22:55:42Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_approval",
+        "text": "How do you feel about the way Donald Trump is handling his job as president?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.2575,
+        0.1575,
+        0.12,
+        0.46499999999999997
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

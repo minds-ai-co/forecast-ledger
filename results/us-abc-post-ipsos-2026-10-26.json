@@ -19,7 +19,7 @@
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__trump_job_approval__overall__r1",
       "entry_sha256": "b088cfcc2a2f6861ad18e88ee720f9ed4c7ff9cb759c9ccd0ea2a8dc7512684c",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -30,7 +30,7 @@
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__direction__overall__r1",
       "entry_sha256": "2dd0eb6d0dd2e10061d6e8b2323362ee01d670732176dbd7399246a227fd8df9",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "direction",
       "group_id": "overall",
       "counted": true,
@@ -41,7 +41,7 @@
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__anchored3__trump_job_approval__overall__r1",
       "entry_sha256": "1fd0b3194af0b12383480940cde7313a7364f721d3b91cbf3e642ebe92d6b5d8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -52,7 +52,7 @@
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__anchored3__direction__overall__r1",
       "entry_sha256": "dea596423f51ca444fdf174c5300fc19c8de3d78a7c03981a371851fb6e7051e",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "direction",
       "group_id": "overall",
       "counted": true,
@@ -63,7 +63,7 @@
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__memory3__trump_job_approval__overall__r1",
       "entry_sha256": "52b74460c9ad9c22e1ca1293b9078e8d04add541e682381fb3f3ffd713d00e94",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -74,7 +74,7 @@
     {
       "entry_id": "us-abc-post-ipsos-2026-10-26__memory3__direction__overall__r1",
       "entry_sha256": "9dc14bc9fb38886cc0f481a6c9d748dc741145a05a048d84ce16307155a2bc61",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "direction",
       "group_id": "overall",
       "counted": true,

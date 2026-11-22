@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-lego-consumer",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-lego-consumer__feeling__overall__r1",
+      "entry_sha256": "c178eba71500789f77b8134769179bcb93b88083f829ca98bf66aecb0b79c5a3",
+      "seq": 2671,
+      "batch_id": "gb-system1-xmas-2026-lego-consumer__20261122T194220139782Z__s2671",
+      "locked_at": "2026-11-22T19:42:20Z"
+    }
+  ]
+}

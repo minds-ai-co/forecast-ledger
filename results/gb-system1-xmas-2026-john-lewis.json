@@ -27,12 +27,12 @@
     "credit": "Source: System1 Test Your Ad, John Lewis “Gloria and Pickles”, as reported by Advanced Television on 4 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.9075,
       "mae_pp": 20.166667
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.875,
       "mae_pp": 19.444444
@@ -40,7 +40,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -65,7 +65,7 @@
           }
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -96,7 +96,7 @@
     {
       "entry_id": "gb-system1-xmas-2026-john-lewis__star_rating__overall__r1",
       "entry_sha256": "b097f9e1392bb3c01555d9437efcaf61e49a60a82c5dfe76c1ff18481c7935ec",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "star_rating",
       "group_id": "overall",
       "counted": true,
@@ -127,7 +127,7 @@
     {
       "entry_id": "gb-system1-xmas-2026-john-lewis__anchored3__star_rating__overall__r1",
       "entry_sha256": "5606427abc1d09d5e692bfaafe291e93c9db90088f3a171cdbc1c139b78ba833",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "star_rating",
       "group_id": "overall",
       "counted": true,

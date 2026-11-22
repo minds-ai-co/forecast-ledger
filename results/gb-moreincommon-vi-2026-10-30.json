@@ -25,27 +25,27 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 2,
       "tvd": 0.083986,
       "mae_pp": 2.59867
     },
-    "anchored3": {
+    "mosaic": {
       "items": 2,
       "tvd": 0.025173,
       "mae_pp": 0.681953
     },
-    "cellsS": {
+    "research-4": {
       "items": 2,
       "tvd": 0.084889,
       "mae_pp": 2.51718
     },
-    "cellsH": {
+    "research-5": {
       "items": 2,
       "tvd": 0.078701,
       "mae_pp": 2.430445
     },
-    "memory3": {
+    "research-2": {
       "items": 2,
       "tvd": 0.079986,
       "mae_pp": 2.454226
@@ -53,7 +53,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -68,7 +68,7 @@
           "mae_pp": 4.393903
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -83,7 +83,7 @@
           "mae_pp": 0.735367
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -98,7 +98,7 @@
           "mae_pp": 4.089221
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -113,7 +113,7 @@
           "mae_pp": 3.78454
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -130,7 +130,7 @@
       }
     },
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -145,7 +145,7 @@
           "mae_pp": 0.803438
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -160,7 +160,7 @@
           "mae_pp": 0.62854
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -175,7 +175,7 @@
           "mae_pp": 0.771668
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -190,7 +190,7 @@
           "mae_pp": 1.249819
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -211,7 +211,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__westminster_vi__overall__r1",
       "entry_sha256": "21538feb7775cc4dfc6b6b0563687a589a79011c16597435c77e4046e7581a54",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -235,7 +235,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__burnham_good_job__overall__r1",
       "entry_sha256": "acfdb84e1f6e1fe32886dc3605c09ff536f1ae7b64c39a07af890c792751c615",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "burnham_good_job",
       "group_id": "overall",
       "counted": true,
@@ -256,7 +256,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__anchored3__westminster_vi__overall__r1",
       "entry_sha256": "21967038e762c1ab6728ff1adfc7f6fb70a1d7c2507f8608434e8609905f2a24",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -280,7 +280,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__anchored3__burnham_good_job__overall__r1",
       "entry_sha256": "24979f36e7667bea0c5e2dfbfbd8efd89c63380c18753e8e107564183460f9d5",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "burnham_good_job",
       "group_id": "overall",
       "counted": true,
@@ -301,7 +301,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__cellsS__westminster_vi__overall__r1",
       "entry_sha256": "8bbed9c16796bc84bef22ab81d0c804f258e736a1fe96b42e94befd0b9362aae",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -325,7 +325,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__westminster_vi__overall__r1",
       "entry_sha256": "9d70754150882de03b2701f64b17fabb2fe1af4b5594e443e9fe4f7e57f64312",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -349,7 +349,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__cellsS__burnham_good_job__overall__r1",
       "entry_sha256": "cda43e432a67339e4230495f33d94e4f389f421340f558317ca1f6e40eff683b",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "burnham_good_job",
       "group_id": "overall",
       "counted": true,
@@ -370,7 +370,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__burnham_good_job__overall__r1",
       "entry_sha256": "1de07d923c070d9704259e73044bd71f09a32fe0dad26b5bcd8b3354840f4dc3",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "burnham_good_job",
       "group_id": "overall",
       "counted": true,
@@ -391,7 +391,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__memory3__westminster_vi__overall__r1",
       "entry_sha256": "ff2ca6b14c543268d87ff0b4151303915b229ea07430196211a59bb14c5c9731",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -415,7 +415,7 @@
     {
       "entry_id": "gb-moreincommon-vi-2026-10-30__memory3__burnham_good_job__overall__r1",
       "entry_sha256": "a9d7c569f74aef88927e1416c28efafe0289bc94e8d19a615b2d8880a53af4cd",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "burnham_good_job",
       "group_id": "overall",
       "counted": true,

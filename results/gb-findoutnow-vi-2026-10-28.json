@@ -30,17 +30,17 @@
     "credit": "Source: Find Out Now, October 2026 voting-intention poll. Selected published party shares reported for journalistic comparison; normalised over the listed options and rounded for display."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 2,
       "tvd": 0.076881,
       "mae_pp": 2.687778
     },
-    "anchored3": {
+    "mosaic": {
       "items": 2,
       "tvd": 0.019721,
       "mae_pp": 0.580784
     },
-    "memory3": {
+    "research-2": {
       "items": 2,
       "tvd": 0.079631,
       "mae_pp": 2.801528
@@ -48,7 +48,7 @@
   },
   "summary_by_evidence_type": {
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -63,7 +63,7 @@
           "mae_pp": 2.687778
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -78,7 +78,7 @@
           "mae_pp": 0.580784
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -99,7 +99,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-10-28__westminster_vi__overall__r1",
       "entry_sha256": "f5b6a2d0d499dbfbc547ab7df90b58a0f1525bf53261a643c74b6e16e20b7a57",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -122,7 +122,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-10-28__likelihood_to_vote__overall__r1",
       "entry_sha256": "6c58ae048e2b6b59f8571939ea0888427f8084a5358e5e863ea22aad0c419dfe",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,
@@ -142,7 +142,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-10-28__anchored3__westminster_vi__overall__r1",
       "entry_sha256": "8683eebed6e58af05557b19882d242b7cdcb3e08fec1ce9ac29c2b81ed3d2aba",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -165,7 +165,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-10-28__anchored3__likelihood_to_vote__overall__r1",
       "entry_sha256": "4a4a8bab8b5389aecdc89ec78643d136525bfeaf82e20cc9b561f1c4f4c75d51",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,
@@ -185,7 +185,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-10-28__memory3__westminster_vi__overall__r1",
       "entry_sha256": "362c4683bda1ca31970928a4887f20c99dd09ef7e3e4a0078d2bdb2b47dba8ac",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -208,7 +208,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-10-28__memory3__likelihood_to_vote__overall__r1",
       "entry_sha256": "839e53a4deafec2e6789582cec308997244f68cba4acdb41c828b0d5c77e2f95",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,

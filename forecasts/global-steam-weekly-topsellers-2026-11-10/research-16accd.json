@@ -1,0 +1,67 @@
+{
+  "target_id": "global-steam-weekly-topsellers-2026-11-10",
+  "variant": "research-16accd",
+  "variant_label": "Additional research forecast 16accd",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "global-steam-weekly-topsellers-2026-11-10__cohort__steam_weekly_topsellers__overall__r1",
+      "entry_sha256": "454828c8bd7f10bd989fd710610da119f1aa8b66698349b81ed8549d4f1490d1",
+      "seq": 2087,
+      "batch_id": "global-steam-weekly-topsellers-2026-11-10__cohort__20261101T174228473910Z__s2087",
+      "locked_at": "2026-11-01T17:42:28Z",
+      "state": "scored",
+      "question": {
+        "id": "steam_weekly_topsellers",
+        "text": "Which of these Steam products did you spend the most on in the week Tuesday 3 to Tuesday 10 November 2026? (Steam global weekly top sellers by revenue, Borda shares of the top 10; any product not listed counts as the last option.)",
+        "type": "categorical",
+        "options": [
+          "Call of Duty®: Modern Warfare® 4",
+          "Dota 2",
+          "Phantom Blade Zero",
+          "Counter-Strike 2",
+          "Cyberpunk 2077",
+          "AION 2",
+          "PUBG: BATTLEGROUNDS",
+          "FINAL FANTASY RESONANCE",
+          "Cyberpunk 2077: Phantom Liberty",
+          "EA SPORTS FC™ 27",
+          "Dead by Daylight",
+          "Apex Legends™",
+          "Steam Deck",
+          "Theos: Cities of Myth (PC city builder, released 4 Nov)",
+          "Any other product"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.055,
+        0.0875,
+        0.0175,
+        0.1675,
+        0.0225,
+        0.005,
+        0.08499999999999999,
+        0.004,
+        0.01,
+        0.0325,
+        0.0175,
+        0.042499999999999996,
+        0.1075,
+        0.006,
+        0.33999999999999997
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

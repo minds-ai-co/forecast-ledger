@@ -21,22 +21,22 @@
     "credit": "Source: Consumer Confidence Survey, Cabinet Office of Japan, October 2026. Prepared by Minds from the published response tables; shares normalised over the listed options and rounded. The Cabinet Office permits commercial reuse with attribution and identification of edits."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 5,
       "tvd": 0.0774,
       "mae_pp": 3.015
     },
-    "anchored3": {
+    "mosaic": {
       "items": 5,
       "tvd": 0.0126,
       "mae_pp": 0.486
     },
-    "memory3": {
+    "research-2": {
       "items": 5,
       "tvd": 0.0841,
       "mae_pp": 3.2515
     },
-    "blend": {
+    "research-3": {
       "items": 5,
       "tvd": 0.04095,
       "mae_pp": 1.5945
@@ -44,7 +44,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -59,7 +59,7 @@
           "mae_pp": 3.015
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -74,7 +74,7 @@
           "mae_pp": 0.486
         }
       },
-      "blend": {
+      "research-3": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -89,7 +89,7 @@
           "mae_pp": 1.5945
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -110,7 +110,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__livelihood__overall__r1",
       "entry_sha256": "3017335175ec49a052629e193200ba21f799965e0004cafbe03b6300f30f573b",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "livelihood",
       "group_id": "overall",
       "counted": true,
@@ -130,7 +130,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__income_growth__overall__r1",
       "entry_sha256": "cda928ca28ec81178895368691a3e95ef5e10cb2507d769354eecf7fac039201",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "income_growth",
       "group_id": "overall",
       "counted": true,
@@ -150,7 +150,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__employment__overall__r1",
       "entry_sha256": "2d2e2432b26f703ceedb3cddd78bdaa4cf063f80e3613c480923718e5ca2fd76",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "employment",
       "group_id": "overall",
       "counted": true,
@@ -170,7 +170,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__durables_buying__overall__r1",
       "entry_sha256": "b75e6ad1fedf1990a784b61e96db913547f699b14fd1332fcecc2d5cf4bddf33",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "durables_buying",
       "group_id": "overall",
       "counted": true,
@@ -190,7 +190,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__price_outlook_1y__overall__r1",
       "entry_sha256": "56ee14e83ad4b8e91cbb91b39f4e3ddbfd571efae24d7d2ef720734b36642da4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "price_outlook_1y",
       "group_id": "overall",
       "counted": true,
@@ -213,7 +213,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__livelihood__overall__r1",
       "entry_sha256": "77dae6271b5ad3c38d554a4b27b9bd44d9b5e21bfaa93eb8b7a83b8d52fb0e98",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "livelihood",
       "group_id": "overall",
       "counted": true,
@@ -233,7 +233,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__income_growth__overall__r1",
       "entry_sha256": "3f1d23dd97e4c035adfa11a6df323d094737d2be587a8e88dc33eee56cdacb71",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "income_growth",
       "group_id": "overall",
       "counted": true,
@@ -253,7 +253,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__employment__overall__r1",
       "entry_sha256": "8c979edb62b7170bf3d1df300cf6f73742b107b9303e6499b060818f4bcf3ccd",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "employment",
       "group_id": "overall",
       "counted": true,
@@ -273,7 +273,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__durables_buying__overall__r1",
       "entry_sha256": "340caec0c4bc94c7c8dbbf0782e008548187b8a1485dec801a7c7285e6d85f4c",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "durables_buying",
       "group_id": "overall",
       "counted": true,
@@ -293,7 +293,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__anchored3__price_outlook_1y__overall__r1",
       "entry_sha256": "689208e50ced41f61d6e78e54c24e3d697cfae704228a3cf128485695f5044aa",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "price_outlook_1y",
       "group_id": "overall",
       "counted": true,
@@ -316,7 +316,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__livelihood__overall__r1",
       "entry_sha256": "a4354b17deab3f9130b2d50c94dd350d480efbaa4199a41857b58ac2d2f21b12",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "livelihood",
       "group_id": "overall",
       "counted": true,
@@ -336,7 +336,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__income_growth__overall__r1",
       "entry_sha256": "3861c03f5893170969207c860a17748c15b5602b7753280466f9b927b22d5426",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "income_growth",
       "group_id": "overall",
       "counted": true,
@@ -356,7 +356,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__employment__overall__r1",
       "entry_sha256": "4f86672da6edf2cb4aed45bc41f6f5b02e3a57fe25b8fd3fadac2b167acc6206",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "employment",
       "group_id": "overall",
       "counted": true,
@@ -376,7 +376,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__durables_buying__overall__r1",
       "entry_sha256": "7aecd7260ad3970dd5fa55dfefeee7516d1b3929efb8573f297aae9e4682c272",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "durables_buying",
       "group_id": "overall",
       "counted": true,
@@ -396,7 +396,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__memory3__price_outlook_1y__overall__r1",
       "entry_sha256": "850ca84c01a3d5c847fe809b353797ea6f28524210fdcba02cb431496804ba45",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "price_outlook_1y",
       "group_id": "overall",
       "counted": true,
@@ -419,7 +419,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__livelihood__overall__r1",
       "entry_sha256": "7f5215f572bf796596e004afb7c0480007a26f1dbe1c1114b7d333dad6bc65c8",
-      "variant": "blend",
+      "variant": "research-3",
       "question_id": "livelihood",
       "group_id": "overall",
       "counted": true,
@@ -439,7 +439,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__income_growth__overall__r1",
       "entry_sha256": "4f63d8fc0fa8f21805ebb811b0b30f0e16ad9dfac99905c41b6c8a131bd24276",
-      "variant": "blend",
+      "variant": "research-3",
       "question_id": "income_growth",
       "group_id": "overall",
       "counted": true,
@@ -459,7 +459,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__employment__overall__r1",
       "entry_sha256": "a96e33c773686f88b06d206ec47ad8104d5b06a08f4c4b7eec5df4f06b34604e",
-      "variant": "blend",
+      "variant": "research-3",
       "question_id": "employment",
       "group_id": "overall",
       "counted": true,
@@ -479,7 +479,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__durables_buying__overall__r1",
       "entry_sha256": "8a9e0f2f7c4e6a3d1d36b62ac09f6b0ef9f25b1338a7ee4bb879dcd0f0812ce1",
-      "variant": "blend",
+      "variant": "research-3",
       "question_id": "durables_buying",
       "group_id": "overall",
       "counted": true,
@@ -499,7 +499,7 @@
     {
       "entry_id": "jp-esri-consumer-confidence-2026-10__blend__price_outlook_1y__overall__r1",
       "entry_sha256": "cc9e8ea643b94ea680f8ac9a55f2da2a31946c2748c27e88ca2bdb0e578cae14",
-      "variant": "blend",
+      "variant": "research-3",
       "question_id": "price_outlook_1y",
       "group_id": "overall",
       "counted": true,

@@ -30,17 +30,17 @@
     "credit": "Source: Netflix Tudum Top 10, week ending 1 November 2026. Published ranks converted to Borda rank shares (10 points for rank 1 down to 1 for rank 10); these are rank-based shares, not viewing percentages. Reported for journalistic comparison; rounding may affect totals."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 2,
       "tvd": 0.380925,
       "mae_pp": 5.441785
     },
-    "anchored3": {
+    "mosaic": {
       "items": 2,
       "tvd": 0.31655,
       "mae_pp": 4.522143
     },
-    "memory3": {
+    "research-2": {
       "items": 2,
       "tvd": 0.434675,
       "mae_pp": 6.209643
@@ -48,7 +48,7 @@
   },
   "summary_by_evidence_type": {
     "behaviour": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -63,7 +63,7 @@
           "mae_pp": 5.441785
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -78,7 +78,7 @@
           "mae_pp": 4.522143
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -99,7 +99,7 @@
     {
       "entry_id": "de-netflix-top10-2026-11-01__tv_top10__overall__r1",
       "entry_sha256": "e2297c9b1047e53a99a6194122e1de5cf86bf80ea25b641f719bd5bc76aa89f6",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "tv_top10",
       "group_id": "overall",
       "counted": true,
@@ -128,7 +128,7 @@
     {
       "entry_id": "de-netflix-top10-2026-11-01__films_top10__overall__r1",
       "entry_sha256": "0c5332f449512ab5477d366441379752f30251c9d421d14e78bc1f379e3e7759",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "films_top10",
       "group_id": "overall",
       "counted": true,
@@ -157,7 +157,7 @@
     {
       "entry_id": "de-netflix-top10-2026-11-01__anchored3__tv_top10__overall__r1",
       "entry_sha256": "a2f16ec61373b77981d8d3828bf3ac710a6ab6be479ee28c729c6b11d18b371d",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "tv_top10",
       "group_id": "overall",
       "counted": true,
@@ -186,7 +186,7 @@
     {
       "entry_id": "de-netflix-top10-2026-11-01__anchored3__films_top10__overall__r1",
       "entry_sha256": "dcb570cbf3298b172aa497b423d2e8c0cd2d2ec8c0508feadcfa0a1b649920b0",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "films_top10",
       "group_id": "overall",
       "counted": true,
@@ -215,7 +215,7 @@
     {
       "entry_id": "de-netflix-top10-2026-11-01__memory3__tv_top10__overall__r1",
       "entry_sha256": "922b802603c22d258700148d3c18e31cdd255e8bd8869ae358998428d1670095",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "tv_top10",
       "group_id": "overall",
       "counted": true,
@@ -244,7 +244,7 @@
     {
       "entry_id": "de-netflix-top10-2026-11-01__memory3__films_top10__overall__r1",
       "entry_sha256": "3d609f6e6af33114fc8a1e92c5d051fe85529a63fca0aa09c2ba6b501525a87b",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "films_top10",
       "group_id": "overall",
       "counted": true,

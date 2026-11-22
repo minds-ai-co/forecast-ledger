@@ -39,17 +39,17 @@
     "credit": "Source: The Conference Board, October 2026 Consumer Confidence Survey. Selected published response shares reported for journalistic comparison with preregistered Minds forecasts; normalised over the listed options and rounded for display."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 5,
       "tvd": 0.0211,
       "mae_pp": 1.406667
     },
-    "anchored3": {
+    "mosaic": {
       "items": 5,
       "tvd": 0.0355,
       "mae_pp": 2.366667
     },
-    "memory3": {
+    "research-2": {
       "items": 5,
       "tvd": 0.0267,
       "mae_pp": 1.78
@@ -57,7 +57,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -72,7 +72,7 @@
           "mae_pp": 1.406667
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -87,7 +87,7 @@
           "mae_pp": 2.366667
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -108,7 +108,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__present_business_conditions__overall__r1",
       "entry_sha256": "bbadd16d9b4f5c4576d9c83c5098e4825aff4ebd4501257226007a9bc6f244a4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "present_business_conditions",
       "group_id": "overall",
       "counted": true,
@@ -126,7 +126,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__present_jobs__overall__r1",
       "entry_sha256": "0891b9e3eba4e127b91b79f8c7bcac6425dbdc651109a038fd8acd89510d9dfd",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "present_jobs",
       "group_id": "overall",
       "counted": true,
@@ -144,7 +144,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__expected_business_conditions__overall__r1",
       "entry_sha256": "b8314c4af169d23150c6e366aa8f2cad3716aeb8d7e2f85a2df05d41091dcf77",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "expected_business_conditions",
       "group_id": "overall",
       "counted": true,
@@ -162,7 +162,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__expected_jobs__overall__r1",
       "entry_sha256": "cede07f3477667443caa3f851c098086b7e7e49dea373d38aad13d2699efccc9",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "expected_jobs",
       "group_id": "overall",
       "counted": true,
@@ -180,7 +180,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__expected_income__overall__r1",
       "entry_sha256": "e3a2b17a2a6a5764390b8ed319e447217541d4b0995dc0df21389f985f625694",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "expected_income",
       "group_id": "overall",
       "counted": true,
@@ -198,7 +198,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__anchored3__present_business_conditions__overall__r1",
       "entry_sha256": "075b342cba64300660f825e3ac5fc451c1e8112839cbef97ad7f2497c3d873f8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "present_business_conditions",
       "group_id": "overall",
       "counted": true,
@@ -216,7 +216,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__anchored3__present_jobs__overall__r1",
       "entry_sha256": "43ecfd9b2daf11965ad25cbc48bfc88a25976a1b4952d3736b2c284908bc94a0",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "present_jobs",
       "group_id": "overall",
       "counted": true,
@@ -234,7 +234,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_business_conditions__overall__r1",
       "entry_sha256": "33d93d7106a0b86ef26b4754e699f67f22d165834378ceefeff31321b05fc4f3",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "expected_business_conditions",
       "group_id": "overall",
       "counted": true,
@@ -252,7 +252,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_jobs__overall__r1",
       "entry_sha256": "55b7f1ef512f497b8140d079e88c5a62e62476574138fd54bc0298b874432e2a",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "expected_jobs",
       "group_id": "overall",
       "counted": true,
@@ -270,7 +270,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__anchored3__expected_income__overall__r1",
       "entry_sha256": "79f515c97fc8b8e471c19e2c89f2a29cabd65556f670a1ad711ec55810832863",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "expected_income",
       "group_id": "overall",
       "counted": true,
@@ -288,7 +288,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__memory3__present_business_conditions__overall__r1",
       "entry_sha256": "9f7f0a00ddd48b677ebb78c8b1011201a0df641dd459fba092f5eb520e17f772",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "present_business_conditions",
       "group_id": "overall",
       "counted": true,
@@ -306,7 +306,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__memory3__present_jobs__overall__r1",
       "entry_sha256": "b82171dca732bdbd809c0409b16f1b8a90b418ab1650afde0b06b3b8af0d9cfe",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "present_jobs",
       "group_id": "overall",
       "counted": true,
@@ -324,7 +324,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__memory3__expected_business_conditions__overall__r1",
       "entry_sha256": "355e74abf401143f0092a3e469f12228e52062b4fb29e76f9b8cf2b8d4c99bb9",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "expected_business_conditions",
       "group_id": "overall",
       "counted": true,
@@ -342,7 +342,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__memory3__expected_jobs__overall__r1",
       "entry_sha256": "0bb8df5a28cdc1200d8f1652ee1047e7f881bb3c92cc0c3b6467de8bbb458e67",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "expected_jobs",
       "group_id": "overall",
       "counted": true,
@@ -360,7 +360,7 @@
     {
       "entry_id": "us-conference-board-cci-2026-10__memory3__expected_income__overall__r1",
       "entry_sha256": "849efea6e83991e78349299737ffbd34604c1d7a4c05880e08ed5c7a7356c578",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "expected_income",
       "group_id": "overall",
       "counted": true,

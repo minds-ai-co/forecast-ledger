@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-22T20:16:24Z",
+  "as_of": "2026-11-22T20:58:18Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-22T20:02:35Z",
-  "chain_head_sha256": "aa86218d65ec5e17ce0b48db8525503bd4da455ad54673c2ba52abe4110fde16",
+  "latest_event_at": "2026-11-22T20:49:27Z",
+  "chain_head_sha256": "8afc7bbce09d32b05194c8bf1e0f767f65a2304b033dbbcf06b92cca309abee7",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 130,
+    "targets": 137,
     "targets_scored": 51,
-    "targets_pending": 76,
+    "targets_pending": 83,
     "targets_not_scoreable": 3,
-    "entries": 2686,
-    "batches": 350,
+    "entries": 2693,
+    "batches": 357,
     "entries_scored": 1312,
-    "entries_pending": 1137,
+    "entries_pending": 1144,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -24,40 +24,40 @@
     "verify": "verify.py",
     "error_over_time": "charts/error-over-time.json"
   },
-  "primary_variant": "anchored3",
+  "primary_variant": "mosaic",
   "variants": {
-    "pure": {
-      "label": "Additional research forecast (pure)",
+    "research-1": {
+      "label": "Additional research forecast 1",
       "arm": "additional_research"
     },
-    "anchored3": {
+    "mosaic": {
       "label": "Minds Mosaic",
       "arm": "primary"
     },
-    "anchored1": {
-      "label": "Additional research forecast (anchored1)",
+    "research-7": {
+      "label": "Additional research forecast 7",
       "arm": "additional_research"
     },
-    "cellsS": {
-      "label": "Additional research forecast (cellsS)",
+    "research-4": {
+      "label": "Additional research forecast 4",
       "arm": "additional_research"
     },
-    "cellsH": {
-      "label": "Additional research forecast (cellsH)",
+    "research-5": {
+      "label": "Additional research forecast 5",
       "arm": "additional_research"
     },
-    "memory3": {
-      "label": "Additional research forecast (memory3)",
+    "research-2": {
+      "label": "Additional research forecast 2",
       "arm": "additional_research"
     },
-    "blend": {
-      "label": "Additional research forecast (blend)",
+    "research-3": {
+      "label": "Additional research forecast 3",
       "arm": "additional_research"
     }
   },
   "headline": {
     "label": "Minds Mosaic",
-    "variant": "anchored3",
+    "variant": "mosaic",
     "forecasts_locked": 729,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
@@ -122,9 +122,9 @@
       }
     },
     "additional_research": {
-      "pure": {
-        "label": "Additional research forecast (pure)",
-        "forecasts_locked": 694,
+      "research-1": {
+        "label": "Additional research forecast 1",
+        "forecasts_locked": 701,
         "scored": {
           "surveys": 43,
           "questions": 158,
@@ -135,8 +135,8 @@
           "wasserstein": 0.048473
         }
       },
-      "cellsS": {
-        "label": "Additional research forecast (cellsS)",
+      "research-4": {
+        "label": "Additional research forecast 4",
         "forecasts_locked": 237,
         "scored": {
           "surveys": 8,
@@ -148,8 +148,8 @@
           "wasserstein": 0.052266
         }
       },
-      "cellsH": {
-        "label": "Additional research forecast (cellsH)",
+      "research-5": {
+        "label": "Additional research forecast 5",
         "forecasts_locked": 237,
         "scored": {
           "surveys": 8,
@@ -161,8 +161,8 @@
           "wasserstein": 0.054922
         }
       },
-      "memory3": {
-        "label": "Additional research forecast (memory3)",
+      "research-2": {
+        "label": "Additional research forecast 2",
         "forecasts_locked": 474,
         "scored": {
           "surveys": 39,
@@ -174,8 +174,8 @@
           "wasserstein": 0.04885
         }
       },
-      "blend": {
-        "label": "Additional research forecast (blend)",
+      "research-3": {
+        "label": "Additional research forecast 3",
         "forecasts_locked": 51,
         "scored": {
           "surveys": 6,
@@ -187,8 +187,8 @@
           "wasserstein": 0.02285
         }
       },
-      "bank3": {
-        "label": "Additional research forecast (bank3)",
+      "research-4e71fe": {
+        "label": "Additional research forecast 4e71fe",
         "forecasts_locked": 100,
         "scored": {
           "surveys": 8,
@@ -200,8 +200,8 @@
           "wasserstein": 0.034527
         }
       },
-      "bankR3": {
-        "label": "Additional research forecast (bankR3)",
+      "research-d5b88a": {
+        "label": "Additional research forecast d5b88a",
         "forecasts_locked": 100,
         "scored": {
           "surveys": 8,
@@ -213,8 +213,8 @@
           "wasserstein": 0.03576
         }
       },
-      "cohort": {
-        "label": "Additional research forecast (cohort)",
+      "research-16accd": {
+        "label": "Additional research forecast 16accd",
         "forecasts_locked": 48,
         "scored": {
           "surveys": 8,
@@ -226,8 +226,8 @@
           "wasserstein": 0.048281
         }
       },
-      "xpub3": {
-        "label": "Additional research forecast (xpub3)",
+      "research-6": {
+        "label": "Additional research forecast 6",
         "forecasts_locked": 16,
         "scored": {
           "surveys": 7,
@@ -265,13 +265,13 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2123,
+    "attitude": 2130,
     "stated_intent": 454,
     "behaviour": 109
   },
   "results_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 119,
           "n_distribution": 119,
@@ -301,7 +301,7 @@
           }
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 118,
           "n_distribution": 118,
@@ -331,7 +331,7 @@
           }
         }
       },
-      "bank3": {
+      "research-4e71fe": {
         "overall": {
           "n": 7,
           "n_distribution": 7,
@@ -346,7 +346,7 @@
           "mae_pp": 5.301148
         }
       },
-      "bankR3": {
+      "research-d5b88a": {
         "overall": {
           "n": 7,
           "n_distribution": 7,
@@ -361,7 +361,7 @@
           "mae_pp": 5.41046
         }
       },
-      "blend": {
+      "research-3": {
         "overall": {
           "n": 38,
           "n_distribution": 38,
@@ -376,7 +376,7 @@
           "mae_pp": 2.142798
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 33,
           "n_distribution": 33,
@@ -396,7 +396,7 @@
           "mae_pp": 5.534523
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 33,
           "n_distribution": 33,
@@ -416,7 +416,7 @@
           "mae_pp": 5.585718
         }
       },
-      "cohort": {
+      "research-16accd": {
         "overall": {
           "n": 7,
           "n_distribution": 7,
@@ -431,7 +431,7 @@
           "mae_pp": 5.479758
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 100,
           "n_distribution": 100,
@@ -451,7 +451,7 @@
           "mae_pp": 5.416265
         }
       },
-      "xpub3": {
+      "research-6": {
         "overall": {
           "n": 3,
           "n_distribution": 3,
@@ -468,7 +468,7 @@
       }
     },
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 34,
           "n_distribution": 34,
@@ -488,7 +488,7 @@
           "mae_pp": 2.568643
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 35,
           "n_distribution": 35,
@@ -508,7 +508,7 @@
           "mae_pp": 1.298818
         }
       },
-      "bank3": {
+      "research-4e71fe": {
         "overall": {
           "n": 8,
           "n_distribution": 8,
@@ -523,7 +523,7 @@
           "mae_pp": 2.066831
         }
       },
-      "bankR3": {
+      "research-d5b88a": {
         "overall": {
           "n": 8,
           "n_distribution": 8,
@@ -538,7 +538,7 @@
           "mae_pp": 2.043527
         }
       },
-      "blend": {
+      "research-3": {
         "overall": {
           "n": 8,
           "n_distribution": 8,
@@ -553,7 +553,7 @@
           "mae_pp": 1.947066
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 3,
           "n_distribution": 3,
@@ -573,7 +573,7 @@
           "mae_pp": 1.794471
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 3,
           "n_distribution": 3,
@@ -593,7 +593,7 @@
           "mae_pp": 2.006734
         }
       },
-      "cohort": {
+      "research-16accd": {
         "overall": {
           "n": 8,
           "n_distribution": 8,
@@ -608,7 +608,7 @@
           "mae_pp": 2.649749
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 31,
           "n_distribution": 31,
@@ -628,7 +628,7 @@
           "mae_pp": 2.515505
         }
       },
-      "xpub3": {
+      "research-6": {
         "overall": {
           "n": 7,
           "n_distribution": 7,
@@ -645,7 +645,7 @@
       }
     },
     "behaviour": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 12,
           "n_distribution": 12,
@@ -660,7 +660,7 @@
           "mae_pp": 4.926092
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 14,
           "n_distribution": 14,
@@ -680,7 +680,7 @@
           "mae_pp": 2.597024
         }
       },
-      "bank3": {
+      "research-4e71fe": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -695,7 +695,7 @@
           "mae_pp": 4.712727
         }
       },
-      "bankR3": {
+      "research-d5b88a": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -710,7 +710,7 @@
           "mae_pp": 4.880606
         }
       },
-      "cohort": {
+      "research-16accd": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -725,7 +725,7 @@
           "mae_pp": 6.039394
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 10,
           "n_distribution": 10,
@@ -851,12 +851,12 @@
       "publication_url": "https://yougov.com/en-us/articles/55847",
       "forecasts_count": 120,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-economist-yougov-2026-10-24/pure.json",
-        "anchored3": "forecasts/us-economist-yougov-2026-10-24/anchored3.json"
+        "research-1": "forecasts/us-economist-yougov-2026-10-24/research-1.json",
+        "mosaic": "forecasts/us-economist-yougov-2026-10-24/mosaic.json"
       },
       "results": "results/us-economist-yougov-2026-10-24.json",
       "batches": [
@@ -1242,12 +1242,12 @@
       "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
       "forecasts_count": 60,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-yougov-trackers-2026-10-25/pure.json",
-        "anchored3": "forecasts/gb-yougov-trackers-2026-10-25/anchored3.json"
+        "research-1": "forecasts/gb-yougov-trackers-2026-10-25/research-1.json",
+        "mosaic": "forecasts/gb-yougov-trackers-2026-10-25/mosaic.json"
       },
       "results": "results/gb-yougov-trackers-2026-10-25.json",
       "batches": [
@@ -1464,14 +1464,14 @@
       "publication_url": "https://elabe.fr/lobservatoire-politique-novembre-2026/",
       "forecasts_count": 30,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/fr-elabe-observatoire-2026-10-27/pure.json",
-        "anchored3": "forecasts/fr-elabe-observatoire-2026-10-27/anchored3.json",
-        "memory3": "forecasts/fr-elabe-observatoire-2026-10-27/memory3.json"
+        "research-1": "forecasts/fr-elabe-observatoire-2026-10-27/research-1.json",
+        "mosaic": "forecasts/fr-elabe-observatoire-2026-10-27/mosaic.json",
+        "research-2": "forecasts/fr-elabe-observatoire-2026-10-27/research-2.json"
       },
       "results": "results/fr-elabe-observatoire-2026-10-27.json",
       "batches": [
@@ -1680,18 +1680,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 80,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2609-healthinfo/pure.json",
-        "anchored3": "forecasts/us-census-htops-2609-healthinfo/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2609-healthinfo/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2609-healthinfo/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2609-healthinfo/memory3.json"
+        "research-1": "forecasts/us-census-htops-2609-healthinfo/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2609-healthinfo/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2609-healthinfo/research-4.json",
+        "research-5": "forecasts/us-census-htops-2609-healthinfo/research-5.json",
+        "research-2": "forecasts/us-census-htops-2609-healthinfo/research-2.json"
       },
       "results": "results/us-census-htops-2609-healthinfo.json",
       "batches": [
@@ -1914,18 +1914,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2609-trust-a/pure.json",
-        "anchored3": "forecasts/us-census-htops-2609-trust-a/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2609-trust-a/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2609-trust-a/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2609-trust-a/memory3.json"
+        "research-1": "forecasts/us-census-htops-2609-trust-a/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2609-trust-a/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2609-trust-a/research-4.json",
+        "research-5": "forecasts/us-census-htops-2609-trust-a/research-5.json",
+        "research-2": "forecasts/us-census-htops-2609-trust-a/research-2.json"
       },
       "results": "results/us-census-htops-2609-trust-a.json",
       "batches": [
@@ -2198,18 +2198,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2609-trust-b/pure.json",
-        "anchored3": "forecasts/us-census-htops-2609-trust-b/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2609-trust-b/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2609-trust-b/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2609-trust-b/memory3.json"
+        "research-1": "forecasts/us-census-htops-2609-trust-b/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2609-trust-b/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2609-trust-b/research-4.json",
+        "research-5": "forecasts/us-census-htops-2609-trust-b/research-5.json",
+        "research-2": "forecasts/us-census-htops-2609-trust-b/research-2.json"
       },
       "results": "results/us-census-htops-2609-trust-b.json",
       "batches": [
@@ -2432,18 +2432,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2609-wellbeing/pure.json",
-        "anchored3": "forecasts/us-census-htops-2609-wellbeing/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2609-wellbeing/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2609-wellbeing/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2609-wellbeing/memory3.json"
+        "research-1": "forecasts/us-census-htops-2609-wellbeing/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2609-wellbeing/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2609-wellbeing/research-4.json",
+        "research-5": "forecasts/us-census-htops-2609-wellbeing/research-5.json",
+        "research-2": "forecasts/us-census-htops-2609-wellbeing/research-2.json"
       },
       "results": "results/us-census-htops-2609-wellbeing.json",
       "batches": [
@@ -2645,14 +2645,14 @@
       "publication_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
       "forecasts_count": 3,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/de-forsa-trendbarometer-2026-11-03/pure.json",
-        "anchored3": "forecasts/de-forsa-trendbarometer-2026-11-03/anchored3.json",
-        "memory3": "forecasts/de-forsa-trendbarometer-2026-11-03/memory3.json"
+        "research-1": "forecasts/de-forsa-trendbarometer-2026-11-03/research-1.json",
+        "mosaic": "forecasts/de-forsa-trendbarometer-2026-11-03/mosaic.json",
+        "research-2": "forecasts/de-forsa-trendbarometer-2026-11-03/research-2.json"
       },
       "results": "results/de-forsa-trendbarometer-2026-11-03.json",
       "batches": [
@@ -2826,14 +2826,14 @@
       "publication_url": "https://www.ipsos.com/en-us/latest-us-opinion-polls",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-abc-post-ipsos-2026-10-26/pure.json",
-        "anchored3": "forecasts/us-abc-post-ipsos-2026-10-26/anchored3.json",
-        "memory3": "forecasts/us-abc-post-ipsos-2026-10-26/memory3.json"
+        "research-1": "forecasts/us-abc-post-ipsos-2026-10-26/research-1.json",
+        "mosaic": "forecasts/us-abc-post-ipsos-2026-10-26/mosaic.json",
+        "research-2": "forecasts/us-abc-post-ipsos-2026-10-26/research-2.json"
       },
       "results": "results/us-abc-post-ipsos-2026-10-26.json",
       "batches": [
@@ -2984,14 +2984,14 @@
       "publication_url": "https://emersoncollegepolling.com/october-2026-national-poll-democrats-hold-10-point-midterm-advantage/",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-emerson-national-2026-10-26/pure.json",
-        "anchored3": "forecasts/us-emerson-national-2026-10-26/anchored3.json",
-        "memory3": "forecasts/us-emerson-national-2026-10-26/memory3.json"
+        "research-1": "forecasts/us-emerson-national-2026-10-26/research-1.json",
+        "mosaic": "forecasts/us-emerson-national-2026-10-26/mosaic.json",
+        "research-2": "forecasts/us-emerson-national-2026-10-26/research-2.json"
       },
       "results": "results/us-emerson-national-2026-10-26.json",
       "batches": [
@@ -3190,14 +3190,14 @@
       "publication_url": "https://maristpoll.marist.edu/wp-content/uploads/2026/10/NPR_PBS-News_Marist-Poll_USA-NOS-and-Tables_202610211808AS.pdf",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-npr-pbs-marist-2026-10-26/pure.json",
-        "anchored3": "forecasts/us-npr-pbs-marist-2026-10-26/anchored3.json",
-        "memory3": "forecasts/us-npr-pbs-marist-2026-10-26/memory3.json"
+        "research-1": "forecasts/us-npr-pbs-marist-2026-10-26/research-1.json",
+        "mosaic": "forecasts/us-npr-pbs-marist-2026-10-26/mosaic.json",
+        "research-2": "forecasts/us-npr-pbs-marist-2026-10-26/research-2.json"
       },
       "results": "results/us-npr-pbs-marist-2026-10-26.json",
       "batches": [
@@ -3400,14 +3400,14 @@
       "publication_url": "https://poll.qu.edu/poll",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-quinnipiac-national-2026-10-26/pure.json",
-        "anchored3": "forecasts/us-quinnipiac-national-2026-10-26/anchored3.json",
-        "memory3": "forecasts/us-quinnipiac-national-2026-10-26/memory3.json"
+        "research-1": "forecasts/us-quinnipiac-national-2026-10-26/research-1.json",
+        "mosaic": "forecasts/us-quinnipiac-national-2026-10-26/mosaic.json",
+        "research-2": "forecasts/us-quinnipiac-national-2026-10-26/research-2.json"
       },
       "results": "results/us-quinnipiac-national-2026-10-26.json",
       "batches": [
@@ -3558,14 +3558,14 @@
       "publication_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-10/Reuters%20Ipsos%20October%20Core%20Political%20Topline%2010.26%20release.pdf",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-reuters-ipsos-2026-10-26/pure.json",
-        "anchored3": "forecasts/us-reuters-ipsos-2026-10-26/anchored3.json",
-        "memory3": "forecasts/us-reuters-ipsos-2026-10-26/memory3.json"
+        "research-1": "forecasts/us-reuters-ipsos-2026-10-26/research-1.json",
+        "mosaic": "forecasts/us-reuters-ipsos-2026-10-26/mosaic.json",
+        "research-2": "forecasts/us-reuters-ipsos-2026-10-26/research-2.json"
       },
       "results": "results/us-reuters-ipsos-2026-10-26.json",
       "batches": [
@@ -3757,14 +3757,14 @@
       "publication_url": "https://findoutnow.co.uk/blog/",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-findoutnow-vi-2026-10-28/pure.json",
-        "anchored3": "forecasts/gb-findoutnow-vi-2026-10-28/anchored3.json",
-        "memory3": "forecasts/gb-findoutnow-vi-2026-10-28/memory3.json"
+        "research-1": "forecasts/gb-findoutnow-vi-2026-10-28/research-1.json",
+        "mosaic": "forecasts/gb-findoutnow-vi-2026-10-28/mosaic.json",
+        "research-2": "forecasts/gb-findoutnow-vi-2026-10-28/research-2.json"
       },
       "results": "results/gb-findoutnow-vi-2026-10-28.json",
       "batches": [
@@ -3971,14 +3971,14 @@
       "publication_url": "https://www.opinium.com/resource-center/",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-opinium-observer-2026-10-28/pure.json",
-        "anchored3": "forecasts/gb-opinium-observer-2026-10-28/anchored3.json",
-        "memory3": "forecasts/gb-opinium-observer-2026-10-28/memory3.json"
+        "research-1": "forecasts/gb-opinium-observer-2026-10-28/research-1.json",
+        "mosaic": "forecasts/gb-opinium-observer-2026-10-28/mosaic.json",
+        "research-2": "forecasts/gb-opinium-observer-2026-10-28/research-2.json"
       },
       "results": "results/gb-opinium-observer-2026-10-28.json",
       "batches": [
@@ -4195,14 +4195,14 @@
       "publication_url": "https://www.conference-board.org/topics/consumer-confidence/",
       "forecasts_count": 15,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-conference-board-cci-2026-10/pure.json",
-        "anchored3": "forecasts/us-conference-board-cci-2026-10/anchored3.json",
-        "memory3": "forecasts/us-conference-board-cci-2026-10/memory3.json"
+        "research-1": "forecasts/us-conference-board-cci-2026-10/research-1.json",
+        "mosaic": "forecasts/us-conference-board-cci-2026-10/mosaic.json",
+        "research-2": "forecasts/us-conference-board-cci-2026-10/research-2.json"
       },
       "results": "results/us-conference-board-cci-2026-10.json",
       "batches": [
@@ -4363,14 +4363,14 @@
       "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 30,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/fr-ec-insee-consumer-survey-2026-10/pure.json",
-        "anchored3": "forecasts/fr-ec-insee-consumer-survey-2026-10/anchored3.json",
-        "memory3": "forecasts/fr-ec-insee-consumer-survey-2026-10/memory3.json"
+        "research-1": "forecasts/fr-ec-insee-consumer-survey-2026-10/research-1.json",
+        "mosaic": "forecasts/fr-ec-insee-consumer-survey-2026-10/mosaic.json",
+        "research-2": "forecasts/fr-ec-insee-consumer-survey-2026-10/research-2.json"
       },
       "results": "results/fr-ec-insee-consumer-survey-2026-10.json",
       "batches": [
@@ -4579,18 +4579,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 80,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2611-healthinfo/pure.json",
-        "anchored3": "forecasts/us-census-htops-2611-healthinfo/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2611-healthinfo/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2611-healthinfo/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2611-healthinfo/memory3.json"
+        "research-1": "forecasts/us-census-htops-2611-healthinfo/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2611-healthinfo/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2611-healthinfo/research-4.json",
+        "research-5": "forecasts/us-census-htops-2611-healthinfo/research-5.json",
+        "research-2": "forecasts/us-census-htops-2611-healthinfo/research-2.json"
       },
       "results": null,
       "batches": [
@@ -4760,18 +4760,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2611-trust-a/pure.json",
-        "anchored3": "forecasts/us-census-htops-2611-trust-a/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2611-trust-a/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2611-trust-a/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2611-trust-a/memory3.json"
+        "research-1": "forecasts/us-census-htops-2611-trust-a/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2611-trust-a/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2611-trust-a/research-4.json",
+        "research-5": "forecasts/us-census-htops-2611-trust-a/research-5.json",
+        "research-2": "forecasts/us-census-htops-2611-trust-a/research-2.json"
       },
       "results": null,
       "batches": [
@@ -4941,18 +4941,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2611-trust-b/pure.json",
-        "anchored3": "forecasts/us-census-htops-2611-trust-b/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2611-trust-b/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2611-trust-b/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2611-trust-b/memory3.json"
+        "research-1": "forecasts/us-census-htops-2611-trust-b/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2611-trust-b/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2611-trust-b/research-4.json",
+        "research-5": "forecasts/us-census-htops-2611-trust-b/research-5.json",
+        "research-2": "forecasts/us-census-htops-2611-trust-b/research-2.json"
       },
       "results": null,
       "batches": [
@@ -5122,18 +5122,18 @@
       "publication_url": "https://www.census.gov/programs-surveys/household-pulse-survey/data/datasets.html",
       "forecasts_count": 100,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-census-htops-2611-wellbeing/pure.json",
-        "anchored3": "forecasts/us-census-htops-2611-wellbeing/anchored3.json",
-        "cellsS": "forecasts/us-census-htops-2611-wellbeing/cellsS.json",
-        "cellsH": "forecasts/us-census-htops-2611-wellbeing/cellsH.json",
-        "memory3": "forecasts/us-census-htops-2611-wellbeing/memory3.json"
+        "research-1": "forecasts/us-census-htops-2611-wellbeing/research-1.json",
+        "mosaic": "forecasts/us-census-htops-2611-wellbeing/mosaic.json",
+        "research-4": "forecasts/us-census-htops-2611-wellbeing/research-4.json",
+        "research-5": "forecasts/us-census-htops-2611-wellbeing/research-5.json",
+        "research-2": "forecasts/us-census-htops-2611-wellbeing/research-2.json"
       },
       "results": null,
       "batches": [
@@ -5276,14 +5276,14 @@
       "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 33,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/de-ec-gfk-consumer-survey-2026-11-05/pure.json",
-        "anchored3": "forecasts/de-ec-gfk-consumer-survey-2026-11-05/anchored3.json",
-        "memory3": "forecasts/de-ec-gfk-consumer-survey-2026-11-05/memory3.json"
+        "research-1": "forecasts/de-ec-gfk-consumer-survey-2026-11-05/research-1.json",
+        "mosaic": "forecasts/de-ec-gfk-consumer-survey-2026-11-05/mosaic.json",
+        "research-2": "forecasts/de-ec-gfk-consumer-survey-2026-11-05/research-2.json"
       },
       "results": null,
       "batches": [
@@ -5445,18 +5445,18 @@
       "publication_url": "https://www.ipsos.com/en-uk/topic/political-monitor",
       "forecasts_count": 30,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-ipsos-political-monitor-2026-11-19/pure.json",
-        "anchored3": "forecasts/gb-ipsos-political-monitor-2026-11-19/anchored3.json",
-        "cellsS": "forecasts/gb-ipsos-political-monitor-2026-11-19/cellsS.json",
-        "cellsH": "forecasts/gb-ipsos-political-monitor-2026-11-19/cellsH.json",
-        "memory3": "forecasts/gb-ipsos-political-monitor-2026-11-19/memory3.json"
+        "research-1": "forecasts/gb-ipsos-political-monitor-2026-11-19/research-1.json",
+        "mosaic": "forecasts/gb-ipsos-political-monitor-2026-11-19/mosaic.json",
+        "research-4": "forecasts/gb-ipsos-political-monitor-2026-11-19/research-4.json",
+        "research-5": "forecasts/gb-ipsos-political-monitor-2026-11-19/research-5.json",
+        "research-2": "forecasts/gb-ipsos-political-monitor-2026-11-19/research-2.json"
       },
       "results": null,
       "batches": [
@@ -5605,16 +5605,16 @@
       "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 44,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "blend"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-3"
       ],
       "forecasts": {
-        "pure": "forecasts/at-ec-ipsos-consumer-survey-2026-10/pure.json",
-        "anchored3": "forecasts/at-ec-ipsos-consumer-survey-2026-10/anchored3.json",
-        "memory3": "forecasts/at-ec-ipsos-consumer-survey-2026-10/memory3.json",
-        "blend": "forecasts/at-ec-ipsos-consumer-survey-2026-10/blend.json"
+        "research-1": "forecasts/at-ec-ipsos-consumer-survey-2026-10/research-1.json",
+        "mosaic": "forecasts/at-ec-ipsos-consumer-survey-2026-10/mosaic.json",
+        "research-2": "forecasts/at-ec-ipsos-consumer-survey-2026-10/research-2.json",
+        "research-3": "forecasts/at-ec-ipsos-consumer-survey-2026-10/research-3.json"
       },
       "results": "results/at-ec-ipsos-consumer-survey-2026-10.json",
       "batches": [
@@ -5810,16 +5810,16 @@
       "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 44,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "blend"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-3"
       ],
       "forecasts": {
-        "pure": "forecasts/de-ec-gfk-consumer-survey-2026-10/pure.json",
-        "anchored3": "forecasts/de-ec-gfk-consumer-survey-2026-10/anchored3.json",
-        "memory3": "forecasts/de-ec-gfk-consumer-survey-2026-10/memory3.json",
-        "blend": "forecasts/de-ec-gfk-consumer-survey-2026-10/blend.json"
+        "research-1": "forecasts/de-ec-gfk-consumer-survey-2026-10/research-1.json",
+        "mosaic": "forecasts/de-ec-gfk-consumer-survey-2026-10/mosaic.json",
+        "research-2": "forecasts/de-ec-gfk-consumer-survey-2026-10/research-2.json",
+        "research-3": "forecasts/de-ec-gfk-consumer-survey-2026-10/research-3.json"
       },
       "results": "results/de-ec-gfk-consumer-survey-2026-10.json",
       "batches": [
@@ -6015,16 +6015,16 @@
       "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 44,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "blend"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-3"
       ],
       "forecasts": {
-        "pure": "forecasts/es-ec-gfk-consumer-survey-2026-10/pure.json",
-        "anchored3": "forecasts/es-ec-gfk-consumer-survey-2026-10/anchored3.json",
-        "memory3": "forecasts/es-ec-gfk-consumer-survey-2026-10/memory3.json",
-        "blend": "forecasts/es-ec-gfk-consumer-survey-2026-10/blend.json"
+        "research-1": "forecasts/es-ec-gfk-consumer-survey-2026-10/research-1.json",
+        "mosaic": "forecasts/es-ec-gfk-consumer-survey-2026-10/mosaic.json",
+        "research-2": "forecasts/es-ec-gfk-consumer-survey-2026-10/research-2.json",
+        "research-3": "forecasts/es-ec-gfk-consumer-survey-2026-10/research-3.json"
       },
       "results": "results/es-ec-gfk-consumer-survey-2026-10.json",
       "batches": [
@@ -6235,16 +6235,16 @@
       "publication_url": "https://www.esri.cao.go.jp/jp/stat/shouhi/honbun.pdf",
       "forecasts_count": 20,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "blend"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-3"
       ],
       "forecasts": {
-        "pure": "forecasts/jp-esri-consumer-confidence-2026-10/pure.json",
-        "anchored3": "forecasts/jp-esri-consumer-confidence-2026-10/anchored3.json",
-        "memory3": "forecasts/jp-esri-consumer-confidence-2026-10/memory3.json",
-        "blend": "forecasts/jp-esri-consumer-confidence-2026-10/blend.json"
+        "research-1": "forecasts/jp-esri-consumer-confidence-2026-10/research-1.json",
+        "mosaic": "forecasts/jp-esri-consumer-confidence-2026-10/mosaic.json",
+        "research-2": "forecasts/jp-esri-consumer-confidence-2026-10/research-2.json",
+        "research-3": "forecasts/jp-esri-consumer-confidence-2026-10/research-3.json"
       },
       "results": "results/jp-esri-consumer-confidence-2026-10.json",
       "batches": [
@@ -6461,20 +6461,20 @@
       "publication_url": "https://freshwaterstrategy.com/2026/11/05/city-am-freshwater-strategy-november-polling-data-2/",
       "forecasts_count": 30,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3",
-        "blend"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2",
+        "research-3"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-freshwater-cityam-2026-11-06/pure.json",
-        "anchored3": "forecasts/gb-freshwater-cityam-2026-11-06/anchored3.json",
-        "cellsS": "forecasts/gb-freshwater-cityam-2026-11-06/cellsS.json",
-        "cellsH": "forecasts/gb-freshwater-cityam-2026-11-06/cellsH.json",
-        "memory3": "forecasts/gb-freshwater-cityam-2026-11-06/memory3.json",
-        "blend": "forecasts/gb-freshwater-cityam-2026-11-06/blend.json"
+        "research-1": "forecasts/gb-freshwater-cityam-2026-11-06/research-1.json",
+        "mosaic": "forecasts/gb-freshwater-cityam-2026-11-06/mosaic.json",
+        "research-4": "forecasts/gb-freshwater-cityam-2026-11-06/research-4.json",
+        "research-5": "forecasts/gb-freshwater-cityam-2026-11-06/research-5.json",
+        "research-2": "forecasts/gb-freshwater-cityam-2026-11-06/research-2.json",
+        "research-3": "forecasts/gb-freshwater-cityam-2026-11-06/research-3.json"
       },
       "results": "results/gb-freshwater-cityam-2026-11-06.json",
       "batches": [
@@ -6765,18 +6765,18 @@
       "publication_url": "https://www.moreincommon.org.uk/polling-tables/",
       "forecasts_count": 10,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-moreincommon-vi-2026-10-30/pure.json",
-        "anchored3": "forecasts/gb-moreincommon-vi-2026-10-30/anchored3.json",
-        "cellsS": "forecasts/gb-moreincommon-vi-2026-10-30/cellsS.json",
-        "cellsH": "forecasts/gb-moreincommon-vi-2026-10-30/cellsH.json",
-        "memory3": "forecasts/gb-moreincommon-vi-2026-10-30/memory3.json"
+        "research-1": "forecasts/gb-moreincommon-vi-2026-10-30/research-1.json",
+        "mosaic": "forecasts/gb-moreincommon-vi-2026-10-30/mosaic.json",
+        "research-4": "forecasts/gb-moreincommon-vi-2026-10-30/research-4.json",
+        "research-5": "forecasts/gb-moreincommon-vi-2026-10-30/research-5.json",
+        "research-2": "forecasts/gb-moreincommon-vi-2026-10-30/research-2.json"
       },
       "results": "results/gb-moreincommon-vi-2026-10-30.json",
       "batches": [
@@ -6987,14 +6987,14 @@
       "publication_url": "https://www.wahlrecht.de/umfragen/insa.htm",
       "forecasts_count": 3,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/de-insa-meinungstrend-2026-11-03/pure.json",
-        "anchored3": "forecasts/de-insa-meinungstrend-2026-11-03/anchored3.json",
-        "memory3": "forecasts/de-insa-meinungstrend-2026-11-03/memory3.json"
+        "research-1": "forecasts/de-insa-meinungstrend-2026-11-03/research-1.json",
+        "mosaic": "forecasts/de-insa-meinungstrend-2026-11-03/mosaic.json",
+        "research-2": "forecasts/de-insa-meinungstrend-2026-11-03/research-2.json"
       },
       "results": "results/de-insa-meinungstrend-2026-11-03.json",
       "batches": [
@@ -7176,18 +7176,18 @@
       "publication_url": "https://yougov.com/en-us/articles/55922-understanding-big-democratic-midterms-win-2026-election-november-4-6-2026-economist-yougov-poll",
       "forecasts_count": 270,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-economist-yougov-2026-10-30/pure.json",
-        "anchored3": "forecasts/us-economist-yougov-2026-10-30/anchored3.json",
-        "cellsS": "forecasts/us-economist-yougov-2026-10-30/cellsS.json",
-        "cellsH": "forecasts/us-economist-yougov-2026-10-30/cellsH.json",
-        "memory3": "forecasts/us-economist-yougov-2026-10-30/memory3.json"
+        "research-1": "forecasts/us-economist-yougov-2026-10-30/research-1.json",
+        "mosaic": "forecasts/us-economist-yougov-2026-10-30/mosaic.json",
+        "research-4": "forecasts/us-economist-yougov-2026-10-30/research-4.json",
+        "research-5": "forecasts/us-economist-yougov-2026-10-30/research-5.json",
+        "research-2": "forecasts/us-economist-yougov-2026-10-30/research-2.json"
       },
       "results": "results/us-economist-yougov-2026-10-30.json",
       "batches": [
@@ -7445,14 +7445,14 @@
       "publication_url": "https://www.newyorkfed.org/microeconomics/sce",
       "forecasts_count": 12,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-nyfed-sce-2026-11-01/pure.json",
-        "anchored3": "forecasts/us-nyfed-sce-2026-11-01/anchored3.json",
-        "memory3": "forecasts/us-nyfed-sce-2026-11-01/memory3.json"
+        "research-1": "forecasts/us-nyfed-sce-2026-11-01/research-1.json",
+        "mosaic": "forecasts/us-nyfed-sce-2026-11-01/mosaic.json",
+        "research-2": "forecasts/us-nyfed-sce-2026-11-01/research-2.json"
       },
       "results": null,
       "batches": [
@@ -7579,14 +7579,14 @@
       "publication_url": "https://cockpit.gfsbern.ch/de/cockpit/trend_w2_29112026-2/",
       "forecasts_count": 15,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/ch-gfsbern-srgtrend-2026-11-04/pure.json",
-        "anchored3": "forecasts/ch-gfsbern-srgtrend-2026-11-04/anchored3.json",
-        "memory3": "forecasts/ch-gfsbern-srgtrend-2026-11-04/memory3.json"
+        "research-1": "forecasts/ch-gfsbern-srgtrend-2026-11-04/research-1.json",
+        "mosaic": "forecasts/ch-gfsbern-srgtrend-2026-11-04/mosaic.json",
+        "research-2": "forecasts/ch-gfsbern-srgtrend-2026-11-04/research-2.json"
       },
       "results": "results/ch-gfsbern-srgtrend-2026-11-04.json",
       "batches": [
@@ -7802,18 +7802,18 @@
       "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
       "forecasts_count": 126,
       "variants": [
-        "pure",
-        "anchored3",
-        "cellsS",
-        "cellsH",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-4",
+        "research-5",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-yougov-trackers-2026-11-01/pure.json",
-        "anchored3": "forecasts/gb-yougov-trackers-2026-11-01/anchored3.json",
-        "cellsS": "forecasts/gb-yougov-trackers-2026-11-01/cellsS.json",
-        "cellsH": "forecasts/gb-yougov-trackers-2026-11-01/cellsH.json",
-        "memory3": "forecasts/gb-yougov-trackers-2026-11-01/memory3.json"
+        "research-1": "forecasts/gb-yougov-trackers-2026-11-01/research-1.json",
+        "mosaic": "forecasts/gb-yougov-trackers-2026-11-01/mosaic.json",
+        "research-4": "forecasts/gb-yougov-trackers-2026-11-01/research-4.json",
+        "research-5": "forecasts/gb-yougov-trackers-2026-11-01/research-5.json",
+        "research-2": "forecasts/gb-yougov-trackers-2026-11-01/research-2.json"
       },
       "results": "results/gb-yougov-trackers-2026-11-01.json",
       "batches": [
@@ -8070,14 +8070,14 @@
       "publication_url": "https://news.gallup.com/poll/1669/general-mood-country.aspx",
       "forecasts_count": 21,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-gallup-2026-11/pure.json",
-        "anchored3": "forecasts/us-gallup-2026-11/anchored3.json",
-        "memory3": "forecasts/us-gallup-2026-11/memory3.json"
+        "research-1": "forecasts/us-gallup-2026-11/research-1.json",
+        "mosaic": "forecasts/us-gallup-2026-11/mosaic.json",
+        "research-2": "forecasts/us-gallup-2026-11/research-2.json"
       },
       "results": null,
       "batches": [
@@ -8233,16 +8233,16 @@
       "publication_url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/2026/november/",
       "forecasts_count": 12,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "blend"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-3"
       ],
       "forecasts": {
-        "pure": "forecasts/de-ard-deutschlandtrend-2026-11/pure.json",
-        "anchored3": "forecasts/de-ard-deutschlandtrend-2026-11/anchored3.json",
-        "memory3": "forecasts/de-ard-deutschlandtrend-2026-11/memory3.json",
-        "blend": "forecasts/de-ard-deutschlandtrend-2026-11/blend.json"
+        "research-1": "forecasts/de-ard-deutschlandtrend-2026-11/research-1.json",
+        "mosaic": "forecasts/de-ard-deutschlandtrend-2026-11/mosaic.json",
+        "research-2": "forecasts/de-ard-deutschlandtrend-2026-11/research-2.json",
+        "research-3": "forecasts/de-ard-deutschlandtrend-2026-11/research-3.json"
       },
       "results": "results/de-ard-deutschlandtrend-2026-11.json",
       "batches": [
@@ -8431,20 +8431,20 @@
       "publication_url": "https://www.ifopgroup.com/article/indices-de-popularite-barometre-ifop-opinion-octobre-2026",
       "forecasts_count": 12,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd"
       ],
       "forecasts": {
-        "pure": "forecasts/fr-ifop-popularite-2026-11-04/pure.json",
-        "anchored3": "forecasts/fr-ifop-popularite-2026-11-04/anchored3.json",
-        "memory3": "forecasts/fr-ifop-popularite-2026-11-04/memory3.json",
-        "bank3": "forecasts/fr-ifop-popularite-2026-11-04/bank3.json",
-        "bankR3": "forecasts/fr-ifop-popularite-2026-11-04/bankR3.json",
-        "cohort": "forecasts/fr-ifop-popularite-2026-11-04/cohort.json"
+        "research-1": "forecasts/fr-ifop-popularite-2026-11-04/research-1.json",
+        "mosaic": "forecasts/fr-ifop-popularite-2026-11-04/mosaic.json",
+        "research-2": "forecasts/fr-ifop-popularite-2026-11-04/research-2.json",
+        "research-4e71fe": "forecasts/fr-ifop-popularite-2026-11-04/research-4e71fe.json",
+        "research-d5b88a": "forecasts/fr-ifop-popularite-2026-11-04/research-d5b88a.json",
+        "research-16accd": "forecasts/fr-ifop-popularite-2026-11-04/research-16accd.json"
       },
       "results": null,
       "batches": [
@@ -8617,20 +8617,20 @@
       "publication_url": "https://www.ipsos.com/fr-fr/barometre-politique-ipsos-bva-la-tribune-dimanche",
       "forecasts_count": 12,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd"
       ],
       "forecasts": {
-        "pure": "forecasts/fr-ipsos-bva-tribune-2026-11-04/pure.json",
-        "anchored3": "forecasts/fr-ipsos-bva-tribune-2026-11-04/anchored3.json",
-        "memory3": "forecasts/fr-ipsos-bva-tribune-2026-11-04/memory3.json",
-        "bank3": "forecasts/fr-ipsos-bva-tribune-2026-11-04/bank3.json",
-        "bankR3": "forecasts/fr-ipsos-bva-tribune-2026-11-04/bankR3.json",
-        "cohort": "forecasts/fr-ipsos-bva-tribune-2026-11-04/cohort.json"
+        "research-1": "forecasts/fr-ipsos-bva-tribune-2026-11-04/research-1.json",
+        "mosaic": "forecasts/fr-ipsos-bva-tribune-2026-11-04/mosaic.json",
+        "research-2": "forecasts/fr-ipsos-bva-tribune-2026-11-04/research-2.json",
+        "research-4e71fe": "forecasts/fr-ipsos-bva-tribune-2026-11-04/research-4e71fe.json",
+        "research-d5b88a": "forecasts/fr-ipsos-bva-tribune-2026-11-04/research-d5b88a.json",
+        "research-16accd": "forecasts/fr-ipsos-bva-tribune-2026-11-04/research-16accd.json"
       },
       "results": "results/fr-ipsos-bva-tribune-2026-11-04.json",
       "batches": [
@@ -8848,20 +8848,20 @@
       "publication_url": "https://news.gallup.com/poll/1564/christmas.aspx",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd"
       ],
       "forecasts": {
-        "pure": "forecasts/us-gallup-holiday-spending-2026-11/pure.json",
-        "anchored3": "forecasts/us-gallup-holiday-spending-2026-11/anchored3.json",
-        "memory3": "forecasts/us-gallup-holiday-spending-2026-11/memory3.json",
-        "bank3": "forecasts/us-gallup-holiday-spending-2026-11/bank3.json",
-        "bankR3": "forecasts/us-gallup-holiday-spending-2026-11/bankR3.json",
-        "cohort": "forecasts/us-gallup-holiday-spending-2026-11/cohort.json"
+        "research-1": "forecasts/us-gallup-holiday-spending-2026-11/research-1.json",
+        "mosaic": "forecasts/us-gallup-holiday-spending-2026-11/mosaic.json",
+        "research-2": "forecasts/us-gallup-holiday-spending-2026-11/research-2.json",
+        "research-4e71fe": "forecasts/us-gallup-holiday-spending-2026-11/research-4e71fe.json",
+        "research-d5b88a": "forecasts/us-gallup-holiday-spending-2026-11/research-d5b88a.json",
+        "research-16accd": "forecasts/us-gallup-holiday-spending-2026-11/research-16accd.json"
       },
       "results": null,
       "batches": [
@@ -9055,20 +9055,20 @@
       "publication_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Topline%20Ipsos%20Consumer%20Tracker%20Wave%20151.pdf",
       "forecasts_count": 60,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd"
       ],
       "forecasts": {
-        "pure": "forecasts/us-ipsos-consumer-tracker-2026-11-03/pure.json",
-        "anchored3": "forecasts/us-ipsos-consumer-tracker-2026-11-03/anchored3.json",
-        "memory3": "forecasts/us-ipsos-consumer-tracker-2026-11-03/memory3.json",
-        "bank3": "forecasts/us-ipsos-consumer-tracker-2026-11-03/bank3.json",
-        "bankR3": "forecasts/us-ipsos-consumer-tracker-2026-11-03/bankR3.json",
-        "cohort": "forecasts/us-ipsos-consumer-tracker-2026-11-03/cohort.json"
+        "research-1": "forecasts/us-ipsos-consumer-tracker-2026-11-03/research-1.json",
+        "mosaic": "forecasts/us-ipsos-consumer-tracker-2026-11-03/mosaic.json",
+        "research-2": "forecasts/us-ipsos-consumer-tracker-2026-11-03/research-2.json",
+        "research-4e71fe": "forecasts/us-ipsos-consumer-tracker-2026-11-03/research-4e71fe.json",
+        "research-d5b88a": "forecasts/us-ipsos-consumer-tracker-2026-11-03/research-d5b88a.json",
+        "research-16accd": "forecasts/us-ipsos-consumer-tracker-2026-11-03/research-16accd.json"
       },
       "results": "results/us-ipsos-consumer-tracker-2026-11-03.json",
       "batches": [
@@ -9229,20 +9229,20 @@
       "publication_url": "https://store.steampowered.com/charts/topsellers/global",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd"
       ],
       "forecasts": {
-        "pure": "forecasts/global-steam-weekly-topsellers-2026-11-10/pure.json",
-        "anchored3": "forecasts/global-steam-weekly-topsellers-2026-11-10/anchored3.json",
-        "memory3": "forecasts/global-steam-weekly-topsellers-2026-11-10/memory3.json",
-        "bank3": "forecasts/global-steam-weekly-topsellers-2026-11-10/bank3.json",
-        "bankR3": "forecasts/global-steam-weekly-topsellers-2026-11-10/bankR3.json",
-        "cohort": "forecasts/global-steam-weekly-topsellers-2026-11-10/cohort.json"
+        "research-1": "forecasts/global-steam-weekly-topsellers-2026-11-10/research-1.json",
+        "mosaic": "forecasts/global-steam-weekly-topsellers-2026-11-10/mosaic.json",
+        "research-2": "forecasts/global-steam-weekly-topsellers-2026-11-10/research-2.json",
+        "research-4e71fe": "forecasts/global-steam-weekly-topsellers-2026-11-10/research-4e71fe.json",
+        "research-d5b88a": "forecasts/global-steam-weekly-topsellers-2026-11-10/research-d5b88a.json",
+        "research-16accd": "forecasts/global-steam-weekly-topsellers-2026-11-10/research-16accd.json"
       },
       "results": "results/global-steam-weekly-topsellers-2026-11-10.json",
       "batches": [
@@ -9395,22 +9395,22 @@
       "publication_url": "https://www.wahlrecht.de/umfragen/forsa.htm",
       "forecasts_count": 7,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/de-forsa-trendbarometer-2026-11-10/pure.json",
-        "anchored3": "forecasts/de-forsa-trendbarometer-2026-11-10/anchored3.json",
-        "memory3": "forecasts/de-forsa-trendbarometer-2026-11-10/memory3.json",
-        "bank3": "forecasts/de-forsa-trendbarometer-2026-11-10/bank3.json",
-        "bankR3": "forecasts/de-forsa-trendbarometer-2026-11-10/bankR3.json",
-        "cohort": "forecasts/de-forsa-trendbarometer-2026-11-10/cohort.json",
-        "xpub3": "forecasts/de-forsa-trendbarometer-2026-11-10/xpub3.json"
+        "research-1": "forecasts/de-forsa-trendbarometer-2026-11-10/research-1.json",
+        "mosaic": "forecasts/de-forsa-trendbarometer-2026-11-10/mosaic.json",
+        "research-2": "forecasts/de-forsa-trendbarometer-2026-11-10/research-2.json",
+        "research-4e71fe": "forecasts/de-forsa-trendbarometer-2026-11-10/research-4e71fe.json",
+        "research-d5b88a": "forecasts/de-forsa-trendbarometer-2026-11-10/research-d5b88a.json",
+        "research-16accd": "forecasts/de-forsa-trendbarometer-2026-11-10/research-16accd.json",
+        "research-6": "forecasts/de-forsa-trendbarometer-2026-11-10/research-6.json"
       },
       "results": "results/de-forsa-trendbarometer-2026-11-10.json",
       "batches": [
@@ -9640,22 +9640,22 @@
       "publication_url": "https://www.wahlrecht.de/umfragen/allensbach.htm",
       "forecasts_count": 7,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/de-allensbach-faz-2026-11/pure.json",
-        "anchored3": "forecasts/de-allensbach-faz-2026-11/anchored3.json",
-        "memory3": "forecasts/de-allensbach-faz-2026-11/memory3.json",
-        "bank3": "forecasts/de-allensbach-faz-2026-11/bank3.json",
-        "bankR3": "forecasts/de-allensbach-faz-2026-11/bankR3.json",
-        "cohort": "forecasts/de-allensbach-faz-2026-11/cohort.json",
-        "xpub3": "forecasts/de-allensbach-faz-2026-11/xpub3.json"
+        "research-1": "forecasts/de-allensbach-faz-2026-11/research-1.json",
+        "mosaic": "forecasts/de-allensbach-faz-2026-11/mosaic.json",
+        "research-2": "forecasts/de-allensbach-faz-2026-11/research-2.json",
+        "research-4e71fe": "forecasts/de-allensbach-faz-2026-11/research-4e71fe.json",
+        "research-d5b88a": "forecasts/de-allensbach-faz-2026-11/research-d5b88a.json",
+        "research-16accd": "forecasts/de-allensbach-faz-2026-11/research-16accd.json",
+        "research-6": "forecasts/de-allensbach-faz-2026-11/research-6.json"
       },
       "results": null,
       "batches": [
@@ -9852,22 +9852,22 @@
       "publication_url": "https://www.wahlrecht.de/umfragen/gms.htm",
       "forecasts_count": 7,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/de-gms-2026-11/pure.json",
-        "anchored3": "forecasts/de-gms-2026-11/anchored3.json",
-        "memory3": "forecasts/de-gms-2026-11/memory3.json",
-        "bank3": "forecasts/de-gms-2026-11/bank3.json",
-        "bankR3": "forecasts/de-gms-2026-11/bankR3.json",
-        "cohort": "forecasts/de-gms-2026-11/cohort.json",
-        "xpub3": "forecasts/de-gms-2026-11/xpub3.json"
+        "research-1": "forecasts/de-gms-2026-11/research-1.json",
+        "mosaic": "forecasts/de-gms-2026-11/mosaic.json",
+        "research-2": "forecasts/de-gms-2026-11/research-2.json",
+        "research-4e71fe": "forecasts/de-gms-2026-11/research-4e71fe.json",
+        "research-d5b88a": "forecasts/de-gms-2026-11/research-d5b88a.json",
+        "research-16accd": "forecasts/de-gms-2026-11/research-16accd.json",
+        "research-6": "forecasts/de-gms-2026-11/research-6.json"
       },
       "results": null,
       "batches": [
@@ -10054,14 +10054,14 @@
       "publication_url": "https://www.kba.de/DE/Presse/Pressemitteilungen/Fahrzeugzulassungen/2026/pm44_2026_n_10_26_pm_komplett.html",
       "forecasts_count": 3,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/de-kba-car-registrations-brand-2026-10/pure.json",
-        "anchored3": "forecasts/de-kba-car-registrations-brand-2026-10/anchored3.json",
-        "memory3": "forecasts/de-kba-car-registrations-brand-2026-10/memory3.json"
+        "research-1": "forecasts/de-kba-car-registrations-brand-2026-10/research-1.json",
+        "mosaic": "forecasts/de-kba-car-registrations-brand-2026-10/mosaic.json",
+        "research-2": "forecasts/de-kba-car-registrations-brand-2026-10/research-2.json"
       },
       "results": "results/de-kba-car-registrations-brand-2026-10.json",
       "batches": [
@@ -10235,22 +10235,22 @@
       "publication_url": "https://www.wahlrecht.de/umfragen/emnid.htm",
       "forecasts_count": 7,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/de-verian-bams-2026-11/pure.json",
-        "anchored3": "forecasts/de-verian-bams-2026-11/anchored3.json",
-        "memory3": "forecasts/de-verian-bams-2026-11/memory3.json",
-        "bank3": "forecasts/de-verian-bams-2026-11/bank3.json",
-        "bankR3": "forecasts/de-verian-bams-2026-11/bankR3.json",
-        "cohort": "forecasts/de-verian-bams-2026-11/cohort.json",
-        "xpub3": "forecasts/de-verian-bams-2026-11/xpub3.json"
+        "research-1": "forecasts/de-verian-bams-2026-11/research-1.json",
+        "mosaic": "forecasts/de-verian-bams-2026-11/mosaic.json",
+        "research-2": "forecasts/de-verian-bams-2026-11/research-2.json",
+        "research-4e71fe": "forecasts/de-verian-bams-2026-11/research-4e71fe.json",
+        "research-d5b88a": "forecasts/de-verian-bams-2026-11/research-d5b88a.json",
+        "research-16accd": "forecasts/de-verian-bams-2026-11/research-16accd.json",
+        "research-6": "forecasts/de-verian-bams-2026-11/research-6.json"
       },
       "results": "results/de-verian-bams-2026-11.json",
       "batches": [
@@ -10496,22 +10496,22 @@
       "publication_url": "https://findoutnow.co.uk/blog/voting-intention-4th-november/",
       "forecasts_count": 13,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-findoutnow-vi-2026-11-04/pure.json",
-        "anchored3": "forecasts/gb-findoutnow-vi-2026-11-04/anchored3.json",
-        "memory3": "forecasts/gb-findoutnow-vi-2026-11-04/memory3.json",
-        "bank3": "forecasts/gb-findoutnow-vi-2026-11-04/bank3.json",
-        "bankR3": "forecasts/gb-findoutnow-vi-2026-11-04/bankR3.json",
-        "cohort": "forecasts/gb-findoutnow-vi-2026-11-04/cohort.json",
-        "xpub3": "forecasts/gb-findoutnow-vi-2026-11-04/xpub3.json"
+        "research-1": "forecasts/gb-findoutnow-vi-2026-11-04/research-1.json",
+        "mosaic": "forecasts/gb-findoutnow-vi-2026-11-04/mosaic.json",
+        "research-2": "forecasts/gb-findoutnow-vi-2026-11-04/research-2.json",
+        "research-4e71fe": "forecasts/gb-findoutnow-vi-2026-11-04/research-4e71fe.json",
+        "research-d5b88a": "forecasts/gb-findoutnow-vi-2026-11-04/research-d5b88a.json",
+        "research-16accd": "forecasts/gb-findoutnow-vi-2026-11-04/research-16accd.json",
+        "research-6": "forecasts/gb-findoutnow-vi-2026-11-04/research-6.json"
       },
       "results": "results/gb-findoutnow-vi-2026-11-04.json",
       "batches": [
@@ -10752,20 +10752,20 @@
       "publication_url": "https://www.ons.gov.uk/peoplepopulationandcommunity/wellbeing/bulletins/publicopinionsandsocialtrendsgreatbritain/previousreleases",
       "forecasts_count": 338,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-ons-opn-2026-11-04/pure.json",
-        "anchored3": "forecasts/gb-ons-opn-2026-11-04/anchored3.json",
-        "memory3": "forecasts/gb-ons-opn-2026-11-04/memory3.json",
-        "bank3": "forecasts/gb-ons-opn-2026-11-04/bank3.json",
-        "bankR3": "forecasts/gb-ons-opn-2026-11-04/bankR3.json",
-        "cohort": "forecasts/gb-ons-opn-2026-11-04/cohort.json"
+        "research-1": "forecasts/gb-ons-opn-2026-11-04/research-1.json",
+        "mosaic": "forecasts/gb-ons-opn-2026-11-04/mosaic.json",
+        "research-2": "forecasts/gb-ons-opn-2026-11-04/research-2.json",
+        "research-4e71fe": "forecasts/gb-ons-opn-2026-11-04/research-4e71fe.json",
+        "research-d5b88a": "forecasts/gb-ons-opn-2026-11-04/research-d5b88a.json",
+        "research-16accd": "forecasts/gb-ons-opn-2026-11-04/research-16accd.json"
       },
       "results": null,
       "batches": [
@@ -10965,22 +10965,22 @@
       "publication_url": "https://www.opinium.com/resource-center/voting-intention-4th-november-2026",
       "forecasts_count": 13,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-opinium-observer-2026-11-04/pure.json",
-        "anchored3": "forecasts/gb-opinium-observer-2026-11-04/anchored3.json",
-        "memory3": "forecasts/gb-opinium-observer-2026-11-04/memory3.json",
-        "bank3": "forecasts/gb-opinium-observer-2026-11-04/bank3.json",
-        "bankR3": "forecasts/gb-opinium-observer-2026-11-04/bankR3.json",
-        "cohort": "forecasts/gb-opinium-observer-2026-11-04/cohort.json",
-        "xpub3": "forecasts/gb-opinium-observer-2026-11-04/xpub3.json"
+        "research-1": "forecasts/gb-opinium-observer-2026-11-04/research-1.json",
+        "mosaic": "forecasts/gb-opinium-observer-2026-11-04/mosaic.json",
+        "research-2": "forecasts/gb-opinium-observer-2026-11-04/research-2.json",
+        "research-4e71fe": "forecasts/gb-opinium-observer-2026-11-04/research-4e71fe.json",
+        "research-d5b88a": "forecasts/gb-opinium-observer-2026-11-04/research-d5b88a.json",
+        "research-16accd": "forecasts/gb-opinium-observer-2026-11-04/research-16accd.json",
+        "research-6": "forecasts/gb-opinium-observer-2026-11-04/research-6.json"
       },
       "results": "results/gb-opinium-observer-2026-11-04.json",
       "batches": [
@@ -11195,12 +11195,12 @@
       "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-tesco/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-tesco/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-tesco/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-tesco/mosaic.json"
       },
       "results": "results/gb-system1-xmas-2026-tesco.json",
       "batches": [
@@ -11372,16 +11372,16 @@
       "publication_url": "https://www.nbcnews.com/politics/2026-elections/exit-polls",
       "forecasts_count": 18,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/us-voter-poll-ssrs-2026/pure.json",
-        "anchored3": "forecasts/us-voter-poll-ssrs-2026/anchored3.json",
-        "memory3": "forecasts/us-voter-poll-ssrs-2026/memory3.json",
-        "xpub3": "forecasts/us-voter-poll-ssrs-2026/xpub3.json"
+        "research-1": "forecasts/us-voter-poll-ssrs-2026/research-1.json",
+        "mosaic": "forecasts/us-voter-poll-ssrs-2026/mosaic.json",
+        "research-2": "forecasts/us-voter-poll-ssrs-2026/research-2.json",
+        "research-6": "forecasts/us-voter-poll-ssrs-2026/research-6.json"
       },
       "results": "results/us-voter-poll-ssrs-2026.json",
       "batches": [
@@ -11556,12 +11556,12 @@
       "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-sainsburys/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-sainsburys/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-sainsburys/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-sainsburys/mosaic.json"
       },
       "results": "results/gb-system1-xmas-2026-sainsburys.json",
       "batches": [
@@ -11733,14 +11733,14 @@
       "publication_url": "https://election.lab.ufl.edu/voter-turnout/",
       "forecasts_count": 3,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-turnout-vep-2026/pure.json",
-        "anchored3": "forecasts/us-turnout-vep-2026/anchored3.json",
-        "memory3": "forecasts/us-turnout-vep-2026/memory3.json"
+        "research-1": "forecasts/us-turnout-vep-2026/research-1.json",
+        "mosaic": "forecasts/us-turnout-vep-2026/mosaic.json",
+        "research-2": "forecasts/us-turnout-vep-2026/research-2.json"
       },
       "results": null,
       "batches": [
@@ -11850,14 +11850,14 @@
       "publication_url": "https://www.netflix.com/tudum/top10/germany",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/de-netflix-top10-2026-11-01/pure.json",
-        "anchored3": "forecasts/de-netflix-top10-2026-11-01/anchored3.json",
-        "memory3": "forecasts/de-netflix-top10-2026-11-01/memory3.json"
+        "research-1": "forecasts/de-netflix-top10-2026-11-01/research-1.json",
+        "mosaic": "forecasts/de-netflix-top10-2026-11-01/mosaic.json",
+        "research-2": "forecasts/de-netflix-top10-2026-11-01/research-2.json"
       },
       "results": "results/de-netflix-top10-2026-11-01.json",
       "batches": [
@@ -11993,14 +11993,14 @@
       "publication_url": "https://www.netflix.com/tudum/top10/united-kingdom",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-netflix-top10-2026-11-01/pure.json",
-        "anchored3": "forecasts/gb-netflix-top10-2026-11-01/anchored3.json",
-        "memory3": "forecasts/gb-netflix-top10-2026-11-01/memory3.json"
+        "research-1": "forecasts/gb-netflix-top10-2026-11-01/research-1.json",
+        "mosaic": "forecasts/gb-netflix-top10-2026-11-01/mosaic.json",
+        "research-2": "forecasts/gb-netflix-top10-2026-11-01/research-2.json"
       },
       "results": "results/gb-netflix-top10-2026-11-01.json",
       "batches": [
@@ -12140,14 +12140,14 @@
       "publication_url": "https://www.netflix.com/tudum/top10",
       "forecasts_count": 6,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/global-netflix-top10-english-2026-11-01/pure.json",
-        "anchored3": "forecasts/global-netflix-top10-english-2026-11-01/anchored3.json",
-        "memory3": "forecasts/global-netflix-top10-english-2026-11-01/memory3.json"
+        "research-1": "forecasts/global-netflix-top10-english-2026-11-01/research-1.json",
+        "mosaic": "forecasts/global-netflix-top10-english-2026-11-01/mosaic.json",
+        "research-2": "forecasts/global-netflix-top10-english-2026-11-01/research-2.json"
       },
       "results": "results/global-netflix-top10-english-2026-11-01.json",
       "batches": [
@@ -12283,12 +12283,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-best-buy/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-best-buy/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-best-buy/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-best-buy/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -12384,12 +12384,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-chewy/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-chewy/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-chewy/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-chewy/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -12489,14 +12489,14 @@
       "publication_url": "https://www.boxofficemojo.com/weekend/2026W45/",
       "forecasts_count": 3,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/us-boxoffice-weekend-2026-11-06/pure.json",
-        "anchored3": "forecasts/us-boxoffice-weekend-2026-11-06/anchored3.json",
-        "memory3": "forecasts/us-boxoffice-weekend-2026-11-06/memory3.json"
+        "research-1": "forecasts/us-boxoffice-weekend-2026-11-06/research-1.json",
+        "mosaic": "forecasts/us-boxoffice-weekend-2026-11-06/mosaic.json",
+        "research-2": "forecasts/us-boxoffice-weekend-2026-11-06/research-2.json"
       },
       "results": "results/us-boxoffice-weekend-2026-11-06.json",
       "batches": [
@@ -12632,12 +12632,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-chewy-3/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-chewy-3/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-chewy-3/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-chewy-3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -12733,12 +12733,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-chewy-2/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-chewy-2/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-chewy-2/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-chewy-2/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -12834,12 +12834,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-very/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-very/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-very/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-very/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -12989,22 +12989,22 @@
       "publication_url": "https://news.web.nhk/senkyo/shijiritsu/",
       "forecasts_count": 26,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/pure.json",
-        "anchored3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/anchored3.json",
-        "memory3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/memory3.json",
-        "bank3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/bank3.json",
-        "bankR3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/bankR3.json",
-        "cohort": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/cohort.json",
-        "xpub3": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/xpub3.json"
+        "research-1": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/research-1.json",
+        "mosaic": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/mosaic.json",
+        "research-2": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/research-2.json",
+        "research-4e71fe": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/research-4e71fe.json",
+        "research-d5b88a": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/research-d5b88a.json",
+        "research-16accd": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/research-16accd.json",
+        "research-6": "forecasts/jp-nhk-seiji-ishiki-2026-11-05/research-6.json"
       },
       "results": null,
       "batches": [
@@ -13170,12 +13170,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-etsy/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-etsy/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-etsy/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-etsy/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -13292,14 +13292,14 @@
       "publication_url": "https://www.smmt.co.uk/vehicle-data/car-registrations/",
       "forecasts_count": 3,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3"
+        "research-1",
+        "mosaic",
+        "research-2"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-smmt-car-registrations-marque-2026-10/pure.json",
-        "anchored3": "forecasts/gb-smmt-car-registrations-marque-2026-10/anchored3.json",
-        "memory3": "forecasts/gb-smmt-car-registrations-marque-2026-10/memory3.json"
+        "research-1": "forecasts/gb-smmt-car-registrations-marque-2026-10/research-1.json",
+        "mosaic": "forecasts/gb-smmt-car-registrations-marque-2026-10/mosaic.json",
+        "research-2": "forecasts/gb-smmt-car-registrations-marque-2026-10/research-2.json"
       },
       "results": "results/gb-smmt-car-registrations-marque-2026-10.json",
       "batches": [
@@ -13435,12 +13435,12 @@
       "publication_url": "https://www.advanced-television.com/2026/11/04/john-lewis-2026-xmas-ad-scores-high-with-system1/",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-john-lewis/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-john-lewis/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-john-lewis/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-john-lewis/mosaic.json"
       },
       "results": "results/gb-system1-xmas-2026-john-lewis.json",
       "batches": [
@@ -13570,12 +13570,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-asda/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-asda/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-asda/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-asda/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -13671,12 +13671,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-asda-2/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-asda-2/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-asda-2/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-asda-2/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -13772,12 +13772,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-burberry/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-burberry/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-burberry/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-burberry/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -13873,12 +13873,12 @@
       "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-lidl/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-lidl/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-lidl/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-lidl/mosaic.json"
       },
       "results": "results/gb-system1-xmas-2026-lidl.json",
       "batches": [
@@ -14046,22 +14046,22 @@
       "publication_url": "https://www.wahlrecht.de/umfragen/insa.htm",
       "forecasts_count": 7,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/de-insa-meinungstrend-2026-11-10/pure.json",
-        "anchored3": "forecasts/de-insa-meinungstrend-2026-11-10/anchored3.json",
-        "memory3": "forecasts/de-insa-meinungstrend-2026-11-10/memory3.json",
-        "bank3": "forecasts/de-insa-meinungstrend-2026-11-10/bank3.json",
-        "bankR3": "forecasts/de-insa-meinungstrend-2026-11-10/bankR3.json",
-        "cohort": "forecasts/de-insa-meinungstrend-2026-11-10/cohort.json",
-        "xpub3": "forecasts/de-insa-meinungstrend-2026-11-10/xpub3.json"
+        "research-1": "forecasts/de-insa-meinungstrend-2026-11-10/research-1.json",
+        "mosaic": "forecasts/de-insa-meinungstrend-2026-11-10/mosaic.json",
+        "research-2": "forecasts/de-insa-meinungstrend-2026-11-10/research-2.json",
+        "research-4e71fe": "forecasts/de-insa-meinungstrend-2026-11-10/research-4e71fe.json",
+        "research-d5b88a": "forecasts/de-insa-meinungstrend-2026-11-10/research-d5b88a.json",
+        "research-16accd": "forecasts/de-insa-meinungstrend-2026-11-10/research-16accd.json",
+        "research-6": "forecasts/de-insa-meinungstrend-2026-11-10/research-6.json"
       },
       "results": "results/de-insa-meinungstrend-2026-11-10.json",
       "batches": [
@@ -14253,10 +14253,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-gap/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-gap/research-1.json"
       },
       "results": null,
       "batches": [
@@ -14338,12 +14338,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-boots/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-boots/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-boots/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-boots/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -14497,16 +14497,16 @@
       "publication_url": "https://data.sca.isr.umich.edu/tables.php",
       "forecasts_count": 17,
       "variants": [
-        "pure",
-        "anchored3",
-        "blend",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-3",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/us-umich-sca-2026-11/pure.json",
-        "anchored3": "forecasts/us-umich-sca-2026-11/anchored3.json",
-        "blend": "forecasts/us-umich-sca-2026-11/blend.json",
-        "xpub3": "forecasts/us-umich-sca-2026-11/xpub3.json"
+        "research-1": "forecasts/us-umich-sca-2026-11/research-1.json",
+        "mosaic": "forecasts/us-umich-sca-2026-11/mosaic.json",
+        "research-3": "forecasts/us-umich-sca-2026-11/research-3.json",
+        "research-6": "forecasts/us-umich-sca-2026-11/research-6.json"
       },
       "results": null,
       "batches": [
@@ -14630,12 +14630,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-asda-3/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-asda-3/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-asda-3/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-asda-3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -14731,12 +14731,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-starbucks/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-starbucks/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-starbucks/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-starbucks/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -14832,12 +14832,12 @@
       "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-aldi/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-aldi/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-aldi/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-aldi/mosaic.json"
       },
       "results": "results/gb-system1-xmas-2026-aldi.json",
       "batches": [
@@ -14967,12 +14967,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-amazon/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-amazon/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-amazon/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-amazon/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -15068,12 +15068,12 @@
       "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-barbour/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-barbour/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-barbour/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-barbour/mosaic.json"
       },
       "results": "results/gb-system1-xmas-2026-barbour.json",
       "batches": [
@@ -15203,12 +15203,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-lego/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-lego/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-lego/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-lego/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -15304,12 +15304,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-tk-maxx/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-tk-maxx/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-tk-maxx/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-tk-maxx/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -15405,12 +15405,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-amazon/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-amazon/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-amazon/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-amazon/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -15506,12 +15506,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-lego/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-lego/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-lego/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-lego/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -15607,12 +15607,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-verizon/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-verizon/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-verizon/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-verizon/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -15708,12 +15708,12 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-walmart-2/pure.json",
-        "anchored3": "forecasts/us-system1-xmas-2026-walmart-2/anchored3.json"
+        "research-1": "forecasts/us-system1-xmas-2026-walmart-2/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-walmart-2/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -15809,12 +15809,12 @@
       "publication_url": "https://www.advanced-television.com/2026/11/12/analysis-morrisons-sainsburys-lead-in-most-effective-xmas-advert/",
       "forecasts_count": 2,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-ms/pure.json",
-        "anchored3": "forecasts/gb-system1-xmas-2026-ms/anchored3.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-ms/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-ms/mosaic.json"
       },
       "results": "results/gb-system1-xmas-2026-ms.json",
       "batches": [
@@ -15990,22 +15990,22 @@
       "publication_url": "https://www.forschungsgruppe.de/Umfragen/Politbarometer/Archiv/Politbarometer_2026/November_I_2026/",
       "forecasts_count": 40,
       "variants": [
-        "pure",
-        "anchored3",
-        "memory3",
-        "bank3",
-        "bankR3",
-        "cohort",
-        "xpub3"
+        "research-1",
+        "mosaic",
+        "research-2",
+        "research-4e71fe",
+        "research-d5b88a",
+        "research-16accd",
+        "research-6"
       ],
       "forecasts": {
-        "pure": "forecasts/de-zdf-politbarometer-2026-11-13/pure.json",
-        "anchored3": "forecasts/de-zdf-politbarometer-2026-11-13/anchored3.json",
-        "memory3": "forecasts/de-zdf-politbarometer-2026-11-13/memory3.json",
-        "bank3": "forecasts/de-zdf-politbarometer-2026-11-13/bank3.json",
-        "bankR3": "forecasts/de-zdf-politbarometer-2026-11-13/bankR3.json",
-        "cohort": "forecasts/de-zdf-politbarometer-2026-11-13/cohort.json",
-        "xpub3": "forecasts/de-zdf-politbarometer-2026-11-13/xpub3.json"
+        "research-1": "forecasts/de-zdf-politbarometer-2026-11-13/research-1.json",
+        "mosaic": "forecasts/de-zdf-politbarometer-2026-11-13/mosaic.json",
+        "research-2": "forecasts/de-zdf-politbarometer-2026-11-13/research-2.json",
+        "research-4e71fe": "forecasts/de-zdf-politbarometer-2026-11-13/research-4e71fe.json",
+        "research-d5b88a": "forecasts/de-zdf-politbarometer-2026-11-13/research-d5b88a.json",
+        "research-16accd": "forecasts/de-zdf-politbarometer-2026-11-13/research-16accd.json",
+        "research-6": "forecasts/de-zdf-politbarometer-2026-11-13/research-6.json"
       },
       "results": "results/de-zdf-politbarometer-2026-11-13.json",
       "batches": [
@@ -16250,10 +16250,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-de-weekly-2026-11-19-measurement-v2/pure.json"
+        "research-1": "forecasts/spotify-de-weekly-2026-11-19-measurement-v2/research-1.json"
       },
       "results": "results/spotify-de-weekly-2026-11-19-measurement-v2.json",
       "batches": [
@@ -16318,10 +16318,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-us-weekly-2026-11-19-measurement-v2/pure.json"
+        "research-1": "forecasts/spotify-us-weekly-2026-11-19-measurement-v2/research-1.json"
       },
       "results": "results/spotify-us-weekly-2026-11-19-measurement-v2.json",
       "batches": [
@@ -16386,10 +16386,10 @@
       "publication_url": "https://www.netflix.com/tudum/top10",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/netflix-global-english-films-2026-11-22-measurement-v2/pure.json"
+        "research-1": "forecasts/netflix-global-english-films-2026-11-22-measurement-v2/research-1.json"
       },
       "results": null,
       "batches": [
@@ -16460,10 +16460,10 @@
       "publication_url": "https://www.ons.gov.uk/economy/economicoutputandproductivity/output/datasets/businessinsightsandimpactontheukeconomy",
       "forecasts_count": 25,
       "variants": [
-        "anchored3"
+        "mosaic"
       ],
       "forecasts": {
-        "anchored3": "forecasts/gb-ons-bics-wave168-2026-11-19/anchored3.json"
+        "mosaic": "forecasts/gb-ons-bics-wave168-2026-11-19/mosaic.json"
       },
       "results": "results/gb-ons-bics-wave168-2026-11-19.json",
       "batches": [
@@ -16668,10 +16668,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-de-weekly-2026-11-26-rolling-v3/pure.json"
+        "research-1": "forecasts/spotify-de-weekly-2026-11-26-rolling-v3/research-1.json"
       },
       "results": null,
       "batches": [
@@ -16735,10 +16735,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-us-weekly-2026-11-26-rolling-v3/pure.json"
+        "research-1": "forecasts/spotify-us-weekly-2026-11-26-rolling-v3/research-1.json"
       },
       "results": null,
       "batches": [
@@ -16864,12 +16864,12 @@
       "publication_url": "https://yougov.com/en-us/content/the-economist",
       "forecasts_count": 120,
       "variants": [
-        "pure",
-        "anchored3"
+        "research-1",
+        "mosaic"
       ],
       "forecasts": {
-        "pure": "forecasts/us-economist-yougov-2026-11-20/pure.json",
-        "anchored3": "forecasts/us-economist-yougov-2026-11-20/anchored3.json"
+        "research-1": "forecasts/us-economist-yougov-2026-11-20/research-1.json",
+        "mosaic": "forecasts/us-economist-yougov-2026-11-20/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17016,10 +17016,10 @@
       "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
       "forecasts_count": 30,
       "variants": [
-        "anchored3"
+        "mosaic"
       ],
       "forecasts": {
-        "anchored3": "forecasts/gb-yougov-trackers-2026-11-22/anchored3.json"
+        "mosaic": "forecasts/gb-yougov-trackers-2026-11-22/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17126,10 +17126,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-amazon-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-amazon-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -17236,10 +17236,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-apple-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-apple-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -17346,10 +17346,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-asda-2-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-asda-2-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -17456,10 +17456,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-asda-3-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-asda-3-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -17566,10 +17566,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-asda-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-asda-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -17676,10 +17676,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-boots-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-boots-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -17786,10 +17786,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-burberry-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-burberry-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -17896,10 +17896,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-lego-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-lego-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18006,10 +18006,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/gb-system1-xmas-2026-tk-maxx-consumer/pure.json"
+        "research-1": "forecasts/gb-system1-xmas-2026-tk-maxx-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18116,10 +18116,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-amazon-2-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-amazon-2-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18226,10 +18226,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-amazon-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-amazon-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18336,10 +18336,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-apple-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-apple-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18446,10 +18446,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-best-buy-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-best-buy-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18556,10 +18556,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-chewy-2-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-chewy-2-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18666,10 +18666,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-chewy-3-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-chewy-3-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18776,10 +18776,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-chewy-4-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-chewy-4-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18886,10 +18886,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-chewy-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-chewy-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -18996,10 +18996,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-coca-cola-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-coca-cola-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19106,10 +19106,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-etsy-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-etsy-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19216,10 +19216,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-gap-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-gap-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19326,10 +19326,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-lego-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-lego-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19436,10 +19436,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-lexus-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-lexus-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19546,10 +19546,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-mcdonalds-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-mcdonalds-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19656,10 +19656,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-starbucks-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-starbucks-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19766,10 +19766,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-target-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-target-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19876,10 +19876,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-verizon-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-verizon-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -19986,10 +19986,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/us-system1-xmas-2026-walmart-2-consumer/pure.json"
+        "research-1": "forecasts/us-system1-xmas-2026-walmart-2-consumer/research-1.json"
       },
       "results": null,
       "batches": [
@@ -20001,6 +20001,776 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-walmart-2-consumer__20261122T195020666439Z__s2683.json",
           "manifest_sha256": "87a95a8342b6b2d334d251724c237daa509eb1e1f999b7ffaef3c45155a2a6f7",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-walmart-2-consumer__20261122T195020666439Z__s2683.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-hobby-lobby-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Hobby Lobby \"50% Off Christmas | Hobby Lobby® Commercial\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Hobby Lobby Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 15 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Hobby Lobby, released 2026-11-15 07:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-23T02:40:24Z",
+      "first_lock_utc": "2026-11-22T20:40:48Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-hobby-lobby-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-hobby-lobby-consumer__20261122T204048608633Z__s2692",
+          "locked_at": "2026-11-22T20:40:48Z",
+          "entries": 1,
+          "merkle_root": "abb693feda4148224d9cd81819cb0fc6655f861a3a85c8ab0c06b54c60375754",
+          "manifest": "proofs/batches/us-system1-xmas-2026-hobby-lobby-consumer__20261122T204048608633Z__s2692.json",
+          "manifest_sha256": "9e16f36bf00ce2df39f338b58447fd6a58dd43a3c488d97fa63ff784d07afa30",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-hobby-lobby-consumer__20261122T204048608633Z__s2692.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-verizon-2-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Verizon \"Verizon Presenta: Dos Vidas, Un Destino con Sebastián Rulli\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Verizon Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Verizon, released 2026-11-05 16:03Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-23T02:41:20Z",
+      "first_lock_utc": "2026-11-22T20:41:58Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-verizon-2-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-verizon-2-consumer__20261122T204158413235Z__s2693",
+          "locked_at": "2026-11-22T20:41:58Z",
+          "entries": 1,
+          "merkle_root": "95763621bf975be153714131ca418eb5495609e3c7188a1fd87c4033fb66abbe",
+          "manifest": "proofs/batches/us-system1-xmas-2026-verizon-2-consumer__20261122T204158413235Z__s2693.json",
+          "manifest_sha256": "bbb1476164dc30ef22dd5db8f9c485aa6a5ea84dec4dd97dac344bf4f4a517d1",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-verizon-2-consumer__20261122T204158413235Z__s2693.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-starbucks-consumer",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Starbucks \"Perfect Harmony :60 | The Starbucks Coffee Company\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Starbucks Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "UK adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: ONS mid-2025 population estimates, UK, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the UK ad after its release on 06 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.104
+              },
+              {
+                "label": "25-34",
+                "share": 0.1673
+              },
+              {
+                "label": "35-44",
+                "share": 0.1698
+              },
+              {
+                "label": "45-54",
+                "share": 0.1539
+              },
+              {
+                "label": "55-64",
+                "share": 0.1624
+              },
+              {
+                "label": "65+",
+                "share": 0.2426
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4841
+              },
+              {
+                "label": "Female",
+                "share": 0.5159
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "UK adults"
+      },
+      "wave": "Christmas 2026 (Starbucks, released 2026-11-06 00:17Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-23T02:42:29Z",
+      "first_lock_utc": "2026-11-22T20:43:03Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/gb-system1-xmas-2026-starbucks-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-starbucks-consumer__20261122T204303784246Z__s2694",
+          "locked_at": "2026-11-22T20:43:03Z",
+          "entries": 1,
+          "merkle_root": "972be909c149b72ebde8c5cbdc19cd7eb42f789d242aef0f9314446f88d6d4e4",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-starbucks-consumer__20261122T204303784246Z__s2694.json",
+          "manifest_sha256": "bf04d62c4a6d5a830f244dc7545b86ffcb53355ba61841f503b5ad0f26c71cf4",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-starbucks-consumer__20261122T204303784246Z__s2694.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-etsy-consumer",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Etsy \"There's a workshop for every wish | Celebrate Being Human\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Etsy Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "UK adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: ONS mid-2025 population estimates, UK, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the UK ad after its release on 02 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.104
+              },
+              {
+                "label": "25-34",
+                "share": 0.1673
+              },
+              {
+                "label": "35-44",
+                "share": 0.1698
+              },
+              {
+                "label": "45-54",
+                "share": 0.1539
+              },
+              {
+                "label": "55-64",
+                "share": 0.1624
+              },
+              {
+                "label": "65+",
+                "share": 0.2426
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4841
+              },
+              {
+                "label": "Female",
+                "share": 0.5159
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "UK adults"
+      },
+      "wave": "Christmas 2026 (Etsy, released 2026-11-02 18:01Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-23T02:43:21Z",
+      "first_lock_utc": "2026-11-22T20:43:43Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/gb-system1-xmas-2026-etsy-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-etsy-consumer__20261122T204343244321Z__s2695",
+          "locked_at": "2026-11-22T20:43:43Z",
+          "entries": 1,
+          "merkle_root": "16d350460ed4ca5e5af155378ea6958e6075ea26e3cca4efa70a227690bfd13e",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-etsy-consumer__20261122T204343244321Z__s2695.json",
+          "manifest_sha256": "826766dae4f623260c9ea4c9c758fec663f76329fcf69b171b11e35d43360540",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-etsy-consumer__20261122T204343244321Z__s2695.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-lexus-2-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Lexus \"2026 December to Remember: Over the Years | Lexus\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Lexus Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 06 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Lexus, released 2026-11-06 19:53Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-23T02:44:10Z",
+      "first_lock_utc": "2026-11-22T20:44:39Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-lexus-2-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-lexus-2-consumer__20261122T204439401036Z__s2696",
+          "locked_at": "2026-11-22T20:44:39Z",
+          "entries": 1,
+          "merkle_root": "e06fd645dcb61b48e58b149d3ad7a507059bb4b22e6646254064b8e2fac33c65",
+          "manifest": "proofs/batches/us-system1-xmas-2026-lexus-2-consumer__20261122T204439401036Z__s2696.json",
+          "manifest_sha256": "e566fbea5261913382d6dff6c996ae7b026cf859425c22d641d45c689971e20c",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-lexus-2-consumer__20261122T204439401036Z__s2696.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-hobby-lobby-2-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Hobby Lobby \"Add Your Holiday Touch With Hobby Lobby®\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Hobby Lobby Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 23 Oct 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Hobby Lobby, released 2026-10-23 06:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-23T02:45:48Z",
+      "first_lock_utc": "2026-11-22T20:46:20Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-hobby-lobby-2-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-hobby-lobby-2-consumer__20261122T204620657619Z__s2697",
+          "locked_at": "2026-11-22T20:46:20Z",
+          "entries": 1,
+          "merkle_root": "32c4d4672867963cf2be5005374ffc445946bbc5d35a28c9babf398624e78b0d",
+          "manifest": "proofs/batches/us-system1-xmas-2026-hobby-lobby-2-consumer__20261122T204620657619Z__s2697.json",
+          "manifest_sha256": "44f68dbf3a5e3099d605bd170e8c67fc0650b0acaaf7f66c1d07980036702841",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-hobby-lobby-2-consumer__20261122T204620657619Z__s2697.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-verizon-3-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Verizon \"Busy Season | Verizon | Simplicity\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Verizon Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 13 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Verizon, released 2026-11-13 15:07Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-23T02:46:40Z",
+      "first_lock_utc": "2026-11-22T20:49:27Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-verizon-3-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-verizon-3-consumer__20261122T204927879151Z__s2698",
+          "locked_at": "2026-11-22T20:49:27Z",
+          "entries": 1,
+          "merkle_root": "fdb17632a35be0b9c12bb7ff08c321d1b2360ee720778a04d80c752170caa879",
+          "manifest": "proofs/batches/us-system1-xmas-2026-verizon-3-consumer__20261122T204927879151Z__s2698.json",
+          "manifest_sha256": "ae0a7cb766ecc5bcb9d9f4c477dfacb3faffa3a3369df8fd2e849475bb705f34",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-verizon-3-consumer__20261122T204927879151Z__s2698.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,
@@ -20090,10 +20860,10 @@
       "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
       "forecasts_count": 10,
       "variants": [
-        "anchored3"
+        "mosaic"
       ],
       "forecasts": {
-        "anchored3": "forecasts/fr-ec-consumer-survey-2026-12/anchored3.json"
+        "mosaic": "forecasts/fr-ec-consumer-survey-2026-12/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20179,10 +20949,10 @@
       "publication_url": "https://nrf.com/media-center/press-releases",
       "forecasts_count": 10,
       "variants": [
-        "anchored3"
+        "mosaic"
       ],
       "forecasts": {
-        "anchored3": "forecasts/us-nrf-prosper-thanksgiving-weekend-2026/anchored3.json"
+        "mosaic": "forecasts/us-nrf-prosper-thanksgiving-weekend-2026/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20289,10 +21059,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-de-listeners-weekly-2026-12-03/pure.json"
+        "research-1": "forecasts/spotify-de-listeners-weekly-2026-12-03/research-1.json"
       },
       "results": null,
       "batches": [
@@ -20356,10 +21126,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-de-weekly-2026-12-03-rolling-v3/pure.json"
+        "research-1": "forecasts/spotify-de-weekly-2026-12-03-rolling-v3/research-1.json"
       },
       "results": null,
       "batches": [
@@ -20423,10 +21193,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-us-weekly-2026-12-03-rolling-v3/pure.json"
+        "research-1": "forecasts/spotify-us-weekly-2026-12-03-rolling-v3/research-1.json"
       },
       "results": null,
       "batches": [
@@ -20490,10 +21260,10 @@
       "publication_url": "https://www.netflix.com/tudum/top10",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/netflix-global-english-films-2026-12-06-rolling-v3/pure.json"
+        "research-1": "forecasts/netflix-global-english-films-2026-12-06-rolling-v3/research-1.json"
       },
       "results": null,
       "batches": [
@@ -20600,10 +21370,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-de-listeners-weekly-2026-12-10/pure.json"
+        "research-1": "forecasts/spotify-de-listeners-weekly-2026-12-10/research-1.json"
       },
       "results": null,
       "batches": [
@@ -20667,10 +21437,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "pure"
+        "research-1"
       ],
       "forecasts": {
-        "pure": "forecasts/spotify-us-weekly-2026-12-10-rolling-v3/pure.json"
+        "research-1": "forecasts/spotify-us-weekly-2026-12-10-rolling-v3/research-1.json"
       },
       "results": null,
       "batches": [

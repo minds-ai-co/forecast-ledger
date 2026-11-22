@@ -33,17 +33,17 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 10,
       "tvd": 0.121346,
       "mae_pp": 4.853838
     },
-    "anchored3": {
+    "mosaic": {
       "items": 10,
       "tvd": 0.079517,
       "mae_pp": 3.180687
     },
-    "memory3": {
+    "research-2": {
       "items": 10,
       "tvd": 0.121596,
       "mae_pp": 4.863838
@@ -51,7 +51,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -71,7 +71,7 @@
           "mae_pp": 4.853838
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -91,7 +91,7 @@
           "mae_pp": 3.180687
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -117,7 +117,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__overall__r1",
       "entry_sha256": "404358aed9061e9cc2d05322c0bb154c2cd7a71b3ebdbe8e5754e260a89ae6a4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_macron",
       "group_id": "overall",
       "counted": true,
@@ -137,7 +137,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__sex_men__r1",
       "entry_sha256": "a614e272b9ea633de2bee007555e51156f9eaf62b0f50a56fc9f0f256e469fb6",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_macron",
       "group_id": "sex_men",
       "counted": true,
@@ -157,7 +157,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__sex_women__r1",
       "entry_sha256": "491887dac5e207764efd7e796e345471f94a422327e5db48c0175b310e423d31",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_macron",
       "group_id": "sex_women",
       "counted": true,
@@ -177,7 +177,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__age_18_24__r1",
       "entry_sha256": "f331c70f91dcfb5d928d599c14616ca47b0d54b0654fca4a3e057ea38b291c23",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_macron",
       "group_id": "age_18_24",
       "counted": true,
@@ -197,7 +197,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_macron__age_65_plus__r1",
       "entry_sha256": "6cce45f422894578e758f5b97ed541de1481253e5ea170eceed23ac448558276",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_macron",
       "group_id": "age_65_plus",
       "counted": true,
@@ -217,7 +217,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__overall__r1",
       "entry_sha256": "6bc7121cb901ccf9ef768e92d981e2826ef0ce9b1930a4a47b6c37f96242ee97",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_lecornu",
       "group_id": "overall",
       "counted": true,
@@ -237,7 +237,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__sex_men__r1",
       "entry_sha256": "9140b257d166f6a772eb4e640980333bfa9bbbf9b708997c46877f5108c8a5cc",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_lecornu",
       "group_id": "sex_men",
       "counted": true,
@@ -257,7 +257,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__sex_women__r1",
       "entry_sha256": "b8597b124d84d34fb991e478212ef01555286a684f82018a9dd03a3bfb2561a3",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_lecornu",
       "group_id": "sex_women",
       "counted": true,
@@ -277,7 +277,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__age_18_24__r1",
       "entry_sha256": "a8e78da2e9a8c155acf80f48fa9783a646d4ea50316edefdff2ced61c2264846",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_lecornu",
       "group_id": "age_18_24",
       "counted": true,
@@ -297,7 +297,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__confidence_lecornu__age_65_plus__r1",
       "entry_sha256": "3ff37da614b787343b4dc805dd8213b6ad53b09c6f7363fa190ad823d1a68092",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "confidence_lecornu",
       "group_id": "age_65_plus",
       "counted": true,
@@ -317,7 +317,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__overall__r1",
       "entry_sha256": "4b342cd7f819aa6c75af9c0de4b974faa7617195363c4411815a92eff611b8d7",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_macron",
       "group_id": "overall",
       "counted": true,
@@ -337,7 +337,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__sex_men__r1",
       "entry_sha256": "3c01f5bc9ee87397d8edcfc57d3cd3696d1856f5de7e490785a1645cc72f9502",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_macron",
       "group_id": "sex_men",
       "counted": true,
@@ -357,7 +357,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__sex_women__r1",
       "entry_sha256": "e38c4facafd035a7551141a7264e2cf7a5c5bc413dc2aac9782db90acfa11882",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_macron",
       "group_id": "sex_women",
       "counted": true,
@@ -377,7 +377,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__age_18_24__r1",
       "entry_sha256": "aa0b65a178e2e6069cc962c0aedf6cf6a1cbc89e462dae0f045df31524838d3f",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_macron",
       "group_id": "age_18_24",
       "counted": true,
@@ -397,7 +397,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_macron__age_65_plus__r1",
       "entry_sha256": "8f60448b4e6a8c4528f5dd7f057a62d373a8251e5cbcd5795102d60be10985eb",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_macron",
       "group_id": "age_65_plus",
       "counted": true,
@@ -417,7 +417,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__overall__r1",
       "entry_sha256": "b8d704c0b137c52d577e4442b90e449f759be19f587f0d84cfe5bfd64a2a73c6",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_lecornu",
       "group_id": "overall",
       "counted": true,
@@ -437,7 +437,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__sex_men__r1",
       "entry_sha256": "2c91ff474dcb7752213df7af751bdcdc3b8038df87dc4f8fe4ae7ae8c6eb7964",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_lecornu",
       "group_id": "sex_men",
       "counted": true,
@@ -457,7 +457,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__sex_women__r1",
       "entry_sha256": "77d283f896e12d4f2c80d6cfb4e619a4ce090e04249fa733180535867daeaf2a",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_lecornu",
       "group_id": "sex_women",
       "counted": true,
@@ -477,7 +477,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__age_18_24__r1",
       "entry_sha256": "babc7b37915b0a0ee0cada29995b4ba34fff4bb1ca9516cb5fb667e3d33774b2",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_lecornu",
       "group_id": "age_18_24",
       "counted": true,
@@ -497,7 +497,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__anchored3__confidence_lecornu__age_65_plus__r1",
       "entry_sha256": "5adaa4c9ae91875fe278047376d6818ec1e75df44c5e6c52ad8e484ac1c8b3be",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "confidence_lecornu",
       "group_id": "age_65_plus",
       "counted": true,
@@ -517,7 +517,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__overall__r1",
       "entry_sha256": "09ff027fb513fa2c963782cdee671af042988c4d741456e6b666fb7d50c9c394",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_macron",
       "group_id": "overall",
       "counted": true,
@@ -537,7 +537,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__sex_men__r1",
       "entry_sha256": "49dcb2aa4f038dd5ef0adbd3d916717cbe65d6eadb20b87382242b403b6921a6",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_macron",
       "group_id": "sex_men",
       "counted": true,
@@ -557,7 +557,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__sex_women__r1",
       "entry_sha256": "87e3871358b8d961f04fb5ff556421ed8141dd841cba614a21434270278b874a",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_macron",
       "group_id": "sex_women",
       "counted": true,
@@ -577,7 +577,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__age_18_24__r1",
       "entry_sha256": "b1a19006341568b2a417aaaae7ce3d2f3def0c7abf5276de27996ad7885ff7d5",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_macron",
       "group_id": "age_18_24",
       "counted": true,
@@ -597,7 +597,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_macron__age_65_plus__r1",
       "entry_sha256": "54a53a47e094fddab53a7beda59b8a3e30a90c5ebab193778ffe985a5c187427",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_macron",
       "group_id": "age_65_plus",
       "counted": true,
@@ -617,7 +617,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__overall__r1",
       "entry_sha256": "48f0ab3be7ae792ad555a8248a79560f10a61869c3c3dee84cde6fe4f92751b2",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_lecornu",
       "group_id": "overall",
       "counted": true,
@@ -637,7 +637,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__sex_men__r1",
       "entry_sha256": "2464796e52d34b56000bee9b953dfd1987b69fcea016d5d49634a56ce1de502e",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_lecornu",
       "group_id": "sex_men",
       "counted": true,
@@ -657,7 +657,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__sex_women__r1",
       "entry_sha256": "e48b7b02803efd4916f3fd2e1f6e109b2e3507f225997080cdb562e6e0445e6e",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_lecornu",
       "group_id": "sex_women",
       "counted": true,
@@ -677,7 +677,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__age_18_24__r1",
       "entry_sha256": "94bbe411a2c7cfde5acddfc94e575ab684aca8482e9e3067276606648497531f",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_lecornu",
       "group_id": "age_18_24",
       "counted": true,
@@ -697,7 +697,7 @@
     {
       "entry_id": "fr-elabe-observatoire-2026-10-27__memory3__confidence_lecornu__age_65_plus__r1",
       "entry_sha256": "1dac4519037a9646ba6cf4469803847b17b6b670f815ae6e0e5f86ed5766bffd",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "confidence_lecornu",
       "group_id": "age_65_plus",
       "counted": true,

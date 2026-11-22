@@ -25,17 +25,17 @@
     "credit": "Source: European Commission, DG ECFIN, Business and Consumer Surveys, October 2026. © European Union, CC BY 4.0. Answer shares normalised over the listed options and rounded for display. Minds forecasts are independent estimates; no EU endorsement is implied."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 10,
       "tvd": 0.120487,
       "mae_pp": 4.141579
     },
-    "anchored3": {
+    "mosaic": {
       "items": 10,
       "tvd": 0.064049,
       "mae_pp": 2.281124
     },
-    "memory3": {
+    "research-2": {
       "items": 10,
       "tvd": 0.122287,
       "mae_pp": 4.188746
@@ -43,7 +43,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 9,
           "n_distribution": 9,
@@ -58,7 +58,7 @@
           "mae_pp": 4.399533
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 9,
           "n_distribution": 9,
@@ -73,7 +73,7 @@
           "mae_pp": 2.354582
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 9,
           "n_distribution": 9,
@@ -90,7 +90,7 @@
       }
     },
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -105,7 +105,7 @@
           "mae_pp": 1.82
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -120,7 +120,7 @@
           "mae_pp": 1.62
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -141,7 +141,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__fin_past12__overall__r1",
       "entry_sha256": "483515d2d82b95ec979bc352860d53521d92748f52d074f2c7561a253436869f",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "fin_past12",
       "group_id": "overall",
       "counted": true,
@@ -162,7 +162,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__fin_next12__overall__r1",
       "entry_sha256": "61f6f7cc81cfb2e15359f4a0eed83e086d10ee051df8924dbeefc0a9e020c378",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "fin_next12",
       "group_id": "overall",
       "counted": true,
@@ -183,7 +183,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__econ_past12__overall__r1",
       "entry_sha256": "1e69e2afcaa4a234f59c2542f28d9c912af705def00dca3c0b9e9ceafbd98750",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "econ_past12",
       "group_id": "overall",
       "counted": true,
@@ -204,7 +204,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__econ_next12__overall__r1",
       "entry_sha256": "6bdbc607b2f994e201076bfdb9931705caa8a58a2c0ae07f3d684073d1a72228",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "econ_next12",
       "group_id": "overall",
       "counted": true,
@@ -225,7 +225,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__prices_past12__overall__r1",
       "entry_sha256": "36d14ac29849534a8c7b08c4d208d1d0fcc330cb5c719f141864954e2de1059d",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "prices_past12",
       "group_id": "overall",
       "counted": true,
@@ -246,7 +246,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__prices_next12__overall__r1",
       "entry_sha256": "38fb0d24bc104b5fab4dcd5e51a9bc50c779f088acf62902979a3818f2c434ac",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "prices_next12",
       "group_id": "overall",
       "counted": true,
@@ -267,7 +267,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__unemployment_next12__overall__r1",
       "entry_sha256": "1b79593c3563e393173d99933e4c30b32ed4c67c61da96369995d876aa3588ca",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "unemployment_next12",
       "group_id": "overall",
       "counted": true,
@@ -288,7 +288,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__major_purchases_now__overall__r1",
       "entry_sha256": "a71d7788e7d3d5ffe1f19c874a028ca49653766733909573ab45245dc2a602d6",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "major_purchases_now",
       "group_id": "overall",
       "counted": true,
@@ -307,7 +307,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__savings_next12__overall__r1",
       "entry_sha256": "d4e66ff2f0d7069e305e5a4ed8f0f57ba0bddb3624ec8ee25b472751c5ce157c",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "savings_next12",
       "group_id": "overall",
       "counted": true,
@@ -327,7 +327,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__household_fin_now__overall__r1",
       "entry_sha256": "e8873a4c0fbab38c970925324888ff35b3a3b93fe01ff82821c5de8c024e6ccc",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "household_fin_now",
       "group_id": "overall",
       "counted": true,
@@ -348,7 +348,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_past12__overall__r1",
       "entry_sha256": "059ad6e353ef74c6e7e800669592f34c61fb271490e06aa7f5291efd831d4015",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "fin_past12",
       "group_id": "overall",
       "counted": true,
@@ -369,7 +369,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__fin_next12__overall__r1",
       "entry_sha256": "3288190211f5ba7d539232745313956b8508df5016c081caf2002d379aa832ad",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "fin_next12",
       "group_id": "overall",
       "counted": true,
@@ -390,7 +390,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_past12__overall__r1",
       "entry_sha256": "8da4a7f0a1eb1c96393e258342b597b07fee2edbbc95dce22885030924994019",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "econ_past12",
       "group_id": "overall",
       "counted": true,
@@ -411,7 +411,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__econ_next12__overall__r1",
       "entry_sha256": "c92671ee82175f9cf16d6f4e170b6ca4c295c44d5e54683bb9893e88fb5d0f77",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "econ_next12",
       "group_id": "overall",
       "counted": true,
@@ -432,7 +432,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_past12__overall__r1",
       "entry_sha256": "780f18845fbf20209df5281b443ec37da502f5588be1b4c6857db59ff590a5fe",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "prices_past12",
       "group_id": "overall",
       "counted": true,
@@ -453,7 +453,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__prices_next12__overall__r1",
       "entry_sha256": "5812de993b2f4834cfe37de8b10318ef7e8e22074e3213b6fc6ce109140c2bf8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "prices_next12",
       "group_id": "overall",
       "counted": true,
@@ -474,7 +474,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__unemployment_next12__overall__r1",
       "entry_sha256": "53f51e72c69abf2ba7cfea76b99d2d7cb2aa94b315d3ae95ff4c5fed71e19111",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "unemployment_next12",
       "group_id": "overall",
       "counted": true,
@@ -495,7 +495,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__major_purchases_now__overall__r1",
       "entry_sha256": "31091c2a51a73b0b8ed28c433eaf39da9c953adc419e93f7788e895092f2456f",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "major_purchases_now",
       "group_id": "overall",
       "counted": true,
@@ -514,7 +514,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__savings_next12__overall__r1",
       "entry_sha256": "28b7e18f7c0337b81fc8dc04e67a2adb5056f068ff879eddf5943f3b0f184dbf",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "savings_next12",
       "group_id": "overall",
       "counted": true,
@@ -534,7 +534,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__anchored3__household_fin_now__overall__r1",
       "entry_sha256": "724a2a637d43c32ed7203d76daf3b058ec40e78b5c4836789bb2fe24b71f1c9b",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "household_fin_now",
       "group_id": "overall",
       "counted": true,
@@ -555,7 +555,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__fin_past12__overall__r1",
       "entry_sha256": "4f6c16809563e62a9ae9f5358e2919dfcdd4013d942f6ffdc9fb8b3ab5aa6bf1",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "fin_past12",
       "group_id": "overall",
       "counted": true,
@@ -576,7 +576,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__fin_next12__overall__r1",
       "entry_sha256": "367bd762c6f5d0fcfdf075b2b93bcb67cb60b9240eaaa38576004cb9f7d007bd",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "fin_next12",
       "group_id": "overall",
       "counted": true,
@@ -597,7 +597,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__econ_past12__overall__r1",
       "entry_sha256": "d405c96dc22e7f50bbde683e10795fc02cbb55ea013600f59c901dfb505330b2",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "econ_past12",
       "group_id": "overall",
       "counted": true,
@@ -618,7 +618,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__econ_next12__overall__r1",
       "entry_sha256": "bfc8a4f806b5a30807a957cf59eec1365d1cb94b529b287bcdd5bde4b20796c8",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "econ_next12",
       "group_id": "overall",
       "counted": true,
@@ -639,7 +639,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__prices_past12__overall__r1",
       "entry_sha256": "fd323b01c22c0df7f656370d3ed155705b004dd4fcfccb36b003d7ed77241f94",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "prices_past12",
       "group_id": "overall",
       "counted": true,
@@ -660,7 +660,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__prices_next12__overall__r1",
       "entry_sha256": "2a3075476859283c75529f4477714aa47665d97dd32616c3b16145e086251e32",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "prices_next12",
       "group_id": "overall",
       "counted": true,
@@ -681,7 +681,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__unemployment_next12__overall__r1",
       "entry_sha256": "135e462e514f7a5cbdd9827d1c76296121f7a10aee7692dd4c6f937b0eb39709",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "unemployment_next12",
       "group_id": "overall",
       "counted": true,
@@ -702,7 +702,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__major_purchases_now__overall__r1",
       "entry_sha256": "8fc0468808551e234b98ddfa1c0a1fd511585d35ccf6cad7e27aa207ddbbdfae",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "major_purchases_now",
       "group_id": "overall",
       "counted": true,
@@ -721,7 +721,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__savings_next12__overall__r1",
       "entry_sha256": "bdc93f175106cab8177d38ab85f9cc98dbf66082316be6244f6ad4740c48d2fe",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "savings_next12",
       "group_id": "overall",
       "counted": true,
@@ -741,7 +741,7 @@
     {
       "entry_id": "fr-ec-insee-consumer-survey-2026-10__memory3__household_fin_now__overall__r1",
       "entry_sha256": "0f3018a40d7f1cc1900abb33993b1db746f61eb9dce98c7dda1cb8c9b929a174",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "household_fin_now",
       "group_id": "overall",
       "counted": true,

@@ -25,17 +25,17 @@
     "credit": "Source: Reuters/Ipsos, October 2026 national poll. Selected question and audience shares reported for journalistic comparison; normalised over the listed answer options and rounded for display."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.0825,
       "mae_pp": 3.3
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.01,
       "mae_pp": 0.4
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.075,
       "mae_pp": 3.0
@@ -43,7 +43,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -58,7 +58,7 @@
           "mae_pp": 3.3
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -73,7 +73,7 @@
           "mae_pp": 0.4
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -94,7 +94,7 @@
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__trump_job_approval__overall__r1",
       "entry_sha256": "7404902638f972d1b3fcaa5bc955d49517eadb4034123fae9b3283ca53453512",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -114,7 +114,7 @@
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__generic_ballot__overall__r1",
       "entry_sha256": "322727c3c1d3255a3b62d2c3607ecea6cbb464110d22c133a71458e63cc91421",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "generic_ballot",
       "group_id": "overall",
       "counted": true,
@@ -125,7 +125,7 @@
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__anchored3__trump_job_approval__overall__r1",
       "entry_sha256": "48707c8ae4690b8231600b8c0e28d769f4f5483ba7049fef01454bd3462ec0ec",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -145,7 +145,7 @@
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__anchored3__generic_ballot__overall__r1",
       "entry_sha256": "6a44cb22413a3f6c96ed2555188cea44d9da9b979cd6bbc05547c485956b8287",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "generic_ballot",
       "group_id": "overall",
       "counted": true,
@@ -156,7 +156,7 @@
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__memory3__trump_job_approval__overall__r1",
       "entry_sha256": "4fdf7d84875cd49319b8c4736cc2d3e431573319484e1a1889a5841fd596434b",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -176,7 +176,7 @@
     {
       "entry_id": "us-reuters-ipsos-2026-10-26__memory3__generic_ballot__overall__r1",
       "entry_sha256": "f4fcf3b143d442e0144c1892c5f6ecb53b09ce20047691eb41cc96e2d863ac1a",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "generic_ballot",
       "group_id": "overall",
       "counted": true,

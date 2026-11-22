@@ -19,7 +19,7 @@
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__trump_job_approval__overall__r1",
       "entry_sha256": "b9f63cd153cc4c0fe0dfd3652f7520788bf1fb3c94f8ab31ee1ff0b044afdefc",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -30,7 +30,7 @@
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__house_control__overall__r1",
       "entry_sha256": "b9d42e6dda8c7504e234e376083c491f7ee5fc52cfce41997a06ee0b085f3d5c",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "house_control",
       "group_id": "overall",
       "counted": true,
@@ -41,7 +41,7 @@
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__anchored3__trump_job_approval__overall__r1",
       "entry_sha256": "5286f7fda1fa32ae508e2628fc7a8994b5d3b7222adfc5896d2a7011fac7e972",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -52,7 +52,7 @@
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__anchored3__house_control__overall__r1",
       "entry_sha256": "4f34ac18436eb0e72664feed25386a961cffca376f36ac24bd5a79934e71e423",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "house_control",
       "group_id": "overall",
       "counted": true,
@@ -63,7 +63,7 @@
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__memory3__trump_job_approval__overall__r1",
       "entry_sha256": "5cebce7ac5843bcfa7ea13c06d169bbd3999a40ec3fdeafb9819f3519f1fae1c",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -74,7 +74,7 @@
     {
       "entry_id": "us-quinnipiac-national-2026-10-26__memory3__house_control__overall__r1",
       "entry_sha256": "a5bd08df91c0bf6172b4c8a999e2897e87eb99c1afd4c6837c81dc4c663813d1",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "house_control",
       "group_id": "overall",
       "counted": true,

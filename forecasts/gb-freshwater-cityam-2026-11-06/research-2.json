@@ -1,0 +1,197 @@
+{
+  "target_id": "gb-freshwater-cityam-2026-11-06",
+  "variant": "research-2",
+  "variant_label": "Additional research forecast 2",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__westminster_vi__overall__r1",
+      "entry_sha256": "60798bdb9195ff222c25c5767474edd58c25f1e7e05548a317a58b6e38e91731",
+      "seq": 1320,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "[Likelihood:] In the UK about one in three people registered, do not end up voting in General Elections How about you? If a General Election were held today, on a scale of 0 to 10, where 0 means you will not vote, and 10 means you are certain you will vote, how likely [table title truncated by the publisher] [Vote:] …and if you were to vote, who would you vote for? (Freshwater headline \"Vote Intentions (Squeezed) VALID\": GB respondents 9-10/10 likely to vote, leaners included, undecided removed.)",
+        "type": "categorical",
+        "options": [
+          "Labour Party",
+          "Conservative Party",
+          "Reform UK",
+          "Liberal Democrats",
+          "Green Party",
+          "Scottish National Party",
+          "Other party or independent"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.285,
+        0.2075,
+        0.225,
+        0.09,
+        0.1015,
+        0.028,
+        0.063
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__right_direction__overall__r1",
+      "entry_sha256": "d3ac8e6af0c96eaf9d86556e195cd5fca230313a0ae24fc72505b16e0e9eff1c",
+      "seq": 1321,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z",
+      "state": "scored",
+      "question": {
+        "id": "right_direction",
+        "text": "Generally speaking, do you think that the UK is currently heading in the right direction, or the wrong direction right now?",
+        "type": "categorical",
+        "options": [
+          "Right direction",
+          "Wrong direction",
+          "Unsure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.225,
+        0.64,
+        0.135
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__preferred_pm_burnham_badenoch__overall__r1",
+      "entry_sha256": "fbc0eddea575711af43273e520beb3005c6687401abe48828584605363417af0",
+      "seq": 1322,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z",
+      "state": "scored",
+      "question": {
+        "id": "preferred_pm_burnham_badenoch",
+        "text": "Who would you prefer to see as Prime Minister? (Andy Burnham or Kemi Badenoch)",
+        "type": "categorical",
+        "options": [
+          "Andy Burnham",
+          "Kemi Badenoch",
+          "Neither",
+          "Unsure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.3575,
+        0.255,
+        0.274,
+        0.1135
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__economy_next_12m__overall__r1",
+      "entry_sha256": "f09bb6414f86ffd37e556d286534eec76065018170b6578787c922415ac79376",
+      "seq": 1323,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z",
+      "state": "scored",
+      "question": {
+        "id": "economy_next_12m",
+        "text": "Over the next 12 months, do you expect the UK economy will improve, worsen, or stay about the same? Over the next year I think the UK economy will...",
+        "type": "ordinal",
+        "options": [
+          "Improve a lot",
+          "Improve a little",
+          "Stay about the same",
+          "Worsen a little",
+          "Worsen a lot",
+          "Unsure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.04,
+        0.16749999999999998,
+        0.21,
+        0.2525,
+        0.259,
+        0.07100000000000001
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "gb-freshwater-cityam-2026-11-06__memory3__household_finances_next_12m__overall__r1",
+      "entry_sha256": "c7386f64d57bd81290418afcf854ac3bbc34308f357a02d2ad1e6c62893539e1",
+      "seq": 1324,
+      "batch_id": "gb-freshwater-cityam-2026-11-06__memory3__20261028T010018619250Z__s1320",
+      "locked_at": "2026-10-28T01:00:18Z",
+      "state": "scored",
+      "question": {
+        "id": "household_finances_next_12m",
+        "text": "...and thinking now about your own household finances, do you believe that you will be better off, worse off, or about that same financially, over the next 12 months? Over the next year, I think that my household will be...",
+        "type": "ordinal",
+        "options": [
+          "A lot better off",
+          "A little better off",
+          "About the same",
+          "A little worse off",
+          "A lot worse off",
+          "Unsure"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.034,
+        0.126,
+        0.351,
+        0.2675,
+        0.159,
+        0.0625
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

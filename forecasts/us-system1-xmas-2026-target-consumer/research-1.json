@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-target-consumer",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-target-consumer__feeling__overall__r1",
+      "entry_sha256": "b7f1e45bdca6c3ab75bb7be937f0f2c5448be347834ccd622191301c15f18cf2",
+      "seq": 2688,
+      "batch_id": "us-system1-xmas-2026-target-consumer__20261122T200059938383Z__s2688",
+      "locked_at": "2026-11-22T20:00:59Z"
+    }
+  ]
+}

@@ -22,32 +22,32 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.305455,
       "mae_pp": 4.072727
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.299091,
       "mae_pp": 3.987879
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.343955,
       "mae_pp": 4.586061
     },
-    "bank3": {
+    "research-4e71fe": {
       "items": 1,
       "tvd": 0.353455,
       "mae_pp": 4.712727
     },
-    "bankR3": {
+    "research-d5b88a": {
       "items": 1,
       "tvd": 0.366045,
       "mae_pp": 4.880606
     },
-    "cohort": {
+    "research-16accd": {
       "items": 1,
       "tvd": 0.452955,
       "mae_pp": 6.039394
@@ -55,7 +55,7 @@
   },
   "summary_by_evidence_type": {
     "behaviour": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -70,7 +70,7 @@
           "mae_pp": 4.072727
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -85,7 +85,7 @@
           "mae_pp": 3.987879
         }
       },
-      "bank3": {
+      "research-4e71fe": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -100,7 +100,7 @@
           "mae_pp": 4.712727
         }
       },
-      "bankR3": {
+      "research-d5b88a": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -115,7 +115,7 @@
           "mae_pp": 4.880606
         }
       },
-      "cohort": {
+      "research-16accd": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -130,7 +130,7 @@
           "mae_pp": 6.039394
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -151,7 +151,7 @@
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__steam_weekly_topsellers__overall__r1",
       "entry_sha256": "98a006762634ebad8582fd515d8b26d8ad3d5792a29bda9dc949b3725cfd57b9",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "steam_weekly_topsellers",
       "group_id": "overall",
       "counted": true,
@@ -181,7 +181,7 @@
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__memory3__steam_weekly_topsellers__overall__r1",
       "entry_sha256": "be890cc375b14fceaccc4aa64a05d071e1068a466d7d4e0becabcd421cf5b9ca",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "steam_weekly_topsellers",
       "group_id": "overall",
       "counted": true,
@@ -211,7 +211,7 @@
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__anchored3__steam_weekly_topsellers__overall__r1",
       "entry_sha256": "e0a4134e4aaca83c215a95ac7716d87a616985ca21bea10996d3f97795347a16",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "steam_weekly_topsellers",
       "group_id": "overall",
       "counted": true,
@@ -241,7 +241,7 @@
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__bank3__steam_weekly_topsellers__overall__r1",
       "entry_sha256": "c90d2c372a284dfa60c1c675a8028f577c3ee8dc452d12099ee60450353db8fd",
-      "variant": "bank3",
+      "variant": "research-4e71fe",
       "question_id": "steam_weekly_topsellers",
       "group_id": "overall",
       "counted": true,
@@ -271,7 +271,7 @@
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__bankR3__steam_weekly_topsellers__overall__r1",
       "entry_sha256": "df2a72b5bb3e75d119f659ee5dd9df7deddf17bda29d28a70ecd0a0e1bfef441",
-      "variant": "bankR3",
+      "variant": "research-d5b88a",
       "question_id": "steam_weekly_topsellers",
       "group_id": "overall",
       "counted": true,
@@ -301,7 +301,7 @@
     {
       "entry_id": "global-steam-weekly-topsellers-2026-11-10__cohort__steam_weekly_topsellers__overall__r1",
       "entry_sha256": "454828c8bd7f10bd989fd710610da119f1aa8b66698349b81ed8549d4f1490d1",
-      "variant": "cohort",
+      "variant": "research-16accd",
       "question_id": "steam_weekly_topsellers",
       "group_id": "overall",
       "counted": true,

@@ -32,17 +32,17 @@
     "credit": "Human voting-intention data: DAWUM / Philipp Guttmann (dawum.de), survey 4370, INSA, 2026-11-03; ODbL 1.0. Party shares mapped into the locked answer order; BSW grouped with other parties where specified. The source subset is downloadable under the same licence. Minds forecasts are separate independent estimates."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.065,
       "mae_pp": 1.625
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.0278,
       "mae_pp": 0.695
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.0625,
       "mae_pp": 1.5625
@@ -50,7 +50,7 @@
   },
   "summary_by_evidence_type": {
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -65,7 +65,7 @@
           "mae_pp": 1.625
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -80,7 +80,7 @@
           "mae_pp": 0.695
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -101,7 +101,7 @@
     {
       "entry_id": "de-insa-meinungstrend-2026-11-03__sonntagsfrage__overall__r1",
       "entry_sha256": "98a4371e23a74b5c70e2f2fcf21d9557a0f2507f48e28ee57c49a6d0cf363e3c",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -124,7 +124,7 @@
     {
       "entry_id": "de-insa-meinungstrend-2026-11-03__anchored3__sonntagsfrage__overall__r1",
       "entry_sha256": "107990d4ea5bd2cb325519fa137a0e3ebfc12aed1dc0abbe8e4b32e399e6a2ff",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -147,7 +147,7 @@
     {
       "entry_id": "de-insa-meinungstrend-2026-11-03__memory3__sonntagsfrage__overall__r1",
       "entry_sha256": "28cc487cc968a82051edb6c1e4e6da24fa50d32f6bc7120aabe780e8a314de85",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,

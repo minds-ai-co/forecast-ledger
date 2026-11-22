@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-hobby-lobby-consumer",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-hobby-lobby-consumer__feeling__overall__r1",
+      "entry_sha256": "712fc1f27f59b31ea902d2a34db2c3d1ecf0cd0e6fb9d8fc4d1688eb0de6dbc1",
+      "seq": 2692,
+      "batch_id": "us-system1-xmas-2026-hobby-lobby-consumer__20261122T204048608633Z__s2692",
+      "locked_at": "2026-11-22T20:40:48Z"
+    }
+  ]
+}

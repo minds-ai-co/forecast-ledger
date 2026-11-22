@@ -1,0 +1,80 @@
+{
+  "target_id": "us-quinnipiac-national-2026-10-26",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-quinnipiac-national-2026-10-26__trump_job_approval__overall__r1",
+      "entry_sha256": "b9f63cd153cc4c0fe0dfd3652f7520788bf1fb3c94f8ab31ee1ff0b044afdefc",
+      "seq": 101,
+      "batch_id": "us-quinnipiac-national-2026-10-26__20261024T015308419519Z__s101",
+      "locked_at": "2026-10-24T01:53:08Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "trump_job_approval",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as president? (If approve/disapprove) Do you strongly or somewhat approve/disapprove?",
+        "type": "ordinal",
+        "options": [
+          "Approve strongly",
+          "Approve somewhat",
+          "Disapprove somewhat",
+          "Disapprove strongly",
+          "DK/NA"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.3,
+        0.12,
+        0.08499999999999999,
+        0.455,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-quinnipiac-national-2026-10-26__house_control__overall__r1",
+      "entry_sha256": "b9d42e6dda8c7504e234e376083c491f7ee5fc52cfce41997a06ee0b085f3d5c",
+      "seq": 102,
+      "batch_id": "us-quinnipiac-national-2026-10-26__20261024T015308419519Z__s101",
+      "locked_at": "2026-10-24T01:53:08Z",
+      "state": "not_scoreable",
+      "question": {
+        "id": "house_control",
+        "text": "If the election were today, would you want to see the Republican Party or the Democratic Party win control of the United States House of Representatives?",
+        "type": "categorical",
+        "options": [
+          "Republican Party",
+          "Democratic Party",
+          "DK/NA"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.4525,
+        0.4875,
+        0.06
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

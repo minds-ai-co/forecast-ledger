@@ -22,12 +22,12 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.95,
       "mae_pp": 21.111111
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.969,
       "mae_pp": 21.533333
@@ -35,7 +35,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -60,7 +60,7 @@
           }
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -91,7 +91,7 @@
     {
       "entry_id": "gb-system1-xmas-2026-tesco__star_rating__overall__r1",
       "entry_sha256": "4cff372e2d9eac3e65fe5b01d02427edd06c12ef6e4884e336b0f5763356f2e3",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "star_rating",
       "group_id": "overall",
       "counted": true,
@@ -122,7 +122,7 @@
     {
       "entry_id": "gb-system1-xmas-2026-tesco__anchored3__star_rating__overall__r1",
       "entry_sha256": "5b3c2811a4a68eb8eb97d745865f455451e792d06ea8ff3c4296662efe12132e",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "star_rating",
       "group_id": "overall",
       "counted": true,

@@ -1,0 +1,84 @@
+{
+  "target_id": "fr-ipsos-bva-tribune-2026-11-04",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__popularity_macron__overall__r1",
+      "entry_sha256": "623dfe98bd85b5f1ee78599515a42deee8cd1fc3854cab0f34f5435f0f8e7166",
+      "seq": 1803,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__20261101T005221611998Z__s1803",
+      "locked_at": "2026-11-01T00:52:21Z",
+      "state": "scored",
+      "question": {
+        "id": "popularity_macron",
+        "text": "Quel jugement portez-vous sur l'action d'Emmanuel Macron en tant que président de la République ? (What is your judgement of Emmanuel Macron's action as President of the Republic?)",
+        "type": "ordinal",
+        "options": [
+          "Très favorable",
+          "Plutôt favorable",
+          "Plutôt défavorable",
+          "Très défavorable",
+          "Ne se prononce pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.026500000000000003,
+        0.1235,
+        0.286,
+        0.5325,
+        0.0315
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__popularity_lecornu__overall__r1",
+      "entry_sha256": "bb51863e3303c86f167d360af26c849986451c66a48ce178fb13c75e987380f6",
+      "seq": 1804,
+      "batch_id": "fr-ipsos-bva-tribune-2026-11-04__anchored3__20261101T005221611998Z__s1803",
+      "locked_at": "2026-11-01T00:52:21Z",
+      "state": "scored",
+      "question": {
+        "id": "popularity_lecornu",
+        "text": "Quel jugement portez-vous sur l'action de Sébastien Lecornu en tant que Premier ministre ? (What is your judgement of Sébastien Lecornu's action as Prime Minister?)",
+        "type": "ordinal",
+        "options": [
+          "Très favorable",
+          "Plutôt favorable",
+          "Plutôt défavorable",
+          "Très défavorable",
+          "Ne se prononce pas"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.03,
+        0.1765,
+        0.311,
+        0.3925,
+        0.09
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

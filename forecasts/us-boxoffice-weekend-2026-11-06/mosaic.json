@@ -1,0 +1,65 @@
+{
+  "target_id": "us-boxoffice-weekend-2026-11-06",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-boxoffice-weekend-2026-11-06__anchored3__weekend_gross_share__overall__r1",
+      "entry_sha256": "1bf0c09ed6d6dba6faa6d715b93dcd66a8b2e0c628e91dab8330ae3f69a44c23",
+      "seq": 2376,
+      "batch_id": "us-boxoffice-weekend-2026-11-06__anchored3__20261103T061756962821Z__s2376",
+      "locked_at": "2026-11-03T06:17:56Z",
+      "state": "scored",
+      "question": {
+        "id": "weekend_gross_share",
+        "text": "Which film did this dollar of US and Canada box office on the weekend of Friday 6 to Sunday 8 November 2026 go to? (Share of the weekend gross of all films as reported by Box Office Mojo; films not listed count as the last option.)",
+        "type": "categorical",
+        "options": [
+          "The Cat in the Hat",
+          "Godzilla Minus Zero",
+          "Ramayana: Rise of A Legend",
+          "Wild Horse Nine",
+          "Drummer Boy",
+          "You Can See Everything",
+          "Clayface",
+          "Wildwood",
+          "Wicker",
+          "Street Fighter",
+          "Resident Evil",
+          "Other Mommy",
+          "The Only Living Pickpocket in New York",
+          "All other films"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.3525,
+        0.2,
+        0.056999999999999995,
+        0.0365,
+        0.027,
+        0.0615,
+        0.048,
+        0.0465,
+        0.026000000000000002,
+        0.014499999999999999,
+        0.01,
+        0.010499999999999999,
+        0.01,
+        0.1
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

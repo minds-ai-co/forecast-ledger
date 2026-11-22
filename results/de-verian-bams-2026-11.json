@@ -22,37 +22,37 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.06,
       "mae_pp": 1.5
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.02125,
       "mae_pp": 0.53125
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.0575,
       "mae_pp": 1.4375
     },
-    "bank3": {
+    "research-4e71fe": {
       "items": 1,
       "tvd": 0.0575,
       "mae_pp": 1.4375
     },
-    "bankR3": {
+    "research-d5b88a": {
       "items": 1,
       "tvd": 0.06,
       "mae_pp": 1.5
     },
-    "cohort": {
+    "research-16accd": {
       "items": 1,
       "tvd": 0.09,
       "mae_pp": 2.25
     },
-    "xpub3": {
+    "research-6": {
       "items": 1,
       "tvd": 0.024,
       "mae_pp": 0.6
@@ -60,7 +60,7 @@
   },
   "summary_by_evidence_type": {
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -75,7 +75,7 @@
           "mae_pp": 1.5
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -90,7 +90,7 @@
           "mae_pp": 0.53125
         }
       },
-      "bank3": {
+      "research-4e71fe": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -105,7 +105,7 @@
           "mae_pp": 1.4375
         }
       },
-      "bankR3": {
+      "research-d5b88a": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -120,7 +120,7 @@
           "mae_pp": 1.5
         }
       },
-      "cohort": {
+      "research-16accd": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -135,7 +135,7 @@
           "mae_pp": 2.25
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -150,7 +150,7 @@
           "mae_pp": 1.4375
         }
       },
-      "xpub3": {
+      "research-6": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -171,7 +171,7 @@
     {
       "entry_id": "de-verian-bams-2026-11__sonntagsfrage__overall__r1",
       "entry_sha256": "0ca272a3be0b9b7c68483c1116a8fde50d545cc5814a261d7ad7b0e7d484bdb0",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -194,7 +194,7 @@
     {
       "entry_id": "de-verian-bams-2026-11__anchored3__sonntagsfrage__overall__r1",
       "entry_sha256": "e06fa967a5502db2169c7196437bf6036e156a10245b0f766561dbcd98be1b4e",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -217,7 +217,7 @@
     {
       "entry_id": "de-verian-bams-2026-11__bank3__sonntagsfrage__overall__r1",
       "entry_sha256": "9d645c0482f9ba9eed975ad8371e97cdf99879b245c168ace2cdb3d748eb4477",
-      "variant": "bank3",
+      "variant": "research-4e71fe",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -240,7 +240,7 @@
     {
       "entry_id": "de-verian-bams-2026-11__bankR3__sonntagsfrage__overall__r1",
       "entry_sha256": "654f04944798f3af975e221fe7dd3025f257624337e9f821a0a8210ad5490445",
-      "variant": "bankR3",
+      "variant": "research-d5b88a",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -263,7 +263,7 @@
     {
       "entry_id": "de-verian-bams-2026-11__cohort__sonntagsfrage__overall__r1",
       "entry_sha256": "73da6981854224cc19cc0abdd04861dbc370605e47a06cf6387de39f37d41474",
-      "variant": "cohort",
+      "variant": "research-16accd",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -286,7 +286,7 @@
     {
       "entry_id": "de-verian-bams-2026-11__memory3__sonntagsfrage__overall__r1",
       "entry_sha256": "e494b36eb547e19c25ec2d65b27e47ec34295268efb74291178a7ac937939287",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,
@@ -309,7 +309,7 @@
     {
       "entry_id": "de-verian-bams-2026-11__xpub3__sonntagsfrage__overall__r1",
       "entry_sha256": "7ce38668229ab8321db1cf1e7cdd30de4f9d96417a9700c8921f7116690abc4f",
-      "variant": "xpub3",
+      "variant": "research-6",
       "question_id": "sonntagsfrage",
       "group_id": "overall",
       "counted": true,

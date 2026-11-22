@@ -21,17 +21,17 @@
     "credit": "Source: Kraftfahrt-Bundesamt (KBA), Fahrzeugzulassungen im Oktober 2026. Reproduction and distribution permitted with attribution in the source release. Brand counts converted to shares; unlisted brands grouped together; rounded for display."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.059092,
       "mae_pp": 0.73865
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.035751,
       "mae_pp": 0.446887
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.058092,
       "mae_pp": 0.72615
@@ -39,7 +39,7 @@
   },
   "summary_by_evidence_type": {
     "behaviour": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -54,7 +54,7 @@
           "mae_pp": 0.73865
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -69,7 +69,7 @@
           "mae_pp": 0.446887
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -90,7 +90,7 @@
     {
       "entry_id": "de-kba-car-registrations-brand-2026-10__brand_share__overall__r1",
       "entry_sha256": "d30891e0c1e844b5a49fa4f76039c8d39ce52e9544b3aa8350e945d419c808cd",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "brand_share",
       "group_id": "overall",
       "counted": true,
@@ -121,7 +121,7 @@
     {
       "entry_id": "de-kba-car-registrations-brand-2026-10__anchored3__brand_share__overall__r1",
       "entry_sha256": "71b75e2f38638abfe31c1e14612b27307c2c63674fd94b90c6f549b1c0cf637b",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "brand_share",
       "group_id": "overall",
       "counted": true,
@@ -152,7 +152,7 @@
     {
       "entry_id": "de-kba-car-registrations-brand-2026-10__memory3__brand_share__overall__r1",
       "entry_sha256": "cf0ad23c48cc464c1027da80e1821c561b9ee1e8105456d9166d5ae0b6ae52a4",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "brand_share",
       "group_id": "overall",
       "counted": true,

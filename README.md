@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-22T20:16:24Z**. Latest recorded forecast or score: **2026-11-22T20:02:35Z**. 51 surveys scored; 76 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-22T20:58:18Z**. Latest recorded forecast or score: **2026-11-22T20:49:27Z**. 51 surveys scored; 83 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -56,7 +56,7 @@ Audience profiles use the Arena’s energy score to measure error across the who
 
 - [`index.json`](index.json): every locked survey with status, lock times, hashes, Bitcoin blocks and file paths. Start here.
 - [`stimuli.json`](stimuli.json): unlocked display metadata (official ad links and thumbnails). Not part of the hash chain.
-- `forecasts/<survey>/<tag>.json`: the locked forecasts. Pending surveys list hashes and lock times only.
+- `forecasts/<survey>/<version>.json`: the locked forecasts (`mosaic.json` is Minds Mosaic; `research-<n>.json` are additional research forecasts). Pending surveys list hashes and lock times only.
 - `results/<survey>.json`: release date, source and scores. Published numbers include attribution and a release-specific publication basis.
 - `proofs/`: the hash chain (`index.jsonl`), batch manifests and their OpenTimestamps proofs.
 - [`verify.py`](verify.py): checks all of it with plain Python 3.
@@ -71,7 +71,7 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
-Ledger chain head `aa86218d65ec5e17ce0b48db8525503bd4da455ad54673c2ba52abe4110fde16`.
+Ledger chain head `8afc7bbce09d32b05194c8bf1e0f767f65a2304b033dbbcf06b92cca309abee7`.
 
 ## Methodology
 

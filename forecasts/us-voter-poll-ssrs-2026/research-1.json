@@ -1,0 +1,212 @@
+{
+  "target_id": "us-voter-poll-ssrs-2026",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__feel_country__overall__r1",
+      "entry_sha256": "feb792c722dfd1ca62f2da44a29f143a3c958c3267b52ca986244bf522ac9a5a",
+      "seq": 108,
+      "batch_id": "us-voter-poll-ssrs-2026__20261024T020045560741Z__s108",
+      "locked_at": "2026-10-24T02:00:45Z",
+      "state": "scored",
+      "question": {
+        "id": "feel_country",
+        "text": "How do you feel about the way things are going in the country today?",
+        "type": "ordinal",
+        "options": [
+          "Enthusiastic",
+          "Satisfied, but not enthusiastic",
+          "Dissatisfied, but not angry",
+          "Angry"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.08,
+        0.22,
+        0.405,
+        0.295
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__trump_approval__overall__r1",
+      "entry_sha256": "58b7980035ca779cb891e9a5707cb8a78000d1387f7058197361ce3c4c3e241c",
+      "seq": 109,
+      "batch_id": "us-voter-poll-ssrs-2026__20261024T020045560741Z__s108",
+      "locked_at": "2026-10-24T02:00:45Z",
+      "state": "scored",
+      "question": {
+        "id": "trump_approval",
+        "text": "How do you feel about the way Donald Trump is handling his job as president?",
+        "type": "ordinal",
+        "options": [
+          "Strongly approve",
+          "Somewhat approve",
+          "Somewhat disapprove",
+          "Strongly disapprove"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.29,
+        0.16,
+        0.11,
+        0.44
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__national_economy__overall__r1",
+      "entry_sha256": "2b5ebefd33abab3d51796f1ea7b5decb00c74d9280b60edf83d6183858647b47",
+      "seq": 110,
+      "batch_id": "us-voter-poll-ssrs-2026__20261024T020045560741Z__s108",
+      "locked_at": "2026-10-24T02:00:45Z",
+      "state": "scored",
+      "question": {
+        "id": "national_economy",
+        "text": "Do you think the condition of the nation's economy is:",
+        "type": "ordinal",
+        "options": [
+          "Excellent",
+          "Good",
+          "Not so good",
+          "Poor"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.055,
+        0.275,
+        0.4,
+        0.27
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__abortion__overall__r1",
+      "entry_sha256": "1a62378b3e9a6c8acdf58182d8d51fc5f6a397704437b5cf0c1d8c8c72121067",
+      "seq": 111,
+      "batch_id": "us-voter-poll-ssrs-2026__20261024T020045560741Z__s108",
+      "locked_at": "2026-10-24T02:00:45Z",
+      "state": "scored",
+      "question": {
+        "id": "abortion",
+        "text": "Which comes closest to your position? Abortion should be:",
+        "type": "ordinal",
+        "options": [
+          "Legal in all cases",
+          "Legal in most cases",
+          "Illegal in most cases",
+          "Illegal in all cases"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.29,
+        0.345,
+        0.28500000000000003,
+        0.08
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__dem_party_fav__overall__r1",
+      "entry_sha256": "e499c1fb72466ac36f2b949e2f48bc33aa1ee8ee46e9dbf6731ae9b503b21b3d",
+      "seq": 112,
+      "batch_id": "us-voter-poll-ssrs-2026__20261024T020045560741Z__s108",
+      "locked_at": "2026-10-24T02:00:45Z",
+      "state": "scored",
+      "question": {
+        "id": "dem_party_fav",
+        "text": "Is your opinion of the Democratic Party:",
+        "type": "categorical",
+        "options": [
+          "Favorable",
+          "Unfavorable"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.4475,
+        0.5525
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    },
+    {
+      "entry_id": "us-voter-poll-ssrs-2026__rep_party_fav__overall__r1",
+      "entry_sha256": "cb3c5d0d1766fc40e857caa4a0e477a7414c651655f945fdfd5b5c4e61d22db3",
+      "seq": 113,
+      "batch_id": "us-voter-poll-ssrs-2026__20261024T020045560741Z__s108",
+      "locked_at": "2026-10-24T02:00:45Z",
+      "state": "scored",
+      "question": {
+        "id": "rep_party_fav",
+        "text": "Is your opinion of the Republican Party:",
+        "type": "categorical",
+        "options": [
+          "Favorable",
+          "Unfavorable"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.4475,
+        0.5525
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "locked before 25 October 2026; the file records machine-local tooling paths covered by its hash"
+    }
+  ]
+}

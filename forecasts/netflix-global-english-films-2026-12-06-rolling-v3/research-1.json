@@ -1,0 +1,17 @@
+{
+  "target_id": "netflix-global-english-films-2026-12-06-rolling-v3",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "netflix-global-english-films-2026-12-06-rolling-v3__top10_volume_share__overall__r1",
+      "entry_sha256": "6f0d8efbea7dfb661f01ef8fa85e868bf40c0e7b70f95d1639394779ed61d979",
+      "seq": 2491,
+      "batch_id": "netflix-global-english-films-2026-12-06-rolling-v3__20261116T075426856172Z__s2491",
+      "locked_at": "2026-11-16T07:54:26Z"
+    }
+  ]
+}

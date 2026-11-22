@@ -14,7 +14,7 @@
     "terms": []
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.191977,
       "mae_pp": 3.4905
@@ -22,7 +22,7 @@
   },
   "summary_by_evidence_type": {
     "behaviour": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -43,7 +43,7 @@
     {
       "entry_id": "spotify-us-weekly-2026-11-19-measurement-v2__top10_volume_share__overall__r1",
       "entry_sha256": "14434fa0fc3f26387ca01251e6b4ead0642f00124f1ea894614953cf8ff63ab7",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "top10_volume_share",
       "group_id": "overall",
       "counted": true,

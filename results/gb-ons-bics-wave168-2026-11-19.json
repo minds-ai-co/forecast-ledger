@@ -63,7 +63,7 @@
     }
   },
   "summary": {
-    "anchored3": {
+    "mosaic": {
       "items": 25,
       "tvd": 0.034644,
       "mae_pp": 1.823844
@@ -71,7 +71,7 @@
   },
   "summary_by_evidence_type": {
     "stated_intent": {
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -93,7 +93,7 @@
       }
     },
     "behaviour": {
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 4,
           "n_distribution": 4,
@@ -119,7 +119,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__stockpiling__overall__r1",
       "entry_sha256": "08959a79426cb189e98cf9927365ff2b4cdbd15c87775bda2f528824ea87c455",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "stockpiling",
       "group_id": "overall",
       "counted": true,
@@ -137,7 +137,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__stockpiling__manufacturing__r1",
       "entry_sha256": "3eefbbc722073abe8f253ddad8867faabaabf45ce3ac876cda33b3e84c560215",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "stockpiling",
       "group_id": "manufacturing",
       "counted": true,
@@ -155,7 +155,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__stockpiling__retail__r1",
       "entry_sha256": "73dbd0652dd7456f140ad8b05da0bb535313369549cd0788a37a684a2b1575fe",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "stockpiling",
       "group_id": "retail",
       "counted": true,
@@ -173,7 +173,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__stockpiling__micro__r1",
       "entry_sha256": "50846c3f599d1e7728aeb4c5e425f838952fe3b15622c6bf515eeef00b333c01",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "stockpiling",
       "group_id": "micro",
       "counted": true,
@@ -191,7 +191,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__stockpiling__large__r1",
       "entry_sha256": "ec5cd40a7249e7dcfdf2de24a8543c94fbf99f2084c051a5dd15c20d45a1d9e8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "stockpiling",
       "group_id": "large",
       "counted": true,
@@ -209,7 +209,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__supplier_changes__overall__r1",
       "entry_sha256": "592f658c10dae9392549962c168b46d723b404f1758040d1201dbdd29fadfb1e",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "supplier_changes",
       "group_id": "overall",
       "counted": true,
@@ -228,7 +228,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__supplier_changes__manufacturing__r1",
       "entry_sha256": "b82435891874f22a1e3f9841e784c0861ade75cd36301aaa9eebe6101f6c248e",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "supplier_changes",
       "group_id": "manufacturing",
       "counted": true,
@@ -247,7 +247,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__supplier_changes__retail__r1",
       "entry_sha256": "74478440e6c2b7634266aa674cc80aa85947ce4e11bfc644a902facb2fd4ebf3",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "supplier_changes",
       "group_id": "retail",
       "counted": true,
@@ -266,7 +266,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__supplier_changes__micro__r1",
       "entry_sha256": "84bc4dfe3ec70a6e646ff04171f001cd49a3fb5a40f8c634b9e4303392b86d81",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "supplier_changes",
       "group_id": "micro",
       "counted": true,
@@ -285,7 +285,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__supplier_changes__large__r1",
       "entry_sha256": "6a4653ec218b7bbd64f0033714f7763fd59db1faf598d2ef3e4f6fa0c4a8b97a",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "supplier_changes",
       "group_id": "large",
       "counted": true,
@@ -304,7 +304,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__hiring_plans__overall__r1",
       "entry_sha256": "0e4a90f6b692cd7579ab4cbb90eaaee5e25f07df40f8d451acfecac39fc9971f",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "hiring_plans",
       "group_id": "overall",
       "counted": true,
@@ -323,7 +323,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__hiring_plans__manufacturing__r1",
       "entry_sha256": "05fe7509c06e811e0d136c683bfd00ff9ab6ccd774152c3d5a97278f2a856244",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "hiring_plans",
       "group_id": "manufacturing",
       "counted": true,
@@ -342,7 +342,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__hiring_plans__retail__r1",
       "entry_sha256": "14daa886b43426b8c19ef9c485ec7c47e62dffaa9576a9e6986cf3fa9c2c4f86",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "hiring_plans",
       "group_id": "retail",
       "counted": true,
@@ -361,7 +361,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__hiring_plans__micro__r1",
       "entry_sha256": "f08f0cec1cff500790a65ae1b3fe41825c216faa4d4387d3de3c9d6772d34a61",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "hiring_plans",
       "group_id": "micro",
       "counted": true,
@@ -380,7 +380,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__hiring_plans__large__r1",
       "entry_sha256": "25814ee137c7d3dded1cf6e8a340a95dbcecc221af532b333cb6d86d84e2a194",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "hiring_plans",
       "group_id": "large",
       "counted": true,
@@ -399,7 +399,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__worker_shortages__overall__r1",
       "entry_sha256": "a5140532114ec528eb8c2f582dfa2fa588a88b9100307dcdd248fbbd10862183",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "worker_shortages",
       "group_id": "overall",
       "counted": true,
@@ -418,7 +418,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__worker_shortages__manufacturing__r1",
       "entry_sha256": "8a5a3f32fe62a6a7869e979a79f1b898ee738bd644bb654cf684a64c86ac04e5",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "worker_shortages",
       "group_id": "manufacturing",
       "counted": true,
@@ -437,7 +437,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__worker_shortages__retail__r1",
       "entry_sha256": "2add62d12ad959cff1e1bfbf5dd9f14afff091ea32c55e3b3e86667137ee861e",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "worker_shortages",
       "group_id": "retail",
       "counted": true,
@@ -456,7 +456,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__worker_shortages__micro__r1",
       "entry_sha256": "de0dbe948dff2eee1ace8664e35d3444199e9a800e086ca46b9b65e6455b9121",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "worker_shortages",
       "group_id": "micro",
       "counted": true,
@@ -475,7 +475,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__worker_shortages__large__r1",
       "entry_sha256": "d1700d292fd6ef82dff9519cc8a5ed4f2685b794d235c4f181911a85bb1b3af9",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "worker_shortages",
       "group_id": "large",
       "counted": true,
@@ -494,7 +494,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__recruitment_difficulties__overall__r1",
       "entry_sha256": "df2ac9a43c965da1cc6b0b944d4babf2bbd579137ed0d1fcd4362a7534735213",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "recruitment_difficulties",
       "group_id": "overall",
       "counted": true,
@@ -513,7 +513,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__recruitment_difficulties__manufacturing__r1",
       "entry_sha256": "0139c54d72da0ee021ad91c82b43ecb0b9573ce5f12406edff3dc322761860a4",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "recruitment_difficulties",
       "group_id": "manufacturing",
       "counted": true,
@@ -532,7 +532,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__recruitment_difficulties__retail__r1",
       "entry_sha256": "ea1fac4e9391aa8bb99b028da382f45ccfdff3e69c7807b77aafa592ca8fc7d8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "recruitment_difficulties",
       "group_id": "retail",
       "counted": true,
@@ -551,7 +551,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__recruitment_difficulties__micro__r1",
       "entry_sha256": "2222ff16cead0eacaa72571982c4edd85cd75a39174bf7169e8877963e1b68d3",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "recruitment_difficulties",
       "group_id": "micro",
       "counted": true,
@@ -570,7 +570,7 @@
     {
       "entry_id": "gb-ons-bics-wave168-2026-11-19__anchored3__recruitment_difficulties__large__r1",
       "entry_sha256": "28de76706ce8f8e6ffbcd8db0e7d08168e64e8a10cb3ef96a639845bcaf71d5a",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "recruitment_difficulties",
       "group_id": "large",
       "counted": true,

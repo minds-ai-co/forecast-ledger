@@ -25,37 +25,37 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 2,
       "tvd": 0.059105,
       "mae_pp": 2.026587
     },
-    "anchored3": {
+    "mosaic": {
       "items": 2,
       "tvd": 0.021566,
       "mae_pp": 0.678731
     },
-    "memory3": {
+    "research-2": {
       "items": 2,
       "tvd": 0.065355,
       "mae_pp": 2.254087
     },
-    "bank3": {
+    "research-4e71fe": {
       "items": 2,
       "tvd": 0.069106,
       "mae_pp": 2.441587
     },
-    "bankR3": {
+    "research-d5b88a": {
       "items": 2,
       "tvd": 0.066355,
       "mae_pp": 2.309087
     },
-    "cohort": {
+    "research-16accd": {
       "items": 2,
       "tvd": 0.114378,
       "mae_pp": 3.723409
     },
-    "xpub3": {
+    "research-6": {
       "items": 1,
       "tvd": 0.043272,
       "mae_pp": 1.081794
@@ -63,7 +63,7 @@
   },
   "summary_by_evidence_type": {
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -78,7 +78,7 @@
           "mae_pp": 2.026587
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -93,7 +93,7 @@
           "mae_pp": 0.678731
         }
       },
-      "bank3": {
+      "research-4e71fe": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -108,7 +108,7 @@
           "mae_pp": 2.441587
         }
       },
-      "bankR3": {
+      "research-d5b88a": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -123,7 +123,7 @@
           "mae_pp": 2.309087
         }
       },
-      "cohort": {
+      "research-16accd": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -138,7 +138,7 @@
           "mae_pp": 3.723409
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 2,
           "n_distribution": 2,
@@ -153,7 +153,7 @@
           "mae_pp": 2.254087
         }
       },
-      "xpub3": {
+      "research-6": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -174,7 +174,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__westminster_vi__overall__r1",
       "entry_sha256": "4dab76b6fde0c01b2d18a67b08ce864cc0852ac95f05869659456697b50978fd",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -197,7 +197,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__likelihood_to_vote__overall__r1",
       "entry_sha256": "c5303d89f55cd7b1d947138bff210958c45e90e7c6498f9849e740efe9c0c1bf",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,
@@ -217,7 +217,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__anchored3__westminster_vi__overall__r1",
       "entry_sha256": "a446ac4c7255dc7f872f732c670780c51a23a6550c90060e341678c1ede2fe70",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -240,7 +240,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__anchored3__likelihood_to_vote__overall__r1",
       "entry_sha256": "df21efc1217b10d15ae0473516c3c4c9f82df53e2d21eb2299fc4e92108a9e6b",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,
@@ -260,7 +260,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__memory3__westminster_vi__overall__r1",
       "entry_sha256": "5e633f5e615861fa8979907c489186c12942271abe0cee5eae424d9b11f7cff2",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -283,7 +283,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__memory3__likelihood_to_vote__overall__r1",
       "entry_sha256": "120c4d7d62de3f59d0b3d5549ae6877f71067978f933ab29d0c6849b3fc7e2c2",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,
@@ -303,7 +303,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__xpub3__westminster_vi__overall__r1",
       "entry_sha256": "a75f4b9071d5dd15ad4c287c2ec9d8d2dbce267013f310e61073217698a93ccd",
-      "variant": "xpub3",
+      "variant": "research-6",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -326,7 +326,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__bank3__westminster_vi__overall__r1",
       "entry_sha256": "efd49995a400ce7308a9835b037e00991adebc2f5cf71e79b1ef1976b5a74fd5",
-      "variant": "bank3",
+      "variant": "research-4e71fe",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -349,7 +349,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__bank3__likelihood_to_vote__overall__r1",
       "entry_sha256": "c834c1e00150e7c84008cbd1fbc7bffa5ec1888de4be03edf5bf13c50818f983",
-      "variant": "bank3",
+      "variant": "research-4e71fe",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,
@@ -369,7 +369,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__bankR3__westminster_vi__overall__r1",
       "entry_sha256": "88236867231f2980ab7cc1d27ab3cfbf096d9f1d3aada894542b95a9243e43bd",
-      "variant": "bankR3",
+      "variant": "research-d5b88a",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -392,7 +392,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__bankR3__likelihood_to_vote__overall__r1",
       "entry_sha256": "585134997ca2b0f51dfa401faa4625d5a0ac7b66ac8cd2151fbf259068508b57",
-      "variant": "bankR3",
+      "variant": "research-d5b88a",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,
@@ -412,7 +412,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__cohort__westminster_vi__overall__r1",
       "entry_sha256": "061709969643c08e08f44eca0e16ee335ed31c996e92a50947d471817dc9d53a",
-      "variant": "cohort",
+      "variant": "research-16accd",
       "question_id": "westminster_vi",
       "group_id": "overall",
       "counted": true,
@@ -435,7 +435,7 @@
     {
       "entry_id": "gb-findoutnow-vi-2026-11-04__cohort__likelihood_to_vote__overall__r1",
       "entry_sha256": "d7d760117c6f7d343bf47a701ecb66bb1eb0b648809ec08e97a8c1f28c20cc35",
-      "variant": "cohort",
+      "variant": "research-16accd",
       "question_id": "likelihood_to_vote",
       "group_id": "overall",
       "counted": true,

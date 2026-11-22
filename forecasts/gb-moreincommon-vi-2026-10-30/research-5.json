@@ -1,0 +1,94 @@
+{
+  "target_id": "gb-moreincommon-vi-2026-10-30",
+  "variant": "research-5",
+  "variant_label": "Additional research forecast 5",
+  "arm": "additional_research",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__westminster_vi__overall__r1",
+      "entry_sha256": "9d70754150882de03b2701f64b17fabb2fe1af4b5594e443e9fe4f7e57f64312",
+      "seq": 1340,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__cells__20261028T043646021656Z__s1339",
+      "locked_at": "2026-10-28T04:36:46Z",
+      "state": "scored",
+      "question": {
+        "id": "westminster_vi",
+        "text": "And, if a general election was called tomorrow, which party would you vote for? (More in Common headline voting intention: likely voters only, undecideds squeezed and model-assigned; shares among those allocated a party.)",
+        "type": "categorical",
+        "options": [
+          "Conservative",
+          "Labour",
+          "Liberal Democrat",
+          "Reform UK",
+          "Restore Britain",
+          "The Green Party",
+          "Scottish National Party (SNP)",
+          "Plaid Cymru",
+          "Another party/Independent Candidate"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.21281337833750003,
+        0.2850358584625,
+        0.1058018344375,
+        0.21059351835,
+        0.044921805190000004,
+        0.09277994708250001,
+        0.0264473268225,
+        0.00868257407,
+        0.0129237572475
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    },
+    {
+      "entry_id": "gb-moreincommon-vi-2026-10-30__cellsH__burnham_good_job__overall__r1",
+      "entry_sha256": "1de07d923c070d9704259e73044bd71f09a32fe0dad26b5bcd8b3354840f4dc3",
+      "seq": 1342,
+      "batch_id": "gb-moreincommon-vi-2026-10-30__cells__20261028T043646021656Z__s1339",
+      "locked_at": "2026-10-28T04:36:46Z",
+      "state": "scored",
+      "question": {
+        "id": "burnham_good_job",
+        "text": "For each of the following, please indicate whether you think they are doing a good job or a bad job? Andy Burnham",
+        "type": "categorical",
+        "options": [
+          "Very good job",
+          "Somewhat good job",
+          "Neither a good job nor a bad job",
+          "Somewhat bad job",
+          "Very bad job",
+          "Don't know"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.06575614357500001,
+        0.21338430930000002,
+        0.236985262925,
+        0.1808058533375,
+        0.1981805453,
+        0.1048878855625
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

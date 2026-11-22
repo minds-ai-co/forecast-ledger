@@ -49,27 +49,27 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 20,
       "tvd": 0.100481,
       "mae_pp": 5.816217
     },
-    "anchored3": {
+    "mosaic": {
       "items": 20,
       "tvd": 0.03152,
       "mae_pp": 1.777212
     },
-    "cellsS": {
+    "research-4": {
       "items": 20,
       "tvd": 0.106816,
       "mae_pp": 6.248018
     },
-    "cellsH": {
+    "research-5": {
       "items": 20,
       "tvd": 0.099158,
       "mae_pp": 5.803227
     },
-    "memory3": {
+    "research-2": {
       "items": 20,
       "tvd": 0.107738,
       "mae_pp": 6.34286
@@ -77,7 +77,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -97,7 +97,7 @@
           "mae_pp": 5.816217
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -117,7 +117,7 @@
           "mae_pp": 1.777212
         }
       },
-      "cellsH": {
+      "research-5": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -137,7 +137,7 @@
           "mae_pp": 5.803227
         }
       },
-      "cellsS": {
+      "research-4": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -157,7 +157,7 @@
           "mae_pp": 6.248018
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 5,
           "n_distribution": 5,
@@ -183,7 +183,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_FEDSTAT__overall__r1",
       "entry_sha256": "f1ac3681d099309000601005b755521d1b6f5fbe28af352ee1e1fc045eac04d4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "overall",
       "counted": true,
@@ -200,7 +200,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_FEDSTAT__female__r1",
       "entry_sha256": "9f6c76c77e44a8dd107110339487539d38ba8f898e90404b0a7d741d66a86fcd",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "female",
       "counted": true,
@@ -217,7 +217,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_FEDSTAT__educ_hs_or_less__r1",
       "entry_sha256": "dca50c1072e79294b860f167cec20fb3012e3d9c937d82f7424eb46e492a9490",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -234,7 +234,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_FEDSTAT__age_65_plus__r1",
       "entry_sha256": "dd59b71da0d3d0fd72ddd965c242e80f9016e381b729435dcac155e81f1161a0",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "age_65_plus",
       "counted": true,
@@ -251,7 +251,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_MILITARY__overall__r1",
       "entry_sha256": "e0139f7e1f928d1ce60623cd2fe966f84cbf146dec092f24889d345aaad6c1b4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_MILITARY",
       "group_id": "overall",
       "counted": true,
@@ -270,7 +270,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_MILITARY__female__r1",
       "entry_sha256": "5e9203c33581bb4874a35d857cb34084c24ba2d5606ad850d41bdcea18905629",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_MILITARY",
       "group_id": "female",
       "counted": true,
@@ -289,7 +289,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_MILITARY__educ_hs_or_less__r1",
       "entry_sha256": "cd6ad4d8586298f7508a5bfcb0ec4ea9672db74bb2d5f278126ac49a056cc6b1",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_MILITARY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -308,7 +308,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_MILITARY__age_65_plus__r1",
       "entry_sha256": "7177500d9b44b323615cb130c89700b3b13d56ca7b267bb32696d6603a67556a",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_MILITARY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -327,7 +327,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_POLICE__overall__r1",
       "entry_sha256": "f1d5871baa0a97f3f38b66fb5c371273467b0af292f4187cfd5d19c446dafcca",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_POLICE",
       "group_id": "overall",
       "counted": true,
@@ -346,7 +346,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_POLICE__female__r1",
       "entry_sha256": "5353b2087c87b4aaffac45f33fcde1975996d150987bfe2dfd51a0d00f9e8022",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_POLICE",
       "group_id": "female",
       "counted": true,
@@ -365,7 +365,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_POLICE__educ_hs_or_less__r1",
       "entry_sha256": "2ca3fb310d3e19a13e6a379a4f1320a9f416003b0386b9379505e66c645d9f7f",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_POLICE",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -384,7 +384,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_POLICE__age_65_plus__r1",
       "entry_sha256": "621c6cde5d2176120556c87e36e45a8dbfc74afd5a94eb6f85291c0ff26f4102",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_POLICE",
       "group_id": "age_65_plus",
       "counted": true,
@@ -403,7 +403,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_SUPREME__overall__r1",
       "entry_sha256": "0527089fa18d2d991c91f79c54dc2b27d7ba606ff84eac190f80ad72aa4a29ce",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_SUPREME",
       "group_id": "overall",
       "counted": true,
@@ -422,7 +422,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_SUPREME__female__r1",
       "entry_sha256": "0e9388a075970a2984d04217c80a3240df0c1f9d57c8bb328ad3d86f120d5c04",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_SUPREME",
       "group_id": "female",
       "counted": true,
@@ -441,7 +441,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_SUPREME__educ_hs_or_less__r1",
       "entry_sha256": "8d8b3360b480d13e05ed4624b2c01bc419dfd9a39239875bd0c97bcfca877ae4",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_SUPREME",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -460,7 +460,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_SUPREME__age_65_plus__r1",
       "entry_sha256": "0431ae72d5b9716a5ce8dc64ba35aa6f33de3fc090caca1771c5d1cf4f1ea9f7",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_SUPREME",
       "group_id": "age_65_plus",
       "counted": true,
@@ -479,7 +479,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_PRESIDENCY__overall__r1",
       "entry_sha256": "9aef38add25c602b2338d54c57617daf8fc0ddb9a9057d39bb0426809ae64fb5",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "overall",
       "counted": true,
@@ -498,7 +498,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_PRESIDENCY__female__r1",
       "entry_sha256": "7a5cb85d6285f874586d8f7e03c819b4676d2254c10dbd72eecedbd529b0c197",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "female",
       "counted": true,
@@ -517,7 +517,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_PRESIDENCY__educ_hs_or_less__r1",
       "entry_sha256": "73e9a0af2fb01ed8a76de48b7317d7d18d0f581d68ee1fcb202dcea593944a0a",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -536,7 +536,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__TRUST_PRESIDENCY__age_65_plus__r1",
       "entry_sha256": "f4aab60cbf49c17a3cb14844eb5e6ddb32a0f228d6b4f09005af2f1a250cbeb2",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -555,7 +555,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_FEDSTAT__overall__r1",
       "entry_sha256": "8063ce0bdcecca36e08e759f6a36afae1b3133277cc23cef194bf8b299d50ca7",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "overall",
       "counted": true,
@@ -572,7 +572,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_FEDSTAT__female__r1",
       "entry_sha256": "8b3c12d81dfca74557069dda7e04ae8a76bb06adf7d30b16b72d22424f5f119b",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "female",
       "counted": true,
@@ -589,7 +589,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_FEDSTAT__educ_hs_or_less__r1",
       "entry_sha256": "7df04ecc6fed27b612f6a7d3352a5871bf857953ace8cf36b75d04ee12c0406c",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -606,7 +606,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_FEDSTAT__age_65_plus__r1",
       "entry_sha256": "157dcc498188cf633cecdcc6217e07a8dfd6bdbf67b7035d15071f837a79dd50",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "age_65_plus",
       "counted": true,
@@ -623,7 +623,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_MILITARY__overall__r1",
       "entry_sha256": "a2c8e3f3d3b438f51cb2f57a6e7ada4b63f278b80dd481d9ef2a01c14b993367",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_MILITARY",
       "group_id": "overall",
       "counted": true,
@@ -642,7 +642,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_MILITARY__female__r1",
       "entry_sha256": "3f2286497429616fa0e39fe6279a86ee12d5e9e276e7103e89ae3d4e6dd3ac0c",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_MILITARY",
       "group_id": "female",
       "counted": true,
@@ -661,7 +661,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_MILITARY__educ_hs_or_less__r1",
       "entry_sha256": "b8a89d9f096b2cffe4f41a0fbecb0e2e2338586b3903c4c49ec1e0ea2fa2c4cf",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_MILITARY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -680,7 +680,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_MILITARY__age_65_plus__r1",
       "entry_sha256": "686013897dacb6f156fcb37aba9a1ae0a215189b77a5954483755fa8ed020aeb",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_MILITARY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -699,7 +699,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_POLICE__overall__r1",
       "entry_sha256": "5250c23a560b7a34231f8a2bee6ea407e3e4acc0cb41944aceca099138c37d91",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_POLICE",
       "group_id": "overall",
       "counted": true,
@@ -718,7 +718,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_POLICE__female__r1",
       "entry_sha256": "e075251a4c219f89aecfa3837ad578924ae89d6cc3cf77128e90f358b952a931",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_POLICE",
       "group_id": "female",
       "counted": true,
@@ -737,7 +737,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_POLICE__educ_hs_or_less__r1",
       "entry_sha256": "8dd0dafabfa279e397bc905ac3eb84dfba384afbaf4e7f1d347be8f7ff58ba12",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_POLICE",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -756,7 +756,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_POLICE__age_65_plus__r1",
       "entry_sha256": "0f00e4215db19d1024c8d7b55dba3bcdaac805d5c200b6b21d4da7e50fa45db0",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_POLICE",
       "group_id": "age_65_plus",
       "counted": true,
@@ -775,7 +775,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_SUPREME__overall__r1",
       "entry_sha256": "e68bac52aae3be3ac77b4c0a411b8bb73f5944f0a39454f964edb2788b31040c",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_SUPREME",
       "group_id": "overall",
       "counted": true,
@@ -794,7 +794,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_SUPREME__female__r1",
       "entry_sha256": "89b2411d883a633c4b4ecce7d2a29e0226f1ce6bd9662372a63ab5634853644a",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_SUPREME",
       "group_id": "female",
       "counted": true,
@@ -813,7 +813,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_SUPREME__educ_hs_or_less__r1",
       "entry_sha256": "d479de9eb1624e33517f6736220c66998a63ec307354ea151373b283fabc0bad",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_SUPREME",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -832,7 +832,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_SUPREME__age_65_plus__r1",
       "entry_sha256": "562084a0e63e5149c4b493e70a32a9268d4d5d3b2e7ac89bd1e36519eb917b96",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_SUPREME",
       "group_id": "age_65_plus",
       "counted": true,
@@ -851,7 +851,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_PRESIDENCY__overall__r1",
       "entry_sha256": "82bf3c9c28ec797ea6d10a16d8469445cd59524231376eb8c400bb0413698db2",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "overall",
       "counted": true,
@@ -870,7 +870,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_PRESIDENCY__female__r1",
       "entry_sha256": "5aa3ee9660895cb656383ce758c0085b1e0dd08d289c23cde6dfeb75a3ef74a8",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "female",
       "counted": true,
@@ -889,7 +889,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_PRESIDENCY__educ_hs_or_less__r1",
       "entry_sha256": "ef5a57d7226b353a0f6c058a71b288e051f67d8c5c93b3df3c2acef0f567fe08",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -908,7 +908,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__anchored3__TRUST_PRESIDENCY__age_65_plus__r1",
       "entry_sha256": "8cfb6cf131e6e11f904e88931a39f210a0c1d3b9e0c25e3b5df3318181786730",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -927,7 +927,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_FEDSTAT__overall__r1",
       "entry_sha256": "6209c695dec52a44dee472ee5ba792cb04c7b8c851e7addea4423987dc56c5dc",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "overall",
       "counted": true,
@@ -944,7 +944,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_FEDSTAT__overall__r1",
       "entry_sha256": "54fac5d19dc3140318fdf4e88ef4d2787a99291cc785bca1d99363b08e9596de",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "overall",
       "counted": true,
@@ -961,7 +961,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_FEDSTAT__female__r1",
       "entry_sha256": "4db3a0bd27a3e12499b65f6a971a0b36dde8da0df503d4a5ad42dde28575212a",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "female",
       "counted": true,
@@ -978,7 +978,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_FEDSTAT__female__r1",
       "entry_sha256": "3ae4b0dd218ae86bd62941cad4eaebed6d7978173168a2c00ad160c782324337",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "female",
       "counted": true,
@@ -995,7 +995,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_FEDSTAT__educ_hs_or_less__r1",
       "entry_sha256": "5afe2ffd2c21d6b7763218bd4f42f0a3be009050ed280057b26fc0990b19906c",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1012,7 +1012,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_FEDSTAT__educ_hs_or_less__r1",
       "entry_sha256": "caf955c1cdd592e241914aaadd8ea4feaa46a1c21c7a2bc8db839d647a81e971",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1029,7 +1029,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_FEDSTAT__age_65_plus__r1",
       "entry_sha256": "b77c79add778909a0406f89ad0ca4d1aa0922c2441017587045a77595117b167",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1046,7 +1046,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_FEDSTAT__age_65_plus__r1",
       "entry_sha256": "f2e0392a247989830253dfacfc771990dbae0ebaa4872bf648f772fe09a4622a",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1063,7 +1063,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_MILITARY__overall__r1",
       "entry_sha256": "b7423470ba1608c0edd8bd2921d70fc7149706ee56d887308b618415462aba69",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_MILITARY",
       "group_id": "overall",
       "counted": true,
@@ -1082,7 +1082,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_MILITARY__overall__r1",
       "entry_sha256": "27563e31d4ac30edb83e65ead9298c3c06e82e0708628378d21ab0901f0422c6",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_MILITARY",
       "group_id": "overall",
       "counted": true,
@@ -1101,7 +1101,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_MILITARY__female__r1",
       "entry_sha256": "7cc2ef9c8872896790ee4d495bb31bd0c8b79f85b31f7892c5aa46757680fd6f",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_MILITARY",
       "group_id": "female",
       "counted": true,
@@ -1120,7 +1120,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_MILITARY__female__r1",
       "entry_sha256": "a4e95aa8cbefe796f214293cdcd4903f5721e011f5e247d3e379235557ae8713",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_MILITARY",
       "group_id": "female",
       "counted": true,
@@ -1139,7 +1139,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_MILITARY__educ_hs_or_less__r1",
       "entry_sha256": "5db361539084a934cabc17d70ee801dbe0bcd4cf346df8a68b9f58972c142d58",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_MILITARY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1158,7 +1158,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_MILITARY__educ_hs_or_less__r1",
       "entry_sha256": "b293b8256ceb1c0c52dad6e16208ccbfa0cade5fc1fb9f94d8b9beb2e2fd0748",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_MILITARY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1177,7 +1177,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_MILITARY__age_65_plus__r1",
       "entry_sha256": "1b7fc7929cf927742aff47f349d87cb36b3fc6eeb7b885d7c84003ce83568ef2",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_MILITARY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1196,7 +1196,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_MILITARY__age_65_plus__r1",
       "entry_sha256": "649b560c4de383068f13388822f5811c354c18a8c395c7e0332905c6bd9735b6",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_MILITARY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1215,7 +1215,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_POLICE__overall__r1",
       "entry_sha256": "481028596006f04b97cda4481e54d3bf9764dac3c40226400fc64771c06fd597",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_POLICE",
       "group_id": "overall",
       "counted": true,
@@ -1234,7 +1234,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_POLICE__overall__r1",
       "entry_sha256": "ed8d3c321f5d481c6a46d287359cc7d604266500582ab270b29404db7d09c2a7",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_POLICE",
       "group_id": "overall",
       "counted": true,
@@ -1253,7 +1253,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_POLICE__female__r1",
       "entry_sha256": "3375d26b66122beffcbbbd2b6a71c7698c05a2b8d962d619e7d67df4db4efcbb",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_POLICE",
       "group_id": "female",
       "counted": true,
@@ -1272,7 +1272,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_POLICE__female__r1",
       "entry_sha256": "494ff561318164b2fcf70d06c00f8d3494d91e653796bd94289501b1dbe46623",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_POLICE",
       "group_id": "female",
       "counted": true,
@@ -1291,7 +1291,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_POLICE__educ_hs_or_less__r1",
       "entry_sha256": "ed0acf517804828c0c1e1569c89cec85995102fc05e19d9fbb51e391094e80ce",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_POLICE",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1310,7 +1310,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_POLICE__educ_hs_or_less__r1",
       "entry_sha256": "e1efb22b825e04366ae6136c7148c3bd16ae7748f8cc2e4af316f9e0cc7732b7",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_POLICE",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1329,7 +1329,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_POLICE__age_65_plus__r1",
       "entry_sha256": "7a0ea06c2fc7d1ab55414beb97e11d68ff9de1857a31698a72e2ba14e33f4b83",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_POLICE",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1348,7 +1348,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_POLICE__age_65_plus__r1",
       "entry_sha256": "47436a26485c7730ddce28071f2a51982b51e222b05c08e77af40bc92239e19d",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_POLICE",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1367,7 +1367,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_SUPREME__overall__r1",
       "entry_sha256": "bee935ace90860275f4f1a3134b461b88f762f8a2879db6e28688dfe0d0cf848",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_SUPREME",
       "group_id": "overall",
       "counted": true,
@@ -1386,7 +1386,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_SUPREME__overall__r1",
       "entry_sha256": "1a89f48ef81ddac5a628fff172b3eefe417f6ff89464886ddad885c987c26d88",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_SUPREME",
       "group_id": "overall",
       "counted": true,
@@ -1405,7 +1405,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_SUPREME__female__r1",
       "entry_sha256": "fb8d34feb007128257bd1bb3ef691975b7cbce6982b510b3c58d1e18a6997f81",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_SUPREME",
       "group_id": "female",
       "counted": true,
@@ -1424,7 +1424,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_SUPREME__female__r1",
       "entry_sha256": "7e9f6f36a6f57172c6b9a6e8fb327f37ba389dcfdce736ee8b5fbe76ba946301",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_SUPREME",
       "group_id": "female",
       "counted": true,
@@ -1443,7 +1443,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_SUPREME__educ_hs_or_less__r1",
       "entry_sha256": "feb910adf86610e45f5b05db49e5123ab16905105706891b86cec7bb278724d7",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_SUPREME",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1462,7 +1462,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_SUPREME__educ_hs_or_less__r1",
       "entry_sha256": "4d41d81720c74c310b0c3a2c8133394252280daa9fc31a8689dda55038107b3c",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_SUPREME",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1481,7 +1481,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_SUPREME__age_65_plus__r1",
       "entry_sha256": "52e7a3295de3b79e1edd8f3f878eb03fada64dccf31868fb6887473dd5739db3",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_SUPREME",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1500,7 +1500,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_SUPREME__age_65_plus__r1",
       "entry_sha256": "a87fb4171e930b05966fbd26b3c6b8dff1173ed198fc88bf9240df5b8e9112f8",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_SUPREME",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1519,7 +1519,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_PRESIDENCY__overall__r1",
       "entry_sha256": "55f70f532c28c992efcd04f5cac3cabd15eb74293e648df275404b788e5361c9",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "overall",
       "counted": true,
@@ -1538,7 +1538,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_PRESIDENCY__overall__r1",
       "entry_sha256": "33d547e40bdc3edb882567198455711388af21caf95a09e2eaa8a11f8c670204",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "overall",
       "counted": true,
@@ -1557,7 +1557,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_PRESIDENCY__female__r1",
       "entry_sha256": "55b96db590091708bfb79f043a27d910cb19b5b062ad6b9162701bf3c0e75425",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "female",
       "counted": true,
@@ -1576,7 +1576,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_PRESIDENCY__female__r1",
       "entry_sha256": "0d6ccdc2cc29509ad1249dd9ae0f918680847037ef57f1d00edc5fa1c63a1b72",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "female",
       "counted": true,
@@ -1595,7 +1595,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_PRESIDENCY__educ_hs_or_less__r1",
       "entry_sha256": "a37c3c8b594735e96a2aca78000eebde445884767db3d407782bc37541c91148",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1614,7 +1614,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_PRESIDENCY__educ_hs_or_less__r1",
       "entry_sha256": "7bda5eaf5b9dc867bfbbac8088708cbb39f1a7236751b9bf641769d49675a429",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1633,7 +1633,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsS__TRUST_PRESIDENCY__age_65_plus__r1",
       "entry_sha256": "4ad48f1048169d4f8b867ede4172f152fd2819fed13ed9b4b6c2b90f70883511",
-      "variant": "cellsS",
+      "variant": "research-4",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1652,7 +1652,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__cellsH__TRUST_PRESIDENCY__age_65_plus__r1",
       "entry_sha256": "cff66e8f8177e3eb00f871ff7a8482f7eb12323572cbc9ce25eeedb9ad8e9250",
-      "variant": "cellsH",
+      "variant": "research-5",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1671,7 +1671,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_FEDSTAT__overall__r1",
       "entry_sha256": "50d09189080536c81d73e6244ca0d515794eca38b4f420df8dd24afe7910e0e1",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "overall",
       "counted": true,
@@ -1688,7 +1688,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_FEDSTAT__female__r1",
       "entry_sha256": "78262589b8f9427ae9b816ff357eaa1351298d41737515b6a0fbf2f4c92ebb65",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "female",
       "counted": true,
@@ -1705,7 +1705,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_FEDSTAT__educ_hs_or_less__r1",
       "entry_sha256": "6a71ee4a0c91ef056f1c2773837eb481ddb2d712e0b788988560ebbcf6f96bff",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1722,7 +1722,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_FEDSTAT__age_65_plus__r1",
       "entry_sha256": "f38ff42987cf372c3a443cdaed626d19c28dfe82523bf86fcf0f8ed1b0b7111c",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_FEDSTAT",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1739,7 +1739,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_MILITARY__overall__r1",
       "entry_sha256": "d27ef6bc6a736465f6d26026ddf3bffd4bef86cc5dcd5e8a062fd30b2b85b0b5",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_MILITARY",
       "group_id": "overall",
       "counted": true,
@@ -1758,7 +1758,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_MILITARY__female__r1",
       "entry_sha256": "44bfa79fd63e2e12011d49a4dcca605d0c325e5fb8cdc9b3c9e32f0a8856d88c",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_MILITARY",
       "group_id": "female",
       "counted": true,
@@ -1777,7 +1777,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_MILITARY__educ_hs_or_less__r1",
       "entry_sha256": "edbd01f016aac8b49c2465d37d1cb0b08bad1e21be435e73c6eded7d9707d66d",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_MILITARY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1796,7 +1796,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_MILITARY__age_65_plus__r1",
       "entry_sha256": "31e6edd62bc41d77c771679b4f0ca4af7cb98030ce814f3238808863d8ac087e",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_MILITARY",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1815,7 +1815,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_POLICE__overall__r1",
       "entry_sha256": "a387c8e22f0ae56605bcfd419052c5b833629aacc0d6cdca952a21d5dd50eaed",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_POLICE",
       "group_id": "overall",
       "counted": true,
@@ -1834,7 +1834,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_POLICE__female__r1",
       "entry_sha256": "b3858fd09f2a9857fd2ad37fbc8dd91fcd2d35dcc5b9f63426e65c4218bee191",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_POLICE",
       "group_id": "female",
       "counted": true,
@@ -1853,7 +1853,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_POLICE__educ_hs_or_less__r1",
       "entry_sha256": "21e50b0725c5792ea7119d18e1a0989426e1206549b43a2b55165865be020852",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_POLICE",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1872,7 +1872,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_POLICE__age_65_plus__r1",
       "entry_sha256": "9ceb94fc81c0182680390cf84d94d0e83f16d095f01472c433b291b5741e477d",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_POLICE",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1891,7 +1891,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_SUPREME__overall__r1",
       "entry_sha256": "871c8e9513a11aa58d555424f3ec1ff036ecd5fa912dbb7dbebd6e357c72ae04",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_SUPREME",
       "group_id": "overall",
       "counted": true,
@@ -1910,7 +1910,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_SUPREME__female__r1",
       "entry_sha256": "b7df607c7ef3a64eaf02b0a7b7ece6df7adfc5780eece5111c948bf8dbee311b",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_SUPREME",
       "group_id": "female",
       "counted": true,
@@ -1929,7 +1929,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_SUPREME__educ_hs_or_less__r1",
       "entry_sha256": "76eb2066840054b31ebe53d17e78f1990bf8d538c787a23c943029e57ea5cab3",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_SUPREME",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -1948,7 +1948,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_SUPREME__age_65_plus__r1",
       "entry_sha256": "480e45670333cc39c6ac20ddca3b351c29ce2abf1eb158acbab0c1fc298a9274",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_SUPREME",
       "group_id": "age_65_plus",
       "counted": true,
@@ -1967,7 +1967,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_PRESIDENCY__overall__r1",
       "entry_sha256": "8a6739bc4c3b9fde4374fa46c7dee53ebcf3bb0a0d9f0aeb520f6c07745ccd5c",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "overall",
       "counted": true,
@@ -1986,7 +1986,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_PRESIDENCY__female__r1",
       "entry_sha256": "8a259518497f3b150ff3538019dbc90e0ddf5f56351c2f29b68f48607514bbf0",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "female",
       "counted": true,
@@ -2005,7 +2005,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_PRESIDENCY__educ_hs_or_less__r1",
       "entry_sha256": "7d4b783e03d4826e66be34b769146f8a3b0892dd4c4e5481908cf0df54eaaf20",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "educ_hs_or_less",
       "counted": true,
@@ -2024,7 +2024,7 @@
     {
       "entry_id": "us-census-htops-2609-trust-a__memory3__TRUST_PRESIDENCY__age_65_plus__r1",
       "entry_sha256": "baef8229e107613b469943f052d2262bc3472c2f62e33c395de423bd7f16ea1d",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "TRUST_PRESIDENCY",
       "group_id": "age_65_plus",
       "counted": true,

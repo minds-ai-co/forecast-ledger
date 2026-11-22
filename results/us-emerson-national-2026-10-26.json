@@ -30,17 +30,17 @@
     "credit": "Source: Emerson College Polling, October 2026 national poll. Selected question and audience shares reported for journalistic comparison; normalised over the listed answer options and rounded for display."
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 2,
       "tvd": 0.052764,
       "mae_pp": 3.5176
     },
-    "anchored3": {
+    "mosaic": {
       "items": 2,
       "tvd": 0.021514,
       "mae_pp": 1.434267
     },
-    "memory3": {
+    "research-2": {
       "items": 2,
       "tvd": 0.051264,
       "mae_pp": 3.4176
@@ -48,7 +48,7 @@
   },
   "summary_by_evidence_type": {
     "attitude": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -63,7 +63,7 @@
           "mae_pp": 4.168533
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -78,7 +78,7 @@
           "mae_pp": 1.968533
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -95,7 +95,7 @@
       }
     },
     "stated_intent": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -110,7 +110,7 @@
           "mae_pp": 2.866667
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -125,7 +125,7 @@
           "mae_pp": 0.9
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -146,7 +146,7 @@
     {
       "entry_id": "us-emerson-national-2026-10-26__trump_job_approval__overall__r1",
       "entry_sha256": "5fb8e250b6f6b6f354b6d692b143e09cdbe0c125d9e489917ed3286503a98e45",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -164,7 +164,7 @@
     {
       "entry_id": "us-emerson-national-2026-10-26__congress_ballot__overall__r1",
       "entry_sha256": "d985112ac97e4952d42f22da8a8f044676a9894709019c427b6ab5ace18f2121",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "congress_ballot",
       "group_id": "overall",
       "counted": true,
@@ -182,7 +182,7 @@
     {
       "entry_id": "us-emerson-national-2026-10-26__anchored3__trump_job_approval__overall__r1",
       "entry_sha256": "9204352cc3a0f690f2733bdb23ce68bd9275e1a2fb5d1ff988a57e3b70286f07",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -200,7 +200,7 @@
     {
       "entry_id": "us-emerson-national-2026-10-26__anchored3__congress_ballot__overall__r1",
       "entry_sha256": "737b00b5b6a5a7791fb78f808c20aaa64598b0b2d5c36f952bea8eecd9a8c6fd",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "congress_ballot",
       "group_id": "overall",
       "counted": true,
@@ -218,7 +218,7 @@
     {
       "entry_id": "us-emerson-national-2026-10-26__memory3__trump_job_approval__overall__r1",
       "entry_sha256": "dd957e2414a4543d8c02edd20ba3df0ffef3aa9e46bcb19018ac7a82f6e05475",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "trump_job_approval",
       "group_id": "overall",
       "counted": true,
@@ -236,7 +236,7 @@
     {
       "entry_id": "us-emerson-national-2026-10-26__memory3__congress_ballot__overall__r1",
       "entry_sha256": "b2a03689d1f4c75819577f65f2669505287fbff8f081c1c1bbef2eef6a77d9fc",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "congress_ballot",
       "group_id": "overall",
       "counted": true,

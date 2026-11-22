@@ -27,17 +27,17 @@
     }
   },
   "summary": {
-    "pure": {
+    "research-1": {
       "items": 1,
       "tvd": 0.116609,
       "mae_pp": 1.371871
     },
-    "anchored3": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.049244,
       "mae_pp": 0.579341
     },
-    "memory3": {
+    "research-2": {
       "items": 1,
       "tvd": 0.100609,
       "mae_pp": 1.183635
@@ -45,7 +45,7 @@
   },
   "summary_by_evidence_type": {
     "behaviour": {
-      "pure": {
+      "research-1": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -60,7 +60,7 @@
           "mae_pp": 1.371871
         }
       },
-      "anchored3": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -75,7 +75,7 @@
           "mae_pp": 0.579341
         }
       },
-      "memory3": {
+      "research-2": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -96,7 +96,7 @@
     {
       "entry_id": "gb-smmt-car-registrations-marque-2026-10__brand_share__overall__r1",
       "entry_sha256": "83cafbc57800d20a77e47acf5e019aa062e8740720a3578262c014d0a886fba9",
-      "variant": "pure",
+      "variant": "research-1",
       "question_id": "brand_share",
       "group_id": "overall",
       "counted": true,
@@ -128,7 +128,7 @@
     {
       "entry_id": "gb-smmt-car-registrations-marque-2026-10__anchored3__brand_share__overall__r1",
       "entry_sha256": "2f4272c445d514f2d845371f5553d2c36739c1b40f4f844c3c4c323b5c596587",
-      "variant": "anchored3",
+      "variant": "mosaic",
       "question_id": "brand_share",
       "group_id": "overall",
       "counted": true,
@@ -160,7 +160,7 @@
     {
       "entry_id": "gb-smmt-car-registrations-marque-2026-10__memory3__brand_share__overall__r1",
       "entry_sha256": "8940d9ca65f5ad993747547f38d7ecca26dba46fa9a80d1807ec487d411843b0",
-      "variant": "memory3",
+      "variant": "research-2",
       "question_id": "brand_share",
       "group_id": "overall",
       "counted": true,
