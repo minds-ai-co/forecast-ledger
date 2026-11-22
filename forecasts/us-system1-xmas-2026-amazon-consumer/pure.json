@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-amazon-consumer",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-amazon-consumer__feeling__overall__r1",
+      "entry_sha256": "231134c8adad70541940e590eadee9f0b5888ff824a0acd9c808c3412e011dd6",
+      "seq": 2673,
+      "batch_id": "us-system1-xmas-2026-amazon-consumer__20261122T194327268204Z__s2673",
+      "locked_at": "2026-11-22T19:43:27Z"
+    }
+  ]
+}

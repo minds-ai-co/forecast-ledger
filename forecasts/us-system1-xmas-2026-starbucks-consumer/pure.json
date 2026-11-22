@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-starbucks-consumer",
+  "variant": "pure",
+  "variant_label": "Additional research forecast (pure)",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-starbucks-consumer__feeling__overall__r1",
+      "entry_sha256": "e2c87ce7475945d84ff7aa7f256f9ff30aea65a65b5327301b4116c3bed433eb",
+      "seq": 2681,
+      "batch_id": "us-system1-xmas-2026-starbucks-consumer__20261122T194925989527Z__s2681",
+      "locked_at": "2026-11-22T19:49:25Z"
+    }
+  ]
+}
