@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-22T08:15:25Z",
+  "as_of": "2026-11-22T16:27:07Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-21T07:45:11Z",
   "chain_head_sha256": "c88881e0b609eb835be7a6ad675f6701c070b52eab75c598eaa72e5b3f778f42",
@@ -766,6 +766,75 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "YouGov, an online opt-in panel with matched sampling (stratified by gender, age, race, education, region and voter registration) and weighting to US adult citizens, screened to registered voters; Economist/YouGov Poll, late October 2026, nine days before the November 3 midterm elections",
+        "n": 1500,
+        "field_period": "October 24-27, 2026 (expected), nine days before the November 3, 2026 US midterm elections",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.47
+              },
+              {
+                "label": "Female",
+                "share": 0.53
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "Under 30",
+                "share": 0.17
+              },
+              {
+                "label": "30-44",
+                "share": 0.24
+              },
+              {
+                "label": "45-64",
+                "share": 0.32
+              },
+              {
+                "label": "65+",
+                "share": 0.27
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity",
+            "values": [
+              {
+                "label": "White",
+                "share": 0.69
+              },
+              {
+                "label": "Black",
+                "share": 0.11
+              },
+              {
+                "label": "Hispanic",
+                "share": 0.12
+              },
+              {
+                "label": "Other",
+                "share": 0.08
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Democrats (Party ID crosstab column)",
+          "Independents (Party ID crosstab column)",
+          "Republicans (Party ID crosstab column)",
+          "Age 18-29",
+          "Age 65+"
+        ]
+      },
       "wave": "Next weekly wave after October 19-20, 2026 (expected fieldwork about Oct 24-27, 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -1080,6 +1149,82 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "YouGov, an online opt-in panel of GB adults aged 18+, sampled and weighted to be representative of GB adults (age, sex, region, social grade, 2024 general election vote, EU referendum vote); YouGov weekly tracker survey, late October 2026, with Andy Burnham as Labour Prime Minister",
+        "n": 1750,
+        "field_period": "25-26 October 2026 (expected)",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.109
+              },
+              {
+                "label": "25-49",
+                "share": 0.417
+              },
+              {
+                "label": "50-64",
+                "share": 0.241
+              },
+              {
+                "label": "65+",
+                "share": 0.233
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.486
+              },
+              {
+                "label": "Female",
+                "share": 0.514
+              }
+            ]
+          },
+          {
+            "label": "Region",
+            "values": [
+              {
+                "label": "London",
+                "share": 0.121
+              },
+              {
+                "label": "Rest of South",
+                "share": 0.343
+              },
+              {
+                "label": "Midlands",
+                "share": 0.164
+              },
+              {
+                "label": "North",
+                "share": 0.237
+              },
+              {
+                "label": "Scotland",
+                "share": 0.087
+              },
+              {
+                "label": "Wales",
+                "share": 0.048
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Age 18-24",
+          "Age 65+",
+          "2024 Conservative voters",
+          "2024 Labour voters"
+        ]
+      },
       "wave": "Weekly wave expected 25-26 October 2026 (next after 18-19 October 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -1251,6 +1396,57 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Elabe online quota sample of residents of metropolitan France aged 18+ (about 1,000), interviewed over two days (Tue-Wed) for Les Echos, late October or early November 2026. Emmanuel Macron is President (term ends 2027), Sébastien Lecornu Prime Minister; context of rising fuel prices, purchasing-power worries and targeted government measures; Macron trust at 17% and Lecornu at 19% in late September 2026, both falling. 2027 presidential pre-campaign under way (RN leaders Bardella and Le Pen most popular, Edouard Philippe rising).",
+        "n": 1000,
+        "field_period": "Expected Tue 27-Wed 28 Oct 2026 (published Thu 29 Oct) or Tue 3-Wed 4 Nov 2026 (published Thu 5 Nov); online, two days, about 1,000 adults.",
+        "composition": [
+          {
+            "label": "Sex (approximation, INSEE 2026, adults 18+)",
+            "values": [
+              {
+                "label": "Homme",
+                "share": 0.479
+              },
+              {
+                "label": "Femme",
+                "share": 0.521
+              }
+            ]
+          },
+          {
+            "label": "Age (approximation, INSEE 2026, adults 18+; Elabe crosstab bands)",
+            "values": [
+              {
+                "label": "18-24 ans",
+                "share": 0.102
+              },
+              {
+                "label": "25-34 ans",
+                "share": 0.146
+              },
+              {
+                "label": "35-49 ans",
+                "share": 0.235
+              },
+              {
+                "label": "50-64 ans",
+                "share": 0.24
+              },
+              {
+                "label": "65 ans et plus",
+                "share": 0.277
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Hommes (crosstab column Homme)",
+          "Femmes (crosstab column Femme)",
+          "18-24 ans (crosstab column)",
+          "65 ans et plus (crosstab column)"
+        ]
+      },
       "wave": "First Observatoire politique wave with fieldwork starting on or after Tue 27 Oct 2026 (expected 27-28 Oct, published Thu 29 Oct; or 3-4 Nov, published Thu 5 Nov)",
       "status": "scored",
       "disclosure": "full",
@@ -1393,6 +1589,77 @@
         "source": "US Census Bureau",
         "categories": [
           "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
         ]
       },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
@@ -1555,6 +1822,77 @@
         "source": "US Census Bureau",
         "categories": [
           "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
         ]
       },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
@@ -1769,6 +2107,77 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
+        ]
+      },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
       "status": "scored",
       "disclosure": "full",
@@ -1929,6 +2338,77 @@
         "source": "US Census Bureau",
         "categories": [
           "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "September 2026 HTOPS collection (Census planned deployment on or about September 2, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
         ]
       },
       "wave": "HTOPS cycle 2609 (September 2026 collection); public-use file and tables not yet released",
@@ -2143,6 +2623,7 @@
           "Stated intent"
         ]
       },
+      "audience": null,
       "wave": "Weekly wave expected Tue 27 October to Mon 2 November 2026, published Tue 3 November 2026",
       "status": "scored",
       "disclosure": "full",
@@ -2260,6 +2741,69 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "ABC News/Washington Post/Ipsos poll: online survey of US adults aged 18+ from Ipsos KnowledgePanel (probability-based, address-recruited panel; panelists without internet get a tablet), English and Spanish, national; final days before the November 3, 2026 midterm elections",
+        "n": 2500,
+        "field_period": "Unknown. Precedents for a final pre-midterm wave: trend rows dated 11/1/18 (after a 10/11/18 wave) and 11/2/22 (Post-ABC-Ipsos, after a 10/22/22 wave) in the Oct 2026 trend topline.",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.483
+              },
+              {
+                "label": "Female",
+                "share": 0.517
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.202
+              },
+              {
+                "label": "30-44",
+                "share": 0.254
+              },
+              {
+                "label": "45-59",
+                "share": 0.222
+              },
+              {
+                "label": "60+",
+                "share": 0.322
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity",
+            "values": [
+              {
+                "label": "White non-Hispanic",
+                "share": 0.587
+              },
+              {
+                "label": "Black non-Hispanic",
+                "share": 0.112
+              },
+              {
+                "label": "Other or 2+ races non-Hispanic",
+                "share": 0.112
+              },
+              {
+                "label": "Hispanic",
+                "share": 0.189
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "The first national ABC News/Washington Post/Ipsos poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose topline reports Trump job approval and right/wrong direction among all adults. Expected: final pre-midterm wave, fieldwork about Oct 27-Nov 1, 2026, release about Nov 1-2, 2026.",
       "status": "not_scoreable",
       "disclosure": "full",
@@ -2352,6 +2896,69 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Emerson College Polling national survey of US likely voters: MMS text-to-web from a probability-based voter panel (Consensus Strategies) plus online panel interviews (PureSpectrum), English only; final days before the November 3, 2026 midterm elections",
+        "n": 1000,
+        "field_period": "Unknown. 2026 national polls are monthly: May (release May 28), June (Jun 11), July 19-20 (Jul 23), August (Aug 20), September 21-22 (Sep 24). No October national poll yet as of Oct 24, so one is due.",
+        "composition": [
+          {
+            "label": "Party registration or affiliation",
+            "values": [
+              {
+                "label": "Democrat",
+                "share": 0.327
+              },
+              {
+                "label": "Republican",
+                "share": 0.331
+              },
+              {
+                "label": "Independent/other",
+                "share": 0.342
+              }
+            ]
+          },
+          {
+            "label": "2024 presidential vote",
+            "values": [
+              {
+                "label": "Kamala Harris",
+                "share": 0.492
+              },
+              {
+                "label": "Donald Trump",
+                "share": 0.46
+              },
+              {
+                "label": "Someone else",
+                "share": 0.024
+              },
+              {
+                "label": "Did not vote",
+                "share": 0.024
+              }
+            ]
+          },
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.48
+              },
+              {
+                "label": "Female",
+                "share": 0.514
+              },
+              {
+                "label": "Nonbinary or other",
+                "share": 0.006
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "The first national Emerson College Polling survey whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose full results report Trump job approval and the 2026 congressional ballot for the national likely-voter sample. Expected: October/final pre-midterm national poll, fieldwork about Oct 26-Nov 1, 2026, release about Oct 28-Nov 2.",
       "status": "scored",
@@ -2494,6 +3101,69 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "NPR/PBS News/Marist Poll: national survey of registered voters (L2 voter file), multi-mode: live-interviewer phone, text-to-web and online panel matched to L2, English or Spanish; final days before the November 3, 2026 midterm elections",
+        "n": 1300,
+        "field_period": "Unknown. 2026 national waves: Jan, Feb, Mar, May, Jun, Sep 14-15. Marist's own trend table shows a final national pre-election wave in each recent cycle: \"October 26th, 2018\" and \"November 2018\"; \"October 2022\" and \"November 2022\"; \"October 2024\" and \"November 2024\".",
+        "composition": [
+          {
+            "label": "Party identification",
+            "values": [
+              {
+                "label": "Democrat",
+                "share": 0.35
+              },
+              {
+                "label": "Republican",
+                "share": 0.33
+              },
+              {
+                "label": "Independent",
+                "share": 0.29
+              },
+              {
+                "label": "Other",
+                "share": 0.03
+              }
+            ]
+          },
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Men",
+                "share": 0.49
+              },
+              {
+                "label": "Women",
+                "share": 0.51
+              }
+            ]
+          },
+          {
+            "label": "Generation",
+            "values": [
+              {
+                "label": "Gen Z",
+                "share": 0.17
+              },
+              {
+                "label": "Millennials",
+                "share": 0.24
+              },
+              {
+                "label": "Gen X",
+                "share": 0.22
+              },
+              {
+                "label": "Baby Boomers/Silent/Greatest",
+                "share": 0.36
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "The first national NPR/PBS News/Marist poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and that reports Trump job approval and the congressional ballot for National Registered Voters. Expected: final pre-midterm national poll, fieldwork about Oct 26-30, 2026, release about Oct 29-Nov 2.",
       "status": "scored",
@@ -2638,6 +3308,73 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Quinnipiac University national poll: live-interviewer random-digit-dial telephone survey (landlines and cell phones, Dynata sample), English and Spanish, of self-identified registered voters in the contiguous US; final days before the November 3, 2026 midterm elections",
+        "n": 1100,
+        "field_period": "Unknown; expected final pre-midterm national poll in late October or early November 2026, before the November 3 US midterm elections",
+        "composition": [
+          {
+            "label": "Sex (CPS Nov 2024 registered voters)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.475
+              },
+              {
+                "label": "Female",
+                "share": 0.525
+              }
+            ]
+          },
+          {
+            "label": "Age (CPS Nov 2024 registered voters)",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.092
+              },
+              {
+                "label": "25-44",
+                "share": 0.314
+              },
+              {
+                "label": "45-64",
+                "share": 0.326
+              },
+              {
+                "label": "65+",
+                "share": 0.268
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity (CPS Nov 2024 registered voters)",
+            "values": [
+              {
+                "label": "White alone non-Hispanic",
+                "share": 0.69
+              },
+              {
+                "label": "Black alone",
+                "share": 0.126
+              },
+              {
+                "label": "Hispanic (any race)",
+                "share": 0.116
+              },
+              {
+                "label": "Asian alone",
+                "share": 0.048
+              },
+              {
+                "label": "Other/multiracial",
+                "share": 0.02
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "The first national Quinnipiac University poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and that reports Trump job approval and House control preference among registered voters. Expected: final pre-midterm national poll, fieldwork about Oct 22-Nov 1, 2026, release about Oct 28-Nov 2.",
       "status": "not_scoreable",
       "disclosure": "full",
@@ -2730,6 +3467,69 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Reuters/Ipsos poll: online survey of US adults aged 18+ from Ipsos KnowledgePanel (probability-based, address-recruited panel; panelists without internet get a device), English, national; final days before the November 3, 2026 midterm elections, with Trump approval at a record low in recent waves",
+        "n": 1700,
+        "field_period": "Unknown. 2026 cadence of the core political wave is about every two weeks: Sep 30-Oct 5 (released Oct 5) and Oct 16-19 (released Oct 19). Next wave expected about Oct 28-Nov 2.",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.483
+              },
+              {
+                "label": "Female",
+                "share": 0.517
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.202
+              },
+              {
+                "label": "30-44",
+                "share": 0.254
+              },
+              {
+                "label": "45-59",
+                "share": 0.222
+              },
+              {
+                "label": "60+",
+                "share": 0.322
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity",
+            "values": [
+              {
+                "label": "White non-Hispanic",
+                "share": 0.587
+              },
+              {
+                "label": "Black non-Hispanic",
+                "share": 0.112
+              },
+              {
+                "label": "Other or 2+ races non-Hispanic",
+                "share": 0.112
+              },
+              {
+                "label": "Hispanic",
+                "share": 0.189
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "The first national Reuters/Ipsos poll whose results are first published after the lock (lock planned about Oct 25-27, 2026 UTC) and whose topline reports Trump job approval (Approval5_Combined) and the generic congressional ballot (TM3287Y24). Expected: final pre-midterm wave, fieldwork about Oct 28 - Nov 2, 2026, release about Nov 1-3, 2026.",
       "status": "scored",
@@ -2850,6 +3650,85 @@
         "categories": [
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Find Out Now online panel survey of GB adults aged 18+ (excludes Northern Ireland), weekly voting intention poll fielded on Wednesday 28 October 2026. Andy Burnham is Labour Prime Minister; Kemi Badenoch leads the Conservatives, Nigel Farage Reform UK, Ed Davey the Liberal Democrats, Zack Polanski the Greens; Restore Britain and Your Party exist but are not named options (they fall under Other).",
+        "n": 2400,
+        "field_period": "Wed 28 October 2026 (expected; occasionally Wed-Thu)",
+        "composition": [
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.486
+              },
+              {
+                "label": "Female",
+                "share": 0.514
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.186
+              },
+              {
+                "label": "30-39",
+                "share": 0.172
+              },
+              {
+                "label": "40-54",
+                "share": 0.247
+              },
+              {
+                "label": "55-64",
+                "share": 0.159
+              },
+              {
+                "label": "65-74",
+                "share": 0.126
+              },
+              {
+                "label": "75+",
+                "share": 0.109
+              }
+            ]
+          },
+          {
+            "label": "Region",
+            "values": [
+              {
+                "label": "East Midlands",
+                "share": 0.075
+              },
+              {
+                "label": "East of England",
+                "share": 0.097
+              },
+              {
+                "label": "London",
+                "share": 0.135
+              },
+              {
+                "label": "North East",
+                "share": 0.041
+              },
+              {
+                "label": "North West",
+                "share": 0.113
+              },
+              {
+                "label": "Scotland",
+                "share": 0.085
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Weekly wave expected Wed 28 Oct 2026 (possibly running into Thu 29 Oct)",
       "status": "scored",
@@ -2992,6 +3871,77 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "Opinium Research online panel survey of UK adults aged 18+ for The Observer, weekly political poll, Wednesday-Friday fieldwork at the end of October 2026; GB respondents only for voting intention and leader approval. Andy Burnham is Labour Prime Minister and John Healey Chancellor; Kemi Badenoch leads the Conservatives, Nigel Farage Reform UK, Ed Davey the Liberal Democrats, Zack Polanski the Greens; Restore Britain (Rupert Lowe) and Your Party also stand.",
+        "n": 2000,
+        "field_period": "Wed 28 to Fri 30 October 2026 (expected)",
+        "composition": [
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4823
+              },
+              {
+                "label": "Female",
+                "share": 0.5142
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-34",
+                "share": 0.2741
+              },
+              {
+                "label": "35-49",
+                "share": 0.2416
+              },
+              {
+                "label": "50-64",
+                "share": 0.2476
+              },
+              {
+                "label": "65+",
+                "share": 0.2371
+              }
+            ]
+          },
+          {
+            "label": "Region",
+            "values": [
+              {
+                "label": "North",
+                "share": 0.2396
+              },
+              {
+                "label": "Midlands",
+                "share": 0.1653
+              },
+              {
+                "label": "London",
+                "share": 0.1338
+              },
+              {
+                "label": "South",
+                "share": 0.328
+              },
+              {
+                "label": "Wales",
+                "share": 0.0484
+              },
+              {
+                "label": "Scotland",
+                "share": 0.0854
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "First Opinium/Observer wave with fieldwork starting on or after Wed 28 Oct 2026 (expected 28-30 Oct, published about Sat 31 Oct)",
       "status": "scored",
       "disclosure": "full",
@@ -3133,6 +4083,89 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "The Conference Board Consumer Confidence Survey: online survey of US households (respondent reports for the household; weighting cells use the household head) conducted for The Conference Board by Toluna from its online consumer panel (\"panel of over 36 million consumers\"); about four weekly waves in October 2026, preliminary cutoff about Oct 20-21, 2026; one week before the November 3, 2026 midterm elections, amid a September federal funds rate hike, elevated fuel prices and the Iran conflict",
+        "n": 3000,
+        "field_period": "October 1 to about October 20-21, 2026 (preliminary cutoff), shortly before the November 3 US midterm elections",
+        "composition": [
+          {
+            "label": "Age of householder (APPROXIMATION from US Census CPS ASEC 2025, HINC-01, all households, https://www2.census.gov/programs-surveys/cps/tables/hinc-01/2025/hinc01_1.xlsx; CB uses different age cut points)",
+            "values": [
+              {
+                "label": "Under 35",
+                "share": 0.202
+              },
+              {
+                "label": "35-44",
+                "share": 0.175
+              },
+              {
+                "label": "45-54",
+                "share": 0.161
+              },
+              {
+                "label": "55-64",
+                "share": 0.17
+              },
+              {
+                "label": "65+",
+                "share": 0.291
+              }
+            ]
+          },
+          {
+            "label": "Household income 2024, CB weighting brackets (APPROXIMATION from CPS ASEC 2025 HINC-01, same URL; summed from $5,000 bins)",
+            "values": [
+              {
+                "label": "Under $15,000",
+                "share": 0.071
+              },
+              {
+                "label": "$15,000-$24,999",
+                "share": 0.064
+              },
+              {
+                "label": "$25,000-$34,999",
+                "share": 0.068
+              },
+              {
+                "label": "$35,000-$49,999",
+                "share": 0.099
+              },
+              {
+                "label": "$50,000-$74,999",
+                "share": 0.151
+              },
+              {
+                "label": "$75,000-$99,999",
+                "share": 0.12
+              }
+            ]
+          },
+          {
+            "label": "Census region of household (APPROXIMATION from CPS ASEC 2025 HINC-01, same URL; CB weights by the 9 divisions)",
+            "values": [
+              {
+                "label": "Northeast",
+                "share": 0.172
+              },
+              {
+                "label": "Midwest",
+                "share": 0.211
+              },
+              {
+                "label": "South",
+                "share": 0.39
+              },
+              {
+                "label": "West",
+                "share": 0.227
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "October 2026 preliminary results (survey period Oct 1 to the preliminary cutoff, about Oct 20-21, 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -3252,6 +4285,52 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "INSEE monthly household business-tendency survey (CAMME, enquête mensuelle de conjoncture auprès des ménages), telephone interviews (CATI) with one adult per household in France, October 2026 wave (about late September to mid-October 2026); the French part of the European Commission Joint Harmonised EU Consumer Survey. Emmanuel Macron is President and Sébastien Lecornu Prime Minister; household confidence indicator 86 in September 2026, well below its long-run average of 100; purchasing-power and fuel-price worries; 2027 budget debate in parliament",
+        "n": 1930,
+        "field_period": "About 25 September to mid-October 2026 (INSEE CAMME, telephone; September wave ran 26 August to 17 September 2026)",
+        "composition": [
+          {
+            "label": "Sex (APPROXIMATION, INSEE 2026, adults 18+)",
+            "values": [
+              {
+                "label": "Homme",
+                "share": 0.479
+              },
+              {
+                "label": "Femme",
+                "share": 0.521
+              }
+            ]
+          },
+          {
+            "label": "Age (APPROXIMATION, INSEE 2026, adults 18+)",
+            "values": [
+              {
+                "label": "18-24 ans",
+                "share": 0.102
+              },
+              {
+                "label": "25-34 ans",
+                "share": 0.146
+              },
+              {
+                "label": "35-49 ans",
+                "share": 0.235
+              },
+              {
+                "label": "50-64 ans",
+                "share": 0.24
+              },
+              {
+                "label": "65 ans et plus",
+                "share": 0.277
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "October 2026 French consumer survey wave (INSEE CAMME, fieldwork about 25 September to mid-October 2026, already closed or closing), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
@@ -3398,6 +4477,77 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
+        ]
+      },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3505,6 +4655,77 @@
         "source": "US Census Bureau",
         "categories": [
           "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
         ]
       },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
@@ -3616,6 +4837,77 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
+        ]
+      },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3723,6 +5015,77 @@
         "source": "US Census Bureau",
         "categories": [
           "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US Census Bureau Household Trends and Outlook Pulse Survey (HTOPS): independent cross-sectional probability sample of US adults from the Census Bureau Master Address File, mailed invitations, internet self-response with telephone option; November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "n": 12700,
+        "field_period": "November 2026 HTOPS collection (Census planned deployment on or about October 28, 2026; exact dates not yet published)",
+        "composition": [
+          {
+            "label": "Age (TAGE; bottom-coded at 25 in the public-use file)",
+            "values": [
+              {
+                "label": "30-44",
+                "share": 0.2572
+              },
+              {
+                "label": "60-74",
+                "share": 0.2286
+              },
+              {
+                "label": "45-59",
+                "share": 0.2187
+              },
+              {
+                "label": "18-29",
+                "share": 0.1962
+              },
+              {
+                "label": "75+",
+                "share": 0.0994
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Female",
+                "share": 0.5175
+              },
+              {
+                "label": "Male",
+                "share": 0.4825
+              }
+            ]
+          },
+          {
+            "label": "Education",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.4049
+              },
+              {
+                "label": "Some college or associate degree",
+                "share": 0.2247
+              },
+              {
+                "label": "Bachelor's degree",
+                "share": 0.2015
+              },
+              {
+                "label": "Graduate degree",
+                "share": 0.1689
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Women",
+          "High school or less",
+          "Age 65 and over"
         ]
       },
       "wave": "HTOPS November 2026 collection (expected cycle code 2611)",
@@ -3835,6 +5198,48 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "NIQ/GfK eBUS online access panel survey (CAWI) of the German-speaking population aged 18 to 74 in Germany, conducted monthly for the European Commission (DG ECFIN) Joint Harmonised EU Consumer Survey; quota sample by age, gender, region, community size, household size and education of the main income earner; November 2026 wave, expected Thursday 29 October or Thursday 5 November to about 10-16 November 2026; the same interviews feed the NIM/GfK Konsumklima index",
+        "n": 2000,
+        "field_period": "About twelve days from Thu 29 Oct or Thu 5 Nov 2026 (expected; GfK waves start on a Thursday near the 1st of the month and run 12 days)",
+        "composition": [
+          {
+            "label": "Sex (APPROXIMATION, Eurostat population 18-74, 1 Jan 2025)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.5018
+              },
+              {
+                "label": "Female",
+                "share": 0.4982
+              }
+            ]
+          },
+          {
+            "label": "Age (APPROXIMATION, Eurostat population 18-74, 1 Jan 2025)",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.1815
+              },
+              {
+                "label": "30-49",
+                "share": 0.3533
+              },
+              {
+                "label": "50-64",
+                "share": 0.3034
+              },
+              {
+                "label": "65-74",
+                "share": 0.1619
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "November 2026 German consumer survey wave (expected fieldwork Thu 29 Oct or Thu 5 Nov to about 10-16 Nov 2026), EC release 27 November 2026 11:00 CET",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -3927,6 +5332,81 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Ipsos UK Political Monitor: probability sample of adults aged 18+ in Great Britain from the Ipsos UK KnowledgePanel, interviewed online over about six days in the second half of November 2026, roughly four weeks after Chancellor John Healey's Autumn Budget (28 Oct 2026). Andy Burnham is Labour Prime Minister (since July 2026) and John Healey Chancellor; Kemi Badenoch leads the Conservatives (Leader of the Opposition), Nigel Farage Reform UK, Ed Davey the Liberal Democrats, Zack Polanski the Green Party; Restore Britain (Rupert Lowe) and Your Party also stand. In October 2026 Ipsos found Labour 8 points ahead with the Conservatives second for the first time since June 2025.",
+        "n": 1100,
+        "field_period": "About Thu 19 to Wed 25 Nov 2026 (expected; possibly Thu 26 Nov to early Dec), GB adults 18+, Ipsos KnowledgePanel, online",
+        "composition": [
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Men",
+                "share": 0.4707
+              },
+              {
+                "label": "Women",
+                "share": 0.514
+              },
+              {
+                "label": "Other or not stated (remainder)",
+                "share": 0.0153
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-34",
+                "share": 0.2804
+              },
+              {
+                "label": "35-49",
+                "share": 0.229
+              },
+              {
+                "label": "50-64",
+                "share": 0.2453
+              },
+              {
+                "label": "65+",
+                "share": 0.2444
+              }
+            ]
+          },
+          {
+            "label": "Region (Ipsos ONS region groups)",
+            "values": [
+              {
+                "label": "North excl. Scotland",
+                "share": 0.239
+              },
+              {
+                "label": "Midlands",
+                "share": 0.2669
+              },
+              {
+                "label": "South (incl. East of England) excl. London",
+                "share": 0.229
+              },
+              {
+                "label": "London",
+                "share": 0.128
+              },
+              {
+                "label": "Scotland",
+                "share": 0.0884
+              },
+              {
+                "label": "Wales",
+                "share": 0.0487
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First Ipsos Political Monitor wave (KnowledgePanel, GB) with fieldwork starting on or after Thu 29 Oct 2026 (expected to start Thu 19 Nov or Thu 26 Nov 2026); void if no such wave is published by 2026-12-18",
       "status": "pending",
@@ -4044,6 +5524,48 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Ipsos Austria monthly consumer survey (CCB Consumer Confidence Barometer, mixed mode online and telephone) of persons aged 18+ in Austria, conducted for the European Commission (DG ECFIN) Joint Harmonised EU Consumer Survey; October 2026 wave, about 1 to 15 October 2026",
+        "n": 1500,
+        "field_period": "About 1 to 15 October 2026 (Ipsos mixed mode CAWI/CATI, usual start the 1st working day and end the 15th of each month)",
+        "composition": [
+          {
+            "label": "Sex (APPROXIMATION, population 18+)",
+            "values": [
+              {
+                "label": "Mann",
+                "share": 0.49
+              },
+              {
+                "label": "Frau",
+                "share": 0.51
+              }
+            ]
+          },
+          {
+            "label": "Age (APPROXIMATION, population 18+)",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.18
+              },
+              {
+                "label": "30-49",
+                "share": 0.32
+              },
+              {
+                "label": "50-64",
+                "share": 0.27
+              },
+              {
+                "label": "65+",
+                "share": 0.23
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "October 2026 Austrian consumer survey wave (fieldwork about 1 to 15 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
@@ -4207,6 +5729,48 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "NIQ/GfK eBUS online access panel survey (CAWI) of the German-speaking population aged 18 to 74 in Germany, conducted monthly for the European Commission (DG ECFIN) Joint Harmonised EU Consumer Survey; quota sample by age, gender, region, community size, household size and education of the main income earner; October 2026 wave, about 1 to 12 October 2026; the same interviews feed the NIM/GfK Konsumklima index",
+        "n": 2000,
+        "field_period": "About Thu 1 to Mon 12 October 2026 (GfK waves start on a Thursday near the 1st and run 12 days; 1 Oct 2026 is a Thursday)",
+        "composition": [
+          {
+            "label": "Sex (APPROXIMATION, Eurostat population 18-74, 1 Jan 2025)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.5018
+              },
+              {
+                "label": "Female",
+                "share": 0.4982
+              }
+            ]
+          },
+          {
+            "label": "Age (APPROXIMATION, Eurostat population 18-74, 1 Jan 2025)",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.1815
+              },
+              {
+                "label": "30-49",
+                "share": 0.3533
+              },
+              {
+                "label": "50-64",
+                "share": 0.3034
+              },
+              {
+                "label": "65-74",
+                "share": 0.1619
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "October 2026 German consumer survey wave (GfK fieldwork Thu 1 to about Mon 12 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -4369,6 +5933,48 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "NIQ/GfK eBUS online access panel survey (CAWI) of the Spanish-speaking population aged 18 to 74 in Spain, conducted monthly for the European Commission (DG ECFIN) Joint Harmonised EU Consumer Survey; quota sample by age, gender and region; October 2026 wave, about 4 to 11 October 2026",
+        "n": 2000,
+        "field_period": "About 4 to 11 October 2026 (NIQ/GfK eBUS online, usual start the 4th and end the 11th of each month)",
+        "composition": [
+          {
+            "label": "Sex (APPROXIMATION, population 18-74)",
+            "values": [
+              {
+                "label": "Hombre",
+                "share": 0.497
+              },
+              {
+                "label": "Mujer",
+                "share": 0.503
+              }
+            ]
+          },
+          {
+            "label": "Age (APPROXIMATION, population 18-74)",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.17
+              },
+              {
+                "label": "30-49",
+                "share": 0.37
+              },
+              {
+                "label": "50-64",
+                "share": 0.3
+              },
+              {
+                "label": "65-74",
+                "share": 0.16
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "October 2026 Spanish consumer survey wave (fieldwork about 4 to 11 October 2026, closed), EC country answer shares released 29 October 2026 11:00 CET",
       "status": "scored",
       "disclosure": "full",
@@ -4529,6 +6135,65 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Cabinet Office Consumer Confidence Survey: households of two or more persons across Japan (excluding foreigners, students and institutional households), rotating 15-month panel, mail and online self-completion by the household, reference date 15 October 2026. Context: Prime Minister Sanae Takaichi (LDP) marked one year in office on 21 Oct 2026 pledging stronger measures against rising prices; government plans to cut the consumption tax on food to 1% from April 2027 with an income-linked support payment; the consumer attitude index (seasonally adjusted) was 35.4 in September 2026 (35.5 in August), ESRI judging that consumer sentiment is picking up (持ち直しの動き); 90.6% of households expected prices to rise within a year in September, 47.6% by 5% or more.",
+        "n": 4372,
+        "field_period": "Mail and online survey with reference date 15 Oct 2026; questionnaires delivered about 10 Oct and returns tabulated up to about 20-24 Oct; results released Thu 29 Oct 2026 14:00 JST.",
+        "composition": [
+          {
+            "label": "Household type (survey frame)",
+            "values": [
+              {
+                "label": "Households of two or more persons",
+                "share": 1.0
+              }
+            ]
+          },
+          {
+            "label": "Sex of household head (世帯主の性別), unweighted respondents, September 2026",
+            "values": [
+              {
+                "label": "Male head",
+                "share": 0.8464
+              },
+              {
+                "label": "Female head",
+                "share": 0.1536
+              }
+            ]
+          },
+          {
+            "label": "Age of household head (世帯主の年齢階級), unweighted respondents, September 2026",
+            "values": [
+              {
+                "label": "29 or younger",
+                "share": 0.0163
+              },
+              {
+                "label": "30-39",
+                "share": 0.0687
+              },
+              {
+                "label": "40-49",
+                "share": 0.15
+              },
+              {
+                "label": "50-59",
+                "share": 0.2178
+              },
+              {
+                "label": "60-69",
+                "share": 0.2119
+              },
+              {
+                "label": "70 or older",
+                "share": 0.3353
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "October 2026 survey (令和8年10月実施分; reference date 15 Oct 2026), results released Thu 29 Oct 2026 14:00 JST; void if not released by 2026-11-20",
       "status": "scored",
@@ -4694,6 +6359,65 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Freshwater Strategy online survey of UK adults aged 18+ for City AM (monthly), fieldwork over a weekend in early-to-mid November 2026, about ten days after Chancellor John Healey's Autumn Budget (28 Oct 2026). Andy Burnham is Labour Prime Minister (since July 2026) and John Healey Chancellor; Kemi Badenoch leads the Conservatives (Leader of the Opposition), Nigel Farage Reform UK, Ed Davey the Liberal Democrats, Zack Polanski the Green Party; Restore Britain (Rupert Lowe) and Your Party also stand. Voting intention is asked of GB respondents and reported among those 9-10/10 certain to vote.",
+        "n": 1240,
+        "field_period": "Fri 6 to Sun 8 November 2026 (expected; possibly 30 Oct-1 Nov or 13-15 Nov), UK adults 18+, online panels",
+        "composition": [
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4943
+              },
+              {
+                "label": "Female",
+                "share": 0.5057
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "Aged 18-34",
+                "share": 0.2694
+              },
+              {
+                "label": "Aged 35-54",
+                "share": 0.3351
+              },
+              {
+                "label": "Aged 55+",
+                "share": 0.3955
+              }
+            ]
+          },
+          {
+            "label": "Household income",
+            "values": [
+              {
+                "label": "Less than £30,000",
+                "share": 0.3975
+              },
+              {
+                "label": "£30,000 - £59,999",
+                "share": 0.342
+              },
+              {
+                "label": "£60,000 or higher",
+                "share": 0.2072
+              },
+              {
+                "label": "Not stated (remainder)",
+                "share": 0.0533
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First City AM / Freshwater Strategy UK poll with fieldwork starting on or after Fri 30 Oct 2026 (expected Fri 6-Sun 8 Nov 2026, data tables about Mon 9-Wed 11 Nov); void if no such wave is published by 2026-11-30",
       "status": "scored",
@@ -4919,6 +6643,85 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "More in Common online panel survey of GB adults aged 18+ (excludes Northern Ireland), weekly voting intention and trackers survey, Friday-Monday fieldwork, 30 Oct-2 Nov 2026. Andy Burnham is Labour Prime Minister and John Healey Chancellor; Kemi Badenoch leads the Conservatives, Nigel Farage Reform UK, Ed Davey the Liberal Democrats, Zack Polanski the Greens, Rupert Lowe Restore Britain.",
+        "n": 2500,
+        "field_period": "Fri 30 October to Mon 2 November 2026 (expected)",
+        "composition": [
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.486
+              },
+              {
+                "label": "Female",
+                "share": 0.514
+              }
+            ]
+          },
+          {
+            "label": "Age (derived)",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.107
+              },
+              {
+                "label": "25-34",
+                "share": 0.173
+              },
+              {
+                "label": "35-44",
+                "share": 0.17
+              },
+              {
+                "label": "45-54",
+                "share": 0.157
+              },
+              {
+                "label": "55-64",
+                "share": 0.164
+              },
+              {
+                "label": "65-74",
+                "share": 0.123
+              }
+            ]
+          },
+          {
+            "label": "Region (derived)",
+            "values": [
+              {
+                "label": "East Midlands",
+                "share": 0.076
+              },
+              {
+                "label": "East of England",
+                "share": 0.097
+              },
+              {
+                "label": "Greater London",
+                "share": 0.132
+              },
+              {
+                "label": "North East England",
+                "share": 0.041
+              },
+              {
+                "label": "North West England",
+                "share": 0.114
+              },
+              {
+                "label": "Scotland",
+                "share": 0.083
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Weekly wave expected Fri 30 Oct to Mon 2 Nov 2026 (first wave with fieldwork starting on or after Thu 29 Oct 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -5078,6 +6881,69 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "INSA-CONSULERE for BILD: online access panel survey of eligible voters in Germany (German citizens 18+), about 2,000 interviews over Friday to Monday; late October / early November 2026, with a CDU/CSU-SPD federal government under Chancellor Friedrich Merz at record-low approval and the AfD leading the polls at about 30%",
+        "n": 2000,
+        "field_period": "30 October - 2 November 2026 (expected)",
+        "composition": [
+          {
+            "label": "Sex (eligible voters, Bundestag election 2025; men include 'divers' and no entry)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4856
+              },
+              {
+                "label": "Female",
+                "share": 0.5144
+              }
+            ]
+          },
+          {
+            "label": "Age in late 2026 (eligible-voter structure of Feb 2025 by birth-year group; newly eligible 2007/08 cohorts not included)",
+            "values": [
+              {
+                "label": "About 18-30 (born 1996-2007)",
+                "share": 0.1297
+              },
+              {
+                "label": "About 31-50 (born 1976-1995)",
+                "share": 0.2797
+              },
+              {
+                "label": "About 51-60 (born 1966-1975)",
+                "share": 0.1646
+              },
+              {
+                "label": "About 61-70 (born 1956-1965)",
+                "share": 0.1907
+              },
+              {
+                "label": "About 71 and older (born 1955 or earlier)",
+                "share": 0.2352
+              }
+            ]
+          },
+          {
+            "label": "Region (eligible voters 2025 by Land)",
+            "values": [
+              {
+                "label": "West Germany (excl. Berlin)",
+                "share": 0.796
+              },
+              {
+                "label": "Berlin",
+                "share": 0.0404
+              },
+              {
+                "label": "East Germany (5 eastern Laender)",
+                "share": 0.1636
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Online wave expected Fri 30 October to Mon 2 November 2026, published Mon 2 / Tue 3 November 2026",
       "status": "scored",
       "disclosure": "full",
@@ -5194,6 +7060,75 @@
         "categories": [
           "Attitude",
           "Stated intent"
+        ]
+      },
+      "audience": {
+        "sample": "YouGov, an online opt-in panel with matched sampling (stratified by gender, age, race, education, region and voter registration) and weighting to US adult citizens, screened to registered voters; Economist/YouGov Poll, late October / early November 2026, the weekend before the November 3 midterm elections",
+        "n": 1440,
+        "field_period": "October 30 - November 2, 2026 (expected), the last weekend before the November 3, 2026 US midterm elections",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.47
+              },
+              {
+                "label": "Female",
+                "share": 0.53
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "Under 30",
+                "share": 0.17
+              },
+              {
+                "label": "30-44",
+                "share": 0.24
+              },
+              {
+                "label": "45-64",
+                "share": 0.32
+              },
+              {
+                "label": "65+",
+                "share": 0.27
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity",
+            "values": [
+              {
+                "label": "White",
+                "share": 0.69
+              },
+              {
+                "label": "Black",
+                "share": 0.11
+              },
+              {
+                "label": "Hispanic",
+                "share": 0.12
+              },
+              {
+                "label": "Other",
+                "share": 0.08
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Democrats (Party ID crosstab column)",
+          "Independents (Party ID crosstab column)",
+          "Republicans (Party ID crosstab column)",
+          "Age 18-29",
+          "Age 65+"
         ]
       },
       "wave": "Next weekly wave after October 23-26, 2026 (expected fieldwork about Oct 30 - Nov 2, 2026)",
@@ -5398,6 +7333,73 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Federal Reserve Bank of New York Survey of Consumer Expectations: monthly internet survey of a rotating panel of about 1,300 US household heads, fielded over November 2026; the sampling frame is that of The Conference Board Consumer Confidence Survey and the survey is administered for the New York Fed by an outside vendor. Fieldwork starts two days before the November 3, 2026 midterm elections, after a September federal funds rate hike, amid elevated fuel prices, the Iran conflict and a one-year-ahead median inflation expectation of 3.9% (September 2026, highest since May 2023).",
+        "n": 1300,
+        "field_period": "November 1 to November 30, 2026 (expected; every monthly SCE is fielded over the calendar month)",
+        "composition": [
+          {
+            "label": "Age of respondent (household head), SCE weighted, October 2025 microdata",
+            "values": [
+              {
+                "label": "Under 40",
+                "share": 0.2742
+              },
+              {
+                "label": "40 to 60",
+                "share": 0.3661
+              },
+              {
+                "label": "Over 60",
+                "share": 0.3597
+              }
+            ]
+          },
+          {
+            "label": "Education of respondent, SCE weighted, October 2025 microdata",
+            "values": [
+              {
+                "label": "High school or less",
+                "share": 0.338
+              },
+              {
+                "label": "Some college",
+                "share": 0.303
+              },
+              {
+                "label": "College degree or more",
+                "share": 0.349
+              },
+              {
+                "label": "Not reported",
+                "share": 0.01
+              }
+            ]
+          },
+          {
+            "label": "Household income, SCE weighted, October 2025 microdata",
+            "values": [
+              {
+                "label": "Under $50,000",
+                "share": 0.41
+              },
+              {
+                "label": "$50,000 to $100,000",
+                "share": 0.3084
+              },
+              {
+                "label": "Over $100,000",
+                "share": 0.2746
+              },
+              {
+                "label": "Not reported",
+                "share": 0.0069
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "November 2026 survey (fieldwork November 1-30, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5488,6 +7490,48 @@
         "categories": [
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "gfs.bern SRG Trend survey of Swiss eligible voters, 2nd wave about 4-12 November 2026, two to three weeks before the federal votes of 29 November 2026 on (1) VAT increase to finance the 13th AHV pension (from December 2026), (2) the fireworks restriction initiative, (3) the Fairness initiative on taxation of married couples (after voters approved individual taxation in March 2026) and (4) looser war-material export rules. SVP and FDP recommend No on the AHV VAT increase, the trade-union federation SGB recommends Yes; SVP and FDP recommend No on the fireworks initiative. Context: purchasing-power worries, high fuel prices. Mixed mode: CATI RDD dual frame, opt-in online on SRG portals, social-media recruits.",
+        "n": 14000,
+        "field_period": "Expected about Wed 4 Nov to Thu 12 Nov 2026 (earliest plausible start Mon 2 Nov); mean interview day about 7-8 Nov; publication expected Wed 18 Nov 2026 06:00 CET, 11 days before the 29 Nov vote.",
+        "composition": [
+          {
+            "label": "Language region, unweighted W1 sample counts (DCH 11,495; FCH 3,011; ICH 368 of 14,874)",
+            "values": [
+              {
+                "label": "German-speaking Switzerland",
+                "share": 0.7728
+              },
+              {
+                "label": "French-speaking Switzerland",
+                "share": 0.2024
+              },
+              {
+                "label": "Italian-speaking Switzerland",
+                "share": 0.0247
+              }
+            ]
+          },
+          {
+            "label": "Interview mode, unweighted W1 sample counts (CATI 506; online opt-in 13,853; Boomerang Ideas social media 515)",
+            "values": [
+              {
+                "label": "Telephone (CATI, RDD dual frame)",
+                "share": 0.034
+              },
+              {
+                "label": "Online opt-in via SRG SSR portals",
+                "share": 0.9314
+              },
+              {
+                "label": "Social-media recruited (Boomerang Ideas)",
+                "share": 0.0346
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "2. Welle der SRG-Trendumfragen zur Volksabstimmung vom 29. November 2026 (expected fieldwork about 4-12 Nov 2026, publication Wed 18 Nov 2026 06:00 CET)",
       "status": "scored",
@@ -5632,6 +7676,82 @@
         "categories": [
           "Attitude",
           "Stated intent"
+        ]
+      },
+      "audience": {
+        "sample": "YouGov, an online opt-in panel of GB adults aged 18+, sampled and weighted to be representative of GB adults (age, sex, region, social grade, 2024 general election vote, EU referendum vote); YouGov weekly tracker survey, early November 2026, with Andy Burnham as Labour Prime Minister",
+        "n": 1745,
+        "field_period": "1-2 November 2026 (expected)",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.109
+              },
+              {
+                "label": "25-49",
+                "share": 0.417
+              },
+              {
+                "label": "50-64",
+                "share": 0.241
+              },
+              {
+                "label": "65+",
+                "share": 0.233
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.486
+              },
+              {
+                "label": "Female",
+                "share": 0.514
+              }
+            ]
+          },
+          {
+            "label": "Region",
+            "values": [
+              {
+                "label": "London",
+                "share": 0.121
+              },
+              {
+                "label": "Rest of South",
+                "share": 0.343
+              },
+              {
+                "label": "Midlands",
+                "share": 0.164
+              },
+              {
+                "label": "North",
+                "share": 0.237
+              },
+              {
+                "label": "Scotland",
+                "share": 0.087
+              },
+              {
+                "label": "Wales",
+                "share": 0.048
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Age 18-24",
+          "Age 65+",
+          "2024 Conservative voters",
+          "2024 Labour voters"
         ]
       },
       "wave": "Weekly wave expected 1-2 November 2026 (next after 25-26 October 2026)",
@@ -5839,6 +7959,69 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Gallup Poll Social Series: random-digit-dial telephone survey of US adults aged 18+ in all 50 states and DC (at least 80% cell phone, 20% landline, interviews by ReconMR), weighted to US adult population benchmarks; November 2026, fielded around and after the November 3 midterm elections",
+        "n": 1000,
+        "field_period": "November 2026, starting around the November 3 US midterm elections",
+        "composition": [
+          {
+            "label": "Party identification (Gallup 2025 annual average)",
+            "values": [
+              {
+                "label": "Republican",
+                "share": 0.27
+              },
+              {
+                "label": "Independent",
+                "share": 0.45
+              },
+              {
+                "label": "Democrat",
+                "share": 0.27
+              }
+            ]
+          },
+          {
+            "label": "Party identification with leaners (Gallup 2025 annual average)",
+            "values": [
+              {
+                "label": "Republican/Republican leaner",
+                "share": 0.42
+              },
+              {
+                "label": "Democrat/Democratic leaner",
+                "share": 0.47
+              },
+              {
+                "label": "Independent, no lean (residual)",
+                "share": 0.11
+              }
+            ]
+          },
+          {
+            "label": "Ideology (Gallup 2025 annual average)",
+            "values": [
+              {
+                "label": "Conservative or very conservative",
+                "share": 0.35
+              },
+              {
+                "label": "Moderate",
+                "share": 0.33
+              },
+              {
+                "label": "Liberal or very liberal",
+                "share": 0.28
+              },
+              {
+                "label": "Other/no opinion (residual)",
+                "share": 0.04
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "November 2026 (expected fieldwork about Nov 2-20, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -5936,6 +8119,69 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "infratest dimap for ARD tagesthemen: random-sample telephone and online survey of eligible voters (German citizens 18+) in Germany, about 60% telephone and 40% online (Oct 2026: 777 telephone, 526 online); early November 2026, with a CDU/CSU-SPD federal government under Chancellor Friedrich Merz at record-low approval",
+        "n": 1300,
+        "field_period": "2-4 November 2026 (expected)",
+        "composition": [
+          {
+            "label": "Sex (eligible voters, Bundestag election 2025; men include 'divers' and no entry)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4856
+              },
+              {
+                "label": "Female",
+                "share": 0.5144
+              }
+            ]
+          },
+          {
+            "label": "Age in late 2026 (eligible-voter structure of Feb 2025 by birth-year group; newly eligible 2007/08 cohorts not included)",
+            "values": [
+              {
+                "label": "About 18-30 (born 1996-2007)",
+                "share": 0.1297
+              },
+              {
+                "label": "About 31-50 (born 1976-1995)",
+                "share": 0.2797
+              },
+              {
+                "label": "About 51-60 (born 1966-1975)",
+                "share": 0.1646
+              },
+              {
+                "label": "About 61-70 (born 1956-1965)",
+                "share": 0.1907
+              },
+              {
+                "label": "About 71 and older (born 1955 or earlier)",
+                "share": 0.2352
+              }
+            ]
+          },
+          {
+            "label": "Region (eligible voters 2025 by Land)",
+            "values": [
+              {
+                "label": "West Germany (excl. Berlin)",
+                "share": 0.796
+              },
+              {
+                "label": "Berlin",
+                "share": 0.0404
+              },
+              {
+                "label": "East Germany (5 eastern Laender)",
+                "share": 0.1636
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "November 2026 (expected fieldwork Mon 2 to Wed 4 Nov, release expected Thu 5 Nov)",
       "status": "scored",
@@ -6089,6 +8335,52 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Ifop online self-administered quota sample of residents of France aged 18+ for Endrix and L'Opinion, November 2026 (Ifop's monthly popularity index, formerly published with the Journal du Dimanche). Emmanuel Macron is President (term ends 2027), Sébastien Lecornu Prime Minister (since Sept/Oct 2025). Context in late October 2026 a lycée (secondary-school) protest movement and social mobilisations (17 and 24 Oct, further calls for 31 Oct and 5 Nov), high fuel prices, rising interest rates on French debt, 2027 budget talks, 2027 presidential pre-campaign (RN congress, Raphaël Glucksmann won the primary of the Gauche socialiste et démocratique). In mid-October Macron had 17% satisfied (56% very dissatisfied, a record) and Lecornu 25%.",
+        "n": 1950,
+        "field_period": "Expected to start Wed 4 to Thu 12 Nov 2026 and run 2-10 days (online, self-administered); published on a Monday, about 16-23 Nov 2026; 1,000-1,950 adults 18+.",
+        "composition": [
+          {
+            "label": "Sex (approximation, INSEE 2026, adults 18+)",
+            "values": [
+              {
+                "label": "Homme",
+                "share": 0.479
+              },
+              {
+                "label": "Femme",
+                "share": 0.521
+              }
+            ]
+          },
+          {
+            "label": "Age (approximation, INSEE 2026, adults 18+; Ifop profile bands)",
+            "values": [
+              {
+                "label": "18-24 ans",
+                "share": 0.102
+              },
+              {
+                "label": "25-34 ans",
+                "share": 0.146
+              },
+              {
+                "label": "35-49 ans",
+                "share": 0.235
+              },
+              {
+                "label": "50-64 ans",
+                "share": 0.24
+              },
+              {
+                "label": "65 ans et plus",
+                "share": 0.278
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "First \"Indices de popularité\" wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork starting about 4-12 Nov, published on a Monday about 16-23 Nov 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6227,6 +8519,52 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Ipsos bva online panel survey (Access Panel Online) of a national sample representative of the French population aged 18+ for CESI École d'ingénieurs and La Tribune Dimanche, early or mid November 2026. Emmanuel Macron is President (term ends 2027), Sébastien Lecornu Prime Minister (since Sept/Oct 2025). Context in late October 2026 a lycée (secondary-school) protest movement and social mobilisations (17 and 24 Oct, further calls for 31 Oct and 5 Nov), purchasing power the top concern (54% in October), high fuel prices, budget and debt worries, 2027 presidential pre-campaign (Bardella and Le Pen lead the \"satisfaction if elected\" ranking). In early October Macron had 15% favourable and Lecornu 22%.",
+        "n": 1000,
+        "field_period": "Expected Wed 4-Thu 5 Nov 2026 (published Sat 7 Nov) or Thu 12-Fri 13 Nov (published Sat 14 Nov); online Ipsos Access Panel, 2-3 days, about 1,000 adults 18+.",
+        "composition": [
+          {
+            "label": "Sex (approximation, INSEE 2026, adults 18+)",
+            "values": [
+              {
+                "label": "Homme",
+                "share": 0.479
+              },
+              {
+                "label": "Femme",
+                "share": 0.521
+              }
+            ]
+          },
+          {
+            "label": "Age (approximation, INSEE 2026, adults 18+)",
+            "values": [
+              {
+                "label": "18-24 ans",
+                "share": 0.102
+              },
+              {
+                "label": "25-34 ans",
+                "share": 0.146
+              },
+              {
+                "label": "35-49 ans",
+                "share": 0.235
+              },
+              {
+                "label": "50-64 ans",
+                "share": 0.24
+              },
+              {
+                "label": "65 ans et plus",
+                "share": 0.278
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First Baromètre politique wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork about 4-5 Nov or 12-13 Nov, published the following Saturday)",
       "status": "scored",
@@ -6395,6 +8733,69 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "Gallup Poll Social Series: random-digit-dial telephone survey of US adults aged 18+ in all 50 states and DC (at least 80% cell phone, 20% landline, interviews by ReconMR), weighted to US adult population benchmarks; November 2026, fielded around and after the November 3 midterm elections",
+        "n": 1000,
+        "field_period": "November 2026, starting around the November 3 US midterm elections",
+        "composition": [
+          {
+            "label": "Party identification (Gallup 2025 annual average)",
+            "values": [
+              {
+                "label": "Republican",
+                "share": 0.27
+              },
+              {
+                "label": "Independent",
+                "share": 0.45
+              },
+              {
+                "label": "Democrat",
+                "share": 0.27
+              }
+            ]
+          },
+          {
+            "label": "Party identification with leaners (Gallup 2025 annual average)",
+            "values": [
+              {
+                "label": "Republican/Republican leaner",
+                "share": 0.42
+              },
+              {
+                "label": "Democrat/Democratic leaner",
+                "share": 0.47
+              },
+              {
+                "label": "Independent, no lean (residual)",
+                "share": 0.11
+              }
+            ]
+          },
+          {
+            "label": "Ideology (Gallup 2025 annual average)",
+            "values": [
+              {
+                "label": "Conservative or very conservative",
+                "share": 0.35
+              },
+              {
+                "label": "Moderate",
+                "share": 0.33
+              },
+              {
+                "label": "Liberal or very liberal",
+                "share": 0.28
+              },
+              {
+                "label": "Other/no opinion (residual)",
+                "share": 0.04
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "November 2026 (expected fieldwork about Nov 2-20, 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -6535,6 +8936,69 @@
           "Stated intent",
           "Behaviour"
         ]
+      },
+      "audience": {
+        "sample": "Ipsos Consumer Tracker: two-day online survey of about 1,085 US adults aged 18+ drawn from Ipsos's online panel, partner online panel sources and \"river\" sampling (non-probability), interviewed in English, fielded in the first days of November 2026, on or right after the November 3 midterm election day, amid a sharp fall in consumer sentiment (LSEG/Ipsos PCSI at its lowest since October 2011), elevated fuel prices, a September federal funds rate hike and the Iran conflict, about three weeks before Thanksgiving.",
+        "n": 1085,
+        "field_period": "Tue 3 to Wed 4 November 2026 (expected two-day online wave; may shift to about Nov 5-7 because Nov 3 is US midterm election day)",
+        "composition": [
+          {
+            "label": "Sex (CPS benchmark, summed from age by sex)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.483
+              },
+              {
+                "label": "Female",
+                "share": 0.517
+              }
+            ]
+          },
+          {
+            "label": "Age (CPS benchmark)",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.202
+              },
+              {
+                "label": "30-44",
+                "share": 0.254
+              },
+              {
+                "label": "45-59",
+                "share": 0.222
+              },
+              {
+                "label": "60+",
+                "share": 0.322
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity (CPS benchmark)",
+            "values": [
+              {
+                "label": "White non-Hispanic",
+                "share": 0.587
+              },
+              {
+                "label": "Black non-Hispanic",
+                "share": 0.112
+              },
+              {
+                "label": "Other or 2+ races non-Hispanic",
+                "share": 0.112
+              },
+              {
+                "label": "Hispanic",
+                "share": 0.189
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First Ipsos Consumer Tracker wave with fieldwork starting Nov 3-8, 2026 (expected wave 151, Tue-Wed Nov 3-4, 2026, possibly shifted to about Nov 5-7 around election day)",
       "status": "not_scoreable",
@@ -6677,6 +9141,39 @@
         "categories": [
           "Behaviour"
         ]
+      },
+      "audience": {
+        "sample": "Steam weekly top sellers, week starting 3 Nov 2026: each respondent stands for a Steam user worldwide naming the product they spent most on that week; aggregated shares are compared with Borda rank shares of the published top 10.",
+        "n": 1000,
+        "field_period": "Steam purchases (gross revenue) in the week starting Tuesday 3 November 2026",
+        "composition": [
+          {
+            "label": "Steam users by client language (Steam Hardware and Software Survey, September 2026, combined platforms; grouped)",
+            "values": [
+              {
+                "label": "English",
+                "share": 0.342
+              },
+              {
+                "label": "Simplified Chinese",
+                "share": 0.314
+              },
+              {
+                "label": "Russian",
+                "share": 0.091
+              },
+              {
+                "label": "Spanish or Portuguese",
+                "share": 0.088
+              },
+              {
+                "label": "Other languages",
+                "share": 0.165
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Week Tuesday 3 November to Tuesday 10 November 2026 (Steam week starting 2026-11-03)",
       "status": "scored",
@@ -6843,6 +9340,7 @@
           "Stated intent"
         ]
       },
+      "audience": null,
       "wave": "Weekly wave expected Tue 3 November to Mon 9 November 2026, published Tue 10 November 2026",
       "status": "scored",
       "disclosure": "full",
@@ -7024,6 +9522,69 @@
           "Stated intent"
         ]
       },
+      "audience": {
+        "sample": "Institut für Demoskopie Allensbach for the FAZ: monthly survey of eligible voters in Germany (German citizens 18+), about 1,000-1,080 interviews over about two weeks (Allensbach is known for personal face-to-face interviews; mode not stated on the aggregator listing); November or December 2026, with a CDU/CSU-SPD federal government under Chancellor Friedrich Merz at record-low approval and the AfD leading the polls",
+        "n": 1050,
+        "field_period": "First wave starting on or after 3 November 2026 (expected about 6 - 19 November 2026)",
+        "composition": [
+          {
+            "label": "Sex (eligible voters, Bundestag election 2025; men include 'divers' and no entry)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4856
+              },
+              {
+                "label": "Female",
+                "share": 0.5144
+              }
+            ]
+          },
+          {
+            "label": "Age in late 2026 (eligible-voter structure of Feb 2025 by birth-year group; newly eligible 2007/08 cohorts not included)",
+            "values": [
+              {
+                "label": "About 18-30 (born 1996-2007)",
+                "share": 0.1297
+              },
+              {
+                "label": "About 31-50 (born 1976-1995)",
+                "share": 0.2797
+              },
+              {
+                "label": "About 51-60 (born 1966-1975)",
+                "share": 0.1646
+              },
+              {
+                "label": "About 61-70 (born 1956-1965)",
+                "share": 0.1907
+              },
+              {
+                "label": "About 71 and older (born 1955 or earlier)",
+                "share": 0.2352
+              }
+            ]
+          },
+          {
+            "label": "Region (eligible voters 2025 by Land)",
+            "values": [
+              {
+                "label": "West Germany (excl. Berlin)",
+                "share": 0.796
+              },
+              {
+                "label": "Berlin",
+                "share": 0.0404
+              },
+              {
+                "label": "East Germany (5 eastern Laender)",
+                "share": 0.1636
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "First Allensbach / FAZ Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected about 6 to 19 November 2026, published about 20 to 26 November 2026 (or the December wave if the November wave started before 3 November)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7171,6 +9732,69 @@
         "categories": [
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "GMS: survey of eligible voters in Germany (German citizens 18+), telephone and online mix (TOM per wahlrecht.de), about 1,000-1,030 interviews over about six days; November or December 2026, with a CDU/CSU-SPD federal government under Chancellor Friedrich Merz at record-low approval and the AfD leading the polls at about 30%",
+        "n": 1010,
+        "field_period": "First wave starting on or after 3 November 2026 (expected mid November to mid December 2026)",
+        "composition": [
+          {
+            "label": "Sex (eligible voters, Bundestag election 2025; men include 'divers' and no entry)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4856
+              },
+              {
+                "label": "Female",
+                "share": 0.5144
+              }
+            ]
+          },
+          {
+            "label": "Age in late 2026 (eligible-voter structure of Feb 2025 by birth-year group; newly eligible 2007/08 cohorts not included)",
+            "values": [
+              {
+                "label": "About 18-30 (born 1996-2007)",
+                "share": 0.1297
+              },
+              {
+                "label": "About 31-50 (born 1976-1995)",
+                "share": 0.2797
+              },
+              {
+                "label": "About 51-60 (born 1966-1975)",
+                "share": 0.1646
+              },
+              {
+                "label": "About 61-70 (born 1956-1965)",
+                "share": 0.1907
+              },
+              {
+                "label": "About 71 and older (born 1955 or earlier)",
+                "share": 0.2352
+              }
+            ]
+          },
+          {
+            "label": "Region (eligible voters 2025 by Land)",
+            "values": [
+              {
+                "label": "West Germany (excl. Berlin)",
+                "share": 0.796
+              },
+              {
+                "label": "Berlin",
+                "share": 0.0404
+              },
+              {
+                "label": "East Germany (5 eastern Laender)",
+                "share": 0.1636
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First GMS Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected mid November to mid December 2026",
       "status": "pending",
@@ -7327,6 +9951,52 @@
           "Behaviour"
         ]
       },
+      "audience": {
+        "sample": "Holders (private persons and businesses) of new passenger cars registered in Germany in October 2026; one respondent per newly registered car",
+        "n": 1000,
+        "field_period": "Registrations 1-31 October 2026",
+        "composition": [
+          {
+            "label": "Holder type (KBA, September 2026)",
+            "values": [
+              {
+                "label": "Private",
+                "share": 0.403
+              },
+              {
+                "label": "Commercial (business, fleets, dealers, manufacturers)",
+                "share": 0.597
+              }
+            ]
+          },
+          {
+            "label": "Powertrain (KBA, September 2026)",
+            "values": [
+              {
+                "label": "Battery electric",
+                "share": 0.345
+              },
+              {
+                "label": "Hybrid (incl. 10.8 plug-in)",
+                "share": 0.385
+              },
+              {
+                "label": "Petrol",
+                "share": 0.174
+              },
+              {
+                "label": "Diesel",
+                "share": 0.09
+              },
+              {
+                "label": "Other",
+                "share": 0.006
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "October 2026 (press release expected Wed 4 Nov 2026; FZ 10 table announced Fri 6 Nov 2026)",
       "status": "scored",
       "disclosure": "full",
@@ -7443,6 +10113,69 @@
         "categories": [
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Verian (formerly Emnid) for Bild am Sonntag: monthly survey of eligible voters in Germany (German citizens 18+), about 1,450-1,470 interviews over seven days (mode not stated on the aggregator listing); November 2026, with a CDU/CSU-SPD federal government under Chancellor Friedrich Merz at record-low approval and the AfD leading the polls",
+        "n": 1470,
+        "field_period": "First wave starting on or after 3 November 2026 (expected about 11 - 17 November 2026)",
+        "composition": [
+          {
+            "label": "Sex (eligible voters, Bundestag election 2025; men include 'divers' and no entry)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4856
+              },
+              {
+                "label": "Female",
+                "share": 0.5144
+              }
+            ]
+          },
+          {
+            "label": "Age in late 2026 (eligible-voter structure of Feb 2025 by birth-year group; newly eligible 2007/08 cohorts not included)",
+            "values": [
+              {
+                "label": "About 18-30 (born 1996-2007)",
+                "share": 0.1297
+              },
+              {
+                "label": "About 31-50 (born 1976-1995)",
+                "share": 0.2797
+              },
+              {
+                "label": "About 51-60 (born 1966-1975)",
+                "share": 0.1646
+              },
+              {
+                "label": "About 61-70 (born 1956-1965)",
+                "share": 0.1907
+              },
+              {
+                "label": "About 71 and older (born 1955 or earlier)",
+                "share": 0.2352
+              }
+            ]
+          },
+          {
+            "label": "Region (eligible voters 2025 by Land)",
+            "values": [
+              {
+                "label": "West Germany (excl. Berlin)",
+                "share": 0.796
+              },
+              {
+                "label": "Berlin",
+                "share": 0.0404
+              },
+              {
+                "label": "East Germany (5 eastern Laender)",
+                "share": 0.1636
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First Verian / BamS Sonntagsfrage wave whose fieldwork starts on or after Tue 3 November 2026; expected about Wed 11 to Tue 17 November 2026, published about Fri 20 November 2026",
       "status": "scored",
@@ -7624,6 +10357,85 @@
         "categories": [
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Find Out Now online panel survey of GB adults aged 18+ (excludes Northern Ireland), weekly voting intention poll fielded on Wednesday 4 November 2026. Andy Burnham is Labour Prime Minister; Kemi Badenoch leads the Conservatives, Nigel Farage Reform UK, Ed Davey the Liberal Democrats, Zack Polanski the Greens; Restore Britain and Your Party exist but are not named options (they fall under Other).",
+        "n": 2400,
+        "field_period": "Wed 4 November 2026 (expected; occasionally Wed-Thu)",
+        "composition": [
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.486
+              },
+              {
+                "label": "Female",
+                "share": 0.514
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.187
+              },
+              {
+                "label": "30-39",
+                "share": 0.172
+              },
+              {
+                "label": "40-54",
+                "share": 0.247
+              },
+              {
+                "label": "55-64",
+                "share": 0.158
+              },
+              {
+                "label": "65-74",
+                "share": 0.126
+              },
+              {
+                "label": "75+",
+                "share": 0.109
+              }
+            ]
+          },
+          {
+            "label": "Region",
+            "values": [
+              {
+                "label": "East Midlands",
+                "share": 0.075
+              },
+              {
+                "label": "East of England",
+                "share": 0.097
+              },
+              {
+                "label": "London",
+                "share": 0.135
+              },
+              {
+                "label": "North East",
+                "share": 0.041
+              },
+              {
+                "label": "North West",
+                "share": 0.113
+              },
+              {
+                "label": "Scotland",
+                "share": 0.086
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Weekly wave expected Wed 4 Nov 2026 (possibly running into Thu 5 Nov)",
       "status": "scored",
@@ -7831,6 +10643,53 @@
           "Behaviour"
         ]
       },
+      "audience": {
+        "sample": "ONS Opinions and Lifestyle Survey (OPN), Great Britain, adults aged 16 and over living in private households (and student halls), probability sample of households drawn from people who previously completed the Transformed Labour Force Survey or the OPN, one adult per household, online questionnaire with a telephone option; November 2026 data collection period, expected Wednesday 4 to Sunday 29 November 2026 (the period that contains Black Friday, 27 November, and the run-up to Christmas)",
+        "n": 3600,
+        "field_period": "Wed 4 to Sun 29 November 2026 (expected; OPN monthly periods start on the first Wednesday of the month and run 26 days)",
+        "composition": [
+          {
+            "label": "Age band",
+            "values": [
+              {
+                "label": "Aged 16 to 29",
+                "share": 0.2038
+              },
+              {
+                "label": "Aged 30 to 49",
+                "share": 0.3283
+              },
+              {
+                "label": "Aged 50 to 69",
+                "share": 0.296
+              },
+              {
+                "label": "Aged 70 and over",
+                "share": 0.1719
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4849
+              },
+              {
+                "label": "Female",
+                "share": 0.5151
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Aged 16 to 29",
+          "Aged 30 to 49",
+          "Aged 50 to 69",
+          "Aged 70 and over"
+        ]
+      },
       "wave": "November 2026 OPN data collection period, expected 4 to 29 November 2026 (bulletin \"Public opinions and social trends, Great Britain: November 2026\", release 18 December 2026 09:30)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -7972,6 +10831,77 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Opinium Research online panel survey of UK adults aged 18+ for The Observer, weekly political poll, Wednesday-Friday fieldwork in early November 2026 (after the 28 Oct Autumn Budget); GB respondents only for voting intention and leader approval. Andy Burnham is Labour Prime Minister and John Healey Chancellor; Kemi Badenoch leads the Conservatives, Nigel Farage Reform UK, Ed Davey the Liberal Democrats, Zack Polanski the Greens; Restore Britain (Rupert Lowe) and Your Party also stand.",
+        "n": 2000,
+        "field_period": "Wed 4 to Fri 6 November 2026 (expected), or 11-13 November",
+        "composition": [
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.482
+              },
+              {
+                "label": "Female",
+                "share": 0.5145
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-34",
+                "share": 0.2725
+              },
+              {
+                "label": "35-49",
+                "share": 0.243
+              },
+              {
+                "label": "50-64",
+                "share": 0.247
+              },
+              {
+                "label": "65+",
+                "share": 0.2375
+              }
+            ]
+          },
+          {
+            "label": "Region",
+            "values": [
+              {
+                "label": "North",
+                "share": 0.2395
+              },
+              {
+                "label": "Midlands",
+                "share": 0.1655
+              },
+              {
+                "label": "London",
+                "share": 0.1335
+              },
+              {
+                "label": "South",
+                "share": 0.328
+              },
+              {
+                "label": "Wales",
+                "share": 0.0485
+              },
+              {
+                "label": "Scotland",
+                "share": 0.0855
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First Opinium/Observer wave with fieldwork starting on or after Wed 4 Nov 2026 (expected 4-6 Nov, published about Sat 7 Nov; 11-13 Nov if fortnightly)",
       "status": "scored",
@@ -8178,6 +11108,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 01 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Tesco, released 2026-11-01 00:00Z)",
       "status": "scored",
       "disclosure": "full",
@@ -8286,6 +11241,73 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "The Voter Poll by SSRS: multi-mode survey of people who voted in the November 3, 2026 US midterm elections (registration-based sample from state voter files contacted by mail, text, email and phone; SSRS Opinion Panel; a verified online panel; in-person interviews at sampled precincts on Election Day), weighted to the actual vote count; national sample across all states with statewide races",
+        "n": 20000,
+        "field_period": "About Oct 21 to November 3, 2026 (assumed from the 2025 pilot; 2026 dates not published)",
+        "composition": [
+          {
+            "label": "Sex (2022 NEP)",
+            "values": [
+              {
+                "label": "Men",
+                "share": 0.48
+              },
+              {
+                "label": "Women",
+                "share": 0.52
+              }
+            ]
+          },
+          {
+            "label": "Age (2022 NEP)",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.12
+              },
+              {
+                "label": "30-44",
+                "share": 0.21
+              },
+              {
+                "label": "45-64",
+                "share": 0.39
+              },
+              {
+                "label": "65+",
+                "share": 0.28
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity (2022 NEP)",
+            "values": [
+              {
+                "label": "White",
+                "share": 0.73
+              },
+              {
+                "label": "Black",
+                "share": 0.11
+              },
+              {
+                "label": "Latino",
+                "share": 0.11
+              },
+              {
+                "label": "Asian",
+                "share": 0.02
+              },
+              {
+                "label": "Other",
+                "share": 0.03
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "2026 midterm election (Election Day November 3, 2026), national sample",
       "status": "scored",
@@ -8445,6 +11467,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 01 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Sainsbury's, released 2026-11-01 08:00Z)",
       "status": "scored",
       "disclosure": "full",
@@ -8554,6 +11601,73 @@
           "Behaviour"
         ]
       },
+      "audience": {
+        "sample": "US voting-eligible population on November 3, 2026: US citizens aged 18+ (excluding those ineligible because of a felony conviction where state law bars them), about 245 million people",
+        "n": 1000,
+        "field_period": "Early and mail voting October 2026 to Election Day, Tuesday November 3, 2026",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.48
+              },
+              {
+                "label": "Female",
+                "share": 0.52
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.2
+              },
+              {
+                "label": "30-44",
+                "share": 0.25
+              },
+              {
+                "label": "45-64",
+                "share": 0.32
+              },
+              {
+                "label": "65+",
+                "share": 0.23
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity",
+            "values": [
+              {
+                "label": "White, non-Hispanic",
+                "share": 0.64
+              },
+              {
+                "label": "Black",
+                "share": 0.13
+              },
+              {
+                "label": "Hispanic",
+                "share": 0.14
+              },
+              {
+                "label": "Asian",
+                "share": 0.05
+              },
+              {
+                "label": "Other",
+                "share": 0.04
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "November 3, 2026 general election (midterm)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -8644,6 +11758,31 @@
         "categories": [
           "Behaviour"
         ]
+      },
+      "audience": {
+        "sample": "Netflix weekly Top 10 in Germany, week 26 Oct to 1 Nov 2026: each respondent stands for a Netflix member in Germany naming the title they watched most that week; aggregated shares are compared with Borda rank shares of the published top ten.",
+        "n": 1000,
+        "field_period": "Viewing week Monday 26 October to Sunday 1 November 2026 (Netflix Top 10 weeks run Monday to Sunday)",
+        "composition": [
+          {
+            "label": "Netflix users in Germany by age (approximation; Netflix publishes no country composition)",
+            "values": [
+              {
+                "label": "14-29",
+                "share": 0.3
+              },
+              {
+                "label": "30-49",
+                "share": 0.38
+              },
+              {
+                "label": "50 and over",
+                "share": 0.32
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
@@ -8762,6 +11901,31 @@
           "Behaviour"
         ]
       },
+      "audience": {
+        "sample": "Netflix weekly Top 10 in United Kingdom, week 26 Oct to 1 Nov 2026: each respondent stands for a Netflix member in United Kingdom naming the title they watched most that week; aggregated shares are compared with Borda rank shares of the published top ten.",
+        "n": 1000,
+        "field_period": "Viewing week Monday 26 October to Sunday 1 November 2026 (Netflix Top 10 weeks run Monday to Sunday)",
+        "composition": [
+          {
+            "label": "Netflix users in the UK by age (approximation; Netflix publishes no country composition)",
+            "values": [
+              {
+                "label": "16-34",
+                "share": 0.36
+              },
+              {
+                "label": "35-54",
+                "share": 0.37
+              },
+              {
+                "label": "55 and over",
+                "share": 0.27
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
       "disclosure": "full",
@@ -8878,6 +12042,35 @@
         "categories": [
           "Behaviour"
         ]
+      },
+      "audience": {
+        "sample": "Netflix global weekly Top 10 for English-language films and series, week 26 Oct to 1 Nov 2026: each respondent stands for one view (hours viewed divided by runtime) counted toward the ten most-viewed English-language films and series worldwide that week. A respondent \"answers\" with the title the view belonged to.",
+        "n": 1000,
+        "field_period": "Viewing week Monday 26 October to Sunday 1 November 2026 (Netflix Top 10 weeks run Monday to Sunday)",
+        "composition": [
+          {
+            "label": "Netflix paid memberships by region (approximation: last reported split, Q4 2024 shareholder letter; Netflix stopped reporting memberships in 2025)",
+            "values": [
+              {
+                "label": "US and Canada",
+                "share": 0.3
+              },
+              {
+                "label": "Europe, Middle East and Africa",
+                "share": 0.34
+              },
+              {
+                "label": "Latin America",
+                "share": 0.18
+              },
+              {
+                "label": "Asia-Pacific",
+                "share": 0.18
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Week Monday 26 October to Sunday 1 November 2026 (week ending 2026-11-01)",
       "status": "scored",
@@ -8996,6 +12189,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 01 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Best Buy, released 2026-11-01 16:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -9071,6 +12289,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 01 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Chewy, released 2026-11-01 17:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -9145,6 +12388,35 @@
         "categories": [
           "Behaviour"
         ]
+      },
+      "audience": {
+        "sample": "Moviegoers in the US and Canada buying cinema tickets for Friday 6 - Sunday 8 November 2026; each respondent stands for one dollar of the weekend box office gross",
+        "n": 1000,
+        "field_period": "Weekend Fri 6 - Sun 8 Nov 2026 (Thursday 5 Nov previews and Tuesday 3 Nov early-access screenings count toward openers)",
+        "composition": [
+          {
+            "label": "Age of ticket buyers (approximate)",
+            "values": [
+              {
+                "label": "Under 18",
+                "share": 0.15
+              },
+              {
+                "label": "18-34",
+                "share": 0.4
+              },
+              {
+                "label": "35-54",
+                "share": 0.3
+              },
+              {
+                "label": "55+",
+                "share": 0.15
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Weekend Friday 6 - Sunday 8 November 2026",
       "status": "scored",
@@ -9263,6 +12535,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 02 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -9337,6 +12634,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 02 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (Chewy, released 2026-11-02 05:00Z)",
       "status": "pending",
@@ -9413,6 +12735,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 02 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Very, released 2026-11-02 11:11Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -9487,6 +12834,85 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "NHK monthly RDD telephone poll (landline and mobile, about 40% fixed / 60% mobile target split since July 2022) of adults aged 18+ across Japan, about 1,200 respondents, fieldwork over a Friday-Sunday in early to mid November 2026. Sanae Takaichi (LDP) is Prime Minister since 21 Oct 2025; she reshuffled her cabinet and the LDP leadership in mid-September 2026 and an extraordinary Diet session opened on 5 Oct 2026; a House of Representatives general election was held on 8 Feb 2026. Current issues: a planned cut of the consumption tax on food to 1% from April 2027 with an income-linked \"支援金\", rising prices, a minister's retracted remark about cutting road budgets, Diet-seat reduction talks. Opposition fragmented: 中道改革連合 split, 民主改革の会 formed in September 2026; no opposition party above 4% since April 2026. Cabinet support 50.8% in October 2026, the lowest since the cabinet took office.",
+        "n": 1184,
+        "field_period": "Expected Fri 6-Sun 8 Nov 2026 (published Mon 9 Nov) or Fri 13-Sun 15 Nov 2026 (published Mon 16 Nov); RDD landline and mobile telephone, about 1,200 adults 18+.",
+        "composition": [
+          {
+            "label": "性別 (sex), unweighted respondents, October 2026",
+            "values": [
+              {
+                "label": "男性",
+                "share": 0.5997
+              },
+              {
+                "label": "女性",
+                "share": 0.4003
+              }
+            ]
+          },
+          {
+            "label": "年層 (age band), unweighted respondents, October 2026 (無回答 printed as a category)",
+            "values": [
+              {
+                "label": "18・19歳",
+                "share": 0.0135
+              },
+              {
+                "label": "20～29歳",
+                "share": 0.0439
+              },
+              {
+                "label": "30～39歳",
+                "share": 0.0633
+              },
+              {
+                "label": "40～49歳",
+                "share": 0.087
+              },
+              {
+                "label": "50～59歳",
+                "share": 0.1554
+              },
+              {
+                "label": "60～69歳",
+                "share": 0.163
+              }
+            ]
+          },
+          {
+            "label": "地域ブロック (region block), unweighted respondents, October 2026 (無回答（携帯） = mobile respondents with region not given)",
+            "values": [
+              {
+                "label": "北海道",
+                "share": 0.0456
+              },
+              {
+                "label": "東北",
+                "share": 0.0532
+              },
+              {
+                "label": "北関東",
+                "share": 0.0971
+              },
+              {
+                "label": "南関東",
+                "share": 0.1123
+              },
+              {
+                "label": "東京",
+                "share": 0.0794
+              },
+              {
+                "label": "北陸信越",
+                "share": 0.0633
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "First NHK monthly political-attitudes telephone poll (政治意識月例電話調査) whose fieldwork starts on or after Thu 5 Nov 2026 JST (expected Fri 6-Sun 8 Nov or Fri 13-Sun 15 Nov 2026, results the following day); void if not published by 2026-11-20",
       "status": "pending",
@@ -9643,6 +13069,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 02 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Etsy, released 2026-11-02 18:01Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -9717,6 +13168,52 @@
         "categories": [
           "Behaviour"
         ]
+      },
+      "audience": {
+        "sample": "Keepers (private buyers, fleets and businesses) of new cars registered in the United Kingdom in October 2026; one respondent per newly registered car",
+        "n": 1000,
+        "field_period": "Registrations 1-31 October 2026",
+        "composition": [
+          {
+            "label": "Buyer type (approximate, SMMT 2026 YTD)",
+            "values": [
+              {
+                "label": "Fleet",
+                "share": 0.6
+              },
+              {
+                "label": "Private",
+                "share": 0.38
+              },
+              {
+                "label": "Business",
+                "share": 0.02
+              }
+            ]
+          },
+          {
+            "label": "Powertrain (approximate)",
+            "values": [
+              {
+                "label": "Battery electric",
+                "share": 0.25
+              },
+              {
+                "label": "Hybrid and plug-in hybrid",
+                "share": 0.3
+              },
+              {
+                "label": "Petrol (incl. mild hybrid)",
+                "share": 0.42
+              },
+              {
+                "label": "Diesel",
+                "share": 0.03
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "October 2026 (release Thu 5 Nov 2026, 09:00 UK time)",
       "status": "scored",
@@ -9835,6 +13332,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 03 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (John Lewis, released 2026-11-03 07:28Z)",
       "status": "scored",
       "disclosure": "full",
@@ -9944,6 +13466,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 03 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Asda, released 2026-11-03 08:35Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -10018,6 +13565,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 03 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (Asda, released 2026-11-03 08:36Z)",
       "status": "pending",
@@ -10094,6 +13666,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 03 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Burberry, released 2026-11-03 10:02Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -10168,6 +13765,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 03 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (Lidl, released 2026-11-03 10:08Z)",
       "status": "scored",
@@ -10277,6 +13899,69 @@
         "categories": [
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "INSA-CONSULERE for BILD: online access panel survey of eligible voters in Germany (German citizens 18+), about 2,000 interviews over Friday to Monday; late October / early November 2026, with a CDU/CSU-SPD federal government under Chancellor Friedrich Merz at record-low approval and the AfD leading the polls at about 30%",
+        "n": 2000,
+        "field_period": "6 - 9 November 2026 (expected)",
+        "composition": [
+          {
+            "label": "Sex (eligible voters, Bundestag election 2025; men include 'divers' and no entry)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4856
+              },
+              {
+                "label": "Female",
+                "share": 0.5144
+              }
+            ]
+          },
+          {
+            "label": "Age in late 2026 (eligible-voter structure of Feb 2025 by birth-year group; newly eligible 2007/08 cohorts not included)",
+            "values": [
+              {
+                "label": "About 18-30 (born 1996-2007)",
+                "share": 0.1297
+              },
+              {
+                "label": "About 31-50 (born 1976-1995)",
+                "share": 0.2797
+              },
+              {
+                "label": "About 51-60 (born 1966-1975)",
+                "share": 0.1646
+              },
+              {
+                "label": "About 61-70 (born 1956-1965)",
+                "share": 0.1907
+              },
+              {
+                "label": "About 71 and older (born 1955 or earlier)",
+                "share": 0.2352
+              }
+            ]
+          },
+          {
+            "label": "Region (eligible voters 2025 by Land)",
+            "values": [
+              {
+                "label": "West Germany (excl. Berlin)",
+                "share": 0.796
+              },
+              {
+                "label": "Berlin",
+                "share": 0.0404
+              },
+              {
+                "label": "East Germany (5 eastern Laender)",
+                "share": 0.1636
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Online wave expected Fri 6 November to Mon 9 November 2026, published Mon 9 / Tue 10 November 2026",
       "status": "scored",
@@ -10459,6 +14144,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 03 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Gap, released 2026-11-03 14:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -10517,6 +14227,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 04 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (Boots, released 2026-11-04 00:00Z)",
       "status": "pending",
@@ -10592,6 +14327,89 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "University of Michigan Surveys of Consumers: self-administered web survey of US adults in households in the 48 contiguous states and DC, recruited by mail from an address-based sample (since 2024), with a rotating panel (fresh respondents plus re-interviews about six and twelve months later); interviews October 20 - November 16, 2026, straddling the November 3, 2026 midterm elections, amid elevated fuel prices after the Iran conflict, a September federal funds rate hike and sentiment near record lows (ICS 48.0 in October 2026)",
+        "n": 1000,
+        "field_period": "October 20 to November 16, 2026 (preliminary sample closes November 2), straddling the November 3, 2026 US midterm elections",
+        "composition": [
+          {
+            "label": "Age of householder (APPROXIMATION from US Census CPS ASEC 2025 HINC-01, all US households incl. AK/HI, https://www2.census.gov/programs-surveys/cps/tables/hinc-01/2025/hinc01_1.xlsx)",
+            "values": [
+              {
+                "label": "Under 35",
+                "share": 0.202
+              },
+              {
+                "label": "35-44",
+                "share": 0.175
+              },
+              {
+                "label": "45-54",
+                "share": 0.161
+              },
+              {
+                "label": "55-64",
+                "share": 0.17
+              },
+              {
+                "label": "65+",
+                "share": 0.291
+              }
+            ]
+          },
+          {
+            "label": "Household income 2024 (APPROXIMATION from CPS ASEC 2025 HINC-01, same URL; SCA reports income terciles)",
+            "values": [
+              {
+                "label": "Under $25,000",
+                "share": 0.135
+              },
+              {
+                "label": "$25,000-$49,999",
+                "share": 0.167
+              },
+              {
+                "label": "$50,000-$74,999",
+                "share": 0.151
+              },
+              {
+                "label": "$75,000-$99,999",
+                "share": 0.12
+              },
+              {
+                "label": "$100,000-$124,999",
+                "share": 0.096
+              },
+              {
+                "label": "$125,000 and over",
+                "share": 0.332
+              }
+            ]
+          },
+          {
+            "label": "Census region of household (APPROXIMATION from CPS ASEC 2025 HINC-01, same URL; West includes AK/HI, which SCA excludes)",
+            "values": [
+              {
+                "label": "Northeast",
+                "share": 0.172
+              },
+              {
+                "label": "Midwest",
+                "share": 0.211
+              },
+              {
+                "label": "South",
+                "share": 0.39
+              },
+              {
+                "label": "West",
+                "share": 0.227
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "November 2026 final (interviews Oct 20 - Nov 16, 2026; preliminary cutoff Nov 2; preliminary release Nov 6, final release Nov 20)",
       "status": "pending",
@@ -10700,6 +14518,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 04 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Asda, released 2026-11-04 09:16Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -10775,6 +14618,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 04 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Starbucks, released 2026-11-04 18:49Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -10849,6 +14717,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (Aldi, released 2026-11-05 00:00Z)",
       "status": "scored",
@@ -10959,6 +14852,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Amazon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -11033,6 +14951,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (Barbour, released 2026-11-05 00:00Z)",
       "status": "scored",
@@ -11143,6 +15086,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Lego, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -11217,6 +15185,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (TK Maxx, released 2026-11-05 00:00Z)",
       "status": "pending",
@@ -11293,6 +15286,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Amazon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -11367,6 +15385,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (Lego, released 2026-11-05 00:00Z)",
       "status": "pending",
@@ -11443,6 +15486,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Verizon, released 2026-11-05 00:00Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -11518,6 +15586,31 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 05 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Christmas 2026 (Walmart, released 2026-11-05 22:38Z)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -11592,6 +15685,31 @@
         "categories": [
           "Attitude"
         ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 06 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Christmas 2026 (M&S Food, released 2026-11-06 00:00Z)",
       "status": "scored",
@@ -11708,6 +15826,69 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "Forschungsgruppe Wahlen for ZDF: random telephone (landline and mobile) and online survey of eligible voters in Germany, weighted to the eligible-voter population; mid-November 2026, with a CDU/CSU-SPD federal government under Chancellor Friedrich Merz",
+        "n": 1250,
+        "field_period": "Mid-November 2026",
+        "composition": [
+          {
+            "label": "Sex (eligible voters, Bundestag election 2025; men include 'divers' and no entry)",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4856
+              },
+              {
+                "label": "Female",
+                "share": 0.5144
+              }
+            ]
+          },
+          {
+            "label": "Age in late 2026 (eligible-voter structure of Feb 2025 by birth-year group; newly eligible 2007/08 cohorts not included)",
+            "values": [
+              {
+                "label": "About 18-30 (born 1996-2007)",
+                "share": 0.1297
+              },
+              {
+                "label": "About 31-50 (born 1976-1995)",
+                "share": 0.2797
+              },
+              {
+                "label": "About 51-60 (born 1966-1975)",
+                "share": 0.1646
+              },
+              {
+                "label": "About 61-70 (born 1956-1965)",
+                "share": 0.1907
+              },
+              {
+                "label": "About 71 and older (born 1955 or earlier)",
+                "share": 0.2352
+              }
+            ]
+          },
+          {
+            "label": "Region (eligible voters 2025 by Land)",
+            "values": [
+              {
+                "label": "West Germany (excl. Berlin)",
+                "share": 0.796
+              },
+              {
+                "label": "Berlin",
+                "share": 0.0404
+              },
+              {
+                "label": "East Germany (5 eastern Laender)",
+                "share": 0.1636
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "Release Fri 13 November 2026 (fieldwork expected about Tue Nov 10 to Thu Nov 12)",
       "status": "scored",
@@ -11962,6 +16143,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-11-19",
       "status": "scored",
       "disclosure": "full",
@@ -12022,6 +16204,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-11-19",
       "status": "scored",
       "disclosure": "full",
@@ -12082,6 +16265,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-11-22",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12142,6 +16326,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "Wave 168",
       "status": "scored",
       "disclosure": "full",
@@ -12343,6 +16528,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-11-26",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12402,6 +16588,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-11-26",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12459,6 +16646,75 @@
         "source": "The Economist / YouGov",
         "categories": [
           "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "YouGov online opt-in panel, matched sampling (stratified by gender, age, race, education, region and voter registration) and weighting to US adult citizens; Economist/YouGov Poll, late November 2026, the week before Thanksgiving",
+        "n": 1628,
+        "field_period": "First Economist/YouGov wave fielded after November 13-16, 2026 (expected about Fri Nov 20 - Mon Nov 23, 2026; dates not announced)",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.49
+              },
+              {
+                "label": "Female",
+                "share": 0.51
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "Under 30",
+                "share": 0.2
+              },
+              {
+                "label": "30-44",
+                "share": 0.25
+              },
+              {
+                "label": "45-64",
+                "share": 0.31
+              },
+              {
+                "label": "65+",
+                "share": 0.24
+              }
+            ]
+          },
+          {
+            "label": "Race/ethnicity",
+            "values": [
+              {
+                "label": "White",
+                "share": 0.63
+              },
+              {
+                "label": "Black",
+                "share": 0.12
+              },
+              {
+                "label": "Hispanic",
+                "share": 0.14
+              },
+              {
+                "label": "Other",
+                "share": 0.1
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Democrats (Party ID crosstab column)",
+          "Independents (Party ID crosstab column)",
+          "Republicans (Party ID crosstab column)",
+          "Age 18-29",
+          "Age 65+"
         ]
       },
       "wave": "First weekly wave whose fieldwork starts after November 16, 2026 (expected about Nov 20-23, 2026)",
@@ -12536,6 +16792,82 @@
           "Attitude"
         ]
       },
+      "audience": {
+        "sample": "YouGov, an online opt-in panel of GB adults aged 18+, sampled and weighted to be representative of GB adults (age, sex, region, social grade, 2024 general election vote, EU referendum vote); YouGov weekly tracker survey, late November 2026, with Andy Burnham as Labour Prime Minister",
+        "n": 1754,
+        "field_period": "22-23 November 2026 (expected)",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.109
+              },
+              {
+                "label": "25-49",
+                "share": 0.417
+              },
+              {
+                "label": "50-64",
+                "share": 0.241
+              },
+              {
+                "label": "65+",
+                "share": 0.233
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.486
+              },
+              {
+                "label": "Female",
+                "share": 0.514
+              }
+            ]
+          },
+          {
+            "label": "Region",
+            "values": [
+              {
+                "label": "London",
+                "share": 0.121
+              },
+              {
+                "label": "Rest of South",
+                "share": 0.343
+              },
+              {
+                "label": "Midlands",
+                "share": 0.164
+              },
+              {
+                "label": "North",
+                "share": 0.237
+              },
+              {
+                "label": "Scotland",
+                "share": 0.087
+              },
+              {
+                "label": "Wales",
+                "share": 0.048
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Age 18-24",
+          "Age 65+",
+          "2024 Conservative voters",
+          "2024 Labour voters"
+        ]
+      },
       "wave": "Weekly wave expected 22-23 November 2026 (next after 15-16 November 2026)",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12595,6 +16927,48 @@
           "Attitude",
           "Stated intent"
         ]
+      },
+      "audience": {
+        "sample": "INSEE monthly consumer survey (telephone (CATI)) of persons aged 18 and over in France, conducted for the European Commission (DG ECFIN) Joint Harmonised EU Consumer Survey; December 2026 wave",
+        "n": 1930,
+        "field_period": "December 2026 wave, usual window last week of the previous month to between the 15th and 20th of the reference month (EC metadata; not announced)",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.478
+              },
+              {
+                "label": "Female",
+                "share": 0.522
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.175
+              },
+              {
+                "label": "30-49",
+                "share": 0.309
+              },
+              {
+                "label": "50-64",
+                "share": 0.242
+              },
+              {
+                "label": "65+",
+                "share": 0.274
+              }
+            ]
+          }
+        ],
+        "subgroups": []
       },
       "wave": "December 2026 France consumer survey wave; EC release of country answer shares expected late December 2026",
       "status": "pending",
@@ -12656,6 +17030,35 @@
           "Behaviour"
         ]
       },
+      "audience": {
+        "sample": "Prosper Insights & Analytics online consumer survey of US adults aged 18+, conducted for the National Retail Federation over the Thanksgiving holiday weekend 2026 (about 3,100 adults)",
+        "n": 3100,
+        "field_period": "Expected Wed 25 Nov to Sun 29 Nov 2026 (the Wednesday before Thanksgiving through Sunday, as in 2024 and 2025)",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.118
+              },
+              {
+                "label": "25-44",
+                "share": 0.341
+              },
+              {
+                "label": "45-64",
+                "share": 0.301
+              },
+              {
+                "label": "65+",
+                "share": 0.24
+              }
+            ]
+          }
+        ],
+        "subgroups": []
+      },
       "wave": "Thanksgiving holiday weekend 2026 (Thu 26 Nov - Mon 30 Nov 2026); release expected Tue 1 Dec 2026",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12715,6 +17118,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-12-03",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12774,6 +17178,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-12-03",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12833,6 +17238,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-12-06",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12892,6 +17298,7 @@
           "Behaviour"
         ]
       },
+      "audience": null,
       "wave": "2026-12-10",
       "status": "pending",
       "disclosure": "hashes_only",
@@ -12935,7 +17342,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-22T07:08:58+00:00",
-    "checked_at": "2026-11-22T08:05:48.595848+00:00",
+    "checked_at": "2026-11-22T16:05:08.343424+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
