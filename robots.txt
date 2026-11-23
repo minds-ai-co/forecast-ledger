@@ -5,3 +5,5 @@ Disallow: /iheartmedia
 Disallow: /iheartmedia/
 Disallow: /theatlantic
 Disallow: /theatlantic/
+Disallow: /morningbrew
+Disallow: /morningbrew/
