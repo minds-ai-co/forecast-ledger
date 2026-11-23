@@ -1,0 +1,3628 @@
+{
+  "format": "forecast-ledger-account-responses.v1",
+  "account": "morningbrew",
+  "series": "newsletter_copies",
+  "study_id": "4c458da9-814a-48af-b17a-07f9490fcece",
+  "run_id": "b17f4e9c-8a20-4d63-9c15-6e2a0f83d741",
+  "audience": "Morning Brew Readers (US)",
+  "audience_id": "44c909f2-0163-4476-ac91-e5f434b82ca7",
+  "source": "minds_forecast",
+  "note": "Newsletter-copy follow-up in the same study. Merge into accounts/morningbrew/responses.json after the base PR, or load alongside it. Individual qualitative forward replies were not collected on demand; only scale and first-story forecast points are stored here. This is a mock forecast.",
+  "items": {
+    "flaky-behavior-open": {
+      "question": "You are looking at your inbox on 23 November 2026. A Morning Brew daily email has the subject line: \"Flaky behavior\". The preview text is: \"Falling copper prices may be an economic indicator...\". How likely are you to open this email? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "6.93",
+      "distribution": {
+        "1": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 5,
+        "7": 6,
+        "8": 6,
+        "9": 4,
+        "10": 3
+      },
+      "answers": [
+        {
+          "value": "7",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "flaky-behavior-first_story": {
+      "question": "This is the Morning Brew daily newsletter from 23 November 2026, subject line \"Flaky behavior\". The issue lists these stories: (1) Why metals prices are all over the place; (2) The Delta system issue that led to flight delays yesterday; (3) Public libraries making a comeback. Which story would you read first? Choose one.",
+      "value": "The Delta system issue that led to flight delays yesterday",
+      "distribution": {
+        "Public libraries making a comeback": 5,
+        "Why metals prices are all over the place": 10,
+        "The Delta system issue that led to flight delays yesterday": 15
+      },
+      "answers": [
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "Public libraries making a comeback",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "Public libraries making a comeback",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "Public libraries making a comeback",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "Public libraries making a comeback",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "Public libraries making a comeback",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "Why metals prices are all over the place",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "The Delta system issue that led to flight delays yesterday",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "flaky-behavior-interest": {
+      "question": "After looking at this Morning Brew daily newsletter from 23 November 2026 (subject line: \"Flaky behavior\"), how interesting and relevant is this issue to you? Answer on a scale from 0 (not at all interesting or relevant) to 10 (extremely interesting and relevant).",
+      "value": "6.63",
+      "distribution": {
+        "1": 1,
+        "3": 1,
+        "4": 2,
+        "5": 3,
+        "6": 5,
+        "7": 7,
+        "8": 7,
+        "9": 3,
+        "10": 1
+      },
+      "answers": [
+        {
+          "value": "6",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "flaky-behavior-sponsor": {
+      "question": "This issue included a mid-newsletter sponsor unit from Amazon. The unit was titled \"Big deals, daily\" and promoted Black Friday week deals on Amazon, with the line that big deals are dropping every day, across beauty, fashion, fitness, and electronics, and asked readers to find something thoughtful for everyone on their list. How likely are you to click this sponsor unit? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "2.83",
+      "distribution": {
+        "0": 7,
+        "1": 4,
+        "2": 5,
+        "3": 4,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "answers": [
+        {
+          "value": "2",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "techs-tumble-open": {
+      "question": "You are looking at your inbox on 21 November 2026. A Morning Brew daily email has the subject line: \"Tech’s tumble\". The preview text is: \"Tech stocks came crashing down...\". How likely are you to open this email? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "7.13",
+      "distribution": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 2,
+        "6": 4,
+        "7": 7,
+        "8": 7,
+        "9": 4,
+        "10": 3
+      },
+      "answers": [
+        {
+          "value": "7",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "techs-tumble-first_story": {
+      "question": "This is the Morning Brew daily newsletter from 21 November 2026, subject line \"Tech’s tumble\". The issue lists these stories: (1) A tech stock rout; (2) Trump’s plan to penalize companies for building data centers abroad; (3) Method dressing reaching its peak. Which story would you read first? Choose one.",
+      "value": "A tech stock rout",
+      "distribution": {
+        "A tech stock rout": 16,
+        "Method dressing reaching its peak": 4,
+        "Trump’s plan to penalize companies for building data centers abroad": 10
+      },
+      "answers": [
+        {
+          "value": "A tech stock rout",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "Method dressing reaching its peak",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "Method dressing reaching its peak",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "Method dressing reaching its peak",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "A tech stock rout",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "Method dressing reaching its peak",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "Trump’s plan to penalize companies for building data centers abroad",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "techs-tumble-interest": {
+      "question": "After looking at this Morning Brew daily newsletter from 21 November 2026 (subject line: \"Tech’s tumble\"), how interesting and relevant is this issue to you? Answer on a scale from 0 (not at all interesting or relevant) to 10 (extremely interesting and relevant).",
+      "value": "6.57",
+      "distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 3,
+        "10": 1
+      },
+      "answers": [
+        {
+          "value": "7",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "techs-tumble-sponsor": {
+      "question": "This issue was presented by United States Tungsten Corp., and it also included a mid-newsletter sponsor unit from the same company. The unit was titled \"Your phone’s buzzing with 557% growth\" and said tungsten is the vibration weight inside smartphones, that America produces almost none, and that United States Tungsten is reopening what was once America’s largest tungsten project, with an invitation to invest until December 8 for bonus shares. The unit also disclosed that it is an advertisement for a Regulation Crowdfunding offering. The same issue also had later sponsor units from T-Mobile and Rivian; this question is about the United States Tungsten unit. How likely are you to click this sponsor unit? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "2.03",
+      "distribution": {
+        "0": 10,
+        "1": 6,
+        "2": 4,
+        "3": 4,
+        "4": 1,
+        "5": 2,
+        "6": 1,
+        "7": 1,
+        "8": 1
+      },
+      "answers": [
+        {
+          "value": "2",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "more-yachts-open": {
+      "question": "You are looking at your inbox on 20 November 2026. A Morning Brew daily email has the subject line: \"More yachts\". The preview text is: \"Anthropic pops in its public debut...\". How likely are you to open this email? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "7.03",
+      "distribution": {
+        "2": 1,
+        "3": 1,
+        "4": 1,
+        "5": 3,
+        "6": 4,
+        "7": 7,
+        "8": 6,
+        "9": 4,
+        "10": 3
+      },
+      "answers": [
+        {
+          "value": "5",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "more-yachts-first_story": {
+      "question": "This is the Morning Brew daily newsletter from 20 November 2026, subject line \"More yachts\". The issue lists these stories: (1) Anthropic’s public debut; (2) Tech billionaires distancing themselves from MAGA; (3) Costco benefiting from panic buyers. Which story would you read first? Choose one.",
+      "value": "Anthropic’s public debut",
+      "distribution": {
+        "Anthropic’s public debut": 15,
+        "Costco benefiting from panic buyers": 7,
+        "Tech billionaires distancing themselves from MAGA": 8
+      },
+      "answers": [
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "Costco benefiting from panic buyers",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "Costco benefiting from panic buyers",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "Costco benefiting from panic buyers",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "Costco benefiting from panic buyers",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "Costco benefiting from panic buyers",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "Costco benefiting from panic buyers",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "Anthropic’s public debut",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "Tech billionaires distancing themselves from MAGA",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "Costco benefiting from panic buyers",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "more-yachts-interest": {
+      "question": "After looking at this Morning Brew daily newsletter from 20 November 2026 (subject line: \"More yachts\"), how interesting and relevant is this issue to you? Answer on a scale from 0 (not at all interesting or relevant) to 10 (extremely interesting and relevant).",
+      "value": "6.57",
+      "distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 3,
+        "10": 1
+      },
+      "answers": [
+        {
+          "value": "10",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "more-yachts-sponsor": {
+      "question": "This issue included a mid-newsletter sponsor unit from Amazon. The unit was titled \"Daily deals for the naughty and nice\" and promoted Black Friday week deals on Amazon, saying new deals drop every day from beauty to electronics, with fashion and fitness in between, and asked readers to shop Black Friday week deals. How likely are you to click this sponsor unit? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "2.83",
+      "distribution": {
+        "0": 7,
+        "1": 4,
+        "2": 5,
+        "3": 4,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 1,
+        "8": 1,
+        "9": 1
+      },
+      "answers": [
+        {
+          "value": "1",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "welcome-to-vice-city-open": {
+      "question": "You are looking at your inbox on 19 November 2026. A Morning Brew daily email has the subject line: \"Welcome to Vice City\". The preview text is: \"The year's most anticipated video game dropped...\". How likely are you to open this email? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "6.8",
+      "distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 4,
+        "7": 6,
+        "8": 6,
+        "9": 4,
+        "10": 3
+      },
+      "answers": [
+        {
+          "value": "5",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "welcome-to-vice-city-first_story": {
+      "question": "This is the Morning Brew daily newsletter from 19 November 2026, subject line \"Welcome to Vice City\". The issue lists these stories: (1) GTA VI dropping; (2) Why everything is breaking; (3) A record-breaking Van Gogh sale. Which story would you read first? Choose one.",
+      "value": "Why everything is breaking",
+      "distribution": {
+        "GTA VI dropping": 11,
+        "Why everything is breaking": 15,
+        "A record-breaking Van Gogh sale": 4
+      },
+      "answers": [
+        {
+          "value": "Why everything is breaking",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "A record-breaking Van Gogh sale",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "A record-breaking Van Gogh sale",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "A record-breaking Van Gogh sale",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "Why everything is breaking",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "GTA VI dropping",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "A record-breaking Van Gogh sale",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "welcome-to-vice-city-interest": {
+      "question": "After looking at this Morning Brew daily newsletter from 19 November 2026 (subject line: \"Welcome to Vice City\"), how interesting and relevant is this issue to you? Answer on a scale from 0 (not at all interesting or relevant) to 10 (extremely interesting and relevant).",
+      "value": "6.57",
+      "distribution": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 2,
+        "6": 4,
+        "7": 8,
+        "8": 7,
+        "9": 3,
+        "10": 1
+      },
+      "answers": [
+        {
+          "value": "8",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "10",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    },
+    "welcome-to-vice-city-sponsor": {
+      "question": "This issue was presented by Netflix, and it also included a mid-newsletter sponsor unit from Netflix. The unit was titled \"All for the greater good…right?\" and promoted the series The Altruists, starring Julia Garner and Anthony Boyle, about Sam Bankman-Fried and Caroline Ellison, now streaming on Netflix. The same issue also had later sponsor units from United States Tungsten and Google; this question is about the Netflix unit. How likely are you to click this sponsor unit? Answer on a scale from 0 (not at all likely) to 10 (extremely likely).",
+      "value": "3.07",
+      "distribution": {
+        "0": 6,
+        "1": 4,
+        "2": 5,
+        "3": 4,
+        "4": 2,
+        "5": 3,
+        "6": 2,
+        "7": 2,
+        "8": 1,
+        "9": 1
+      },
+      "answers": [
+        {
+          "value": "0",
+          "mindId": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f",
+          "persona": "Hector Ramirez",
+          "discipline": "Senior Strategy Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/017c45b8-f8ce-4cc6-94e7-560d96a7fd5f.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "0e850f3e-718a-4d09-8fcb-485f4ea71b8a",
+          "persona": "Brett Kowalski",
+          "discipline": "Support Operations Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/0e850f3e-718a-4d09-8fcb-485f4ea71b8a.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "11dd7ae0-fda0-4e45-a2a3-c2930209dd0c",
+          "persona": "Jordan Washington",
+          "discipline": "Banking Operations Associate",
+          "imageUrl": "/accounts/morningbrew/minds/11dd7ae0-fda0-4e45-a2a3-c2930209dd0c.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d",
+          "persona": "Claire Vance",
+          "discipline": "IT Systems Manager",
+          "imageUrl": "/accounts/morningbrew/minds/1d3bca1c-e7cd-4db4-bc78-d9590d7c6e8d.webp"
+        },
+        {
+          "value": "8",
+          "mindId": "1fc6347e-b916-4a30-94c5-1252c19d6d6d",
+          "persona": "Justin Liang",
+          "discipline": "Software Developer",
+          "imageUrl": "/accounts/morningbrew/minds/1fc6347e-b916-4a30-94c5-1252c19d6d6d.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "2096c7c0-29fe-47f4-9e31-7f75df4ed44b",
+          "persona": "Nathan Cole",
+          "discipline": "Clinical Research Coordinator",
+          "imageUrl": "/accounts/morningbrew/minds/2096c7c0-29fe-47f4-9e31-7f75df4ed44b.webp"
+        },
+        {
+          "value": "4",
+          "mindId": "30106197-0b86-4d5b-b84c-e5d6f9428897",
+          "persona": "Pooja Sharma",
+          "discipline": "Editorial Director",
+          "imageUrl": "/accounts/morningbrew/minds/30106197-0b86-4d5b-b84c-e5d6f9428897.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "398a20f2-e27e-40e7-a186-95c2522b4628",
+          "persona": "Corinne Davenport",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/398a20f2-e27e-40e7-a186-95c2522b4628.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "3de5bbe6-8963-4648-b38c-313e592bd1c3",
+          "persona": "Mariah Santos-Blake",
+          "discipline": "Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/3de5bbe6-8963-4648-b38c-313e592bd1c3.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "48bdc813-ca35-48b1-b34c-877fd68f9b89",
+          "persona": "Elena Ramirez",
+          "discipline": "Financial Risk Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/48bdc813-ca35-48b1-b34c-877fd68f9b89.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2",
+          "persona": "Mateo Delgado Ruiz",
+          "discipline": "Graduate Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/4ca1d8ba-7d66-4af0-90ca-739dbef5f2f2.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "600c1b19-746a-4ec5-9a94-93637689e562",
+          "persona": "Zachary Hayes",
+          "discipline": "Assistant Portfolio Manager",
+          "imageUrl": "/accounts/morningbrew/minds/600c1b19-746a-4ec5-9a94-93637689e562.webp"
+        },
+        {
+          "value": "3",
+          "mindId": "627bae13-bdcd-4396-80ec-c362eaf92a02",
+          "persona": "Evelyn Ross-Bennett",
+          "discipline": "Senior Management Consultant",
+          "imageUrl": "/accounts/morningbrew/minds/627bae13-bdcd-4396-80ec-c362eaf92a02.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "73e07d34-bde9-43d9-a3a4-81bd980e929b",
+          "persona": "Grant Halloway",
+          "discipline": "IT Systems Director",
+          "imageUrl": "/accounts/morningbrew/minds/73e07d34-bde9-43d9-a3a4-81bd980e929b.webp"
+        },
+        {
+          "value": "7",
+          "mindId": "78557a0f-e1b1-4e1d-901b-7758eed2899a",
+          "persona": "Sameer Joshi",
+          "discipline": "Software Developer & Founder",
+          "imageUrl": "/accounts/morningbrew/minds/78557a0f-e1b1-4e1d-901b-7758eed2899a.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "80f9070a-2e63-4629-906b-5dd8ca169da5",
+          "persona": "Gretchen Walsh",
+          "discipline": "Media Production Lead",
+          "imageUrl": "/accounts/morningbrew/minds/80f9070a-2e63-4629-906b-5dd8ca169da5.webp"
+        },
+        {
+          "value": "5",
+          "mindId": "84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6",
+          "persona": "Brooke Taylor",
+          "discipline": "Software QA Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/84d2b832-ee03-4f6c-b7ea-f289cd6fd9e6.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "9bd2ca49-d9c7-4be8-88fe-709710e59394",
+          "persona": "Karen Lindqvist",
+          "discipline": "Engagement Director",
+          "imageUrl": "/accounts/morningbrew/minds/9bd2ca49-d9c7-4be8-88fe-709710e59394.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "9cbbc8df-0963-49f6-a8dd-eed9343eb80f",
+          "persona": "Raymond Bauer",
+          "discipline": "Mortgage Underwriter",
+          "imageUrl": "/accounts/morningbrew/minds/9cbbc8df-0963-49f6-a8dd-eed9343eb80f.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "a5e0c72c-5f07-4262-9120-93db50a88f21",
+          "persona": "Kelsey Thornton",
+          "discipline": "Clinical Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/a5e0c72c-5f07-4262-9120-93db50a88f21.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "a6ccd7ff-ff37-405f-8967-78b735cd6a81",
+          "persona": "Douglas Vance",
+          "discipline": "Senior Logistics Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a6ccd7ff-ff37-405f-8967-78b735cd6a81.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "a717056d-28d6-4f0a-ae73-908079bfeaa3",
+          "persona": "Kendrick Washington",
+          "discipline": "Logistics Project Specialist",
+          "imageUrl": "/accounts/morningbrew/minds/a717056d-28d6-4f0a-ae73-908079bfeaa3.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "afc4ad58-6451-481f-918c-2f46d2c72f9a",
+          "persona": "Conor MacCarthy",
+          "discipline": "Independent Wealth Advisor",
+          "imageUrl": "/accounts/morningbrew/minds/afc4ad58-6451-481f-918c-2f46d2c72f9a.webp"
+        },
+        {
+          "value": "9",
+          "mindId": "d7ce6d4a-b479-4f5e-b47b-8923bc19eac8",
+          "persona": "Stephanie Albright",
+          "discipline": "Quality Assurance Analyst",
+          "imageUrl": "/accounts/morningbrew/minds/d7ce6d4a-b479-4f5e-b47b-8923bc19eac8.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "dc8dc6e9-018e-498c-a565-618ccc05cce7",
+          "persona": "Diane Holloway",
+          "discipline": "Brand Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/dc8dc6e9-018e-498c-a565-618ccc05cce7.webp"
+        },
+        {
+          "value": "1",
+          "mindId": "dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d",
+          "persona": "Trevor Bradley",
+          "discipline": "Engineering Manager",
+          "imageUrl": "/accounts/morningbrew/minds/dfe8ca97-cc8d-4ded-b4cd-39a5c654fa9d.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "e4ae140a-4ccc-44a8-bd70-36b557b831c9",
+          "persona": "Megan O'Connor",
+          "discipline": "Branch Operations Manager",
+          "imageUrl": "/accounts/morningbrew/minds/e4ae140a-4ccc-44a8-bd70-36b557b831c9.webp"
+        },
+        {
+          "value": "6",
+          "mindId": "f040cf5e-2d8c-406a-a944-9ba472818a69",
+          "persona": "Hannah Lin",
+          "discipline": "Customer Success Manager",
+          "imageUrl": "/accounts/morningbrew/minds/f040cf5e-2d8c-406a-a944-9ba472818a69.webp"
+        },
+        {
+          "value": "2",
+          "mindId": "faff8f40-b9ca-413c-a112-7b8a0c4d528a",
+          "persona": "Brandon Chen",
+          "discipline": "Junior Media Strategist",
+          "imageUrl": "/accounts/morningbrew/minds/faff8f40-b9ca-413c-a112-7b8a0c4d528a.webp"
+        },
+        {
+          "value": "0",
+          "mindId": "fcc6e021-d0fb-485b-aa2e-c7d329673800",
+          "persona": "David Becker",
+          "discipline": "Commercial Loan Officer",
+          "imageUrl": "/accounts/morningbrew/minds/fcc6e021-d0fb-485b-aa2e-c7d329673800.webp"
+        }
+      ]
+    }
+  }
+}

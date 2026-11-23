@@ -9,6 +9,6 @@ robots: noindex, nofollow
 <section id="forecast-timeline" class="not-prose h-dvh" data-src="/accounts/morningbrew.json" data-mode="account" aria-label="Predicting Audience reactions for Morning Brew">
 <p>Loading the questions…</p>
 <noscript>
-30 Minds built on Morning Brew readers rated six workplace, career and money statements. This is a mock forecast, run after Morning Brew had already published the official survey results, and is separate from the pre-registered public forecast ledger. Enable JavaScript to explore the questions, audience and contact sections, or read the <a href="/accounts/morningbrew.json">complete records</a>.
+30 Minds built on Morning Brew readers rated six workplace, career and money statements, and four published daily issues. This is a mock forecast, run after Morning Brew had already published the official survey results and those issues, and is separate from the pre-registered public forecast ledger. Enable JavaScript to explore the questions, audience and contact sections, or read the <a href="/accounts/morningbrew.json">complete records</a>.
 </noscript>
 </section>
