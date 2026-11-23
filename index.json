@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-22T20:58:18Z",
+  "as_of": "2026-11-23T08:16:10Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-22T20:49:27Z",
-  "chain_head_sha256": "8afc7bbce09d32b05194c8bf1e0f767f65a2304b033dbbcf06b92cca309abee7",
+  "latest_event_at": "2026-11-23T07:48:17Z",
+  "chain_head_sha256": "57345fcae58dde6a8ce7f71f2635b3e7eef467919eb1e851499255495b141aaa",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 137,
+    "targets": 138,
     "targets_scored": 51,
-    "targets_pending": 83,
+    "targets_pending": 84,
     "targets_not_scoreable": 3,
-    "entries": 2693,
-    "batches": 357,
+    "entries": 2694,
+    "batches": 358,
     "entries_scored": 1312,
-    "entries_pending": 1144,
+    "entries_pending": 1145,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -124,7 +124,7 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 701,
+        "forecasts_locked": 702,
         "scored": {
           "surveys": 43,
           "questions": 158,
@@ -267,7 +267,7 @@
   "counts_by_evidence_type": {
     "attitude": 2130,
     "stated_intent": 454,
-    "behaviour": 109
+    "behaviour": 110
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -21459,14 +21459,81 @@
           "bitcoin_block_merkle_root": null
         }
       ]
+    },
+    {
+      "target_id": "netflix-global-english-films-2026-12-13-rolling-v3",
+      "survey": "Netflix global English films (volume shares; measurement v2)",
+      "publisher": "Netflix Tudum",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/netflix.png",
+          "alt": "Netflix",
+          "width": 64,
+          "height": 64
+        }
+      ],
+      "display": {
+        "label": "Streaming Rankings",
+        "country": "Global",
+        "country_code": "global",
+        "topic": "Film & TV",
+        "source": "Netflix",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "audience": {
+        "sample": "Netflix global English-language film views",
+        "n": null,
+        "field_period": "2026-12-07 to 2026-12-13",
+        "composition": [],
+        "subgroups": [],
+        "label": "Global Netflix viewers"
+      },
+      "wave": "2026-12-13",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-12-06T09:00:00Z",
+      "first_lock_utc": "2026-11-23T07:48:17Z",
+      "released_at": null,
+      "publication_url": "https://www.netflix.com/tudum/top10",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/netflix-global-english-films-2026-12-13-rolling-v3/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "netflix-global-english-films-2026-12-13-rolling-v3__20261123T074817725318Z__s2699",
+          "locked_at": "2026-11-23T07:48:17Z",
+          "entries": 1,
+          "merkle_root": "5bf7827730805e17675e751365975e1d13f7fc1bf406c25d95e29abb7183eb7b",
+          "manifest": "proofs/batches/netflix-global-english-films-2026-12-13-rolling-v3__20261123T074817725318Z__s2699.json",
+          "manifest_sha256": "4f4b90d4acc692c4a0811f297a010d61546c2d644cf9e6a3f3171d926355c3cf",
+          "ots_proof": "proofs/batches/netflix-global-english-films-2026-12-13-rolling-v3__20261123T074817725318Z__s2699.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
     }
   ],
   "missed": [],
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-22T19:36:41+00:00",
-    "checked_at": "2026-11-22T20:05:35.852991+00:00",
+    "source_generated_at": "2026-11-23T07:34:22+00:00",
+    "checked_at": "2026-11-23T08:05:53.606073+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
