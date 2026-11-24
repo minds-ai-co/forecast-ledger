@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "sonntagsfrage",
-        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann wählen? (If there were a federal election next Sunday, which party would you vote for? Shares among respondents naming a party.)",
+        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, welche Partei würden Sie dann wählen?",
         "type": "categorical",
         "options": [
           "CDU/CSU",

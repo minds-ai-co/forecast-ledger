@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "projektion",
-        "text": "Wenn am nächsten Sonntag wirklich Bundestagswahl wäre, welche Partei würden Sie wählen? (Politbarometer Projektion, Forschungsgruppe Wahlen's published Sonntagsfrage figure, which adjusts the raw vote intention for long-term party ties and past voting behaviour. If there were really a federal election next Sunday, which party would get what share?)",
+        "text": "Wenn am nächsten Sonntag wirklich Bundestagswahl wäre, welche Partei würden Sie wählen?",
         "type": "categorical",
         "options": [
           "CDU/CSU",
@@ -56,7 +56,7 @@
       "state": "scored",
       "question": {
         "id": "stimmung",
-        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, würden Sie dann zur Wahl gehen? Und welche Partei würden Sie wählen? (If there were a federal election next Sunday, would you vote? And which party would you vote for? Shares among respondents naming a party.)",
+        "text": "Wenn am nächsten Sonntag Bundestagswahl wäre, würden Sie dann zur Wahl gehen? Und welche Partei würden Sie wählen?",
         "type": "categorical",
         "options": [
           "CDU/CSU",
@@ -97,7 +97,7 @@
       "state": "scored",
       "question": {
         "id": "government_performance",
-        "text": "Ganz allgemein: Macht die Bundesregierung aus CDU/CSU und SPD ihre Arbeit alles in allem gesehen eher gut oder eher schlecht? (All in all, is the CDU/CSU-SPD federal government doing its job rather well or rather badly?)",
+        "text": "Ganz allgemein: Macht die Bundesregierung aus CDU/CSU und SPD ihre Arbeit alles in allem gesehen eher gut oder eher schlecht?",
         "type": "categorical",
         "options": [
           "Eher gut",
@@ -130,7 +130,7 @@
       "state": "scored",
       "question": {
         "id": "merz_performance",
-        "text": "Macht Friedrich Merz als Bundeskanzler seine Arbeit eher gut oder eher schlecht? (Is Friedrich Merz doing his job as Chancellor rather well or rather badly?)",
+        "text": "Macht Friedrich Merz als Bundeskanzler seine Arbeit eher gut oder eher schlecht?",
         "type": "categorical",
         "options": [
           "Eher gut",
@@ -163,7 +163,7 @@
       "state": "scored",
       "question": {
         "id": "economy_situation",
-        "text": "Wie beurteilen Sie ganz allgemein die heutige wirtschaftliche Lage in Deutschland? Ist sie gut, teils gut/teils schlecht oder schlecht? (How do you rate the current economic situation in Germany? Good, partly good/partly bad, or bad?)",
+        "text": "Wie beurteilen Sie ganz allgemein die heutige wirtschaftliche Lage in Deutschland? Ist sie gut, teils gut/teils schlecht oder schlecht?",
         "type": "ordinal",
         "options": [
           "Gut",
@@ -198,7 +198,7 @@
       "state": "scored",
       "question": {
         "id": "economy_direction",
-        "text": "Was meinen Sie, geht es mit der Wirtschaft in Deutschland eher aufwärts, eher abwärts oder verändert sich da nicht so viel? (Is the German economy going rather up, rather down, or not changing much?)",
+        "text": "Was meinen Sie, geht es mit der Wirtschaft in Deutschland eher aufwärts, eher abwärts oder verändert sich da nicht so viel?",
         "type": "categorical",
         "options": [
           "Eher aufwärts",

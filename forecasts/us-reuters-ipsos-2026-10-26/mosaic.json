@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "trump_job_approval",
-        "text": "Overall, do you approve or disapprove of the way Donald Trump is handling his job as president? (If skipped) If you had to choose, do you lean more towards approve or disapprove?",
+        "text": "Overall, do you approve or disapprove of the way Donald Trump is handling his job as president?",
         "type": "ordinal",
         "options": [
           "Strongly approve",

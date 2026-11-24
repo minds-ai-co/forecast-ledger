@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "brand_share",
-        "text": "Which brand is the new passenger car (Pkw) you registered in Germany in October 2026? (KBA new registrations by brand; brands not listed count as the last option.)",
+        "text": "Share of new car registrations by brand",
         "type": "categorical",
         "options": [
           "Volkswagen (VW)",

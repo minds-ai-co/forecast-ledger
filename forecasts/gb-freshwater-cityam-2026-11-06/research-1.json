@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "westminster_vi",
-        "text": "[Likelihood:] In the UK about one in three people registered, do not end up voting in General Elections How about you? If a General Election were held today, on a scale of 0 to 10, where 0 means you will not vote, and 10 means you are certain you will vote, how likely [table title truncated by the publisher] [Vote:] …and if you were to vote, who would you vote for? (Freshwater headline \"Vote Intentions (Squeezed) VALID\": GB respondents 9-10/10 likely to vote, leaners included, undecided removed.)",
+        "text": "…and if you were to vote, who would you vote for?",
         "type": "categorical",
         "options": [
           "Labour Party",
@@ -89,7 +89,7 @@
       "state": "scored",
       "question": {
         "id": "preferred_pm_burnham_badenoch",
-        "text": "Who would you prefer to see as Prime Minister? (Andy Burnham or Kemi Badenoch)",
+        "text": "Who would you prefer to see as Prime Minister?",
         "type": "categorical",
         "options": [
           "Andy Burnham",

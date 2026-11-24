@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "westminster_vi",
-        "text": "If there were a general election tomorrow, for which party would you vote? (Opinium headline voting intention: shares among GB respondents giving a voting intention; don't know and would not vote excluded; \"some other party\" respondents allocated via a follow-up question. Restore Britain and Your Party are counted in Other.)",
+        "text": "If there were a general election tomorrow, for which party would you vote?",
         "type": "categorical",
         "options": [
           "Conservative",

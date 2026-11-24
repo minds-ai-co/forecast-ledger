@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "brand_share",
-        "text": "Which marque is the new car you registered in the United Kingdom in October 2026? (SMMT registrations by marque; marques not listed count as the last option.)",
+        "text": "Share of new car registrations by marque",
         "type": "categorical",
         "options": [
           "Volkswagen",

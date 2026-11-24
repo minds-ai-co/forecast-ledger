@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "fin_past12",
-        "text": "Au cours des douze derniers mois, la situation financière de votre foyer… (INSEE CAMME item C9; EC harmonised question Q1: \"How has the financial situation of your household changed over the last 12 months?\")",
+        "text": "Au cours des douze derniers mois, la situation financière de votre foyer…",
         "type": "ordinal",
         "options": [
           "s’est nettement améliorée",
@@ -54,7 +54,7 @@
       "state": "scored",
       "question": {
         "id": "fin_next12",
-        "text": "Pensez-vous qu’au cours des douze prochains mois, la situation financière de votre foyer va… (INSEE CAMME item C10; EC harmonised question Q2: \"How do you expect the financial position of your household to change over the next 12 months?\")",
+        "text": "Pensez-vous qu’au cours des douze prochains mois, la situation financière de votre foyer va…",
         "type": "ordinal",
         "options": [
           "nettement s’améliorer",
@@ -93,7 +93,7 @@
       "state": "scored",
       "question": {
         "id": "econ_past12",
-        "text": "À votre avis, au cours des douze derniers mois, la situation économique générale de la France… (INSEE CAMME item C1; EC harmonised question Q3: \"How do you think the general economic situation in the country has changed over the past 12 months?\")",
+        "text": "À votre avis, au cours des douze derniers mois, la situation économique générale de la France…",
         "type": "ordinal",
         "options": [
           "s’est nettement améliorée",
@@ -132,7 +132,7 @@
       "state": "scored",
       "question": {
         "id": "econ_next12",
-        "text": "À votre avis, au cours des douze prochains mois, la situation économique générale de la France va… (INSEE CAMME item C2; EC harmonised question Q4: \"How do you expect the general economic situation in this country to develop over the next 12 months?\")",
+        "text": "À votre avis, au cours des douze prochains mois, la situation économique générale de la France va…",
         "type": "ordinal",
         "options": [
           "nettement s’améliorer",
@@ -171,7 +171,7 @@
       "state": "scored",
       "question": {
         "id": "prices_past12",
-        "text": "Pensez-vous qu’au cours des douze derniers mois les prix ont… (INSEE CAMME item C4.0; EC harmonised question Q5: \"How do you think that consumer prices have developed over the last 12 months?\")",
+        "text": "Pensez-vous qu’au cours des douze derniers mois les prix ont…",
         "type": "ordinal",
         "options": [
           "fortement augmenté",
@@ -210,7 +210,7 @@
       "state": "scored",
       "question": {
         "id": "prices_next12",
-        "text": "Par rapport aux douze derniers mois, quelle sera à votre avis l’évolution des prix au cours des douze prochains mois ? (INSEE CAMME item C5.0; EC harmonised question Q6: \"By comparison with the past 12 months, how do you expect that consumer prices will develop in the next 12 months?\")",
+        "text": "Par rapport aux douze derniers mois, quelle sera à votre avis l’évolution des prix au cours des douze prochains mois ?",
         "type": "ordinal",
         "options": [
           "la hausse va être plus rapide",
@@ -249,7 +249,7 @@
       "state": "scored",
       "question": {
         "id": "unemployment_next12",
-        "text": "Pensez-vous que, dans les douze prochains mois le nombre de chômeurs va… (INSEE CAMME item C3; EC harmonised question Q7: \"How do you expect the number of people unemployed in this country to change over the next 12 months?\")",
+        "text": "Pensez-vous que, dans les douze prochains mois le nombre de chômeurs va…",
         "type": "ordinal",
         "options": [
           "fortement augmenter",
@@ -288,7 +288,7 @@
       "state": "scored",
       "question": {
         "id": "major_purchases_now",
-        "text": "Dans la situation économique actuelle, pensez-vous que les gens aient intérêt à faire des achats importants ? (meubles, électroménager, matériels électroniques ou informatiques...) (INSEE CAMME item C6; EC harmonised question Q8: \"In view of the general economic situation, do you think that now it is the right moment for people to make major purchases such as furniture, electrical/electronic devices, etc.?\")",
+        "text": "Dans la situation économique actuelle, pensez-vous que les gens aient intérêt à faire des achats importants ?",
         "type": "ordinal",
         "options": [
           "Oui, le moment est plutôt favorable",
@@ -323,7 +323,7 @@
       "state": "scored",
       "question": {
         "id": "savings_next12",
-        "text": "Pensez-vous réussir à mettre de l'argent de côté au cours des douze prochains mois ? (INSEE CAMME item C12; EC harmonised question Q11: \"Over the next 12 months, how likely is it that you save any money?\")",
+        "text": "Pensez-vous réussir à mettre de l'argent de côté au cours des douze prochains mois ?",
         "type": "ordinal",
         "options": [
           "Oui, certainement",
@@ -360,7 +360,7 @@
       "state": "scored",
       "question": {
         "id": "household_fin_now",
-        "text": "Laquelle des affirmations suivantes vous semble décrire le mieux la situation financière actuelle de votre foyer ? (INSEE CAMME item C8; EC harmonised question Q12: \"Which of these statements best describes the current financial situation of your household?\")",
+        "text": "Laquelle des affirmations suivantes vous semble décrire le mieux la situation financière actuelle de votre foyer ?",
         "type": "ordinal",
         "options": [
           "Vous arrivez à mettre beaucoup d’argent de côté",

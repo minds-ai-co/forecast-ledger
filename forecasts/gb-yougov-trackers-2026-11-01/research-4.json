@@ -114,7 +114,7 @@
       "state": "scored",
       "question": {
         "id": "westminster_vi",
-        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for?",
         "type": "categorical",
         "options": [
           "Conservative",
@@ -157,7 +157,7 @@
       "state": "scored",
       "question": {
         "id": "westminster_vi",
-        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for?",
         "type": "categorical",
         "options": [
           "Conservative",
@@ -200,7 +200,7 @@
       "state": "scored",
       "question": {
         "id": "westminster_vi",
-        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for? (Distribution among respondents who name a party; would not vote, don't know and refused are excluded, as in YouGov's voting intention tracker.)",
+        "text": "Now, thinking specifically about your own constituency, if there were a general election held tomorrow and these were the parties standing, which party would you vote for?",
         "type": "categorical",
         "options": [
           "Conservative",
@@ -243,7 +243,7 @@
       "state": "scored",
       "question": {
         "id": "mii_economy",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"The economy\"",
@@ -274,7 +274,7 @@
       "state": "scored",
       "question": {
         "id": "mii_economy",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"The economy\"",
@@ -305,7 +305,7 @@
       "state": "scored",
       "question": {
         "id": "mii_economy",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"The economy\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"The economy\"",
@@ -336,7 +336,7 @@
       "state": "scored",
       "question": {
         "id": "mii_immigration",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Immigration & Asylum\"",
@@ -367,7 +367,7 @@
       "state": "scored",
       "question": {
         "id": "mii_immigration",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Immigration & Asylum\"",
@@ -398,7 +398,7 @@
       "state": "scored",
       "question": {
         "id": "mii_immigration",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Immigration & Asylum\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Immigration & Asylum\"",
@@ -429,7 +429,7 @@
       "state": "scored",
       "question": {
         "id": "mii_health",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Health\"",
@@ -460,7 +460,7 @@
       "state": "scored",
       "question": {
         "id": "mii_health",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Health\"",
@@ -491,7 +491,7 @@
       "state": "scored",
       "question": {
         "id": "mii_health",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Health\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Health\"",
@@ -522,7 +522,7 @@
       "state": "scored",
       "question": {
         "id": "mii_defence",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Defence and security\"",
@@ -553,7 +553,7 @@
       "state": "scored",
       "question": {
         "id": "mii_defence",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Defence and security\"",
@@ -584,7 +584,7 @@
       "state": "scored",
       "question": {
         "id": "mii_defence",
-        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three. Options shown: Health; Immigration & Asylum; Crime; The economy; Tax; Pensions; Education; Family life & childcare; Housing; The environment; Britain leaving the EU; Transport; Welfare benefits; Defence and security; None of these; Don't know. Forecast: does the respondent tick \"Defence and security\"?",
+        "text": "Which of the following do you think are the most important issues facing the country at this time? Please tick up to three.",
         "type": "categorical",
         "options": [
           "Ticks \"Defence and security\"",

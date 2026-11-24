@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "trump_job_approval",
-        "text": "Do you approve or disapprove of the job Donald Trump is doing as president? [And, would you say you strongly approve/disapprove of the job he is doing or just approve/disapprove?]",
+        "text": "Do you approve or disapprove of the job Donald Trump is doing as president?",
         "type": "ordinal",
         "options": [
           "Strongly approve",

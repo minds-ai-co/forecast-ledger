@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "tv_top10",
-        "text": "Which of these series did you watch most in the week 26 October to 1 November 2026 on Netflix in Germany? (Netflix weekly Top 10 TV list; any series not listed counts as the last option.)",
+        "text": "Share of the top ten's weekly views",
         "type": "categorical",
         "options": [
           "Lupin: Part 4",
@@ -70,7 +70,7 @@
       "state": "scored",
       "question": {
         "id": "films_top10",
-        "text": "Which of these films did you watch most in the week 26 October to 1 November 2026 on Netflix in Germany? (Netflix weekly Top 10 films list; any film not listed counts as the last option.)",
+        "text": "Share of the top ten's weekly views",
         "type": "categorical",
         "options": [
           "A Minecraft Movie",

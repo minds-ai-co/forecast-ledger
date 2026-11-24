@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "top10_volume_share",
-        "text": "Consider a single chart-eligible streams unit sampled uniformly from the published top ten for Spotify chart-eligible streams in US during 2026-11-13 through 2026-11-19. Which title does that unit belong to? Predict the fraction of actual chart-eligible streams units for each option. These are volume shares, not respondents choosing their favourite or most-watched title. Repeat plays/counting and the publisher definition apply; unlisted titles form the residual.",
+        "text": "Share of the top ten's chart streams",
         "type": "categorical",
         "options": [
           "Tate McRae - Housewife",

@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "vote_ahv_mwst",
-        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen? (Regardless of how sure you are that you would take part: if the vote on the additional financing of the AHV (old-age pension) through a VAT increase were held tomorrow, would you definitely vote for, rather for, rather against or definitely against? Official title: Bundesbeschluss vom 19. Juni 2026 über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer.)",
+        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Zusatzfinanzierung der AHV durch eine Erhöhung der Mehrwertsteuer abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen?",
         "type": "ordinal",
         "options": [
           "bestimmt dafür (definitely for)",
@@ -52,7 +52,7 @@
       "state": "scored",
       "question": {
         "id": "vote_feuerwerk",
-        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Feuerwerksinitiative abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen? (Popular initiative \"Für eine Einschränkung von Feuerwerk (Feuerwerksinitiative)\", restricting fireworks. Same answer scale.)",
+        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Feuerwerksinitiative abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen?",
         "type": "ordinal",
         "options": [
           "bestimmt dafür (definitely for)",
@@ -89,7 +89,7 @@
       "state": "scored",
       "question": {
         "id": "vote_fairness",
-        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Fairness-Initiative abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen? (Popular initiative \"Ja zu fairen Bundessteuern auch für Ehepaare - Diskriminierung der Ehe endlich abschaffen! (Fairness-Initiative)\", on federal taxation of married couples. Same answer scale.)",
+        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Fairness-Initiative abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen?",
         "type": "ordinal",
         "options": [
           "bestimmt dafür (definitely for)",
@@ -126,7 +126,7 @@
       "state": "scored",
       "question": {
         "id": "vote_kriegsmaterial_3way",
-        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Änderung des Kriegsmaterialgesetzes abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen? (Amendment of the Federal Act on War Material, Kriegsmaterialgesetz (KMG), of 19 December 2025, loosening arms-export rules. Scored collapsed to three categories: bestimmt oder eher dafür / bestimmt oder eher dagegen / weiss nicht.)",
+        "text": "Ganz unabhängig davon, wie sicher Sie sind, dass Sie an dieser Volksabstimmung teilnehmen würden: Wenn morgen schon über die Änderung des Kriegsmaterialgesetzes abgestimmt würde, wären Sie dann bestimmt dafür, eher dafür, eher dagegen oder bestimmt dagegen?",
         "type": "ordinal",
         "options": [
           "bestimmt oder eher dafür (for)",
@@ -159,7 +159,7 @@
       "state": "scored",
       "question": {
         "id": "participation_definite",
-        "text": "Würden Sie selber an dieser Abstimmung bestimmt teilnehmen, eher teilnehmen, eher nicht teilnehmen oder bestimmt nicht teilnehmen? (Would you yourself definitely take part in this vote, rather take part, rather not take part or definitely not take part? Scored as \"bestimmt teilnehmen\" versus all other answers; asked of all eligible voters in the probability-based subsample.)",
+        "text": "Würden Sie selber an dieser Abstimmung bestimmt teilnehmen, eher teilnehmen, eher nicht teilnehmen oder bestimmt nicht teilnehmen?",
         "type": "ordinal",
         "options": [
           "bestimmt teilnehmen (definitely take part)",

@@ -211,7 +211,7 @@
       "state": "scored",
       "question": {
         "id": "ANXIOUS",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling nervous, anxious, or on edge?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling nervous, anxious, or on edge?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -246,7 +246,7 @@
       "state": "scored",
       "question": {
         "id": "ANXIOUS",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling nervous, anxious, or on edge?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling nervous, anxious, or on edge?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -281,7 +281,7 @@
       "state": "scored",
       "question": {
         "id": "ANXIOUS",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling nervous, anxious, or on edge?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling nervous, anxious, or on edge?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -316,7 +316,7 @@
       "state": "scored",
       "question": {
         "id": "ANXIOUS",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling nervous, anxious, or on edge?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling nervous, anxious, or on edge?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -351,7 +351,7 @@
       "state": "scored",
       "question": {
         "id": "WORRY",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nNot being able to stop or control worrying?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Not being able to stop or control worrying?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -386,7 +386,7 @@
       "state": "scored",
       "question": {
         "id": "WORRY",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nNot being able to stop or control worrying?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Not being able to stop or control worrying?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -421,7 +421,7 @@
       "state": "scored",
       "question": {
         "id": "WORRY",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nNot being able to stop or control worrying?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Not being able to stop or control worrying?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -456,7 +456,7 @@
       "state": "scored",
       "question": {
         "id": "WORRY",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nNot being able to stop or control worrying?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Not being able to stop or control worrying?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -491,7 +491,7 @@
       "state": "scored",
       "question": {
         "id": "INTEREST",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nHaving little interest or pleasure in doing things?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Having little interest or pleasure in doing things?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -526,7 +526,7 @@
       "state": "scored",
       "question": {
         "id": "INTEREST",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nHaving little interest or pleasure in doing things?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Having little interest or pleasure in doing things?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -561,7 +561,7 @@
       "state": "scored",
       "question": {
         "id": "INTEREST",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nHaving little interest or pleasure in doing things?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Having little interest or pleasure in doing things?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -596,7 +596,7 @@
       "state": "scored",
       "question": {
         "id": "INTEREST",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nHaving little interest or pleasure in doing things?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Having little interest or pleasure in doing things?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -631,7 +631,7 @@
       "state": "scored",
       "question": {
         "id": "DOWN",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling down, depressed, or hopeless?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling down, depressed, or hopeless?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -666,7 +666,7 @@
       "state": "scored",
       "question": {
         "id": "DOWN",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling down, depressed, or hopeless?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling down, depressed, or hopeless?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -701,7 +701,7 @@
       "state": "scored",
       "question": {
         "id": "DOWN",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling down, depressed, or hopeless?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling down, depressed, or hopeless?",
         "type": "ordinal",
         "options": [
           "Not at all",
@@ -736,7 +736,7 @@
       "state": "scored",
       "question": {
         "id": "DOWN",
-        "text": "Over the LAST 2 WEEKS, how often have you been bothered by...\n\nFeeling down, depressed, or hopeless?",
+        "text": "Over the LAST 2 WEEKS, how often have you been bothered by... Feeling down, depressed, or hopeless?",
         "type": "ordinal",
         "options": [
           "Not at all",

@@ -188,7 +188,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "holiday_debt_for_gifts",
-        "text": "Are you planning to do more, less or the same amount of the following for the holidays compared to this time last year? Take on debt (credit card, buy now/pay later, loans) to pay for holiday gifts",
+        "text": "Are you planning to do more, less or the same amount of the following for the holidays compared to this time last year? Take on debt",
         "type": "categorical",
         "options": [
           "More",
@@ -256,7 +256,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "cravings_eating_generally",
-        "text": "New medications are on the market that might help people control cravings. How interested, if at all, would you be in a medication that helped reduce cravings for the following? Eating generally (weight loss)",
+        "text": "New medications are on the market that might help people control cravings. How interested, if at all, would you be in a medication that helped reduce cravings for the following? Eating generally",
         "type": "categorical",
         "options": [
           "Very interested",
@@ -295,7 +295,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "cravings_sweets",
-        "text": "New medications are on the market that might help people control cravings. How interested, if at all, would you be in a medication that helped reduce cravings for the following? Eating sweets (i.e., candy, cookies, chocolate, etc.)",
+        "text": "New medications are on the market that might help people control cravings. How interested, if at all, would you be in a medication that helped reduce cravings for the following? Eating sweets",
         "type": "categorical",
         "options": [
           "Very interested",

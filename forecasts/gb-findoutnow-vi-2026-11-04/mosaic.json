@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "westminster_vi",
-        "text": "Thinking about your own constituency, if a general election were held tomorrow, which party would you vote for? (Find Out Now headline: respondents \"definitely\" or \"very likely\" to vote, 2024 non-voters only if \"definitely\"; don't knows asked \"If you were forced to choose, how would you vote?\" and excluded if still undecided. Restore Britain and Your Party are in Other.)",
+        "text": "Thinking about your own constituency, if a general election were held tomorrow, which party would you vote for?",
         "type": "categorical",
         "options": [
           "Conservative",

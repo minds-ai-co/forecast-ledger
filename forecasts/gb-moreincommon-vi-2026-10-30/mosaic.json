@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "westminster_vi",
-        "text": "And, if a general election was called tomorrow, which party would you vote for? (More in Common headline voting intention: likely voters only, undecideds squeezed and model-assigned; shares among those allocated a party.)",
+        "text": "And, if a general election was called tomorrow, which party would you vote for?",
         "type": "categorical",
         "options": [
           "Conservative",

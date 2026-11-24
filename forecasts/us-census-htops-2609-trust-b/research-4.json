@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_SCHOOLS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in public schools?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in public schools?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -50,7 +50,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_SCHOOLS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in public schools?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in public schools?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -85,7 +85,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_SCHOOLS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in public schools?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in public schools?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -120,7 +120,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_SCHOOLS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in public schools?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in public schools?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -155,7 +155,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CRIMJUST",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the criminal justice system?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the criminal justice system?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -190,7 +190,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CRIMJUST",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the criminal justice system?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the criminal justice system?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -225,7 +225,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CRIMJUST",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the criminal justice system?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the criminal justice system?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -260,7 +260,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CRIMJUST",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the criminal justice system?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the criminal justice system?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -295,7 +295,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CONGRESS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in Congress?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in Congress?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -330,7 +330,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CONGRESS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in Congress?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in Congress?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -365,7 +365,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CONGRESS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in Congress?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in Congress?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -400,7 +400,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CONGRESS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in Congress?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in Congress?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -435,7 +435,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CENSUS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the U.S. Census Bureau?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the U.S. Census Bureau?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -470,7 +470,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CENSUS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the U.S. Census Bureau?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the U.S. Census Bureau?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -505,7 +505,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CENSUS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the U.S. Census Bureau?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the U.S. Census Bureau?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -540,7 +540,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_CENSUS",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in the U.S. Census Bureau?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in the U.S. Census Bureau?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -575,7 +575,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_STATISTICAL",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in U.S. statistical agencies?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in U.S. statistical agencies?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -610,7 +610,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_STATISTICAL",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in U.S. statistical agencies?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in U.S. statistical agencies?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -645,7 +645,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_STATISTICAL",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in U.S. statistical agencies?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in U.S. statistical agencies?",
         "type": "ordinal",
         "options": [
           "A great deal",
@@ -680,7 +680,7 @@
       "state": "scored",
       "question": {
         "id": "TRUST_STATISTICAL",
-        "text": "The next questions are about institutions in American society.\n\nHow much confidence do you, yourself, have in U.S. statistical agencies?",
+        "text": "The next questions are about institutions in American society. How much confidence do you, yourself, have in U.S. statistical agencies?",
         "type": "ordinal",
         "options": [
           "A great deal",

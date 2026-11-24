@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_macron",
-        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -52,7 +52,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_macron",
-        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -89,7 +89,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_macron",
-        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -126,7 +126,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_macron",
-        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -163,7 +163,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_macron",
-        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the President of the Republic, Emmanuel Macron, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Président de la République, Emmanuel MACRON, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -200,7 +200,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_lecornu",
-        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -237,7 +237,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_lecornu",
-        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -274,7 +274,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_lecornu",
-        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -311,7 +311,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_lecornu",
-        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",
@@ -348,7 +348,7 @@
       "state": "scored",
       "question": {
         "id": "confidence_lecornu",
-        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ? (Do you trust or not trust the Prime Minister, Sébastien Lecornu, to deal effectively with the main problems facing the country?)",
+        "text": "Faites-vous confiance ou pas confiance au Premier ministre, Sébastien Lecornu, pour affronter efficacement les principaux problèmes qui se posent au pays ?",
         "type": "ordinal",
         "options": [
           "Tout à fait confiance",

@@ -15,7 +15,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "trump_job_approval",
-        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as president? (Approve/disapprove, then strongly or somewhat)",
+        "text": "Do you approve or disapprove of the way Donald Trump is handling his job as president?",
         "type": "ordinal",
         "options": [
           "Strongly approve",
@@ -52,7 +52,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "direction",
-        "text": "Would you say things in this country are headed in the (right direction) or the (wrong direction)? (Order of the two options rotated)",
+        "text": "Would you say things in this country are headed in the",
         "type": "categorical",
         "options": [
           "Right direction",

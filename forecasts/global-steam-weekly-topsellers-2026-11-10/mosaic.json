@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "steam_weekly_topsellers",
-        "text": "Which of these Steam products did you spend the most on in the week Tuesday 3 to Tuesday 10 November 2026? (Steam global weekly top sellers by revenue, Borda shares of the top 10; any product not listed counts as the last option.)",
+        "text": "Share of the weekly top sellers",
         "type": "categorical",
         "options": [
           "Call of Duty®: Modern Warfare® 4",

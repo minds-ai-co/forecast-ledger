@@ -435,7 +435,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "generic_ballot",
-        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live?",
         "type": "categorical",
         "options": [
           "The Democratic candidate",
@@ -472,7 +472,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "generic_ballot",
-        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live?",
         "type": "categorical",
         "options": [
           "The Democratic candidate",
@@ -509,7 +509,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "generic_ballot",
-        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live?",
         "type": "categorical",
         "options": [
           "The Democratic candidate",
@@ -546,7 +546,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "generic_ballot",
-        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live?",
         "type": "categorical",
         "options": [
           "The Democratic candidate",
@@ -583,7 +583,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "generic_ballot",
-        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live?",
         "type": "categorical",
         "options": [
           "The Democratic candidate",
@@ -620,7 +620,7 @@
       "state": "not_scoreable",
       "question": {
         "id": "generic_ballot",
-        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live? (Respondents who say they are undecided are asked who they would vote for if they had to choose.)",
+        "text": "In the elections for U.S. Congress in November, who will you vote for in the district where you live?",
         "type": "categorical",
         "options": [
           "The Democratic candidate",

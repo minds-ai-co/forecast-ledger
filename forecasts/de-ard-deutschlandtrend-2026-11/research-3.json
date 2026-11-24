@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "sonntagsfrage",
-        "text": "Welche Partei würden Sie wählen, wenn am kommenden Sonntag Bundestagswahl wäre? (Which party would you vote for if there were a federal election next Sunday? Shares among respondents naming a party.)",
+        "text": "Welche Partei würden Sie wählen, wenn am kommenden Sonntag Bundestagswahl wäre?",
         "type": "categorical",
         "options": [
           "CDU/CSU",
@@ -56,7 +56,7 @@
       "state": "scored",
       "question": {
         "id": "government_satisfaction",
-        "text": "Wie zufrieden sind Sie mit der Arbeit der Bundesregierung? Sind Sie damit sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden? (How satisfied are you with the work of the federal government? Very satisfied, satisfied, less satisfied, or not at all satisfied?)",
+        "text": "Wie zufrieden sind Sie mit der Arbeit der Bundesregierung? Sind Sie damit sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden?",
         "type": "ordinal",
         "options": [
           "Sehr zufrieden / zufrieden",
@@ -89,7 +89,7 @@
       "state": "scored",
       "question": {
         "id": "merz_satisfaction",
-        "text": "Sind Sie mit der politischen Arbeit von Bundeskanzler Friedrich Merz sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden? (Are you very satisfied, satisfied, less satisfied or not at all satisfied with the political work of Chancellor Friedrich Merz?)",
+        "text": "Sind Sie mit der politischen Arbeit von Bundeskanzler Friedrich Merz sehr zufrieden, zufrieden, weniger zufrieden oder gar nicht zufrieden?",
         "type": "ordinal",
         "options": [
           "Sehr zufrieden / zufrieden",

@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "fin_past12",
-        "text": "Wie hat sich die finanzielle Lage Ihres Haushaltes in den letzten 12 Monaten entwickelt? Sie ... (Questionnaire item A01; EC harmonised question Q1: \"How has the financial situation of your household changed over the last 12 months?\")",
+        "text": "Wie hat sich die finanzielle Lage Ihres Haushaltes in den letzten 12 Monaten entwickelt? Sie ...",
         "type": "ordinal",
         "options": [
           "hat sich wesentlich verbessert",
@@ -54,7 +54,7 @@
       "state": "scored",
       "question": {
         "id": "fin_next12",
-        "text": "Wie wird sich Ihrer Ansicht nach die finanzielle Lage Ihres Haushaltes in den kommenden 12 Monaten entwickeln? Sie wird ... (Questionnaire item A02; EC harmonised question Q2: \"How do you expect the financial position of your household to change over the next 12 months?\")",
+        "text": "Wie wird sich Ihrer Ansicht nach die finanzielle Lage Ihres Haushaltes in den kommenden 12 Monaten entwickeln? Sie wird ...",
         "type": "ordinal",
         "options": [
           "sich wesentlich verbessern",
@@ -93,7 +93,7 @@
       "state": "scored",
       "question": {
         "id": "econ_past12",
-        "text": "Wie hat sich Ihrer Meinung nach die \"allgemeine Wirtschaftslage\" in Deutschland in den letzten 12 Monaten entwickelt? Sie ... (Questionnaire item A03; EC harmonised question Q3: \"How do you think the general economic situation in the country has changed over the past 12 months?\")",
+        "text": "Wie hat sich Ihrer Meinung nach die \"allgemeine Wirtschaftslage\" in Deutschland in den letzten 12 Monaten entwickelt? Sie ...",
         "type": "ordinal",
         "options": [
           "hat sich wesentlich verbessert",
@@ -132,7 +132,7 @@
       "state": "scored",
       "question": {
         "id": "econ_next12",
-        "text": "Wie wird sich Ihrer Ansicht nach die allgemeine Wirtschaftslage in Deutschland in den kommenden 12 Monaten entwickeln? Sie wird ... (Questionnaire item A04; EC harmonised question Q4: \"How do you expect the general economic situation in this country to develop over the next 12 months?\")",
+        "text": "Wie wird sich Ihrer Ansicht nach die allgemeine Wirtschaftslage in Deutschland in den kommenden 12 Monaten entwickeln? Sie wird ...",
         "type": "ordinal",
         "options": [
           "sich wesentlich verbessern",
@@ -171,7 +171,7 @@
       "state": "scored",
       "question": {
         "id": "prices_past12",
-        "text": "Wie haben sich Ihrer Ansicht nach die Verbraucherpreise in den letzten 12 Monaten entwickelt? Sie sind ... (Questionnaire item A05; EC harmonised question Q5: \"How do you think that consumer prices have developed over the last 12 months?\")",
+        "text": "Wie haben sich Ihrer Ansicht nach die Verbraucherpreise in den letzten 12 Monaten entwickelt? Sie sind ...",
         "type": "ordinal",
         "options": [
           "stark gestiegen",
@@ -210,7 +210,7 @@
       "state": "scored",
       "question": {
         "id": "prices_next12",
-        "text": "Wie werden sich Ihrer Ansicht nach die Verbraucherpreise in den kommenden 12 Monaten im Vergleich zu den letzten 12 Monaten entwickeln? Sie werden ... (Questionnaire item A06; EC harmonised question Q6: \"By comparison with the past 12 months, how do you expect that consumer prices will develop in the next 12 months?\")",
+        "text": "Wie werden sich Ihrer Ansicht nach die Verbraucherpreise in den kommenden 12 Monaten im Vergleich zu den letzten 12 Monaten entwickeln? Sie werden ...",
         "type": "ordinal",
         "options": [
           "stärker als bisher steigen",
@@ -249,7 +249,7 @@
       "state": "scored",
       "question": {
         "id": "unemployment_next12",
-        "text": "Wie wird sich Ihrer Ansicht nach die Zahl der Arbeitslosen in Deutschland in den kommenden 12 Monaten entwickeln? Die Zahl wird ... (Questionnaire item A07; EC harmonised question Q7: \"How do you expect the number of people unemployed in this country to change over the next 12 months?\")",
+        "text": "Wie wird sich Ihrer Ansicht nach die Zahl der Arbeitslosen in Deutschland in den kommenden 12 Monaten entwickeln? Die Zahl wird ...",
         "type": "ordinal",
         "options": [
           "stark steigen",
@@ -288,7 +288,7 @@
       "state": "scored",
       "question": {
         "id": "major_purchases_now",
-        "text": "Glauben Sie, dass es in Anbetracht der allgemeinen Wirtschaftslage derzeit günstig ist, größere Anschaffungen (Möbel, elektrische/elektronische Geräte usw.) zu tätigen? (Questionnaire item A08; EC harmonised question Q8: \"In view of the general economic situation, do you think that now it is the right moment for people to make major purchases such as furniture, electrical/electronic devices, etc.?\")",
+        "text": "Glauben Sie, dass es in Anbetracht der allgemeinen Wirtschaftslage derzeit günstig ist, größere Anschaffungen",
         "type": "ordinal",
         "options": [
           "ja, jetzt ist der Augenblick günstig",
@@ -323,7 +323,7 @@
       "state": "scored",
       "question": {
         "id": "major_purchases_next12",
-        "text": "Wollen Sie in den kommenden 12 Monaten für größere Anschaffungen (Möbel, elektrische /elektronische Geräte usw.) mehr oder weniger ausgeben als in den letzten 12 Monaten? Ich werde ... (Questionnaire item A09; EC harmonised question Q9: \"Compared to the past 12 months, do you expect to spend more or less money on major purchases (furniture, electrical/electronic devices, etc.) over the next 12 months?\")",
+        "text": "Wollen Sie in den kommenden 12 Monaten für größere Anschaffungen",
         "type": "ordinal",
         "options": [
           "wesentlich mehr ausgeben",
@@ -362,7 +362,7 @@
       "state": "scored",
       "question": {
         "id": "savings_next12",
-        "text": "Wie wahrscheinlich ist es, dass Sie in den kommenden 12 Monaten Geld sparen werden? (Questionnaire item A11; EC harmonised question Q11: \"Over the next 12 months, how likely is it that you save any money?\")",
+        "text": "Wie wahrscheinlich ist es, dass Sie in den kommenden 12 Monaten Geld sparen werden?",
         "type": "ordinal",
         "options": [
           "sehr wahrscheinlich",
@@ -399,7 +399,7 @@
       "state": "scored",
       "question": {
         "id": "household_fin_now",
-        "text": "Wie ist die derzeitige finanzielle Lage Ihres Haushaltes? (Questionnaire item A12; EC harmonised question Q12: \"Which of these statements best describes the current financial situation of your household?\")",
+        "text": "Wie ist die derzeitige finanzielle Lage Ihres Haushaltes?",
         "type": "ordinal",
         "options": [
           "wir sparen viel",

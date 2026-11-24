@@ -15,7 +15,7 @@
       "state": "scored",
       "question": {
         "id": "english_films_views",
-        "text": "Which of these English-language films was this view of? (Netflix global Top 10, viewing week 26 October to 1 November 2026; share of the views of the week's ten most-viewed English-language films; any title not listed counts as the last option.)",
+        "text": "Share of the top ten's weekly views",
         "type": "categorical",
         "options": [
           "Animals",
@@ -68,7 +68,7 @@
       "state": "scored",
       "question": {
         "id": "english_tv_views",
-        "text": "Which of these English-language series was this view of? (Netflix global Top 10, viewing week 26 October to 1 November 2026; share of the views of the week's ten most-viewed English-language series; any title not listed counts as the last option.)",
+        "text": "Share of the top ten's weekly views",
         "type": "categorical",
         "options": [
           "Below: Limited Series",
