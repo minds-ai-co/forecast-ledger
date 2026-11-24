@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-verizon-4",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-verizon-4__star_rating__overall__r1",
+      "entry_sha256": "afa9549483263982af3f0f7e4322dc6122f47c8870e03e6c6c9ecb15ce8b44b7",
+      "seq": 2700,
+      "batch_id": "us-system1-xmas-2026-verizon-4__20261123T142539473591Z__s2700",
+      "locked_at": "2026-11-23T14:25:39Z"
+    }
+  ]
+}

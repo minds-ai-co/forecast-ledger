@@ -3,7 +3,7 @@ User-agent: *
 Disallow: /accounts/
 Disallow: /iheartmedia
 Disallow: /iheartmedia/
-Disallow: /theatlantic
-Disallow: /theatlantic/
 Disallow: /morningbrew
 Disallow: /morningbrew/
+Disallow: /theatlantic
+Disallow: /theatlantic/

@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-23T08:16:10Z",
+  "as_of": "2026-11-24T02:04:07Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-23T07:48:17Z",
-  "chain_head_sha256": "57345fcae58dde6a8ce7f71f2635b3e7eef467919eb1e851499255495b141aaa",
+  "latest_event_at": "2026-11-23T14:27:53Z",
+  "chain_head_sha256": "5102d2fc4d5f425ac6017ab833f8ae0d542ba82a59cb490b241c81dba8f7d3de",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 138,
+    "targets": 140,
     "targets_scored": 51,
-    "targets_pending": 84,
+    "targets_pending": 86,
     "targets_not_scoreable": 3,
-    "entries": 2694,
-    "batches": 358,
+    "entries": 2697,
+    "batches": 361,
     "entries_scored": 1312,
-    "entries_pending": 1145,
+    "entries_pending": 1148,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 729,
+    "forecasts_locked": 730,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -124,7 +124,7 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 702,
+        "forecasts_locked": 704,
         "scored": {
           "surveys": 43,
           "questions": 158,
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2130,
+    "attitude": 2133,
     "stated_intent": 454,
     "behaviour": 110
   },
@@ -20973,6 +20973,217 @@
       ]
     },
     {
+      "target_id": "us-system1-xmas-2026-verizon-4",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Verizon \"A Verizon Christmas Carol | Jonathan Bailey & Ego Nwodim\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Verizon Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 23 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US ad experts"
+      },
+      "wave": "Christmas 2026 (Verizon, released 2026-11-23 14:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-25T14:00:18Z",
+      "first_lock_utc": "2026-11-23T14:25:39Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "research-1",
+        "mosaic"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-verizon-4/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-verizon-4/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-verizon-4__20261123T142539473591Z__s2700",
+          "locked_at": "2026-11-23T14:25:39Z",
+          "entries": 1,
+          "merkle_root": "db921d562ac8f18d93fcf5e0e143b56afba3596fa085f1c95a5f98363532286a",
+          "manifest": "proofs/batches/us-system1-xmas-2026-verizon-4__20261123T142539473591Z__s2700.json",
+          "manifest_sha256": "3d91ac36a681f2faad3d2a509cbe9aa6e1381f72c7167b204338c33bb5ca663b",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-verizon-4__20261123T142539473591Z__s2700.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-verizon-4__anchored3__20261123T142715440021Z__s2701",
+          "locked_at": "2026-11-23T14:27:15Z",
+          "entries": 1,
+          "merkle_root": "b06b39c8668639c4439910855a7f5b659717b6cc2da5caf1491f695412247c34",
+          "manifest": "proofs/batches/us-system1-xmas-2026-verizon-4__anchored3__20261123T142715440021Z__s2701.json",
+          "manifest_sha256": "73b1b8620cf0bd2c1295511580e44ea1d05543faf5a82eed796c37826519c023",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-verizon-4__anchored3__20261123T142715440021Z__s2701.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-verizon-4-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Verizon \"A Verizon Christmas Carol | Jonathan Bailey & Ego Nwodim\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Verizon Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 23 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Verizon, released 2026-11-23 14:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-25T14:00:18Z",
+      "first_lock_utc": "2026-11-23T14:27:53Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-verizon-4-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-verizon-4-consumer__20261123T142753666443Z__s2702",
+          "locked_at": "2026-11-23T14:27:53Z",
+          "entries": 1,
+          "merkle_root": "959d349aa19d20729d5225725af835226f8e17fe48d9879260b02e9a6ca9aa57",
+          "manifest": "proofs/batches/us-system1-xmas-2026-verizon-4-consumer__20261123T142753666443Z__s2702.json",
+          "manifest_sha256": "e04a3bac84f98148a6eae8947d02e79fb8055ceed7c30030a3a3e2b97b7a749e",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-verizon-4-consumer__20261123T142753666443Z__s2702.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "spotify-de-listeners-weekly-2026-12-03",
       "survey": "Spotify DE weekly top ten (volume shares), simulated with the listeners' published makeup",
       "publisher": "Spotify Charts via Kworb mirror",
@@ -21532,8 +21743,8 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-23T07:34:22+00:00",
-    "checked_at": "2026-11-23T08:05:53.606073+00:00",
+    "source_generated_at": "2026-11-23T23:56:46+00:00",
+    "checked_at": "2026-11-24T01:05:18.106417+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
