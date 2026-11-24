@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-hersheys",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-hersheys__star_rating__overall__r1",
+      "entry_sha256": "9872a948f85e47f5b378083304e2fdbcbad8e05a5588b57b4bb980c92b2e991e",
+      "seq": 2703,
+      "batch_id": "us-system1-xmas-2026-hersheys__20261124T022156216854Z__s2703",
+      "locked_at": "2026-11-24T02:21:56Z"
+    }
+  ]
+}

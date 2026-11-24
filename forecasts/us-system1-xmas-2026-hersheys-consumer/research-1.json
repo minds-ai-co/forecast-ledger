@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-hersheys-consumer",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-hersheys-consumer__feeling__overall__r1",
+      "entry_sha256": "6a8f3b234f9ec73e74dd68a7c34b63fb5ab9c97c0155c2e952e2b3f414e5b479",
+      "seq": 2705,
+      "batch_id": "us-system1-xmas-2026-hersheys-consumer__20261124T022515533565Z__s2705",
+      "locked_at": "2026-11-24T02:25:15Z"
+    }
+  ]
+}

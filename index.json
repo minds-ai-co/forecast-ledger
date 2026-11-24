@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-24T02:04:07Z",
+  "as_of": "2026-11-24T08:16:11Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-23T14:27:53Z",
-  "chain_head_sha256": "5102d2fc4d5f425ac6017ab833f8ae0d542ba82a59cb490b241c81dba8f7d3de",
+  "latest_event_at": "2026-11-24T02:25:15Z",
+  "chain_head_sha256": "4c393255f2fd04c008ea387d5831dc96f20a2811eb0569f4d038fc3faca8799a",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 140,
+    "targets": 142,
     "targets_scored": 51,
-    "targets_pending": 86,
+    "targets_pending": 88,
     "targets_not_scoreable": 3,
-    "entries": 2697,
-    "batches": 361,
+    "entries": 2700,
+    "batches": 364,
     "entries_scored": 1312,
-    "entries_pending": 1148,
+    "entries_pending": 1151,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 730,
+    "forecasts_locked": 731,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -124,7 +124,7 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 704,
+        "forecasts_locked": 706,
         "scored": {
           "surveys": 43,
           "questions": 158,
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2133,
+    "attitude": 2136,
     "stated_intent": 454,
     "behaviour": 110
   },
@@ -21184,6 +21184,217 @@
       ]
     },
     {
+      "target_id": "us-system1-xmas-2026-hersheys",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Hershey's \"Sounds Like The Holidays\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Hershey's Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 24 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US ad experts"
+      },
+      "wave": "Christmas 2026 (Hershey's, released 2026-11-24 00:27Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-26T00:27:53Z",
+      "first_lock_utc": "2026-11-24T02:21:56Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "research-1",
+        "mosaic"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-hersheys/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-hersheys/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-hersheys__20261124T022156216854Z__s2703",
+          "locked_at": "2026-11-24T02:21:56Z",
+          "entries": 1,
+          "merkle_root": "0947769f0e53ded1ecfb419fba98fe6ee18b26c9f461a239b0fabe77249eb4f7",
+          "manifest": "proofs/batches/us-system1-xmas-2026-hersheys__20261124T022156216854Z__s2703.json",
+          "manifest_sha256": "4684809c5c2a44f4cf1e192071cc95b8b65bbe45a9426f7ff78733286f65019a",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-hersheys__20261124T022156216854Z__s2703.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-hersheys__anchored3__20261124T022448389364Z__s2704",
+          "locked_at": "2026-11-24T02:24:48Z",
+          "entries": 1,
+          "merkle_root": "10a27b2073315a152a0e73bd3291fe1a2593346c7739c822943d10504564dfb2",
+          "manifest": "proofs/batches/us-system1-xmas-2026-hersheys__anchored3__20261124T022448389364Z__s2704.json",
+          "manifest_sha256": "57064d410f5b5baebc32a6810524392e8d9baae454422efcdcb53ac3ed0979e4",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-hersheys__anchored3__20261124T022448389364Z__s2704.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-hersheys-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Hershey's \"Sounds Like The Holidays\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Hershey's Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 24 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Hershey's, released 2026-11-24 00:27Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-26T00:27:53Z",
+      "first_lock_utc": "2026-11-24T02:25:15Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-hersheys-consumer/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-hersheys-consumer__20261124T022515533565Z__s2705",
+          "locked_at": "2026-11-24T02:25:15Z",
+          "entries": 1,
+          "merkle_root": "b38c74bb822f906bcd909a82cdc1896b9431ba57e124a6b435bc530e818726c8",
+          "manifest": "proofs/batches/us-system1-xmas-2026-hersheys-consumer__20261124T022515533565Z__s2705.json",
+          "manifest_sha256": "956c0d8bb64d77199baa0ce7804dcc5d5e0aecfce3d8a135a05326c1fe4e7d6d",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-hersheys-consumer__20261124T022515533565Z__s2705.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "spotify-de-listeners-weekly-2026-12-03",
       "survey": "Spotify DE weekly top ten (volume shares), simulated with the listeners' published makeup",
       "publisher": "Spotify Charts via Kworb mirror",
@@ -21744,7 +21955,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-23T23:56:46+00:00",
-    "checked_at": "2026-11-24T01:05:18.106417+00:00",
+    "checked_at": "2026-11-24T08:05:16.101546+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {

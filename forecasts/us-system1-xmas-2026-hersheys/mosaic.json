@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-hersheys",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-hersheys__anchored3__star_rating__overall__r1",
+      "entry_sha256": "1a797674f01059c363ea6a82ff63f0871793a5cdcdf8687e57139e1974e25c67",
+      "seq": 2704,
+      "batch_id": "us-system1-xmas-2026-hersheys__anchored3__20261124T022448389364Z__s2704",
+      "locked_at": "2026-11-24T02:24:48Z"
+    }
+  ]
+}
