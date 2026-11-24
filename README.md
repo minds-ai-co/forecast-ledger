@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-24T08:16:11Z**. Latest recorded forecast or score: **2026-11-24T02:25:15Z**. 51 surveys scored; 88 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-24T15:31:17Z**. Latest recorded forecast or score: **2026-11-24T02:25:15Z**. 51 surveys scored; 88 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -17,7 +17,7 @@ Lower is better for TVD and miss. TVD is 0 for a perfect forecast and 1 for a co
 
 Approximation, each of the 43 survey series weighted equally: 96.1%; audience subgroups, pooled separately: 97.9% (198 question x audience cells).
 
-Rating questions (7 published ratings, System1 stars) are scored as numbers and kept out of the share figures above: average accuracy 84.6% of the rating scale, mean error 0.76 System1 stars too low, CRPS 0.46, and 12 of 14 pairs ranked in the right order (pairs with the same published rating are not counted).
+Rating questions (7 published ratings, System1 stars) are scored as numbers and kept out of the share figures above: average accuracy 84.6% of the rating scale, CRPS 0.46, and 12 of 14 pairs ranked in the right order (pairs with the same published rating are not counted).
 
 <section id="forecast-error-chart" class="not-prose" aria-label="Forecast error over time">
 <p><strong>Average error so far, by result release date</strong> (TVD, lower is better)</p>
@@ -38,7 +38,7 @@ Attitude: opinions and ratings. Stated intent: what people say they will do. Beh
 
 ## Social Simulation Arena
 
-Arena data published 23 Nov 2026, 23:56 UTC; checked 24 Nov 2026, 08:05 UTC.
+Arena data published 24 Nov 2026, 09:55 UTC; checked 24 Nov 2026, 15:05 UTC.
 
 Minds Mosaic ranks **25 of 28** on the official overall board, with **12 of 155** resolved questions answered. The overall ranking counts missing answers against each entrant, including questions before it joined.
 
@@ -96,7 +96,6 @@ Every forecast is locked and timestamped before the survey is in the field or be
 |---|---|---|
 | Distribution error (TVD) | TVD = ½ Σ<sub>k</sub> \|*f<sub>k</sub>* − *a<sub>k</sub>*\| | Share of answers placed in the wrong option; 0 identical, 1 disjoint. Lower is better. |
 | Correlation (Pearson *r*) | *r* = cov(*f*, *a*) / (σ<sub>f</sub> σ<sub>a</sub>) over all answer options of the selected questions | Companion measure only: it can be high when levels are off. |
-| Rating error (bias) | *b* = (1/*n*) Σ<sub>i</sub> (*x̂<sub>i</sub>* − *x<sub>i</sub>*) | Average signed error in the rating's unit; negative means too low. |
 | CRPS | CRPS = E\|*X* − *x*\| − ½ E\|*X* − *X′*\| | *X*, *X′*: independent draws from the forecast distribution. A proper score of the whole forecast spread in the question's unit; equals \|*x̂* − *x*\| for a point forecast. Lower is better (Gneiting and Raftery 2007). |
 
 ### Aggregation and uncertainty
