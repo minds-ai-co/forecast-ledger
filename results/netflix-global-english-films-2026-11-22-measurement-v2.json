@@ -1,0 +1,57 @@
+{
+  "target_id": "netflix-global-english-films-2026-11-22-measurement-v2",
+  "survey": "Netflix global English films (volume shares; measurement v2)",
+  "status": "scored",
+  "released_at": "2026-11-25T07:45:06Z",
+  "source_url": "https://www.netflix.com/tudum/top10?week=2026-11-22",
+  "scored_at": "2026-11-25T07:45:08Z",
+  "results_sha256": "ef9671b91a84fd12ccbfcddf73e9f1cd9ffd2d4f574e584bb58e97a59a9363f5",
+  "released_values_public": false,
+  "licence_note": "Publication permission for these result values has not been established.",
+  "publication": {
+    "status": "unverified",
+    "note": "Publication permission for these result values has not been established.",
+    "terms": []
+  },
+  "summary": {
+    "research-1": {
+      "items": 1,
+      "tvd": 1.0,
+      "mae_pp": 18.181818
+    }
+  },
+  "summary_by_evidence_type": {
+    "behaviour": {
+      "research-1": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 1.0,
+          "mae_pp": 18.181818
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 1.0,
+          "mae_pp": 18.181818
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "netflix-global-english-films-2026-11-22-measurement-v2__top10_volume_share__overall__r1",
+      "entry_sha256": "353c91506ecb004d15a161cd6061795a3aa1cbeec059ac40c41c461ddb34ec1b",
+      "variant": "research-1",
+      "question_id": "top10_volume_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 1.0,
+      "mae_pp": 18.181818,
+      "released_values_public": false
+    }
+  ]
+}

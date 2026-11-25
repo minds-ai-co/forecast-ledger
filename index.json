@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-24T23:33:10Z",
+  "as_of": "2026-11-25T08:15:40Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-24T02:25:15Z",
+  "latest_event_at": "2026-11-25T07:45:08Z",
   "chain_head_sha256": "4c393255f2fd04c008ea387d5831dc96f20a2811eb0569f4d038fc3faca8799a",
   "proof_only_entries": 6,
   "counts": {
     "targets": 142,
-    "targets_scored": 51,
-    "targets_pending": 88,
+    "targets_scored": 52,
+    "targets_pending": 87,
     "targets_not_scoreable": 3,
     "entries": 2700,
     "batches": 364,
-    "entries_scored": 1312,
-    "entries_pending": 1151,
+    "entries_scored": 1313,
+    "entries_pending": 1150,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -126,11 +126,11 @@
         "label": "Additional research forecast 1",
         "forecasts_locked": 706,
         "scored": {
-          "surveys": 43,
-          "questions": 158,
-          "tvd": 0.106043,
-          "mae_pp": 4.012009,
-          "pearson_r": 0.938759,
+          "surveys": 44,
+          "questions": 159,
+          "tvd": 0.111665,
+          "mae_pp": 4.101127,
+          "pearson_r": 0.91838,
           "ordinal_questions": 96,
           "wasserstein": 0.048473
         }
@@ -647,17 +647,17 @@
     "behaviour": {
       "research-1": {
         "overall": {
-          "n": 12,
-          "n_distribution": 12,
-          "tvd": 0.334559,
-          "mae_pp": 4.926092
+          "n": 13,
+          "n_distribution": 13,
+          "tvd": 0.385747,
+          "mae_pp": 5.945763
         },
         "subgroups": null,
         "all": {
-          "n": 12,
-          "n_distribution": 12,
-          "tvd": 0.334559,
-          "mae_pp": 4.926092
+          "n": 13,
+          "n_distribution": 13,
+          "tvd": 0.385747,
+          "mae_pp": 5.945763
         }
       },
       "mosaic": {
@@ -16373,17 +16373,17 @@
         "label": "Global Netflix viewers"
       },
       "wave": "2026-11-22",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-15T09:00:00Z",
       "first_lock_utc": "2026-11-10T00:00:01Z",
-      "released_at": null,
-      "publication_url": "https://www.netflix.com/tudum/top10",
+      "released_at": "2026-11-25T07:45:06Z",
+      "publication_url": "https://www.netflix.com/tudum/top10?week=2026-11-22",
       "forecasts_count": 1,
       "variants": [
         "research-1"
@@ -16391,7 +16391,7 @@
       "forecasts": {
         "research-1": "forecasts/netflix-global-english-films-2026-11-22-measurement-v2/research-1.json"
       },
-      "results": null,
+      "results": "results/netflix-global-english-films-2026-11-22-measurement-v2.json",
       "batches": [
         {
           "batch_id": "netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461",
@@ -16407,7 +16407,8 @@
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
         }
-      ]
+      ],
+      "series": "netflix-global-english-films-2026-11-22-measurement-v2"
     },
     {
       "target_id": "gb-ons-bics-wave168-2026-11-19",
@@ -21950,12 +21951,163 @@
       ]
     }
   ],
-  "missed": [],
+  "missed": [
+    {
+      "target_id": "at-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Austria (fieldwork Ipsos GmbH), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "be-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Belgium (fieldwork National Bank of Belgium), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "bg-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Bulgaria (fieldwork LOGO Market Research and Consulting Ltd.), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "cy-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Cyprus (fieldwork University of Cyprus (Economics Research Centre) with RAI Consultants), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "cz-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Czechia (fieldwork Data Collect s.r.o.), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "de-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Germany (fieldwork NIQ/GfK), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "dk-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Denmark (fieldwork Statistics Denmark), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "el-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Greece (fieldwork IOBE (Foundation for Economic and Industrial Research)), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "es-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Spain (fieldwork NIQ/GfK), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "fi-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Finland (fieldwork Statistics Finland), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "hr-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Croatia (fieldwork Ipsos d.o.o.), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "hu-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Hungary (fieldwork GKI Zrt.), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "ie-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Ireland (fieldwork Bank of Ireland), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "it-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Italy (fieldwork ISTAT), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "lt-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Lithuania (fieldwork State Data Agency (Statistics Lithuania)), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "lu-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Luxembourg (fieldwork Banque centrale du Luxembourg), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "lv-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Latvia (fieldwork Latvian Facts), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "mt-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Malta (fieldwork EMCS Advisory Ltd), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "nl-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Netherlands (fieldwork Statistics Netherlands (CBS)), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "pl-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Poland (fieldwork GfK Sp. z o.o.), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "pt-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Portugal (fieldwork INE (Statistics Portugal)), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "ro-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Romania (fieldwork Mercury Research), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "se-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Sweden (fieldwork National Institute of Economic Research (Konjunkturinstitutet)), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "si-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Slovenia (fieldwork Statistical Office of the Republic of Slovenia), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "sk-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Slovakia (fieldwork Statistical Office of the Slovak Republic), monthly questions, December 2026",
+      "cutoff_utc": "2026-11-25T04:00:00Z",
+      "what": "not locked before the cutoff"
+    }
+  ],
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-24T22:33:08+00:00",
-    "checked_at": "2026-11-24T23:05:44.657141+00:00",
+    "checked_at": "2026-11-25T08:05:42.650870+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
