@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-25T16:14:14Z",
+  "as_of": "2026-11-25T16:39:30Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-25T16:12:56Z",
-  "chain_head_sha256": "6b7ab436054697639686a1ebadae58b9985717e6b706b0f90d7c8808633d13d0",
+  "latest_event_at": "2026-11-25T16:39:11Z",
+  "chain_head_sha256": "454df5737e5bf08e1699576c2e77010ec90eac7f2359aacfa4209041f40e71e9",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 144,
+    "targets": 145,
     "targets_scored": 54,
-    "targets_pending": 87,
+    "targets_pending": 88,
     "targets_not_scoreable": 3,
-    "entries": 2862,
-    "batches": 367,
+    "entries": 2958,
+    "batches": 369,
     "entries_scored": 1327,
-    "entries_pending": 1298,
+    "entries_pending": 1394,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 803,
+    "forecasts_locked": 851,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -124,7 +124,7 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 796,
+        "forecasts_locked": 844,
         "scored": {
           "surveys": 45,
           "questions": 161,
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2280,
+    "attitude": 2376,
     "stated_intent": 472,
     "behaviour": 110
   },
@@ -21665,6 +21665,82 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-hersheys-consumer__20261124T022515533565Z__s2705.json",
           "manifest_sha256": "956c0d8bb64d77199baa0ce7804dcc5d5e0aecfce3d8a135a05326c1fe4e7d6d",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-hersheys-consumer__20261124T022515533565Z__s2705.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-economist-yougov-2026-11-27",
+      "survey": "The Economist/YouGov Poll (weekly, US adult citizens)",
+      "publisher": "YouGov for The Economist",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Politics",
+        "source": "The Economist / YouGov",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": null,
+      "wave": "First weekly wave whose fieldwork starts after November 23, 2026 (expected about Fri Nov 27 - Mon Nov 30, 2026, Thanksgiving weekend; dates not announced)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-26T04:00:00Z",
+      "first_lock_utc": "2026-11-25T16:26:35Z",
+      "released_at": null,
+      "publication_url": "https://yougov.com/en-us/content/the-economist",
+      "forecasts_count": 96,
+      "variants": [
+        "research-1",
+        "mosaic"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-economist-yougov-2026-11-27/research-1.json",
+        "mosaic": "forecasts/us-economist-yougov-2026-11-27/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-economist-yougov-2026-11-27__anchored3__20261125T162635112475Z__s2868",
+          "locked_at": "2026-11-25T16:26:35Z",
+          "entries": 48,
+          "merkle_root": "d081c5bb8ea3ab35c5cfe1c1fd374aa73819e940c733c57079dd43c7cbcc5210",
+          "manifest": "proofs/batches/us-economist-yougov-2026-11-27__anchored3__20261125T162635112475Z__s2868.json",
+          "manifest_sha256": "1cfaa402bd5ed1b5cfe445068408cefc188b75314b01d082ad9a28f67517799e",
+          "ots_proof": "proofs/batches/us-economist-yougov-2026-11-27__anchored3__20261125T162635112475Z__s2868.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-economist-yougov-2026-11-27__20261125T163911641636Z__s2916",
+          "locked_at": "2026-11-25T16:39:11Z",
+          "entries": 48,
+          "merkle_root": "fc5acb1eb2305de8b4f89162654ca2a26f3afd77888aecc8277f3f50ea7ee657",
+          "manifest": "proofs/batches/us-economist-yougov-2026-11-27__20261125T163911641636Z__s2916.json",
+          "manifest_sha256": "5c0ac535f38a8707734ed1f9687de82918e4b4868514b6692defaa2ace045e60",
+          "ots_proof": "proofs/batches/us-economist-yougov-2026-11-27__20261125T163911641636Z__s2916.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,

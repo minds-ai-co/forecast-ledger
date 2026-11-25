@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-25T16:14:14Z**. Latest recorded forecast or score: **2026-11-25T16:12:56Z**. 54 surveys scored; 87 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-25T16:39:30Z**. Latest recorded forecast or score: **2026-11-25T16:39:11Z**. 54 surveys scored; 88 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -71,7 +71,7 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
-Ledger chain head `6b7ab436054697639686a1ebadae58b9985717e6b706b0f90d7c8808633d13d0`.
+Ledger chain head `454df5737e5bf08e1699576c2e77010ec90eac7f2359aacfa4209041f40e71e9`.
 
 ## Methodology
 
