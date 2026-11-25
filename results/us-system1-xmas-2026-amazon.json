@@ -1,0 +1,159 @@
+{
+  "target_id": "us-system1-xmas-2026-amazon",
+  "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Amazon \"Amazon | Joy Delivered\"",
+  "status": "scored",
+  "released_at": "2026-11-23T13:28:48Z",
+  "source_url": "https://www.thedrum.com/opinion/andrew-tindall-amazon-ditched-a-christmas-classic-the-new-one-s-just-as-good",
+  "scored_at": "2026-11-25T15:38:12Z",
+  "results_sha256": "e862c15c201b32c7441836adb1bc112b2971c534ed3c7af17d91001adaf85ce8",
+  "released_values_public": true,
+  "licence_note": "Source: System1 Test Your Ad, Amazon “Joy Delivered” (US), as reported by The Drum on 23 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-25",
+    "source_url": "https://www.thedrum.com/opinion/andrew-tindall-amazon-ditched-a-christmas-classic-the-new-one-s-just-as-good",
+    "credit": "Source: System1 Test Your Ad, Amazon “Joy Delivered” (US), as reported by The Drum on 23 November 2026. Published Star Rating compared with the preregistered Minds estimate; this is a rating, not a population response share.",
+    "terms": [
+      {
+        "label": "System1 terms",
+        "url": "https://system1group.com/terms-conditions"
+      }
+    ],
+    "decision_basis": "Reuses the owner decision recorded for earlier releases of this source; new release-specific record.",
+    "item_scope": {
+      "star_rating": [
+        "overall"
+      ]
+    }
+  },
+  "summary": {
+    "research-1": {
+      "items": 1,
+      "tvd": 0.9375,
+      "mae_pp": 20.833333
+    },
+    "mosaic": {
+      "items": 1,
+      "tvd": 0.8,
+      "mae_pp": 17.777778
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "research-1": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.9375,
+          "mae_pp": 20.833333,
+          "numeric": {
+            "n": 1,
+            "abs_error": 1.272,
+            "pct_error": 22.315789
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.9375,
+          "mae_pp": 20.833333,
+          "numeric": {
+            "n": 1,
+            "abs_error": 1.272,
+            "pct_error": 22.315789
+          }
+        }
+      },
+      "mosaic": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.8,
+          "mae_pp": 17.777778,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.81925,
+            "pct_error": 14.372807
+          }
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.8,
+          "mae_pp": 17.777778,
+          "numeric": {
+            "n": 1,
+            "abs_error": 0.81925,
+            "pct_error": 14.372807
+          }
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "us-system1-xmas-2026-amazon__star_rating__overall__r1",
+      "entry_sha256": "c5877eb4625504e28b72bd8afd451572c38686fdee7701e11cadf334d0543c38",
+      "variant": "research-1",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 4.428,
+        "abs_error": 1.272,
+        "pct_error": 22.315789,
+        "actual": 5.7
+      },
+      "tvd": 0.9375,
+      "mae_pp": 20.833333,
+      "released": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "us-system1-xmas-2026-amazon__anchored3__star_rating__overall__r1",
+      "entry_sha256": "24b76c08c784922621b31ea98771c9ed70f88bfccf39d43d614fdec909b9e2ad",
+      "variant": "mosaic",
+      "question_id": "star_rating",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "numeric": {
+        "unit": "System1 stars",
+        "point": 4.88075,
+        "abs_error": 0.81925,
+        "pct_error": 14.372807,
+        "actual": 5.7
+      },
+      "tvd": 0.8,
+      "mae_pp": 17.777778,
+      "released": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "released_values_public": true
+    }
+  ]
+}

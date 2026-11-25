@@ -3,15 +3,53 @@
   "variant": "mosaic",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "us-system1-xmas-2026-amazon__anchored3__star_rating__overall__r1",
       "entry_sha256": "24b76c08c784922621b31ea98771c9ed70f88bfccf39d43d614fdec909b9e2ad",
       "seq": 2442,
       "batch_id": "us-system1-xmas-2026-amazon__anchored3__20261105T201120885360Z__s2442",
-      "locked_at": "2026-11-05T20:11:20Z"
+      "locked_at": "2026-11-05T20:11:20Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 star rating of the ad",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.004,
+        0.011,
+        0.025,
+        0.055,
+        0.125,
+        0.245,
+        0.29500000000000004,
+        0.2,
+        0.04
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

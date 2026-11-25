@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-25T08:15:40Z",
+  "as_of": "2026-11-25T16:14:14Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-25T07:45:08Z",
-  "chain_head_sha256": "4c393255f2fd04c008ea387d5831dc96f20a2811eb0569f4d038fc3faca8799a",
+  "latest_event_at": "2026-11-25T16:12:56Z",
+  "chain_head_sha256": "6b7ab436054697639686a1ebadae58b9985717e6b706b0f90d7c8808633d13d0",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 142,
-    "targets_scored": 52,
+    "targets": 144,
+    "targets_scored": 54,
     "targets_pending": 87,
     "targets_not_scoreable": 3,
-    "entries": 2700,
-    "batches": 364,
-    "entries_scored": 1313,
-    "entries_pending": 1150,
+    "entries": 2862,
+    "batches": 367,
+    "entries_scored": 1327,
+    "entries_pending": 1298,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,49 +58,49 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 731,
+    "forecasts_locked": 803,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 42,
-      "questions": 160,
-      "tvd": 0.047243,
-      "mae_pp": 1.541037,
-      "pearson_r": 0.98222,
-      "ordinal_questions": 95,
-      "wasserstein": 0.017397
+      "surveys": 43,
+      "questions": 162,
+      "tvd": 0.047138,
+      "mae_pp": 1.545932,
+      "pearson_r": 0.982327,
+      "ordinal_questions": 97,
+      "wasserstein": 0.017331
     },
     "ratings": {
-      "surveys": 7,
-      "questions": 7,
+      "surveys": 8,
+      "questions": 8,
       "units": [
         "System1 stars"
       ],
-      "accuracy": 0.845849,
-      "mean_error": -0.755339,
-      "mean_abs_error": 0.755339,
-      "crps": 0.457607,
-      "pairs_right": 12,
-      "pairs_total": 14
+      "accuracy": 0.844219,
+      "mean_error": -0.763328,
+      "mean_abs_error": 0.763328,
+      "crps": 0.458062,
+      "pairs_right": 17,
+      "pairs_total": 19
     },
     "locked_before_fieldwork": {
-      "surveys": 22,
-      "questions": 65,
-      "tvd": 0.035871,
-      "mae_pp": 1.372784,
-      "pearson_r": 0.991375,
-      "ordinal_questions": 19,
-      "wasserstein": 0.020773
+      "surveys": 23,
+      "questions": 67,
+      "tvd": 0.035957,
+      "mae_pp": 1.389641,
+      "pearson_r": 0.991379,
+      "ordinal_questions": 21,
+      "wasserstein": 0.020144
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 26,
-        "questions": 111,
-        "tvd": 0.033134,
-        "mae_pp": 1.505807,
-        "pearson_r": 0.993335,
-        "ordinal_questions": 84,
-        "wasserstein": 0.016567
+        "surveys": 27,
+        "questions": 113,
+        "tvd": 0.033233,
+        "mae_pp": 1.513447,
+        "pearson_r": 0.9933,
+        "ordinal_questions": 86,
+        "wasserstein": 0.016511
       },
       "stated_intent": {
         "surveys": 24,
@@ -124,15 +124,15 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 706,
+        "forecasts_locked": 796,
         "scored": {
-          "surveys": 44,
-          "questions": 159,
-          "tvd": 0.111665,
-          "mae_pp": 4.101127,
-          "pearson_r": 0.91838,
-          "ordinal_questions": 96,
-          "wasserstein": 0.048473
+          "surveys": 45,
+          "questions": 161,
+          "tvd": 0.110806,
+          "mae_pp": 4.076579,
+          "pearson_r": 0.919218,
+          "ordinal_questions": 98,
+          "wasserstein": 0.047823
         }
       },
       "research-4": {
@@ -165,13 +165,13 @@
         "label": "Additional research forecast 2",
         "forecasts_locked": 474,
         "scored": {
-          "surveys": 39,
-          "questions": 141,
-          "tvd": 0.10674,
-          "mae_pp": 3.987142,
-          "pearson_r": 0.939964,
-          "ordinal_questions": 93,
-          "wasserstein": 0.04885
+          "surveys": 40,
+          "questions": 143,
+          "tvd": 0.105782,
+          "mae_pp": 3.958126,
+          "pearson_r": 0.940679,
+          "ordinal_questions": 95,
+          "wasserstein": 0.048143
         }
       },
       "research-3": {
@@ -191,39 +191,39 @@
         "label": "Additional research forecast 4e71fe",
         "forecasts_locked": 100,
         "scored": {
-          "surveys": 8,
-          "questions": 16,
-          "tvd": 0.100516,
-          "mae_pp": 3.647213,
-          "pearson_r": 0.942702,
-          "ordinal_questions": 3,
-          "wasserstein": 0.034527
+          "surveys": 9,
+          "questions": 18,
+          "tvd": 0.094292,
+          "mae_pp": 3.48919,
+          "pearson_r": 0.949284,
+          "ordinal_questions": 5,
+          "wasserstein": 0.028116
         }
       },
       "research-d5b88a": {
         "label": "Additional research forecast d5b88a",
         "forecasts_locked": 100,
         "scored": {
-          "surveys": 8,
-          "questions": 16,
-          "tvd": 0.102831,
-          "mae_pp": 3.693878,
-          "pearson_r": 0.942582,
-          "ordinal_questions": 3,
-          "wasserstein": 0.03576
+          "surveys": 9,
+          "questions": 18,
+          "tvd": 0.096489,
+          "mae_pp": 3.537614,
+          "pearson_r": 0.948933,
+          "ordinal_questions": 5,
+          "wasserstein": 0.028689
         }
       },
       "research-16accd": {
         "label": "Additional research forecast 16accd",
         "forecasts_locked": 48,
         "scored": {
-          "surveys": 8,
-          "questions": 16,
-          "tvd": 0.119951,
-          "mae_pp": 4.099731,
-          "pearson_r": 0.918978,
-          "ordinal_questions": 3,
-          "wasserstein": 0.048281
+          "surveys": 9,
+          "questions": 18,
+          "tvd": 0.119123,
+          "mae_pp": 4.269205,
+          "pearson_r": 0.921549,
+          "ordinal_questions": 5,
+          "wasserstein": 0.052968
         }
       },
       "research-6": {
@@ -241,10 +241,10 @@
       }
     },
     "approximation": {
-      "value": 0.961078,
-      "series": 43,
-      "surveys": 49,
-      "questions": 167,
+      "value": 0.958662,
+      "series": 45,
+      "surveys": 51,
+      "questions": 170,
       "weighting": "each series weighted equally; questions averaged within a series"
     },
     "subgroup_approximation": {
@@ -265,22 +265,22 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2136,
-    "stated_intent": 454,
+    "attitude": 2280,
+    "stated_intent": 472,
     "behaviour": 110
   },
   "results_by_evidence_type": {
     "attitude": {
       "research-1": {
         "overall": {
-          "n": 119,
-          "n_distribution": 119,
-          "tvd": 0.142159,
-          "mae_pp": 5.344209,
+          "n": 122,
+          "n_distribution": 122,
+          "tvd": 0.147044,
+          "mae_pp": 5.418395,
           "numeric": {
-            "n": 7,
-            "abs_error": 1.287714,
-            "pct_error": 22.207871
+            "n": 8,
+            "abs_error": 1.28575,
+            "pct_error": 22.22136
           }
         },
         "subgroups": {
@@ -290,27 +290,27 @@
           "mae_pp": 6.317645
         },
         "all": {
-          "n": 279,
-          "n_distribution": 279,
-          "tvd": 0.123307,
-          "mae_pp": 5.902452,
+          "n": 282,
+          "n_distribution": 282,
+          "tvd": 0.125621,
+          "mae_pp": 5.928608,
           "numeric": {
-            "n": 7,
-            "abs_error": 1.287714,
-            "pct_error": 22.207871
+            "n": 8,
+            "abs_error": 1.28575,
+            "pct_error": 22.22136
           }
         }
       },
       "mosaic": {
         "overall": {
-          "n": 118,
-          "n_distribution": 118,
-          "tvd": 0.077537,
-          "mae_pp": 2.446894,
+          "n": 121,
+          "n_distribution": 121,
+          "tvd": 0.082866,
+          "mae_pp": 2.565175,
           "numeric": {
-            "n": 7,
-            "abs_error": 0.755339,
-            "pct_error": 13.104355
+            "n": 8,
+            "abs_error": 0.763328,
+            "pct_error": 13.262911
           }
         },
         "subgroups": {
@@ -320,45 +320,45 @@
           "mae_pp": 2.508431
         },
         "all": {
-          "n": 278,
-          "n_distribution": 278,
-          "tvd": 0.058741,
-          "mae_pp": 2.482311,
+          "n": 281,
+          "n_distribution": 281,
+          "tvd": 0.061237,
+          "mae_pp": 2.532865,
           "numeric": {
-            "n": 7,
-            "abs_error": 0.755339,
-            "pct_error": 13.104355
+            "n": 8,
+            "abs_error": 0.763328,
+            "pct_error": 13.262911
           }
         }
       },
       "research-4e71fe": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.098177,
-          "mae_pp": 5.301148
+          "n": 9,
+          "n_distribution": 9,
+          "tvd": 0.086249,
+          "mae_pp": 4.61756
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.098177,
-          "mae_pp": 5.301148
+          "n": 9,
+          "n_distribution": 9,
+          "tvd": 0.086249,
+          "mae_pp": 4.61756
         }
       },
       "research-d5b88a": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.101885,
-          "mae_pp": 5.41046
+          "n": 9,
+          "n_distribution": 9,
+          "tvd": 0.089411,
+          "mae_pp": 4.716469
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.101885,
-          "mae_pp": 5.41046
+          "n": 9,
+          "n_distribution": 9,
+          "tvd": 0.089411,
+          "mae_pp": 4.716469
         }
       },
       "research-3": {
@@ -418,25 +418,25 @@
       },
       "research-16accd": {
         "overall": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.103821,
-          "mae_pp": 5.479758
+          "n": 9,
+          "n_distribution": 9,
+          "tvd": 0.10575,
+          "mae_pp": 5.512034
         },
         "subgroups": null,
         "all": {
-          "n": 7,
-          "n_distribution": 7,
-          "tvd": 0.103821,
-          "mae_pp": 5.479758
+          "n": 9,
+          "n_distribution": 9,
+          "tvd": 0.10575,
+          "mae_pp": 5.512034
         }
       },
       "research-2": {
         "overall": {
-          "n": 100,
-          "n_distribution": 100,
-          "tvd": 0.095586,
-          "mae_pp": 4.377112
+          "n": 102,
+          "n_distribution": 102,
+          "tvd": 0.094462,
+          "mae_pp": 4.328787
         },
         "subgroups": {
           "n": 105,
@@ -445,10 +445,10 @@
           "mae_pp": 6.405935
         },
         "all": {
-          "n": 205,
-          "n_distribution": 205,
-          "tvd": 0.103862,
-          "mae_pp": 5.416265
+          "n": 207,
+          "n_distribution": 207,
+          "tvd": 0.103228,
+          "mae_pp": 5.382412
         }
       },
       "research-6": {
@@ -8418,17 +8418,17 @@
         "label": "French adults"
       },
       "wave": "First \"Indices de popularité\" wave with fieldwork starting on or after Mon 2 Nov 2026 (expected \"Novembre 2026\" edition, fieldwork starting about 4-12 Nov, published on a Monday about 16-23 Nov 2026)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-01T23:00:00Z",
       "first_lock_utc": "2026-11-01T00:49:17Z",
-      "released_at": null,
-      "publication_url": "https://www.ifopgroup.com/article/indices-de-popularite-barometre-ifop-opinion-octobre-2026",
+      "released_at": "2026-11-23T09:13:52Z",
+      "publication_url": "https://www.ifopgroup.com/article/les-indices-de-popularite-barometre-ifop-opinion-novembre-2026/",
       "forecasts_count": 12,
       "variants": [
         "research-1",
@@ -8446,7 +8446,7 @@
         "research-d5b88a": "forecasts/fr-ifop-popularite-2026-11-04/research-d5b88a.json",
         "research-16accd": "forecasts/fr-ifop-popularite-2026-11-04/research-16accd.json"
       },
-      "results": null,
+      "results": "results/fr-ifop-popularite-2026-11-04.json",
       "batches": [
         {
           "batch_id": "fr-ifop-popularite-2026-11-04__20261101T004917872072Z__s1795",
@@ -8532,7 +8532,35 @@
           "bitcoin_block_hash": "0000000000000000000106faf2e1cb0c6f3930d21f4e4d0d42cab10368555e35",
           "bitcoin_block_merkle_root": "c587b85fbdf8de1bec9de27372bad79907e102d059cd46ec68ac839a367714ab"
         }
-      ]
+      ],
+      "metric_blocks": [
+        {
+          "type": "ordinal",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "4-6",
+          "questions": 2,
+          "accuracy_sum": 1.96125,
+          "sums": {
+            "tvd": 0.0775,
+            "wasserstein": 0.028333333
+          },
+          "counts": {
+            "tvd": 2,
+            "wasserstein": 2
+          },
+          "pearson": {
+            "n": 8,
+            "sx": 2.0,
+            "sy": 2.0,
+            "sxx": 0.7464,
+            "syy": 0.7614,
+            "sxy": 0.751475
+          }
+        }
+      ],
+      "series": "fr-ifop-popularite"
     },
     {
       "target_id": "fr-ipsos-bva-tribune-2026-11-04",
@@ -15392,17 +15420,17 @@
         "label": "US ad experts"
       },
       "wave": "Christmas 2026 (Amazon, released 2026-11-05 00:00Z)",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-07T00:00:00Z",
       "first_lock_utc": "2026-11-05T20:09:02Z",
-      "released_at": null,
-      "publication_url": "https://system1group.com/christmas",
+      "released_at": "2026-11-23T13:28:48Z",
+      "publication_url": "https://www.thedrum.com/opinion/andrew-tindall-amazon-ditched-a-christmas-classic-the-new-one-s-just-as-good",
       "forecasts_count": 2,
       "variants": [
         "research-1",
@@ -15412,7 +15440,7 @@
         "research-1": "forecasts/us-system1-xmas-2026-amazon/research-1.json",
         "mosaic": "forecasts/us-system1-xmas-2026-amazon/mosaic.json"
       },
-      "results": null,
+      "results": "results/us-system1-xmas-2026-amazon.json",
       "batches": [
         {
           "batch_id": "us-system1-xmas-2026-amazon__20261105T200902600057Z__s2441",
@@ -15441,6 +15469,40 @@
           "bitcoin_block_time_utc": "2026-11-05T20:34:20Z",
           "bitcoin_block_hash": "00000000000000000001499a40e7bda4cce8310b620f2cb569648caefb6dfb0e",
           "bitcoin_block_merkle_root": "49863c91afe3bd3488c4bc89baa2d8a21863da893aa07a60e89bf20e7b708b90"
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "rating",
+          "family": "rating",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "",
+          "questions": 1,
+          "accuracy_sum": 0.832806122,
+          "sums": {
+            "crps": 0.46124975,
+            "error": -0.81925
+          },
+          "counts": {
+            "crps": 1,
+            "error": 1
+          }
+        }
+      ],
+      "series": "us-system1-xmas-2026-amazon",
+      "rating_stats": [
+        {
+          "evidence_type": "attitude",
+          "unit": "System1 stars",
+          "scale": [
+            1.0,
+            5.9
+          ],
+          "point": 4.88075,
+          "actual": 5.7,
+          "crps": 0.46125,
+          "set": "System1 stars|System1 Group (Test Your Ad)|2026-11"
         }
       ]
     },
@@ -21185,6 +21247,222 @@
       ]
     },
     {
+      "target_id": "ea-ecb-ces-2026-12",
+      "survey": "ECB Consumer Expectations Survey (CES), euro area, December 2026 wave",
+      "publisher": "European Central Bank",
+      "source_logos": [],
+      "display": {
+        "label": "ECB Consumer Expectations Survey",
+        "country": "Country not specified",
+        "country_code": "ea",
+        "topic": "Other",
+        "source": "European Central Bank",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
+      "audience": {
+        "sample": "ECB Consumer Expectations Survey (CES): monthly online panel survey of about 19,000-20,000 consumers aged 18 or over in 11 euro area countries (BE, DE, IE, GR, ES, FR, IT, NL, AT, PT, FI); December 2026 wave",
+        "n": 20035,
+        "field_period": "December 2026 wave (dates not announced; recent waves: 4-29 Jun, 2-27 Jul, 6-24 Aug, 27 Aug - 28 Sep 2026)",
+        "composition": [
+          {
+            "label": "Country of residence (Eurostat adult population shares of the 11 CES countries, 1 Jan 2025, ages 18+ approximated)",
+            "values": [
+              {
+                "label": "Germany",
+                "share": 0.253
+              },
+              {
+                "label": "France",
+                "share": 0.2
+              },
+              {
+                "label": "Italy",
+                "share": 0.183
+              },
+              {
+                "label": "Spain",
+                "share": 0.15
+              },
+              {
+                "label": "Netherlands",
+                "share": 0.054
+              },
+              {
+                "label": "Belgium",
+                "share": 0.035
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Bottom household income quintile (Q1)",
+          "Income quintile Q2",
+          "Income quintile Q3",
+          "Income quintile Q4",
+          "Top household income quintile (Q5)",
+          "Aged 18-34",
+          "Aged 35-54",
+          "Aged 55-70"
+        ],
+        "label": "Country not specified adults"
+      },
+      "wave": "December 2026 CES wave; results expected late January 2027 (ECB press release and ECB Data Portal)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude",
+        "stated_intent"
+      ],
+      "cutoff_utc": "2026-11-25T23:00:00Z",
+      "first_lock_utc": "2026-11-25T15:34:36Z",
+      "released_at": null,
+      "publication_url": "https://www.ecb.europa.eu/stats/ecb_surveys/consumer_exp_survey/html/index.en.html",
+      "forecasts_count": 144,
+      "variants": [
+        "research-1",
+        "mosaic"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/ea-ecb-ces-2026-12/research-1.json",
+        "mosaic": "forecasts/ea-ecb-ces-2026-12/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "ea-ecb-ces-2026-12__anchored3__20261125T153436322385Z__s2706",
+          "locked_at": "2026-11-25T15:34:36Z",
+          "entries": 72,
+          "merkle_root": "69d137a6a001721bd3711ad0e8bb64a264fc6e1b0716405c5145fe8f49344bfd",
+          "manifest": "proofs/batches/ea-ecb-ces-2026-12__anchored3__20261125T153436322385Z__s2706.json",
+          "manifest_sha256": "b39fe0412a15723341360c27afd4a205e13ddaa62619d0346d6673fee4588e8c",
+          "ots_proof": "proofs/batches/ea-ecb-ces-2026-12__anchored3__20261125T153436322385Z__s2706.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+          "locked_at": "2026-11-25T15:57:57Z",
+          "entries": 72,
+          "merkle_root": "537d1d7faeac8c9f9b449dd1707af8eb14f52b71054c06d0dc751663c5024eb6",
+          "manifest": "proofs/batches/ea-ecb-ces-2026-12__20261125T155757824437Z__s2778.json",
+          "manifest_sha256": "c29ec12863a3798f2b2614164583fd9f110a9f7e5386ad38881b46312b983739",
+          "ots_proof": "proofs/batches/ea-ecb-ces-2026-12__20261125T155757824437Z__s2778.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "ea-ecb-ces-2026-12-numeric",
+      "survey": "ECB Consumer Expectations Survey (CES), euro area, December 2026 wave (numeric expectations: inflation and unemployment rate 12 months ahead)",
+      "publisher": "European Central Bank",
+      "source_logos": [],
+      "display": {
+        "label": "ECB Consumer Expectations Survey",
+        "country": "Country not specified",
+        "country_code": "ea",
+        "topic": "Other",
+        "source": "European Central Bank",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "ECB Consumer Expectations Survey (CES): monthly online panel survey of about 19,000-20,000 consumers aged 18 or over in 11 euro area countries (BE, DE, IE, GR, ES, FR, IT, NL, AT, PT, FI); December 2026 wave",
+        "n": 20035,
+        "field_period": "December 2026 wave (dates not announced; recent waves: 4-29 Jun, 2-27 Jul, 6-24 Aug, 27 Aug - 28 Sep 2026)",
+        "composition": [
+          {
+            "label": "Country of residence (Eurostat adult population shares of the 11 CES countries, 1 Jan 2025, ages 18+ approximated)",
+            "values": [
+              {
+                "label": "Germany",
+                "share": 0.253
+              },
+              {
+                "label": "France",
+                "share": 0.2
+              },
+              {
+                "label": "Italy",
+                "share": 0.183
+              },
+              {
+                "label": "Spain",
+                "share": 0.15
+              },
+              {
+                "label": "Netherlands",
+                "share": 0.054
+              },
+              {
+                "label": "Belgium",
+                "share": 0.035
+              }
+            ]
+          }
+        ],
+        "subgroups": [
+          "Bottom household income quintile (Q1)",
+          "Income quintile Q2",
+          "Income quintile Q3",
+          "Income quintile Q4",
+          "Top household income quintile (Q5)",
+          "Aged 18-34",
+          "Aged 35-54",
+          "Aged 55-70"
+        ],
+        "label": "Country not specified adults"
+      },
+      "wave": "December 2026 CES wave; results expected late January 2027 (ECB press release and ECB Data Portal)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-25T23:00:00Z",
+      "first_lock_utc": "2026-11-25T16:12:56Z",
+      "released_at": null,
+      "publication_url": "https://www.ecb.europa.eu/stats/ecb_surveys/consumer_exp_survey/html/index.en.html",
+      "forecasts_count": 18,
+      "variants": [
+        "research-1"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/ea-ecb-ces-2026-12-numeric/research-1.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+          "locked_at": "2026-11-25T16:12:56Z",
+          "entries": 18,
+          "merkle_root": "fe5f6308ca3f6b90cb0a5ec73cf00891db603e1540e35a1e4690655ed3a7e4cd",
+          "manifest": "proofs/batches/ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850.json",
+          "manifest_sha256": "df56200501d36f7acebc88f889a2a5e9fb80f485b98dac524e3385bbee683d1a",
+          "ots_proof": "proofs/batches/ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "us-system1-xmas-2026-hersheys",
       "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Hershey's \"Sounds Like The Holidays\"",
       "publisher": "System1 Group (Test Your Ad)",
@@ -22106,8 +22384,8 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-24T22:33:08+00:00",
-    "checked_at": "2026-11-25T08:05:42.650870+00:00",
+    "source_generated_at": "2026-11-25T08:31:53+00:00",
+    "checked_at": "2026-11-25T16:05:58.398167+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {

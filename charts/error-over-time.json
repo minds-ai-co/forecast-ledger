@@ -41,7 +41,7 @@
   "charts": {
     "all": {
       "label": "All topics",
-      "surveys": 42,
+      "surveys": 43,
       "target_ids": [
         "at-ec-ipsos-consumer-survey-2026-10",
         "ch-gfsbern-srgtrend-2026-11-04",
@@ -58,6 +58,7 @@
         "es-ec-gfk-consumer-survey-2026-10",
         "fr-ec-insee-consumer-survey-2026-10",
         "fr-elabe-observatoire-2026-10-27",
+        "fr-ifop-popularite-2026-11-04",
         "fr-ipsos-bva-tribune-2026-11-04",
         "gb-findoutnow-vi-2026-10-28",
         "gb-findoutnow-vi-2026-11-04",
@@ -86,7 +87,7 @@
         "us-reuters-ipsos-2026-10-26",
         "us-voter-poll-ssrs-2026"
       ],
-      "counts": "42 surveys; Behaviour 8, Attitude 26, Stated intent 24",
+      "counts": "43 surveys; Behaviour 8, Attitude 27, Stated intent 24",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -211,6 +212,12 @@
                   "x": 20778,
                   "label": "21 Nov",
                   "value": 0.063239
+                },
+                {
+                  "id": "2026-11-23",
+                  "x": 20780,
+                  "label": "23 Nov",
+                  "value": 0.06267
                 }
               ],
               "emphasis": "primary"
@@ -295,6 +302,12 @@
                   "id": "2026-11-21",
                   "x": 20778,
                   "label": "21 Nov",
+                  "value": 0.214388
+                },
+                {
+                  "id": "2026-11-23",
+                  "x": 20780,
+                  "label": "23 Nov",
                   "value": 0.214388
                 }
               ]
@@ -410,6 +423,12 @@
                   "x": 20778,
                   "label": "21 Nov",
                   "value": 0.031058
+                },
+                {
+                  "id": "2026-11-23",
+                  "x": 20780,
+                  "label": "23 Nov",
+                  "value": 0.031343
                 }
               ]
             },
@@ -523,6 +542,12 @@
                   "id": "2026-11-21",
                   "x": 20778,
                   "label": "21 Nov",
+                  "value": 0.024022
+                },
+                {
+                  "id": "2026-11-23",
+                  "x": 20780,
+                  "label": "23 Nov",
                   "value": 0.024022
                 }
               ]
@@ -918,7 +943,7 @@
     },
     "Politics": {
       "label": "Politics",
-      "surveys": 24,
+      "surveys": 25,
       "target_ids": [
         "ch-gfsbern-srgtrend-2026-11-04",
         "de-ard-deutschlandtrend-2026-11",
@@ -929,6 +954,7 @@
         "de-verian-bams-2026-11",
         "de-zdf-politbarometer-2026-11-13",
         "fr-elabe-observatoire-2026-10-27",
+        "fr-ifop-popularite-2026-11-04",
         "fr-ipsos-bva-tribune-2026-11-04",
         "gb-findoutnow-vi-2026-10-28",
         "gb-findoutnow-vi-2026-11-04",
@@ -945,7 +971,7 @@
         "us-reuters-ipsos-2026-10-26",
         "us-voter-poll-ssrs-2026"
       ],
-      "counts": "24 surveys; Attitude 16, Stated intent 19",
+      "counts": "25 surveys; Attitude 17, Stated intent 19",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -1052,6 +1078,12 @@
                   "x": 20777,
                   "label": "20 Nov",
                   "value": 0.026694
+                },
+                {
+                  "id": "2026-11-23",
+                  "x": 20780,
+                  "label": "23 Nov",
+                  "value": 0.027176
                 }
               ],
               "emphasis": "primary"
@@ -1149,6 +1181,12 @@
                   "x": 20777,
                   "label": "20 Nov",
                   "value": 0.031082
+                },
+                {
+                  "id": "2026-11-23",
+                  "x": 20780,
+                  "label": "23 Nov",
+                  "value": 0.031533
                 }
               ]
             },
@@ -1244,6 +1282,12 @@
                   "id": "2026-11-20",
                   "x": 20777,
                   "label": "20 Nov",
+                  "value": 0.022759
+                },
+                {
+                  "id": "2026-11-23",
+                  "x": 20780,
+                  "label": "23 Nov",
                   "value": 0.022759
                 }
               ]

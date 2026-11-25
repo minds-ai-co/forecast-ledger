@@ -1,0 +1,136 @@
+{
+  "target_id": "ea-ecb-ces-2026-12-numeric",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__overall__r1",
+      "entry_sha256": "b1bdd2539335869e0bf5567a5e75b07aad9b6bde55af5d9150a3eaf384c9388f",
+      "seq": 2850,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__inc_q1__r1",
+      "entry_sha256": "c44fce8cca0defce20d5918fea4465e8673b36509b7977a4c1bda24f48b49c5e",
+      "seq": 2851,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__inc_q2__r1",
+      "entry_sha256": "2b075ac3101e1ff3c74dc3966955d020fc4afebddac5b0513d036c3ed69d2fe4",
+      "seq": 2852,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__inc_q3__r1",
+      "entry_sha256": "b4d8cdeb263d7d03dd9b2ed92be7cbed8c8a6997e32bac349cbba1543374ab8f",
+      "seq": 2853,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__inc_q4__r1",
+      "entry_sha256": "58ffd6eaf0cefa4a1c6299f552a42611939b214df0ad5221930a8904036ab925",
+      "seq": 2854,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__inc_q5__r1",
+      "entry_sha256": "e2bc289a4c3c45b5a972109492aebb171c781074bd698637b615acf7369cff15",
+      "seq": 2855,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__age_18_34__r1",
+      "entry_sha256": "0c46dc896290bbe445294b89c056ea19af762095291e940afa5268b57736217d",
+      "seq": 2856,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__age_35_54__r1",
+      "entry_sha256": "bae001fbd916325d77dc7e3c5b9311954210a2b7dc01cf12ff92c8697c4ab4dc",
+      "seq": 2857,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__inflation_next12_rate__age_55_70__r1",
+      "entry_sha256": "201c7728458b865dea5d6417606c8d5f1738b61b9d207888541eb0017e2af647",
+      "seq": 2858,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__overall__r1",
+      "entry_sha256": "98f239795b6a7e4eb512872df19e210b493af24ee7cf979c7b5da63eacdac7e0",
+      "seq": 2859,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__inc_q1__r1",
+      "entry_sha256": "a99aa92d8c8ec38cefac29bbe2c85fbfd026ee1024aa3b864cfc901416476f35",
+      "seq": 2860,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__inc_q2__r1",
+      "entry_sha256": "ba56b7cba5daab3b0c3a54e5448eaf687864e19c82382112178cd1e76cef2ceb",
+      "seq": 2861,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__inc_q3__r1",
+      "entry_sha256": "d26e9a8d23ab9edfead4cc6ca8ea9d2608261c2e578b0273e8bdfb4b1418274c",
+      "seq": 2862,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__inc_q4__r1",
+      "entry_sha256": "592e7e1c7789d39e2dc4948a07b98bf6e231fc324a0fdb36271e9c3c2f78f12f",
+      "seq": 2863,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__inc_q5__r1",
+      "entry_sha256": "46056a3659bf071942ceebb32eefc4d962253b716d731d3b37a935105b2dfa0d",
+      "seq": 2864,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__age_18_34__r1",
+      "entry_sha256": "8ef15ad737eb140b6e0620cc70dc612519a4198699171c59262ad849c1c3a8ac",
+      "seq": 2865,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__age_35_54__r1",
+      "entry_sha256": "838f02392ec9b1e43f90bbe9645733c7473dbad128add9f98eb008093f142cc0",
+      "seq": 2866,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12-numeric__unemployment_rate_12m__age_55_70__r1",
+      "entry_sha256": "b43e0fd1f71bb70c4dc89fc40670f50db03be01215a8d6c93e7f6ffb7976f692",
+      "seq": 2867,
+      "batch_id": "ea-ecb-ces-2026-12-numeric__20261125T161256129712Z__s2850",
+      "locked_at": "2026-11-25T16:12:56Z"
+    }
+  ]
+}

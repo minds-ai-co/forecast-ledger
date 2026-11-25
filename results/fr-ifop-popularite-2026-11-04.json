@@ -1,0 +1,380 @@
+{
+  "target_id": "fr-ifop-popularite-2026-11-04",
+  "survey": "Ifop-Endrix pour L'Opinion, Les indices de popularité (Baromètre Ifop Opinion; monthly satisfaction with the President and the Prime Minister, successor of the Ifop/JDD index)",
+  "status": "scored",
+  "released_at": "2026-11-23T09:13:52Z",
+  "source_url": "https://www.ifopgroup.com/article/les-indices-de-popularite-barometre-ifop-opinion-novembre-2026/",
+  "scored_at": "2026-11-25T15:37:03Z",
+  "results_sha256": "57d392bbb1c0778a15d5ce96f0597a09fdb979593cde50a01f2d72b3113891f1",
+  "released_values_public": true,
+  "licence_note": "Recurring poll source (fc-wave2 reader). Owner decision 21 Nov 2026 covers every wave of this source; a release-specific record still overrides it.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-21",
+    "source_url": "https://www.ifopgroup.com/",
+    "terms": [
+      {
+        "label": "Ifop / L'Opinion published barometer (no explicit licence found)",
+        "url": "https://www.ifopgroup.com/"
+      }
+    ],
+    "note": "Recurring poll source (fc-wave2 reader). Owner decision 21 Nov 2026 covers every wave of this source; a release-specific record still overrides it.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 21 Nov 2026 for this recurring source. This is not a claim of a new publisher licence."
+  },
+  "summary": {
+    "research-1": {
+      "items": 2,
+      "tvd": 0.0425,
+      "mae_pp": 2.125
+    },
+    "mosaic": {
+      "items": 2,
+      "tvd": 0.03875,
+      "mae_pp": 1.9375
+    },
+    "research-2": {
+      "items": 2,
+      "tvd": 0.03825,
+      "mae_pp": 1.9125
+    },
+    "research-4e71fe": {
+      "items": 2,
+      "tvd": 0.0445,
+      "mae_pp": 2.225
+    },
+    "research-d5b88a": {
+      "items": 2,
+      "tvd": 0.04575,
+      "mae_pp": 2.2875
+    },
+    "research-16accd": {
+      "items": 2,
+      "tvd": 0.1125,
+      "mae_pp": 5.625
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "research-1": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0425,
+          "mae_pp": 2.125
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0425,
+          "mae_pp": 2.125
+        }
+      },
+      "mosaic": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.03875,
+          "mae_pp": 1.9375
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.03875,
+          "mae_pp": 1.9375
+        }
+      },
+      "research-4e71fe": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0445,
+          "mae_pp": 2.225
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.0445,
+          "mae_pp": 2.225
+        }
+      },
+      "research-d5b88a": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.04575,
+          "mae_pp": 2.2875
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.04575,
+          "mae_pp": 2.2875
+        }
+      },
+      "research-16accd": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.1125,
+          "mae_pp": 5.625
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.1125,
+          "mae_pp": 5.625
+        }
+      },
+      "research-2": {
+        "overall": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.03825,
+          "mae_pp": 1.9125
+        },
+        "subgroups": null,
+        "all": {
+          "n": 2,
+          "n_distribution": 2,
+          "tvd": 0.03825,
+          "mae_pp": 1.9125
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__satisfaction_macron__overall__r1",
+      "entry_sha256": "4464444d69f5df4a65d24f5655c50b140ff81e4d9af8d84378670130c45e0109",
+      "variant": "research-1",
+      "question_id": "satisfaction_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.037,
+      "mae_pp": 1.85,
+      "released": [
+        0.030000000000000002,
+        0.11000000000000001,
+        0.29000000000000004,
+        0.5700000000000001
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "20b922456b613784830227de7930dbbf5d448b9cc3733429707cb271c6101fe9",
+      "variant": "research-1",
+      "question_id": "satisfaction_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.048,
+      "mae_pp": 2.4,
+      "released": [
+        0.02,
+        0.22,
+        0.41,
+        0.35
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__anchored3__satisfaction_macron__overall__r1",
+      "entry_sha256": "72326d92250ce3457d7755061530b564a9e6dba2ab1eb82267235fa2084de911",
+      "variant": "mosaic",
+      "question_id": "satisfaction_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0275,
+      "mae_pp": 1.375,
+      "released": [
+        0.030000000000000002,
+        0.11000000000000001,
+        0.29000000000000004,
+        0.5700000000000001
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__anchored3__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "b6b62db793bdc0ccb6a80a9dbd8e0f4276af58c687af7b7cf2c48ab1d23e363b",
+      "variant": "mosaic",
+      "question_id": "satisfaction_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.05,
+      "mae_pp": 2.5,
+      "released": [
+        0.02,
+        0.22,
+        0.41,
+        0.35
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__memory3__satisfaction_macron__overall__r1",
+      "entry_sha256": "45cae93ca56db2361e767b31376845dbc29758b62afac0e678834a9541e8328f",
+      "variant": "research-2",
+      "question_id": "satisfaction_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0325,
+      "mae_pp": 1.625,
+      "released": [
+        0.030000000000000002,
+        0.11000000000000001,
+        0.29000000000000004,
+        0.5700000000000001
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__memory3__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "d1e708af92c05644a915a1aadd66421bd16b280e20dbe88be529c7499ab63a25",
+      "variant": "research-2",
+      "question_id": "satisfaction_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.044,
+      "mae_pp": 2.2,
+      "released": [
+        0.02,
+        0.22,
+        0.41,
+        0.35
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__bank3__satisfaction_macron__overall__r1",
+      "entry_sha256": "0fafe0ce82b4d37da20454c18175bd50fc1407e3b26d265ef7656d92df421ecd",
+      "variant": "research-4e71fe",
+      "question_id": "satisfaction_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0405,
+      "mae_pp": 2.025,
+      "released": [
+        0.030000000000000002,
+        0.11000000000000001,
+        0.29000000000000004,
+        0.5700000000000001
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__bank3__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "bec584a73858ce4e66cfb4e8be0ae87a79cf8dd55cefaf8048790d57f039f1c5",
+      "variant": "research-4e71fe",
+      "question_id": "satisfaction_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0485,
+      "mae_pp": 2.425,
+      "released": [
+        0.02,
+        0.22,
+        0.41,
+        0.35
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__bankR3__satisfaction_macron__overall__r1",
+      "entry_sha256": "7f807d198edda828172f6de55f0ceddb4059f712af1f18b172910c514750f00c",
+      "variant": "research-d5b88a",
+      "question_id": "satisfaction_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.0365,
+      "mae_pp": 1.825,
+      "released": [
+        0.030000000000000002,
+        0.11000000000000001,
+        0.29000000000000004,
+        0.5700000000000001
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__bankR3__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "e096deab1da120ba6ed84f6c57af5326e690f67adaeebb7ff6d0985d69ab7125",
+      "variant": "research-d5b88a",
+      "question_id": "satisfaction_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.055,
+      "mae_pp": 2.75,
+      "released": [
+        0.02,
+        0.22,
+        0.41,
+        0.35
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__cohort__satisfaction_macron__overall__r1",
+      "entry_sha256": "ef5b39ec0de910f1bbba1a5bcf929771064c20841c97e40d49650571a4eb4307",
+      "variant": "research-16accd",
+      "question_id": "satisfaction_macron",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.14,
+      "mae_pp": 7.0,
+      "released": [
+        0.030000000000000002,
+        0.11000000000000001,
+        0.29000000000000004,
+        0.5700000000000001
+      ],
+      "released_values_public": true
+    },
+    {
+      "entry_id": "fr-ifop-popularite-2026-11-04__cohort__satisfaction_lecornu__overall__r1",
+      "entry_sha256": "72536314c1c7437bd37cbd493af8fca9ffbf7102eac2c751430271c694321030",
+      "variant": "research-16accd",
+      "question_id": "satisfaction_lecornu",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.085,
+      "mae_pp": 4.25,
+      "released": [
+        0.02,
+        0.22,
+        0.41,
+        0.35
+      ],
+      "released_values_public": true
+    }
+  ]
+}

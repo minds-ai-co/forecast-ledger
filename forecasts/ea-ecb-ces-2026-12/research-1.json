@@ -1,0 +1,514 @@
+{
+  "target_id": "ea-ecb-ces-2026-12",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__overall__r1",
+      "entry_sha256": "48dd28594d87df4b2856b49ced2c2d72bbb1926d107e648d9a06f402e25e25bd",
+      "seq": 2778,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__inc_q1__r1",
+      "entry_sha256": "8e8da0471df93e119bacb13e01bffb0fc9055e47c88fc884b29178f3893c7819",
+      "seq": 2779,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__inc_q2__r1",
+      "entry_sha256": "e6f03ef496bc5ac9e82905afdc54ca72d1ea126167a2a8ec1e9e0e55650349e9",
+      "seq": 2780,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__inc_q3__r1",
+      "entry_sha256": "1741beaef9c3788151818b85911da17e868e53a150455666bdc04d66e521e457",
+      "seq": 2781,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__inc_q4__r1",
+      "entry_sha256": "9d6006032a036fd6f78a21b4942e7eadc6b2264632a04fd0f7e332ad9a8a8945",
+      "seq": 2782,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__inc_q5__r1",
+      "entry_sha256": "d1aa0f745e9014beb630c4bfbe62df7f7b02c2f9902a7f1fe31516941563e8b9",
+      "seq": 2783,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__age_18_34__r1",
+      "entry_sha256": "fea6d1b6f68d4a36b7f359dfbf663e89b7e9e00574c9912e63180cda3a6dee83",
+      "seq": 2784,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__age_35_54__r1",
+      "entry_sha256": "2768639406689a04e3bc7fc5d179cb31ee5cb6affb1a4dd816a6e8876660865c",
+      "seq": 2785,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_past12_direction__age_55_70__r1",
+      "entry_sha256": "cd99c571b4fc15f11b220acd462fd029f20e5e8ab9b072373ba45d40d7df6247",
+      "seq": 2786,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__overall__r1",
+      "entry_sha256": "4efb1d7d5bdb783f8612502343e8250096c7c05aa39f991b220e5be470326ebd",
+      "seq": 2787,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__inc_q1__r1",
+      "entry_sha256": "65f1b9c49bbc528b92e3da4b3813cff930328a1b40e501a96c9908745e06724c",
+      "seq": 2788,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__inc_q2__r1",
+      "entry_sha256": "09d0e1016569607cec35e39f6cc617770fe022deafee459fe871f5ded86d1007",
+      "seq": 2789,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__inc_q3__r1",
+      "entry_sha256": "529167f91e925c54b63b853d7c8c9b2ee0b2f3804b357577ba2d05545dbc42ed",
+      "seq": 2790,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__inc_q4__r1",
+      "entry_sha256": "16e1aedb9c034a6abfb56874efea6a0221e8cd8551953bf68ed3ef0d020e8d56",
+      "seq": 2791,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__inc_q5__r1",
+      "entry_sha256": "36de7c40373ae0a7f0a694d9da6e95ea3be8342168a33b417f7b217bba20f525",
+      "seq": 2792,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__age_18_34__r1",
+      "entry_sha256": "7937adef6e9a1cf69fe83afb9fe4200e5514bcab21714874370f7e1f6c24652f",
+      "seq": 2793,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__age_35_54__r1",
+      "entry_sha256": "a12a3825c1ffbeb1f049d9a1e88543af6113118d72e7d93856f83b4d765c0a15",
+      "seq": 2794,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_next12_direction__age_55_70__r1",
+      "entry_sha256": "790fe26eb62d1eeac53c0fb0a66626070c93f4f852112492b74c64dc651160c6",
+      "seq": 2795,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__overall__r1",
+      "entry_sha256": "d1d939cfb3e81f96bc56ecaf89e551956858e0ce2fa8e753f98f932a500e92d9",
+      "seq": 2796,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__inc_q1__r1",
+      "entry_sha256": "ef4e3de0e085df9bb35137edf9daf371e899d5013eee8fec115ffa14769a7341",
+      "seq": 2797,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__inc_q2__r1",
+      "entry_sha256": "bc30bdcb393bb8f4d34b4d91acf6e32f5b55012d5da13b89f713777eb372aee9",
+      "seq": 2798,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__inc_q3__r1",
+      "entry_sha256": "a06523f9ec44b731e18415c205dedd25e15940685b0ca5f6f047941ffe9cc26b",
+      "seq": 2799,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__inc_q4__r1",
+      "entry_sha256": "01899b7abb9164fe59557177bd487523a561504fef1b7e505287316b3ac46aa7",
+      "seq": 2800,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__inc_q5__r1",
+      "entry_sha256": "65ad32ee219588f4f615d68265bf13d231ba360f3d5fa698ba96026c21a4c233",
+      "seq": 2801,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__age_18_34__r1",
+      "entry_sha256": "1c440289954eb31733a9da75993bec5bb384390a5ca61aee28f2a49ed0880f9b",
+      "seq": 2802,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__age_35_54__r1",
+      "entry_sha256": "5688a09c4a86871d3091d2cc901a5420fe2520884fcf94859deb9fa28567be8a",
+      "seq": 2803,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_3y_direction__age_55_70__r1",
+      "entry_sha256": "e3d5aa7e7526c68e2e86590f99b730dc82aa803d6772ff615ddf9982ddecb159",
+      "seq": 2804,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__overall__r1",
+      "entry_sha256": "423f90448d8af2e9af0b8462e701f4163fcaab1fe93ca6c59500bed44ee6ebe5",
+      "seq": 2805,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__inc_q1__r1",
+      "entry_sha256": "b450875de83d8407aa576174a6cf0a928b6b8972eadc5bcf709cf0d9153dac0c",
+      "seq": 2806,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__inc_q2__r1",
+      "entry_sha256": "45c372fde2ef4546a77739139ae87f85bbb0b51eeec64e403b7c9a11533a6809",
+      "seq": 2807,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__inc_q3__r1",
+      "entry_sha256": "2ae19bac7691f65bdaf26a455e9ebb947ae1893407c9640d428beab4e94fff48",
+      "seq": 2808,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__inc_q4__r1",
+      "entry_sha256": "ff8c1e12e71e8487366e595d41b7b9ca4484068dd9ab6a29f1be9b3b8571481c",
+      "seq": 2809,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__inc_q5__r1",
+      "entry_sha256": "e8d7081c66165b779d4f4a0d78e96ad15278e00985618d838ac74a23a47cdd4d",
+      "seq": 2810,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__age_18_34__r1",
+      "entry_sha256": "30e46af213c8055c92fc677a3d1da6bfc3d8d8bc8c0b125b734e50de11afd7c9",
+      "seq": 2811,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__age_35_54__r1",
+      "entry_sha256": "a512d1922f8854b58a504a9e7947acafa23e5e9dd59f455239886093196538ab",
+      "seq": 2812,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__prices_5y_direction__age_55_70__r1",
+      "entry_sha256": "2d639d1a78106f12acd03481f75ac2aa6d8a0bfba42c9b45cf7ea6785ecff4b4",
+      "seq": 2813,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__overall__r1",
+      "entry_sha256": "4eb2b468c0024707e19ab568129a1db35a2c08eacc59221ca1a94c0f90cc57d3",
+      "seq": 2814,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__inc_q1__r1",
+      "entry_sha256": "b348586d64699da88f27d97b98491db0a4de1a46ae40675aa86e57c5d4690a12",
+      "seq": 2815,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__inc_q2__r1",
+      "entry_sha256": "2263eb6d4f640760425b0def92fefabbb6f5ea8cd79e5048d4192899c1186d1a",
+      "seq": 2816,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__inc_q3__r1",
+      "entry_sha256": "001aa4518e4acfb1cea191fca467052143f763821551ba633dcc2ec445d959ef",
+      "seq": 2817,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__inc_q4__r1",
+      "entry_sha256": "87c6823f807e396b321ba0354be7f5e675740fdc8933be44a65ad8cff7f16fdf",
+      "seq": 2818,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__inc_q5__r1",
+      "entry_sha256": "bd3c82b00be94162d0f01b6ee3460ddb4a4892758d6f0790d06025181bc78a99",
+      "seq": 2819,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__age_18_34__r1",
+      "entry_sha256": "b707e55b5e79a34bb3a0281c0f2e2ce2ae9a4901a06d3260a0bea4f3a6110b59",
+      "seq": 2820,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__age_35_54__r1",
+      "entry_sha256": "1c88517fd2c9bb07333718196fc76cb25cb4b7ba82c2243f508d3c5a8a9915f2",
+      "seq": 2821,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__income_next12_direction__age_55_70__r1",
+      "entry_sha256": "4749b2a8830cb77c3699e7369bf420a8ad040a495a1a3414422350593541d3e1",
+      "seq": 2822,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__overall__r1",
+      "entry_sha256": "9c6ecb209f7069af795e97796f1175dd435eb4d718e48fde9b06d77ee4176045",
+      "seq": 2823,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__inc_q1__r1",
+      "entry_sha256": "ec8ece6425443458f5c85de1679b782ea8156fc2b2968e73f103272b25fc7af9",
+      "seq": 2824,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__inc_q2__r1",
+      "entry_sha256": "668a109a6e6ba08c7e3f23cbec3a98c80b8106b5ebb923348d0a29ca3040bbf4",
+      "seq": 2825,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__inc_q3__r1",
+      "entry_sha256": "ab3cb3791cbd76db46ab6776073d67640a4ae63a56ea89746d835be3cd099dc8",
+      "seq": 2826,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__inc_q4__r1",
+      "entry_sha256": "dfdeb62b9f1a8d0220d67aa2c0084657ddd9cdf00a2cdcc5949eef83f2917513",
+      "seq": 2827,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__inc_q5__r1",
+      "entry_sha256": "099a070ff5061d81f318ff7f66f051ee545a46d2078de8b199aceecca8b7040d",
+      "seq": 2828,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__age_18_34__r1",
+      "entry_sha256": "14fec923aed070bf8e6fa79bc7cb523f559176ccf9b79b0fd8569883ab91a5e6",
+      "seq": 2829,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__age_35_54__r1",
+      "entry_sha256": "f87670e99deaf05ab9a48d06cc98d56d3967f9e68a0e61ddc236565548b4efa5",
+      "seq": 2830,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__spending_next12_direction__age_55_70__r1",
+      "entry_sha256": "d720c40a5b5fd522fd0db5ff5f6fed1df18de7a9f4f8eeacd9b7b3590f003cdc",
+      "seq": 2831,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__overall__r1",
+      "entry_sha256": "87925e7eeab3c9e6dea11d2bbf08b874cd0d6185dea930e95267dc9c7f673617",
+      "seq": 2832,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__inc_q1__r1",
+      "entry_sha256": "27facdb085b65560232e17dd1460c1abaa544881b05ccb3cb5a68ddc8e4acae8",
+      "seq": 2833,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__inc_q2__r1",
+      "entry_sha256": "45e14c9ce22f08736fb4997a569b786c044ae0e5bf6d8324c247533e7d4a0cc0",
+      "seq": 2834,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__inc_q3__r1",
+      "entry_sha256": "cf331a6a198fbb391c9371b0c5efe1cf20e32fb3229dbf8d48ac357e23d724a1",
+      "seq": 2835,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__inc_q4__r1",
+      "entry_sha256": "a54f0ba8e3ec22ee5918fdfa5abc5459ed3457785b84c6ae6d76cb7602dc6ad4",
+      "seq": 2836,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__inc_q5__r1",
+      "entry_sha256": "497fc64098d4499e1be84464eeffde1ca1fa98ee3576114107a0cb642f79b563",
+      "seq": 2837,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__age_18_34__r1",
+      "entry_sha256": "03c7f96b09c72104906c339ba9a80d156d2cd573561da88220091dcbdc61a038",
+      "seq": 2838,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__age_35_54__r1",
+      "entry_sha256": "e520221109df6a51567b9e9f7e8fa12c82a1ac6e8e9957903cf4b19daaa04d06",
+      "seq": 2839,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__economy_next12_direction__age_55_70__r1",
+      "entry_sha256": "97fbaf424d7726f397dfc1b5c7883bb414b381e6feb9d518e2ed8c6dfeb4f898",
+      "seq": 2840,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__overall__r1",
+      "entry_sha256": "231095b33a0980c26761ef54b92a96bd243a70cd52d230a04861db0b6de047cc",
+      "seq": 2841,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__inc_q1__r1",
+      "entry_sha256": "58a7a4749730c6ccda1ecf552ba597f5f950d1ebab789db97a191f6a601bf3aa",
+      "seq": 2842,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__inc_q2__r1",
+      "entry_sha256": "9a234fc9125e1e2be199b094ea3c2ff47269ebdb26a6fa672d85f2cba253930a",
+      "seq": 2843,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__inc_q3__r1",
+      "entry_sha256": "f12b53f698a7ee36bcc7d65b51e5ba8d331ec2a45a479066503609580e586fa6",
+      "seq": 2844,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__inc_q4__r1",
+      "entry_sha256": "543c6fa7f0cca2e6610ee7cf2621f804cdf45d0d43ad3a1a0d1a193dd96f4edc",
+      "seq": 2845,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__inc_q5__r1",
+      "entry_sha256": "440b64e49d081ef254c6229e049915a9e01612a0c5388ba80f2b6881aa614e68",
+      "seq": 2846,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__age_18_34__r1",
+      "entry_sha256": "4a1a2ca3bbfd8f9acfaf3139b8fc4ee884271db95ad8a3257eb3368f0e82c6e5",
+      "seq": 2847,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__age_35_54__r1",
+      "entry_sha256": "e109df4a0e25b665ff6c021eb0aff63515ff7a2da338c3fa0f7a59ccada093c9",
+      "seq": 2848,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    },
+    {
+      "entry_id": "ea-ecb-ces-2026-12__home_price_next12_direction__age_55_70__r1",
+      "entry_sha256": "aad29654b869b40b622bb7881a13217d205228aa98ed8cfd9b07996834b7afdb",
+      "seq": 2849,
+      "batch_id": "ea-ecb-ces-2026-12__20261125T155757824437Z__s2778",
+      "locked_at": "2026-11-25T15:57:57Z"
+    }
+  ]
+}

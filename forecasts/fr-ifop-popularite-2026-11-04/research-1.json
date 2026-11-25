@@ -3,22 +3,78 @@
   "variant": "research-1",
   "variant_label": "Additional research forecast 1",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "fr-ifop-popularite-2026-11-04__satisfaction_macron__overall__r1",
       "entry_sha256": "4464444d69f5df4a65d24f5655c50b140ff81e4d9af8d84378670130c45e0109",
       "seq": 1795,
       "batch_id": "fr-ifop-popularite-2026-11-04__20261101T004917872072Z__s1795",
-      "locked_at": "2026-11-01T00:49:17Z"
+      "locked_at": "2026-11-01T00:49:17Z",
+      "state": "scored",
+      "question": {
+        "id": "satisfaction_macron",
+        "text": "Êtes-vous satisfait ou mécontent d'Emmanuel Macron comme président de la République ?",
+        "type": "ordinal",
+        "options": [
+          "Très satisfaits",
+          "Plutôt satisfaits",
+          "Plutôt mécontents",
+          "Très mécontents"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.023,
+        0.147,
+        0.2675,
+        0.5625
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     },
     {
       "entry_id": "fr-ifop-popularite-2026-11-04__satisfaction_lecornu__overall__r1",
       "entry_sha256": "20b922456b613784830227de7930dbbf5d448b9cc3733429707cb271c6101fe9",
       "seq": 1796,
       "batch_id": "fr-ifop-popularite-2026-11-04__20261101T004917872072Z__s1795",
-      "locked_at": "2026-11-01T00:49:17Z"
+      "locked_at": "2026-11-01T00:49:17Z",
+      "state": "scored",
+      "question": {
+        "id": "satisfaction_lecornu",
+        "text": "Êtes-vous satisfait ou mécontent de Sébastien Lecornu comme Premier ministre ?",
+        "type": "ordinal",
+        "options": [
+          "Très satisfaits",
+          "Plutôt satisfaits",
+          "Plutôt mécontents",
+          "Très mécontents"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.027,
+        0.222,
+        0.362,
+        0.389
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

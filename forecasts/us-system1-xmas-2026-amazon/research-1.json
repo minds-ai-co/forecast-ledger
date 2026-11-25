@@ -3,15 +3,53 @@
   "variant": "research-1",
   "variant_label": "Additional research forecast 1",
   "arm": "additional_research",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "us-system1-xmas-2026-amazon__star_rating__overall__r1",
       "entry_sha256": "c5877eb4625504e28b72bd8afd451572c38686fdee7701e11cadf334d0543c38",
       "seq": 2441,
       "batch_id": "us-system1-xmas-2026-amazon__20261105T200902600057Z__s2441",
-      "locked_at": "2026-11-05T20:09:02Z"
+      "locked_at": "2026-11-05T20:09:02Z",
+      "state": "scored",
+      "question": {
+        "id": "star_rating",
+        "text": "System1 star rating of the ad",
+        "type": "ordinal",
+        "options": [
+          "1.0 to 1.9 stars",
+          "2.0 to 2.9 stars",
+          "3.0 to 3.4 stars",
+          "3.5 to 3.9 stars",
+          "4.0 to 4.4 stars",
+          "4.5 to 4.9 stars",
+          "5.0 to 5.4 stars",
+          "5.5 to 5.7 stars",
+          "5.8 or 5.9 stars"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.0075,
+        0.0325,
+        0.065,
+        0.13,
+        0.235,
+        0.265,
+        0.1825,
+        0.0625,
+        0.02
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }
