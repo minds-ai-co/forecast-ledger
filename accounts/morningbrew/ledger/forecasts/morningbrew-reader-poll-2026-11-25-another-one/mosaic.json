@@ -1,0 +1,17 @@
+{
+ "target_id": "morningbrew-reader-poll-2026-11-25-another-one",
+ "variant": "mosaic",
+ "variant_label": "Minds Mosaic",
+ "arm": "primary",
+ "disclosure": "hashes_only",
+ "model": null,
+ "entries": [
+  {
+   "entry_id": "morningbrew-reader-poll-2026-11-25-another-one__poll__overall__r1",
+   "entry_sha256": "9bcd7d1510ef64944bb21a78ee971edd1d1d1be49cd1fc7e1e2504d4f55cbe94",
+   "seq": 1,
+   "batch_id": null,
+   "locked_at": "2026-11-25T10:46:43Z"
+  }
+ ]
+}

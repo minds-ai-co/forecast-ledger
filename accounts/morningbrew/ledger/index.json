@@ -1,0 +1,263 @@
+{
+ "format": "forecast-ledger-public.v1",
+ "as_of": "2026-11-25T20:44:37Z",
+ "model": "Minds Mosaic",
+ "latest_event_at": "2026-11-25T19:54:58Z",
+ "primary_variant": "mosaic",
+ "variants": [
+  "mosaic"
+ ],
+ "targets": [
+  {
+   "target_id": "morningbrew-reader-poll-2026-11-25-another-one",
+   "survey": "Morning Brew Reader Poll, 2026-11-25",
+   "publisher": "Morning Brew",
+   "source_logos": [
+    {
+     "src": "/assets/source-logos/morning-brew.png",
+     "alt": "Morning Brew",
+     "width": 128,
+     "height": 128
+    }
+   ],
+   "display": {
+    "label": "Do you watch the Macy’s Thanksgiving Day Parade?",
+    "country": "United States",
+    "country_code": "us",
+    "topic": "Media",
+    "source": "Morning Brew",
+    "categories": [
+     "Attitude"
+    ],
+    "stimulus": {
+     "image": "/accounts/morningbrew/polls/2026-11-25-another-one.jpg",
+     "width": 700,
+     "height": 213,
+     "alt": "Morning Brew Reader Poll, 2026-11-25: Do you watch the Macy’s Thanksgiving Day Parade?",
+     "source_url": "https://www.morningbrew.com/issues/another-one",
+     "link_label": "Read the issue"
+    }
+   },
+   "audience": {
+    "label": "Morning Brew readers",
+    "sample": "Readers of the Morning Brew daily newsletter (US) who vote in its one-click Reader Poll; composition: Morning Brew's published audience profile",
+    "n": 150,
+    "field_period": "Voting on 2026-11-25",
+    "composition": [
+     {
+      "label": "Age",
+      "values": [
+       {
+        "label": "18-44",
+        "share": 0.63
+       },
+       {
+        "label": "45+",
+        "share": 0.37
+       }
+      ]
+     },
+     {
+      "label": "Gender",
+      "values": [
+       {
+        "label": "Male",
+        "share": 0.53
+       },
+       {
+        "label": "Female",
+        "share": 0.47
+       }
+      ]
+     },
+     {
+      "label": "Role at work",
+      "values": [
+       {
+        "label": "Manager or above",
+        "share": 0.65
+       },
+       {
+        "label": "Below manager or not in a managerial role",
+        "share": 0.35
+       }
+      ]
+     },
+     {
+      "label": "Household income",
+      "values": [
+       {
+        "label": "$100K or more",
+        "share": 0.65
+       },
+       {
+        "label": "Under $100K",
+        "share": 0.35
+       }
+      ]
+     }
+    ]
+   },
+   "wave": "Issue of 2026-11-25",
+   "status": "pending",
+   "disclosure": "hashes_only",
+   "disclosure_note": "pending: forecasts sealed until the result is released",
+   "evidence_class": "before_release",
+   "evidence_types": [
+    "attitude"
+   ],
+   "cutoff_utc": null,
+   "first_lock_utc": "2026-11-25T10:46:43Z",
+   "released_at": null,
+   "publication_url": null,
+   "forecasts_count": 1,
+   "variants": [
+    "mosaic"
+   ],
+   "forecasts": {
+    "mosaic": "accounts/morningbrew/ledger/forecasts/morningbrew-reader-poll-2026-11-25-another-one/mosaic.json"
+   },
+   "results": null,
+   "batches": [],
+   "series": "morningbrew-reader-poll"
+  },
+  {
+   "target_id": "morningbrew-reader-poll-2026-11-24-hes-back",
+   "survey": "Morning Brew Reader Poll, 2026-11-24",
+   "publisher": "Morning Brew",
+   "source_logos": [
+    {
+     "src": "/assets/source-logos/morning-brew.png",
+     "alt": "Morning Brew",
+     "width": 128,
+     "height": 128
+    }
+   ],
+   "display": {
+    "label": "Do you agree with the board’s decision to bring back Jensen Huang?",
+    "country": "United States",
+    "country_code": "us",
+    "topic": "Media",
+    "source": "Morning Brew",
+    "categories": [
+     "Attitude"
+    ],
+    "stimulus": {
+     "image": "/accounts/morningbrew/polls/2026-11-24-hes-back.jpg",
+     "width": 672,
+     "height": 208,
+     "alt": "Morning Brew Reader Poll, 2026-11-24: Do you agree with the board’s decision to bring back Jensen Huang?",
+     "source_url": "https://www.morningbrew.com/issues/hes-back",
+     "link_label": "Read the issue"
+    }
+   },
+   "audience": {
+    "label": "Morning Brew readers",
+    "sample": "Readers of the Morning Brew daily newsletter (US) who vote in its one-click Reader Poll; composition: Morning Brew's published audience profile",
+    "n": 150,
+    "field_period": "Voting on 2026-11-24",
+    "composition": [
+     {
+      "label": "Age",
+      "values": [
+       {
+        "label": "18-44",
+        "share": 0.63
+       },
+       {
+        "label": "45+",
+        "share": 0.37
+       }
+      ]
+     },
+     {
+      "label": "Gender",
+      "values": [
+       {
+        "label": "Male",
+        "share": 0.53
+       },
+       {
+        "label": "Female",
+        "share": 0.47
+       }
+      ]
+     },
+     {
+      "label": "Role at work",
+      "values": [
+       {
+        "label": "Manager or above",
+        "share": 0.65
+       },
+       {
+        "label": "Below manager or not in a managerial role",
+        "share": 0.35
+       }
+      ]
+     },
+     {
+      "label": "Household income",
+      "values": [
+       {
+        "label": "$100K or more",
+        "share": 0.65
+       },
+       {
+        "label": "Under $100K",
+        "share": 0.35
+       }
+      ]
+     }
+    ]
+   },
+   "wave": "Issue of 2026-11-24",
+   "status": "scored",
+   "disclosure": "full",
+   "disclosure_note": null,
+   "evidence_class": "before_release",
+   "evidence_types": [
+    "attitude"
+   ],
+   "cutoff_utc": null,
+   "first_lock_utc": "2026-11-24T23:28:10Z",
+   "released_at": "2026-11-25T19:54:58Z",
+   "publication_url": "https://www.morningbrew.com/poll/b4d35558-0c99-4afb-b6ee-bfbb4193fef8",
+   "forecasts_count": 1,
+   "variants": [
+    "mosaic"
+   ],
+   "forecasts": {
+    "mosaic": "accounts/morningbrew/ledger/forecasts/morningbrew-reader-poll-2026-11-24-hes-back/mosaic.json"
+   },
+   "results": "accounts/morningbrew/ledger/results/morningbrew-reader-poll-2026-11-24-hes-back.json",
+   "batches": [],
+   "series": "morningbrew-reader-poll",
+   "metric_blocks": [
+    {
+     "type": "shares",
+     "family": "shares",
+     "evidence_type": "attitude",
+     "scope": "overall",
+     "bucket": "4-6",
+     "questions": 1,
+     "accuracy_sum": 0.975,
+     "sums": {
+      "tvd": 0.05
+     },
+     "counts": {
+      "tvd": 1
+     },
+     "pearson": {
+      "n": 4,
+      "sx": 1.0,
+      "sy": 1.0,
+      "sxx": 0.26715,
+      "syy": 0.2644,
+      "sxy": 0.264
+     }
+    }
+   ]
+  }
+ ]
+}

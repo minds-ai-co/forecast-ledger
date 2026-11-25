@@ -1,0 +1,45 @@
+{
+ "target_id": "morningbrew-reader-poll-2026-11-24-hes-back",
+ "variant": "mosaic",
+ "variant_label": "Minds Mosaic",
+ "arm": "primary",
+ "disclosure": "full",
+ "model": "Minds Mosaic",
+ "entries": [
+  {
+   "entry_id": "morningbrew-reader-poll-2026-11-24-hes-back__poll__overall__r1",
+   "entry_sha256": "fae4247c664a2b5a1a533af8c1924c30ce21662741c5b9208859298c03512a02",
+   "seq": 2,
+   "batch_id": null,
+   "locked_at": "2026-11-24T23:28:10Z",
+   "state": "scored",
+   "question": {
+    "id": "poll",
+    "text": "Do you agree with the board’s decision to bring back Jensen Huang?",
+    "type": "categorical",
+    "options": [
+     "Yes, the company (and the economy) needs him.",
+     "No, they were right to oust him in the first place.",
+     "From the perspective of my portfolio, yes, but not from a corporate governance one.",
+     "Maybe, but they should have waited until the investigation was complete."
+    ]
+   },
+   "group": {
+    "id": "overall",
+    "label": "Overall"
+   },
+   "forecast": [
+    0.145,
+    0.285,
+    0.32,
+    0.25
+   ],
+   "repetitions": 2,
+   "model": "Minds Mosaic",
+   "revision": 1,
+   "supersedes": null,
+   "raw_entry_file": null,
+   "raw_entry_withheld": "Inputs are not published."
+  }
+ ]
+}

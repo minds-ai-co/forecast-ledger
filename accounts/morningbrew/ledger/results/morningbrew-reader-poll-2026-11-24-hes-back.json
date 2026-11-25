@@ -1,0 +1,48 @@
+{
+ "target_id": "morningbrew-reader-poll-2026-11-24-hes-back",
+ "survey": "Morning Brew Reader Poll, 2026-11-24",
+ "status": "scored",
+ "released_at": "2026-11-25T19:54:58Z",
+ "source_url": "https://www.morningbrew.com/poll/b4d35558-0c99-4afb-b6ee-bfbb4193fef8",
+ "scored_at": "2026-11-25T19:54:58Z",
+ "released_values_public": true,
+ "licence_note": null,
+ "publication": null,
+ "summary": {
+  "mosaic": {
+   "items": 1,
+   "tvd": 0.05,
+   "mae_pp": 2.5
+  }
+ },
+ "summary_by_evidence_type": {
+  "attitude": {
+   "mosaic": {
+    "items": 1,
+    "tvd": 0.05,
+    "mae_pp": 2.5
+   }
+  }
+ },
+ "items": [
+  {
+   "entry_id": "morningbrew-reader-poll-2026-11-24-hes-back__poll__overall__r1",
+   "entry_sha256": "fae4247c664a2b5a1a533af8c1924c30ce21662741c5b9208859298c03512a02",
+   "variant": "mosaic",
+   "question_id": "poll",
+   "group_id": "overall",
+   "counted": true,
+   "status": "scored",
+   "evidence_type": "attitude",
+   "tvd": 0.05,
+   "mae_pp": 2.5,
+   "released": [
+    0.15,
+    0.31,
+    0.27,
+    0.27
+   ],
+   "released_values_public": true
+  }
+ ]
+}
