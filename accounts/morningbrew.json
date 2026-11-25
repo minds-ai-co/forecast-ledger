@@ -1,1084 +1,432 @@
 {
-  "format": "forecast-ledger-account.v1",
-  "account": "morningbrew",
-  "title": "Predicting Audience reactions for Morning Brew",
-  "nav_title": "Morning Brew",
-  "brand": {
-    "name": "Morning Brew",
-    "logo": "/accounts/morningbrew/logo.png",
-    "logo_width": 933,
-    "logo_height": 133,
-    "logo_source": "https://www.morningbrew.com/brands/daily/images/brand-logo.svg",
-    "logo_note": "Official Morning Brew wordmark from the Morning Brew Daily brand page, recoloured to a single colour with its own alpha mask."
-  },
-  "tagline": "Test workplace, career and money questions on a simulated Morning Brew readership, scored against Morning Brew's own published audience surveys.",
-  "forecast_date": "2026-11-23",
-  "kind": "mock_forecast",
-  "note": "Retrospective test: Minds rated these 6 statements on 23 November 2026, after Morning Brew had already published the official survey results. It is separate from the pre-registered public forecast ledger and its headline accuracy.",
-  "study_id": "4c458da9-814a-48af-b17a-07f9490fcece",
-  "study_url": "https://getminds.ai/studies/shared/088d32e2-136d-4e5e-8231-8d3a41ffa04f",
-  "intro": "Minds is a simulated audience built from published evidence about real people. Ask it the questions you would put to a reader panel, and get answers without recruiting one.",
-  "labels": {
-    "items": "questions",
-    "itemsCap": "Questions",
-    "item": "question",
-    "date": "Official survey",
-    "score": "Agreement · 0 to 10",
-    "rank": "Official agreement rank",
-    "never": "not in the official survey",
-    "section": "Topic",
-    "allSections": "All topics",
-    "order": "Questions, highest official agreement first",
-    "question": "How much do you agree with this statement?"
-  },
-  "predicted": {
-    "heading": "Which workplace questions would readers agree with?",
-    "lead": "We asked 30 Minds built on Morning Brew readers how much they agreed with 6 workplace, career and money statements, each on a 0 to 10 scale. Then we compared the order of their mean scores with the order of the yes-shares in Morning Brew's own published audience surveys.",
-    "footnote": "This is a mock forecast, run after those official results were already published. Official results are yes-shares; Minds answered on a 0 to 10 agreement scale."
-  },
-  "scorecard": {
-    "pairs_right": "11 of 13",
-    "pairs_right_share": 0.85,
-    "spearman": 0.81,
-    "top3_hit": "3 of 3"
-  },
-  "outcome_source": "Official yes-shares from Morning Brew Inc. Insights: Workplace Trends Survey, Q1 2025, n=2,504 (five workplace and career statements), and the Investing Study, n=1,017 Morning Brew subscribers (dining out). Official results are the share who agreed or said yes. Minds answered the same statements on a 0 to 10 agreement scale.",
-  "order": "Questions are listed in official agreement order (highest yes-share first). Ties share a rank.",
-  "responses_url": "/accounts/morningbrew/responses.json",
-  "items": [
-    {
-      "id": "four-day-workweek",
-      "title": "I am in favor of a four-day workweek",
-      "section": "Careers",
-      "url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work",
-      "forecast": {
-        "score": 6.4,
-        "answered": 30,
-        "top_box_pct": 37,
-        "scale": "0-10 agreement"
-      },
-      "outcome": {
-        "official_pct": 86,
-        "label": "86% official agreement (Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504)",
-        "n": 2504,
-        "source": "Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504",
-        "source_url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work"
-      },
-      "rank_forecast": 1,
-      "rank_actual": 1,
-      "pairs_right": "5 of 5",
-      "hit": true,
-      "labels": {
-        "score": "Agreement · 0 to 10",
-        "rank": "Official agreement rank",
-        "question": "How much do you agree with this statement: I am in favor of a four-day workweek. Answer on a scale from 0 (strongly disagree) to 10 (strongly agree)."
-      },
-      "stimulus": {
-        "title": "I am in favor of a four-day workweek",
-        "text": "I am in favor of a four-day workweek.",
-        "alt": "I am in favor of a four-day workweek"
-      }
-    },
-    {
-      "id": "rto-executive-control",
-      "title": "Return-to-office is more about control than productivity",
-      "section": "Careers",
-      "url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work",
-      "forecast": {
-        "score": 5.97,
-        "answered": 30,
-        "top_box_pct": 30,
-        "scale": "0-10 agreement"
-      },
-      "outcome": {
-        "official_pct": 74,
-        "label": "74% official agreement (Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504)",
-        "n": 2504,
-        "source": "Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504",
-        "source_url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work"
-      },
-      "rank_forecast": 3,
-      "rank_actual": 2,
-      "pairs_right": "4 of 5",
-      "hit": true,
-      "labels": {
-        "score": "Agreement · 0 to 10",
-        "rank": "Official agreement rank",
-        "question": "How much do you agree with this statement: Return-to-office requirements are more about executive control than boosting productivity. Answer on a scale from 0 (strongly disagree) to 10 (strongly agree)."
-      },
-      "stimulus": {
-        "title": "Return-to-office is more about control than productivity",
-        "text": "Return-to-office requirements are more about executive control than boosting productivity.",
-        "alt": "Return-to-office is more about control than productivity"
-      }
-    },
-    {
-      "id": "cut-back-dining-out",
-      "title": "I have cut back on dining out",
-      "section": "Money",
-      "url": "https://www.morningbrewinc.com/insights/report-the-state-of-investing",
-      "forecast": {
-        "score": 6.17,
-        "answered": 30,
-        "top_box_pct": 33,
-        "scale": "0-10 agreement"
-      },
-      "outcome": {
-        "official_pct": 67,
-        "label": "67% official agreement (Morning Brew Inc. Insights x Gradient Metrics Investing Study, n=1,017 Morning Brew subscribers)",
-        "n": 1017,
-        "source": "Morning Brew Inc. Insights x Gradient Metrics Investing Study, n=1,017 Morning Brew subscribers",
-        "source_url": "https://www.morningbrewinc.com/insights/report-the-state-of-investing"
-      },
-      "rank_forecast": 2,
-      "rank_actual": 3,
-      "pairs_right": "4 of 5",
-      "hit": true,
-      "labels": {
-        "score": "Agreement · 0 to 10",
-        "rank": "Official agreement rank",
-        "question": "How much do you agree with this statement: I have cut back on dining out. Answer on a scale from 0 (strongly disagree) to 10 (strongly agree)."
-      },
-      "stimulus": {
-        "title": "I have cut back on dining out",
-        "text": "I have cut back on dining out.",
-        "alt": "I have cut back on dining out"
-      },
-      "caveats": "Official figure is 67% of Morning Brew subscribers. The same study reported 54% among a national sample of 1,518 American adults."
-    },
-    {
-      "id": "ai-more-opportunities",
-      "title": "AI will create more opportunities than it eliminates",
-      "section": "Work / AI",
-      "url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work",
-      "forecast": {
-        "score": 5.93,
-        "answered": 30,
-        "top_box_pct": 30,
-        "scale": "0-10 agreement"
-      },
-      "outcome": {
-        "official_pct": 53,
-        "label": "53% official agreement (Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504)",
-        "n": 2504,
-        "source": "Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504",
-        "source_url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work"
-      },
-      "rank_forecast": 4,
-      "rank_actual": 4,
-      "pairs_right": "3 of 3",
-      "hit": false,
-      "labels": {
-        "score": "Agreement · 0 to 10",
-        "rank": "Official agreement rank",
-        "question": "How much do you agree with this statement: AI will create more opportunities than it eliminates in my industry. Answer on a scale from 0 (strongly disagree) to 10 (strongly agree)."
-      },
-      "stimulus": {
-        "title": "AI will create more opportunities than it eliminates",
-        "text": "AI will create more opportunities than it eliminates in my industry.",
-        "alt": "AI will create more opportunities than it eliminates"
-      }
-    },
-    {
-      "id": "salary-sharing",
-      "title": "I am comfortable sharing my salary with coworkers",
-      "section": "Careers",
-      "url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work",
-      "forecast": {
-        "score": 5.07,
-        "answered": 30,
-        "top_box_pct": 20,
-        "scale": "0-10 agreement"
-      },
-      "outcome": {
-        "official_pct": 53,
-        "label": "53% official agreement (Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504)",
-        "n": 2504,
-        "source": "Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504",
-        "source_url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work"
-      },
-      "rank_forecast": 6,
-      "rank_actual": 4,
-      "pairs_right": "3 of 4",
-      "hit": false,
-      "labels": {
-        "score": "Agreement · 0 to 10",
-        "rank": "Official agreement rank",
-        "question": "How much do you agree with this statement: I am comfortable sharing my salary with my coworkers. Answer on a scale from 0 (strongly disagree) to 10 (strongly agree)."
-      },
-      "stimulus": {
-        "title": "I am comfortable sharing my salary with coworkers",
-        "text": "I am comfortable sharing my salary with my coworkers.",
-        "alt": "I am comfortable sharing my salary with coworkers"
-      },
-      "caveats": "Official page also reports 67% among ages 18-34. The headline figure used here is 53%."
-    },
-    {
-      "id": "genai-regular-use",
-      "title": "I use generative AI regularly at work",
-      "section": "Work / AI",
-      "url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work",
-      "forecast": {
-        "score": 5.93,
-        "answered": 30,
-        "top_box_pct": 33,
-        "scale": "0-10 agreement"
-      },
-      "outcome": {
-        "official_pct": 42,
-        "label": "42% official agreement (Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504)",
-        "n": 2504,
-        "source": "Morning Brew Inc. Insights Workplace Trends Survey, Q1 2025, n=2,504",
-        "source_url": "https://www.morningbrewinc.com/insights/report-2025-workplace-trends-redefining-the-future-of-work"
-      },
-      "rank_forecast": 4,
-      "rank_actual": 6,
-      "pairs_right": "3 of 4",
-      "hit": false,
-      "labels": {
-        "score": "Agreement · 0 to 10",
-        "rank": "Official agreement rank",
-        "question": "How much do you agree with this statement: I currently use generative AI regularly in my day-to-day work. Answer on a scale from 0 (strongly disagree) to 10 (strongly agree)."
-      },
-      "stimulus": {
-        "title": "I use generative AI regularly at work",
-        "text": "I currently use generative AI regularly in my day-to-day work.",
-        "alt": "I use generative AI regularly at work"
-      }
-    },
-    {
-      "id": "flaky-behavior",
-      "kind": "newsletter",
-      "title": "Flaky behavior",
-      "section": "Daily newsletter",
-      "date": "2026-11-23",
-      "url": "https://www.morningbrew.com/issues/flaky-behavior",
-      "labels": {
-        "date": "Published",
-        "score": "Open likelihood · 0 to 10",
-        "rank": "Open-intent rank",
-        "question": "How likely are you to open this email?"
-      },
-      "stimulus": {
-        "image": "/accounts/morningbrew/issues/flaky-behavior-email-top.jpg",
-        "alt": "Morning Brew Daily, 23 November 2026: Flaky behavior",
-        "text": "Falling copper prices may be an economic indicator...",
-        "source_url": "https://www.morningbrew.com/issues/flaky-behavior",
-        "link_label": "Read the issue"
-      },
-      "inbox_image": "/accounts/morningbrew/issues/flaky-behavior-inbox.jpg",
-      "web_image": "/accounts/morningbrew/issues/flaky-behavior-web-top.jpg",
-      "preview": "Falling copper prices may be an economic indicator...",
-      "top_story": "Copper prices are down. That might be a bad sign",
-      "stories": [
-        "Why metals prices are all over the place",
-        "The Delta system issue that led to flight delays yesterday",
-        "Public libraries making a comeback"
-      ],
-      "sponsor": "Amazon",
-      "sponsor_slot": "Mid-newsletter unit titled Big deals, daily (Black Friday week deals). No header Presented By on this issue.",
-      "other_sponsors": [],
-      "forecast": {
-        "score": 6.93,
-        "answered": 30,
-        "top_box_pct": 43,
-        "scale": "0-10 open likelihood",
-        "open": {
-          "score": 6.93,
-          "score_unrounded": 6.933333333333334,
-          "platform_value": "6.9",
-          "answered": 30,
-          "top_box_pct": 43,
-          "scale": "0-10 open likelihood",
-          "distribution": {
-            "1": 1,
-            "3": 1,
-            "4": 2,
-            "5": 2,
-            "6": 5,
-            "7": 6,
-            "8": 6,
-            "9": 4,
-            "10": 3
-          }
-        },
-        "interest": {
-          "score": 6.63,
-          "score_unrounded": 6.633333333333334,
-          "platform_value": "6.6",
-          "answered": 30,
-          "top_box_pct": 37,
-          "scale": "0-10 interesting and relevant",
-          "distribution": {
-            "1": 1,
-            "3": 1,
-            "4": 2,
-            "5": 3,
-            "6": 5,
-            "7": 7,
-            "8": 7,
-            "9": 3,
-            "10": 1
-          }
-        },
-        "sponsor_click": {
-          "score": 2.83,
-          "score_unrounded": 2.8333333333333335,
-          "platform_value": "2.8",
-          "answered": 30,
-          "top_box_pct": 7,
-          "scale": "0-10 click likelihood",
-          "distribution": {
-            "0": 7,
-            "1": 4,
-            "2": 5,
-            "3": 4,
-            "4": 2,
-            "5": 3,
-            "6": 2,
-            "7": 1,
-            "8": 1,
-            "9": 1
-          },
-          "sponsor": "Amazon"
-        },
-        "first_story": {
-          "winner": "The Delta system issue that led to flight delays yesterday",
-          "answered": 30,
-          "counts": {
-            "Public libraries making a comeback": 5,
-            "Why metals prices are all over the place": 10,
-            "The Delta system issue that led to flight delays yesterday": 15
-          },
-          "rank": [
-            {
-              "story": "The Delta system issue that led to flight delays yesterday",
-              "count": 15
-            },
-            {
-              "story": "Why metals prices are all over the place",
-              "count": 10
-            },
-            {
-              "story": "Public libraries making a comeback",
-              "count": 5
-            }
-          ]
-        },
-        "forward": {
-          "leading_theme": "Delta system outage and travel impact",
-          "summary": "Among **Morning Brew Readers (US)**, the synthetic forecast predicts that **Delta system outage and travel impact** will be the leading primary category allocation for forwarding the newsletter, chosen by **14** out of **30** simulated minds. **Relevance of metals and commodity market volatility** follows as a primary allocation for **9** minds, while **Engaging tone and casual watercooler conversation** is the primary allocation for **7** minds.",
-          "quotes": [
-            "I'd mainly pass it along for the Delta system outage story if a coworker was traveling or dealing with flight delays.",
-            "If the breakdown on fluctuating metals and copper prices directly touches on an exposure or market risk a coworker is tracking, I'd pass it along to them."
-          ]
-        }
-      },
-      "rank_forecast": 3
-    },
-    {
-      "id": "techs-tumble",
-      "kind": "newsletter",
-      "title": "Tech’s tumble",
-      "section": "Daily newsletter",
-      "date": "2026-11-21",
-      "url": "https://www.morningbrew.com/issues/techs-tumble",
-      "labels": {
-        "date": "Published",
-        "score": "Open likelihood · 0 to 10",
-        "rank": "Open-intent rank",
-        "question": "How likely are you to open this email?"
-      },
-      "stimulus": {
-        "image": "/accounts/morningbrew/issues/techs-tumble-email-top.jpg",
-        "alt": "Morning Brew Daily, 21 November 2026: Tech’s tumble",
-        "text": "Tech stocks came crashing down...",
-        "source_url": "https://www.morningbrew.com/issues/techs-tumble",
-        "link_label": "Read the issue"
-      },
-      "inbox_image": "/accounts/morningbrew/issues/techs-tumble-inbox.jpg",
-      "web_image": "/accounts/morningbrew/issues/techs-tumble-web-top.jpg",
-      "preview": "Tech stocks came crashing down...",
-      "top_story": "Anthropic IPO fails to prevent a tech stock wipeout",
-      "stories": [
-        "A tech stock rout",
-        "Trump’s plan to penalize companies for building data centers abroad",
-        "Method dressing reaching its peak"
-      ],
-      "sponsor": "United States Tungsten Corp.",
-      "sponsor_slot": "Header Presented By United States Tungsten Corp., plus a mid-newsletter unit titled Your phone’s buzzing with 557% growth (Regulation Crowdfunding offering).",
-      "other_sponsors": [
-        "T-Mobile",
-        "Rivian"
-      ],
-      "forecast": {
-        "score": 7.13,
-        "answered": 30,
-        "top_box_pct": 47,
-        "scale": "0-10 open likelihood",
-        "open": {
-          "score": 7.13,
-          "score_unrounded": 7.133333333333334,
-          "platform_value": "7.1",
-          "answered": 30,
-          "top_box_pct": 47,
-          "scale": "0-10 open likelihood",
-          "distribution": {
-            "2": 1,
-            "3": 1,
-            "4": 1,
-            "5": 2,
-            "6": 4,
-            "7": 7,
-            "8": 7,
-            "9": 4,
-            "10": 3
-          }
-        },
-        "interest": {
-          "score": 6.57,
-          "score_unrounded": 6.566666666666666,
-          "platform_value": "6.6",
-          "answered": 30,
-          "top_box_pct": 37,
-          "scale": "0-10 interesting and relevant",
-          "distribution": {
-            "1": 1,
-            "2": 1,
-            "3": 1,
-            "4": 2,
-            "5": 2,
-            "6": 4,
-            "7": 8,
-            "8": 7,
-            "9": 3,
-            "10": 1
-          }
-        },
-        "sponsor_click": {
-          "score": 2.03,
-          "score_unrounded": 2.033333333333333,
-          "platform_value": "2",
-          "answered": 30,
-          "top_box_pct": 3,
-          "scale": "0-10 click likelihood",
-          "distribution": {
-            "0": 10,
-            "1": 6,
-            "2": 4,
-            "3": 4,
-            "4": 1,
-            "5": 2,
-            "6": 1,
-            "7": 1,
-            "8": 1
-          },
-          "sponsor": "United States Tungsten Corp."
-        },
-        "first_story": {
-          "winner": "A tech stock rout",
-          "answered": 30,
-          "counts": {
-            "A tech stock rout": 16,
-            "Method dressing reaching its peak": 4,
-            "Trump’s plan to penalize companies for building data centers abroad": 10
-          },
-          "rank": [
-            {
-              "story": "A tech stock rout",
-              "count": 16
-            },
-            {
-              "story": "Trump’s plan to penalize companies for building data centers abroad",
-              "count": 10
-            },
-            {
-              "story": "Method dressing reaching its peak",
-              "count": 4
-            }
-          ]
-        },
-        "forward": {
-          "leading_theme": "Tech stock rout and market impact",
-          "summary": "For Morning Brew Readers in the US, the synthetic forecast predicts that **Tech stock rout and market impact** will be the leading primary category allocation for forwarding the newsletter, appearing in **16** primary allocations and **16** theme mentions out of **30** simulated respondents. Additionally, **Data center policy and infrastructure implications** is predicted to receive **9** primary allocations with **11** theme mentions, while **Engaging tone and pop-culture conversation starters** and **Reluctance to forward full newsletters at work** are anticipated to account for **4** and **1** primary allocations respectively.",
-          "quotes": [
-            "I'd only pass along something specific, like the breakdown of the tech stock rout, if market volatility or tech valuations were actively impacting a client's portfolio or relevant to a workstream we're managing."
-          ]
-        }
-      },
-      "rank_forecast": 1
-    },
-    {
-      "id": "more-yachts",
-      "kind": "newsletter",
-      "title": "More yachts",
-      "section": "Daily newsletter",
-      "date": "2026-11-20",
-      "url": "https://www.morningbrew.com/issues/more-yachts",
-      "labels": {
-        "date": "Published",
-        "score": "Open likelihood · 0 to 10",
-        "rank": "Open-intent rank",
-        "question": "How likely are you to open this email?"
-      },
-      "stimulus": {
-        "image": "/accounts/morningbrew/issues/more-yachts-email-top.jpg",
-        "alt": "Morning Brew Daily, 20 November 2026: More yachts",
-        "text": "Anthropic pops in its public debut...",
-        "source_url": "https://www.morningbrew.com/issues/more-yachts",
-        "link_label": "Read the issue"
-      },
-      "inbox_image": "/accounts/morningbrew/issues/more-yachts-inbox.jpg",
-      "web_image": "/accounts/morningbrew/issues/more-yachts-web-top.jpg",
-      "preview": "Anthropic pops in its public debut...",
-      "top_story": "Anthropic gets rock star welcome in public markets",
-      "stories": [
-        "Anthropic’s public debut",
-        "Tech billionaires distancing themselves from MAGA",
-        "Costco benefiting from panic buyers"
-      ],
-      "sponsor": "Amazon",
-      "sponsor_slot": "Mid-newsletter unit titled Daily deals for the naughty and nice (Black Friday week deals). No header Presented By on this issue.",
-      "other_sponsors": [],
-      "forecast": {
-        "score": 7.03,
-        "answered": 30,
-        "top_box_pct": 43,
-        "scale": "0-10 open likelihood",
-        "open": {
-          "score": 7.03,
-          "score_unrounded": 7.033333333333333,
-          "platform_value": "7",
-          "answered": 30,
-          "top_box_pct": 43,
-          "scale": "0-10 open likelihood",
-          "distribution": {
-            "2": 1,
-            "3": 1,
-            "4": 1,
-            "5": 3,
-            "6": 4,
-            "7": 7,
-            "8": 6,
-            "9": 4,
-            "10": 3
-          }
-        },
-        "interest": {
-          "score": 6.57,
-          "score_unrounded": 6.566666666666666,
-          "platform_value": "6.6",
-          "answered": 30,
-          "top_box_pct": 37,
-          "scale": "0-10 interesting and relevant",
-          "distribution": {
-            "1": 1,
-            "2": 1,
-            "3": 1,
-            "4": 2,
-            "5": 2,
-            "6": 4,
-            "7": 8,
-            "8": 7,
-            "9": 3,
-            "10": 1
-          }
-        },
-        "sponsor_click": {
-          "score": 2.83,
-          "score_unrounded": 2.8333333333333335,
-          "platform_value": "2.8",
-          "answered": 30,
-          "top_box_pct": 7,
-          "scale": "0-10 click likelihood",
-          "distribution": {
-            "0": 7,
-            "1": 4,
-            "2": 5,
-            "3": 4,
-            "4": 2,
-            "5": 3,
-            "6": 2,
-            "7": 1,
-            "8": 1,
-            "9": 1
-          },
-          "sponsor": "Amazon"
-        },
-        "first_story": {
-          "winner": "Anthropic’s public debut",
-          "answered": 30,
-          "counts": {
-            "Anthropic’s public debut": 15,
-            "Costco benefiting from panic buyers": 7,
-            "Tech billionaires distancing themselves from MAGA": 8
-          },
-          "rank": [
-            {
-              "story": "Anthropic’s public debut",
-              "count": 15
-            },
-            {
-              "story": "Tech billionaires distancing themselves from MAGA",
-              "count": 8
-            },
-            {
-              "story": "Costco benefiting from panic buyers",
-              "count": 7
-            }
-          ]
-        },
-        "forward": {
-          "leading_theme": "Anthropic IPO and AI market implications",
-          "summary": "For Morning Brew Readers in the US, the synthetic forecast predicts that **Anthropic IPO and AI market implications** will serve as the leading primary category allocation, with **13 primary assignments** and **13 theme mentions**. Additional primary category allocations are expected to include **Costco consumer trends and tech billionaire politics** at 9, **Engaging tone and casual watercooler conversation** at 6, **Amazon Black Friday deals and shopping relevance** at 1, and **Reluctance to forward full newsletters at work** at 1. Corresponding theme mentions are forecast at 9 for Costco consumer trends and tech billionaire politics, 8 for engaging tone and casual watercooler conversation, 5 for reluctance to forward full newsletters at work, and 2 for Amazon Black Friday deals and shopping relevance.",
-          "quotes": [
-            "it would just be the Anthropic public debut, pulling out that specific snippet to discuss what their IPO valuation means for broader AI sector moves and tech market trends."
-          ]
-        }
-      },
-      "rank_forecast": 2
-    },
-    {
-      "id": "welcome-to-vice-city",
-      "kind": "newsletter",
-      "title": "Welcome to Vice City",
-      "section": "Daily newsletter",
-      "date": "2026-11-19",
-      "url": "https://www.morningbrew.com/issues/welcome-to-vice-city",
-      "labels": {
-        "date": "Published",
-        "score": "Open likelihood · 0 to 10",
-        "rank": "Open-intent rank",
-        "question": "How likely are you to open this email?"
-      },
-      "stimulus": {
-        "image": "/accounts/morningbrew/issues/welcome-to-vice-city-email-top.jpg",
-        "alt": "Morning Brew Daily, 19 November 2026: Welcome to Vice City",
-        "text": "The year's most anticipated video game dropped...",
-        "source_url": "https://www.morningbrew.com/issues/welcome-to-vice-city",
-        "link_label": "Read the issue"
-      },
-      "inbox_image": "/accounts/morningbrew/issues/welcome-to-vice-city-inbox.jpg",
-      "web_image": "/accounts/morningbrew/issues/welcome-to-vice-city-web-top.jpg",
-      "preview": "The year's most anticipated video game dropped...",
-      "top_story": "GTA VI dropped (It’s here.)",
-      "stories": [
-        "GTA VI dropping",
-        "Why everything is breaking",
-        "A record-breaking Van Gogh sale"
-      ],
-      "sponsor": "Netflix",
-      "sponsor_slot": "Header Presented By Netflix, plus a mid-newsletter unit titled All for the greater good…right? promoting The Altruists, now streaming on Netflix.",
-      "other_sponsors": [
-        "United States Tungsten",
-        "Google"
-      ],
-      "forecast": {
-        "score": 6.8,
-        "answered": 30,
-        "top_box_pct": 43,
-        "scale": "0-10 open likelihood",
-        "open": {
-          "score": 6.8,
-          "score_unrounded": 6.8,
-          "platform_value": "6.8",
-          "answered": 30,
-          "top_box_pct": 43,
-          "scale": "0-10 open likelihood",
-          "distribution": {
-            "1": 1,
-            "2": 1,
-            "3": 1,
-            "4": 2,
-            "5": 2,
-            "6": 4,
-            "7": 6,
-            "8": 6,
-            "9": 4,
-            "10": 3
-          }
-        },
-        "interest": {
-          "score": 6.57,
-          "score_unrounded": 6.566666666666666,
-          "platform_value": "6.6",
-          "answered": 30,
-          "top_box_pct": 37,
-          "scale": "0-10 interesting and relevant",
-          "distribution": {
-            "1": 1,
-            "2": 1,
-            "3": 1,
-            "4": 2,
-            "5": 2,
-            "6": 4,
-            "7": 8,
-            "8": 7,
-            "9": 3,
-            "10": 1
-          }
-        },
-        "sponsor_click": {
-          "score": 3.07,
-          "score_unrounded": 3.066666666666667,
-          "platform_value": "3.1",
-          "answered": 30,
-          "top_box_pct": 7,
-          "scale": "0-10 click likelihood",
-          "distribution": {
-            "0": 6,
-            "1": 4,
-            "2": 5,
-            "3": 4,
-            "4": 2,
-            "5": 3,
-            "6": 2,
-            "7": 2,
-            "8": 1,
-            "9": 1
-          },
-          "sponsor": "Netflix"
-        },
-        "first_story": {
-          "winner": "Why everything is breaking",
-          "answered": 30,
-          "counts": {
-            "GTA VI dropping": 11,
-            "Why everything is breaking": 15,
-            "A record-breaking Van Gogh sale": 4
-          },
-          "rank": [
-            {
-              "story": "Why everything is breaking",
-              "count": 15
-            },
-            {
-              "story": "GTA VI dropping",
-              "count": 11
-            },
-            {
-              "story": "A record-breaking Van Gogh sale",
-              "count": 4
-            }
-          ]
-        },
-        "forward": {
-          "leading_theme": "Widespread tech outages and system reliability",
-          "summary": "For Morning Brew Readers (US), the synthetic forecast predicts that **widespread tech outages and system reliability** will be the leading primary category allocation for forwarding the newsletter, appearing in twelve allocations. **GTA VI launch and entertainment market impact** is also expected to be a prominent primary reason with ten allocations, followed by engaging tone and casual watercooler conversation and reluctance to forward full newsletters at work.",
-          "quotes": [
-            "Honestly, I almost never forward an entire newsletter to someone's work email. People's inboxes are already overwhelmed enough, so rather than dumping a whole issue on a colleague, I'd probably just copy a brief quote or link to a specific point and drop it in Slack if it felt relevant."
-          ]
-        }
-      },
-      "rank_forecast": 4
-    }
+ "format": "forecast-ledger-account.v1",
+ "account": "morningbrew",
+ "title": "Predicting Audience reactions for Morning Brew",
+ "nav_title": "Morning Brew",
+ "brand": {
+  "name": "Morning Brew",
+  "logo": "/accounts/morningbrew/logo.png",
+  "logo_width": 933,
+  "logo_height": 133,
+  "logo_source": "https://www.morningbrew.com/brands/daily/images/brand-logo.svg",
+  "logo_note": "Official Morning Brew wordmark from the Morning Brew Daily brand page, recoloured to a single colour with its own alpha mask."
+ },
+ "tagline": "Every day, Minds forecasts how Morning Brew readers will vote in the newsletter's Reader Poll, locked before voting closes, then scored against the published result.",
+ "forecast_date": "2026-11-24",
+ "kind": "locked_forecast",
+ "note": "Daily Reader Poll forecasts, each locked and timestamped before the result was known, scored against the result Morning Brew shows on the poll page. Separate from the public forecast ledger.",
+ "intro": "Minds is a simulated audience built from published evidence about real people. Ask it the questions you would put to a reader panel, and get answers without recruiting one.",
+ "labels": {
+  "items": "polls",
+  "itemsCap": "Polls",
+  "item": "poll",
+  "date": "Issue",
+  "section": "Section",
+  "allSections": "All sections",
+  "order": "Newest poll first",
+  "question": "Reader Poll"
+ },
+ "predicted": {
+  "heading": "How will readers vote in today's poll?",
+  "lead": "Each morning Minds reads the new issue and forecasts the vote shares of its Reader Poll before the result is known. The forecast is locked with a timestamp; once Morning Brew shows the result, it is scored.",
+  "stats": [
+   {
+    "label": "Polls forecast",
+    "value": "2",
+    "comparison": "locked before the result was known; 1 scored so far"
+   },
+   {
+    "label": "Average miss",
+    "value": "2.5 pts",
+    "comparison": "percentage points per answer, versus the published vote"
+   },
+   {
+    "label": "Top answer right",
+    "value": "0 of 1",
+    "comparison": "polls where the answer Minds ranked first also won the vote"
+   }
   ],
-  "audience": {
-    "name": "Morning Brew Readers (US)",
-    "audience_id": "44c909f2-0163-4476-ac91-e5f434b82ca7",
-    "minds": 30,
-    "question": "How much do you agree with this statement? 0 to 10.",
-    "description": "30 Minds modelled on US readers of Morning Brew: people who read the daily newsletter at least weekly, or are email subscribers.",
-    "explainer": "We built 30 Minds: simulated readers of Morning Brew. Each Mind is a complete person, with an age, a job, a news habit and a voice of their own, grounded in public sources. Together they match published statistics on who reads Morning Brew, so you can put a question in front of them the way you would a reader panel.",
-    "orbit": {
-      "label": "30 Minds",
-      "count": 30,
-      "portraits": [
-        "/assets/minds/mind-01.webp",
-        "/assets/minds/mind-02.webp",
-        "/assets/minds/mind-03.webp",
-        "/assets/minds/mind-04.webp",
-        "/assets/minds/mind-05.webp",
-        "/assets/minds/mind-06.webp",
-        "/assets/minds/mind-07.webp",
-        "/assets/minds/mind-08.webp",
-        "/assets/minds/mind-09.webp",
-        "/assets/minds/mind-10.webp",
-        "/assets/minds/mind-11.webp",
-        "/assets/minds/mind-12.webp",
-        "/assets/minds/mind-13.webp",
-        "/assets/minds/mind-14.webp",
-        "/assets/minds/mind-15.webp",
-        "/assets/minds/mind-16.webp",
-        "/assets/minds/mind-17.webp",
-        "/assets/minds/mind-18.webp",
-        "/assets/minds/mind-19.webp",
-        "/assets/minds/mind-20.webp",
-        "/assets/minds/mind-21.webp",
-        "/assets/minds/mind-22.webp",
-        "/assets/minds/mind-23.webp",
-        "/assets/minds/mind-24.webp",
-        "/assets/minds/mind-25.webp",
-        "/assets/minds/mind-26.webp",
-        "/assets/minds/mind-27.webp",
-        "/assets/minds/mind-28.webp",
-        "/assets/minds/mind-29.webp",
-        "/assets/minds/mind-30.webp"
-      ],
-      "portrait_source": "Minds persona image bank (approved production catalog, adult portraits only). Cut from webapp public/images/sparks/landing-persona-groups-v4.webp, tile ids in scorecard/assets/minds/manifest.json. Illustrative faces, not individual Morning Brew readers."
-    },
-    "distributions": [
-      {
-        "id": "age",
-        "name": "Age among Morning Brew readers",
-        "note": "Morning Brew reports that 63% of its audience is aged 18-44. The complement is shown so the bar has a clear remainder, using the same official figure.",
-        "segments": [
-          {
-            "label": "18-44",
-            "share": 0.63
-          },
-          {
-            "label": "45 or older",
-            "share": 0.37
-          }
-        ],
-        "source": {
-          "label": "Morning Brew Inc. brand page",
-          "url": "https://www.morningbrewinc.com/brands/morning-brew"
-        }
-      },
-      {
-        "id": "household-income",
-        "name": "Household income among Morning Brew readers",
-        "note": "Morning Brew reports that 65% of its audience has household income of $100,000 or more. The complement is shown so the bar has a clear remainder, using the same official figure.",
-        "segments": [
-          {
-            "label": "$100,000 or more",
-            "share": 0.65
-          },
-          {
-            "label": "Under $100,000",
-            "share": 0.35
-          }
-        ],
-        "source": {
-          "label": "Morning Brew Inc. brand page",
-          "url": "https://www.morningbrewinc.com/brands/morning-brew"
-        }
-      },
-      {
-        "id": "management-level",
-        "name": "Management level among Morning Brew readers",
-        "note": "Morning Brew reports that 65% of its audience is manager or above. The complement is shown so the bar has a clear remainder, using the same official figure.",
-        "segments": [
-          {
-            "label": "Manager or above",
-            "share": 0.65
-          },
-          {
-            "label": "Below manager level",
-            "share": 0.35
-          }
-        ],
-        "source": {
-          "label": "Morning Brew Inc. brand page",
-          "url": "https://www.morningbrewinc.com/brands/morning-brew"
-        }
-      },
-      {
-        "id": "gender",
-        "name": "Gender among Morning Brew readers",
-        "note": "Morning Brew reports that its audience is 53% male and 47% female.",
-        "segments": [
-          {
-            "label": "Male",
-            "share": 0.53
-          },
-          {
-            "label": "Female",
-            "share": 0.47
-          }
-        ],
-        "source": {
-          "label": "Morning Brew Inc. brand page",
-          "url": "https://www.morningbrewinc.com/brands/morning-brew"
-        }
-      },
-      {
-        "id": "company-size",
-        "name": "Company size among Morning Brew readers",
-        "note": "Morning Brew reports a 50/50 split between enterprise and SMB audiences.",
-        "segments": [
-          {
-            "label": "Enterprise",
-            "share": 0.5
-          },
-          {
-            "label": "SMB",
-            "share": 0.5
-          }
-        ],
-        "source": {
-          "label": "Morning Brew Inc. Insights and Analytics (MBI Insights Profiling Data via Alida and GWI USA)",
-          "url": "https://www.morningbrewinc.com/insights-and-analytics"
-        }
-      }
+  "footnote": "Forecasts from 150 Minds built on Morning Brew's published audience profile. A poll forecast after voting had opened is marked as late."
+ },
+ "scorecard": {},
+ "outcome_source": "Vote shares shown on each Morning Brew poll page.",
+ "order": "Newest poll first.",
+ "responses_url": "/accounts/morningbrew/responses.json",
+ "items": [
+  {
+   "id": "2026-11-25-another-one",
+   "kind": "poll",
+   "title": "Do you watch the Macy’s Thanksgiving Day Parade?",
+   "section": "Reader Poll",
+   "date": "2026-11-25",
+   "forecast_date": "2026-11-25",
+   "labels": {
+    "date": "Issue"
+   },
+   "stimulus": {
+    "image": "/accounts/morningbrew/polls/2026-11-25-another-one.jpg",
+    "alt": "Morning Brew Reader Poll, 2026-11-25: Do you watch the Macy’s Thanksgiving Day Parade?",
+    "width": 700,
+    "height": 213,
+    "source_url": "https://www.morningbrew.com/issues/another-one",
+    "link_label": "Read the issue"
+   },
+   "poll": {
+    "options": [
+     "Every year.",
+     "Sometimes.",
+     "I’ve seen it, but not in awhile.",
+     "Never."
     ],
-    "example_mind": {
-      "label": "Example Mind",
-      "name": "Hector Ramirez",
-      "discipline": "Senior Strategy Consultant",
-      "image": "/accounts/morningbrew/example-hector-ramirez.webp",
-      "description": "At 48, Hector Ramirez is a senior strategy consultant in the United States who works at an SMB consulting firm. He prefers concise market recaps such as the Morning Brew daily newsletter, and looks for practical, operational advice he can take to mid-market clients.",
-      "note": "Every Mind is a full profile grounded in public sources. Meet one of the 30. Simulated, not a real person.",
-      "sources_note": "Every attribute traces back to public evidence. These are the sources behind this Mind.",
-      "sources": [
-        {
-          "title": "The Future of Media | CEOs of Morning Brew & 1440 on Trust, AI, and Audience Growth",
-          "url": "https://www.youtube.com/watch?v=ybDj-7yx5FE",
-          "domain": "youtube.com"
-        },
-        {
-          "title": "I Read The Morning Brew Everyday For 3 Years | How It Changed My Life",
-          "url": "https://www.youtube.com/watch?v=aVqt9kmoADg",
-          "domain": "youtube.com"
-        },
-        {
-          "title": "Morning Brew tops 4 million subscribers as it looks to expand with M&A",
-          "url": "https://www.cnbc.com/2022/03/28/morning-brew-tops-4-million-subscribers-as-it-looks-to-expand-with-ma.html",
-          "domain": "cnbc.com"
-        },
-        {
-          "title": "Morning Brew Case Study | Gradient Metrics",
-          "url": "https://www.gradientmetrics.com/case-study/morning-brew",
-          "domain": "gradientmetrics.com"
-        },
-        {
-          "title": "The state of investing: Opportunities, obstacles and outlooks | Morning Brew Inc.",
-          "url": "https://www.morningbrewinc.com/insights/report-the-state-of-investing",
-          "domain": "morningbrewinc.com"
-        },
-        {
-          "title": "Morning Brew Daily | Morning Brew Inc.",
-          "url": "https://www.morningbrewinc.com/brands/morning-brew-daily",
-          "domain": "morningbrewinc.com"
-        },
-        {
-          "title": "Morning Brew | Morning Brew Inc.",
-          "url": "https://www.morningbrewinc.com/brands/morning-brew",
-          "domain": "morningbrewinc.com"
-        },
-        {
-          "title": "What's Next for Small and Medium Sized Businesses",
-          "url": "https://nielseniq.com/global/en/insights/report/2023/whats-next-for-small-and-medium-sized-businesses-an-inside-look/",
-          "domain": "nielseniq.com"
-        },
-        {
-          "title": "2024 25 Independent Consulting & Advisory in Review Report | The Barton Partnership",
-          "url": "https://www.thebartonpartnership.com/2024-25-independent-consulting-and-advisory-in-review-report",
-          "domain": "thebartonpartnership.com"
-        },
-        {
-          "title": "Senior Business Consultant (all genders) @ Thorit",
-          "url": "https://jobs.ashbyhq.com/thorit/7823f6ee-4383-4880-8318-bce04ae32681",
-          "domain": "jobs.ashbyhq.com"
-        },
-        {
-          "title": "Types of consultants | Consultancy.org",
-          "url": "https://www.consultancy.org/career/types-of-consultants",
-          "domain": "consultancy.org"
-        },
-        {
-          "title": "Sr. Supply Chain Strategist, Agentforce Supply Chain",
-          "url": "https://careers.salesforce.com/en/jobs/jr321182/sr-supply-chain-strategist-agentforce-supply-chain/",
-          "domain": "careers.salesforce.com"
-        },
-        {
-          "title": "IMC USA Institute of Management Consultants USA",
-          "url": "https://www.imcusa.org/",
-          "domain": "imcusa.org"
-        },
-        {
-          "title": "How Top Performing Independent Consultants Manage Their Practices",
-          "url": "https://www.lemonly.com/general-uploads/Work/191010_Antenna_ConsultantSurvey_eBook_Final.pdf",
-          "domain": "lemonly.com"
-        },
-        {
-          "title": "Strategy consulting services & solutions | RSM US",
-          "url": "https://www.rsmus.com/services/business-strategy-operations/enterprise-strategy-services",
-          "domain": "rsmus.com"
-        },
-        {
-          "title": "Business Strategy Consultant India | Atul Vaid",
-          "url": "https://atulvaid.com/",
-          "domain": "atulvaid.com"
-        },
-        {
-          "title": "Business Strategy Consultant for Growth | Nadir Dogar",
-          "url": "https://nadirdogar.com/business-strategy-consulting/",
-          "domain": "nadirdogar.com"
-        },
-        {
-          "title": "Head of Growth Marketing - B2B Software Subscriptions | Market Search Recruiting",
-          "url": "https://marketsearchrecruiting.com/job/head-growth-marketing-b2b-software-subscriptions/",
-          "domain": "marketsearchrecruiting.com"
-        },
-        {
-          "title": "What is Management Consulting? A Comprehensive Guide | Deltek",
-          "url": "https://www.deltek.com/resources/articles/what-is-management-consulting/",
-          "domain": "deltek.com"
-        },
-        {
-          "title": "The SMB Technology Buying Journey: Part Two",
-          "url": "https://www.smb-gr.com/wp-content/uploads/2024/10/The-SMB-Technology-Buying-Journey_Part-Two_final.pdf",
-          "domain": "smb-gr.com"
-        },
-        {
-          "title": "Gartner B2B Buying Report",
-          "url": "https://emt.gartnerweb.com/ngw/globalassets/en/sales-service/documents/trends/gartner-b2b-buying-report.pdf",
-          "domain": "emt.gartnerweb.com"
-        },
-        {
-          "title": "Director of Supply Chain Management | Umbrex",
-          "url": "https://umbrex.com/resources/guide-to-corporate-titles/what-is-a-director-of-supply-chain-management/",
-          "domain": "umbrex.com"
-        },
-        {
-          "title": "We are a brand strategy consultant offering senior advisory, diagnostic and fractional engagements",
-          "url": "https://www.onetoo.com.au/brand-strategy-consultant",
-          "domain": "onetoo.com.au"
-        },
-        {
-          "title": "Senior Business Consultant",
-          "url": "https://ats.rippling.com/farlinium-careers/jobs/8131a973-5a67-4bb5-a617-e9b5b70c791c",
-          "domain": "ats.rippling.com"
-        },
-        {
-          "title": "Best Brand Strategy Consulting Firms for 2026",
-          "url": "https://vivaldigroup.com/best-10-brand-strategy-consulting-firms-for-global-businesses",
-          "domain": "vivaldigroup.com"
-        }
-      ],
-      "audience_id": "44c909f2-0163-4476-ac91-e5f434b82ca7",
-      "study_id": "4c458da9-814a-48af-b17a-07f9490fcece",
-      "mind_id": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f"
+    "forecast": {
+     "Every year.": 0.19,
+     "Sometimes.": 0.265,
+     "I’ve seen it, but not in awhile.": 0.405,
+     "Never.": 0.14
     },
-    "source_counts": {
-      "official": 10,
-      "official_label": "published surveys and statistics behind the audience mix (Morning Brew Inc., MBI Insights via Alida and GWI USA, and more)",
-      "official_note": "Published surveys and statistics behind the audience grounding: Morning Brew Inc. brand and insights pages, MBI Insights Profiling Data via Alida and GWI USA, Gradient Metrics, the Reuters Institute and others (10 of 11 listed grounding sources; one private keyword source is not counted).",
-      "counted_at": "2026-11-23"
-    }
+    "locked_utc": "2026-11-25T10:46:43Z",
+    "late": false
+   }
   },
-  "contact": {
-    "name": "Jerome Salow",
-    "role": "Commercial Lead",
-    "headline": "See what your readers will agree with next.",
-    "quote": "I help newsletter and audience teams run a first study on their own readership. Tell me what you want to test and I will set it up with you.",
-    "photo": "https://getminds.ai/images/team-portraits/jerome-salow.webp",
-    "email": "jerome@getminds.ai",
-    "booking_url": "https://getminds.ai/"
-  },
-  "metrics": {
-    "groups": {
-      "all": {
-        "top_k": 3,
-        "hit_label": "Highest-agreement questions picked",
-        "hit_comparison": "of the {n} official questions with the highest yes-share were in Minds' top {n}"
-      }
+  {
+   "id": "2026-11-24-hes-back",
+   "kind": "poll",
+   "title": "Do you agree with the board’s decision to bring back Jensen Huang?",
+   "section": "Reader Poll",
+   "date": "2026-11-24",
+   "forecast_date": "2026-11-24",
+   "labels": {
+    "date": "Issue"
+   },
+   "stimulus": {
+    "image": "/accounts/morningbrew/polls/2026-11-24-hes-back.jpg",
+    "alt": "Morning Brew Reader Poll, 2026-11-24: Do you agree with the board’s decision to bring back Jensen Huang?",
+    "width": 672,
+    "height": 208,
+    "source_url": "https://www.morningbrew.com/issues/hes-back",
+    "link_label": "Read the issue"
+   },
+   "poll": {
+    "options": [
+     "Yes, the company (and the economy) needs him.",
+     "No, they were right to oust him in the first place.",
+     "From the perspective of my portfolio, yes, but not from a corporate governance one.",
+     "Maybe, but they should have waited until the investigation was complete."
+    ],
+    "forecast": {
+     "Yes, the company (and the economy) needs him.": 0.145,
+     "No, they were right to oust him in the first place.": 0.285,
+     "From the perspective of my portfolio, yes, but not from a corporate governance one.": 0.32,
+     "Maybe, but they should have waited until the investigation was complete.": 0.25
     },
-    "pairs_comparison": "of question pairs called right: which of two has the higher official agreement ({right} of {total})",
-    "outcome": "official_pct",
-    "spearman_comparison": "between Minds scores and official agreement (Spearman ρ, 1 is perfect)"
+    "locked_utc": "2026-11-24T23:28:10Z",
+    "late": true,
+    "result": {
+     "Yes, the company (and the economy) needs him.": 15,
+     "No, they were right to oust him in the first place.": 31,
+     "From the perspective of my portfolio, yes, but not from a corporate governance one.": 27,
+     "Maybe, but they should have waited until the investigation was complete.": 27
+    },
+    "mae_pp": 2.5,
+    "top_pick_right": false
+   }
   }
+ ],
+ "audience": {
+  "name": "Morning Brew Readers (US)",
+  "audience_id": "44c909f2-0163-4476-ac91-e5f434b82ca7",
+  "minds": 150,
+  "question": "Reader Poll: pick one answer.",
+  "description": "150 Minds modelled on US readers of the Morning Brew daily newsletter, matched to Morning Brew's published audience profile.",
+  "explainer": "We built 150 Minds: simulated readers of Morning Brew. Each Mind is a complete person, with an age, a job, a news habit and a voice of their own, grounded in public sources. Together they match published statistics on who reads Morning Brew, so you can put a question in front of them the way you would a reader panel.",
+  "orbit": {
+   "label": "150 Minds",
+   "count": 150,
+   "portraits": [
+    "/assets/minds/mind-01.webp",
+    "/assets/minds/mind-02.webp",
+    "/assets/minds/mind-03.webp",
+    "/assets/minds/mind-04.webp",
+    "/assets/minds/mind-05.webp",
+    "/assets/minds/mind-06.webp",
+    "/assets/minds/mind-07.webp",
+    "/assets/minds/mind-08.webp",
+    "/assets/minds/mind-09.webp",
+    "/assets/minds/mind-10.webp",
+    "/assets/minds/mind-11.webp",
+    "/assets/minds/mind-12.webp",
+    "/assets/minds/mind-13.webp",
+    "/assets/minds/mind-14.webp",
+    "/assets/minds/mind-15.webp",
+    "/assets/minds/mind-16.webp",
+    "/assets/minds/mind-17.webp",
+    "/assets/minds/mind-18.webp",
+    "/assets/minds/mind-19.webp",
+    "/assets/minds/mind-20.webp",
+    "/assets/minds/mind-21.webp",
+    "/assets/minds/mind-22.webp",
+    "/assets/minds/mind-23.webp",
+    "/assets/minds/mind-24.webp",
+    "/assets/minds/mind-25.webp",
+    "/assets/minds/mind-26.webp",
+    "/assets/minds/mind-27.webp",
+    "/assets/minds/mind-28.webp",
+    "/assets/minds/mind-29.webp",
+    "/assets/minds/mind-30.webp"
+   ],
+   "portrait_source": "Minds persona image bank (approved production catalog, adult portraits only). Cut from webapp public/images/sparks/landing-persona-groups-v4.webp, tile ids in scorecard/assets/minds/manifest.json. Illustrative faces, not individual Morning Brew readers."
+  },
+  "distributions": [
+   {
+    "id": "age",
+    "name": "Age among Morning Brew readers",
+    "note": "Morning Brew reports that 63% of its audience is aged 18-44. The complement is shown so the bar has a clear remainder, using the same official figure.",
+    "segments": [
+     {
+      "label": "18-44",
+      "share": 0.63
+     },
+     {
+      "label": "45 or older",
+      "share": 0.37
+     }
+    ],
+    "source": {
+     "label": "Morning Brew Inc. brand page",
+     "url": "https://www.morningbrewinc.com/brands/morning-brew"
+    }
+   },
+   {
+    "id": "household-income",
+    "name": "Household income among Morning Brew readers",
+    "note": "Morning Brew reports that 65% of its audience has household income of $100,000 or more. The complement is shown so the bar has a clear remainder, using the same official figure.",
+    "segments": [
+     {
+      "label": "$100,000 or more",
+      "share": 0.65
+     },
+     {
+      "label": "Under $100,000",
+      "share": 0.35
+     }
+    ],
+    "source": {
+     "label": "Morning Brew Inc. brand page",
+     "url": "https://www.morningbrewinc.com/brands/morning-brew"
+    }
+   },
+   {
+    "id": "management-level",
+    "name": "Management level among Morning Brew readers",
+    "note": "Morning Brew reports that 65% of its audience is manager or above. The complement is shown so the bar has a clear remainder, using the same official figure.",
+    "segments": [
+     {
+      "label": "Manager or above",
+      "share": 0.65
+     },
+     {
+      "label": "Below manager level",
+      "share": 0.35
+     }
+    ],
+    "source": {
+     "label": "Morning Brew Inc. brand page",
+     "url": "https://www.morningbrewinc.com/brands/morning-brew"
+    }
+   },
+   {
+    "id": "gender",
+    "name": "Gender among Morning Brew readers",
+    "note": "Morning Brew reports that its audience is 53% male and 47% female.",
+    "segments": [
+     {
+      "label": "Male",
+      "share": 0.53
+     },
+     {
+      "label": "Female",
+      "share": 0.47
+     }
+    ],
+    "source": {
+     "label": "Morning Brew Inc. brand page",
+     "url": "https://www.morningbrewinc.com/brands/morning-brew"
+    }
+   },
+   {
+    "id": "company-size",
+    "name": "Company size among Morning Brew readers",
+    "note": "Morning Brew reports a 50/50 split between enterprise and SMB audiences.",
+    "segments": [
+     {
+      "label": "Enterprise",
+      "share": 0.5
+     },
+     {
+      "label": "SMB",
+      "share": 0.5
+     }
+    ],
+    "source": {
+     "label": "Morning Brew Inc. Insights and Analytics (MBI Insights Profiling Data via Alida and GWI USA)",
+     "url": "https://www.morningbrewinc.com/insights-and-analytics"
+    }
+   }
+  ],
+  "example_mind": {
+   "label": "Example Mind",
+   "name": "Hector Ramirez",
+   "discipline": "Senior Strategy Consultant",
+   "image": "/accounts/morningbrew/example-hector-ramirez.webp",
+   "description": "At 48, Hector Ramirez is a senior strategy consultant in the United States who works at an SMB consulting firm. He prefers concise market recaps such as the Morning Brew daily newsletter, and looks for practical, operational advice he can take to mid-market clients.",
+   "note": "Every Mind is a full profile grounded in public sources. Meet one of the 30. Simulated, not a real person.",
+   "sources_note": "Every attribute traces back to public evidence. These are the sources behind this Mind.",
+   "sources": [
+    {
+     "title": "The Future of Media | CEOs of Morning Brew & 1440 on Trust, AI, and Audience Growth",
+     "url": "https://www.youtube.com/watch?v=ybDj-7yx5FE",
+     "domain": "youtube.com"
+    },
+    {
+     "title": "I Read The Morning Brew Everyday For 3 Years | How It Changed My Life",
+     "url": "https://www.youtube.com/watch?v=aVqt9kmoADg",
+     "domain": "youtube.com"
+    },
+    {
+     "title": "Morning Brew tops 4 million subscribers as it looks to expand with M&A",
+     "url": "https://www.cnbc.com/2022/03/28/morning-brew-tops-4-million-subscribers-as-it-looks-to-expand-with-ma.html",
+     "domain": "cnbc.com"
+    },
+    {
+     "title": "Morning Brew Case Study | Gradient Metrics",
+     "url": "https://www.gradientmetrics.com/case-study/morning-brew",
+     "domain": "gradientmetrics.com"
+    },
+    {
+     "title": "The state of investing: Opportunities, obstacles and outlooks | Morning Brew Inc.",
+     "url": "https://www.morningbrewinc.com/insights/report-the-state-of-investing",
+     "domain": "morningbrewinc.com"
+    },
+    {
+     "title": "Morning Brew Daily | Morning Brew Inc.",
+     "url": "https://www.morningbrewinc.com/brands/morning-brew-daily",
+     "domain": "morningbrewinc.com"
+    },
+    {
+     "title": "Morning Brew | Morning Brew Inc.",
+     "url": "https://www.morningbrewinc.com/brands/morning-brew",
+     "domain": "morningbrewinc.com"
+    },
+    {
+     "title": "What's Next for Small and Medium Sized Businesses",
+     "url": "https://nielseniq.com/global/en/insights/report/2023/whats-next-for-small-and-medium-sized-businesses-an-inside-look/",
+     "domain": "nielseniq.com"
+    },
+    {
+     "title": "2024 25 Independent Consulting & Advisory in Review Report | The Barton Partnership",
+     "url": "https://www.thebartonpartnership.com/2024-25-independent-consulting-and-advisory-in-review-report",
+     "domain": "thebartonpartnership.com"
+    },
+    {
+     "title": "Senior Business Consultant (all genders) @ Thorit",
+     "url": "https://jobs.ashbyhq.com/thorit/7823f6ee-4383-4880-8318-bce04ae32681",
+     "domain": "jobs.ashbyhq.com"
+    },
+    {
+     "title": "Types of consultants | Consultancy.org",
+     "url": "https://www.consultancy.org/career/types-of-consultants",
+     "domain": "consultancy.org"
+    },
+    {
+     "title": "Sr. Supply Chain Strategist, Agentforce Supply Chain",
+     "url": "https://careers.salesforce.com/en/jobs/jr321182/sr-supply-chain-strategist-agentforce-supply-chain/",
+     "domain": "careers.salesforce.com"
+    },
+    {
+     "title": "IMC USA Institute of Management Consultants USA",
+     "url": "https://www.imcusa.org/",
+     "domain": "imcusa.org"
+    },
+    {
+     "title": "How Top Performing Independent Consultants Manage Their Practices",
+     "url": "https://www.lemonly.com/general-uploads/Work/191010_Antenna_ConsultantSurvey_eBook_Final.pdf",
+     "domain": "lemonly.com"
+    },
+    {
+     "title": "Strategy consulting services & solutions | RSM US",
+     "url": "https://www.rsmus.com/services/business-strategy-operations/enterprise-strategy-services",
+     "domain": "rsmus.com"
+    },
+    {
+     "title": "Business Strategy Consultant India | Atul Vaid",
+     "url": "https://atulvaid.com/",
+     "domain": "atulvaid.com"
+    },
+    {
+     "title": "Business Strategy Consultant for Growth | Nadir Dogar",
+     "url": "https://nadirdogar.com/business-strategy-consulting/",
+     "domain": "nadirdogar.com"
+    },
+    {
+     "title": "Head of Growth Marketing - B2B Software Subscriptions | Market Search Recruiting",
+     "url": "https://marketsearchrecruiting.com/job/head-growth-marketing-b2b-software-subscriptions/",
+     "domain": "marketsearchrecruiting.com"
+    },
+    {
+     "title": "What is Management Consulting? A Comprehensive Guide | Deltek",
+     "url": "https://www.deltek.com/resources/articles/what-is-management-consulting/",
+     "domain": "deltek.com"
+    },
+    {
+     "title": "The SMB Technology Buying Journey: Part Two",
+     "url": "https://www.smb-gr.com/wp-content/uploads/2024/10/The-SMB-Technology-Buying-Journey_Part-Two_final.pdf",
+     "domain": "smb-gr.com"
+    },
+    {
+     "title": "Gartner B2B Buying Report",
+     "url": "https://emt.gartnerweb.com/ngw/globalassets/en/sales-service/documents/trends/gartner-b2b-buying-report.pdf",
+     "domain": "emt.gartnerweb.com"
+    },
+    {
+     "title": "Director of Supply Chain Management | Umbrex",
+     "url": "https://umbrex.com/resources/guide-to-corporate-titles/what-is-a-director-of-supply-chain-management/",
+     "domain": "umbrex.com"
+    },
+    {
+     "title": "We are a brand strategy consultant offering senior advisory, diagnostic and fractional engagements",
+     "url": "https://www.onetoo.com.au/brand-strategy-consultant",
+     "domain": "onetoo.com.au"
+    },
+    {
+     "title": "Senior Business Consultant",
+     "url": "https://ats.rippling.com/farlinium-careers/jobs/8131a973-5a67-4bb5-a617-e9b5b70c791c",
+     "domain": "ats.rippling.com"
+    },
+    {
+     "title": "Best Brand Strategy Consulting Firms for 2026",
+     "url": "https://vivaldigroup.com/best-10-brand-strategy-consulting-firms-for-global-businesses",
+     "domain": "vivaldigroup.com"
+    }
+   ],
+   "audience_id": "44c909f2-0163-4476-ac91-e5f434b82ca7",
+   "study_id": "4c458da9-814a-48af-b17a-07f9490fcece",
+   "mind_id": "017c45b8-f8ce-4cc6-94e7-560d96a7fd5f"
+  },
+  "source_counts": {
+   "official": 10,
+   "official_label": "published surveys and statistics behind the audience mix (Morning Brew Inc., MBI Insights via Alida and GWI USA, and more)",
+   "official_note": "Published surveys and statistics behind the audience grounding: Morning Brew Inc. brand and insights pages, MBI Insights Profiling Data via Alida and GWI USA, Gradient Metrics, the Reuters Institute and others (10 of 11 listed grounding sources; one private keyword source is not counted).",
+   "counted_at": "2026-11-23"
+  }
+ },
+ "contact": {
+  "name": "Jerome Salow",
+  "role": "Commercial Lead",
+  "headline": "See what your readers will agree with next.",
+  "quote": "I help newsletter and audience teams run a first study on their own readership. Tell me what you want to test and I will set it up with you.",
+  "photo": "https://getminds.ai/images/team-portraits/jerome-salow.webp",
+  "email": "jerome@getminds.ai",
+  "booking_url": "https://getminds.ai/"
+ },
+ "metrics": {}
 }
