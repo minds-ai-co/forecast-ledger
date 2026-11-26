@@ -3,15 +3,43 @@
  "variant": "mosaic",
  "variant_label": "Minds Mosaic",
  "arm": "primary",
- "disclosure": "hashes_only",
- "model": null,
+ "disclosure": "full",
+ "model": "Minds Mosaic",
  "entries": [
   {
    "entry_id": "morningbrew-reader-poll-2026-11-25-another-one__poll__overall__r1",
    "entry_sha256": "9bcd7d1510ef64944bb21a78ee971edd1d1d1be49cd1fc7e1e2504d4f55cbe94",
    "seq": 1,
    "batch_id": null,
-   "locked_at": "2026-11-25T10:46:43Z"
+   "locked_at": "2026-11-25T10:46:43Z",
+   "state": "scored",
+   "question": {
+    "id": "poll",
+    "text": "Do you watch the Macy’s Thanksgiving Day Parade?",
+    "type": "categorical",
+    "options": [
+     "Every year.",
+     "Sometimes.",
+     "I’ve seen it, but not in awhile.",
+     "Never."
+    ]
+   },
+   "group": {
+    "id": "overall",
+    "label": "Overall"
+   },
+   "forecast": [
+    0.19,
+    0.265,
+    0.405,
+    0.14
+   ],
+   "repetitions": 2,
+   "model": "Minds Mosaic",
+   "revision": 1,
+   "supersedes": null,
+   "raw_entry_file": null,
+   "raw_entry_withheld": "Inputs are not published."
   }
  ]
 }

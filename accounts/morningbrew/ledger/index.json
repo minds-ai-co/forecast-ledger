@@ -1,8 +1,8 @@
 {
  "format": "forecast-ledger-public.v1",
- "as_of": "2026-11-25T20:44:37Z",
+ "as_of": "2026-11-26T05:00:34Z",
  "model": "Minds Mosaic",
- "latest_event_at": "2026-11-25T19:54:58Z",
+ "latest_event_at": "2026-11-26T05:00:34Z",
  "primary_variant": "mosaic",
  "variants": [
   "mosaic"
@@ -99,17 +99,17 @@
     ]
    },
    "wave": "Issue of 2026-11-25",
-   "status": "pending",
-   "disclosure": "hashes_only",
-   "disclosure_note": "pending: forecasts sealed until the result is released",
+   "status": "scored",
+   "disclosure": "full",
+   "disclosure_note": null,
    "evidence_class": "before_release",
    "evidence_types": [
     "attitude"
    ],
    "cutoff_utc": null,
    "first_lock_utc": "2026-11-25T10:46:43Z",
-   "released_at": null,
-   "publication_url": null,
+   "released_at": "2026-11-26T05:00:34Z",
+   "publication_url": "https://www.morningbrew.com/poll/da84d473-785b-4945-9b43-9a7126faec3d",
    "forecasts_count": 1,
    "variants": [
     "mosaic"
@@ -117,9 +117,34 @@
    "forecasts": {
     "mosaic": "accounts/morningbrew/ledger/forecasts/morningbrew-reader-poll-2026-11-25-another-one/mosaic.json"
    },
-   "results": null,
+   "results": "accounts/morningbrew/ledger/results/morningbrew-reader-poll-2026-11-25-another-one.json",
    "batches": [],
-   "series": "morningbrew-reader-poll"
+   "series": "morningbrew-reader-poll",
+   "metric_blocks": [
+    {
+     "type": "shares",
+     "family": "shares",
+     "evidence_type": "attitude",
+     "scope": "overall",
+     "bucket": "4-6",
+     "questions": 1,
+     "accuracy_sum": 0.9373,
+     "sums": {
+      "tvd": 0.1254
+     },
+     "counts": {
+      "tvd": 1
+     },
+     "pearson": {
+      "n": 4,
+      "sx": 1.0,
+      "sy": 1.0,
+      "sxx": 0.28995,
+      "syy": 0.262033134,
+      "sxy": 0.263118812
+     }
+    }
+   ]
   },
   {
    "target_id": "morningbrew-reader-poll-2026-11-24-hes-back",
