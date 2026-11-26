@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-26T20:20:06Z",
+  "as_of": "2026-11-26T20:57:32Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-26T20:08:37Z",
   "chain_head_sha256": "6f0cb3b656b81cc35a8ae253f67301ca51842891d49f99d9c3b31dad1d88e440",
