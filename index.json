@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-26T22:07:55Z",
+  "as_of": "2026-11-26T23:08:07Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-26T22:07:42Z",
-  "chain_head_sha256": "d103205330e8288019e1977db7122a83f976f882bdf45f92b58fa015e9b8b727",
+  "latest_event_at": "2026-11-26T23:07:59Z",
+  "chain_head_sha256": "b8da0428c6f775c291d56554f01eb5353b87335d40a9c8a68c154e20f62930fe",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 155,
+    "targets": 157,
     "targets_scored": 54,
-    "targets_pending": 98,
+    "targets_pending": 100,
     "targets_not_scoreable": 3,
-    "entries": 2968,
-    "batches": 379,
+    "entries": 2970,
+    "batches": 381,
     "entries_scored": 1327,
-    "entries_pending": 1404,
+    "entries_pending": 1406,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 928,
+    "forecasts_locked": 930,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2386,
+    "attitude": 2388,
     "stated_intent": 472,
     "behaviour": 110
   },
@@ -22690,6 +22690,66 @@
       ]
     },
     {
+      "target_id": "readerpoll-yahoo-jp-77560",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-27",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77560, opened 2026-11-27",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-03T15:00:00Z",
+      "first_lock_utc": "2026-11-26T23:07:36Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77560",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77560/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77560__20261126T230736440490Z__s2974",
+          "locked_at": "2026-11-26T23:07:36Z",
+          "entries": 1,
+          "merkle_root": "428564e3a59c2ce1c5d8714b08a646b0b0a98ba11a1714a543cd31156828d1f9",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77560__20261126T230736440490Z__s2974.json",
+          "manifest_sha256": "48b688aeee199cdc88ab8b4ad27eee780f09db4074185a6a1c713b36886daed8",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77560__20261126T230736440490Z__s2974.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "spotify-de-listeners-weekly-2026-12-10",
       "survey": "Spotify DE weekly top ten (volume shares), simulated with the listeners' published makeup",
       "publisher": "Spotify Charts via Kworb mirror",
@@ -22934,6 +22994,66 @@
       ]
     },
     {
+      "target_id": "readerpoll-yahoo-jp-77563",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-27",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77563, opened 2026-11-27",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-10T15:00:00Z",
+      "first_lock_utc": "2026-11-26T23:07:59Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77563",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77563/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77563__20261126T230759156747Z__s2975",
+          "locked_at": "2026-11-26T23:07:59Z",
+          "entries": 1,
+          "merkle_root": "b3267191eacbcd133d62248d7fd8722ac72352579f18b19921a7c03bcf69a5a8",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77563__20261126T230759156747Z__s2975.json",
+          "manifest_sha256": "019e60d93ae2af88f3853e9fe85c39b670f84f7b6eda11b1347733ba7797bef7",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77563__20261126T230759156747Z__s2975.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "readerpoll-androidauthority-3739463",
       "survey": "Android Authority reader poll",
       "publisher": "Android Authority",
@@ -23150,7 +23270,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-26T21:33:02+00:00",
-    "checked_at": "2026-11-26T22:05:32.406542+00:00",
+    "checked_at": "2026-11-26T23:05:08.152633+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
