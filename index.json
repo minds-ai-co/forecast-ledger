@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-26T20:57:32Z",
+  "as_of": "2026-11-26T22:07:55Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-26T20:08:37Z",
-  "chain_head_sha256": "6f0cb3b656b81cc35a8ae253f67301ca51842891d49f99d9c3b31dad1d88e440",
+  "latest_event_at": "2026-11-26T22:07:42Z",
+  "chain_head_sha256": "d103205330e8288019e1977db7122a83f976f882bdf45f92b58fa015e9b8b727",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 154,
+    "targets": 155,
     "targets_scored": 54,
-    "targets_pending": 97,
+    "targets_pending": 98,
     "targets_not_scoreable": 3,
-    "entries": 2967,
-    "batches": 378,
+    "entries": 2968,
+    "batches": 379,
     "entries_scored": 1327,
-    "entries_pending": 1403,
+    "entries_pending": 1404,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 927,
+    "forecasts_locked": 928,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2385,
+    "attitude": 2386,
     "stated_intent": 472,
     "behaviour": 110
   },
@@ -22630,6 +22630,66 @@
       ]
     },
     {
+      "target_id": "readerpoll-yahoo-jp-77557",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-27",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77557, opened 2026-11-27",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-03T15:00:00Z",
+      "first_lock_utc": "2026-11-26T22:07:42Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77557",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77557/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77557__20261126T220742378659Z__s2973",
+          "locked_at": "2026-11-26T22:07:42Z",
+          "entries": 1,
+          "merkle_root": "7bb8b5123f48d0d77df03113c0b308dbd96cd2394755476c1d40341905385a9c",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77557__20261126T220742378659Z__s2973.json",
+          "manifest_sha256": "9484d4894f61c038ac2069f622e064cdf07f121f7dd0f4dfa478fc8faadb2041",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77557__20261126T220742378659Z__s2973.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "spotify-de-listeners-weekly-2026-12-10",
       "survey": "Spotify DE weekly top ten (volume shares), simulated with the listeners' published makeup",
       "publisher": "Spotify Charts via Kworb mirror",
@@ -23089,8 +23149,8 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-26T08:17:12+00:00",
-    "checked_at": "2026-11-26T20:05:58.912017+00:00",
+    "source_generated_at": "2026-11-26T21:33:02+00:00",
+    "checked_at": "2026-11-26T22:05:32.406542+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
