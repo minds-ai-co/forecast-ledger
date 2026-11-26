@@ -1,0 +1,17 @@
+{
+  "target_id": "readerpoll-yahoo-jp-77527",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "readerpoll-yahoo-jp-77527__poll__overall__r1",
+      "entry_sha256": "5472c429cb7c8f6f5d1482a6848bfc88a9f854e5313b3807b220a3f2fb70770d",
+      "seq": 2966,
+      "batch_id": "readerpoll-yahoo-jp-77527__20261126T070948600372Z__s2966",
+      "locked_at": "2026-11-26T07:09:48Z"
+    }
+  ]
+}

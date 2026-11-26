@@ -1,0 +1,17 @@
+{
+  "target_id": "readerpoll-androidauthority-3739463",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "readerpoll-androidauthority-3739463__poll__overall__r1",
+      "entry_sha256": "139ed49e46623ccdb98b1733c6790f4e0c02dbeb507a98135bea5954658d748d",
+      "seq": 2971,
+      "batch_id": "readerpoll-androidauthority-3739463__20261126T080933537978Z__s2971",
+      "locked_at": "2026-11-26T08:09:33Z"
+    }
+  ]
+}

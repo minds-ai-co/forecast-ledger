@@ -1,0 +1,17 @@
+{
+  "target_id": "readerpoll-aaii-2026-12-02",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "readerpoll-aaii-2026-12-02__poll__overall__r1",
+      "entry_sha256": "ee10c35b524c784c6124380b2f2eed755b2812eaa30a82bb6523ade495cb4770",
+      "seq": 2965,
+      "batch_id": "readerpoll-aaii-2026-12-02__20261126T060809236074Z__s2965",
+      "locked_at": "2026-11-26T06:08:09Z"
+    }
+  ]
+}
