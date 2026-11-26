@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-burberry-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-burberry-consumer__feeling__overall__r1",
+      "entry_sha256": "ab810c6981e5177231c748b2a865d79ba936ef860d8a84cc9d9461a116d4e9d6",
+      "seq": 2670,
+      "batch_id": "gb-system1-xmas-2026-burberry-consumer__20261122T194155023298Z__s2670",
+      "locked_at": "2026-11-22T19:41:55Z"
+    }
+  ]
+}

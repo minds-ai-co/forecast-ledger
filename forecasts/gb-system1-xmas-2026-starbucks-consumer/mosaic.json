@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-starbucks-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-starbucks-consumer__feeling__overall__r1",
+      "entry_sha256": "19dfa8170b3206fe1e524e9f2717524ef583fdc5bf5844fcd26d51b05f2bf9c9",
+      "seq": 2694,
+      "batch_id": "gb-system1-xmas-2026-starbucks-consumer__20261122T204303784246Z__s2694",
+      "locked_at": "2026-11-22T20:43:03Z"
+    }
+  ]
+}

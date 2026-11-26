@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-verizon-4-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-verizon-4-consumer__feeling__overall__r1",
+      "entry_sha256": "c3c148d5cd74c5abc515f51689e24eaf38ffb15aad52abeb3d3323049d81f7a0",
+      "seq": 2702,
+      "batch_id": "us-system1-xmas-2026-verizon-4-consumer__20261123T142753666443Z__s2702",
+      "locked_at": "2026-11-23T14:27:53Z"
+    }
+  ]
+}

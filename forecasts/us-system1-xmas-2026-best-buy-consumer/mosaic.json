@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-best-buy-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-best-buy-consumer__feeling__overall__r1",
+      "entry_sha256": "cd972a890d73329b90caf1ca3ff31d700a947cc89be5aac114307dbc71f148f1",
+      "seq": 2674,
+      "batch_id": "us-system1-xmas-2026-best-buy-consumer__20261122T194445691676Z__s2674",
+      "locked_at": "2026-11-22T19:44:45Z"
+    }
+  ]
+}

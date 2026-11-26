@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-walmart-2-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-walmart-2-consumer__feeling__overall__r1",
+      "entry_sha256": "bb5a5207dd901afa7394da4482465738059b0318da0f4f2c06d147f2d5703125",
+      "seq": 2683,
+      "batch_id": "us-system1-xmas-2026-walmart-2-consumer__20261122T195020666439Z__s2683",
+      "locked_at": "2026-11-22T19:50:20Z"
+    }
+  ]
+}

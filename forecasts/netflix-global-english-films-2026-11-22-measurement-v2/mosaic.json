@@ -1,0 +1,59 @@
+{
+  "target_id": "netflix-global-english-films-2026-11-22-measurement-v2",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "full",
+  "model": "Minds Mosaic",
+  "entries": [
+    {
+      "entry_id": "netflix-global-english-films-2026-11-22-measurement-v2__top10_volume_share__overall__r1",
+      "entry_sha256": "353c91506ecb004d15a161cd6061795a3aa1cbeec059ac40c41c461ddb34ec1b",
+      "seq": 2461,
+      "batch_id": "netflix-global-english-films-2026-11-22-measurement-v2__20261110T000001261045Z__s2461",
+      "locked_at": "2026-11-10T00:00:01Z",
+      "state": "scored",
+      "question": {
+        "id": "top10_volume_share",
+        "text": "Share of the top ten's weekly views",
+        "type": "categorical",
+        "options": [
+          "Animals",
+          "Return to Sender",
+          "KPop Demon Hunters",
+          "Hot Wheels Let's Race: Attack of the T-Rex",
+          "Ice Age 4: Continental Drift",
+          "Ice Age: Dawn of the Dinosaurs",
+          "Ice Age 5: Collision Course",
+          "This Is Not a Test",
+          "Ice Age",
+          "Aliens in the Attic",
+          "All other titles in the published top ten"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.255,
+        0.14650000000000002,
+        0.11499999999999999,
+        0.0915,
+        0.0775,
+        0.07050000000000001,
+        0.0655,
+        0.062,
+        0.0595,
+        0.056999999999999995,
+        0.0
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
+    }
+  ]
+}

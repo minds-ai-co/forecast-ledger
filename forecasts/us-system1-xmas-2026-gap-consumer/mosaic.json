@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-gap-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-gap-consumer__feeling__overall__r1",
+      "entry_sha256": "d3fa71b4acf53b598cdd9a022b23ccde7743967ec60f66c39c41ed3424d4bf19",
+      "seq": 2679,
+      "batch_id": "us-system1-xmas-2026-gap-consumer__20261122T194751020486Z__s2679",
+      "locked_at": "2026-11-22T19:47:51Z"
+    }
+  ]
+}

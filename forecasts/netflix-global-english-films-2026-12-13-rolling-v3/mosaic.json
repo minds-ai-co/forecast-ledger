@@ -1,0 +1,17 @@
+{
+  "target_id": "netflix-global-english-films-2026-12-13-rolling-v3",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "netflix-global-english-films-2026-12-13-rolling-v3__top10_volume_share__overall__r1",
+      "entry_sha256": "6550631d5d7506896db1ccf1c9a0478e72fafecf0d563bf789cdc25ba845e680",
+      "seq": 2699,
+      "batch_id": "netflix-global-english-films-2026-12-13-rolling-v3__20261123T074817725318Z__s2699",
+      "locked_at": "2026-11-23T07:48:17Z"
+    }
+  ]
+}

@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-26T08:16:30Z",
+  "as_of": "2026-11-26T20:15:31Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-26T08:09:33Z",
-  "chain_head_sha256": "b2a14aabefcce59b32164eadb96ad5255c9a6850a63231acafc94f559d43501e",
+  "latest_event_at": "2026-11-26T20:08:37Z",
+  "chain_head_sha256": "6f0cb3b656b81cc35a8ae253f67301ca51842891d49f99d9c3b31dad1d88e440",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 153,
+    "targets": 154,
     "targets_scored": 54,
-    "targets_pending": 96,
+    "targets_pending": 97,
     "targets_not_scoreable": 3,
-    "entries": 2966,
-    "batches": 377,
+    "entries": 2967,
+    "batches": 378,
     "entries_scored": 1327,
-    "entries_pending": 1402,
+    "entries_pending": 1403,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,15 +58,15 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 851,
+    "forecasts_locked": 927,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 43,
-      "questions": 162,
-      "tvd": 0.047138,
-      "mae_pp": 1.545932,
-      "pearson_r": 0.982327,
+      "surveys": 46,
+      "questions": 165,
+      "tvd": 0.05563,
+      "mae_pp": 1.687807,
+      "pearson_r": 0.961225,
       "ordinal_questions": 97,
       "wasserstein": 0.017331
     },
@@ -84,11 +84,11 @@
       "pairs_total": 19
     },
     "locked_before_fieldwork": {
-      "surveys": 23,
-      "questions": 67,
-      "tvd": 0.035957,
-      "mae_pp": 1.389641,
-      "pearson_r": 0.991379,
+      "surveys": 26,
+      "questions": 70,
+      "tvd": 0.056454,
+      "mae_pp": 1.73076,
+      "pearson_r": 0.941835,
       "ordinal_questions": 21,
       "wasserstein": 0.020144
     },
@@ -112,11 +112,11 @@
         "wasserstein": 0.02374
       },
       "behaviour": {
-        "surveys": 8,
-        "questions": 14,
-        "tvd": 0.208011,
-        "mae_pp": 3.262974,
-        "pearson_r": 0.864207,
+        "surveys": 11,
+        "questions": 17,
+        "tvd": 0.262044,
+        "mae_pp": 4.336996,
+        "pearson_r": 0.732897,
         "ordinal_questions": 0,
         "wasserstein": null
       }
@@ -124,13 +124,13 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 852,
+        "forecasts_locked": 777,
         "scored": {
-          "surveys": 45,
-          "questions": 161,
-          "tvd": 0.110806,
-          "mae_pp": 4.076579,
-          "pearson_r": 0.919218,
+          "surveys": 42,
+          "questions": 158,
+          "tvd": 0.103147,
+          "mae_pp": 3.976468,
+          "pearson_r": 0.93969,
           "ordinal_questions": 98,
           "wasserstein": 0.047823
         }
@@ -241,10 +241,10 @@
       }
     },
     "approximation": {
-      "value": 0.958662,
-      "series": 45,
-      "surveys": 51,
-      "questions": 170,
+      "value": 0.955402,
+      "series": 48,
+      "surveys": 54,
+      "questions": 173,
       "weighting": "each series weighted equally; questions averaged within a series"
     },
     "subgroup_approximation": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2384,
+    "attitude": 2385,
     "stated_intent": 472,
     "behaviour": 110
   },
@@ -14281,10 +14281,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-gap/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-gap/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -16312,10 +16312,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-de-weekly-2026-11-19-measurement-v2/research-1.json"
+        "mosaic": "forecasts/spotify-de-weekly-2026-11-19-measurement-v2/mosaic.json"
       },
       "results": "results/spotify-de-weekly-2026-11-19-measurement-v2.json",
       "batches": [
@@ -16332,6 +16332,31 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.936250214,
+          "sums": {
+            "tvd": 0.350623821
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.442734,
+            "syy": 0.398242502,
+            "sxy": 0.3910695
+          }
         }
       ],
       "series": "spotify-de-weekly-2026-11-19-measurement-v2"
@@ -16380,10 +16405,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-us-weekly-2026-11-19-measurement-v2/research-1.json"
+        "mosaic": "forecasts/spotify-us-weekly-2026-11-19-measurement-v2/mosaic.json"
       },
       "results": "results/spotify-us-weekly-2026-11-19-measurement-v2.json",
       "batches": [
@@ -16400,6 +16425,31 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.965095004,
+          "sums": {
+            "tvd": 0.191977476
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.455178,
+            "syy": 0.294412306,
+            "sxy": 0.355151715
+          }
         }
       ],
       "series": "spotify-us-weekly-2026-11-19-measurement-v2"
@@ -16448,10 +16498,10 @@
       "publication_url": "https://www.netflix.com/tudum/top10?week=2026-11-22",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/netflix-global-english-films-2026-11-22-measurement-v2/research-1.json"
+        "mosaic": "forecasts/netflix-global-english-films-2026-11-22-measurement-v2/mosaic.json"
       },
       "results": "results/netflix-global-english-films-2026-11-22-measurement-v2.json",
       "batches": [
@@ -16468,6 +16518,31 @@
           "bitcoin_block_time_utc": null,
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
+        }
+      ],
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.818181818,
+          "sums": {
+            "tvd": 1.0
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.1339845,
+            "syy": 1.0,
+            "sxy": 0.0
+          }
         }
       ],
       "series": "netflix-global-english-films-2026-11-22-measurement-v2"
@@ -16731,10 +16806,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-de-weekly-2026-11-26-rolling-v3/research-1.json"
+        "mosaic": "forecasts/spotify-de-weekly-2026-11-26-rolling-v3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -16798,10 +16873,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-us-weekly-2026-11-26-rolling-v3/research-1.json"
+        "mosaic": "forecasts/spotify-us-weekly-2026-11-26-rolling-v3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17189,10 +17264,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-amazon-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-amazon-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17299,10 +17374,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-apple-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-apple-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17409,10 +17484,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-asda-2-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-asda-2-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17519,10 +17594,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-asda-3-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-asda-3-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17629,10 +17704,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-asda-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-asda-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17739,10 +17814,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-boots-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-boots-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17849,10 +17924,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-burberry-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-burberry-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -17959,10 +18034,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-lego-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-lego-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18069,10 +18144,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-tk-maxx-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-tk-maxx-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18179,10 +18254,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-amazon-2-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-amazon-2-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18289,10 +18364,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-amazon-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-amazon-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18399,10 +18474,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-apple-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-apple-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18509,10 +18584,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-best-buy-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-best-buy-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18619,10 +18694,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-chewy-2-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-chewy-2-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18729,10 +18804,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-chewy-3-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-chewy-3-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18839,10 +18914,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-chewy-4-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-chewy-4-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -18949,10 +19024,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-chewy-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-chewy-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19059,10 +19134,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-coca-cola-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-coca-cola-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19169,10 +19244,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-etsy-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-etsy-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19279,10 +19354,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-gap-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-gap-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19389,10 +19464,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-lego-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-lego-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19499,10 +19574,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-lexus-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-lexus-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19609,10 +19684,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-mcdonalds-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-mcdonalds-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19719,10 +19794,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-starbucks-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-starbucks-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19829,10 +19904,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-target-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-target-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -19939,10 +20014,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-verizon-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-verizon-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20049,10 +20124,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-walmart-2-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-walmart-2-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20159,10 +20234,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-hobby-lobby-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-hobby-lobby-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20269,10 +20344,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-verizon-2-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-verizon-2-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20379,10 +20454,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-starbucks-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-starbucks-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20489,10 +20564,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/gb-system1-xmas-2026-etsy-consumer/research-1.json"
+        "mosaic": "forecasts/gb-system1-xmas-2026-etsy-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20599,10 +20674,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-lexus-2-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-lexus-2-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20709,10 +20784,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-hobby-lobby-2-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-hobby-lobby-2-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -20819,10 +20894,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-verizon-3-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-verizon-3-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -21223,10 +21298,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-verizon-4-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-verizon-4-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -21253,7 +21328,7 @@
       "source_logos": [],
       "display": {
         "label": "ECB Consumer Expectations Survey",
-        "country": "Country not specified",
+        "country": "Euro area",
         "country_code": "ea",
         "topic": "Other",
         "source": "European Central Bank",
@@ -21307,7 +21382,7 @@
           "Aged 35-54",
           "Aged 55-70"
         ],
-        "label": "Country not specified adults"
+        "label": "Euro area adults"
       },
       "wave": "December 2026 CES wave; results expected late January 2027 (ECB press release and ECB Data Portal)",
       "status": "pending",
@@ -21370,7 +21445,7 @@
       "source_logos": [],
       "display": {
         "label": "ECB Consumer Expectations Survey",
-        "country": "Country not specified",
+        "country": "Euro area",
         "country_code": "ea",
         "topic": "Other",
         "source": "European Central Bank",
@@ -21423,7 +21498,7 @@
           "Aged 35-54",
           "Aged 55-70"
         ],
-        "label": "Country not specified adults"
+        "label": "Euro area adults"
       },
       "wave": "December 2026 CES wave; results expected late January 2027 (ECB press release and ECB Data Portal)",
       "status": "pending",
@@ -21439,10 +21514,10 @@
       "publication_url": "https://www.ecb.europa.eu/stats/ecb_surveys/consumer_exp_survey/html/index.en.html",
       "forecasts_count": 18,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/ea-ecb-ces-2026-12-numeric/research-1.json"
+        "mosaic": "forecasts/ea-ecb-ces-2026-12-numeric/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -21650,10 +21725,10 @@
       "publication_url": "https://system1group.com/christmas",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/us-system1-xmas-2026-hersheys-consumer/research-1.json"
+        "mosaic": "forecasts/us-system1-xmas-2026-hersheys-consumer/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -21836,10 +21911,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-de-listeners-weekly-2026-12-03/research-1.json"
+        "mosaic": "forecasts/spotify-de-listeners-weekly-2026-12-03/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -21903,10 +21978,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-de-weekly-2026-12-03-rolling-v3/research-1.json"
+        "mosaic": "forecasts/spotify-de-weekly-2026-12-03-rolling-v3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -21970,10 +22045,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-us-weekly-2026-12-03-rolling-v3/research-1.json"
+        "mosaic": "forecasts/spotify-us-weekly-2026-12-03-rolling-v3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22030,10 +22105,10 @@
       "publication_url": "https://gamefaqs.gamespot.com/poll/10479-x",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-gamefaqs-10479/research-1.json"
+        "mosaic": "forecasts/readerpoll-gamefaqs-10479/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22097,10 +22172,10 @@
       "publication_url": "https://www.netflix.com/tudum/top10",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/netflix-global-english-films-2026-12-06-rolling-v3/research-1.json"
+        "mosaic": "forecasts/netflix-global-english-films-2026-12-06-rolling-v3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22157,10 +22232,10 @@
       "publication_url": "https://news.yahoo.co.jp/polls/77527",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-yahoo-jp-77527/research-1.json"
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77527/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22217,10 +22292,10 @@
       "publication_url": "https://news.yahoo.co.jp/polls/77530",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-yahoo-jp-77530/research-1.json"
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77530/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22277,10 +22352,10 @@
       "publication_url": "https://news.yahoo.co.jp/polls/77533",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-yahoo-jp-77533/research-1.json"
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77533/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22337,10 +22412,10 @@
       "publication_url": "https://news.yahoo.co.jp/polls/77536",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-yahoo-jp-77536/research-1.json"
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77536/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22397,10 +22472,10 @@
       "publication_url": "https://news.yahoo.co.jp/polls/77542",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-yahoo-jp-77542/research-1.json"
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77542/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22464,10 +22539,10 @@
       "publication_url": "https://www.aaii.com/sentimentsurvey",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-aaii-2026-12-02/research-1.json"
+        "mosaic": "forecasts/readerpoll-aaii-2026-12-02/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22479,6 +22554,73 @@
           "manifest": "proofs/batches/readerpoll-aaii-2026-12-02__20261126T060809236074Z__s2965.json",
           "manifest_sha256": "280f6b59457c8e5600349ee11620605f7fbccf2a810ec2d186d824a123777ae1",
           "ots_proof": "proofs/batches/readerpoll-aaii-2026-12-02__20261126T060809236074Z__s2965.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "readerpoll-minutos20-7989",
+      "survey": "20minutos reader poll",
+      "publisher": "20minutos",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/20minutos.png",
+          "alt": "20minutos",
+          "width": 192,
+          "height": 192
+        }
+      ],
+      "display": {
+        "label": "20minutos Reader Poll",
+        "country": "Spain",
+        "country_code": "es",
+        "topic": "Society",
+        "source": "20minutos",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "20minutos readers voting in its online polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-26",
+        "composition": [],
+        "subgroups": [],
+        "label": "20minutos readers"
+      },
+      "wave": "Poll 7989, opened 2026-11-26",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-03T14:09:00Z",
+      "first_lock_utc": "2026-11-26T20:08:37Z",
+      "released_at": null,
+      "publication_url": "https://www.20minutos.es/nacional/encuesta-quien-crees-que-ha-ganado-debate-cuatro-elecciones-generales-29n_7989_7.html",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-minutos20-7989/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-minutos20-7989__20261126T200837560964Z__s2972",
+          "locked_at": "2026-11-26T20:08:37Z",
+          "entries": 1,
+          "merkle_root": "3a01f506781d73db21ca5966999039e9dbd7fcc3b6404b8db2717e368b3702df",
+          "manifest": "proofs/batches/readerpoll-minutos20-7989__20261126T200837560964Z__s2972.json",
+          "manifest_sha256": "b827bb8782659f45416b2814a46b50f68c363cab29cd77c3c8ea06581f1bb558",
+          "ots_proof": "proofs/batches/readerpoll-minutos20-7989__20261126T200837560964Z__s2972.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,
@@ -22574,10 +22716,10 @@
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-de-listeners-weekly-2026-12-10/research-1.json"
+        "mosaic": "forecasts/spotify-de-listeners-weekly-2026-12-10/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22641,10 +22783,10 @@
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/spotify-us-weekly-2026-12-10-rolling-v3/research-1.json"
+        "mosaic": "forecasts/spotify-us-weekly-2026-12-10-rolling-v3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22708,10 +22850,10 @@
       "publication_url": "https://www.netflix.com/tudum/top10",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/netflix-global-english-films-2026-12-13-rolling-v3/research-1.json"
+        "mosaic": "forecasts/netflix-global-english-films-2026-12-13-rolling-v3/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22768,10 +22910,10 @@
       "publication_url": "https://www.androidauthority.com/android-text-selection-poll-3739460/",
       "forecasts_count": 1,
       "variants": [
-        "research-1"
+        "mosaic"
       ],
       "forecasts": {
-        "research-1": "forecasts/readerpoll-androidauthority-3739463/research-1.json"
+        "mosaic": "forecasts/readerpoll-androidauthority-3739463/mosaic.json"
       },
       "results": null,
       "batches": [
@@ -22947,8 +23089,8 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-25T21:43:57+00:00",
-    "checked_at": "2026-11-26T08:05:17.158487+00:00",
+    "source_generated_at": "2026-11-26T08:17:12+00:00",
+    "checked_at": "2026-11-26T20:05:58.912017+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {

@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-apple-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-apple-consumer__feeling__overall__r1",
+      "entry_sha256": "e130ed00f7065721e7dbb6086788007cf5be4dd70060acf1ff6510a814bae208",
+      "seq": 2685,
+      "batch_id": "us-system1-xmas-2026-apple-consumer__20261122T195939590248Z__s2685",
+      "locked_at": "2026-11-22T19:59:39Z"
+    }
+  ]
+}

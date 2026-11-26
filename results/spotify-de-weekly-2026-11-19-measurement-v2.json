@@ -14,7 +14,7 @@
     "terms": []
   },
   "summary": {
-    "research-1": {
+    "mosaic": {
       "items": 1,
       "tvd": 0.350624,
       "mae_pp": 6.374979
@@ -22,7 +22,7 @@
   },
   "summary_by_evidence_type": {
     "behaviour": {
-      "research-1": {
+      "mosaic": {
         "overall": {
           "n": 1,
           "n_distribution": 1,
@@ -43,7 +43,7 @@
     {
       "entry_id": "spotify-de-weekly-2026-11-19-measurement-v2__top10_volume_share__overall__r1",
       "entry_sha256": "2b91bde62960adaea7a7565238bcc8cd21e4ff1f0f27308112bb771d9a2f34d5",
-      "variant": "research-1",
+      "variant": "mosaic",
       "question_id": "top10_volume_share",
       "group_id": "overall",
       "counted": true,

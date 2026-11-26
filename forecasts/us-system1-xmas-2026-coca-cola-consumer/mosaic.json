@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-coca-cola-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-coca-cola-consumer__feeling__overall__r1",
+      "entry_sha256": "39205b14bcc9b97018fec63bbc2aada5203bd17f50b740ad867846c487c3d28e",
+      "seq": 2691,
+      "batch_id": "us-system1-xmas-2026-coca-cola-consumer__20261122T200235508373Z__s2691",
+      "locked_at": "2026-11-22T20:02:35Z"
+    }
+  ]
+}

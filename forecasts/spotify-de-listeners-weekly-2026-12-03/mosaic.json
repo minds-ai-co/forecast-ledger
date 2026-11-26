@@ -1,0 +1,17 @@
+{
+  "target_id": "spotify-de-listeners-weekly-2026-12-03",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "spotify-de-listeners-weekly-2026-12-03__top10_volume_share__overall__r1",
+      "entry_sha256": "60ae342dd0ca54fb5309910e0b6d0e25a2072b69818407a50886548e371f2291",
+      "seq": 2663,
+      "batch_id": "spotify-de-listeners-weekly-2026-12-03__20261122T193726404146Z__s2663",
+      "locked_at": "2026-11-22T19:37:26Z"
+    }
+  ]
+}

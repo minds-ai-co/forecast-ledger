@@ -30,6 +30,10 @@
       "label": "Health"
     },
     {
+      "id": "Music",
+      "label": "Music"
+    },
+    {
       "id": "Politics",
       "label": "Politics"
     },
@@ -41,7 +45,7 @@
   "charts": {
     "all": {
       "label": "All topics",
-      "surveys": 43,
+      "surveys": 46,
       "target_ids": [
         "at-ec-ipsos-consumer-survey-2026-10",
         "ch-gfsbern-srgtrend-2026-11-04",
@@ -74,6 +78,9 @@
         "global-netflix-top10-english-2026-11-01",
         "global-steam-weekly-topsellers-2026-11-10",
         "jp-esri-consumer-confidence-2026-10",
+        "netflix-global-english-films-2026-11-22-measurement-v2",
+        "spotify-de-weekly-2026-11-19-measurement-v2",
+        "spotify-us-weekly-2026-11-19-measurement-v2",
         "us-boxoffice-weekend-2026-11-06",
         "us-census-htops-2609-healthinfo",
         "us-census-htops-2609-trust-a",
@@ -87,7 +94,7 @@
         "us-reuters-ipsos-2026-10-26",
         "us-voter-poll-ssrs-2026"
       ],
-      "counts": "43 surveys; Behaviour 8, Attitude 27, Stated intent 24",
+      "counts": "46 surveys; Behaviour 11, Attitude 27, Stated intent 24",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -211,13 +218,19 @@
                   "id": "2026-11-21",
                   "x": 20778,
                   "label": "21 Nov",
-                  "value": 0.063239
+                  "value": 0.072696
                 },
                 {
                   "id": "2026-11-23",
                   "x": 20780,
                   "label": "23 Nov",
-                  "value": 0.06267
+                  "value": 0.071942
+                },
+                {
+                  "id": "2026-11-25",
+                  "x": 20782,
+                  "label": "25 Nov",
+                  "value": 0.092117
                 }
               ],
               "emphasis": "primary"
@@ -302,13 +315,19 @@
                   "id": "2026-11-21",
                   "x": 20778,
                   "label": "21 Nov",
-                  "value": 0.214388
+                  "value": 0.22577
                 },
                 {
                   "id": "2026-11-23",
                   "x": 20780,
                   "label": "23 Nov",
-                  "value": 0.214388
+                  "value": 0.22577
+                },
+                {
+                  "id": "2026-11-25",
+                  "x": 20782,
+                  "label": "25 Nov",
+                  "value": 0.296155
                 }
               ]
             },
@@ -429,6 +448,12 @@
                   "x": 20780,
                   "label": "23 Nov",
                   "value": 0.031343
+                },
+                {
+                  "id": "2026-11-25",
+                  "x": 20782,
+                  "label": "25 Nov",
+                  "value": 0.031343
                 }
               ]
             },
@@ -548,6 +573,12 @@
                   "id": "2026-11-23",
                   "x": 20780,
                   "label": "23 Nov",
+                  "value": 0.024022
+                },
+                {
+                  "id": "2026-11-25",
+                  "x": 20782,
+                  "label": "25 Nov",
                   "value": 0.024022
                 }
               ]
@@ -771,14 +802,15 @@
     },
     "Film & TV": {
       "label": "Film & TV",
-      "surveys": 4,
+      "surveys": 5,
       "target_ids": [
         "de-netflix-top10-2026-11-01",
         "gb-netflix-top10-2026-11-01",
         "global-netflix-top10-english-2026-11-01",
+        "netflix-global-english-films-2026-11-22-measurement-v2",
         "us-boxoffice-weekend-2026-11-06"
       ],
-      "counts": "4 surveys; Behaviour 4",
+      "counts": "5 surveys; Behaviour 5",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -788,7 +820,7 @@
           "unit": "number",
           "scaleRange": [
             0,
-            0.4
+            0.6
           ],
           "data": [],
           "series": [
@@ -807,6 +839,12 @@
                   "x": 20778,
                   "label": "21 Nov",
                   "value": 0.325691
+                },
+                {
+                  "id": "2026-11-25",
+                  "x": 20782,
+                  "label": "25 Nov",
+                  "value": 0.460553
                 }
               ],
               "emphasis": "primary"
@@ -826,6 +864,12 @@
                   "x": 20778,
                   "label": "21 Nov",
                   "value": 0.325691
+                },
+                {
+                  "id": "2026-11-25",
+                  "x": 20782,
+                  "label": "25 Nov",
+                  "value": 0.460553
                 }
               ]
             }
@@ -931,6 +975,59 @@
                   "x": 20769,
                   "label": "12 Nov",
                   "value": 0.020718
+                }
+              ]
+            }
+          ],
+          "highlightedSeriesId": "combined",
+          "xLabel": "Result release date (UTC)",
+          "yLabel": "Average error so far (TVD)"
+        }
+      }
+    },
+    "Music": {
+      "label": "Music",
+      "surveys": 2,
+      "target_ids": [
+        "spotify-de-weekly-2026-11-19-measurement-v2",
+        "spotify-us-weekly-2026-11-19-measurement-v2"
+      ],
+      "counts": "2 surveys; Behaviour 2",
+      "props": {
+        "locale": "en-GB",
+        "missingValueLabel": "no surveys yet",
+        "chart": {
+          "kind": "line",
+          "label": "",
+          "unit": "number",
+          "scaleRange": [
+            0,
+            0.32
+          ],
+          "data": [],
+          "series": [
+            {
+              "id": "combined",
+              "label": "Combined",
+              "data": [
+                {
+                  "id": "2026-11-21",
+                  "x": 20778,
+                  "label": "21 Nov",
+                  "value": 0.2713
+                }
+              ],
+              "emphasis": "primary"
+            },
+            {
+              "id": "behaviour",
+              "label": "Behaviour",
+              "data": [
+                {
+                  "id": "2026-11-21",
+                  "x": 20778,
+                  "label": "21 Nov",
+                  "value": 0.2713
                 }
               ]
             }

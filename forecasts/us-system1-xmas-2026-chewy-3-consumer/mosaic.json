@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-chewy-3-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-chewy-3-consumer__feeling__overall__r1",
+      "entry_sha256": "054851802416ee7e88dad99537034a3e91705ba86fcfc4f85077b8232ba943fe",
+      "seq": 2677,
+      "batch_id": "us-system1-xmas-2026-chewy-3-consumer__20261122T194603333778Z__s2677",
+      "locked_at": "2026-11-22T19:46:03Z"
+    }
+  ]
+}
