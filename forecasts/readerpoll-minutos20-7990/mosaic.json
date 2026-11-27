@@ -1,0 +1,17 @@
+{
+  "target_id": "readerpoll-minutos20-7990",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "readerpoll-minutos20-7990__poll__overall__r1",
+      "entry_sha256": "740a0efec3b15e7cc7c80542cdf7f0faad5d8bee42355ce741fc422a9e391a11",
+      "seq": 3008,
+      "batch_id": "readerpoll-minutos20-7990__20261127T110730749124Z__s3008",
+      "locked_at": "2026-11-27T11:07:30Z"
+    }
+  ]
+}

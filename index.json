@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T08:21:29Z",
+  "as_of": "2026-11-27T11:07:45Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T08:21:15Z",
-  "chain_head_sha256": "10d9731b23ce0cea71f45ddfeee231c6c056754c15c3bca9d1876af992fc03fc",
+  "latest_event_at": "2026-11-27T11:07:30Z",
+  "chain_head_sha256": "5d26d2d4410fc7e39319955e5e138469de7e12d190771ad45c5ee072c9596314",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 167,
+    "targets": 169,
     "targets_scored": 55,
-    "targets_pending": 109,
+    "targets_pending": 111,
     "targets_not_scoreable": 3,
-    "entries": 2980,
-    "batches": 391,
+    "entries": 3003,
+    "batches": 394,
     "entries_scored": 1328,
-    "entries_pending": 1415,
+    "entries_pending": 1438,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 940,
+    "forecasts_locked": 952,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -124,7 +124,7 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 777,
+        "forecasts_locked": 788,
         "scored": {
           "surveys": 42,
           "questions": 158,
@@ -265,8 +265,8 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2395,
-    "stated_intent": 472,
+    "attitude": 2414,
+    "stated_intent": 476,
     "behaviour": 113
   },
   "results_by_evidence_type": {
@@ -22722,6 +22722,126 @@
       ]
     },
     {
+      "target_id": "ee-ec-consumer-survey-2026-12",
+      "survey": "European Commission Joint Harmonised Consumer Survey, Estonia (fieldwork Statistics Estonia), monthly questions, December 2026",
+      "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); Estonia partner institute Statistics Estonia",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/european-commission.png",
+          "alt": "European Commission",
+          "width": 180,
+          "height": 180
+        }
+      ],
+      "display": {
+        "label": "Consumer Confidence",
+        "country": "Country not specified",
+        "country_code": "ee",
+        "topic": "Economy",
+        "source": "European Commission",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
+      "audience": {
+        "sample": "Statistics Estonia monthly consumer survey (online (CAWI)) of persons aged 18 and over in Estonia, conducted for the European Commission (DG ECFIN) Joint Harmonised EU Consumer Survey; December 2026 wave",
+        "n": 954,
+        "field_period": "December 2026 round, starting 1 December 2026 (Statistics Estonia, 25 Nov 2026); usual end the 14th of the reference month (EC metadata)",
+        "composition": [
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.465
+              },
+              {
+                "label": "Female",
+                "share": 0.535
+              }
+            ]
+          },
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-29",
+                "share": 0.151
+              },
+              {
+                "label": "30-49",
+                "share": 0.353
+              },
+              {
+                "label": "50-64",
+                "share": 0.238
+              },
+              {
+                "label": "65+",
+                "share": 0.258
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "Country not specified adults"
+      },
+      "wave": "December 2026 Estonia consumer survey wave; EC release of country answer shares expected late December 2026",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude",
+        "stated_intent"
+      ],
+      "cutoff_utc": "2026-11-30T22:00:00Z",
+      "first_lock_utc": "2026-11-27T10:15:45Z",
+      "released_at": null,
+      "publication_url": "https://economy-finance.ec.europa.eu/economic-forecast-and-surveys/business-and-consumer-surveys/download-business-and-consumer-survey-data/time-series_en",
+      "forecasts_count": 22,
+      "variants": [
+        "research-1",
+        "mosaic"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/ee-ec-consumer-survey-2026-12/research-1.json",
+        "mosaic": "forecasts/ee-ec-consumer-survey-2026-12/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "ee-ec-consumer-survey-2026-12__anchored3__20261127T101545191272Z__s2986",
+          "locked_at": "2026-11-27T10:15:45Z",
+          "entries": 11,
+          "merkle_root": "831a1a4162243118c8f528f41117840b658e7bb63d0fa3692f22ee348e646888",
+          "manifest": "proofs/batches/ee-ec-consumer-survey-2026-12__anchored3__20261127T101545191272Z__s2986.json",
+          "manifest_sha256": "7942588247b9ab49ccd5c88cf0f42f3d8d2e4497abbc585baf42d3e60031d3ee",
+          "ots_proof": "proofs/batches/ee-ec-consumer-survey-2026-12__anchored3__20261127T101545191272Z__s2986.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "ee-ec-consumer-survey-2026-12__20261127T101751171301Z__s2997",
+          "locked_at": "2026-11-27T10:17:51Z",
+          "entries": 11,
+          "merkle_root": "6836272c6102a4f6b52e91bb4ec2f2985beb5e4c7736d141c51c73a257fbd71c",
+          "manifest": "proofs/batches/ee-ec-consumer-survey-2026-12__20261127T101751171301Z__s2997.json",
+          "manifest_sha256": "0f26ba0b557079bb09b17d25a6e203ee104737e6fd7f2489149331bb795d5fb5",
+          "ots_proof": "proofs/batches/ee-ec-consumer-survey-2026-12__20261127T101751171301Z__s2997.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "readerpoll-yahoo-jp-77527",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
@@ -23573,6 +23693,73 @@
       ]
     },
     {
+      "target_id": "readerpoll-minutos20-7990",
+      "survey": "20minutos reader poll",
+      "publisher": "20minutos",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/20minutos.png",
+          "alt": "20minutos",
+          "width": 192,
+          "height": 192
+        }
+      ],
+      "display": {
+        "label": "20minutos Reader Poll",
+        "country": "Spain",
+        "country_code": "es",
+        "topic": "Society",
+        "source": "20minutos",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "20minutos readers voting in its online polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-27",
+        "composition": [],
+        "subgroups": [],
+        "label": "20minutos readers"
+      },
+      "wave": "Poll 7990, opened 2026-11-27",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-04T10:26:00Z",
+      "first_lock_utc": "2026-11-27T11:07:30Z",
+      "released_at": null,
+      "publication_url": "https://www.20minutos.es/deportes/encuesta-hace-bien-marc-marquez-retirarse-tras-ganar-su-decimo-mundial_7990_7.html",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-minutos20-7990/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-minutos20-7990__20261127T110730749124Z__s3008",
+          "locked_at": "2026-11-27T11:07:30Z",
+          "entries": 1,
+          "merkle_root": "1c2a4eb5c92c2504cd861583626c63905881fed907bd607f51de0c94bb3e81d0",
+          "manifest": "proofs/batches/readerpoll-minutos20-7990__20261127T110730749124Z__s3008.json",
+          "manifest_sha256": "988cc9142eda0886932c49b61f43d63b7a119aaf3d9c2f2cfcf32450aaeced6f",
+          "ots_proof": "proofs/batches/readerpoll-minutos20-7990__20261127T110730749124Z__s3008.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "netflix-global-english-films-2026-12-13-rolling-v3",
       "survey": "Netflix global English films (volume shares; measurement v2)",
       "publisher": "Netflix Tudum",
@@ -24159,8 +24346,8 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-26T21:33:02+00:00",
-    "checked_at": "2026-11-27T08:05:06.398937+00:00",
+    "source_generated_at": "2026-11-27T08:28:33+00:00",
+    "checked_at": "2026-11-27T11:05:36.910883+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
