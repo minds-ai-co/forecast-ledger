@@ -1,0 +1,17 @@
+{
+  "target_id": "readerpoll-gamefaqs-10480",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "readerpoll-gamefaqs-10480__poll__overall__r1",
+      "entry_sha256": "5a646dfbd59efb6ad59727645214dfb3f488123db620c3d57b468e7a82901821",
+      "seq": 2978,
+      "batch_id": "readerpoll-gamefaqs-10480__20261127T050716673168Z__s2978",
+      "locked_at": "2026-11-27T05:07:16Z"
+    }
+  ]
+}

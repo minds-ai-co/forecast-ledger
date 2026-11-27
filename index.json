@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T01:07:44Z",
+  "as_of": "2026-11-27T05:07:47Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T01:07:35Z",
-  "chain_head_sha256": "59bc1f7fc62d1c504c401d88d18157cf6cd180e9468e71df635a17044345a03a",
+  "latest_event_at": "2026-11-27T05:07:16Z",
+  "chain_head_sha256": "7717a3dc6e377e670408f08048aa995ee0daefb80ab1576b5f2001cd5ee3ccaf",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 159,
+    "targets": 160,
     "targets_scored": 54,
-    "targets_pending": 102,
+    "targets_pending": 103,
     "targets_not_scoreable": 3,
-    "entries": 2972,
-    "batches": 383,
+    "entries": 2973,
+    "batches": 384,
     "entries_scored": 1327,
-    "entries_pending": 1408,
+    "entries_pending": 1409,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 932,
+    "forecasts_locked": 933,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2390,
+    "attitude": 2391,
     "stated_intent": 472,
     "behaviour": 110
   },
@@ -22129,6 +22129,66 @@
       ]
     },
     {
+      "target_id": "readerpoll-gamefaqs-10480",
+      "survey": "GameFAQs Poll of the Day",
+      "publisher": "GameFAQs (GameSpot)",
+      "source_logos": [],
+      "display": {
+        "label": "GameFAQs Poll of the Day",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Gaming",
+        "source": "GameFAQs",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "GameFAQs Poll of the Day voters (self-selected one-click online poll; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-27",
+        "composition": [],
+        "subgroups": [],
+        "label": "GameFAQs voters"
+      },
+      "wave": "Poll 10480, opened 2026-11-27",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-28T05:00:00Z",
+      "first_lock_utc": "2026-11-27T05:07:16Z",
+      "released_at": null,
+      "publication_url": "https://gamefaqs.gamespot.com/poll/10480-x",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-gamefaqs-10480/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-gamefaqs-10480__20261127T050716673168Z__s2978",
+          "locked_at": "2026-11-27T05:07:16Z",
+          "entries": 1,
+          "merkle_root": "7d0efcea96c270c4a8b361de300afc40a7c3c28a048bcb7328b84b52ed23b263",
+          "manifest": "proofs/batches/readerpoll-gamefaqs-10480__20261127T050716673168Z__s2978.json",
+          "manifest_sha256": "3a25b40a192ceb781b4842d64318162386b177d8a795dbd3934df01e99469649",
+          "ots_proof": "proofs/batches/readerpoll-gamefaqs-10480__20261127T050716673168Z__s2978.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "netflix-global-english-films-2026-12-06-rolling-v3",
       "survey": "Netflix global English films (volume shares; measurement v2)",
       "publisher": "Netflix Tudum",
@@ -23390,7 +23450,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-26T21:33:02+00:00",
-    "checked_at": "2026-11-27T01:05:38.149599+00:00",
+    "checked_at": "2026-11-27T05:05:36.908016+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
