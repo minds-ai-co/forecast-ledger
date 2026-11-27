@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T06:23:52Z",
+  "as_of": "2026-11-27T07:50:28Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T06:23:19Z",
-  "chain_head_sha256": "aaa70150708c1fbb82c382dce3e29865366cd16e0ab48fc6fce5a796f59e7ae4",
+  "latest_event_at": "2026-11-27T07:50:23Z",
+  "chain_head_sha256": "195b027454d54276eb104f551133d9f07131bf525941f8e94bc6cd7f8b212368",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 163,
+    "targets": 166,
     "targets_scored": 55,
-    "targets_pending": 105,
+    "targets_pending": 108,
     "targets_not_scoreable": 3,
-    "entries": 2976,
-    "batches": 387,
+    "entries": 2979,
+    "batches": 390,
     "entries_scored": 1328,
-    "entries_pending": 1411,
+    "entries_pending": 1414,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 936,
+    "forecasts_locked": 939,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -267,7 +267,7 @@
   "counts_by_evidence_type": {
     "attitude": 2394,
     "stated_intent": 472,
-    "behaviour": 110
+    "behaviour": 113
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -23590,6 +23590,250 @@
       ]
     },
     {
+      "target_id": "spotify-de-listeners-weekly-2026-12-17",
+      "survey": "Spotify DE weekly top ten (volume shares), simulated with the listeners' published makeup",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
+      "display": {
+        "label": "Music Streams",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "audience": {
+        "sample": "Spotify chart-eligible streams in Germany, by the people who stream them",
+        "n": null,
+        "field_period": "2026-12-11 to 2026-12-17",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "10-19",
+                "share": 0.1584
+              },
+              {
+                "label": "20-29",
+                "share": 0.1683
+              },
+              {
+                "label": "30-39",
+                "share": 0.198
+              },
+              {
+                "label": "40-49",
+                "share": 0.1881
+              },
+              {
+                "label": "50-59",
+                "share": 0.1683
+              },
+              {
+                "label": "60+",
+                "share": 0.1188
+              }
+            ]
+          },
+          {
+            "label": "Gender",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.5
+              },
+              {
+                "label": "Female",
+                "share": 0.5
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "German Spotify listeners"
+      },
+      "wave": "2026-12-17",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-12-10T23:00:00Z",
+      "first_lock_utc": "2026-11-27T07:50:23Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/spotify-de-listeners-weekly-2026-12-17/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-de-listeners-weekly-2026-12-17__20261127T075023896837Z__s2984",
+          "locked_at": "2026-11-27T07:50:23Z",
+          "entries": 1,
+          "merkle_root": "ef3d185b0350aa2aee297479a3df501216630d0b222fcff8d1269e1939a4705b",
+          "manifest": "proofs/batches/spotify-de-listeners-weekly-2026-12-17__20261127T075023896837Z__s2984.json",
+          "manifest_sha256": "b9267ca736a34761d34dcf8862cf5559ad65413a03efc09de01a966586aeeb59",
+          "ots_proof": "proofs/batches/spotify-de-listeners-weekly-2026-12-17__20261127T075023896837Z__s2984.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "spotify-de-weekly-2026-12-17-rolling-v3",
+      "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
+      "display": {
+        "label": "Music Streams",
+        "country": "Germany",
+        "country_code": "de",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "audience": {
+        "sample": "Spotify chart-eligible streams in DE",
+        "n": null,
+        "field_period": "2026-12-11 to 2026-12-17",
+        "composition": [],
+        "subgroups": [],
+        "label": "German Spotify listeners"
+      },
+      "wave": "2026-12-17",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-12-10T23:00:00Z",
+      "first_lock_utc": "2026-11-27T07:47:16Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/spotify-de-weekly-2026-12-17-rolling-v3/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-de-weekly-2026-12-17-rolling-v3__20261127T074716536577Z__s2982",
+          "locked_at": "2026-11-27T07:47:16Z",
+          "entries": 1,
+          "merkle_root": "ef495af81f947ecf07e61f3afa16fbfc76270392b6010fba5ce618bb5a53505e",
+          "manifest": "proofs/batches/spotify-de-weekly-2026-12-17-rolling-v3__20261127T074716536577Z__s2982.json",
+          "manifest_sha256": "cf33217d6b782723815f76c724fac40d640e1adac893361c452d6c9f9bbf1b89",
+          "ots_proof": "proofs/batches/spotify-de-weekly-2026-12-17-rolling-v3__20261127T074716536577Z__s2982.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "spotify-us-weekly-2026-12-17-rolling-v3",
+      "survey": "Spotify US weekly top ten (volume shares; measurement v2)",
+      "publisher": "Spotify Charts via Kworb mirror",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/spotify.png",
+          "alt": "Spotify",
+          "width": 939,
+          "height": 940
+        }
+      ],
+      "display": {
+        "label": "Music Streams",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Music",
+        "source": "Spotify",
+        "categories": [
+          "Behaviour"
+        ]
+      },
+      "audience": {
+        "sample": "Spotify chart-eligible streams in US",
+        "n": null,
+        "field_period": "2026-12-11 to 2026-12-17",
+        "composition": [],
+        "subgroups": [],
+        "label": "US Spotify listeners"
+      },
+      "wave": "2026-12-17",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-12-10T23:00:00Z",
+      "first_lock_utc": "2026-11-27T07:50:08Z",
+      "released_at": null,
+      "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/spotify-us-weekly-2026-12-17-rolling-v3/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "spotify-us-weekly-2026-12-17-rolling-v3__20261127T075008531844Z__s2983",
+          "locked_at": "2026-11-27T07:50:08Z",
+          "entries": 1,
+          "merkle_root": "76614fd0038b309b432ca7fa57690417413f65637d0d8c1a96b36bb2e832f1c7",
+          "manifest": "proofs/batches/spotify-us-weekly-2026-12-17-rolling-v3__20261127T075008531844Z__s2983.json",
+          "manifest_sha256": "6c069f674e3068cf6dd51ad7096cc55f9a095a815e7fb16fa4a1d16ff6e4aeb6",
+          "ots_proof": "proofs/batches/spotify-us-weekly-2026-12-17-rolling-v3__20261127T075008531844Z__s2983.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "readerpoll-androidauthority-3739463",
       "survey": "Android Authority reader poll",
       "publisher": "Android Authority",
@@ -23806,7 +24050,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-26T21:33:02+00:00",
-    "checked_at": "2026-11-27T06:05:33.902748+00:00",
+    "checked_at": "2026-11-27T07:05:09.654416+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
