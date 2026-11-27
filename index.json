@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T14:33:49Z",
+  "as_of": "2026-11-27T18:22:37Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T11:07:30Z",
-  "chain_head_sha256": "5d26d2d4410fc7e39319955e5e138469de7e12d190771ad45c5ee072c9596314",
+  "latest_event_at": "2026-11-27T18:22:32Z",
+  "chain_head_sha256": "b6b7c84f35c8206b5358ed7039805c05830dce493ead3b863761b8f5d4dfbcbf",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 169,
+    "targets": 173,
     "targets_scored": 55,
-    "targets_pending": 111,
+    "targets_pending": 115,
     "targets_not_scoreable": 3,
-    "entries": 3003,
-    "batches": 394,
+    "entries": 3009,
+    "batches": 400,
     "entries_scored": 1328,
-    "entries_pending": 1438,
+    "entries_pending": 1444,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 952,
+    "forecasts_locked": 956,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -124,7 +124,7 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 788,
+        "forecasts_locked": 790,
         "scored": {
           "surveys": 42,
           "questions": 158,
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2414,
+    "attitude": 2420,
     "stated_intent": 476,
     "behaviour": 113
   },
@@ -22771,6 +22771,428 @@
       ]
     },
     {
+      "target_id": "gb-system1-xmas-2026-disney",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Disney \"The Magic of the Holidays With Disney | Official Compilation\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Disney Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Panel of UK advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the UK ad after its release on 27 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "UK ad experts"
+      },
+      "wave": "Christmas 2026 (Disney, released 2026-11-27 18:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-29T18:00:38Z",
+      "first_lock_utc": "2026-11-27T18:21:09Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "research-1",
+        "mosaic"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/gb-system1-xmas-2026-disney/research-1.json",
+        "mosaic": "forecasts/gb-system1-xmas-2026-disney/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-disney__20261127T182109643455Z__s3009",
+          "locked_at": "2026-11-27T18:21:09Z",
+          "entries": 1,
+          "merkle_root": "86c58a9a8bfe358ec8afbb983dbfaa127d661b985b8ce6c004dda145012f33b7",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-disney__20261127T182109643455Z__s3009.json",
+          "manifest_sha256": "72e51cfa7dacb8fff2b989468e1a5a90a0b896931401e36f79bdb321a757e21e",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-disney__20261127T182109643455Z__s3009.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "gb-system1-xmas-2026-disney__anchored3__20261127T182122869705Z__s3010",
+          "locked_at": "2026-11-27T18:21:22Z",
+          "entries": 1,
+          "merkle_root": "82e36816024f58327f71fade94164cc73b921be3fa30266bde9e7948a01fdeb8",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-disney__anchored3__20261127T182122869705Z__s3010.json",
+          "manifest_sha256": "baa041d80f85626b4de5d39aabdad9a8c41305c0c6dfec2bdd74fa967debf8d1",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-disney__anchored3__20261127T182122869705Z__s3010.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-disney-consumer",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Disney \"The Magic of the Holidays With Disney | Official Compilation\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Disney Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "UK adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: ONS mid-2025 population estimates, UK, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the UK ad after its release on 27 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.104
+              },
+              {
+                "label": "25-34",
+                "share": 0.1673
+              },
+              {
+                "label": "35-44",
+                "share": 0.1698
+              },
+              {
+                "label": "45-54",
+                "share": 0.1539
+              },
+              {
+                "label": "55-64",
+                "share": 0.1624
+              },
+              {
+                "label": "65+",
+                "share": 0.2426
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4841
+              },
+              {
+                "label": "Female",
+                "share": 0.5159
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "UK adults"
+      },
+      "wave": "Christmas 2026 (Disney, released 2026-11-27 18:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-29T18:00:38Z",
+      "first_lock_utc": "2026-11-27T18:21:34Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/gb-system1-xmas-2026-disney-consumer/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-disney-consumer__20261127T182134999496Z__s3011",
+          "locked_at": "2026-11-27T18:21:34Z",
+          "entries": 1,
+          "merkle_root": "e3fce7c1a45cd64e41a73d79941276558dcc82e8e6a924e57c051b844295e3df",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-disney-consumer__20261127T182134999496Z__s3011.json",
+          "manifest_sha256": "4dea790a8bc89c9de21ed50c57747d974d15b48fb42c526ce2ee6185ae04326d",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-disney-consumer__20261127T182134999496Z__s3011.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-disney",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Disney \"The Magic of the Holidays With Disney | Official Compilation\"",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Disney Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Panel of US advertising effectiveness researchers, brand strategists and media planners, each asked for their best single estimate of the published figure",
+        "n": 300,
+        "field_period": "System1 test of the US ad after its release on 27 Nov 2026",
+        "composition": [
+          {
+            "label": "Panel role (design)",
+            "values": [
+              {
+                "label": "Advertising effectiveness researchers",
+                "share": 0.4
+              },
+              {
+                "label": "Brand strategists",
+                "share": 0.35
+              },
+              {
+                "label": "Media planners",
+                "share": 0.25
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US ad experts"
+      },
+      "wave": "Christmas 2026 (Disney, released 2026-11-27 18:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-29T18:00:38Z",
+      "first_lock_utc": "2026-11-27T18:22:03Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 2,
+      "variants": [
+        "research-1",
+        "mosaic"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-system1-xmas-2026-disney/research-1.json",
+        "mosaic": "forecasts/us-system1-xmas-2026-disney/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-disney__20261127T182203424784Z__s3012",
+          "locked_at": "2026-11-27T18:22:03Z",
+          "entries": 1,
+          "merkle_root": "0b695807739b48e2c92a692f31c163d903369654453528d5aab0f97176b65e3b",
+          "manifest": "proofs/batches/us-system1-xmas-2026-disney__20261127T182203424784Z__s3012.json",
+          "manifest_sha256": "8ce4ad1986eeebe6946e45490a2a5a988a6a41b8936259c091885e873c4f9b98",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-disney__20261127T182203424784Z__s3012.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-system1-xmas-2026-disney__anchored3__20261127T182221605393Z__s3013",
+          "locked_at": "2026-11-27T18:22:21Z",
+          "entries": 1,
+          "merkle_root": "ae1dfa6335a01bf3bdfe9a8552c5dda8516fb399b929becdd7ee68ed84674ef0",
+          "manifest": "proofs/batches/us-system1-xmas-2026-disney__anchored3__20261127T182221605393Z__s3013.json",
+          "manifest_sha256": "f245cb658fb73648693133ff7c9dce89633316679536d6dd23b57e1e966392a5",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-disney__anchored3__20261127T182221605393Z__s3013.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-disney-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Disney \"The Magic of the Holidays With Disney | Official Compilation\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Disney Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 27 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Disney, released 2026-11-27 18:00Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-29T18:00:38Z",
+      "first_lock_utc": "2026-11-27T18:22:32Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/us-system1-xmas-2026-disney-consumer/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-disney-consumer__20261127T182232206693Z__s3014",
+          "locked_at": "2026-11-27T18:22:32Z",
+          "entries": 1,
+          "merkle_root": "46a7ce6ac24413cfbd547236664c0adb98fb40881936d40dd30caab2c844181a",
+          "manifest": "proofs/batches/us-system1-xmas-2026-disney-consumer__20261127T182232206693Z__s3014.json",
+          "manifest_sha256": "86fa4a9e15c48554de92d5efaa7aa32e1b8c7f579a1b1d8dc9da482100d0941e",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-disney-consumer__20261127T182232206693Z__s3014.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "ee-ec-consumer-survey-2026-12",
       "survey": "European Commission Joint Harmonised Consumer Survey, Estonia (fieldwork Statistics Estonia), monthly questions, December 2026",
       "publisher": "European Commission, DG ECFIN (Business and Consumer Surveys); Estonia partner institute Statistics Estonia",
@@ -24473,7 +24895,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-27T08:28:33+00:00",
-    "checked_at": "2026-11-27T14:05:31.655526+00:00",
+    "checked_at": "2026-11-27T18:05:12.660200+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {

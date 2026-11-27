@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-disney",
+  "variant": "research-1",
+  "variant_label": "Additional research forecast 1",
+  "arm": "additional_research",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-disney__star_rating__overall__r1",
+      "entry_sha256": "dd899c09670a6351a59585a726d0c4576336ff5ade682648c156b51a1cab8320",
+      "seq": 3009,
+      "batch_id": "gb-system1-xmas-2026-disney__20261127T182109643455Z__s3009",
+      "locked_at": "2026-11-27T18:21:09Z"
+    }
+  ]
+}

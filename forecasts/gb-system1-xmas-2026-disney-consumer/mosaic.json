@@ -1,0 +1,17 @@
+{
+  "target_id": "gb-system1-xmas-2026-disney-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "gb-system1-xmas-2026-disney-consumer__feeling__overall__r1",
+      "entry_sha256": "aab83645b3af2672d043be492f6b3420a2e2b6ced0104d9bf75a96f2354832ec",
+      "seq": 3011,
+      "batch_id": "gb-system1-xmas-2026-disney-consumer__20261127T182134999496Z__s3011",
+      "locked_at": "2026-11-27T18:21:34Z"
+    }
+  ]
+}
