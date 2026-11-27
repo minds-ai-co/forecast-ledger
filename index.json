@@ -1,6 +1,6 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T11:07:45Z",
+  "as_of": "2026-11-27T14:33:49Z",
   "model": "Minds Mosaic",
   "latest_event_at": "2026-11-27T11:07:30Z",
   "chain_head_sha256": "5d26d2d4410fc7e39319955e5e138469de7e12d190771ad45c5ee072c9596314",
@@ -7352,7 +7352,14 @@
       "target_id": "us-nyfed-sce-2026-11-01",
       "survey": "Federal Reserve Bank of New York Survey of Consumer Expectations (monthly core survey), household finance and credit access questions",
       "publisher": "Federal Reserve Bank of New York, Center for Microeconomic Data",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/nyfed.png",
+          "alt": "Federal Reserve Bank of New York",
+          "width": 576,
+          "height": 573
+        }
+      ],
       "display": {
         "label": "Household Finances",
         "country": "United States",
@@ -8359,7 +8366,14 @@
       "target_id": "fr-ifop-popularite-2026-11-04",
       "survey": "Ifop-Endrix pour L'Opinion, Les indices de popularité (Baromètre Ifop Opinion; monthly satisfaction with the President and the Prime Minister, successor of the Ifop/JDD index)",
       "publisher": "Ifop (Ifop Opinion) with Endrix for L'Opinion",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ifop.png",
+          "alt": "Ifop",
+          "width": 500,
+          "height": 500
+        }
+      ],
       "display": {
         "label": "Political Approval",
         "country": "France",
@@ -9791,7 +9805,14 @@
       "target_id": "de-gms-2026-11",
       "survey": "GMS (Gesellschaft für Markt- und Sozialforschung) Sonntagsfrage",
       "publisher": "GMS Dr. Jung GmbH (Gesellschaft für Markt- und Sozialforschung), Hamburg",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/gms.png",
+          "alt": "GMS Dr. Jung",
+          "width": 192,
+          "height": 192
+        }
+      ],
       "display": {
         "label": "Voting Intentions",
         "country": "Germany",
@@ -21325,7 +21346,14 @@
       "target_id": "ea-ecb-ces-2026-12",
       "survey": "ECB Consumer Expectations Survey (CES), euro area, December 2026 wave",
       "publisher": "European Central Bank",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ecb.png",
+          "alt": "European Central Bank",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "display": {
         "label": "ECB Consumer Expectations Survey",
         "country": "Euro area",
@@ -21442,7 +21470,14 @@
       "target_id": "ea-ecb-ces-2026-12-numeric",
       "survey": "ECB Consumer Expectations Survey (CES), euro area, December 2026 wave (numeric expectations: inflation and unemployment rate 12 months ahead)",
       "publisher": "European Central Bank",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/ecb.png",
+          "alt": "European Central Bank",
+          "width": 152,
+          "height": 152
+        }
+      ],
       "display": {
         "label": "ECB Consumer Expectations Survey",
         "country": "Euro area",
@@ -22072,7 +22107,14 @@
       "target_id": "readerpoll-gamefaqs-10479",
       "survey": "GameFAQs Poll of the Day",
       "publisher": "GameFAQs (GameSpot)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/gamefaqs.png",
+          "alt": "GameFAQs",
+          "width": 180,
+          "height": 50
+        }
+      ],
       "display": {
         "label": "GameFAQs Poll of the Day",
         "country": "United States",
@@ -22598,7 +22640,14 @@
       "target_id": "readerpoll-gamefaqs-10480",
       "survey": "GameFAQs Poll of the Day",
       "publisher": "GameFAQs (GameSpot)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/gamefaqs.png",
+          "alt": "GameFAQs",
+          "width": 180,
+          "height": 50
+        }
+      ],
       "display": {
         "label": "GameFAQs Poll of the Day",
         "country": "United States",
@@ -22845,7 +22894,14 @@
       "target_id": "readerpoll-yahoo-jp-77527",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -22905,7 +22961,14 @@
       "target_id": "readerpoll-yahoo-jp-77530",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -22965,7 +23028,14 @@
       "target_id": "readerpoll-yahoo-jp-77533",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -23025,7 +23095,14 @@
       "target_id": "readerpoll-yahoo-jp-77536",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -23085,7 +23162,14 @@
       "target_id": "readerpoll-yahoo-jp-77542",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -23279,7 +23363,14 @@
       "target_id": "readerpoll-yahoo-jp-77557",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -23339,7 +23430,14 @@
       "target_id": "readerpoll-yahoo-jp-77560",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -23399,7 +23497,14 @@
       "target_id": "readerpoll-yahoo-jp-77566",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -23459,7 +23564,14 @@
       "target_id": "readerpoll-yahoo-jp-77569",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -23830,7 +23942,14 @@
       "target_id": "readerpoll-yahoo-jp-77563",
       "survey": "Yahoo! News Japan poll",
       "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
       "display": {
         "label": "Yahoo! News Japan Poll",
         "country": "Japan",
@@ -24134,7 +24253,14 @@
       "target_id": "readerpoll-androidauthority-3739463",
       "survey": "Android Authority reader poll",
       "publisher": "Android Authority",
-      "source_logos": [],
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/android-authority.png",
+          "alt": "Android Authority",
+          "width": 48,
+          "height": 48
+        }
+      ],
       "display": {
         "label": "Android Authority Reader Poll",
         "country": "Global",
@@ -24347,7 +24473,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-27T08:28:33+00:00",
-    "checked_at": "2026-11-27T11:05:36.910883+00:00",
+    "checked_at": "2026-11-27T14:05:31.655526+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
