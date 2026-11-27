@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-27T18:22:37Z**. Latest recorded forecast or score: **2026-11-27T18:22:32Z**. 55 surveys scored; 115 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-27T20:15:00Z**. Latest recorded forecast or score: **2026-11-27T18:22:32Z**. 55 surveys scored; 115 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -38,7 +38,7 @@ Attitude: opinions and ratings. Stated intent: what people say they will do. Beh
 
 ## Social Simulation Arena
 
-Arena data published 27 Nov 2026, 08:28 UTC; checked 27 Nov 2026, 18:05 UTC.
+Arena data published 27 Nov 2026, 08:28 UTC; checked 27 Nov 2026, 20:05 UTC.
 
 Minds Mosaic ranks **25 of 28** on the official overall board, with **12 of 157** resolved questions answered. The overall ranking counts missing answers against each entrant, including questions before it joined.
 
