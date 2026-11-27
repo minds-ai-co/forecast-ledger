@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-target-2-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-target-2-consumer__feeling__overall__r1",
+      "entry_sha256": "4e9c223f384d62ee33e47f080179d8f428d6da9dbb2bfd4be504e4a6728c400f",
+      "seq": 2980,
+      "batch_id": "us-system1-xmas-2026-target-2-consumer__20261127T062228019406Z__s2980",
+      "locked_at": "2026-11-27T06:22:28Z"
+    }
+  ]
+}

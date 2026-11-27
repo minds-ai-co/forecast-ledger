@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T06:07:33Z",
+  "as_of": "2026-11-27T06:23:52Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T06:07:31Z",
-  "chain_head_sha256": "7717a3dc6e377e670408f08048aa995ee0daefb80ab1576b5f2001cd5ee3ccaf",
+  "latest_event_at": "2026-11-27T06:23:19Z",
+  "chain_head_sha256": "aaa70150708c1fbb82c382dce3e29865366cd16e0ab48fc6fce5a796f59e7ae4",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 160,
+    "targets": 163,
     "targets_scored": 55,
-    "targets_pending": 102,
+    "targets_pending": 105,
     "targets_not_scoreable": 3,
-    "entries": 2973,
-    "batches": 384,
+    "entries": 2976,
+    "batches": 387,
     "entries_scored": 1328,
-    "entries_pending": 1408,
+    "entries_pending": 1411,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 933,
+    "forecasts_locked": 936,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2391,
+    "attitude": 2394,
     "stated_intent": 472,
     "behaviour": 110
   },
@@ -22153,6 +22153,336 @@
         }
       ],
       "series": "readerpoll-gamefaqs"
+    },
+    {
+      "target_id": "gb-system1-xmas-2026-starbucks-2-consumer",
+      "survey": "System1 Test Your Ad Star Rating, UK Christmas 2026 ad: Starbucks \"\"Happy Holiday / The Holiday Season\" performed by Magnus Ferrell (Starbucks Holiday Blend)\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Starbucks Ad Rating",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "UK adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: ONS mid-2025 population estimates, UK, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the UK ad after its release on 06 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.104
+              },
+              {
+                "label": "25-34",
+                "share": 0.1673
+              },
+              {
+                "label": "35-44",
+                "share": 0.1698
+              },
+              {
+                "label": "45-54",
+                "share": 0.1539
+              },
+              {
+                "label": "55-64",
+                "share": 0.1624
+              },
+              {
+                "label": "65+",
+                "share": 0.2426
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4841
+              },
+              {
+                "label": "Female",
+                "share": 0.5159
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "UK adults"
+      },
+      "wave": "Christmas 2026 (Starbucks, released 2026-11-06 18:31Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-27T12:21:51Z",
+      "first_lock_utc": "2026-11-27T06:21:58Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/gb-system1-xmas-2026-starbucks-2-consumer/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-system1-xmas-2026-starbucks-2-consumer__20261127T062158815927Z__s2979",
+          "locked_at": "2026-11-27T06:21:58Z",
+          "entries": 1,
+          "merkle_root": "5c85dc2e6208f8a438992ec4c0594423b5e03bf89f50239700ec93afc3a402d9",
+          "manifest": "proofs/batches/gb-system1-xmas-2026-starbucks-2-consumer__20261127T062158815927Z__s2979.json",
+          "manifest_sha256": "1b248d75e9bbb669d3ee27abb4a0f630cda29fa8b224a9ac28ebb93cdaa292ae",
+          "ots_proof": "proofs/batches/gb-system1-xmas-2026-starbucks-2-consumer__20261127T062158815927Z__s2979.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-target-2-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Target \"Asking Target’s Chief Giftologist what makes her confident\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Target Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 02 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Target, released 2026-11-02 17:12Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-27T12:22:16Z",
+      "first_lock_utc": "2026-11-27T06:22:28Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/us-system1-xmas-2026-target-2-consumer/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-target-2-consumer__20261127T062228019406Z__s2980",
+          "locked_at": "2026-11-27T06:22:28Z",
+          "entries": 1,
+          "merkle_root": "e31ca6e31d1b435b62b28b2954e8a8b52021d1576d967416239b7d1ccdf513fe",
+          "manifest": "proofs/batches/us-system1-xmas-2026-target-2-consumer__20261127T062228019406Z__s2980.json",
+          "manifest_sha256": "af0354c0219ca547d2d9fe9be0a9322a974bcfc074151a0268aaf259e0117369",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-target-2-consumer__20261127T062228019406Z__s2980.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-target-3-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Target \"Letters To Santa\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Target Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 28 Oct 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Target, released 2026-10-28 17:46Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-27T12:23:04Z",
+      "first_lock_utc": "2026-11-27T06:23:19Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/us-system1-xmas-2026-target-3-consumer/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-target-3-consumer__20261127T062319711168Z__s2981",
+          "locked_at": "2026-11-27T06:23:19Z",
+          "entries": 1,
+          "merkle_root": "013b9f40034e716e6fa4f09580a41a379faafc88c0a11a710fe2cb6d8e665ddf",
+          "manifest": "proofs/batches/us-system1-xmas-2026-target-3-consumer__20261127T062319711168Z__s2981.json",
+          "manifest_sha256": "c63850bfc77cdcec17f350bbf16653c797e5a691f71b0c52e2a53c0f1e926b3e",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-target-3-consumer__20261127T062319711168Z__s2981.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
     },
     {
       "target_id": "readerpoll-gamefaqs-10480",
