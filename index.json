@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T08:15:01Z",
+  "as_of": "2026-11-27T08:21:29Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T07:50:23Z",
-  "chain_head_sha256": "195b027454d54276eb104f551133d9f07131bf525941f8e94bc6cd7f8b212368",
+  "latest_event_at": "2026-11-27T08:21:15Z",
+  "chain_head_sha256": "10d9731b23ce0cea71f45ddfeee231c6c056754c15c3bca9d1876af992fc03fc",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 166,
+    "targets": 167,
     "targets_scored": 55,
-    "targets_pending": 108,
+    "targets_pending": 109,
     "targets_not_scoreable": 3,
-    "entries": 2979,
-    "batches": 390,
+    "entries": 2980,
+    "batches": 391,
     "entries_scored": 1328,
-    "entries_pending": 1414,
+    "entries_pending": 1415,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 939,
+    "forecasts_locked": 940,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2394,
+    "attitude": 2395,
     "stated_intent": 472,
     "behaviour": 113
   },
@@ -22476,6 +22476,116 @@
           "manifest": "proofs/batches/us-system1-xmas-2026-target-3-consumer__20261127T062319711168Z__s2981.json",
           "manifest_sha256": "c63850bfc77cdcec17f350bbf16653c797e5a691f71b0c52e2a53c0f1e926b3e",
           "ots_proof": "proofs/batches/us-system1-xmas-2026-target-3-consumer__20261127T062319711168Z__s2981.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "us-system1-xmas-2026-kohls-consumer",
+      "survey": "System1 Test Your Ad Star Rating, US Christmas 2026 ad: Kohl's \"Gifting with Brittany and Tefi\" (consumer arm)",
+      "publisher": "System1 Group (Test Your Ad)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/system1.png",
+          "alt": "System1",
+          "width": 152,
+          "height": 152
+        }
+      ],
+      "display": {
+        "label": "Kohl's Ad Rating",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Advertising",
+        "source": "System1",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "US adults 18+ taking part in System1's nationally representative online ad test (150 per ad); composition: US Census Bureau Vintage 2025 population estimates, ages 18+",
+        "n": 150,
+        "field_period": "System1 test of the US ad after its release on 18 Nov 2026",
+        "composition": [
+          {
+            "label": "Age",
+            "values": [
+              {
+                "label": "18-24",
+                "share": 0.1184
+              },
+              {
+                "label": "25-34",
+                "share": 0.1726
+              },
+              {
+                "label": "35-44",
+                "share": 0.168
+              },
+              {
+                "label": "45-54",
+                "share": 0.1488
+              },
+              {
+                "label": "55-64",
+                "share": 0.1527
+              },
+              {
+                "label": "65+",
+                "share": 0.2395
+              }
+            ]
+          },
+          {
+            "label": "Sex",
+            "values": [
+              {
+                "label": "Male",
+                "share": 0.4854
+              },
+              {
+                "label": "Female",
+                "share": 0.5146
+              }
+            ]
+          }
+        ],
+        "subgroups": [],
+        "label": "US adults"
+      },
+      "wave": "Christmas 2026 (Kohl's, released 2026-11-18 15:39Z)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-27T14:20:59Z",
+      "first_lock_utc": "2026-11-27T08:21:15Z",
+      "released_at": null,
+      "publication_url": "https://system1group.com/christmas",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/us-system1-xmas-2026-kohls-consumer/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-system1-xmas-2026-kohls-consumer__20261127T082115850388Z__s2985",
+          "locked_at": "2026-11-27T08:21:15Z",
+          "entries": 1,
+          "merkle_root": "a507691f07817909dd8c3042d2381e6d168db4d998dc56e3b5509c768c71268b",
+          "manifest": "proofs/batches/us-system1-xmas-2026-kohls-consumer__20261127T082115850388Z__s2985.json",
+          "manifest_sha256": "b628917e6f6f9f56ca0044b8d0736d3bb419bb3f67151f9b23a289e14bba3f05",
+          "ots_proof": "proofs/batches/us-system1-xmas-2026-kohls-consumer__20261127T082115850388Z__s2985.json.ots",
           "ots_status": "pending",
           "bitcoin_block_height": null,
           "bitcoin_block_time_utc": null,

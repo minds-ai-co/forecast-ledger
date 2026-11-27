@@ -1,0 +1,17 @@
+{
+  "target_id": "us-system1-xmas-2026-kohls-consumer",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "us-system1-xmas-2026-kohls-consumer__feeling__overall__r1",
+      "entry_sha256": "6ff1f81d8e0c005833f7566e67346b0fda27693e97338a779169558ec8905435",
+      "seq": 2985,
+      "batch_id": "us-system1-xmas-2026-kohls-consumer__20261127T082115850388Z__s2985",
+      "locked_at": "2026-11-27T08:21:15Z"
+    }
+  ]
+}
