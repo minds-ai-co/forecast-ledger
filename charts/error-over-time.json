@@ -45,7 +45,7 @@
   "charts": {
     "all": {
       "label": "All topics",
-      "surveys": 46,
+      "surveys": 47,
       "target_ids": [
         "at-ec-ipsos-consumer-survey-2026-10",
         "ch-gfsbern-srgtrend-2026-11-04",
@@ -79,6 +79,7 @@
         "global-steam-weekly-topsellers-2026-11-10",
         "jp-esri-consumer-confidence-2026-10",
         "netflix-global-english-films-2026-11-22-measurement-v2",
+        "readerpoll-gamefaqs-10479",
         "spotify-de-weekly-2026-11-19-measurement-v2",
         "spotify-us-weekly-2026-11-19-measurement-v2",
         "us-boxoffice-weekend-2026-11-06",
@@ -94,7 +95,7 @@
         "us-reuters-ipsos-2026-10-26",
         "us-voter-poll-ssrs-2026"
       ],
-      "counts": "46 surveys; Behaviour 11, Attitude 27, Stated intent 24",
+      "counts": "47 surveys; Behaviour 11, Attitude 28, Stated intent 24",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -231,6 +232,12 @@
                   "x": 20782,
                   "label": "25 Nov",
                   "value": 0.092117
+                },
+                {
+                  "id": "2026-11-26",
+                  "x": 20783,
+                  "label": "26 Nov",
+                  "value": 0.094013
                 }
               ],
               "emphasis": "primary"
@@ -327,6 +334,12 @@
                   "id": "2026-11-25",
                   "x": 20782,
                   "label": "25 Nov",
+                  "value": 0.296155
+                },
+                {
+                  "id": "2026-11-26",
+                  "x": 20783,
+                  "label": "26 Nov",
                   "value": 0.296155
                 }
               ]
@@ -454,6 +467,12 @@
                   "x": 20782,
                   "label": "25 Nov",
                   "value": 0.031343
+                },
+                {
+                  "id": "2026-11-26",
+                  "x": 20783,
+                  "label": "26 Nov",
+                  "value": 0.036695
                 }
               ]
             },
@@ -579,6 +598,12 @@
                   "id": "2026-11-25",
                   "x": 20782,
                   "label": "25 Nov",
+                  "value": 0.024022
+                },
+                {
+                  "id": "2026-11-26",
+                  "x": 20783,
+                  "label": "26 Nov",
                   "value": 0.024022
                 }
               ]
@@ -882,11 +907,12 @@
     },
     "Gaming": {
       "label": "Gaming",
-      "surveys": 1,
+      "surveys": 2,
       "target_ids": [
-        "global-steam-weekly-topsellers-2026-11-10"
+        "global-steam-weekly-topsellers-2026-11-10",
+        "readerpoll-gamefaqs-10479"
       ],
-      "counts": "1 survey; Behaviour 1",
+      "counts": "2 surveys; Behaviour 1, Attitude 1",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -909,6 +935,12 @@
                   "x": 20767,
                   "label": "10 Nov",
                   "value": 0.299091
+                },
+                {
+                  "id": "2026-11-26",
+                  "x": 20783,
+                  "label": "26 Nov",
+                  "value": 0.240146
                 }
               ],
               "emphasis": "primary"
@@ -922,6 +954,24 @@
                   "x": 20767,
                   "label": "10 Nov",
                   "value": 0.299091
+                },
+                {
+                  "id": "2026-11-26",
+                  "x": 20783,
+                  "label": "26 Nov",
+                  "value": 0.299091
+                }
+              ]
+            },
+            {
+              "id": "attitude",
+              "label": "Attitude",
+              "data": [
+                {
+                  "id": "2026-11-26",
+                  "x": 20783,
+                  "label": "26 Nov",
+                  "value": 0.1812
                 }
               ]
             }

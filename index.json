@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T05:07:47Z",
+  "as_of": "2026-11-27T06:07:33Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T05:07:16Z",
+  "latest_event_at": "2026-11-27T06:07:31Z",
   "chain_head_sha256": "7717a3dc6e377e670408f08048aa995ee0daefb80ab1576b5f2001cd5ee3ccaf",
   "proof_only_entries": 6,
   "counts": {
     "targets": 160,
-    "targets_scored": 54,
-    "targets_pending": 103,
+    "targets_scored": 55,
+    "targets_pending": 102,
     "targets_not_scoreable": 3,
     "entries": 2973,
     "batches": 384,
-    "entries_scored": 1327,
-    "entries_pending": 1409,
+    "entries_scored": 1328,
+    "entries_pending": 1408,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -62,11 +62,11 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 46,
-      "questions": 165,
-      "tvd": 0.05563,
-      "mae_pp": 1.687807,
-      "pearson_r": 0.961225,
+      "surveys": 47,
+      "questions": 166,
+      "tvd": 0.056387,
+      "mae_pp": 1.708827,
+      "pearson_r": 0.960833,
       "ordinal_questions": 97,
       "wasserstein": 0.017331
     },
@@ -94,11 +94,11 @@
     },
     "by_evidence_type": {
       "attitude": {
-        "surveys": 27,
-        "questions": 113,
-        "tvd": 0.033233,
-        "mae_pp": 1.513447,
-        "pearson_r": 0.9933,
+        "surveys": 28,
+        "questions": 114,
+        "tvd": 0.034531,
+        "mae_pp": 1.545585,
+        "pearson_r": 0.99246,
         "ordinal_questions": 86,
         "wasserstein": 0.016511
       },
@@ -241,10 +241,10 @@
       }
     },
     "approximation": {
-      "value": 0.955402,
-      "series": 48,
-      "surveys": 54,
-      "questions": 173,
+      "value": 0.955256,
+      "series": 49,
+      "surveys": 55,
+      "questions": 174,
       "weighting": "each series weighted equally; questions averaged within a series"
     },
     "subgroup_approximation": {
@@ -273,10 +273,10 @@
     "attitude": {
       "research-1": {
         "overall": {
-          "n": 122,
-          "n_distribution": 122,
-          "tvd": 0.147044,
-          "mae_pp": 5.418395,
+          "n": 123,
+          "n_distribution": 123,
+          "tvd": 0.147322,
+          "mae_pp": 5.416433,
           "numeric": {
             "n": 8,
             "abs_error": 1.28575,
@@ -290,10 +290,10 @@
           "mae_pp": 6.317645
         },
         "all": {
-          "n": 282,
-          "n_distribution": 282,
-          "tvd": 0.125621,
-          "mae_pp": 5.928608,
+          "n": 283,
+          "n_distribution": 283,
+          "tvd": 0.125818,
+          "mae_pp": 5.925953,
           "numeric": {
             "n": 8,
             "abs_error": 1.28575,
@@ -22092,16 +22092,16 @@
         "label": "GameFAQs voters"
       },
       "wave": "Poll 10479, opened 2026-11-26",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "before_release",
       "evidence_types": [
         "attitude"
       ],
       "cutoff_utc": "2026-11-27T05:00:00Z",
       "first_lock_utc": "2026-11-26T05:13:09Z",
-      "released_at": null,
+      "released_at": "2026-11-26T10:00:00Z",
       "publication_url": "https://gamefaqs.gamespot.com/poll/10479-x",
       "forecasts_count": 1,
       "variants": [
@@ -22110,7 +22110,7 @@
       "forecasts": {
         "mosaic": "forecasts/readerpoll-gamefaqs-10479/mosaic.json"
       },
-      "results": null,
+      "results": "results/readerpoll-gamefaqs-10479.json",
       "batches": [
         {
           "batch_id": "readerpoll-gamefaqs-10479__20261126T051309521586Z__s2964",
@@ -22126,7 +22126,33 @@
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
         }
-      ]
+      ],
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "attitude",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.948228571,
+          "sums": {
+            "tvd": 0.1812
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 7,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.19515,
+            "syy": 0.29782604,
+            "sxy": 0.230003
+          }
+        }
+      ],
+      "series": "readerpoll-gamefaqs"
     },
     {
       "target_id": "readerpoll-gamefaqs-10480",
@@ -23450,7 +23476,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-26T21:33:02+00:00",
-    "checked_at": "2026-11-27T05:05:36.908016+00:00",
+    "checked_at": "2026-11-27T06:05:33.902748+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {

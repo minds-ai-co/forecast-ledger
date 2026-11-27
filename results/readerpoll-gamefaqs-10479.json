@@ -1,0 +1,75 @@
+{
+  "target_id": "readerpoll-gamefaqs-10479",
+  "survey": "GameFAQs Poll of the Day",
+  "status": "scored",
+  "released_at": "2026-11-26T10:00:00Z",
+  "source_url": "https://gamefaqs.gamespot.com/poll/10479-x",
+  "scored_at": "2026-11-27T06:07:31Z",
+  "results_sha256": "5ebf21e11623e720111701d3a5249e6d92cfc62aea310c9f7c3419ead69f9ba1",
+  "released_values_public": true,
+  "licence_note": "Source: GameFAQs Poll of the Day. A self-selected online reader poll, not a representative survey; its published vote shares are compared with the preregistered Minds forecast.",
+  "publication": {
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-26",
+    "source_url": "https://gamefaqs.gamespot.com/poll",
+    "credit": "Source: GameFAQs Poll of the Day. A self-selected online reader poll, not a representative survey; its published vote shares are compared with the preregistered Minds forecast.",
+    "terms": [
+      {
+        "label": "GameFAQs Poll of the Day, published results (site content signal: use=reference)",
+        "url": "https://gamefaqs.gamespot.com/poll"
+      }
+    ],
+    "note": "Public reader-poll series (targets/series_reader_polls.md). Owner decision 26 Nov 2026 covers every poll of this source; a poll-specific record still overrides it.",
+    "decision_basis": "Publication of the publisher's released vote shares of its own public reader poll for journalistic research comparison, authorised by the site owner on 26 Nov 2026 for the public reader-poll series. This is not a claim of a publisher licence."
+  },
+  "summary": {
+    "mosaic": {
+      "items": 1,
+      "tvd": 0.1812,
+      "mae_pp": 5.177143
+    }
+  },
+  "summary_by_evidence_type": {
+    "attitude": {
+      "mosaic": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.1812,
+          "mae_pp": 5.177143
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.1812,
+          "mae_pp": 5.177143
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "readerpoll-gamefaqs-10479__poll__overall__r1",
+      "entry_sha256": "3b2d0fede123f69fa4265790b22c50076a6530022238241424f2a8b1a0f0164f",
+      "variant": "mosaic",
+      "question_id": "poll",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "attitude",
+      "tvd": 0.1812,
+      "mae_pp": 5.177143,
+      "released": [
+        0.13,
+        0.4984,
+        0.056900000000000006,
+        0.059699999999999996,
+        0.0435,
+        0.1328,
+        0.0787
+      ],
+      "released_values_public": true
+    }
+  ]
+}
