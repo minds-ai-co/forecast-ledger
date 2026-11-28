@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-28T08:15:01Z",
+  "as_of": "2026-11-28T12:25:14Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-28T07:49:32Z",
-  "chain_head_sha256": "cf308f9d72c2bade1c081dd70ebc5c804f996e9172486baf0fe5470b752b98df",
+  "latest_event_at": "2026-11-28T12:09:26Z",
+  "chain_head_sha256": "1e05d60205f44aabc5d48d7db0b1dba7a48479eaf2c50f75aa6ae6f2169e9257",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 180,
+    "targets": 181,
     "targets_scored": 58,
-    "targets_pending": 119,
+    "targets_pending": 120,
     "targets_not_scoreable": 3,
-    "entries": 3165,
-    "batches": 409,
+    "entries": 3285,
+    "batches": 410,
     "entries_scored": 1331,
-    "entries_pending": 1597,
+    "entries_pending": 1717,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 1012,
+    "forecasts_locked": 1132,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,8 +265,8 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2426,
-    "stated_intent": 551,
+    "attitude": 2526,
+    "stated_intent": 571,
     "behaviour": 188
   },
   "results_by_evidence_type": {
@@ -22876,6 +22876,68 @@
       ]
     },
     {
+      "target_id": "gb-yougov-trackers-2026-11-29",
+      "survey": "YouGov GB weekly trackers (government approval, most important issues, Westminster voting intention)",
+      "publisher": "YouGov (voting intention commissioned by The Times and Sky News)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yougov.png",
+          "alt": "YouGov",
+          "width": 128,
+          "height": 128
+        }
+      ],
+      "display": {
+        "label": "Political Opinions",
+        "country": "United Kingdom",
+        "country_code": "gb",
+        "topic": "Politics",
+        "source": "YouGov",
+        "categories": [
+          "Attitude",
+          "Stated intent"
+        ]
+      },
+      "audience": null,
+      "wave": "Weekly wave expected 29-30 November 2026 (B0: 15-16 November 2026, the latest published wave at build time)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "attitude",
+        "stated_intent"
+      ],
+      "cutoff_utc": "2026-11-28T18:00:00Z",
+      "first_lock_utc": "2026-11-28T12:09:26Z",
+      "released_at": null,
+      "publication_url": "https://yougov.com/en-gb/trackers/government-approval",
+      "forecasts_count": 120,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/gb-yougov-trackers-2026-11-29/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "gb-yougov-trackers-2026-11-29__anchored3__20261128T120926907892Z__s3171",
+          "locked_at": "2026-11-28T12:09:26Z",
+          "entries": 120,
+          "merkle_root": "ae0db8ec2ab18d8871e46e40b9b8c4dab4be194aeb1afa4d1ae0508fe94cc2cb",
+          "manifest": "proofs/batches/gb-yougov-trackers-2026-11-29__anchored3__20261128T120926907892Z__s3171.json",
+          "manifest_sha256": "fee6b2ebaae51e38c9c95c017a43a5011dd7a8c9d29a6d919325c50c78ff62cd",
+          "ots_proof": "proofs/batches/gb-yougov-trackers-2026-11-29__anchored3__20261128T120926907892Z__s3171.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "readerpoll-gamefaqs-10481",
       "survey": "GameFAQs Poll of the Day",
       "publisher": "GameFAQs (GameSpot)",
@@ -25985,7 +26047,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-28T07:48:02+00:00",
-    "checked_at": "2026-11-28T08:05:09.156056+00:00",
+    "checked_at": "2026-11-28T12:05:33.410616+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
