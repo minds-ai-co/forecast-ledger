@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-28T02:08:50Z",
+  "as_of": "2026-11-28T03:07:44Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-28T02:08:41Z",
-  "chain_head_sha256": "01b6fdba123a119241775d828a144be127cb532f1f636c2da067f2311e9fdc33",
+  "latest_event_at": "2026-11-28T03:07:35Z",
+  "chain_head_sha256": "cf7cfc0fc88a129e836fb04b66914ef0af638e71a696667a5462c25d05619a54",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 177,
+    "targets": 178,
     "targets_scored": 55,
-    "targets_pending": 119,
+    "targets_pending": 120,
     "targets_not_scoreable": 3,
-    "entries": 3013,
-    "batches": 404,
+    "entries": 3014,
+    "batches": 405,
     "entries_scored": 1328,
-    "entries_pending": 1448,
+    "entries_pending": 1449,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 960,
+    "forecasts_locked": 961,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2424,
+    "attitude": 2425,
     "stated_intent": 476,
     "behaviour": 113
   },
@@ -24562,6 +24562,73 @@
       ]
     },
     {
+      "target_id": "readerpoll-yahoo-jp-77701",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-28",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77701, opened 2026-11-28",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-04T15:00:00Z",
+      "first_lock_utc": "2026-11-28T03:07:35Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77701",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77701/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77701__20261128T030735501448Z__s3019",
+          "locked_at": "2026-11-28T03:07:35Z",
+          "entries": 1,
+          "merkle_root": "406bd2359da1dc6345033830cdfd194fa75870ec20b6599b5d30323ae9f5caf4",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77701__20261128T030735501448Z__s3019.json",
+          "manifest_sha256": "e1a980e463ff7ef1aa9fdc500021521e4b79dd0c8c3de93d2fbf6e7ea6e908c2",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77701__20261128T030735501448Z__s3019.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "netflix-global-english-films-2026-12-13-rolling-v3",
       "survey": "Netflix global English films (volume shares; measurement v2)",
       "publisher": "Netflix Tudum",
@@ -25679,7 +25746,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-27T21:18:00+00:00",
-    "checked_at": "2026-11-28T02:05:47.162074+00:00",
+    "checked_at": "2026-11-28T03:05:23.911324+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
