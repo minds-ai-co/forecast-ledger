@@ -6,12 +6,20 @@
   "source_url": "https://kworb.net/spotify/country/us_weekly.html",
   "scored_at": "2026-11-21T07:45:11Z",
   "results_sha256": "ccae68b302b29a216500030a633626362f5b9ba14d74bcd6593e27e9159e6062",
-  "released_values_public": false,
-  "licence_note": "Publication permission for these result values has not been established.",
+  "released_values_public": true,
+  "licence_note": "Recurring source. Owner decision 28 Nov 2026 covers every wave of this source; a release-specific record still overrides it.",
   "publication": {
-    "status": "unverified",
-    "note": "Publication permission for these result values has not been established.",
-    "terms": []
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-28",
+    "source_url": "https://kworb.net/spotify/country/us_weekly.html",
+    "terms": [
+      {
+        "label": "Spotify Charts (public weekly chart, Kworb mirror)",
+        "url": "https://kworb.net/spotify/country/us_weekly.html"
+      }
+    ],
+    "note": "Recurring source. Owner decision 28 Nov 2026 covers every wave of this source; a release-specific record still overrides it.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 28 Nov 2026 (\"we need to permanently publish this\"). This is not a claim of a new publisher licence."
   },
   "summary": {
     "mosaic": {
@@ -51,7 +59,20 @@
       "evidence_type": "behaviour",
       "tvd": 0.191977,
       "mae_pp": 3.4905,
-      "released_values_public": false
+      "released": [
+        0.10417027163237316,
+        0.09905276829254736,
+        0.1230781003361558,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.08840083942613852,
+        0.09327549596247177,
+        0.0,
+        0.4920225243503134
+      ],
+      "released_values_public": true
     }
   ]
 }

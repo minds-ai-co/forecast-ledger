@@ -6,12 +6,20 @@
   "source_url": "https://www.netflix.com/tudum/top10?week=2026-11-22",
   "scored_at": "2026-11-25T07:45:08Z",
   "results_sha256": "ef9671b91a84fd12ccbfcddf73e9f1cd9ffd2d4f574e584bb58e97a59a9363f5",
-  "released_values_public": false,
-  "licence_note": "Publication permission for these result values has not been established.",
+  "released_values_public": true,
+  "licence_note": "Recurring source. Owner decision 28 Nov 2026 covers every wave of this source; a release-specific record still overrides it.",
   "publication": {
-    "status": "unverified",
-    "note": "Publication permission for these result values has not been established.",
-    "terms": []
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-28",
+    "source_url": "https://www.netflix.com/tudum/top10",
+    "terms": [
+      {
+        "label": "Netflix Tudum Top 10 (public)",
+        "url": "https://www.netflix.com/tudum/top10"
+      }
+    ],
+    "note": "Recurring source. Owner decision 28 Nov 2026 covers every wave of this source; a release-specific record still overrides it.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 28 Nov 2026 (\"we need to permanently publish this\"). This is not a claim of a new publisher licence."
   },
   "summary": {
     "mosaic": {
@@ -51,7 +59,20 @@
       "evidence_type": "behaviour",
       "tvd": 1.0,
       "mae_pp": 18.181818,
-      "released_values_public": false
+      "released": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "released_values_public": true
     }
   ]
 }

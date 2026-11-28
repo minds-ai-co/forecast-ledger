@@ -6,12 +6,20 @@
   "source_url": "https://www.ipsos.com/sites/default/files/ct/news/documents/2026-11/Topline%20Ipsos%20Consumer%20Tracker%20Wave%20151.pdf",
   "scored_at": "2026-11-21T00:01:53Z",
   "results_sha256": "d48f8bf6c602ec5ce3287581c380b70a690b5bf251a35905633eed011e456f4c",
-  "released_values_public": false,
-  "licence_note": "Publication permission for these result values has not been established.",
+  "released_values_public": true,
+  "licence_note": "Owner decision 28 Nov 2026 for this release.",
   "publication": {
-    "status": "unverified",
-    "note": "Publication permission for these result values has not been established.",
-    "terms": []
+    "status": "journalistic_publication",
+    "reviewed_on": "2026-11-28",
+    "source_url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19",
+    "terms": [
+      {
+        "label": "Ipsos public release",
+        "url": "https://www.ipsos.com/en-us/news-polls/consumer-behavior-time-covid-19"
+      }
+    ],
+    "note": "Owner decision 28 Nov 2026 for this release.",
+    "decision_basis": "Publication of selected released aggregate results for journalistic research comparison, expressly authorised by the site owner on 28 Nov 2026 (\"we need to permanently publish this\"). This is not a claim of a new publisher licence."
   },
   "summary": {},
   "summary_by_evidence_type": {},
@@ -25,7 +33,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "behaviour",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__holiday_gatherings_local__overall__r1",
@@ -36,7 +44,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__holiday_virtual_calls__overall__r1",
@@ -47,7 +55,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__holiday_sitdown_restaurants__overall__r1",
@@ -58,7 +66,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__holiday_restaurant_delivery__overall__r1",
@@ -69,7 +77,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__holiday_debt_for_gifts__overall__r1",
@@ -80,7 +88,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__travel_100_miles__overall__r1",
@@ -91,7 +99,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cravings_eating_generally__overall__r1",
@@ -102,7 +110,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cravings_sweets__overall__r1",
@@ -113,7 +121,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cravings_alcohol__overall__r1",
@@ -124,7 +132,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__work_location__overall__r1",
@@ -135,7 +143,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "behaviour",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__holiday_gatherings_local__overall__r1",
@@ -146,7 +154,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__holiday_virtual_calls__overall__r1",
@@ -157,7 +165,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__holiday_sitdown_restaurants__overall__r1",
@@ -168,7 +176,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__holiday_restaurant_delivery__overall__r1",
@@ -179,7 +187,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__holiday_debt_for_gifts__overall__r1",
@@ -190,7 +198,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__travel_100_miles__overall__r1",
@@ -201,7 +209,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__cravings_eating_generally__overall__r1",
@@ -212,7 +220,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__cravings_sweets__overall__r1",
@@ -223,7 +231,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__anchored3__cravings_alcohol__overall__r1",
@@ -234,7 +242,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__work_location__overall__r1",
@@ -245,7 +253,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "behaviour",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_gatherings_local__overall__r1",
@@ -256,7 +264,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_virtual_calls__overall__r1",
@@ -267,7 +275,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_sitdown_restaurants__overall__r1",
@@ -278,7 +286,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_restaurant_delivery__overall__r1",
@@ -289,7 +297,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__holiday_debt_for_gifts__overall__r1",
@@ -300,7 +308,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__travel_100_miles__overall__r1",
@@ -311,7 +319,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__cravings_eating_generally__overall__r1",
@@ -322,7 +330,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__cravings_sweets__overall__r1",
@@ -333,7 +341,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__memory3__cravings_alcohol__overall__r1",
@@ -344,7 +352,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__work_location__overall__r1",
@@ -355,7 +363,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "behaviour",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__holiday_gatherings_local__overall__r1",
@@ -366,7 +374,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__holiday_virtual_calls__overall__r1",
@@ -377,7 +385,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__holiday_sitdown_restaurants__overall__r1",
@@ -388,7 +396,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__holiday_restaurant_delivery__overall__r1",
@@ -399,7 +407,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__holiday_debt_for_gifts__overall__r1",
@@ -410,7 +418,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__travel_100_miles__overall__r1",
@@ -421,7 +429,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__cravings_eating_generally__overall__r1",
@@ -432,7 +440,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__cravings_sweets__overall__r1",
@@ -443,7 +451,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bank3__cravings_alcohol__overall__r1",
@@ -454,7 +462,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__work_location__overall__r1",
@@ -465,7 +473,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "behaviour",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_gatherings_local__overall__r1",
@@ -476,7 +484,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_virtual_calls__overall__r1",
@@ -487,7 +495,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_sitdown_restaurants__overall__r1",
@@ -498,7 +506,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_restaurant_delivery__overall__r1",
@@ -509,7 +517,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__holiday_debt_for_gifts__overall__r1",
@@ -520,7 +528,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__travel_100_miles__overall__r1",
@@ -531,7 +539,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__cravings_eating_generally__overall__r1",
@@ -542,7 +550,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__cravings_sweets__overall__r1",
@@ -553,7 +561,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__bankR3__cravings_alcohol__overall__r1",
@@ -564,7 +572,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__work_location__overall__r1",
@@ -575,7 +583,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "behaviour",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__holiday_gatherings_local__overall__r1",
@@ -586,7 +594,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__holiday_virtual_calls__overall__r1",
@@ -597,7 +605,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__holiday_sitdown_restaurants__overall__r1",
@@ -608,7 +616,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__holiday_restaurant_delivery__overall__r1",
@@ -619,7 +627,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__holiday_debt_for_gifts__overall__r1",
@@ -630,7 +638,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__travel_100_miles__overall__r1",
@@ -641,7 +649,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "stated_intent",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__cravings_eating_generally__overall__r1",
@@ -652,7 +660,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__cravings_sweets__overall__r1",
@@ -663,7 +671,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     },
     {
       "entry_id": "us-ipsos-consumer-tracker-2026-11-03__cohort__cravings_alcohol__overall__r1",
@@ -674,7 +682,7 @@
       "counted": true,
       "status": "not_released",
       "evidence_type": "attitude",
-      "released_values_public": false
+      "released_values_public": true
     }
   ]
 }
