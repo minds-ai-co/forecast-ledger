@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-28T04:14:39Z",
+  "as_of": "2026-11-28T05:07:49Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-28T04:14:30Z",
-  "chain_head_sha256": "b49b8abccb3718cd6826047070cc6196a08eef9cd7f60b75b24ede9793b7707a",
+  "latest_event_at": "2026-11-28T05:07:19Z",
+  "chain_head_sha256": "cf308f9d72c2bade1c081dd70ebc5c804f996e9172486baf0fe5470b752b98df",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 179,
+    "targets": 180,
     "targets_scored": 55,
-    "targets_pending": 121,
+    "targets_pending": 122,
     "targets_not_scoreable": 3,
-    "entries": 3164,
-    "batches": 408,
+    "entries": 3165,
+    "batches": 409,
     "entries_scored": 1328,
-    "entries_pending": 1599,
+    "entries_pending": 1600,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 1011,
+    "forecasts_locked": 1012,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2425,
+    "attitude": 2426,
     "stated_intent": 551,
     "behaviour": 188
   },
@@ -22798,6 +22798,73 @@
       ]
     },
     {
+      "target_id": "readerpoll-gamefaqs-10481",
+      "survey": "GameFAQs Poll of the Day",
+      "publisher": "GameFAQs (GameSpot)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/gamefaqs.png",
+          "alt": "GameFAQs",
+          "width": 180,
+          "height": 50
+        }
+      ],
+      "display": {
+        "label": "GameFAQs Poll of the Day",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Gaming",
+        "source": "GameFAQs",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "GameFAQs Poll of the Day voters (self-selected one-click online poll; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-28",
+        "composition": [],
+        "subgroups": [],
+        "label": "GameFAQs voters"
+      },
+      "wave": "Poll 10481, opened 2026-11-28",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-11-29T05:00:00Z",
+      "first_lock_utc": "2026-11-28T05:07:19Z",
+      "released_at": null,
+      "publication_url": "https://gamefaqs.gamespot.com/poll/10481-x",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-gamefaqs-10481/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-gamefaqs-10481__20261128T050719888263Z__s3170",
+          "locked_at": "2026-11-28T05:07:19Z",
+          "entries": 1,
+          "merkle_root": "cb826665da01fb854eb3271581867f9cdcd783c3fc99ed4bde15f45f45c45949",
+          "manifest": "proofs/batches/readerpoll-gamefaqs-10481__20261128T050719888263Z__s3170.json",
+          "manifest_sha256": "cc5381566af701ba47d58b982d82dd3d5536612f4f40a1502bc21d9d0550dea9",
+          "ots_proof": "proofs/batches/readerpoll-gamefaqs-10481__20261128T050719888263Z__s3170.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "netflix-global-english-films-2026-12-06-rolling-v3",
       "survey": "Netflix global English films (volume shares; measurement v2)",
       "publisher": "Netflix Tudum",
@@ -25840,7 +25907,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-27T21:18:00+00:00",
-    "checked_at": "2026-11-28T04:05:39.912008+00:00",
+    "checked_at": "2026-11-28T05:05:27.406204+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {

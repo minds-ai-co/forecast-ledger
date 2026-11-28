@@ -2,7 +2,7 @@
 
 We forecast the answers to real public surveys with Minds Mosaic before the survey is in the field or before its result is released. Every forecast is hashed into an append-only ledger and timestamped in the Bitcoin blockchain with OpenTimestamps, so anyone can check that it existed before the deadline. While a survey is pending only the hashes are public. Once the publisher releases its result, every locked forecast is scored, misses included.
 
-Page refreshed **2026-11-28T04:14:39Z**. Latest recorded forecast or score: **2026-11-28T04:14:30Z**. 55 surveys scored; 121 awaiting a verified result. A page refresh does not add survey results.
+Page refreshed **2026-11-28T05:07:49Z**. Latest recorded forecast or score: **2026-11-28T05:07:19Z**. 55 surveys scored; 122 awaiting a verified result. A page refresh does not add survey results.
 
 <section id="forecast-timeline" class="not-prose" aria-label="Forecast timeline">
 <p>Loading the latest forecasts…</p>
@@ -38,7 +38,7 @@ Attitude: opinions and ratings. Stated intent: what people say they will do. Beh
 
 ## Social Simulation Arena
 
-Arena data published 27 Nov 2026, 21:18 UTC; checked 28 Nov 2026, 04:05 UTC.
+Arena data published 27 Nov 2026, 21:18 UTC; checked 28 Nov 2026, 05:05 UTC.
 
 Minds Mosaic ranks **25 of 28** on the official overall board, with **12 of 157** resolved questions answered. The overall ranking counts missing answers against each entrant, including questions before it joined.
 
@@ -71,7 +71,7 @@ python3 verify.py --online   # also checks each proof against the Bitcoin block 
 
 A forecast counts only if its Bitcoin timestamp is before the deadline (`cutoff_utc` in `index.json`). The official OpenTimestamps client works too: `ots info proofs/batches/<batch>.json.ots`.
 
-Ledger chain head `b49b8abccb3718cd6826047070cc6196a08eef9cd7f60b75b24ede9793b7707a`.
+Ledger chain head `cf308f9d72c2bade1c081dd70ebc5c804f996e9172486baf0fe5470b752b98df`.
 
 ## Methodology
 
