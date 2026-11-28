@@ -45,7 +45,7 @@
   "charts": {
     "all": {
       "label": "All topics",
-      "surveys": 48,
+      "surveys": 50,
       "target_ids": [
         "at-ec-ipsos-consumer-survey-2026-10",
         "ch-gfsbern-srgtrend-2026-11-04",
@@ -82,7 +82,9 @@
         "readerpoll-gamefaqs-10479",
         "readerpoll-gamefaqs-10480",
         "spotify-de-weekly-2026-11-19-measurement-v2",
+        "spotify-de-weekly-2026-11-26-rolling-v3",
         "spotify-us-weekly-2026-11-19-measurement-v2",
+        "spotify-us-weekly-2026-11-26-rolling-v3",
         "us-boxoffice-weekend-2026-11-06",
         "us-census-htops-2609-healthinfo",
         "us-census-htops-2609-trust-a",
@@ -96,7 +98,7 @@
         "us-reuters-ipsos-2026-10-26",
         "us-voter-poll-ssrs-2026"
       ],
-      "counts": "48 surveys; Behaviour 11, Attitude 29, Stated intent 24",
+      "counts": "50 surveys; Behaviour 13, Attitude 29, Stated intent 24",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -245,6 +247,12 @@
                   "x": 20784,
                   "label": "27 Nov",
                   "value": 0.095498
+                },
+                {
+                  "id": "2026-11-28",
+                  "x": 20785,
+                  "label": "28 Nov",
+                  "value": 0.09556
                 }
               ],
               "emphasis": "primary"
@@ -354,6 +362,12 @@
                   "x": 20784,
                   "label": "27 Nov",
                   "value": 0.296155
+                },
+                {
+                  "id": "2026-11-28",
+                  "x": 20785,
+                  "label": "28 Nov",
+                  "value": 0.265524
                 }
               ]
             },
@@ -492,6 +506,12 @@
                   "x": 20784,
                   "label": "27 Nov",
                   "value": 0.04113
+                },
+                {
+                  "id": "2026-11-28",
+                  "x": 20785,
+                  "label": "28 Nov",
+                  "value": 0.04113
                 }
               ]
             },
@@ -629,6 +649,12 @@
                   "id": "2026-11-27",
                   "x": 20784,
                   "label": "27 Nov",
+                  "value": 0.024022
+                },
+                {
+                  "id": "2026-11-28",
+                  "x": 20785,
+                  "label": "28 Nov",
                   "value": 0.024022
                 }
               ]
@@ -1081,12 +1107,14 @@
     },
     "Music": {
       "label": "Music",
-      "surveys": 2,
+      "surveys": 4,
       "target_ids": [
         "spotify-de-weekly-2026-11-19-measurement-v2",
-        "spotify-us-weekly-2026-11-19-measurement-v2"
+        "spotify-de-weekly-2026-11-26-rolling-v3",
+        "spotify-us-weekly-2026-11-19-measurement-v2",
+        "spotify-us-weekly-2026-11-26-rolling-v3"
       ],
-      "counts": "2 surveys; Behaviour 2",
+      "counts": "4 surveys; Behaviour 4",
       "props": {
         "locale": "en-GB",
         "missingValueLabel": "no surveys yet",
@@ -1109,6 +1137,12 @@
                   "x": 20778,
                   "label": "21 Nov",
                   "value": 0.2713
+                },
+                {
+                  "id": "2026-11-28",
+                  "x": 20785,
+                  "label": "28 Nov",
+                  "value": 0.184177
                 }
               ],
               "emphasis": "primary"
@@ -1122,6 +1156,12 @@
                   "x": 20778,
                   "label": "21 Nov",
                   "value": 0.2713
+                },
+                {
+                  "id": "2026-11-28",
+                  "x": 20785,
+                  "label": "28 Nov",
+                  "value": 0.184177
                 }
               ]
             }

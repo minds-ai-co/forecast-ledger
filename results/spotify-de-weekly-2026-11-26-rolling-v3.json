@@ -1,0 +1,57 @@
+{
+  "target_id": "spotify-de-weekly-2026-11-26-rolling-v3",
+  "survey": "Spotify DE weekly top ten (volume shares; measurement v2)",
+  "status": "scored",
+  "released_at": "2026-11-28T07:46:50Z",
+  "source_url": "https://kworb.net/spotify/country/de_weekly.html",
+  "scored_at": "2026-11-28T07:46:53Z",
+  "results_sha256": "d4a37e06cc57119952f6d758122403272f4704dcd19ab964c17f1b45cb8ebe43",
+  "released_values_public": false,
+  "licence_note": "Publication permission for these result values has not been established.",
+  "publication": {
+    "status": "unverified",
+    "note": "Publication permission for these result values has not been established.",
+    "terms": []
+  },
+  "summary": {
+    "mosaic": {
+      "items": 1,
+      "tvd": 0.10299,
+      "mae_pp": 1.872538
+    }
+  },
+  "summary_by_evidence_type": {
+    "behaviour": {
+      "mosaic": {
+        "overall": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.10299,
+          "mae_pp": 1.872538
+        },
+        "subgroups": null,
+        "all": {
+          "n": 1,
+          "n_distribution": 1,
+          "tvd": 0.10299,
+          "mae_pp": 1.872538
+        }
+      }
+    }
+  },
+  "items": [
+    {
+      "entry_id": "spotify-de-weekly-2026-11-26-rolling-v3__top10_volume_share__overall__r1",
+      "entry_sha256": "e301e99d86119bf5aed190ab4e3c7e8ef5ddd6cfc2062ebe619491e798da7d32",
+      "variant": "mosaic",
+      "question_id": "top10_volume_share",
+      "group_id": "overall",
+      "counted": true,
+      "status": "scored",
+      "evidence_type": "behaviour",
+      "tvd": 0.10299,
+      "mae_pp": 1.872538,
+      "released_values_public": false
+    }
+  ]
+}

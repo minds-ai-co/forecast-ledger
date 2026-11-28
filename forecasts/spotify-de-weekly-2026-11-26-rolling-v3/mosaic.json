@@ -3,15 +3,57 @@
   "variant": "mosaic",
   "variant_label": "Minds Mosaic",
   "arm": "primary",
-  "disclosure": "hashes_only",
-  "model": null,
+  "disclosure": "full",
+  "model": "Minds Mosaic",
   "entries": [
     {
       "entry_id": "spotify-de-weekly-2026-11-26-rolling-v3__top10_volume_share__overall__r1",
       "entry_sha256": "e301e99d86119bf5aed190ab4e3c7e8ef5ddd6cfc2062ebe619491e798da7d32",
       "seq": 2462,
       "batch_id": "spotify-de-weekly-2026-11-26-rolling-v3__20261110T095500578800Z__s2462",
-      "locked_at": "2026-11-10T09:55:00Z"
+      "locked_at": "2026-11-10T09:55:00Z",
+      "state": "scored",
+      "question": {
+        "id": "top10_volume_share",
+        "text": "Share of the top ten's chart streams",
+        "type": "categorical",
+        "options": [
+          "Tate McRae - Housewife",
+          "AYLIVA - Für immer",
+          "The Killers - Mr. Brightside",
+          "ADÉLA - Ain't In LA",
+          "Sido - PROPAGANDA (w/ Fler)",
+          "Ski Aggu - Verschwommen (w/ Ericson)",
+          "Ashe - Stop The Wedding!",
+          "Symba - Mama - Remix",
+          "Season 25 - Shotta's.",
+          "HUGEL - Movin' To The Sun (w/ Imael Angel, Ultra Naté)",
+          "All other titles in the published top ten"
+        ]
+      },
+      "group": {
+        "id": "overall",
+        "label": "Overall"
+      },
+      "forecast": [
+        0.002,
+        0.006500000000000001,
+        0.0015,
+        0.001,
+        0.0035,
+        0.004,
+        0.001,
+        0.0025,
+        0.001,
+        0.002,
+        0.975
+      ],
+      "repetitions": 2,
+      "model": "Minds Mosaic",
+      "revision": 1,
+      "supersedes": null,
+      "raw_entry_file": null,
+      "raw_entry_withheld": "the file embeds publisher data and underlying model identifiers covered by its hash"
     }
   ]
 }

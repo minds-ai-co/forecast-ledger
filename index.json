@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-28T06:07:32Z",
+  "as_of": "2026-11-28T08:15:01Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-28T06:07:30Z",
+  "latest_event_at": "2026-11-28T07:49:32Z",
   "chain_head_sha256": "cf308f9d72c2bade1c081dd70ebc5c804f996e9172486baf0fe5470b752b98df",
   "proof_only_entries": 6,
   "counts": {
     "targets": 180,
-    "targets_scored": 56,
-    "targets_pending": 121,
+    "targets_scored": 58,
+    "targets_pending": 119,
     "targets_not_scoreable": 3,
     "entries": 3165,
     "batches": 409,
-    "entries_scored": 1329,
-    "entries_pending": 1599,
+    "entries_scored": 1331,
+    "entries_pending": 1597,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -62,11 +62,11 @@
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
-      "surveys": 48,
-      "questions": 167,
-      "tvd": 0.057039,
-      "mae_pp": 1.738188,
-      "pearson_r": 0.960549,
+      "surveys": 50,
+      "questions": 169,
+      "tvd": 0.057512,
+      "mae_pp": 1.7385,
+      "pearson_r": 0.961951,
       "ordinal_questions": 97,
       "wasserstein": 0.017331
     },
@@ -84,11 +84,11 @@
       "pairs_total": 19
     },
     "locked_before_fieldwork": {
-      "surveys": 26,
-      "questions": 70,
-      "tvd": 0.056454,
-      "mae_pp": 1.73076,
-      "pearson_r": 0.941835,
+      "surveys": 28,
+      "questions": 72,
+      "tvd": 0.057581,
+      "mae_pp": 1.731701,
+      "pearson_r": 0.946813,
       "ordinal_questions": 21,
       "wasserstein": 0.020144
     },
@@ -112,11 +112,11 @@
         "wasserstein": 0.02374
       },
       "behaviour": {
-        "surveys": 11,
-        "questions": 17,
-        "tvd": 0.262044,
-        "mae_pp": 4.336996,
-        "pearson_r": 0.732897,
+        "surveys": 13,
+        "questions": 19,
+        "tvd": 0.244677,
+        "mae_pp": 4.066218,
+        "pearson_r": 0.79813,
         "ordinal_questions": 0,
         "wasserstein": null
       }
@@ -241,10 +241,10 @@
       }
     },
     "approximation": {
-      "value": 0.955109,
-      "series": 49,
-      "surveys": 56,
-      "questions": 175,
+      "value": 0.956178,
+      "series": 51,
+      "surveys": 58,
+      "questions": 177,
       "weighting": "each series weighted equally; questions averaged within a series"
     },
     "subgroup_approximation": {
@@ -647,17 +647,17 @@
     "behaviour": {
       "research-1": {
         "overall": {
-          "n": 13,
-          "n_distribution": 13,
-          "tvd": 0.385747,
-          "mae_pp": 5.945763
+          "n": 15,
+          "n_distribution": 15,
+          "tvd": 0.347254,
+          "mae_pp": 5.388275
         },
         "subgroups": null,
         "all": {
-          "n": 13,
-          "n_distribution": 13,
-          "tvd": 0.385747,
-          "mae_pp": 5.945763
+          "n": 15,
+          "n_distribution": 15,
+          "tvd": 0.347254,
+          "mae_pp": 5.388275
         }
       },
       "mosaic": {
@@ -16814,16 +16814,16 @@
         "label": "German Spotify listeners"
       },
       "wave": "2026-11-26",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-19T23:00:00Z",
       "first_lock_utc": "2026-11-10T09:55:00Z",
-      "released_at": null,
+      "released_at": "2026-11-28T07:46:50Z",
       "publication_url": "https://kworb.net/spotify/country/de_weekly.html",
       "forecasts_count": 1,
       "variants": [
@@ -16832,7 +16832,7 @@
       "forecasts": {
         "mosaic": "forecasts/spotify-de-weekly-2026-11-26-rolling-v3/mosaic.json"
       },
-      "results": null,
+      "results": "results/spotify-de-weekly-2026-11-26-rolling-v3.json",
       "batches": [
         {
           "batch_id": "spotify-de-weekly-2026-11-26-rolling-v3__20261110T095500578800Z__s2462",
@@ -16848,7 +16848,33 @@
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
         }
-      ]
+      ],
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.981274617,
+          "sums": {
+            "tvd": 0.102989607
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.950715,
+            "syy": 0.812066421,
+            "sxy": 0.872845112
+          }
+        }
+      ],
+      "series": "spotify-de-weekly-2026-11-26-rolling-v3"
     },
     {
       "target_id": "spotify-us-weekly-2026-11-26-rolling-v3",
@@ -16881,16 +16907,16 @@
         "label": "US Spotify listeners"
       },
       "wave": "2026-11-26",
-      "status": "pending",
-      "disclosure": "hashes_only",
-      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "status": "scored",
+      "disclosure": "full",
+      "disclosure_note": null,
       "evidence_class": "pre_fieldwork",
       "evidence_types": [
         "behaviour"
       ],
       "cutoff_utc": "2026-11-19T23:00:00Z",
       "first_lock_utc": "2026-11-10T10:30:20Z",
-      "released_at": null,
+      "released_at": "2026-11-28T07:49:29Z",
       "publication_url": "https://kworb.net/spotify/country/us_weekly.html",
       "forecasts_count": 1,
       "variants": [
@@ -16899,7 +16925,7 @@
       "forecasts": {
         "mosaic": "forecasts/spotify-us-weekly-2026-11-26-rolling-v3/mosaic.json"
       },
-      "results": null,
+      "results": "results/spotify-us-weekly-2026-11-26-rolling-v3.json",
       "batches": [
         {
           "batch_id": "spotify-us-weekly-2026-11-26-rolling-v3__20261110T103020126279Z__s2463",
@@ -16915,7 +16941,33 @@
           "bitcoin_block_hash": null,
           "bitcoin_block_merkle_root": null
         }
-      ]
+      ],
+      "metric_blocks": [
+        {
+          "type": "shares",
+          "family": "shares",
+          "evidence_type": "behaviour",
+          "scope": "overall",
+          "bucket": "7+",
+          "questions": 1,
+          "accuracy_sum": 0.983433271,
+          "sums": {
+            "tvd": 0.091117009
+          },
+          "counts": {
+            "tvd": 1
+          },
+          "pearson": {
+            "n": 11,
+            "sx": 1.0,
+            "sy": 1.0,
+            "sxx": 0.4846525,
+            "syy": 0.531540101,
+            "sxy": 0.505357261
+          }
+        }
+      ],
+      "series": "spotify-us-weekly-2026-11-26-rolling-v3"
     },
     {
       "target_id": "us-economist-yougov-2026-11-20",
@@ -25932,8 +25984,8 @@
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-27T21:18:00+00:00",
-    "checked_at": "2026-11-28T06:05:00.410834+00:00",
+    "source_generated_at": "2026-11-28T07:48:02+00:00",
+    "checked_at": "2026-11-28T08:05:09.156056+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
@@ -25965,6 +26017,12 @@
         "round_id": "yougov-xtab-2026-w47",
         "lock_at": "2026-11-15T14:00:00+00:00",
         "state": "awaiting_result",
+        "energy": null
+      },
+      {
+        "round_id": "yougov-xtab-2026-w49",
+        "lock_at": "2026-11-29T14:00:00+00:00",
+        "state": "submitted",
         "energy": null
       }
     ]
