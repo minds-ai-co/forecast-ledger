@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-28T03:07:44Z",
+  "as_of": "2026-11-28T04:14:39Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-28T03:07:35Z",
-  "chain_head_sha256": "cf7cfc0fc88a129e836fb04b66914ef0af638e71a696667a5462c25d05619a54",
+  "latest_event_at": "2026-11-28T04:14:30Z",
+  "chain_head_sha256": "b49b8abccb3718cd6826047070cc6196a08eef9cd7f60b75b24ede9793b7707a",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 178,
+    "targets": 179,
     "targets_scored": 55,
-    "targets_pending": 120,
+    "targets_pending": 121,
     "targets_not_scoreable": 3,
-    "entries": 3014,
-    "batches": 405,
+    "entries": 3164,
+    "batches": 408,
     "entries_scored": 1328,
-    "entries_pending": 1449,
+    "entries_pending": 1599,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 961,
+    "forecasts_locked": 1011,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -124,7 +124,7 @@
     "additional_research": {
       "research-1": {
         "label": "Additional research forecast 1",
-        "forecasts_locked": 790,
+        "forecasts_locked": 840,
         "scored": {
           "surveys": 42,
           "questions": 158,
@@ -176,7 +176,7 @@
       },
       "research-3": {
         "label": "Additional research forecast 3",
-        "forecasts_locked": 51,
+        "forecasts_locked": 101,
         "scored": {
           "surveys": 6,
           "questions": 46,
@@ -266,8 +266,8 @@
   },
   "counts_by_evidence_type": {
     "attitude": 2425,
-    "stated_intent": 476,
-    "behaviour": 113
+    "stated_intent": 551,
+    "behaviour": 188
   },
   "results_by_evidence_type": {
     "attitude": {
@@ -22704,6 +22704,100 @@
       ]
     },
     {
+      "target_id": "us-census-btos-ai-202625",
+      "survey": "US Census Bureau Business Trends and Outlook Survey (BTOS): business use of AI (Super Intelligence) items",
+      "publisher": "US Census Bureau",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/census.png",
+          "alt": "US Census Bureau",
+          "width": 256,
+          "height": 256
+        }
+      ],
+      "display": {
+        "label": "US Census Bureau Business Trends and Outlook Survey",
+        "country": "United States",
+        "country_code": "us",
+        "topic": "Other",
+        "source": "US Census Bureau",
+        "categories": [
+          "Stated intent",
+          "Behaviour"
+        ]
+      },
+      "audience": null,
+      "wave": "BTOS cycle 202625 (collection November 30 to December 13, 2026)",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "pre_fieldwork",
+      "evidence_types": [
+        "stated_intent",
+        "behaviour"
+      ],
+      "cutoff_utc": "2026-11-28T10:00:00Z",
+      "first_lock_utc": "2026-11-28T04:09:59Z",
+      "released_at": null,
+      "publication_url": "https://www.census.gov/hfp/btos/data_downloads",
+      "forecasts_count": 150,
+      "variants": [
+        "research-1",
+        "mosaic",
+        "research-3"
+      ],
+      "forecasts": {
+        "research-1": "forecasts/us-census-btos-ai-202625/research-1.json",
+        "mosaic": "forecasts/us-census-btos-ai-202625/mosaic.json",
+        "research-3": "forecasts/us-census-btos-ai-202625/research-3.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "us-census-btos-ai-202625__anchored3__20261128T040959819436Z__s3020",
+          "locked_at": "2026-11-28T04:09:59Z",
+          "entries": 50,
+          "merkle_root": "f091c065efc249e49957d9863a234e8a543ef65b64ba51c6e68bd01b7fcb1526",
+          "manifest": "proofs/batches/us-census-btos-ai-202625__anchored3__20261128T040959819436Z__s3020.json",
+          "manifest_sha256": "52743d5875e0f8c03aeb5693d7c9fb863ed00bdce7a8f6b7a07b58686b750bcf",
+          "ots_proof": "proofs/batches/us-census-btos-ai-202625__anchored3__20261128T040959819436Z__s3020.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-census-btos-ai-202625__20261128T041422597543Z__s3070",
+          "locked_at": "2026-11-28T04:14:22Z",
+          "entries": 50,
+          "merkle_root": "7c1ac624cbbfc011f9d98b60a6dd640206f74020a87dd3541056c2b85a1840a8",
+          "manifest": "proofs/batches/us-census-btos-ai-202625__20261128T041422597543Z__s3070.json",
+          "manifest_sha256": "e6932a85e98c69eb0860940f9f8572f955f4702825f56efbedc2624e16ea76d1",
+          "ots_proof": "proofs/batches/us-census-btos-ai-202625__20261128T041422597543Z__s3070.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        },
+        {
+          "batch_id": "us-census-btos-ai-202625__blend__20261128T041430367362Z__s3120",
+          "locked_at": "2026-11-28T04:14:30Z",
+          "entries": 50,
+          "merkle_root": "d3404f240139b635ec9c822106cd7e28c748a5555012ee6ae22ac71bb775fdb2",
+          "manifest": "proofs/batches/us-census-btos-ai-202625__blend__20261128T041430367362Z__s3120.json",
+          "manifest_sha256": "87df346a7b32f21158885c1ff23a17a409546b6d7b2c8fc2acceb697b59ddb00",
+          "ots_proof": "proofs/batches/us-census-btos-ai-202625__blend__20261128T041430367362Z__s3120.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "netflix-global-english-films-2026-12-06-rolling-v3",
       "survey": "Netflix global English films (volume shares; measurement v2)",
       "publisher": "Netflix Tudum",
@@ -25746,7 +25840,7 @@
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
     "source_generated_at": "2026-11-27T21:18:00+00:00",
-    "checked_at": "2026-11-28T03:05:23.911324+00:00",
+    "checked_at": "2026-11-28T04:05:39.912008+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
