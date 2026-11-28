@@ -1,0 +1,17 @@
+{
+  "target_id": "readerpoll-yahoo-jp-77692",
+  "variant": "mosaic",
+  "variant_label": "Minds Mosaic",
+  "arm": "primary",
+  "disclosure": "hashes_only",
+  "model": null,
+  "entries": [
+    {
+      "entry_id": "readerpoll-yahoo-jp-77692__poll__overall__r1",
+      "entry_sha256": "d7abf95e35966a0dac662f304947547ebbdc007137aab776874cba7f52433cad",
+      "seq": 3016,
+      "batch_id": "readerpoll-yahoo-jp-77692__20261128T020806014969Z__s3016",
+      "locked_at": "2026-11-28T02:08:06Z"
+    }
+  ]
+}

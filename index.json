@@ -1,19 +1,19 @@
 {
   "format": "forecast-ledger-public.v1",
-  "as_of": "2026-11-27T20:15:00Z",
+  "as_of": "2026-11-28T02:08:50Z",
   "model": "Minds Mosaic",
-  "latest_event_at": "2026-11-27T18:22:32Z",
-  "chain_head_sha256": "b6b7c84f35c8206b5358ed7039805c05830dce493ead3b863761b8f5d4dfbcbf",
+  "latest_event_at": "2026-11-28T02:08:41Z",
+  "chain_head_sha256": "01b6fdba123a119241775d828a144be127cb532f1f636c2da067f2311e9fdc33",
   "proof_only_entries": 6,
   "counts": {
-    "targets": 173,
+    "targets": 177,
     "targets_scored": 55,
-    "targets_pending": 115,
+    "targets_pending": 119,
     "targets_not_scoreable": 3,
-    "entries": 3009,
-    "batches": 400,
+    "entries": 3013,
+    "batches": 404,
     "entries_scored": 1328,
-    "entries_pending": 1444,
+    "entries_pending": 1448,
     "entries_not_scoreable": 237,
     "entries_refused": 0,
     "entries_superseded": 0
@@ -58,7 +58,7 @@
   "headline": {
     "label": "Minds Mosaic",
     "variant": "mosaic",
-    "forecasts_locked": 956,
+    "forecasts_locked": 960,
     "scope": "full-population questions of every scored survey",
     "includes_hashes_only_surveys": 0,
     "all": {
@@ -265,7 +265,7 @@
     "behaviour": "what people actually did: votes cast, turnout, sales, spending, box office"
   },
   "counts_by_evidence_type": {
-    "attitude": 2420,
+    "attitude": 2424,
     "stated_intent": 476,
     "behaviour": 113
   },
@@ -24294,6 +24294,274 @@
       ]
     },
     {
+      "target_id": "readerpoll-yahoo-jp-77689",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-28",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77689, opened 2026-11-28",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-04T15:00:00Z",
+      "first_lock_utc": "2026-11-28T02:07:42Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77689",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77689/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77689__20261128T020742007259Z__s3015",
+          "locked_at": "2026-11-28T02:07:42Z",
+          "entries": 1,
+          "merkle_root": "61f9718e9f566d20fc16c7e5f40a698cbdd17c7c70b24aced8afafd1d989239e",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77689__20261128T020742007259Z__s3015.json",
+          "manifest_sha256": "dc08e0d9a313a5904c00fb6182cc4597d3dfa75c87a323683c83990c88171df4",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77689__20261128T020742007259Z__s3015.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "readerpoll-yahoo-jp-77692",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-28",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77692, opened 2026-11-28",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-04T15:00:00Z",
+      "first_lock_utc": "2026-11-28T02:08:06Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77692",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77692/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77692__20261128T020806014969Z__s3016",
+          "locked_at": "2026-11-28T02:08:06Z",
+          "entries": 1,
+          "merkle_root": "59575c5f74412570fa6c9220f7bece79d2e0ed1ea6515aff385550593dbdfdbd",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77692__20261128T020806014969Z__s3016.json",
+          "manifest_sha256": "12b1114df43125bdf79dcfdf83f2b3dc62394a7fb4116994250cc49d62f9e854",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77692__20261128T020806014969Z__s3016.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "readerpoll-yahoo-jp-77695",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-28",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77695, opened 2026-11-28",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-04T15:00:00Z",
+      "first_lock_utc": "2026-11-28T02:08:27Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77695",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77695/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77695__20261128T020827424595Z__s3017",
+          "locked_at": "2026-11-28T02:08:27Z",
+          "entries": 1,
+          "merkle_root": "5d35763be9d1fd0a20fb788d3e3cda1aa8320bf0ba3a9847f3b0f366c986e38a",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77695__20261128T020827424595Z__s3017.json",
+          "manifest_sha256": "752bce64a5e017942c30709d21593b116860bfbb241a81e2db07396c61f3c6b6",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77695__20261128T020827424595Z__s3017.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
+      "target_id": "readerpoll-yahoo-jp-77698",
+      "survey": "Yahoo! News Japan poll",
+      "publisher": "Yahoo! News Japan (Yahoo!ニュース みんなの意見)",
+      "source_logos": [
+        {
+          "src": "/assets/source-logos/yahoo-news-japan.png",
+          "alt": "Yahoo! News Japan",
+          "width": 412,
+          "height": 68
+        }
+      ],
+      "display": {
+        "label": "Yahoo! News Japan Poll",
+        "country": "Japan",
+        "country_code": "jp",
+        "topic": "Society",
+        "source": "Yahoo! News Japan",
+        "categories": [
+          "Attitude"
+        ]
+      },
+      "audience": {
+        "sample": "Yahoo! News Japan readers voting in its みんなの意見 polls (self-selected; no published composition)",
+        "n": null,
+        "field_period": "Poll opened 2026-11-28",
+        "composition": [],
+        "subgroups": [],
+        "label": "Yahoo! News Japan readers"
+      },
+      "wave": "Poll 77698, opened 2026-11-28",
+      "status": "pending",
+      "disclosure": "hashes_only",
+      "disclosure_note": "pending: forecasts sealed until the result is released",
+      "evidence_class": "before_release",
+      "evidence_types": [
+        "attitude"
+      ],
+      "cutoff_utc": "2026-12-04T15:00:00Z",
+      "first_lock_utc": "2026-11-28T02:08:41Z",
+      "released_at": null,
+      "publication_url": "https://news.yahoo.co.jp/polls/77698",
+      "forecasts_count": 1,
+      "variants": [
+        "mosaic"
+      ],
+      "forecasts": {
+        "mosaic": "forecasts/readerpoll-yahoo-jp-77698/mosaic.json"
+      },
+      "results": null,
+      "batches": [
+        {
+          "batch_id": "readerpoll-yahoo-jp-77698__20261128T020841921196Z__s3018",
+          "locked_at": "2026-11-28T02:08:41Z",
+          "entries": 1,
+          "merkle_root": "be9e4526efd3cee2b732a6f6a304cd47f2528fecb97051f2adfd6ea12bed59c2",
+          "manifest": "proofs/batches/readerpoll-yahoo-jp-77698__20261128T020841921196Z__s3018.json",
+          "manifest_sha256": "3db87783e32261b1c7003767e8bc01a773a6b4887fe7598b884f28acc4e63dd0",
+          "ots_proof": "proofs/batches/readerpoll-yahoo-jp-77698__20261128T020841921196Z__s3018.json.ots",
+          "ots_status": "pending",
+          "bitcoin_block_height": null,
+          "bitcoin_block_time_utc": null,
+          "bitcoin_block_hash": null,
+          "bitcoin_block_merkle_root": null
+        }
+      ]
+    },
+    {
       "target_id": "netflix-global-english-films-2026-12-13-rolling-v3",
       "survey": "Netflix global English films (volume shares; measurement v2)",
       "publisher": "Netflix Tudum",
@@ -24741,6 +25009,510 @@
   ],
   "missed": [
     {
+      "target_id": "us-youtube-views-2026-hobby-lobby-2-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Hobby Lobby \"Add Your Holiday Touch With Hobby Lobby®\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-10-23T06:00:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-hobby-lobby-2-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Hobby Lobby \"Add Your Holiday Touch With Hobby Lobby®\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-10-23T06:00:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-target-3-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Target \"Letters To Santa\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-10-28T17:46:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-target-3-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Target \"Letters To Santa\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-10-28T17:46:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-tesco-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Tesco \"The Wrong Address\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-01T00:00:08Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-tesco-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Tesco \"The Wrong Address\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-01T00:00:08Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-sainsburys-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Sainsbury's \"Sainsbury’s big delivery.\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-01T08:00:11Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-sainsburys-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Sainsbury's \"Sainsbury’s big delivery.\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-01T08:00:11Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-best-buy-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Best Buy \"Tech gifts they’ll love.\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-01T16:00:01Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-best-buy-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Best Buy \"Tech gifts they’ll love.\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-01T16:00:01Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"A Holiday Dream\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-01T17:00:23Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"A Holiday Dream\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-01T17:00:23Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-3-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"Chewy Claus: Meet Raybans\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-02T05:00:17Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-3-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"Chewy Claus: Meet Raybans\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-02T05:00:17Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-2-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"Chewy Claus: Your Pet's Letter Can Help Shelter Pets\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-02T05:00:21Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-2-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"Chewy Claus: Your Pet's Letter Can Help Shelter Pets\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-02T05:00:21Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-very-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Very \"That's the Very thing\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-02T11:11:37Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-very-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Very \"That's the Very thing\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-02T11:11:37Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-target-2-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Target \"Asking Target’s Chief Giftologist what makes her confident\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-02T17:12:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-target-2-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Target \"Asking Target’s Chief Giftologist what makes her confident\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-02T17:12:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-etsy-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Etsy \"Workshops\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-02T18:01:16Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-etsy-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Etsy \"Workshops\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-02T18:01:16Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-john-lewis-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: John Lewis \"Gloria and Pickles\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-03T07:28:17Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-john-lewis-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: John Lewis \"Gloria and Pickles\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-03T07:28:17Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-asda-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Dinner Table\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-03T08:35:17Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-asda-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Dinner Table\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-03T08:35:17Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-asda-2-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Decorating\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-03T08:36:49Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-asda-2-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Decorating\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-03T08:36:49Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-burberry-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Burberry \"Wrapped in Burberry\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-03T10:02:47Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-burberry-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Burberry \"Wrapped in Burberry\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-03T10:02:47Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-lidl-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Lidl \"Lidl Christmas Everybody\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-03T10:08:38Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-lidl-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Lidl \"Lidl Christmas Everybody\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-03T10:08:38Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-gap-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Gap \"Give your gift.\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-03T14:00:35Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-gap-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Gap \"Give your gift.\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-03T14:00:35Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-boots-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Boots \"Boots Christmas Advert 2026 | Give It Some Boots\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-04T00:00:49Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-boots-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Boots \"Boots Christmas Advert 2026 | Give It Some Boots\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-04T00:00:49Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-asda-3-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Home Delivery (spot name not stated)\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-04T09:16:22Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-asda-3-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Asda \"All of Christmas at Asda Price. Boom. - Home Delivery (spot name not stated)\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-04T09:16:22Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-starbucks-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Starbucks \"Perfect Harmony | The Starbucks Coffee Company\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-04T18:49:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-starbucks-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Starbucks \"Perfect Harmony | The Starbucks Coffee Company\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-04T18:49:25Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-aldi-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Aldi \"Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T07:37:37Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-aldi-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Aldi \"Aldi Christmas Advert 2026 | Will it be a paw-fect Christmas?\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T07:37:37Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-barbour-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Barbour \"Barbour x Wallace & Gromit | Barbour Christmas Film 2026\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T07:59:35Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-barbour-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Barbour \"Barbour x Wallace & Gromit | Barbour Christmas Film 2026\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T07:59:35Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-lego-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Lego \"The LEGO® Holiday Ad Drop | Full Edit\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T09:00:44Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-lego-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Lego \"The LEGO® Holiday Ad Drop | Full Edit\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T09:00:44Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-tk-maxx-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: TK Maxx \"TK Maxx Festive Crossing | Christmas Advert 2026\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T09:08:18Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-tk-maxx-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: TK Maxx \"TK Maxx Festive Crossing | Christmas Advert 2026\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T09:08:18Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-amazon-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Amazon \"Amazon | Joy Delivered\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T11:00:32Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-amazon-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Amazon \"Amazon | Joy Delivered\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T11:00:32Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"Holiday Workshop | Martin Short, Marsai Martin & Meg Stalter | Verizon\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T13:59:22Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"Holiday Workshop | Martin Short, Marsai Martin & Meg Stalter | Verizon\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T13:59:22Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-2-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"Verizon Presenta: Dos Vidas, Un Destino con Sebastián Rulli\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T16:03:24Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-2-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"Verizon Presenta: Dos Vidas, Un Destino con Sebastián Rulli\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T16:03:24Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-walmart-2-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Walmart \"Walmart Presents: The Ghost of Christmas Presents\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-05T22:38:56Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-walmart-2-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Walmart \"Walmart Presents: The Ghost of Christmas Presents\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-05T22:38:56Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-starbucks-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Starbucks \"Perfect Harmony :60 | The Starbucks Coffee Company\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-06T00:17:50Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-starbucks-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Starbucks \"Perfect Harmony :60 | The Starbucks Coffee Company\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-06T00:17:50Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-starbucks-2-dec25",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Starbucks \"\"Happy Holiday / The Holiday Season\" performed by Magnus Ferrell (Starbucks Holiday Blend)\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-06T18:31:19Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "gb-youtube-views-2026-starbucks-2-jan06",
+      "survey": "YouTube views of a UK Christmas 2026 ad: Starbucks \"\"Happy Holiday / The Holiday Season\" performed by Magnus Ferrell (Starbucks Holiday Blend)\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-06T18:31:19Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-lexus-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Lexus \"2026 December to Remember: Child’s Eyes | Lexus\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-06T19:53:19Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-lexus-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Lexus \"2026 December to Remember: Child’s Eyes | Lexus\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-06T19:53:19Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-lexus-2-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Lexus \"2026 December to Remember: Over the Years | Lexus\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-06T19:53:41Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-lexus-2-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Lexus \"2026 December to Remember: Over the Years | Lexus\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-06T19:53:41Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-coca-cola-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Coca-Cola \"Esperaste estas fiestas\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-11T15:11:40Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-coca-cola-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Coca-Cola \"Esperaste estas fiestas\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-11T15:11:40Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-apple-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Apple \"“The Dreamer”: An Apple Holiday Film featuring MacBook Neo\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-12T08:00:35Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-apple-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Apple \"“The Dreamer”: An Apple Holiday Film featuring MacBook Neo\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-12T08:00:35Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-3-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"Busy Season | Verizon | Simplicity\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-13T15:07:55Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-3-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"Busy Season | Verizon | Simplicity\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-13T15:07:55Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-hobby-lobby-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Hobby Lobby \"50% Off Christmas | Hobby Lobby® Commercial\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-15T07:00:38Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-hobby-lobby-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Hobby Lobby \"50% Off Christmas | Hobby Lobby® Commercial\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-15T07:00:38Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-4-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"Chewy Claus | How Chewy Vet Care Helped Noodles Heal\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-16T05:00:08Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-chewy-4-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Chewy \"Chewy Claus | How Chewy Vet Care Helped Noodles Heal\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-16T05:00:08Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-amazon-2-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Amazon \"Prime | Santa Schwarzenegger\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-16T14:00:09Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-amazon-2-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Amazon \"Prime | Santa Schwarzenegger\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-16T14:00:09Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-mcdonalds-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: McDonald's \"The Home Alone Meal\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-17T15:08:43Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-mcdonalds-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: McDonald's \"The Home Alone Meal\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-17T15:08:43Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-kohls-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Kohl's \"Gifting with Brittany and Tefi\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-18T15:39:24Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-kohls-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Kohl's \"Gifting with Brittany and Tefi\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-18T15:39:24Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-4-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"A Verizon Christmas Carol | Jonathan Bailey & Ego Nwodim\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-23T14:00:18Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-verizon-4-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Verizon \"A Verizon Christmas Carol | Jonathan Bailey & Ego Nwodim\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-23T14:00:18Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-hersheys-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Hershey's \"Sounds Like The Holidays\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-24T00:27:53Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-hersheys-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Hershey's \"Sounds Like The Holidays\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-24T00:27:53Z",
+      "what": "not locked before the cutoff"
+    },
+    {
       "target_id": "at-ec-consumer-survey-2026-12",
       "survey": "European Commission Joint Harmonised Consumer Survey, Austria (fieldwork Ipsos GmbH), monthly questions, December 2026",
       "cutoff_utc": "2026-11-25T04:00:00Z",
@@ -24889,13 +25661,25 @@
       "survey": "European Commission Joint Harmonised Consumer Survey, Slovakia (fieldwork Statistical Office of the Slovak Republic), monthly questions, December 2026",
       "cutoff_utc": "2026-11-25T04:00:00Z",
       "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-disney-dec25",
+      "survey": "YouTube views of a US Christmas 2026 ad: Disney \"The Magic of the Holidays With Disney | Official Compilation\", count at the end of 25 December 2026 (UTC)",
+      "cutoff_utc": "2026-11-27T18:00:38Z",
+      "what": "not locked before the cutoff"
+    },
+    {
+      "target_id": "us-youtube-views-2026-disney-jan06",
+      "survey": "YouTube views of a US Christmas 2026 ad: Disney \"The Magic of the Holidays With Disney | Official Compilation\", count at the end of 6 January 2027 (UTC)",
+      "cutoff_utc": "2026-11-27T18:00:38Z",
+      "what": "not locked before the cutoff"
     }
   ],
   "arena": {
     "available": true,
     "source_url": "https://social-simulation-arena.com/data.json",
-    "source_generated_at": "2026-11-27T08:28:33+00:00",
-    "checked_at": "2026-11-27T20:05:22.663479+00:00",
+    "source_generated_at": "2026-11-27T21:18:00+00:00",
+    "checked_at": "2026-11-28T02:05:47.162074+00:00",
     "stale": false,
     "ranking_available": true,
     "overall": {
